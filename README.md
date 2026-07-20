@@ -3,6 +3,14 @@
 Reproducible quantum-many-body study of digital statistical-phase transport in
 a number-conserving correlated-hopping SSH ladder, using exact diagonalization.
 
+## Why ANTLER?
+
+ANTLER stands for **Anyonic Numerical Transport for Logical Exchange and
+Robustness**. It names the research program: numerical transport in a
+correlated-hopping ladder, logical exchange protocols and quantitative
+robustness tests. The name describes the motivation of the model, not a claim
+that physical anyons or non-Abelian braiding have been demonstrated.
+
 ## Scope
 
 This public release contains the validated Abelian digital phase primitive,
