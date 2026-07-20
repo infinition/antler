@@ -1,0 +1,198 @@
+{
+  "schema": "antler.phase8c.z2-plaquette-preflight.v1",
+  "parameters": {
+    "new_declared_resource": "one neutral Z2 link qubit tau_e per edge; not an ANTLER charge-two mediator",
+    "matter": "spinless U(1)-conserving fermion on each vertex",
+    "gauge_generator": "G_v=(-1)^n_v product_(e incident to v) tau^x_e",
+    "dressed_hopping": "c_v^dag tau^z_vw c_w+h.c.",
+    "magnetic_plaquette": "B_p=product_(e in boundary p) tau^z_e",
+    "edge_hoppings": [
+      0.57,
+      0.69,
+      0.83,
+      0.76
+    ],
+    "electric_fields": [
+      0.19,
+      0.31,
+      0.27,
+      0.38
+    ],
+    "vertex_potentials": [
+      0.12,
+      -0.08,
+      0.16,
+      -0.21
+    ],
+    "gauss_penalty": 2.0,
+    "plaquette_coupling": 1.1
+  },
+  "geometry": {
+    "name": "one square plaquette (preflight only)",
+    "vertices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "plaquettes": 1
+  },
+  "dimensions": {
+    "full": 256,
+    "fixed_N2_before_gauss": 96,
+    "physical_fixed_N2": 12,
+    "physical_all_charges": 16
+  },
+  "algebra": {
+    "hamiltonian_hermiticity_norm": 0.0,
+    "max_hamiltonian_gauss_commutator_norm": 0.0,
+    "max_pairwise_gauss_commutator_norm": 0.0,
+    "hamiltonian_charge_commutator_norm": 0.0,
+    "max_plaquette_gauss_commutator_norm": 0.0,
+    "hamiltonian_without_electric_plaquette_commutator_norm": 0.0,
+    "full_dynamic_hamiltonian_plaquette_commutator_norm": 2.3000000000000025,
+    "max_dressed_hop_gauss_commutator_norm": 0.0,
+    "max_bare_hop_gauss_commutator_norm": 2.0
+  },
+  "physical_projection": {
+    "projector_idempotency_norm": 0.0,
+    "max_projected_gauss_minus_projector_norm": 0.0,
+    "bare_hopping_projected_norm": 0.0,
+    "dressed_hopping_projected_nonscalar_norm": 2.015564437074638,
+    "local_vertex_density_projected_nonscalar_norm": 0.5000000000000009,
+    "plaquette_projected_nonscalar_norm": 1.0000000000000007
+  },
+  "spectra": {
+    "physical_N2_eigenvalues": [
+      -10.738202470529748,
+      -10.460795135783465,
+      -9.48652553193081,
+      -9.231700814173285,
+      -8.629381381252797,
+      -7.965180106581975,
+      -7.727062428760542,
+      -7.063617144567192,
+      -6.8029259436172,
+      -6.579682286822932,
+      -6.55022302020805,
+      -4.824703735772045
+    ],
+    "physical_internal_gap": 0.27740733474628243,
+    "minimum_Gauss_syndrome_gap_at_N2": 7.70103528501392,
+    "gauss_signature_sectors_at_N2": [
+      {
+        "signs": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "dimension": 12,
+        "ground_energy": 5.25904383747871
+      },
+      {
+        "signs": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "dimension": 12,
+        "ground_energy": -2.810042471568134
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "dimension": 12,
+        "ground_energy": -2.7478692340899493
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "dimension": 12,
+        "ground_energy": -2.8793737156794896
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "dimension": 12,
+        "ground_energy": -2.851200828580404
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "dimension": 12,
+        "ground_energy": -3.0371671855158278
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "dimension": 12,
+        "ground_energy": -2.8385964982798146
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dimension": 12,
+        "ground_energy": -10.738202470529748
+      }
+    ],
+    "static_flux_sectors_at_N2": [
+      {
+        "B_p": -1,
+        "dimension": 6,
+        "ground_energy_without_electric": -8.940858713360191
+      },
+      {
+        "B_p": 1,
+        "dimension": 6,
+        "ground_energy_without_electric": -10.689989738600968
+      }
+    ],
+    "static_flux_sector_gap": 1.7491310252407768
+  },
+  "decision": "PASS T1 as a one-plaquette gauge/flux preflight. The neutral-link reference keeps exact Gauss algebra and total U(1); B_p is gauge invariant and has separated static flux sectors, while electric fields intentionally make B_p dynamical. The projected local density is non-scalar, so a single plaquette is not a topological code or a fusion/braid implementation.",
+  "claim_boundary": "This is a finite reference model with inserted neutral link qubits, Gauss penalty and plaquette term. It does not establish a deconfined thermodynamic phase, topological ground-state degeneracy, local indistinguishability, e<->m domain wall, twist defect, anyons, fusion or non-Abelian braid, and it is not derived from frozen ANTLER resources."
+}

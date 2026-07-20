@@ -1,0 +1,78 @@
+{
+  "schema": "antler.phase7.harness-selftest.v1",
+  "model": "three-site diagonal domain-wall commuting-projector toy",
+  "purpose": "negative control: exact edge conservation without local indistinguishability",
+  "local_projector_algebra": {
+    "term_count": 2,
+    "dimension": 8,
+    "max_term_hermiticity_error": 0.0,
+    "max_term_idempotency_error": 0.0,
+    "pairwise_commutators": [
+      {
+        "left": "Pi_01",
+        "right": "Pi_12",
+        "overlapping_support": true,
+        "shared_sites": [
+          1
+        ],
+        "commutator_frobenius": 0.0
+      }
+    ],
+    "max_overlapping_commutator": 0.0,
+    "max_disjoint_commutator": 0.0,
+    "all_terms_are_projectors_at_1e_minus_10": true,
+    "all_terms_commute_at_1e_minus_10": true
+  },
+  "symmetry_audit": {
+    "symmetries": [
+      {
+        "name": "total_charge",
+        "commutator_frobenius": 0.0
+      },
+      {
+        "name": "total_parity",
+        "commutator_frobenius": 0.0
+      }
+    ],
+    "max_commutator_frobenius": 0.0,
+    "all_commute_at_1e_minus_10": true
+  },
+  "exactly_conserved_but_unprotected_left_Z": {
+    "operator_on_code_frobenius": 1.4142135623730951,
+    "logical_action_frobenius": 1.4142135623730951,
+    "logical_leakage_amplitude_frobenius": 0.0,
+    "full_commutator_on_code_frobenius": 0.0,
+    "code_commutator_action_frobenius": 0.0,
+    "code_commutator_action_normalized": 0.0
+  },
+  "nonconserved_edge_negative_control_left_X": {
+    "operator_on_code_frobenius": 1.4142135623730951,
+    "logical_action_frobenius": 0.0,
+    "logical_leakage_amplitude_frobenius": 1.4142135623730951,
+    "full_commutator_on_code_frobenius": 1.4142135623730951,
+    "code_commutator_action_frobenius": 1.4142135623730951,
+    "code_commutator_action_normalized": 1.0
+  },
+  "local_indistinguishability": {
+    "operators": [
+      {
+        "name": "left_Z",
+        "projected_non_scalar_frobenius": 1.4142135623730951
+      }
+    ],
+    "worst_projected_non_scalar_frobenius": 1.4142135623730951
+  },
+  "charge_one_sector": {
+    "sector": 1.0,
+    "sector_dimension": 3,
+    "lowest_energies": [
+      1.0,
+      1.0
+    ],
+    "ground_energy": 1.0,
+    "gap_above_requested_multiplicity": 0.0
+  },
+  "passes_harness_selftest": true,
+  "decision": "The harness accepts exact local projector algebra and edge conservation, but rejects the toy code because a local edge probe distinguishes its ground states. A Phase 7 candidate must pass both categories.",
+  "claim_boundary": "This is a software control only. The toy has no U(1)-fixed topological code, no protected edge mode, and no braid interpretation."
+}

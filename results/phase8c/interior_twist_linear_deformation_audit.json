@@ -1,0 +1,93 @@
+{
+  "schema": "antler.phase8c.interior-twist-linear-deformation-audit.v1",
+  "parameters": {
+    "reference_geometry": "3x3 periodic graph-code negative control; exact dense Hilbert space",
+    "qubits": 9,
+    "full_hilbert_dimension": 512,
+    "tracked_low_band_dimension": 8,
+    "hamiltonian": "H(s)=-(1-s) sum S_A - s sum S_B",
+    "path_points": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      1.0
+    ],
+    "local_scalar_tolerance": 1e-08
+  },
+  "initial_static_code": {
+    "encoded_qubits": 3,
+    "ground_space_degeneracy": 8,
+    "minimum_logical_weight": 2
+  },
+  "final_static_code": {
+    "encoded_qubits": 3,
+    "ground_space_degeneracy": 8,
+    "minimum_logical_weight": 2
+  },
+  "rows": [
+    {
+      "s": 0.0,
+      "ground_energy": -7.000000000000044,
+      "ground_band_width": 7.016609515630989e-14,
+      "gap_above_eight_state_band": 3.9999999999999565,
+      "maximum_single_qubit_projected_nonscalar_norm": 1.3565985452820078e-15,
+      "worst_single_qubit_witness": "IIIIIIIIZ"
+    },
+    {
+      "s": 0.1,
+      "ground_energy": -6.512520015912908,
+      "ground_band_width": 3.9968028886505635e-14,
+      "gap_above_eight_state_band": 3.2846375994758357,
+      "maximum_single_qubit_projected_nonscalar_norm": 0.05540831638975739,
+      "worst_single_qubit_witness": "IIIIIYIII"
+    },
+    {
+      "s": 0.25,
+      "ground_energy": -5.845602846110055,
+      "ground_band_width": 3.552713678800501e-15,
+      "gap_above_eight_state_band": 2.2519277958543524,
+      "maximum_single_qubit_projected_nonscalar_norm": 0.16274664504674874,
+      "worst_single_qubit_witness": "IIIIIYIII"
+    },
+    {
+      "s": 0.5,
+      "ground_energy": -5.1981750770826425,
+      "ground_band_width": 2.6645352591003757e-15,
+      "gap_above_eight_state_band": 1.1632156600366566,
+      "maximum_single_qubit_projected_nonscalar_norm": 0.2936944000073777,
+      "worst_single_qubit_witness": "IIIIIYIII"
+    },
+    {
+      "s": 0.75,
+      "ground_energy": -5.845602846110055,
+      "ground_band_width": 4.440892098500626e-15,
+      "gap_above_eight_state_band": 2.2519277958543515,
+      "maximum_single_qubit_projected_nonscalar_norm": 0.16274664504674874,
+      "worst_single_qubit_witness": "IIIIIXIII"
+    },
+    {
+      "s": 0.9,
+      "ground_energy": -6.512520015912896,
+      "ground_band_width": 4.440892098500626e-15,
+      "gap_above_eight_state_band": 3.284637599475862,
+      "maximum_single_qubit_projected_nonscalar_norm": 0.05540831638975707,
+      "worst_single_qubit_witness": "IIIIIXIII"
+    },
+    {
+      "s": 1.0,
+      "ground_energy": -7.000000000000003,
+      "ground_band_width": 7.105427357601002e-15,
+      "gap_above_eight_state_band": 3.9999999999999893,
+      "maximum_single_qubit_projected_nonscalar_norm": 4.3977910374775454e-16,
+      "worst_single_qubit_witness": "IIIIIIIIZ"
+    }
+  ],
+  "minimum_tracked_band_gap": 1.1632156600366566,
+  "maximum_path_single_qubit_readability": 0.2936944000073777,
+  "decision": "REJECT the naive linear interpolation as a protection-preserving interior-twist deformation. The eight-state band stays exactly degenerate and remains separated on this small reference, but a one-qubit Pauli becomes non-scalar inside the band (registered midpoint witness). A spectral gap alone is therefore insufficient; no protected motion, holonomy or braid is claimed.",
+  "next_gate": "A future T5c schedule must keep projected local operators scalar throughout the deformation, not only at its endpoints. It must be derived as a measurement-resolved or microscopic gadget protocol before any logical transport is calculated.",
+  "claim_boundary": "This is an exact negative control in an imposed nine-vertex graph code. It neither rules out every code-deformation protocol nor derives a measurement/gadget schedule, and it does not demonstrate any physical e<->m transport, fusion, non-Abelian braid, ANTLER realization, universality or fault tolerance."
+}

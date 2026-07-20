@@ -1,0 +1,90 @@
+{
+  "schema": "antler.phase8.native-micro-rabi-closure.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "omega_pair_mediator": 602.9925372672533,
+    "alpha": 0.5,
+    "eta": "pi/2"
+  },
+  "rows": [
+    {
+      "rabi_cycles_per_half_period": 1,
+      "period": 0.020840010178748883,
+      "half_period_omega_over_2pi": 1.0000000000000002,
+      "low_frame_leakage_worst": 2.1604421591365716e-06,
+      "polar_logical_vs_target_distance": 7.332252946942294e-05,
+      "raw_logical_min_singular_value": 0.9999989197783369
+    },
+    {
+      "rabi_cycles_per_half_period": 2,
+      "period": 0.041680020357497766,
+      "half_period_omega_over_2pi": 2.0000000000000004,
+      "low_frame_leakage_worst": 8.637773839850975e-06,
+      "polar_logical_vs_target_distance": 0.00025252562793867314,
+      "raw_logical_min_singular_value": 0.9999956811037531
+    },
+    {
+      "rabi_cycles_per_half_period": 3,
+      "period": 0.06252003053624665,
+      "half_period_omega_over_2pi": 3.0,
+      "low_frame_leakage_worst": 1.942001988054595e-05,
+      "polar_logical_vs_target_distance": 0.000549337684361101,
+      "raw_logical_min_singular_value": 0.9999902899429165
+    },
+    {
+      "rabi_cycles_per_half_period": 4,
+      "period": 0.08336004071499553,
+      "half_period_omega_over_2pi": 4.000000000000001,
+      "low_frame_leakage_worst": 3.448725241802463e-05,
+      "polar_logical_vs_target_distance": 0.0009642123017933349,
+      "raw_logical_min_singular_value": 0.9999827562251167
+    },
+    {
+      "rabi_cycles_per_half_period": 5,
+      "period": 0.1042000508937444,
+      "half_period_omega_over_2pi": 5.0,
+      "low_frame_leakage_worst": 5.3811636919174855e-05,
+      "polar_logical_vs_target_distance": 0.0014968704164350997,
+      "raw_logical_min_singular_value": 0.9999730938195707
+    },
+    {
+      "rabi_cycles_per_half_period": 6,
+      "period": 0.1250400610724933,
+      "half_period_omega_over_2pi": 6.0,
+      "low_frame_leakage_worst": 7.735749647048487e-05,
+      "polar_logical_vs_target_distance": 0.002146837065869357,
+      "raw_logical_min_singular_value": 0.9999613205037122
+    },
+    {
+      "rabi_cycles_per_half_period": 7,
+      "period": 0.14588007125124217,
+      "half_period_omega_over_2pi": 7.0,
+      "low_frame_leakage_worst": 0.00010508139417101353,
+      "polar_logical_vs_target_distance": 0.002913506575508651,
+      "raw_logical_min_singular_value": 0.9999474579225808
+    },
+    {
+      "rabi_cycles_per_half_period": 8,
+      "period": 0.16672008142999106,
+      "half_period_omega_over_2pi": 8.000000000000002,
+      "low_frame_leakage_worst": 0.00013693223343095925,
+      "polar_logical_vs_target_distance": 0.0037961565220687803,
+      "raw_logical_min_singular_value": 0.9999315315393188
+    }
+  ],
+  "best_registered_closure": {
+    "rabi_cycles_per_half_period": 1,
+    "period": 0.020840010178748883,
+    "half_period_omega_over_2pi": 1.0000000000000002,
+    "low_frame_leakage_worst": 2.1604421591365716e-06,
+    "polar_logical_vs_target_distance": 7.332252946942294e-05,
+    "raw_logical_min_singular_value": 0.9999989197783369
+  },
+  "decision": "Analytically registered virtual-Rabi closure scan in the composed explicit-mediator Floquet block.",
+  "claim_boundary": "A local coherent closure point does not establish robustness to timing errors, pulse bandwidth, many-link crosstalk, a thermodynamic phase, braid, non-Abelian statistics, universality, or fault tolerance."
+}

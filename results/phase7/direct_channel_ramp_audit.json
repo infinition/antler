@@ -1,0 +1,207 @@
+{
+  "schema": "antler.phase8.direct-channel-ramp-audit.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.0125,
+    "detuning": 9599.999999999998,
+    "g": 119.99999999999999,
+    "closure_period": 0.0013085880691000955,
+    "logical_cycles": 16,
+    "total_duration": 0.020937409105601528,
+    "ramp_fractions": [
+      0.0,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.05
+    ],
+    "shapes": [
+      "linear",
+      "sin2"
+    ],
+    "segments_per_transition": 16
+  },
+  "endpoint_channel_checks": {
+    "h0_channel_projector_vs_separate_rail_projector": 3.1560822113208575e-16,
+    "h1_channel_factorization_residual": 3.510833468576701e-16
+  },
+  "rows": [
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.0,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 1.3692817076349258e-07,
+      "polar_logical_vs_instantaneous_target_distance": 4.631046528916784e-06,
+      "raw_logical_min_singular_value": 0.9999999315359098
+    },
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.001,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 1.0144902027512683e-06,
+      "polar_logical_vs_instantaneous_target_distance": 4.627254527519488e-06,
+      "raw_logical_min_singular_value": 0.9999994927547803
+    },
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.003,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 8.582294077552681e-06,
+      "polar_logical_vs_instantaneous_target_distance": 4.625587488940675e-06,
+      "raw_logical_min_singular_value": 0.9999957088437607
+    },
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.01,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 9.45987095246215e-05,
+      "polar_logical_vs_instantaneous_target_distance": 5.358947955868177e-06,
+      "raw_logical_min_singular_value": 0.9999526995265638
+    },
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.03,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 0.0008453254970340975,
+      "polar_logical_vs_instantaneous_target_distance": 2.556531827629918e-05,
+      "raw_logical_min_singular_value": 0.9995772478918128
+    },
+    {
+      "shape": "linear",
+      "ramp_fraction_of_period_per_transition": 0.05,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 0.0023175510633561833,
+      "polar_logical_vs_instantaneous_target_distance": 7.099171925989734e-05,
+      "raw_logical_min_singular_value": 0.9988405523088448
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.0,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 1.3692817076349258e-07,
+      "polar_logical_vs_instantaneous_target_distance": 4.631046528916784e-06,
+      "raw_logical_min_singular_value": 0.9999999315359098
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.001,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 5.958278969637534e-07,
+      "polar_logical_vs_instantaneous_target_distance": 4.6274447366417e-06,
+      "raw_logical_min_singular_value": 0.9999997020860094
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.003,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 4.814661061363376e-06,
+      "polar_logical_vs_instantaneous_target_distance": 4.623496682911853e-06,
+      "raw_logical_min_singular_value": 0.9999975926665631
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.01,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 5.278106960641883e-05,
+      "polar_logical_vs_instantaneous_target_distance": 5.034174910620956e-06,
+      "raw_logical_min_singular_value": 0.9999736091169472
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.03,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 0.000472530502790643,
+      "polar_logical_vs_instantaneous_target_distance": 1.929857199080331e-05,
+      "raw_logical_min_singular_value": 0.9997637068313793
+    },
+    {
+      "shape": "sin2",
+      "ramp_fraction_of_period_per_transition": 0.05,
+      "ramp_segments_per_transition": 16,
+      "low_frame_leakage_worst": 0.0013015381617175257,
+      "polar_logical_vs_instantaneous_target_distance": 5.29189726088678e-05,
+      "raw_logical_min_singular_value": 0.9993490190310406
+    }
+  ],
+  "ramp_discretization_convergence": {
+    "registered_shape": "sin2",
+    "registered_ramp_fraction": 0.01,
+    "rows": [
+      {
+        "shape": "sin2",
+        "ramp_fraction_of_period_per_transition": 0.01,
+        "ramp_segments_per_transition": 8,
+        "low_frame_leakage_worst": 5.278018739311755e-05,
+        "polar_logical_vs_instantaneous_target_distance": 5.03420532072803e-06
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction_of_period_per_transition": 0.01,
+        "ramp_segments_per_transition": 16,
+        "low_frame_leakage_worst": 5.278106960641883e-05,
+        "polar_logical_vs_instantaneous_target_distance": 5.034174910620956e-06
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction_of_period_per_transition": 0.01,
+        "ramp_segments_per_transition": 32,
+        "low_frame_leakage_worst": 5.2781279957077474e-05,
+        "polar_logical_vs_instantaneous_target_distance": 5.034167419518309e-06
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction_of_period_per_transition": 0.01,
+        "ramp_segments_per_transition": 64,
+        "low_frame_leakage_worst": 5.278133192094093e-05,
+        "polar_logical_vs_instantaneous_target_distance": 5.034165554144089e-06
+      }
+    ],
+    "relative_change_16_to_32": {
+      "leakage": 3.985326972280478e-06,
+      "distance": 1.4880519503524658e-06
+    }
+  },
+  "strict_local_target": {
+    "leakage_below": 0.0001,
+    "instantaneous_target_distance_below": 0.0001,
+    "passing_rows": [
+      {
+        "shape": "linear",
+        "ramp_fraction": 0.0
+      },
+      {
+        "shape": "linear",
+        "ramp_fraction": 0.001
+      },
+      {
+        "shape": "linear",
+        "ramp_fraction": 0.003
+      },
+      {
+        "shape": "linear",
+        "ramp_fraction": 0.01
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction": 0.0
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction": 0.001
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction": 0.003
+      },
+      {
+        "shape": "sin2",
+        "ramp_fraction": 0.01
+      }
+    ]
+  },
+  "decision": "Finite-width direct-channel switching control at a deep-SW Rabi-closed point.",
+  "claim_boundary": "The interpolation is an explicitly imposed coherent waveform. This finite L=3 ideal-control test does not derive laboratory bandwidth, amplitude limits, calibration error, crosstalk, a thermodynamic phase, a braid, non-Abelian statistics, universality or fault tolerance."
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "antler.phase5.tjunction-kitaev-locality-audit.v1",
+  "claim_boundary": "This checks zero-mode-order local parity projections in the phase-biased BdG target.  It does not establish locality against arbitrary finite-energy perturbations or derive the pairing target from frozen ANTLER.",
+  "arm_length": 6,
+  "endpoints": [
+    6,
+    12,
+    18
+  ],
+  "zero_mode_count": 4,
+  "max_local_traceless_norm": 8.566245920951857e-17,
+  "rows": [
+    {
+      "site": 0,
+      "zero_weight_a": 0.0,
+      "zero_weight_b": 1.0,
+      "logical_projection_norm": 0.0,
+      "logical_traceless_norm": 0.0
+    },
+    {
+      "site": 1,
+      "zero_weight_a": 9.411409801949233e-34,
+      "zero_weight_b": 6.827225899902299e-34,
+      "logical_projection_norm": 6.137689233266626e-49,
+      "logical_traceless_norm": 6.137689233266626e-49
+    },
+    {
+      "site": 2,
+      "zero_weight_a": 1.3962208873798677e-32,
+      "zero_weight_b": 9.36328416926454e-33,
+      "logical_projection_norm": 1.5235901808215625e-32,
+      "logical_traceless_norm": 1.5235901808215625e-32
+    },
+    {
+      "site": 3,
+      "zero_weight_a": 1.2743437234078842e-32,
+      "zero_weight_b": 1.560426005828576e-33,
+      "logical_projection_norm": 5.940929469060635e-33,
+      "logical_traceless_norm": 5.940929469060635e-33
+    },
+    {
+      "site": 4,
+      "zero_weight_a": 1.4647869423401778e-32,
+      "zero_weight_b": 3.781683891009047e-32,
+      "logical_projection_norm": 3.2720050451983864e-32,
+      "logical_traceless_norm": 3.2720050451983864e-32
+    },
+    {
+      "site": 5,
+      "zero_weight_a": 1.3125980292571703e-32,
+      "zero_weight_b": 4.073045589127161e-33,
+      "logical_projection_norm": 1.0285453289579614e-32,
+      "logical_traceless_norm": 1.0285453289579614e-32
+    },
+    {
+      "site": 6,
+      "zero_weight_a": 0.9999999999999996,
+      "zero_weight_b": 1.7159262734326027e-33,
+      "logical_projection_norm": 4.109478213377253e-17,
+      "logical_traceless_norm": 4.109478213377253e-17
+    },
+    {
+      "site": 7,
+      "zero_weight_a": 8.036398854508124e-33,
+      "zero_weight_b": 1.3238910835285406e-33,
+      "logical_projection_norm": 4.6128769303249973e-33,
+      "logical_traceless_norm": 4.6128769303249973e-33
+    },
+    {
+      "site": 8,
+      "zero_weight_a": 1.1346445259376795e-32,
+      "zero_weight_b": 1.8126915582159802e-32,
+      "logical_projection_norm": 2.0023091664801843e-32,
+      "logical_traceless_norm": 2.0023091664801843e-32
+    },
+    {
+      "site": 9,
+      "zero_weight_a": 3.0420045372767553e-32,
+      "zero_weight_b": 4.8586031747485836e-33,
+      "logical_projection_norm": 1.7116456645921087e-32,
+      "logical_traceless_norm": 1.7116456645921087e-32
+    },
+    {
+      "site": 10,
+      "zero_weight_a": 3.725439625089084e-33,
+      "zero_weight_b": 4.492892186760831e-33,
+      "logical_projection_norm": 5.259764671928749e-33,
+      "logical_traceless_norm": 5.259764671928749e-33
+    },
+    {
+      "site": 11,
+      "zero_weight_a": 2.036738940252438e-32,
+      "zero_weight_b": 7.521016178933082e-33,
+      "logical_projection_norm": 8.057613923894353e-33,
+      "logical_traceless_norm": 8.057613923894353e-33
+    },
+    {
+      "site": 12,
+      "zero_weight_a": 0.9999999999999998,
+      "zero_weight_b": 4.962540992971233e-33,
+      "logical_projection_norm": 8.566245920951857e-17,
+      "logical_traceless_norm": 8.566245920951857e-17
+    },
+    {
+      "site": 13,
+      "zero_weight_a": 1.8268360362253858e-32,
+      "zero_weight_b": 5.062104943910796e-33,
+      "logical_projection_norm": 1.359973215228221e-32,
+      "logical_traceless_norm": 1.359973215228221e-32
+    },
+    {
+      "site": 14,
+      "zero_weight_a": 8.01523617886308e-33,
+      "zero_weight_b": 3.655053825659706e-33,
+      "logical_projection_norm": 6.669607100044153e-34,
+      "logical_traceless_norm": 6.669607100044153e-34
+    },
+    {
+      "site": 15,
+      "zero_weight_a": 3.0226355750241336e-33,
+      "zero_weight_b": 1.9676213018977822e-33,
+      "logical_projection_norm": 3.206895627048432e-33,
+      "logical_traceless_norm": 3.206895627048432e-33
+    },
+    {
+      "site": 16,
+      "zero_weight_a": 1.1089464841019407e-33,
+      "zero_weight_b": 5.371857364861359e-34,
+      "logical_projection_norm": 1.0913741904073764e-33,
+      "logical_traceless_norm": 1.0913741904073764e-33
+    },
+    {
+      "site": 17,
+      "zero_weight_a": 9.791509168184897e-32,
+      "zero_weight_b": 2.5351438756187984e-32,
+      "logical_projection_norm": 6.498227728358423e-32,
+      "logical_traceless_norm": 6.498227728358423e-32
+    },
+    {
+      "site": 18,
+      "zero_weight_a": 0.9999999999999992,
+      "zero_weight_b": 4.483805651774423e-34,
+      "logical_projection_norm": 2.6241158184794584e-17,
+      "logical_traceless_norm": 2.6241158184794584e-17
+    }
+  ]
+}

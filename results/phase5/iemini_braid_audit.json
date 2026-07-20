@@ -1,0 +1,112 @@
+{
+  "schema": "antler.phase5.iemini-braid-audit.v1",
+  "reference": {
+    "citation": "F. Iemini et al., Phys. Rev. Lett. 115, 156402 (2015), braid construction and supplement",
+    "arxiv": "https://arxiv.org/abs/1504.04230",
+    "model": "published number-conserving two-wire parent Hamiltonian at lambda=1",
+    "L": 8,
+    "N": 8,
+    "filling": 0.5
+  },
+  "claim_boundary": "This is a finite-size projected-operator audit of the published Iemini braid construction. It calibrates the non-Abelian audit infrastructure on an external U(1)-conserving reference. It is not an adiabatic physical exchange, not a universal gate-set proof, and not a derivation from frozen ANTLER.",
+  "gates": {
+    "commutator_threshold": 0.001,
+    "yang_baxter_rule": "Report the raw residual only when the raw projected commutator exceeds threshold."
+  },
+  "rows": [
+    {
+      "support_rungs": 1,
+      "normalizers": {
+        "aR_bR": 0.7071067811865476,
+        "aR_aL": 0.7071067811865476
+      },
+      "support_geometry": {
+        "aR_bR": "rightmost 1 rungs only",
+        "aR_aL": "bilocal: leftmost and rightmost 1 rungs only"
+      },
+      "aR_bR": {
+        "projected_singular_values": [
+          0.8856934341807232,
+          0.8856934341807225
+        ],
+        "projected_unitarity_frobenius": 0.3048296896367798,
+        "leakage_amplitude_frobenius": 0.705544119006024
+      },
+      "aR_aL": {
+        "projected_singular_values": [
+          0.8876780969711048,
+          0.88368546440461
+        ],
+        "projected_unitarity_frobenius": 0.30489426287229665,
+        "leakage_amplitude_frobenius": 0.7055198076169213
+      },
+      "commutator_norm_raw_projected": 0.8045150810492432,
+      "yang_baxter_residual_raw_projected": 0.2299919742614983,
+      "yang_baxter_status": "reported_with_nonzero_commutator",
+      "yang_baxter_projective_residual_polar_diagnostic": 0.3309513989152261
+    },
+    {
+      "support_rungs": 2,
+      "normalizers": {
+        "aR_bR": 0.9354143466934853,
+        "aR_aL": 0.9354143466934853
+      },
+      "support_geometry": {
+        "aR_bR": "rightmost 2 rungs only",
+        "aR_aL": "bilocal: leftmost and rightmost 2 rungs only"
+      },
+      "aR_bR": {
+        "projected_singular_values": [
+          0.920440341209925,
+          0.920440341209924
+        ],
+        "projected_unitarity_frobenius": 0.2160770937834481,
+        "leakage_amplitude_frobenius": 0.4432245500492864
+      },
+      "aR_aL": {
+        "projected_singular_values": [
+          0.9206829763046194,
+          0.9201893270786272
+        ],
+        "projected_unitarity_frobenius": 0.21608887000339327,
+        "leakage_amplitude_frobenius": 0.44321565943377406
+      },
+      "commutator_norm_raw_projected": 0.9820483437102289,
+      "yang_baxter_residual_raw_projected": 0.18006602360540538,
+      "yang_baxter_status": "reported_with_nonzero_commutator",
+      "yang_baxter_projective_residual_polar_diagnostic": 0.2309111995811803
+    },
+    {
+      "support_rungs": 3,
+      "normalizers": {
+        "aR_bR": 0.9842509842514764,
+        "aR_aL": 0.9842509842514764
+      },
+      "support_geometry": {
+        "aR_bR": "rightmost 3 rungs only",
+        "aR_aL": "bilocal: leftmost and rightmost 3 rungs only"
+      },
+      "aR_bR": {
+        "projected_singular_values": [
+          0.9557936006220538,
+          0.9557936006220523
+        ],
+        "projected_unitarity_frobenius": 0.1222709148183406,
+        "leakage_amplitude_frobenius": 0.31132582170982653
+      },
+      "aR_aL": {
+        "projected_singular_values": [
+          0.9582317669671372,
+          0.9533235581121458
+        ],
+        "projected_unitarity_frobenius": 0.12248528617723385,
+        "leakage_amplitude_frobenius": 0.31131465547466114
+      },
+      "commutator_norm_raw_projected": 1.1696183459131781,
+      "yang_baxter_residual_raw_projected": 0.1114270568899567,
+      "yang_baxter_status": "reported_with_nonzero_commutator",
+      "yang_baxter_projective_residual_polar_diagnostic": 0.12738992420156034
+    }
+  ],
+  "decision": "finite-support operators are edge/bilocal-edge supported and display a nonzero projected commutator; finite-support leakage and raw Yang--Baxter residual must be scaled in L and support before promoting a braid representation"
+}

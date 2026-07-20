@@ -1,0 +1,120 @@
+{
+  "schema": "antler.phase8b.pair-chain-manybody-preflight.v1",
+  "parameters": {
+    "geometry": "periodic chain of coarse b=2 blocks, already projected to local hard-core pair occupation",
+    "pair_hopping": 1.0,
+    "half_pair_filling": true,
+    "fluid_interaction": 0.0,
+    "cdw_control_interaction": 8.0,
+    "block_counts": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ]
+  },
+  "fluid": {
+    "rows": [
+      {
+        "blocks": 4,
+        "pair_number": 2,
+        "hilbert_dimension": 6,
+        "neutral_gap": 2.8284271247461907,
+        "pair_addition_curvature": 1.6568542494923815,
+        "ground_state_degeneracy_at_1e-10": 1,
+        "gauss_parity_statement": "every pair hop changes each affected block N_a by +/-2, so coarse block parity is preserved"
+      },
+      {
+        "blocks": 6,
+        "pair_number": 3,
+        "hilbert_dimension": 20,
+        "neutral_gap": 1.9999999999999996,
+        "pair_addition_curvature": 1.0717967697244903,
+        "ground_state_degeneracy_at_1e-10": 1,
+        "gauss_parity_statement": "every pair hop changes each affected block N_a by +/-2, so coarse block parity is preserved"
+      },
+      {
+        "blocks": 8,
+        "pair_number": 4,
+        "hilbert_dimension": 70,
+        "neutral_gap": 1.530733729460358,
+        "pair_addition_curvature": 0.7956494695186294,
+        "ground_state_degeneracy_at_1e-10": 1,
+        "gauss_parity_statement": "every pair hop changes each affected block N_a by +/-2, so coarse block parity is preserved"
+      },
+      {
+        "blocks": 10,
+        "pair_number": 5,
+        "hilbert_dimension": 252,
+        "neutral_gap": 1.2360679774997863,
+        "pair_addition_curvature": 0.6335377612981503,
+        "ground_state_degeneracy_at_1e-10": 1,
+        "gauss_parity_statement": "every pair hop changes each affected block N_a by +/-2, so coarse block parity is preserved"
+      },
+      {
+        "blocks": 12,
+        "pair_number": 6,
+        "hilbert_dimension": 924,
+        "neutral_gap": 1.0352761804100883,
+        "pair_addition_curvature": 0.5266099903495949,
+        "ground_state_degeneracy_at_1e-10": 1,
+        "gauss_parity_statement": "every pair hop changes each affected block N_a by +/-2, so coarse block parity is preserved"
+      }
+    ],
+    "neutral_gap_power_vs_blocks": -0.9158994135093184,
+    "pair_addition_curvature_power_vs_blocks": -1.0427672526760945
+  },
+  "strong_repulsion_control": {
+    "rows": [
+      {
+        "blocks": 4,
+        "pair_number": 2,
+        "hilbert_dimension": 6,
+        "lowest_doublet_split": 0.8989794855663633,
+        "gap_above_lowest_doublet": 7.999999999999995,
+        "site0_pair_density_nonscalar_norm": 0.47651030693571134,
+        "opposite_site_pair_density_nonscalar_norm": 0.47651030693571134
+      },
+      {
+        "blocks": 6,
+        "pair_number": 3,
+        "hilbert_dimension": 20,
+        "lowest_doublet_split": 0.31253384945993257,
+        "gap_above_lowest_doublet": 6.573980883272715,
+        "site0_pair_density_nonscalar_norm": 0.4703238117634743,
+        "opposite_site_pair_density_nonscalar_norm": 0.4703238117634741
+      },
+      {
+        "blocks": 8,
+        "pair_number": 4,
+        "hilbert_dimension": 70,
+        "lowest_doublet_split": 0.12258869004937611,
+        "gap_above_lowest_doublet": 5.820535063175877,
+        "site0_pair_density_nonscalar_norm": 0.46876105059227713,
+        "opposite_site_pair_density_nonscalar_norm": 0.46876105059227713
+      },
+      {
+        "blocks": 10,
+        "pair_number": 5,
+        "hilbert_dimension": 252,
+        "lowest_doublet_split": 0.05078186348012381,
+        "gap_above_lowest_doublet": 5.383984211033215,
+        "site0_pair_density_nonscalar_norm": 0.46837596358025674,
+        "opposite_site_pair_density_nonscalar_norm": 0.46837596358025707
+      },
+      {
+        "blocks": 12,
+        "pair_number": 6,
+        "hilbert_dimension": 924,
+        "lowest_doublet_split": 0.021692165289088017,
+        "gap_above_lowest_doublet": 5.109845358999204,
+        "site0_pair_density_nonscalar_norm": 0.468283072736922,
+        "opposite_site_pair_density_nonscalar_norm": 0.4682830727369221
+      }
+    ],
+    "lowest_doublet_log_split_slope_vs_blocks": -0.46328958206997467
+  },
+  "decision": "The ideal pair-only continuation has no protected many-body sector. The V=0 hard-core-pair fluid has a unique ground state and both measured gaps close approximately as inverse length. Strong nearest-neighbour repulsion instead creates a locally readable low doublet (CDW control), not local indistinguishability.",
+  "claim_boundary": "This is an effective low-energy preflight after an imposed local-pair projection. Pair hopping and V are not derived from the Lambda walker or native ANTLER resources. It neither rules out all paired phases nor establishes a phase, a thermodynamic code, a defect, a T junction, fusion or a non-Abelian braid."
+}

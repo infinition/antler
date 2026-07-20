@@ -1,0 +1,2328 @@
+{
+  "schema": "antler.phase8c.interior-twist-graph-preflight.v1",
+  "parameters": {
+    "reference": "Sarkar-Yoder graph surface-code construction: vertex qubits, face stabilizers, odd-degree vertices as twists",
+    "new_declared_resource": "external neutral vertex-qubit stabilizer graph; separate from Phase 8C edge links and not derived from ANTLER",
+    "local_sector_lists": {
+      "degree_4": [
+        "X",
+        "Z",
+        "X",
+        "Z"
+      ],
+      "degree_3": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    "periodic_sizes": [
+      4,
+      6
+    ],
+    "construction": "two disjoint deleted square-grid edges merge adjacent faces and leave four degree-three interior vertices"
+  },
+  "base_torus_controls": [
+    {
+      "size": 4,
+      "undislocated_encoded_qubits": 2,
+      "dislocated_encoded_qubits": 3,
+      "extra_encoded_qubits": 1
+    },
+    {
+      "size": 6,
+      "undislocated_encoded_qubits": 2,
+      "dislocated_encoded_qubits": 3,
+      "extra_encoded_qubits": 1
+    }
+  ],
+  "rows": [
+    {
+      "size": 4,
+      "qubits": 16,
+      "active_edges": 30,
+      "face_count": 14,
+      "face_weights": [
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "face_checks": [
+        {
+          "weight": 6,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            }
+          ],
+          "check": "XZIIXZIIIIIIZXII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IYXIIXZIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "YIIZZIIXIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIZXIIXZIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIZYIIXZI"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIZXIIXZIIIII"
+        },
+        {
+          "weight": 6,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIZXIIXZIIXZ"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IXZIIIIIIIIIIZXI"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "ZIIXIIIIIIIIXIIZ"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIXIIYZIIX"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIZXIIXZII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIXIIZZIIXIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIZXIIXZIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIXZIIIIIIIIIIZX"
+        }
+      ],
+      "degree_three_interior_twists": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "degree_four_vertices": 12,
+      "pair_anticommutations": 0,
+      "independent_rank_over_GF2": 13,
+      "encoded_qubits": 3,
+      "ground_space_degeneracy": 8,
+      "exact_syndrome_gap_in_units_of_J": 2.0,
+      "minimum_logical_weight": 3,
+      "one_minimum_logical_representative": "XIIIIIIZIIIIIIIX",
+      "local_protection": {
+        "projects_to_zero": 1128,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 1128,
+        "all_below_distance_probes_scalar_or_zero": true
+      },
+      "check_labels": [
+        "XZIIXZIIIIIIZXII",
+        "IYXIIXZIIIIIIIII",
+        "YIIZZIIXIIIIIIII",
+        "IIZXIIXZIIIIIIII",
+        "IIIIIIIIIZYIIXZI",
+        "IIIIIZXIIXZIIIII",
+        "IIIIIIZXIIXZIIXZ",
+        "IXZIIIIIIIIIIZXI",
+        "ZIIXIIIIIIIIXIIZ",
+        "IIIIIIIIXIIYZIIX",
+        "IIIIIIIIZXIIXZII",
+        "IIIIXIIZZIIXIIII",
+        "IIIIZXIIXZIIIIII",
+        "IIXZIIIIIIIIIIZX"
+      ],
+      "removed_edges": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "size": 6,
+      "qubits": 36,
+      "active_edges": 70,
+      "face_count": 34,
+      "face_weights": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "face_checks": [
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXI"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                5,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                5,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIYXIIIIXZIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIXIIIIZZIIIIXIIIIII"
+        },
+        {
+          "weight": 6,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIZXIIIIXZIIIIXZIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                5,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIXIIIIZZIIIIX"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIZYIIIIXZIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZI"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                0,
+                3
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                3
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                5,
+                2
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIXIIIIZZIIIIXIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                3,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IYXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 1,
+              "pauli": "Y"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "YIIIIZZIIIIXIIIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIXIIIIZZIIIIXIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                5,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZX"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                4
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                1,
+                3
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                3
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                4
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXIII"
+        },
+        {
+          "weight": 6,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "XZIIIIXZIIIIIIIIIIIIIIIIIIIIIIZXIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                1,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                2,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                1,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                0,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                0,
+                0
+              ],
+              "sector_index": 2,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "ZIIIIXIIIIIIIIIIIIIIIIIIIIIIIIXIIIIZ"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                4,
+                2
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                2
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                1
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                1
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIII"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                5,
+                5
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                4,
+                5
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                4,
+                4
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                5,
+                4
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIIIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZ"
+        },
+        {
+          "weight": 4,
+          "sectors": [
+            {
+              "vertex": [
+                2,
+                5
+              ],
+              "sector_index": 1,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                3,
+                5
+              ],
+              "sector_index": 2,
+              "pauli": "X"
+            },
+            {
+              "vertex": [
+                3,
+                0
+              ],
+              "sector_index": 3,
+              "pauli": "Z"
+            },
+            {
+              "vertex": [
+                2,
+                0
+              ],
+              "sector_index": 0,
+              "pauli": "X"
+            }
+          ],
+          "check": "IIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXII"
+        }
+      ],
+      "degree_three_interior_twists": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "degree_four_vertices": 32,
+      "pair_anticommutations": 0,
+      "independent_rank_over_GF2": 33,
+      "encoded_qubits": 3,
+      "ground_space_degeneracy": 8,
+      "exact_syndrome_gap_in_units_of_J": 2.0,
+      "minimum_logical_weight": 4,
+      "one_minimum_logical_representative": "ZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "local_protection": {
+        "projects_to_zero": 198558,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 198558,
+        "all_below_distance_probes_scalar_or_zero": true
+      },
+      "check_labels": [
+        "IIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIII",
+        "IIIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXI",
+        "IIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZIII",
+        "IIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIYXIIIIXZIIIIII",
+        "IIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIXIIIIZZIIIIXIIIIII",
+        "IIIIIIIIIIIIIIIZXIIIIXZIIIIXZIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIXIIIIZZIIIIX",
+        "IIIIIIIIIIIIIIIIIIIIZYIIIIXZIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZI",
+        "IIIIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIIII",
+        "IIIIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIXIIIIZZIIIIXIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZII",
+        "IYXIIIIXZIIIIIIIIIIIIIIIIIIIIIIIIIII",
+        "IIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIIIII",
+        "YIIIIZZIIIIXIIIIIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIII",
+        "IIIIIIXIIIIZZIIIIXIIIIIIIIIIIIIIIIII",
+        "IIIIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZX",
+        "IIIIIIIIIIIIIIIIIIIZXIIIIXZIIIIIIIII",
+        "IXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXIII",
+        "XZIIIIXZIIIIIIIIIIIIIIIIIIIIIIZXIIII",
+        "IIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIIIII",
+        "ZIIIIXIIIIIIIIIIIIIIIIIIIIIIIIXIIIIZ",
+        "IIIIIIIIIZXIIIIXZIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIIIIIIIIZXIIIIXZ",
+        "IIXZIIIIIIIIIIIIIIIIIIIIIIIIIIIIZXII"
+      ],
+      "removed_edges": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      ]
+    }
+  ],
+  "one_edge_mutation_candidate": {
+    "initial_removed_edges": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    ],
+    "final_removed_edges": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    ],
+    "initial_twists": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "final_twists": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "shared_checks": 29,
+    "initial_only_checks": 5,
+    "final_only_checks": 5,
+    "cross_configuration_anticommutations": 12,
+    "changed_support_qubits": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      17,
+      30,
+      31
+    ],
+    "changed_support_vertices": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "maximum_periodic_graph_distance_from_mutation_pivot": 3,
+    "static_initial_code": {
+      "encoded_qubits": 3,
+      "ground_space_degeneracy": 8,
+      "minimum_logical_weight": 4
+    },
+    "static_final_code": {
+      "encoded_qubits": 3,
+      "ground_space_degeneracy": 8,
+      "minimum_logical_weight": 4
+    }
+  },
+  "decision": "PASS T5a as an external interior-twist graph-code preflight. Each registered periodic graph has four degree-three interior vertices, a commuting face-check parent, an eight-dimensional ground space (one extra encoded qubit relative to the undislocated torus), a nonzero syndrome gap and no logical Pauli below its measured distance. The changed static graphs have equal code parameters but noncommuting changed checks, so a defect-motion unitary or measurement protocol has not been inferred from their mere existence.",
+  "next_gate": "T5b must derive a local gapped or measurement-resolved code-deformation schedule for the registered one-edge mutation, track the three logical Pauli pairs through it, and independently audit leakage and the instantaneous gap. Only after two adjacent deformations yield a nonzero commutator may a Yang-Baxter residual be interpreted.",
+  "claim_boundary": "This is an imposed graph-stabilizer reference, not a neutral-link ANTLER Hamiltonian and not a microscopic resource derivation. It does not prove physical e<->m transport, a fusion measurement, mobile-defect adiabaticity, a braid matrix, non-Abelian statistics, universality, experimental feasibility or fault tolerance."
+}

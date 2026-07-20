@@ -1,0 +1,62 @@
+{
+  "schema": "antler.phase8.native-h0-sw-bridge.v1",
+  "target": {
+    "h0": "-t sum_leg(c\u2020_j c_{j+1}+h.c.) + U0 sum_leg n_j n_{j+1}",
+    "u0": -1.5,
+    "separate_charge_two_mediators_per_link": 2,
+    "frozen_antler_hopping_setting": {
+      "theta": "pi",
+      "J1": 1.0,
+      "J2": 1.0,
+      "Jperp_free": 0.0
+    }
+  },
+  "antler_theta_pi_hopping_frobenius_residual": 2.4492935982947064e-16,
+  "global_rail_rotation": {
+    "native_pulse_setting": {
+      "theta": "pi",
+      "J1": 0.0,
+      "J2": 0.0,
+      "Jperp": -0.5,
+      "duration": "pi/2"
+    },
+    "native_generator_vs_Jx_frobenius_residual": 0.0,
+    "native_rotation_vs_reference_P_frobenius_residual": 0.0,
+    "control_requirement": "a globally synchronous pi Peierls sign on Jperp, or an exactly equivalent reversed pulse, is required"
+  },
+  "rows": [
+    {
+      "g_over_detuning": 0.05,
+      "detuning": 599.9999999999999,
+      "g": 29.999999999999996,
+      "target_u0": -1.5,
+      "sw_target_frobenius_residual": 0.0,
+      "sw_unwanted_aa_to_bb_abs": 0.0,
+      "exact_low_spectrum_max_abs_error": 0.003731366373358469,
+      "minimum_low_manifold_capture": 0.9975185951049939
+    },
+    {
+      "g_over_detuning": 0.1,
+      "detuning": 149.99999999999997,
+      "g": 14.999999999999998,
+      "target_u0": -1.5,
+      "sw_target_frobenius_residual": 0.0,
+      "sw_unwanted_aa_to_bb_abs": 0.0,
+      "exact_low_spectrum_max_abs_error": 0.01470729610826993,
+      "minimum_low_manifold_capture": 0.9902903378454596
+    },
+    {
+      "g_over_detuning": 0.15,
+      "detuning": 66.66666666666667,
+      "g": 10.0,
+      "target_u0": -1.5,
+      "sw_target_frobenius_residual": 0.0,
+      "sw_unwanted_aa_to_bb_abs": 0.0,
+      "exact_low_spectrum_max_abs_error": 0.032311636964848844,
+      "minimum_low_manifold_capture": 0.9789131426105752
+    }
+  ],
+  "exact_spectrum_error_loglog_slope": 1.966383664084299,
+  "decision": "A separate positive-detuned charge-two mediator on each rail gives the required attractive density interaction at second order without same-order cross-rail pair hopping. Together with theta=pi uniform ANTLER leg hopping, this is a controlled local bridge to H0.",
+  "claim_boundary": "This is a two-rung Schrieffer--Wolff derivation. It has not yet established a many-link mediator schedule, global rail pulse isolation, finite-frequency full-ladder fidelity, a thermodynamic phase, braid, non-Abelian statistics, universality, or fault tolerance."
+}

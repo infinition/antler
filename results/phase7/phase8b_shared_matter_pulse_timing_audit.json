@@ -1,0 +1,96 @@
+{
+  "schema": "antler.phase8b.shared-matter-pulse-timing-audit.v1",
+  "parameters": {
+    "coupling_over_detuning": 0.025,
+    "nominal_rabi_multiplier_per_segment": 1,
+    "nominal_segment_duration": 0.627534602114852,
+    "strict_local_target": {
+      "low_frame_leakage_worst": 1e-05,
+      "polar_distance_to_piecewise_sw": 0.0001
+    }
+  },
+  "rows": [
+    {
+      "relative_segment_timing_offset": -0.004,
+      "segment_duration": 0.6250244637063926,
+      "low_frame_leakage_worst": 1.6774983808609552e-05,
+      "polar_distance_to_piecewise_sw": 3.9389008597376776e-05,
+      "raw_logical_min_singular_value": 0.999991612472919,
+      "passes_strict_local_target": false
+    },
+    {
+      "relative_segment_timing_offset": -0.003,
+      "segment_duration": 0.6256519983085075,
+      "low_frame_leakage_worst": 1.0107591111358607e-05,
+      "polar_distance_to_piecewise_sw": 3.9422860200225635e-05,
+      "raw_logical_min_singular_value": 0.999994946191674,
+      "passes_strict_local_target": false
+    },
+    {
+      "relative_segment_timing_offset": -0.002,
+      "segment_duration": 0.6262795329106223,
+      "low_frame_leakage_worst": 5.169850080653657e-06,
+      "polar_distance_to_piecewise_sw": 3.9459159046902855e-05,
+      "raw_logical_min_singular_value": 0.9999974150716193,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": -0.001,
+      "segment_duration": 0.6269070675127372,
+      "low_frame_leakage_worst": 1.967519075092117e-06,
+      "polar_distance_to_piecewise_sw": 3.949703000185734e-05,
+      "raw_logical_min_singular_value": 0.9999990162399773,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": 0.0,
+      "segment_duration": 0.627534602114852,
+      "low_frame_leakage_worst": 5.041357477213353e-07,
+      "polar_distance_to_piecewise_sw": 3.953578362971273e-05,
+      "raw_logical_min_singular_value": 0.999999747932094,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": 0.001,
+      "segment_duration": 0.6281621367169667,
+      "low_frame_leakage_worst": 7.81159340302211e-07,
+      "polar_distance_to_piecewise_sw": 3.957491606190426e-05,
+      "raw_logical_min_singular_value": 0.9999996094202536,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": 0.002,
+      "segment_duration": 0.6287896713190817,
+      "low_frame_leakage_worst": 2.8141078965381197e-06,
+      "polar_distance_to_piecewise_sw": 3.9614108563583366e-05,
+      "raw_logical_min_singular_value": 0.9999985929450612,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": 0.003,
+      "segment_duration": 0.6294172059211965,
+      "low_frame_leakage_worst": 6.558577918868303e-06,
+      "polar_distance_to_piecewise_sw": 3.965322688552641e-05,
+      "raw_logical_min_singular_value": 0.9999967207056619,
+      "passes_strict_local_target": true
+    },
+    {
+      "relative_segment_timing_offset": 0.004,
+      "segment_duration": 0.6300447405233114,
+      "low_frame_leakage_worst": 1.2037280259148839e-05,
+      "polar_distance_to_piecewise_sw": 3.9692320455180714e-05,
+      "raw_logical_min_singular_value": 0.9999939813417583,
+      "passes_strict_local_target": false
+    }
+  ],
+  "passing_offsets": [
+    -0.002,
+    -0.001,
+    0.0,
+    0.001,
+    0.002,
+    0.003
+  ],
+  "decision": "A registered local timing bracket for the one-cycle shared-matter Rabi closure.",
+  "claim_boundary": "This one-block deterministic timing bracket is not a pulse-bandwidth, noise, many-link, code, defect, fusion or braid qualification."
+}

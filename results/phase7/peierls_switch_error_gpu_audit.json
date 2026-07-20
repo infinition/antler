@@ -1,0 +1,200 @@
+{
+  "schema": "antler.phase7d.peierls-switch-error-gpu-audit.v1",
+  "method": "exact segment spectral propagation on CUDA, complex128",
+  "device": "NVIDIA GeForce RTX 4070 Ti",
+  "parameters": {
+    "inactive_channel_coupling_over_g": 0.01,
+    "subcycles": 16
+  },
+  "registered_local_target": {
+    "max_monomer_leakage": 0.0001,
+    "max_logical_parity_residual": 0.0001,
+    "max_logical_deviation": 0.0001,
+    "min_logical_singular_value": 0.9999
+  },
+  "systematic_phase_plateau_scan": [
+    {
+      "systematic_pi_plateau_error_degrees": 0.0,
+      "systematic_pi_plateau_error_radians": 0.0,
+      "monomer_leakage": 6.96912746903206e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.1159360873416244e-05,
+      "logical_parity_a_residual": 1.7176478576181976e-05,
+      "logical_parity_b_residual": 1.7176478576181976e-05,
+      "logical_singular_value_min": 0.9999999651543059,
+      "passes_registered_local_target": true
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 0.5,
+      "systematic_pi_plateau_error_radians": 0.008726646259971648,
+      "monomer_leakage": 4.369048696449457e-07,
+      "logical_deviation_from_zero_leg_schedule": 3.0420580260890603e-05,
+      "logical_parity_a_residual": 1.6754033420511627e-05,
+      "logical_parity_b_residual": 1.6754033420511627e-05,
+      "logical_singular_value_min": 0.9999997815475659,
+      "passes_registered_local_target": true
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 1.0,
+      "systematic_pi_plateau_error_radians": 0.017453292519943295,
+      "monomer_leakage": 1.590580492684895e-06,
+      "logical_deviation_from_zero_leg_schedule": 2.8213031173517956e-05,
+      "logical_parity_a_residual": 1.5516771717257597e-05,
+      "logical_parity_b_residual": 1.5516771717257597e-05,
+      "logical_singular_value_min": 0.9999992047094558,
+      "passes_registered_local_target": true
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 2.0,
+      "systematic_pi_plateau_error_radians": 0.03490658503988659,
+      "monomer_leakage": 6.208227998356929e-06,
+      "logical_deviation_from_zero_leg_schedule": 1.960291852861313e-05,
+      "logical_parity_a_residual": 1.1271382407825345e-05,
+      "logical_parity_b_residual": 1.1271382407825345e-05,
+      "logical_singular_value_min": 0.9999968958811761,
+      "passes_registered_local_target": true
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 5.0,
+      "systematic_pi_plateau_error_radians": 0.08726646259971647,
+      "monomer_leakage": 3.85125089130646e-05,
+      "logical_deviation_from_zero_leg_schedule": 4.7225038468807014e-05,
+      "logical_parity_a_residual": 3.7433947410767485e-05,
+      "logical_parity_b_residual": 3.7433947410767485e-05,
+      "logical_singular_value_min": 0.9999807435601537,
+      "passes_registered_local_target": true
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 7.5,
+      "systematic_pi_plateau_error_radians": 0.1308996938995747,
+      "monomer_leakage": 8.65170550190768e-05,
+      "logical_deviation_from_zero_leg_schedule": 0.0001421669674019067,
+      "logical_parity_a_residual": 9.989487580435389e-05,
+      "logical_parity_b_residual": 9.989487580435389e-05,
+      "logical_singular_value_min": 0.9999567405367848,
+      "passes_registered_local_target": false
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 10.0,
+      "systematic_pi_plateau_error_radians": 0.17453292519943295,
+      "monomer_leakage": 0.0001535881628413681,
+      "logical_deviation_from_zero_leg_schedule": 0.0002754687444292155,
+      "logical_parity_a_residual": 0.00018799920155265328,
+      "logical_parity_b_residual": 0.00018799920155265328,
+      "logical_singular_value_min": 0.9999232029696643,
+      "passes_registered_local_target": false
+    },
+    {
+      "systematic_pi_plateau_error_degrees": 15.0,
+      "systematic_pi_plateau_error_radians": 0.2617993877991494,
+      "monomer_leakage": 0.0003443525289340261,
+      "logical_deviation_from_zero_leg_schedule": 0.0006549209494375541,
+      "logical_parity_a_residual": 0.00043904062397646525,
+      "logical_parity_b_residual": 0.00043904062397646525,
+      "logical_singular_value_min": 0.9998278089106237,
+      "passes_registered_local_target": false
+    }
+  ],
+  "systematic_signed_time_imbalance_scan": [
+    {
+      "signed_plateau_time_imbalance_fraction": 0.0,
+      "plus_plateau_relative_error_percent": 0.0,
+      "minus_plateau_relative_error_percent": -0.0,
+      "monomer_leakage": 6.96912746903206e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.1159360873416244e-05,
+      "logical_parity_a_residual": 1.7176478576181976e-05,
+      "logical_parity_b_residual": 1.7176478576181976e-05,
+      "logical_singular_value_min": 0.9999999651543059,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.001,
+      "plus_plateau_relative_error_percent": 0.1,
+      "minus_plateau_relative_error_percent": -0.1,
+      "monomer_leakage": 5.711860210511266e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.112154499341656e-05,
+      "logical_parity_a_residual": 1.7154773442356804e-05,
+      "logical_parity_b_residual": 1.7154773442356804e-05,
+      "logical_singular_value_min": 0.9999999714406196,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.003,
+      "plus_plateau_relative_error_percent": 0.3,
+      "minus_plateau_relative_error_percent": -0.3,
+      "monomer_leakage": 1.0077909788477176e-07,
+      "logical_deviation_from_zero_leg_schedule": 3.081276023263285e-05,
+      "logical_parity_a_residual": 1.697740973964182e-05,
+      "logical_parity_b_residual": 1.697740973964182e-05,
+      "logical_singular_value_min": 0.9999999496104377,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.01,
+      "plus_plateau_relative_error_percent": 1.0,
+      "minus_plateau_relative_error_percent": -1.0,
+      "monomer_leakage": 1.6060576711710598e-06,
+      "logical_deviation_from_zero_leg_schedule": 2.7298920195982633e-05,
+      "logical_parity_a_residual": 1.4991677150327853e-05,
+      "logical_parity_b_residual": 1.4991677150327853e-05,
+      "logical_singular_value_min": 0.9999991969708424,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.03,
+      "plus_plateau_relative_error_percent": 3.0,
+      "minus_plateau_relative_error_percent": -3.0,
+      "monomer_leakage": 1.6855228523837983e-05,
+      "logical_deviation_from_zero_leg_schedule": 1.3439953545201266e-05,
+      "logical_parity_a_residual": 1.2380159296203957e-05,
+      "logical_parity_b_residual": 1.2380159296203957e-05,
+      "logical_singular_value_min": 0.9999915723502206,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.05,
+      "plus_plateau_relative_error_percent": 5.0,
+      "minus_plateau_relative_error_percent": -5.0,
+      "monomer_leakage": 4.829115711359265e-05,
+      "logical_deviation_from_zero_leg_schedule": 7.073142386349249e-05,
+      "logical_parity_a_residual": 5.188701986651937e-05,
+      "logical_parity_b_residual": 5.188701986651937e-05,
+      "logical_singular_value_min": 0.9999758541299216,
+      "passes_registered_local_target": true
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.1,
+      "plus_plateau_relative_error_percent": 10.0,
+      "minus_plateau_relative_error_percent": -10.0,
+      "monomer_leakage": 0.00019768814052782994,
+      "logical_deviation_from_zero_leg_schedule": 0.00037192104075454415,
+      "logical_parity_a_residual": 0.000250177489573677,
+      "logical_parity_b_residual": 0.000250177489573677,
+      "logical_singular_value_min": 0.9999011510441644,
+      "passes_registered_local_target": false
+    },
+    {
+      "signed_plateau_time_imbalance_fraction": 0.15,
+      "plus_plateau_relative_error_percent": 15.0,
+      "minus_plateau_relative_error_percent": -15.0,
+      "monomer_leakage": 0.0004481875747158862,
+      "logical_deviation_from_zero_leg_schedule": 0.0008745070577317119,
+      "logical_parity_a_residual": 0.0005819905042004038,
+      "logical_parity_b_residual": 0.0005819905042004038,
+      "logical_singular_value_min": 0.9997758810979881,
+      "passes_registered_local_target": false
+    }
+  ],
+  "registered_tolerance_brackets": {
+    "pi_plateau_error_degrees": {
+      "largest_tested_passing": 5.0,
+      "smallest_tested_failing": 7.5
+    },
+    "signed_time_imbalance_percent": {
+      "largest_tested_passing": 5.0,
+      "smallest_tested_failing": 10.0
+    }
+  },
+  "wall_clock_seconds_including_eigensystems": 37.4992471000005,
+  "decision": "For the registered local target, the tested deterministic plateau-phase tolerance passes through 5.0 degrees and first fails at 7.5 degrees; the signed-time imbalance passes through 5.0 percent and first fails at 10.0 percent. These are scan brackets, not interpolated specifications.",
+  "claim_boundary": "This does not test bandwidth, stochastic or correlated noise, calibration, full-ladder dynamics, a protected phase, edge modes, a 2D code, braid, non-Abelian statistics, universality or fault tolerance."
+}

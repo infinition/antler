@@ -1,0 +1,58 @@
+{
+  "schema": "antler.phase8b.mixed-check-patch-algebra.v1",
+  "parameters": {
+    "gauge_links": 7,
+    "stabilizer_labels": [
+      "YXZXIII",
+      "XZIIXZI",
+      "XZXYIII",
+      "YXIIYXI",
+      "XIXIXIX",
+      "YIZIYIY"
+    ],
+    "all_check_weights": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "seeded_jointly_audited_overlap": [
+      "YXZXIII",
+      "XZIIXZI"
+    ],
+    "remaining_check_words": [
+      "XZXYIII",
+      "YXIIYXI",
+      "XIXIXIX",
+      "YIZIYIY"
+    ],
+    "candidate_rule": "minimal seven-link, six-check completion seeded by the audited YXZX/XZXZ pair; all words are four-link products in the declared phase-programmable walker vocabulary"
+  },
+  "stabilizer_algebra": {
+    "pair_anticommutations": [],
+    "all_checks_commute": true,
+    "independent_rank_over_GF2": 6
+  },
+  "code": {
+    "encoded_qubits": 1,
+    "ground_space_degeneracy": 2,
+    "minimum_logical_weight": 3,
+    "one_logical_x_representative": "XZIIIIX",
+    "one_anticommuting_logical_z_representative": "ZYIIIIZ",
+    "logical_pair_symplectic_parity": 1,
+    "commuting_parent": "H_patch = -J sum_a S_a",
+    "exact_syndrome_gap_in_units_of_J": 2.0
+  },
+  "complete_projected_local_pauli_gate": {
+    "maximum_tested_weight": 2,
+    "tested_nonidentity_paulis": 210,
+    "anticommutes_with_check": 210,
+    "stabilizer_scalar": 0,
+    "nontrivial_logical": 0,
+    "all_tested_probes_project_to_scalars_or_zero": true
+  },
+  "decision": "The seeded mixed-check vocabulary admits a finite seven-link commuting completion with one encoded qubit, distance three and a nonzero exact stabilizer-parent syndrome gap.",
+  "claim_boundary": "This is a finite algebraic reference completion, not a complete dislocation/twist geometry. Only its first mixed-check overlap is microscopically walker-audited; all other overlaps, multi-walker crosstalk, physical U(1) embedding, scalable topological order, twist fusion, defect motion, non-Abelian braid, universality and fault tolerance remain unestablished."
+}

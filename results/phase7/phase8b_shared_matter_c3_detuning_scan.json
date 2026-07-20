@@ -1,0 +1,110 @@
+{
+  "schema": "antler.phase8b.shared-matter-c3-detuning-scan.v1",
+  "parameters": {
+    "walker_detunings": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "coupling_ratios": [
+      0.1,
+      0.05
+    ],
+    "target": "XXX",
+    "selectivity_target": "largest_unwanted_over_target < 0.25"
+  },
+  "rows": [
+    {
+      "walker_detuning": 0.5,
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -0.0004237079375948133,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -0.0016651029011475848,
+      "unwanted_over_target": 3.9298364590467085
+    },
+    {
+      "walker_detuning": 0.5,
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -3.1438560039958035e-06,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -6.980147979251769e-05,
+      "unwanted_over_target": 22.202505364050023
+    },
+    {
+      "walker_detuning": 1.0,
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -3.396569117429978e-06,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -0.00010992316292847476,
+      "unwanted_over_target": 32.36299899342204
+    },
+    {
+      "walker_detuning": 1.0,
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -4.249696529967265e-08,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -1.1334493303363688e-05,
+      "unwanted_over_target": 266.7130046448516
+    },
+    {
+      "walker_detuning": 2.0,
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -9.464525179354776e-08,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -3.262915969846317e-05,
+      "unwanted_over_target": 344.75220975308974
+    },
+    {
+      "walker_detuning": 2.0,
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -1.3367204602976162e-09,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -7.158583269550264e-06,
+      "unwanted_over_target": 5355.333057411593
+    },
+    {
+      "walker_detuning": 5.0,
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -1.6706129796120175e-09,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -2.283675357479087e-05,
+      "unwanted_over_target": 13669.68523140199
+    },
+    {
+      "walker_detuning": 5.0,
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -2.5118669705697908e-11,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -6.584120046603246e-06,
+      "unwanted_over_target": 262120.57102330172
+    },
+    {
+      "walker_detuning": 10.0,
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -1.3763506557153733e-10,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -2.1987781349478985e-05,
+      "unwanted_over_target": 159754.21131361756
+    },
+    {
+      "walker_detuning": 10.0,
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -2.1117381788584864e-12,
+      "largest_unwanted_pauli": "XIX",
+      "largest_unwanted_coefficient": -6.532379333528983e-06,
+      "unwanted_over_target": 3093366.118455131
+    }
+  ],
+  "best_selectivity": {
+    "walker_detuning": 0.5,
+    "coupling_over_detuning": 0.1,
+    "target_xxx_coefficient": -0.0004237079375948133,
+    "largest_unwanted_pauli": "XIX",
+    "largest_unwanted_coefficient": -0.0016651029011475848,
+    "unwanted_over_target": 3.9298364590467085
+  },
+  "decision": "No tested virtual-walker detuning makes the direct C3 shared-matter composition selective: the leading companion exceeds XXX at every scanned point.",
+  "claim_boundary": "This rejects the direct C3 reservoir/channel composition and the stated detuning window only. It does not refute the one-link X/Y/Z compiler, a counterterm/refocusing construction, a different walker encoding, or every multi-link ANTLER extension."
+}

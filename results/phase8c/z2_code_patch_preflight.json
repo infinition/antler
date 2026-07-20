@@ -1,0 +1,70 @@
+{
+  "schema": "antler.phase8c.z2-code-patch-preflight.v1",
+  "parameters": {
+    "new_declared_resource": "one neutral Z2 link qubit tau_e per edge; not an ANTLER charge-two mediator",
+    "matter_sector": "pure gauge: matter absent/frozen, so G_v=A_v",
+    "gauss_generator": "A_v=product_(e incident to v) tau^x_e",
+    "magnetic_plaquette": "B_p=product_(e in boundary p) tau^z_e",
+    "reference_hamiltonian": "H=-J_s sum_v A_v-J_p sum_p B_p",
+    "star_coupling": 1.0,
+    "plaquette_coupling": 1.0
+  },
+  "geometry": {
+    "name": "3x3 square torus, pure Z2 gauge reference",
+    "lx": 3,
+    "ly": 3,
+    "boundary": "periodic in both directions",
+    "link_qubits": 18,
+    "vertices": 9,
+    "plaquettes": 9,
+    "full_link_hilbert_dimension": 262144,
+    "physical_gauss_sector_dimension": 1024
+  },
+  "algebra": {
+    "star_count": 9,
+    "plaquette_count": 9,
+    "pair_anticommutations": 0,
+    "all_star_plaquette_checks_commute": true,
+    "independent_gauss_rank_over_GF2": 8,
+    "independent_plaquette_rank_over_GF2": 8,
+    "total_stabilizer_rank_over_GF2": 16,
+    "global_star_relation": "product_v A_v=I",
+    "global_plaquette_relation": "product_p B_p=I"
+  },
+  "code": {
+    "encoded_qubits": 2,
+    "ground_space_degeneracy": 4,
+    "minimum_logical_weight": 3,
+    "logical_z_representative": [
+      "Z[h(0,0)]",
+      "Z[h(1,0)]",
+      "Z[h(2,0)]"
+    ],
+    "logical_x_representative": [
+      "X[h(0,0)]",
+      "X[h(0,1)]",
+      "X[h(0,2)]"
+    ],
+    "logical_pair_symplectic_parity": 1
+  },
+  "local_indistinguishability": {
+    "operator_basis": "all nonidentity Pauli words X/Y/Z on link supports of weight <= distance-1",
+    "maximum_tested_weight": 2,
+    "tested_nonidentity_paulis": 1431,
+    "anticommutes_with_a_check_and_projects_to_zero": 1431,
+    "stabilizer_scalar": 0,
+    "nontrivial_logical_below_distance": 0,
+    "all_tested_local_probes_project_to_scalars": true
+  },
+  "spectrum": {
+    "ground_energy": -18.0,
+    "ground_space_degeneracy": 4,
+    "first_star_pair_cost": 4.0,
+    "first_plaquette_pair_cost": 4.0,
+    "exact_first_syndrome_gap": 4.0,
+    "gap_interpretation": "commuting-projector syndrome gap of the imposed pure-gauge reference, not a native ANTLER gap"
+  },
+  "decision": "PASS T2 for the pure-gauge reference only. The 3x3 torus has an exact commuting Z2 stabilizer algebra, a fourfold ground space, distance three, a nonzero syndrome gap, and no non-scalar projected Pauli probe on any support below distance. It is therefore a qualified Abelian code benchmark on which an e<->m domain-wall test can be posed.",
+  "next_gate": "T3 must introduce and audit an actual support-changing e<->m domain wall: it must map electric and magnetic string operators into each other across the wall. A pi hopping phase, a background B_p=-1 flux, or a static sign line fails that definition.",
+  "claim_boundary": "The neutral link qubits, star checks and plaquette checks are imposed reference resources. This result neither derives them from frozen ANTLER charge-two mediators nor introduces matter defects, a twist, non-Abelian fusion, a braid, universality, noise resilience or fault tolerance. The certified parent is the Abelian D(Z2) toric code."
+}

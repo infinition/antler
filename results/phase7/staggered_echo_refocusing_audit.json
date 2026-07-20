@@ -1,0 +1,364 @@
+{
+  "schema": "antler.phase7d.staggered-echo-refocusing-audit.v1",
+  "identity": "Q=(-1)^(sum_j j n_j + N_mediator): for every nearest-neighbour charge-two conversion, Q H_mediator Q=H_mediator and Q H_leg Q=-H_leg",
+  "model": {
+    "same_472_state_four_rung_block": true,
+    "refocused_segment": "exp(-i Hplus delta/4) exp(-i Hminus delta/2) exp(-i Hplus delta/4)",
+    "Hminus_implementation": "staggered rail pi phase plus mediator pi phase",
+    "leg_hopping_scan": [
+      0.1,
+      0.3,
+      1.0
+    ],
+    "subcycle_scan": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "combined_crosstalk_scan_over_g": [
+      0.001,
+      0.01
+    ]
+  },
+  "toggling_identity_checks": [
+    {
+      "channel_kind": "same",
+      "QHplusQ_minus_Hmed_minus_Hleg_frobenius": 0.0
+    },
+    {
+      "channel_kind": "opposite",
+      "QHplusQ_minus_Hmed_minus_Hleg_frobenius": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "bare",
+      "subcycles": 0,
+      "monomer_leakage": 0.00020207360451021423,
+      "logical_deviation_from_zero_leg_schedule": 0.0004017808193870483,
+      "logical_parity_a_residual": 0.00026598151385353496,
+      "logical_parity_b_residual": 0.00026598151385353496,
+      "logical_singular_value_min": 0.9998989580930117
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 1,
+      "monomer_leakage": 3.304664251080651e-05,
+      "logical_deviation_from_zero_leg_schedule": 0.00010391250254557294,
+      "logical_parity_a_residual": 6.16883665974603e-05,
+      "logical_parity_b_residual": 6.16883665974603e-05,
+      "logical_singular_value_min": 0.9999834765422336
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 2,
+      "monomer_leakage": 1.2688741171469419e-06,
+      "logical_deviation_from_zero_leg_schedule": 2.0888849898953292e-05,
+      "logical_parity_a_residual": 1.172334219342192e-05,
+      "logical_parity_b_residual": 1.172334219342192e-05,
+      "logical_singular_value_min": 0.9999993655627433
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 4,
+      "monomer_leakage": 7.197631182772258e-08,
+      "logical_deviation_from_zero_leg_schedule": 4.981187234116e-06,
+      "logical_parity_a_residual": 2.787987862237755e-06,
+      "logical_parity_b_residual": 2.787987862237755e-06,
+      "logical_singular_value_min": 0.9999999640118442
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 8,
+      "monomer_leakage": 4.393799520842365e-09,
+      "logical_deviation_from_zero_leg_schedule": 1.2312161453760458e-06,
+      "logical_parity_a_residual": 6.890065941566269e-07,
+      "logical_parity_b_residual": 6.890065941566269e-07,
+      "logical_singular_value_min": 0.9999999978030973
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 16,
+      "monomer_leakage": 2.730113997823357e-10,
+      "logical_deviation_from_zero_leg_schedule": 3.0693802365006316e-07,
+      "logical_parity_a_residual": 1.7176502064710903e-07,
+      "logical_parity_b_residual": 1.7176502064710903e-07,
+      "logical_singular_value_min": 0.999999999863492
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "bare",
+      "subcycles": 0,
+      "monomer_leakage": 0.0018159002063686226,
+      "logical_deviation_from_zero_leg_schedule": 0.0036129608119847578,
+      "logical_parity_a_residual": 0.002390311630519512,
+      "logical_parity_b_residual": 0.002390311630519512,
+      "logical_singular_value_min": 0.9990916373354765
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 1,
+      "monomer_leakage": 0.0002973084235800027,
+      "logical_deviation_from_zero_leg_schedule": 0.000934985122497362,
+      "logical_parity_a_residual": 0.0005550804328479977,
+      "logical_parity_b_residual": 0.0005550804328479977,
+      "logical_singular_value_min": 0.9998513347375309
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 2,
+      "monomer_leakage": 1.1419667922672693e-05,
+      "logical_deviation_from_zero_leg_schedule": 0.00018799567390507082,
+      "logical_parity_a_residual": 0.0001055082255099563,
+      "logical_parity_b_residual": 0.0001055082255099563,
+      "logical_singular_value_min": 0.99999429014974
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 4,
+      "monomer_leakage": 6.477922536651336e-07,
+      "logical_deviation_from_zero_leg_schedule": 4.4830514100935816e-05,
+      "logical_parity_a_residual": 2.5091812075402895e-05,
+      "logical_parity_b_residual": 2.5091812075402895e-05,
+      "logical_singular_value_min": 0.9999996761038215
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 8,
+      "monomer_leakage": 3.954469987294041e-08,
+      "logical_deviation_from_zero_leg_schedule": 1.1080935630420546e-05,
+      "logical_parity_a_residual": 6.201054901673343e-06,
+      "logical_parity_b_residual": 6.201054901673343e-06,
+      "logical_singular_value_min": 0.9999999802276476
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 16,
+      "monomer_leakage": 2.4571363029046614e-09,
+      "logical_deviation_from_zero_leg_schedule": 2.7624416092516167e-06,
+      "logical_parity_a_residual": 1.5458849030072382e-06,
+      "logical_parity_b_residual": 1.5458849030072382e-06,
+      "logical_singular_value_min": 0.9999999987714296
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "bare",
+      "subcycles": 0,
+      "monomer_leakage": 0.01984393622897244,
+      "logical_deviation_from_zero_leg_schedule": 0.03977655068044091,
+      "logical_parity_a_residual": 0.02616032548596132,
+      "logical_parity_b_residual": 0.02616032548596132,
+      "logical_singular_value_min": 0.9900283146309795
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 1,
+      "monomer_leakage": 0.0032894968778805446,
+      "logical_deviation_from_zero_leg_schedule": 0.010360091868030679,
+      "logical_parity_a_residual": 0.00615307587767636,
+      "logical_parity_b_residual": 0.00615307587767636,
+      "logical_singular_value_min": 0.9983538967330777
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 2,
+      "monomer_leakage": 0.00012686017171442622,
+      "logical_deviation_from_zero_leg_schedule": 0.0020883383124005762,
+      "logical_parity_a_residual": 0.0011720792591089896,
+      "logical_parity_b_residual": 0.0011720792591089896,
+      "logical_singular_value_min": 0.99993656790233
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 4,
+      "monomer_leakage": 7.198380644363425e-06,
+      "logical_deviation_from_zero_leg_schedule": 0.0004980952095884792,
+      "logical_parity_a_residual": 0.0002787879664218831,
+      "logical_parity_b_residual": 0.0002787879664218831,
+      "logical_singular_value_min": 0.9999964008032014
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 8,
+      "monomer_leakage": 4.3944928365421143e-07,
+      "logical_deviation_from_zero_leg_schedule": 0.00012312028581218333,
+      "logical_parity_a_residual": 6.890004704176273e-05,
+      "logical_parity_b_residual": 6.890004704176273e-05,
+      "logical_singular_value_min": 0.9999997802753322
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "method": "staggered_symmetric_echo",
+      "subcycles": 16,
+      "monomer_leakage": 2.7305774713385787e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.069372125087088e-05,
+      "logical_parity_a_residual": 1.71764646152527e-05,
+      "logical_parity_b_residual": 1.71764646152527e-05,
+      "logical_singular_value_min": 0.9999999863471097
+    }
+  ],
+  "power_fits": [
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "monomer_leakage": {
+        "field": "monomer_leakage",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -4.058088163492966,
+        "prefactor": 2.0602643240366747e-05,
+        "r_squared_log": 0.9999436221377036
+      },
+      "logical_deviation": {
+        "field": "logical_deviation_from_zero_leg_schedule",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -2.028233120557907,
+        "prefactor": 8.41502898474441e-05,
+        "r_squared_log": 0.9999462737499214
+      }
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "monomer_leakage": {
+        "field": "monomer_leakage",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -4.058074053221783,
+        "prefactor": 0.00018542006373988473,
+        "r_squared_log": 0.9999436529402678
+      },
+      "logical_deviation": {
+        "field": "logical_deviation_from_zero_leg_schedule",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -2.0282236391370385,
+        "prefactor": 0.0007573352329888551,
+        "r_squared_log": 0.9999463140731867
+      }
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "monomer_leakage": {
+        "field": "monomer_leakage",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -4.057914028373697,
+        "prefactor": 0.002059754439368257,
+        "r_squared_log": 0.999944001452066
+      },
+      "logical_deviation": {
+        "field": "logical_deviation_from_zero_leg_schedule",
+        "fit_subcycles": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "power": -2.0281157266707015,
+        "prefactor": 0.008412639254846959,
+        "r_squared_log": 0.9999467717892181
+      }
+    }
+  ],
+  "combined_leg_hopping_crosstalk_rows": [
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.001,
+      "subcycles": 8,
+      "monomer_leakage": 4.397082051643326e-07,
+      "logical_deviation_from_zero_leg_schedule": 0.00012312023461506506,
+      "logical_parity_a_residual": 6.890004795830177e-05,
+      "logical_parity_b_residual": 6.890004795830177e-05,
+      "logical_singular_value_min": 0.9999997801458713
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.001,
+      "subcycles": 16,
+      "monomer_leakage": 2.754959525022319e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.069370387514983e-05,
+      "logical_parity_a_residual": 1.7176464982240594e-05,
+      "logical_parity_b_residual": 1.7176464982240594e-05,
+      "logical_singular_value_min": 0.9999999862252013
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.001,
+      "subcycles": 32,
+      "monomer_leakage": 1.9738664285150958e-09,
+      "logical_deviation_from_zero_leg_schedule": 7.668176471292308e-06,
+      "logical_parity_a_residual": 4.291101348864783e-06,
+      "logical_parity_b_residual": 4.291101348864783e-06,
+      "logical_singular_value_min": 0.999999999013061
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.01,
+      "subcycles": 8,
+      "monomer_leakage": 4.6433633647298085e-07,
+      "logical_deviation_from_zero_leg_schedule": 0.00012322984283649378,
+      "logical_parity_a_residual": 6.890002202695046e-05,
+      "logical_parity_b_residual": 6.890002202695046e-05,
+      "logical_singular_value_min": 0.9999997678318032
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.01,
+      "subcycles": 16,
+      "monomer_leakage": 6.969127468962724e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.115936087278368e-05,
+      "logical_parity_a_residual": 1.7176478592051334e-05,
+      "logical_parity_b_residual": 1.7176478592051334e-05,
+      "logical_singular_value_min": 0.9999999651543618
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "inactive_channel_coupling_over_g": 0.01,
+      "subcycles": 32,
+      "monomer_leakage": 5.73948170836263e-08,
+      "logical_deviation_from_zero_leg_schedule": 1.0763156017525222e-05,
+      "logical_parity_a_residual": 4.291134373376413e-06,
+      "logical_parity_b_residual": 4.291134373376413e-06,
+      "logical_singular_value_min": 0.9999999713025839
+    }
+  ],
+  "decision": "This exact audit determines whether a specific control echo repairs the bare leg-hopping failure. Passing a finite-block echo would qualify a proposed control resource only; it would still require pulse-error, many-link, and phase-protection audits.",
+  "claim_boundary": "The staggered rail and mediator pi phases are additional ideal controls. This is not a derivation of their experimental availability, nor a topological-phase, 2D-code, braid, non-Abelian, universal or fault-tolerance result."
+}

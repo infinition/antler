@@ -1,0 +1,34 @@
+{
+  "schema": "antler.phase8.local-gauge-constraint-preflight.v1",
+  "parameters": {
+    "physical_rail_charge_sector": "N=1, basis |a>, |b>",
+    "new_resource": "one neutral two-level gauge ancilla at the vertex",
+    "lambda": 3.0,
+    "gauss_generator": "G=(-1)^N_a X_g",
+    "constraint": "H_G=lambda(1-G)/2=lambda/2(1-X_g)+lambda n_a X_g"
+  },
+  "spectrum": {
+    "eigenvalues": [
+      0.0,
+      0.0,
+      3.0,
+      3.0
+    ],
+    "physical_sector_dimension": 2,
+    "gauss_constraint_gap": 3.0
+  },
+  "exact_algebra": {
+    "gauss_squared_residual": 0.0,
+    "h_gauss_commutator_with_gauss": 0.0,
+    "bare_rail_tunnel_anticommutator_with_gauss": 0.0,
+    "dressed_rail_tunnel_commutator_with_gauss": 0.0,
+    "projector_idempotence_residual": 0.0,
+    "projected_bare_rail_tunnel_norm": 2.2371143170757382e-17,
+    "projected_dressed_rail_tunnel_norm": 0.9999999999999998,
+    "projected_dressed_rail_tunnel_nonscalar_norm": 0.9999999999999998,
+    "constraint_decomposition_residual": 0.0
+  },
+  "decision": "A local Gauss constraint can algebraically forbid bare U(1)-conserving rail tunnelling while allowing a gauge-dressed process. The same minimal block is not a topological code: a gauge-invariant local dressed operator remains non-scalar on its two-dimensional physical sector.",
+  "implementation_gate": "Any claimed ANTLER gauge extension must derive the neutral ancilla and the n_a X_g constraint from a declared microscopic resource, preserve the algebra below 1e-12 on its explicit weighted Fock block, and then pass a multi-vertex local-indistinguishability audit.",
+  "claim_boundary": "This is a four-dimensional algebra calibration with an inserted neutral gauge ancilla. It does not derive that ancilla from ANTLER charge-two mediators, establish a T-junction, a thermodynamic phase, fusion, a braid, non-Abelian statistics, universality or fault tolerance."
+}

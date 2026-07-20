@@ -1,0 +1,131 @@
+{
+  "schema": "antler.phase6.iemini-bond-mediator-factorization.v1",
+  "external_target": "Iemini et al. PRL 115, 156402 (2015), local lambda=1 interaction on one bond",
+  "pair_basis_rung_major": [
+    "a0 b0",
+    "a0 a1",
+    "b0 a1",
+    "a0 b1",
+    "b0 b1",
+    "a1 b1"
+  ],
+  "fixed_N2_masks": [
+    3,
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "interaction_matrix_lambda1_minus_lambda0": [
+    [
+      -2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      -4.0,
+      0.0,
+      0.0,
+      -4.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -2.0,
+      -2.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -2.0,
+      -2.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -4.0,
+      0.0,
+      0.0,
+      -4.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -2.0
+    ]
+  ],
+  "interaction_eigenvalues": [
+    -8.0,
+    -4.0,
+    -4.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_semidefinite": true,
+  "interaction_rank": 3,
+  "compact_channel_matrix_C": [
+    [
+      0.0,
+      2.0,
+      0.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.4142135623730951,
+      1.4142135623730951,
+      0.0,
+      0.0
+    ],
+    [
+      1.4142135623730951,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.4142135623730951
+    ]
+  ],
+  "channel_symmetry_charges": [
+    {
+      "channel": 0,
+      "content": "a0a1 + b0b1",
+      "Z2_a": 1,
+      "Z2_b": 1
+    },
+    {
+      "channel": 1,
+      "content": "b0a1 + a0b1",
+      "Z2_a": -1,
+      "Z2_b": -1
+    },
+    {
+      "channel": 2,
+      "content": "a0b0 - a1b1",
+      "Z2_a": -1,
+      "Z2_b": -1
+    }
+  ],
+  "mediator_rule": "With three charge-two mediators of positive detuning Delta and conversion amplitudes G=sqrt(Delta) C, the second-order low-energy interaction is -G^dagger G / Delta = -C^dagger C. The two mixed-pair mediators carry generalized branch-parity charges (-1,-1).",
+  "compact_factorization_frobenius_residual": 1.2560739669470201e-15,
+  "spectral_factorization_frobenius_residual": 1.2560739669470201e-15,
+  "qualification": true,
+  "claim_boundary": "This proves only a local operator factorization of an external published parent interaction. It neither derives that interaction from frozen ANTLER degrees of freedom nor proves a protected phase, braid, or quantum computer."
+}

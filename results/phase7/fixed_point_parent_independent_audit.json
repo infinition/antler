@@ -1,0 +1,569 @@
+{
+  "schema": "antler.phase7.fixed-point-parent-independent-audit.v1",
+  "source": "docs/PHASE7_STATE_TO_HAMILTONIAN_DERIVATION.md, OBC fixed-point H_fix only",
+  "parameters": {
+    "U": 4.0,
+    "Delta": 2.0,
+    "J": 1.0
+  },
+  "basis_crosscheck_against_phase6": {
+    "L": 4,
+    "Q": 4,
+    "exact_match": true,
+    "dimension": 157
+  },
+  "code_frame_parent_residual_frobenius": 0.0,
+  "local_term_algebra": {
+    "term_count": 10,
+    "dimension": 157,
+    "max_term_hermiticity_error": 0.0,
+    "max_term_idempotency_error": 16.97056274847714,
+    "pairwise_commutators": [
+      {
+        "left": "C_0",
+        "right": "C_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          8
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "C_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "C_3",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "n_d_0",
+        "overlapping_support": true,
+        "shared_sites": [
+          8
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "n_d_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "n_d_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "Pi_B_0",
+        "overlapping_support": true,
+        "shared_sites": [
+          0,
+          1
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "Pi_B_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_0",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "C_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          9
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "C_3",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "n_d_0",
+        "overlapping_support": true,
+        "shared_sites": [
+          8
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "n_d_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          9
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "n_d_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "Pi_B_0",
+        "overlapping_support": true,
+        "shared_sites": [
+          2,
+          3
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "Pi_B_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          2,
+          3
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_1",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "C_3",
+        "overlapping_support": true,
+        "shared_sites": [
+          10
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "n_d_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "n_d_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          9
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "n_d_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          10
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "Pi_B_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "Pi_B_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          4,
+          5
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_2",
+        "right": "Pi_B_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          4,
+          5
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "n_d_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "n_d_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "n_d_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          10
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "Pi_B_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "Pi_B_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "C_3",
+        "right": "Pi_B_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          6,
+          7
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_0",
+        "right": "n_d_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_0",
+        "right": "n_d_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_0",
+        "right": "Pi_B_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_0",
+        "right": "Pi_B_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_0",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_1",
+        "right": "n_d_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_1",
+        "right": "Pi_B_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_1",
+        "right": "Pi_B_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_1",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_2",
+        "right": "Pi_B_0",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_2",
+        "right": "Pi_B_1",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "n_d_2",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "Pi_B_0",
+        "right": "Pi_B_1",
+        "overlapping_support": true,
+        "shared_sites": [
+          2,
+          3
+        ],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "Pi_B_0",
+        "right": "Pi_B_2",
+        "overlapping_support": false,
+        "shared_sites": [],
+        "commutator_frobenius": 0.0
+      },
+      {
+        "left": "Pi_B_1",
+        "right": "Pi_B_2",
+        "overlapping_support": true,
+        "shared_sites": [
+          4,
+          5
+        ],
+        "commutator_frobenius": 0.0
+      }
+    ],
+    "max_overlapping_commutator": 0.0,
+    "max_disjoint_commutator": 0.0,
+    "all_terms_are_projectors_at_1e_minus_10": false,
+    "all_terms_commute_at_1e_minus_10": true
+  },
+  "symmetry_audit_in_fixed_Q_sector": {
+    "symmetries": [
+      {
+        "name": "Q_fixed_sector",
+        "commutator_frobenius": 0.0
+      },
+      {
+        "name": "P_a",
+        "commutator_frobenius": 0.0
+      },
+      {
+        "name": "P_b",
+        "commutator_frobenius": 0.0
+      }
+    ],
+    "max_commutator_frobenius": 0.0,
+    "all_commute_at_1e_minus_10": true
+  },
+  "edge_vs_bulk_X_metrics": {
+    "left_X_0": {
+      "operator_on_code_frobenius": 1.4142135623730951,
+      "logical_action_frobenius": 1.4142135623730951,
+      "logical_leakage_amplitude_frobenius": 0.0,
+      "full_commutator_on_code_frobenius": 0.0,
+      "code_commutator_action_frobenius": 0.0,
+      "code_commutator_action_normalized": 0.0
+    },
+    "bulk_X_2": {
+      "operator_on_code_frobenius": 1.4142135623730951,
+      "logical_action_frobenius": 1.4142135623730951,
+      "logical_leakage_amplitude_frobenius": 0.0,
+      "full_commutator_on_code_frobenius": 0.0,
+      "code_commutator_action_frobenius": 0.0,
+      "code_commutator_action_normalized": 0.0
+    }
+  },
+  "full_local_probe_indistinguishability": {
+    "operators": [
+      {
+        "name": "X_0",
+        "projected_non_scalar_frobenius": 1.4142135623730951
+      },
+      {
+        "name": "Z_0",
+        "projected_non_scalar_frobenius": 0.0
+      },
+      {
+        "name": "n_a_0",
+        "projected_non_scalar_frobenius": 0.0
+      }
+    ],
+    "worst_projected_non_scalar_frobenius": 1.4142135623730951
+  },
+  "symmetry_preserving_local_probe_indistinguishability": {
+    "operators": [
+      {
+        "name": "Z_0",
+        "projected_non_scalar_frobenius": 0.0
+      },
+      {
+        "name": "n_a_0",
+        "projected_non_scalar_frobenius": 0.0
+      }
+    ],
+    "worst_projected_non_scalar_frobenius": 0.0
+  },
+  "projected_local_matrices": {
+    "P_X_0_P": {
+      "real": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "P_X_2_P": {
+      "real": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "P_Z_0_P": {
+      "real": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "open_boundary_spectra": [
+    {
+      "L": 4,
+      "Q": 4,
+      "lowest_neutral_energies": [
+        -8.186678133957079e-18,
+        1.4302131606607936e-16,
+        0.9999999999999962,
+        0.9999999999999984
+      ],
+      "logical_splitting": 1.5120799420003643e-16,
+      "neutral_gap_above_doublet": 0.9999999999999961,
+      "ground_energy_average": 6.741731896606115e-17,
+      "addition_energy": 3.999999999999994,
+      "removal_energy": 3.999999999999998
+    },
+    {
+      "L": 6,
+      "Q": 6,
+      "lowest_neutral_energies": [
+        -7.598473717718634e-15,
+        7.212049171846741e-15,
+        0.9999999999999747,
+        0.9999999999999867
+      ],
+      "logical_splitting": 1.4810522889565376e-14,
+      "neutral_gap_above_doublet": 0.9999999999999675,
+      "ground_energy_average": -1.9321227293594645e-16,
+      "addition_energy": 3.9999999999999947,
+      "removal_energy": 4.000000000000009
+    },
+    {
+      "L": 8,
+      "Q": 8,
+      "lowest_neutral_energies": [
+        -2.1919019038787534e-15,
+        3.729517887690195e-15,
+        0.9999999999999734,
+        0.9999999999999952
+      ],
+      "logical_splitting": 5.921419791568948e-15,
+      "neutral_gap_above_doublet": 0.9999999999999696,
+      "ground_energy_average": 7.688079919057208e-16,
+      "addition_energy": 4.00000000000002,
+      "removal_energy": 4.000000000000008
+    }
+  ],
+  "periodic_boundary_status": "not audited: the supplied OBC mode definition has L-1 mediators and does not specify the extra wraparound mediator/cell constraint required for a PBC Hamiltonian",
+  "decision": "The fixed-point OBC parent has the advertised finite-size doublet and flat gaps, but fails full local indistinguishability: X_j is a local logical operator at both edge and bulk. It is therefore an Ising symmetry-restricted cat/SSB benchmark, not a localized-edge or intrinsically topological code.",
+  "claim_boundary": "This independently audits the exactly soluble OBC parent, not the Schrieffer-Wolff microscopic Hamiltonian. The run does not test a braid, a non-Abelian phase, or an experimentally derived native realization."
+}

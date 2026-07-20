@@ -1,0 +1,63 @@
+{
+  "schema": "antler.phase8b.shared-matter-c3-walker-preflight.v1",
+  "parameters": {
+    "rail_qubits": 3,
+    "walker_sites": 3,
+    "low_walker_site": "d0",
+    "virtual_walker_site_detuning": 0.5,
+    "pair_detuning": 10.0,
+    "fixed_total_charge": 5,
+    "target": "XXX",
+    "control_contract": "Each oriented edge owns an independent reservoir pair and two independently phased conversions; one shared walker site therefore has separate programmable phases for its two incident reservoir channels."
+  },
+  "dimensions": {
+    "fixed_charge": 1488,
+    "low_code": 8
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "target_xxx_coefficient": 0.12605858359208222,
+      "maximum_unwanted_non_scalar_coefficient": 0.035626801047526246,
+      "largest_unwanted_non_scalar_pauli": "XII",
+      "unwanted_over_target": 0.28262098488122295,
+      "echoed_schur_hermiticity_residual": 4.462523459318059e-16
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "target_xxx_coefficient": -0.6120687392021702,
+      "maximum_unwanted_non_scalar_coefficient": 0.6220474982669089,
+      "largest_unwanted_non_scalar_pauli": "XIX",
+      "unwanted_over_target": 1.0163033306973754,
+      "echoed_schur_hermiticity_residual": 2.296847253011292e-15
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "target_xxx_coefficient": -0.0004237079375948133,
+      "maximum_unwanted_non_scalar_coefficient": 0.0016651029011475848,
+      "largest_unwanted_non_scalar_pauli": "XIX",
+      "unwanted_over_target": 3.9298364590467085,
+      "echoed_schur_hermiticity_residual": 1.87945750795834e-18
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "target_xxx_coefficient": -4.74273640055973e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0003952205607414754,
+      "largest_unwanted_non_scalar_pauli": "XIX",
+      "unwanted_over_target": 8.333175773691156,
+      "echoed_schur_hermiticity_residual": 6.454190968453352e-19
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "target_xxx_coefficient": -3.1438560039958035e-06,
+      "maximum_unwanted_non_scalar_coefficient": 6.980147979251769e-05,
+      "largest_unwanted_non_scalar_pauli": "XIX",
+      "unwanted_over_target": 22.202505364050023,
+      "echoed_schur_hermiticity_residual": 1.0365690064093646e-19
+    }
+  ],
+  "deep_sw_xxx_power": 7.0493540354851225,
+  "deep_sw_worst_unwanted_power": 4.556508927943657,
+  "decision": "Direct C3 composition is rejected at the registered detuning: it generates XXX but its leading non-scalar companion is larger at every deep registered point.",
+  "claim_boundary": "This rejects the registered direct C3 detuning/control assignment only. It does not refute the one-link compiler, an explicitly derived counterterm/refocusing construction, a different walker encoding, a four-link stabilizer, a 2D code, a defect, fusion, non-Abelian braid, universality or fault tolerance."
+}

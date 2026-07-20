@@ -1,0 +1,207 @@
+{
+  "schema": "antler.phase8.direct-channel-common-parity-audit.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "mediator_slots": "[link0_slot0, link0_slot1, link1_slot0, link1_slot1]",
+    "segments": {
+      "H0": "(aa-bb)/sqrt(2), (aa+bb)/sqrt(2)",
+      "H1": "(aa-bb)/sqrt(2), (ab+ba)/sqrt(2)"
+    }
+  },
+  "all_assignments": [
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.0,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.07053378178053225,
+      "normalized_h1_commutator_frobenius": 0.07053378178053225
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.07053378178053225,
+      "normalized_h1_commutator_frobenius": 0.12216809369385784
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.07053378178053225,
+      "normalized_h1_commutator_frobenius": 0.07053378178053225
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 6.107915550204458e-18
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.12216809369385784,
+      "normalized_h1_commutator_frobenius": 0.07053378178053225
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.07053378178053225,
+      "normalized_h1_commutator_frobenius": 0.12216809369385784
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 0.1410675635610645
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.12216809369385784,
+      "normalized_h1_commutator_frobenius": 0.12216809369385784
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.09974983079949301,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.12216809369385784,
+      "normalized_h1_commutator_frobenius": 0.07053378178053225
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "normalized_h0_commutator_frobenius": 0.12216809369385784,
+      "normalized_h1_commutator_frobenius": 0.12216809369385784
+    },
+    {
+      "mediator_z2_charges_by_link_slot": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normalized_h0_commutator_frobenius": 0.1410675635610645,
+      "normalized_h1_commutator_frobenius": 0.09974983079949301
+    }
+  ],
+  "exact_assignments_for_h0": [
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "exact_assignments_for_h1": [
+    [
+      0,
+      1,
+      0,
+      1
+    ]
+  ],
+  "common_exact_assignments": [],
+  "best_compromise_assignment": {
+    "mediator_z2_charges_by_link_slot": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "normalized_h0_commutator_frobenius": 0.07053378178053225,
+    "normalized_h1_commutator_frobenius": 0.07053378178053225
+  },
+  "decision": "A common exact microscopic rail-parity symmetry exists only if the same fixed mediator Z2 assignment commutes with both H0 and H1. An empty intersection is a resource-accounting obstruction for the reused-two-mediator direct-channel implementation, not a no-go for an architecture with separately parity-charged mediator species or another symmetry mechanism.",
+  "claim_boundary": "This audit addresses the explicit direct-channel microscopic block only. It does not decide the existence of a T-junction fusion space, a thermodynamic phase, a braid, non-Abelian statistics, universality or fault tolerance."
+}

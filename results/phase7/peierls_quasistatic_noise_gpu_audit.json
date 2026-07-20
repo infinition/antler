@@ -1,0 +1,263 @@
+{
+  "schema": "antler.phase7d.peierls-quasistatic-noise-gpu-audit.v1",
+  "method": "exact 472-state CUDA spectral propagation, complex128, seeded common quasi-static control offsets",
+  "device": "NVIDIA GeForce RTX 4070 Ti",
+  "samples_per_noise_level": 50,
+  "seed": 20260719,
+  "noise_model": {
+    "phase_plateau_error": "common normal offset with std = sigma*pi radians on every pi plateau in the four-pulse schedule",
+    "signed_time_imbalance": "common normal offset with std = sigma, preserving each subcycle duration",
+    "correlation": "the two offsets are independent; each offset is common to all legs, links and subcycles within one realization"
+  },
+  "registered_local_target": {
+    "max_monomer_leakage": 0.0001,
+    "max_logical_parity_residual": 0.0001,
+    "max_logical_deviation": 0.0001,
+    "min_logical_singular_value": 0.9999
+  },
+  "rows": [
+    {
+      "sigma_fraction": 0.01,
+      "sigma_percent": 1.0,
+      "phase_error_degrees": {
+        "mean": -0.10183902795808823,
+        "variance": 2.4396020406792776,
+        "minimum": -2.952773787840005,
+        "maximum": 3.401924848580771
+      },
+      "time_imbalance_percent": {
+        "mean": -0.1250554016180754,
+        "variance": 1.0542593447312125,
+        "minimum": -2.5354308522951237,
+        "maximum": 2.1281091289795784
+      },
+      "average_subspace_fidelity": {
+        "mean": 0.9999983879446244,
+        "variance": 2.448661963346013e-12,
+        "minimum": 0.9999935098880867,
+        "maximum": 0.999999957307454
+      },
+      "monomer_leakage": {
+        "mean": 6.044918589959954e-06,
+        "variance": 3.516959515494059e-11,
+        "minimum": 1.0480371571846047e-07,
+        "maximum": 2.4548826435933518e-05
+      },
+      "logical_deviation": {
+        "mean": 2.2463759101753164e-05,
+        "variance": 4.476681241115442e-11,
+        "minimum": 1.2060811570865983e-05,
+        "maximum": 3.11015591150487e-05
+      },
+      "worst_logical_parity_residual": {
+        "mean": 1.3509899437160722e-05,
+        "variance": 8.666531474838778e-12,
+        "minimum": 8.736817346396269e-06,
+        "maximum": 2.0032480710879286e-05
+      },
+      "logical_singular_value_min": {
+        "mean": 0.9999969775317509,
+        "variance": 8.792486584485486e-12,
+        "minimum": 0.9999877255114469,
+        "maximum": 0.9999999475981557
+      },
+      "registered_target_pass_fraction": 1.0,
+      "registered_target_pass_count": 50
+    },
+    {
+      "sigma_fraction": 0.03,
+      "sigma_percent": 3.0,
+      "phase_error_degrees": {
+        "mean": -0.30551708387426474,
+        "variance": 21.956418366113493,
+        "minimum": -8.858321363520014,
+        "maximum": 10.205774545742312
+      },
+      "time_imbalance_percent": {
+        "mean": -0.3751662048542262,
+        "variance": 9.488334102580914,
+        "minimum": -7.6062925568853705,
+        "maximum": 6.384327386938734
+      },
+      "average_subspace_fidelity": {
+        "mean": 0.9999858424094228,
+        "variance": 1.9462562439458515e-10,
+        "minimum": 0.9999417526791038,
+        "maximum": 0.9999998858471806
+      },
+      "monomer_leakage": {
+        "mean": 5.355566863447241e-05,
+        "variance": 2.7894664042678975e-09,
+        "minimum": 3.697267273317325e-07,
+        "maximum": 0.00022032274731151495
+      },
+      "logical_deviation": {
+        "mean": 8.843788688099076e-05,
+        "variance": 9.021230008562127e-09,
+        "minimum": 1.2008617484664753e-05,
+        "maximum": 0.0004130855168427293
+      },
+      "worst_logical_parity_residual": {
+        "mean": 6.220258965370154e-05,
+        "variance": 4.161514053193777e-09,
+        "minimum": 9.249419099556384e-06,
+        "maximum": 0.0002781266150394285
+      },
+      "logical_singular_value_min": {
+        "mean": 0.9999732214584232,
+        "variance": 6.974281480829396e-10,
+        "minimum": 0.9998898325578869,
+        "maximum": 0.999999815136625
+      },
+      "registered_target_pass_fraction": 0.7,
+      "registered_target_pass_count": 35
+    },
+    {
+      "sigma_fraction": 0.05,
+      "sigma_percent": 5.0,
+      "phase_error_degrees": {
+        "mean": -0.509195139790441,
+        "variance": 60.990051016981944,
+        "minimum": -14.763868939200025,
+        "maximum": 17.009624242903854
+      },
+      "time_imbalance_percent": {
+        "mean": -0.6252770080903768,
+        "variance": 26.35648361828032,
+        "minimum": -12.677154261475618,
+        "maximum": 10.640545644897891
+      },
+      "average_subspace_fidelity": {
+        "mean": 0.999960860920272,
+        "variance": 1.486902626098791e-09,
+        "minimum": 0.9998383729338419,
+        "maximum": 0.999999751266297
+      },
+      "monomer_leakage": {
+        "mean": 0.0001480042660120529,
+        "variance": 2.1231857582997245e-08,
+        "minimum": 8.794356819483627e-07,
+        "maximum": 0.0006101114919214162
+      },
+      "logical_deviation": {
+        "mean": 0.0002692934315737845,
+        "variance": 8.088810850511317e-08,
+        "minimum": 1.1472926166358385e-05,
+        "maximum": 0.0011917468165940268
+      },
+      "worst_logical_parity_residual": {
+        "mean": 0.00018309814776017066,
+        "variance": 3.5747569494306314e-08,
+        "minimum": 9.251248273718167e-06,
+        "maximum": 0.0007927868213229932
+      },
+      "logical_singular_value_min": {
+        "mean": 0.999925992473811,
+        "variance": 5.309254167476329e-09,
+        "minimum": 0.9996948977103326,
+        "maximum": 0.9999995602820971
+      },
+      "registered_target_pass_fraction": 0.4,
+      "registered_target_pass_count": 20
+    },
+    {
+      "sigma_fraction": 0.1,
+      "sigma_percent": 10.0,
+      "phase_error_degrees": {
+        "mean": -1.018390279580882,
+        "variance": 243.96020406792778,
+        "minimum": -29.52773787840005,
+        "maximum": 34.01924848580771
+      },
+      "time_imbalance_percent": {
+        "mean": -1.2505540161807536,
+        "variance": 105.42593447312127,
+        "minimum": -25.354308522951236,
+        "maximum": 21.281091289795782
+      },
+      "average_subspace_fidelity": {
+        "mean": 0.9998452400163861,
+        "variance": 2.2914576606519885e-08,
+        "minimum": 0.9993678334688632,
+        "maximum": 0.9999991386810831
+      },
+      "monomer_leakage": {
+        "mean": 0.0005824882959065574,
+        "variance": 3.21844837071311e-07,
+        "minimum": 3.2019115163272457e-06,
+        "maximum": 0.0023620394346029108
+      },
+      "logical_deviation": {
+        "mean": 0.001129779795416421,
+        "variance": 1.2696170812651403e-06,
+        "minimum": 1.7920137826515183e-05,
+        "maximum": 0.004687384917549755
+      },
+      "worst_logical_parity_residual": {
+        "mean": 0.000753054741874428,
+        "variance": 5.559661352862328e-07,
+        "minimum": 1.0824540781553029e-05,
+        "maximum": 0.0031028442426204207
+      },
+      "logical_singular_value_min": {
+        "mean": 0.9997086731479279,
+        "variance": 8.053689270665936e-08,
+        "minimum": 0.9988182820540449,
+        "maximum": 0.9999983990429923
+      },
+      "registered_target_pass_fraction": 0.16,
+      "registered_target_pass_count": 8
+    },
+    {
+      "sigma_fraction": 0.2,
+      "sigma_percent": 20.0,
+      "phase_error_degrees": {
+        "mean": -2.036780559161764,
+        "variance": 975.8408162717111,
+        "minimum": -59.0554757568001,
+        "maximum": 68.03849697161542
+      },
+      "time_imbalance_percent": {
+        "mean": -2.501108032361507,
+        "variance": 421.7037378924851,
+        "minimum": -50.70861704590247,
+        "maximum": 42.562182579591564
+      },
+      "average_subspace_fidelity": {
+        "mean": 0.9994064775506131,
+        "variance": 3.1527298727784536e-07,
+        "minimum": 0.9977320639871614,
+        "maximum": 0.9999967303865228
+      },
+      "monomer_leakage": {
+        "mean": 0.002195436774285178,
+        "variance": 4.189045657569466e-06,
+        "minimum": 1.2330389122119742e-05,
+        "maximum": 0.008192452133210314
+      },
+      "logical_deviation": {
+        "mean": 0.0043428566650759205,
+        "variance": 1.6654787413098452e-05,
+        "minimum": 1.2328542302719196e-05,
+        "maximum": 0.016340554593923407
+      },
+      "worst_logical_parity_residual": {
+        "mean": 0.0028759129054676,
+        "variance": 7.26113092478848e-06,
+        "minimum": 9.624022080768605e-06,
+        "maximum": 0.010784125866515146
+      },
+      "logical_singular_value_min": {
+        "mean": 0.9989011525073016,
+        "variance": 1.0507453013174153e-06,
+        "minimum": 0.9958953498569968,
+        "maximum": 0.9999938347864429
+      },
+      "registered_target_pass_fraction": 0.04,
+      "registered_target_pass_count": 2
+    }
+  ],
+  "run_state": "complete",
+  "wall_clock_seconds": 675.0647326000035,
+  "claim_boundary": "This is a local quasi-static global-control noise test only. It does not establish bandwidth, independent link noise, cycle-to-cycle noise, calibration, full-ladder dynamics, a protected phase, edge modes, a 2D code, braid, non-Abelian statistics, universality or fault tolerance."
+}

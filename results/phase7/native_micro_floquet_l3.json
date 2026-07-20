@@ -1,0 +1,82 @@
+{
+  "schema": "antler.phase8.native-micro-floquet-l3.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "theta": "pi",
+    "t_leg": 1.0,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "alpha": 0.5,
+    "eta": "pi/2",
+    "mediators": "one independent charge-two mediator per rail per link"
+  },
+  "physical_dimension": 19,
+  "low_frame_dimension": 15,
+  "rail_pulse_low_frame_residual": 0.0,
+  "minimum_bare_to_dressed_frame_overlap": 0.9987585064085267,
+  "rows": [
+    {
+      "period": 0.2,
+      "low_frame_leakage_worst": 0.017940824477598902,
+      "polar_logical_vs_target_distance": 0.006080997139794685,
+      "logical_branch_parity_commutator_normalized": 0.0046639604932254474,
+      "raw_logical_min_singular_value": 0.9909889885979593
+    },
+    {
+      "period": 0.1,
+      "low_frame_leakage_worst": 0.009011011402043355,
+      "polar_logical_vs_target_distance": 0.001919920608178584,
+      "logical_branch_parity_commutator_normalized": 0.0017943982219269963,
+      "raw_logical_min_singular_value": 0.995484298519047
+    },
+    {
+      "period": 0.05,
+      "low_frame_leakage_worst": 0.017802900364063224,
+      "polar_logical_vs_target_distance": 0.00260010387219291,
+      "logical_branch_parity_commutator_normalized": 0.004637335897656696,
+      "raw_logical_min_singular_value": 0.991058575279957
+    },
+    {
+      "period": 0.025,
+      "low_frame_leakage_worst": 0.00894142472004372,
+      "polar_logical_vs_target_distance": 0.0013904084746007644,
+      "logical_branch_parity_commutator_normalized": 0.0017635591566439212,
+      "raw_logical_min_singular_value": 0.9955192490755551
+    }
+  ],
+  "dressed_rows": [
+    {
+      "period": 0.2,
+      "dressed_frame_leakage_worst": 0.018330979312048426,
+      "dressed_polar_logical_vs_target_distance": 0.005489810009893584,
+      "dressed_logical_branch_parity_commutator_normalized": 0.0011445775678850614,
+      "dressed_raw_min_singular_value": 0.9907921177966423
+    },
+    {
+      "period": 0.1,
+      "dressed_frame_leakage_worst": 0.007272667434391736,
+      "dressed_polar_logical_vs_target_distance": 0.0020775465642671486,
+      "dressed_logical_branch_parity_commutator_normalized": 0.002382400463263682,
+      "dressed_raw_min_singular_value": 0.9963570306700358
+    },
+    {
+      "period": 0.05,
+      "dressed_frame_leakage_worst": 0.017704294014273893,
+      "dressed_polar_logical_vs_target_distance": 0.0011226713648748129,
+      "dressed_logical_branch_parity_commutator_normalized": 0.001615793899752347,
+      "dressed_raw_min_singular_value": 0.9911083220242508
+    },
+    {
+      "period": 0.025,
+      "dressed_frame_leakage_worst": 0.0067058239323699404,
+      "dressed_polar_logical_vs_target_distance": 0.0016218778356643473,
+      "dressed_logical_branch_parity_commutator_normalized": 0.0024570109150257174,
+      "dressed_raw_min_singular_value": 0.9966414480983767
+    }
+  ],
+  "decision": "Exact L=3 microscopic composition audit with an ideal switched rung pulse.",
+  "claim_boundary": "This small coherent block does not establish many-link convergence, physical pulse switching, noise robustness, a thermodynamic phase, braid, non-Abelian statistics, universality, or fault tolerance."
+}

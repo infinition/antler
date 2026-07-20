@@ -1,0 +1,173 @@
+{
+  "schema": "antler.phase8b.two-block-pair-transport-audit.v1",
+  "parameters": {
+    "blocks": 2,
+    "block_size_b": 2,
+    "matter_modes": 8,
+    "fixed_matter_particle_number": 2,
+    "detuning": 10.0,
+    "pair_transfer": 0.05,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "gauge_representation": "X eigenbasis on left, middle, right boundary qubits",
+    "allowed_boundary_process": "coherent two-a-particle transfer only",
+    "negative_control": "single a-particle boundary hop",
+    "new_inserted_primitive": "neutral walker hop conditioned on (1-2 n_a,j)"
+  },
+  "dimensions": {
+    "dimension": 3584,
+    "matter_dimension": 28
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "coupling": 2.0,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -1.5391252930760588,
+        "G0_-1_G1_+1": -1.5897211341769495,
+        "G0_+1_G1_-1": -1.5897211341769506,
+        "G0_+1_G1_+1": -1.6403218474086831
+      },
+      "minimum_gauss_sector_gap_from_physical": 0.05060071323173254,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "coupling": 1.5,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.912780491200217,
+        "G0_-1_G1_+1": -0.9303839290996014,
+        "G0_+1_G1_-1": -0.9303839290996025,
+        "G0_+1_G1_+1": -0.9479879720655969
+      },
+      "minimum_gauss_sector_gap_from_physical": 0.017604042965994382,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "coupling": 1.0,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.4423048454132664,
+        "G0_-1_G1_+1": -0.44603830831374536,
+        "G0_+1_G1_-1": -0.44603830831374436,
+        "G0_+1_G1_+1": -0.4497717987315356
+      },
+      "minimum_gauss_sector_gap_from_physical": 0.003733490417790253,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "coupling": 0.75,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.2725241501304375,
+        "G0_-1_G1_+1": -0.27373604220515974,
+        "G0_+1_G1_-1": -0.273736042205162,
+        "G0_+1_G1_+1": -0.27494793718520366
+      },
+      "minimum_gauss_sector_gap_from_physical": 0.00121189498004165,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "coupling": 0.5,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.14950493836207568,
+        "G0_-1_G1_+1": -0.14974879333842808,
+        "G0_+1_G1_-1": -0.14974879333842495,
+        "G0_+1_G1_+1": -0.14999264843250465
+      },
+      "minimum_gauss_sector_gap_from_physical": 0.00024385509407656714,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "coupling": 0.375,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.10609268055938202,
+        "G0_-1_G1_+1": -0.10617034246143622,
+        "G0_+1_G1_-1": -0.10617034246143575,
+        "G0_+1_G1_+1": -0.10624800437542928
+      },
+      "minimum_gauss_sector_gap_from_physical": 7.766191399305455e-05,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "coupling": 0.25,
+      "sector_ground_energies": {
+        "G0_-1_G1_-1": -0.07496882788171425,
+        "G0_-1_G1_+1": -0.07498424033483043,
+        "G0_+1_G1_-1": -0.07498424033483211,
+        "G0_+1_G1_+1": -0.07499965278841067
+      },
+      "minimum_gauss_sector_gap_from_physical": 1.541245357855603e-05,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_transfer_g0_commutator_frobenius": 0.0,
+      "pair_transfer_g1_commutator_frobenius": 0.0,
+      "physical_pair_transfer_frobenius": 0.4,
+      "single_boundary_g0_anticommutator_frobenius": 0.0,
+      "single_boundary_g1_anticommutator_frobenius": 0.0,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    }
+  ],
+  "deep_sw_minimum_gauss_gap_power": 3.9732597396881806,
+  "decision": "The two-block inserted-primitive model has exact G0 and G1 conservation while its pair-only boundary transfer acts inside the physical sector. The negative-control single boundary hop is exactly sector-changing. This is a transport-algebra gate, not evidence for a paired phase or a native hardware implementation.",
+  "claim_boundary": "The inter-block pair transfer is inserted as an effective coherent term. This audit does not derive it from the charge-two mediators in the gauged architecture, demonstrate phase stability, local indistinguishability, a thermodynamic gap, T-junction holonomies, fusion or non-Abelian braid statistics."
+}

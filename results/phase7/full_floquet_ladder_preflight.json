@@ -1,0 +1,410 @@
+{
+  "schema": "antler.phase7d.full-floquet-ladder-preflight.v1",
+  "citation": "Defossez et al., arXiv:2412.14886 (2025), high-frequency H_eff=alpha H0+(1-alpha)P^dag H0P at eta=pi/2",
+  "model": {
+    "H0": "intraleg hopping plus attractive intraleg nearest-neighbor density interaction",
+    "P": "global rail rotation exp(-i eta Jx)",
+    "effective_model_content": "includes the pair hopping, interleg density and swapping processes induced by the rotation"
+  },
+  "rows": [
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -0.5,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.8304215996275306,
+      "sector_isolation_gap": 0.13090688923214255,
+      "split_over_gap": 6.343605019556381,
+      "parity_commutator_frobenius_max": 1.1716667036146508e-15,
+      "local_transfer_by_rung": [
+        0.1546613433965876,
+        0.16488940109286881,
+        0.16488940109286876,
+        0.15466134339658738
+      ],
+      "edge_transfer_mean": 0.1546613433965875,
+      "bulk_transfer_max": 0.16488940109286881,
+      "bulk_to_edge_transfer_ratio": 1.0661319594907062
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -0.5,
+        "alpha": 0.5,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.830421599627531,
+      "sector_isolation_gap": 0.08982020246124156,
+      "split_over_gap": 9.245376617647544,
+      "parity_commutator_frobenius_max": 7.811111357431004e-16,
+      "local_transfer_by_rung": [
+        0.15466134339658824,
+        0.16488940109286934,
+        0.1648894010928696,
+        0.15466134339658802
+      ],
+      "edge_transfer_mean": 0.15466134339658813,
+      "bulk_transfer_max": 0.1648894010928696,
+      "bulk_to_edge_transfer_ratio": 1.0661319594907068
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -0.5,
+        "alpha": 0.75,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.8304215996275306,
+      "sector_isolation_gap": 0.046215679290288136,
+      "split_over_gap": 17.96839540995424,
+      "parity_commutator_frobenius_max": 3.905555678715502e-16,
+      "local_transfer_by_rung": [
+        0.15466134339658658,
+        0.16488940109286798,
+        0.16488940109286787,
+        0.1546613433965867
+      ],
+      "edge_transfer_mean": 0.15466134339658663,
+      "bulk_transfer_max": 0.16488940109286798,
+      "bulk_to_edge_transfer_ratio": 1.0661319594907068
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.0,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.6180339887498945,
+      "sector_isolation_gap": 0.30220781333887725,
+      "split_over_gap": 2.0450629052957976,
+      "parity_commutator_frobenius_max": 1.2237659599594665e-15,
+      "local_transfer_by_rung": [
+        0.1496742193425324,
+        0.17056933781889516,
+        0.17056933781889505,
+        0.1496742193425321
+      ],
+      "edge_transfer_mean": 0.14967421934253225,
+      "bulk_transfer_max": 0.17056933781889516,
+      "bulk_to_edge_transfer_ratio": 1.1396039917104497
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.0,
+        "alpha": 0.5,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.6180339887498949,
+      "sector_isolation_gap": 0.2123876108776348,
+      "split_over_gap": 2.909934276279277,
+      "parity_commutator_frobenius_max": 8.15843973306311e-16,
+      "local_transfer_by_rung": [
+        0.1496742193425324,
+        0.17056933781889538,
+        0.17056933781889544,
+        0.14967421934253247
+      ],
+      "edge_transfer_mean": 0.14967421934253244,
+      "bulk_transfer_max": 0.17056933781889544,
+      "bulk_to_edge_transfer_ratio": 1.1396039917104501
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.0,
+        "alpha": 0.75,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.6180339887498945,
+      "sector_isolation_gap": 0.11181015969105257,
+      "split_over_gap": 5.52752979208339,
+      "parity_commutator_frobenius_max": 4.079219866531555e-16,
+      "local_transfer_by_rung": [
+        0.1496742193425324,
+        0.17056933781889533,
+        0.17056933781889533,
+        0.1496742193425324
+      ],
+      "edge_transfer_mean": 0.1496742193425324,
+      "bulk_transfer_max": 0.17056933781889533,
+      "bulk_to_edge_transfer_ratio": 1.13960399171045
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.5,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.36019433845430493,
+      "sector_isolation_gap": 0.5164429404635129,
+      "split_over_gap": 0.6974523422297665,
+      "parity_commutator_frobenius_max": 1.4130832128153975e-15,
+      "local_transfer_by_rung": [
+        0.14341589476582828,
+        0.174576761199367,
+        0.17457676119936683,
+        0.14341589476582794
+      ],
+      "edge_transfer_mean": 0.1434158947658281,
+      "bulk_transfer_max": 0.174576761199367,
+      "bulk_to_edge_transfer_ratio": 1.2172762404363817
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.5,
+        "alpha": 0.5,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.36019433845430493,
+      "sector_isolation_gap": 0.3696498099866421,
+      "split_over_gap": 0.9744204615371537,
+      "parity_commutator_frobenius_max": 9.42055475210265e-16,
+      "local_transfer_by_rung": [
+        0.14341589476582806,
+        0.17457676119936671,
+        0.17457676119936688,
+        0.143415894765828
+      ],
+      "edge_transfer_mean": 0.14341589476582803,
+      "bulk_transfer_max": 0.17457676119936688,
+      "bulk_to_edge_transfer_ratio": 1.2172762404363815
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -1.5,
+        "alpha": 0.75,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.3601943384543045,
+      "sector_isolation_gap": 0.19764728104797902,
+      "split_over_gap": 1.8224097824389855,
+      "parity_commutator_frobenius_max": 4.710277376051325e-16,
+      "local_transfer_by_rung": [
+        0.14341589476582797,
+        0.17457676119936685,
+        0.17457676119936688,
+        0.143415894765828
+      ],
+      "edge_transfer_mean": 0.143415894765828,
+      "bulk_transfer_max": 0.17457676119936688,
+      "bulk_to_edge_transfer_ratio": 1.217276240436382
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.058658296600504034,
+      "sector_isolation_gap": 0.36019433845430626,
+      "split_over_gap": 0.1628518006480142,
+      "parity_commutator_frobenius_max": 1.4130832128153975e-15,
+      "local_transfer_by_rung": [
+        0.13648120813489345,
+        0.1767731709318485,
+        0.1767731709318479,
+        0.13648120813489312
+      ],
+      "edge_transfer_mean": 0.13648120813489328,
+      "bulk_transfer_max": 0.1767731709318485,
+      "bulk_to_edge_transfer_ratio": 1.2952198573530507
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.5,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.05865829660050492,
+      "sector_isolation_gap": 0.5593756921493913,
+      "split_over_gap": 0.10486386416812545,
+      "parity_commutator_frobenius_max": 9.42055475210265e-16,
+      "local_transfer_by_rung": [
+        0.13648120813489314,
+        0.1767731709318482,
+        0.1767731709318484,
+        0.13648120813489342
+      ],
+      "edge_transfer_mean": 0.13648120813489328,
+      "bulk_transfer_max": 0.1767731709318484,
+      "bulk_to_edge_transfer_ratio": 1.29521985735305
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.75,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.05865829660050448,
+      "sector_isolation_gap": 0.30153604185379956,
+      "split_over_gap": 0.19453162626889256,
+      "parity_commutator_frobenius_max": 4.710277376051325e-16,
+      "local_transfer_by_rung": [
+        0.1364812081348931,
+        0.1767731709318482,
+        0.1767731709318483,
+        0.13648120813489312
+      ],
+      "edge_transfer_mean": 0.13648120813489312,
+      "bulk_transfer_max": 0.1767731709318483,
+      "bulk_to_edge_transfer_ratio": 1.295219857353051
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "filling": 0.3333333333333333,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.5,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.024841987816742517,
+      "sector_isolation_gap": 0.4312118578191253,
+      "split_over_gap": 0.05760970475715131,
+      "parity_commutator_frobenius_max": 1.5530050663106788e-14,
+      "local_transfer_by_rung": [
+        0.10702409930783657,
+        0.16809732999671717,
+        0.04588572225446353,
+        0.045885722254463544,
+        0.16809732999671725,
+        0.10702409930783645
+      ],
+      "edge_transfer_mean": 0.10702409930783652,
+      "bulk_transfer_max": 0.16809732999671725,
+      "bulk_to_edge_transfer_ratio": 1.570649331168058
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "filling": 0.3333333333333333,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.025229929871288803,
+      "sector_isolation_gap": 0.3043124425001098,
+      "split_over_gap": 0.08290797991698844,
+      "parity_commutator_frobenius_max": 2.3295075994660184e-14,
+      "local_transfer_by_rung": [
+        0.10630976093137451,
+        0.16822391880364254,
+        0.04498109073600674,
+        0.04498109073600693,
+        0.16822391880364226,
+        0.10630976093137454
+      ],
+      "edge_transfer_mean": 0.10630976093137452,
+      "bulk_transfer_max": 0.16822391880364254,
+      "bulk_to_edge_transfer_ratio": 1.582393915006874
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "filling": 0.3333333333333333,
+      "parameters": {
+        "u0_attractive_nn": -2.0,
+        "alpha": 0.75,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.02522992987128969,
+      "sector_isolation_gap": 0.27908251262882366,
+      "split_over_gap": 0.09040311997206786,
+      "parity_commutator_frobenius_max": 7.765025331553394e-15,
+      "local_transfer_by_rung": [
+        0.10630976093137426,
+        0.1682239188036422,
+        0.04498109073600695,
+        0.04498109073600679,
+        0.168223918803642,
+        0.10630976093137429
+      ],
+      "edge_transfer_mean": 0.10630976093137427,
+      "bulk_transfer_max": 0.1682239188036422,
+      "bulk_to_edge_transfer_ratio": 1.5823939150068744
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "filling": 0.3333333333333333,
+      "parameters": {
+        "u0_attractive_nn": -1.5,
+        "alpha": 0.25,
+        "eta": 1.5707963267948966,
+        "t_leg": 1.0
+      },
+      "logical_split": 0.21560378799409197,
+      "sector_isolation_gap": 0.33929935035551395,
+      "split_over_gap": 0.6354382575981499,
+      "parity_commutator_frobenius_max": 1.9859828277052162e-14,
+      "local_transfer_by_rung": [
+        0.12197509150817906,
+        0.14708867208559606,
+        0.050167043090586255,
+        0.05016704309058627,
+        0.14708867208559598,
+        0.121975091508179
+      ],
+      "edge_transfer_mean": 0.12197509150817903,
+      "bulk_transfer_max": 0.14708867208559606,
+      "bulk_to_edge_transfer_ratio": 1.205891057484741
+    }
+  ],
+  "L6_candidate_filter": {
+    "split_over_gap_below": 0.01,
+    "bulk_to_edge_transfer_ratio_below": 0.3,
+    "candidates": []
+  },
+  "decision": "Small-ED reproduction control only. A passing L=6 filter would justify larger-size tensor-network or matrix-free work, not a topological or hardware claim; a failing filter closes only this sampled external Floquet benchmark window.",
+  "claim_boundary": "This uses the published high-frequency effective model, not the finite-pulse charge-two mediator implementation. It does not establish an ANTLER derivation, an asymptotic phase, a protected local qubit, 2D order, braiding, non-Abelian statistics, universality or fault tolerance."
+}

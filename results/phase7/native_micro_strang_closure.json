@@ -1,0 +1,72 @@
+{
+  "schema": "antler.phase8.native-micro-strang-closure.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "omega_pair_mediator": 602.9925372672533,
+    "period": 0.041680020357497766,
+    "alpha": 0.5,
+    "eta": "pi/2",
+    "closure": "outer free segment: one virtual Rabi cycle; central free segment: two"
+  },
+  "rows": [
+    {
+      "cycles": 1,
+      "first_order": {
+        "low_frame_leakage_worst": 8.637773839850975e-06,
+        "polar_logical_vs_target_distance": 0.00025252562793867314,
+        "raw_logical_min_singular_value": 0.9999956811037531
+      },
+      "strang": {
+        "low_frame_leakage_worst": 8.637773839850975e-06,
+        "polar_logical_vs_target_distance": 8.626371005964817e-05,
+        "raw_logical_min_singular_value": 0.9999956811037529
+      }
+    },
+    {
+      "cycles": 2,
+      "first_order": {
+        "low_frame_leakage_worst": 3.448725241802461e-05,
+        "polar_logical_vs_target_distance": 0.00050418901363267,
+        "raw_logical_min_singular_value": 0.9999827562251162
+      },
+      "strang": {
+        "low_frame_leakage_worst": 3.4487252418024596e-05,
+        "polar_logical_vs_target_distance": 0.00017242499318510207,
+        "raw_logical_min_singular_value": 0.9999827562251161
+      }
+    },
+    {
+      "cycles": 4,
+      "first_order": {
+        "low_frame_leakage_worst": 0.00013693223343095917,
+        "polar_logical_vs_target_distance": 0.0010015028670072332,
+        "raw_logical_min_singular_value": 0.9999315315393206
+      },
+      "strang": {
+        "low_frame_leakage_worst": 0.00013693223343095914,
+        "polar_logical_vs_target_distance": 0.0003440385724340674,
+        "raw_logical_min_singular_value": 0.9999315315393169
+      }
+    },
+    {
+      "cycles": 8,
+      "first_order": {
+        "low_frame_leakage_worst": 0.0005317587656294532,
+        "polar_logical_vs_target_distance": 0.0019487301326860352,
+        "raw_logical_min_singular_value": 0.9997340852618576
+      },
+      "strang": {
+        "low_frame_leakage_worst": 0.0005317587656294529,
+        "polar_logical_vs_target_distance": 0.0006818356041032711,
+        "raw_logical_min_singular_value": 0.9997340852618571
+      }
+    }
+  ],
+  "decision": "Symmetric-cycle finite-block comparison against the same H_eff target.",
+  "claim_boundary": "A successful ideal-pulse Strang control would still require finite-bandwidth, timing-noise, many-link and thermodynamic audits before any ANTLER phase or computing claim."
+}

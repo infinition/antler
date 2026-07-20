@@ -1,0 +1,17 @@
+{
+  "schema": "antler.phase8.tenpy-dmrg-l8-validation.v1",
+  "parameters": {
+    "L": 8,
+    "N": 4,
+    "u0_attractive_nn": -2.0,
+    "alpha": 0.5,
+    "chi_max": 128
+  },
+  "dmrg_energy": -7.486359178697743,
+  "exact_fixed_N_energy": -7.4863591786977075,
+  "absolute_energy_residual": 3.552713678800501e-14,
+  "threshold": 1e-08,
+  "sweeps": -1,
+  "max_truncation_error": 0.0,
+  "decision": "Canonical DMRG is eligible for L>8 scaling only if it reproduces exact L=8 energy below threshold."
+}

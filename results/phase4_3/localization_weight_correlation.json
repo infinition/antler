@@ -1,0 +1,47 @@
+{
+  "pearson_r": 0.9999988446068152,
+  "linear_slope": 1.213161757563216,
+  "linear_intercept": -0.0019571071623865027,
+  "rows": [
+    {
+      "label": "D35",
+      "depth": 3.5,
+      "bare_weight": 0.9678783777765443,
+      "delocalized_weight": 0.032121622223455715,
+      "odd_slope_abs": 0.9630041462719219,
+      "phase_error": 0.03699585372807812
+    },
+    {
+      "label": "D40",
+      "depth": 4.0,
+      "bare_weight": 0.976573781086106,
+      "delocalized_weight": 0.02342621891389396,
+      "odd_slope_abs": 0.9735108633262304,
+      "phase_error": 0.02648913667376962
+    },
+    {
+      "label": "D45",
+      "depth": 4.5,
+      "bare_weight": 0.9820960739574603,
+      "delocalized_weight": 0.017903926042539653,
+      "odd_slope_abs": 0.9802344678804655,
+      "phase_error": 0.019765532119534468
+    },
+    {
+      "label": "D50",
+      "depth": 5.0,
+      "bare_weight": 0.9858384648836712,
+      "delocalized_weight": 0.014161535116328783,
+      "odd_slope_abs": 0.9847834660779794,
+      "phase_error": 0.015216533922020603
+    },
+    {
+      "label": "D60",
+      "depth": 6.0,
+      "bare_weight": 0.990465109131637,
+      "delocalized_weight": 0.00953489086836301,
+      "odd_slope_abs": 0.9903961194917013,
+      "phase_error": 0.009603880508298746
+    }
+  ]
+}

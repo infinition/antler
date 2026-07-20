@@ -1,0 +1,111 @@
+{
+  "schema": "antler.phase7d.peierls-phase-ramp-segmentation-convergence.v1",
+  "source_files": {
+    "2": "results/phase7/peierls_phase_ramp_gpu_audit.json",
+    "4": "results/phase7/peierls_phase_ramp_gpu_4step_refinement.json",
+    "8": "results/phase7/peierls_phase_ramp_gpu_8step_refinement.json"
+  },
+  "rows": [
+    {
+      "ramp_fraction_of_each_subcycle": 0.005,
+      "values_by_phase_segments": {
+        "2": {
+          "ramp_fraction_of_each_subcycle": 0.005,
+          "ramp_duration": 2.4272149851866614e-05,
+          "ramp_steps": 2,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+          "monomer_leakage": 1.0628352584096645e-06,
+          "logical_deviation_from_zero_leg_schedule": 2.9222460482166984e-05,
+          "logical_parity_a_residual": 1.607755940725543e-05,
+          "logical_parity_b_residual": 1.607755940725543e-05,
+          "logical_singular_value_min": 0.9999994685822393
+        },
+        "4": {
+          "ramp_fraction_of_each_subcycle": 0.005,
+          "ramp_duration": 2.4272149851866614e-05,
+          "ramp_steps": 4,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+          "monomer_leakage": 9.147772759427667e-07,
+          "logical_deviation_from_zero_leg_schedule": 2.9505838071918256e-05,
+          "logical_parity_a_residual": 1.6236539817780376e-05,
+          "logical_parity_b_residual": 1.6236539817780376e-05,
+          "logical_singular_value_min": 0.9999995426113742
+        },
+        "8": {
+          "ramp_fraction_of_each_subcycle": 0.005,
+          "ramp_duration": 2.4272149851866614e-05,
+          "ramp_steps": 8,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+          "monomer_leakage": 8.819371983270166e-07,
+          "logical_deviation_from_zero_leg_schedule": 2.9568718934678194e-05,
+          "logical_parity_a_residual": 1.627190536891985e-05,
+          "logical_parity_b_residual": 1.627190536891985e-05,
+          "logical_singular_value_min": 0.9999995590314184
+        }
+      },
+      "leakage_convergence": {
+        "difference_2_to_4": 1.4805798246689785e-07,
+        "difference_4_to_8": 3.284007761575011e-08,
+        "ratio": 4.508454096828602,
+        "observed_order": 2.1726328327792572
+      },
+      "parity_convergence": {
+        "difference_2_to_4": 1.5898041052494482e-07,
+        "difference_4_to_8": 3.5365551139473914e-08,
+        "ratio": 4.495346612808641,
+        "observed_order": 2.1684323587433396
+      }
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.02,
+      "values_by_phase_segments": {
+        "2": {
+          "ramp_fraction_of_each_subcycle": 0.02,
+          "ramp_duration": 9.708859940746645e-05,
+          "ramp_steps": 2,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+          "monomer_leakage": 1.6235432601549736e-05,
+          "logical_deviation_from_zero_leg_schedule": 1.271895844341367e-05,
+          "logical_parity_a_residual": 1.1582237153623745e-05,
+          "logical_parity_b_residual": 1.1582237153623745e-05,
+          "logical_singular_value_min": 0.9999918822507462
+        },
+        "4": {
+          "ramp_fraction_of_each_subcycle": 0.02,
+          "ramp_duration": 9.708859940746645e-05,
+          "ramp_steps": 4,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+          "monomer_leakage": 1.3865298331749302e-05,
+          "logical_deviation_from_zero_leg_schedule": 1.1952602731155212e-05,
+          "logical_parity_a_residual": 1.0057877388220719e-05,
+          "logical_parity_b_residual": 1.0057877388220719e-05,
+          "logical_singular_value_min": 0.9999930673269023
+        },
+        "8": {
+          "ramp_fraction_of_each_subcycle": 0.02,
+          "ramp_duration": 9.708859940746645e-05,
+          "ramp_steps": 8,
+          "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+          "monomer_leakage": 1.3339527159876729e-05,
+          "logical_deviation_from_zero_leg_schedule": 1.1962057460367061e-05,
+          "logical_parity_a_residual": 9.822440446148786e-06,
+          "logical_parity_b_residual": 9.822440446148786e-06,
+          "logical_singular_value_min": 0.9999933302143014
+        }
+      },
+      "leakage_convergence": {
+        "difference_2_to_4": 2.3701342698004335e-06,
+        "difference_4_to_8": 5.257711718725734e-07,
+        "ratio": 4.507919788296919,
+        "observed_order": 2.17246184513396
+      },
+      "parity_convergence": {
+        "difference_2_to_4": 1.5243597654030266e-06,
+        "difference_4_to_8": 2.3543694207193244e-07,
+        "ratio": 6.474598896792045,
+        "observed_order": 2.694790820207222
+      }
+    }
+  ],
+  "decision": "The 2/4/8 segment sequence is a numerical convergence audit of the ramp representation. It does not validate physical waveform bandwidth, calibration, noise, or any many-body topological property."
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "antler.phase8c.native-neutral-link-decision.v1",
+  "scope": "one bounded microscopic derivation attempt: a local generalized JW crossing bridge using only the frozen rung-major convention and charge-two mediators",
+  "frozen_allowed_cases": [
+    {
+      "string_weight": 0,
+      "mott_q": 15.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 2,
+      "mott_q": 15.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 0,
+      "mott_q": 30.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 2,
+      "mott_q": 30.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 0,
+      "mott_q": 60.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 2,
+      "mott_q": 60.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 0,
+      "mott_q": 120.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    },
+    {
+      "string_weight": 2,
+      "mott_q": 120.0,
+      "effective_xz_coefficient": 0.0,
+      "largest_unwanted": "XI"
+    }
+  ],
+  "counterfactual_required_case": [
+    {
+      "string_weight": 1,
+      "mott_q": 15.0,
+      "effective_xz_coefficient": -0.2,
+      "unwanted_over_xz": null
+    },
+    {
+      "string_weight": 1,
+      "mott_q": 30.0,
+      "effective_xz_coefficient": -0.2,
+      "unwanted_over_xz": null
+    },
+    {
+      "string_weight": 1,
+      "mott_q": 60.0,
+      "effective_xz_coefficient": -0.2,
+      "unwanted_over_xz": null
+    },
+    {
+      "string_weight": 1,
+      "mott_q": 120.0,
+      "effective_xz_coefficient": -0.2,
+      "unwanted_over_xz": null
+    }
+  ],
+  "decision": "NO-GO for this bounded direct derivation: frozen adjacent-rung string weight 0 and physical charge-two weight 2 both give exactly zero X_rail Z_link coefficient at every registered Mott depth, whereas the clean coefficient -0.2 requires the artificial odd weight 1. The required neutral/odd Z2 link is therefore not supplied by this ANTLER grammar.",
+  "minimal_missing_resource": "an explicitly derived neutral odd Z2 link/statistical degree of freedom, or a different microscopic substrate with physical odd string weight",
+  "next_gate": "Do not optimize pulses inside this closed grammar. Either declare and derive a new neutral-link resource, or close the native non-Abelian branch with this scoped no-go and publish the resource boundary.",
+  "claim_boundary": "This closes one direct JW-crossing construction only. It does not prove that every possible ANTLER extension is impossible, and establishes no physical code, defect, braid, universality or topological quantum computer."
+}

@@ -1,0 +1,285 @@
+{
+  "schema": "antler.phase7c.crossed-charge2-overlap-audit.v1",
+  "geometry": {
+    "rung_count": 6,
+    "logical_monomer_dimension": 64,
+    "plaquette_supports": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "shared_rungs": [
+      2,
+      3
+    ],
+    "all_flip_commutator_frobenius": 2.0,
+    "all_flip_commutator_spectral": 1.0
+  },
+  "parameters": {
+    "U": 20.0,
+    "Delta": 10.0,
+    "g": 0.5,
+    "g_over_delta": 0.05
+  },
+  "base": {
+    "metadata": {
+      "block_dimension": 3304,
+      "channel_count": 4,
+      "channels": [
+        "p0_aa_left_bb_right",
+        "p0_bb_left_aa_right",
+        "p1_aa_left_bb_right",
+        "p1_bb_left_aa_right"
+      ],
+      "rail_biases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "zz_couplings": []
+    },
+    "minimum_monomer_overlap_singular_value": 0.999800020774981,
+    "low_to_high_gap": 39.92996141548327,
+    "maximum_low_state_mott_violation": 0.0008000037418218133,
+    "bare_parity_commutator_frobenius_max": 0.0,
+    "target_coefficients": {
+      "XXXXII": -2.030078791845805e-07,
+      "IIXXXX": -2.0300788546415046e-07
+    },
+    "two_plaquette_target_alignment": 2.1987988113270986e-09,
+    "all_flip_coefficients": {
+      "P0": -1.6240630699354052e-06,
+      "P1": -1.6240630876053421e-06
+    },
+    "all_flip_alignment": 1.759039092766144e-08,
+    "fixed_scale_two_plaquette_residual": 1.0000370794006375,
+    "top_non_target_paulis": [
+      {
+        "label": "IIZZII",
+        "coefficient": -0.004998906865186113
+      },
+      {
+        "label": "IIIIZZ",
+        "coefficient": -0.0024997032826824354
+      },
+      {
+        "label": "ZZIIII",
+        "coefficient": -0.002499703282680733
+      },
+      {
+        "label": "IIZIZI",
+        "coefficient": -2.0300789051723054e-07
+      },
+      {
+        "label": "ZIZIII",
+        "coefficient": -2.0300788846071586e-07
+      },
+      {
+        "label": "IIIZIZ",
+        "coefficient": -2.0300788786378125e-07
+      },
+      {
+        "label": "IIXXYY",
+        "coefficient": 2.0300788724540638e-07
+      },
+      {
+        "label": "IIXYXY",
+        "coefficient": 2.0300788693345257e-07
+      },
+      {
+        "label": "XXYYII",
+        "coefficient": 2.0300788680682188e-07
+      },
+      {
+        "label": "IIYXYX",
+        "coefficient": 2.030078867536207e-07
+      },
+      {
+        "label": "IZZIII",
+        "coefficient": -2.0300788656748203e-07
+      },
+      {
+        "label": "IZIZII",
+        "coefficient": -2.0300788639528362e-07
+      }
+    ]
+  },
+  "separately_calibrated_counterterms": {
+    "metadata": {
+      "block_dimension": 3304,
+      "channel_count": 4,
+      "channels": [
+        "p0_aa_left_bb_right",
+        "p0_bb_left_aa_right",
+        "p1_aa_left_bb_right",
+        "p1_bb_left_aa_right"
+      ],
+      "rail_biases": [
+        -1.3180103709820035e-15,
+        -3.742069588225094e-15,
+        4.3294903252777406e-15,
+        -6.544515363665626e-15,
+        5.647500696259744e-15,
+        -2.802445775440532e-15
+      ],
+      "zz_couplings": [
+        {
+          "rungs": [
+            0,
+            1
+          ],
+          "strength": 0.0024997032467995698
+        },
+        {
+          "rungs": [
+            0,
+            2
+          ],
+          "strength": 2.0304689293733922e-07
+        },
+        {
+          "rungs": [
+            0,
+            3
+          ],
+          "strength": 2.030468991280252e-07
+        },
+        {
+          "rungs": [
+            1,
+            2
+          ],
+          "strength": 2.0304689811462143e-07
+        },
+        {
+          "rungs": [
+            1,
+            3
+          ],
+          "strength": 2.0304689247839644e-07
+        },
+        {
+          "rungs": [
+            2,
+            3
+          ],
+          "strength": 0.004999406493599746
+        },
+        {
+          "rungs": [
+            2,
+            4
+          ],
+          "strength": 2.0304689293733922e-07
+        },
+        {
+          "rungs": [
+            2,
+            5
+          ],
+          "strength": 2.030468991280252e-07
+        },
+        {
+          "rungs": [
+            3,
+            4
+          ],
+          "strength": 2.0304689811462143e-07
+        },
+        {
+          "rungs": [
+            3,
+            5
+          ],
+          "strength": 2.0304689247839644e-07
+        },
+        {
+          "rungs": [
+            4,
+            5
+          ],
+          "strength": 0.0024997032468001765
+        }
+      ]
+    },
+    "minimum_monomer_overlap_singular_value": 0.9997999907758846,
+    "low_to_high_gap": 39.942458262443324,
+    "maximum_low_state_mott_violation": 0.0008001065159642898,
+    "bare_parity_commutator_frobenius_max": 0.0,
+    "target_coefficients": {
+      "XXXXII": -2.0305501517708096e-07,
+      "IIXXXX": -2.0305501444116233e-07
+    },
+    "two_plaquette_target_alignment": 0.11859708607103267,
+    "all_flip_coefficients": {
+      "P0": -1.6244401358756348e-06,
+      "P1": -1.624440123494806e-06
+    },
+    "all_flip_alignment": 0.9487767016655982,
+    "fixed_scale_two_plaquette_residual": 0.9999995938905832,
+    "top_non_target_paulis": [
+      {
+        "label": "YYXXII",
+        "coefficient": 2.030550203645643e-07
+      },
+      {
+        "label": "YXXYII",
+        "coefficient": 2.0305501815042048e-07
+      },
+      {
+        "label": "XXYYII",
+        "coefficient": 2.0305501739738513e-07
+      },
+      {
+        "label": "YYYYII",
+        "coefficient": -2.0305501687600123e-07
+      },
+      {
+        "label": "IIXYXY",
+        "coefficient": 2.030550166530446e-07
+      },
+      {
+        "label": "XYXYII",
+        "coefficient": 2.0305501663323873e-07
+      },
+      {
+        "label": "IIXXYY",
+        "coefficient": 2.0305501646379707e-07
+      },
+      {
+        "label": "IIYYXX",
+        "coefficient": 2.030550164412655e-07
+      },
+      {
+        "label": "YXYXII",
+        "coefficient": 2.0305501573528057e-07
+      },
+      {
+        "label": "IIYXYX",
+        "coefficient": 2.0305501569344593e-07
+      },
+      {
+        "label": "XYYXII",
+        "coefficient": 2.0305501554166332e-07
+      },
+      {
+        "label": "IIXYYX",
+        "coefficient": 2.0305501540120842e-07
+      }
+    ]
+  },
+  "decision": "The separately calibrated motifs preserve a well-isolated monomer manifold and retain their local all-flip component. However, the two all-flip operators have a nonzero exact commutator on this overlap, so they are not a commuting stabilizer parent in this geometry. A selective repeated stabilizer and an independent SW derivation remain required.",
+  "claim_boundary": "Two overlapping supports are not a surface-code lattice, and counterterms are imported from a one-plaquette finite-block fit. This audit cannot establish topological order, a protected global code, braiding or fault tolerance."
+}

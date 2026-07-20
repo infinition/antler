@@ -1,0 +1,28 @@
+{
+  "schema": "antler.phase7.full-local-algebra-selftest.v1",
+  "reference": "archived fixed-point fixed-point Ising/cat benchmark at L=4,Q=4",
+  "one_rung_complete_charge_conserving_algebra": {
+    "probe_count": 6,
+    "worst_projected_non_scalar_frobenius": 1.4142135623730951,
+    "worst_probe": {
+      "label": "rung0:q1:01->10:X",
+      "projected_non_scalar_frobenius": 1.4142135623730951,
+      "logical_action_frobenius": 1.4142135623730951
+    },
+    "all_probes_scalar_at_1e_minus_10": false
+  },
+  "rung_plus_charge_two_mediator_complete_charge_conserving_algebra": {
+    "probe_count": 14,
+    "worst_projected_non_scalar_frobenius": 1.4142135623730951,
+    "worst_probe": {
+      "label": "cell0:q1:001->010:X",
+      "projected_non_scalar_frobenius": 1.4142135623730951,
+      "logical_action_frobenius": 1.4142135623730951
+    },
+    "all_probes_scalar_at_1e_minus_10": false
+  },
+  "max_probe_hermiticity_error": 0.0,
+  "passes_negative_control": true,
+  "decision": "The exhaustive physical local algebra exposes a non-scalar logical probe already on one rung. Future candidates must pass this gate before any gap or edge-mode result is promoted.",
+  "claim_boundary": "This is an audit-infrastructure control, not a new Hamiltonian or a topological-code claim."
+}

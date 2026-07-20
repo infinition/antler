@@ -1,0 +1,161 @@
+{
+  "schema": "antler.phase8.tenpy-dmrg-parity-scaling.v1",
+  "parameters": {
+    "u0_attractive_nn": -2.0,
+    "alpha": 0.5,
+    "chi_max": 256
+  },
+  "rows": [
+    {
+      "L": 8,
+      "N": 4,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "seeded_branch_parity": 0,
+          "energy": -7.486359178697734,
+          "measured_branch_parity": 0.9999999999999996,
+          "center_entanglement_entropy": 1.8299163213684522,
+          "center_entanglement_spectrum_first_12": [
+            1.0163148809639357,
+            2.134317253985112,
+            2.170304318043665,
+            2.1703043180436823,
+            2.170304318044506,
+            2.17030431804451,
+            3.455584901217222,
+            3.455584901218964,
+            10.893688365130823,
+            12.426930051653146,
+            12.426930051653295,
+            12.42693005165469
+          ]
+        },
+        "1": {
+          "seeded_branch_parity": 1,
+          "energy": -7.477259814803224,
+          "measured_branch_parity": -0.9999999999999999,
+          "center_entanglement_entropy": 1.8617547299600192,
+          "center_entanglement_spectrum_first_12": [
+            1.4562740046612945,
+            1.4562740046613214,
+            2.084402718466187,
+            2.084402718466196,
+            2.0844027184662304,
+            2.084402718466273,
+            4.011042286295295,
+            4.011042286295308,
+            11.8102919465017,
+            11.810291946502044,
+            12.065068022669527,
+            12.065068022670074
+          ]
+        }
+      },
+      "parity_sector_split": 0.009099363894510049,
+      "exact_ed_residual_by_sector": {
+        "0": 2.6645352591003757e-14,
+        "1": 1.687538997430238e-14
+      },
+      "exact_ed_threshold": 1e-08
+    },
+    {
+      "L": 12,
+      "N": 6,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "seeded_branch_parity": 0,
+          "energy": -11.61695915504536,
+          "measured_branch_parity": 0.9999999999999998,
+          "center_entanglement_entropy": 2.0790940860583764,
+          "center_entanglement_spectrum_first_12": [
+            1.5948950277001073,
+            1.5948950279376994,
+            2.051754993223805,
+            2.0517550046466058,
+            2.1698285264153174,
+            2.1698285386411325,
+            3.6516840835313613,
+            3.65168408364772,
+            3.651684102874098,
+            3.651684103844768,
+            6.009920883879854,
+            6.009920898191153
+          ]
+        },
+        "1": {
+          "seeded_branch_parity": 1,
+          "energy": -11.61831793781969,
+          "measured_branch_parity": -1.0,
+          "center_entanglement_entropy": 2.0701591974117832,
+          "center_entanglement_spectrum_first_12": [
+            1.6145050586672138,
+            1.614505058895195,
+            1.8525706953493903,
+            1.8525707109759935,
+            2.414207660397036,
+            2.414207676186641,
+            3.6611864667016563,
+            3.661186466825109,
+            3.6611864961300027,
+            3.661186496687193,
+            5.707967195120373,
+            5.707967234724792
+          ]
+        }
+      },
+      "parity_sector_split": 0.001358782774330436
+    },
+    {
+      "L": 16,
+      "N": 8,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "seeded_branch_parity": 0,
+          "energy": -15.69773785415748,
+          "measured_branch_parity": 1.0000000000000004,
+          "center_entanglement_entropy": 2.2123081941651366,
+          "center_entanglement_spectrum_first_12": [
+            1.628643545765643,
+            1.8361523110886895,
+            2.1194553624007453,
+            2.119455362777844,
+            2.1194555968423936,
+            2.119455597029052,
+            3.1600153882661646,
+            3.160015900705666,
+            3.4926842144387953,
+            3.4926847267008276,
+            5.427032159479503,
+            5.427032160622393
+          ]
+        },
+        "1": {
+          "seeded_branch_parity": 1,
+          "energy": -15.697537288485147,
+          "measured_branch_parity": -0.9999999999999999,
+          "center_entanglement_entropy": 2.213958526974337,
+          "center_entanglement_spectrum_first_12": [
+            1.728026766283754,
+            1.7280267726088112,
+            2.1161098710651434,
+            2.116109871206169,
+            2.11611013984719,
+            2.1161101399750257,
+            3.2499996420241373,
+            3.25000023880451,
+            3.3961764827023497,
+            3.3961770501350035,
+            5.428336020875207,
+            5.428336021215228
+          ]
+        }
+      },
+      "parity_sector_split": 0.00020056567233339706
+    }
+  ],
+  "decision": "U(1)-canonical parity-sector DMRG scaling. A decreasing split is finite-size evidence only; neutral-gap and correlation-length scaling remain required before a phase claim.",
+  "claim_boundary": "This remains an external effective model; no ANTLER-native or non-Abelian claim follows."
+}

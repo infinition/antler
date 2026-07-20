@@ -1,0 +1,63 @@
+{
+  "schema": "antler.phase7d.peierls-phase-ramp-audit.v1",
+  "control_contract": "All intraleg hoppings share a smooth Peierls phase ramp 0->pi->0; charge-two pair conversion remains active.",
+  "parameters": {
+    "leg_hopping": 1.0,
+    "inactive_channel_coupling_over_g": 0.01,
+    "subcycles": 16,
+    "ramp_fraction_scan": [
+      0.0,
+      0.005,
+      0.02
+    ]
+  },
+  "endpoint_identity_checks": [
+    {
+      "channel_kind": "same",
+      "phase_zero_leg_match_frobenius": 0.0,
+      "phase_pi_leg_match_frobenius": 4.0690721301774575e-15
+    },
+    {
+      "channel_kind": "opposite",
+      "phase_zero_leg_match_frobenius": 0.0,
+      "phase_pi_leg_match_frobenius": 4.0690721301774575e-15
+    }
+  ],
+  "rows": [
+    {
+      "ramp_fraction_of_each_subcycle": 0.0,
+      "ramp_duration": 0.0,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0,
+      "monomer_leakage": 6.969127468962916e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.1159360872863145e-05,
+      "logical_parity_a_residual": 1.717647859254102e-05,
+      "logical_parity_b_residual": 1.717647859254102e-05,
+      "logical_singular_value_min": 0.9999999651543622
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.005,
+      "ramp_duration": 2.4272149851866614e-05,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+      "monomer_leakage": 1.0628352584143497e-06,
+      "logical_deviation_from_zero_leg_schedule": 2.9222460479364602e-05,
+      "logical_parity_a_residual": 1.6077559413596963e-05,
+      "logical_parity_b_residual": 1.6077559413596963e-05,
+      "logical_singular_value_min": 0.9999994685822464
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.02,
+      "ramp_duration": 9.708859940746645e-05,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+      "monomer_leakage": 1.623543260159934e-05,
+      "logical_deviation_from_zero_leg_schedule": 1.2718958405241287e-05,
+      "logical_parity_a_residual": 1.158223713109068e-05,
+      "logical_parity_b_residual": 1.158223713109068e-05,
+      "logical_singular_value_min": 0.9999918822507714
+    }
+  ],
+  "decision": "Finite Peierls-ramp preflight only; it determines whether the direct sign-echo remains viable once switching is not instantaneous.",
+  "claim_boundary": "No switching hardware, calibration noise, many-body phase, 2D code, braid, non-Abelianity, universality or fault tolerance is established."
+}

@@ -1,0 +1,1157 @@
+{
+  "schema": "antler.phase5.n3-local-exchange-holonomy.v2",
+  "claim_boundary": "This is a projected adiabatic-holonomy diagnostic, not a finite-time gate fidelity calculation.  It tests whether pinned-mediator local exchanges can even generate a matrix-valued noncommuting action.",
+  "config": {
+    "L": 14,
+    "N": 3,
+    "J1": 0.4,
+    "J2": 1.0,
+    "JPERP": 0.1,
+    "code_depth": -2.5,
+    "mediator_depth_scale": 1.5,
+    "mediator_rung": 7,
+    "mediator_leg": 0
+  },
+  "theta": 0.3,
+  "UA": {
+    "real": [
+      [
+        0.9905155321843869,
+        -2.3592743704229203e-08
+      ],
+      [
+        2.4036786164764012e-08,
+        0.9905155321843888
+      ]
+    ],
+    "imag": [
+      [
+        -0.1374008024046267,
+        -7.009770194938564e-08
+      ],
+      [
+        -7.02823905051996e-08,
+        0.13740080240462704
+      ]
+    ]
+  },
+  "UB": {
+    "real": [
+      [
+        0.9905717295560323,
+        7.149964213911681e-08
+      ],
+      [
+        -7.118285459411608e-08,
+        0.9905717295560293
+      ]
+    ],
+    "imag": [
+      [
+        -0.13699506781023948,
+        4.302366155368594e-08
+      ],
+      [
+        4.693808868519155e-08,
+        0.13699506781023932
+      ]
+    ]
+  },
+  "commutator_norm": 5.798526667142203e-08,
+  "noncommuting_threshold": 1e-05,
+  "raw_braid_relation_residual": 0.000579273207994008,
+  "braid_relation_interpretable": false,
+  "braid_relation_residual": null,
+  "braid_relation_status": "not_interpretable_commutator_below_threshold",
+  "UA_offdiag_norm": 1.0482216787652463e-07,
+  "UB_offdiag_norm": 1.1930388609384803e-07,
+  "audit_A": {
+    "side": "left",
+    "loop_rung": 3,
+    "theta": 0.3,
+    "steps": 41,
+    "n_eigs": 16,
+    "minimum_isolation_gap": 0.001247694633905283,
+    "minimum_parallel_transport_link_singular_value": 0.663913957173906,
+    "trace": [
+      {
+        "u": 0.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.1937081658984,
+          -9.193707148848718
+        ],
+        "isolation_gap": 0.0012476946339337047,
+        "link_sigma_min": 0.9999999983650436
+      },
+      {
+        "u": 0.025,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.947645046084741,
+          -9.193707148939952
+        ],
+        "isolation_gap": 0.06276981717996044,
+        "link_sigma_min": 0.9972504355419083
+      },
+      {
+        "u": 0.05,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.556601000897084,
+          -9.193707149262757
+        ],
+        "isolation_gap": 0.0835086802597953,
+        "link_sigma_min": 0.8239162405662978
+      },
+      {
+        "u": 0.07500000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.963910450414513,
+          -9.193707149941892
+        ],
+        "isolation_gap": 0.08916645397725986,
+        "link_sigma_min": 0.8807886277110513
+      },
+      {
+        "u": 0.1,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.427674892798803,
+          -9.193707150910273
+        ],
+        "isolation_gap": 0.09772018090983003,
+        "link_sigma_min": 0.9936622197511493
+      },
+      {
+        "u": 0.125,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.50863826776808,
+          -9.193707151347217
+        ],
+        "isolation_gap": 0.09893561488348901,
+        "link_sigma_min": 0.9999266560968614
+      },
+      {
+        "u": 0.15000000000000002,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.20851619167077,
+          -9.193707153445082
+        ],
+        "isolation_gap": 0.05953529915563038,
+        "link_sigma_min": 0.9933097076605152
+      },
+      {
+        "u": 0.17500000000000002,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.954893922346693,
+          -9.193707159784566
+        ],
+        "isolation_gap": 0.094158711785294,
+        "link_sigma_min": 0.9432790154254403
+      },
+      {
+        "u": 0.2,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.215956975895061,
+          -9.193707172220648
+        ],
+        "isolation_gap": 0.0662780131017442,
+        "link_sigma_min": 0.9469959959500003
+      },
+      {
+        "u": 0.225,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.51520618568615,
+          -9.193707185799791
+        ],
+        "isolation_gap": 0.09811938452765112,
+        "link_sigma_min": 0.9936740939172053
+      },
+      {
+        "u": 0.25,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.435346349742838,
+          -9.193707242584672
+        ],
+        "isolation_gap": 0.09849221930698882,
+        "link_sigma_min": 0.999870891733938
+      },
+      {
+        "u": 0.275,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.98924996248676,
+          -9.193707572978498
+        ],
+        "isolation_gap": 0.095421909910824,
+        "link_sigma_min": 0.9863864883501576
+      },
+      {
+        "u": 0.30000000000000004,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.840815325351693,
+          -9.193708343216493
+        ],
+        "isolation_gap": 0.09566754051400927,
+        "link_sigma_min": 0.716655978394925
+      },
+      {
+        "u": 0.325,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.31683054730244,
+          -9.193709656562309
+        ],
+        "isolation_gap": 0.01905246521278947,
+        "link_sigma_min": 0.9559822263382275
+      },
+      {
+        "u": 0.35000000000000003,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.541383292221287,
+          -9.193710565786935
+        ],
+        "isolation_gap": 0.09576184299652013,
+        "link_sigma_min": 0.9987488494848008
+      },
+      {
+        "u": 0.375,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.194758640636811,
+          -9.19371056579719
+        ],
+        "isolation_gap": 0.24239333125634133,
+        "link_sigma_min": 0.9983064193766265
+      },
+      {
+        "u": 0.4,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -8.529558287880503,
+          -9.193710565835802
+        ],
+        "isolation_gap": 0.17191452666163798,
+        "link_sigma_min": 0.731947534288491
+      },
+      {
+        "u": 0.42500000000000004,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.192581640273287,
+          -9.193710565913609
+        ],
+        "isolation_gap": 0.24382851050646082,
+        "link_sigma_min": 0.663913957173906
+      },
+      {
+        "u": 0.45,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.54016361606558,
+          -9.193710565969432
+        ],
+        "isolation_gap": 0.0979507087700835,
+        "link_sigma_min": 0.998557495170272
+      },
+      {
+        "u": 0.47500000000000003,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.230654258593203,
+          -9.19370940995506
+        ],
+        "isolation_gap": 0.0510226647445684,
+        "link_sigma_min": 0.9985504481137053
+      },
+      {
+        "u": 0.5,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.641690106869985,
+          -9.193708022207721
+        ],
+        "isolation_gap": 0.09437854769856102,
+        "link_sigma_min": 0.7394582775789884
+      },
+      {
+        "u": 0.525,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.232487354702236,
+          -9.193707376017267
+        ],
+        "isolation_gap": 0.06358978646851021,
+        "link_sigma_min": 0.7561527412650207
+      },
+      {
+        "u": 0.55,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.541516480180327,
+          -9.193707210457251
+        ],
+        "isolation_gap": 0.09567947607343719,
+        "link_sigma_min": 0.9985014753545108
+      },
+      {
+        "u": 0.5750000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.402284807547971,
+          -9.1937071995857
+        ],
+        "isolation_gap": 0.09571656849644583,
+        "link_sigma_min": 0.9995821681298721
+      },
+      {
+        "u": 0.6000000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.050158759989962,
+          -9.193707180991433
+        ],
+        "isolation_gap": 0.046983783065293494,
+        "link_sigma_min": 0.9925229498341559
+      },
+      {
+        "u": 0.625,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.77105841431278,
+          -9.193707164860863
+        ],
+        "isolation_gap": 0.09484751552182757,
+        "link_sigma_min": 0.8792387622750815
+      },
+      {
+        "u": 0.65,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.047490592734478,
+          -9.193707155790051
+        ],
+        "isolation_gap": 0.051335758035330414,
+        "link_sigma_min": 0.8732134645530296
+      },
+      {
+        "u": 0.675,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.400645256696635,
+          -9.193707151175218
+        ],
+        "isolation_gap": 0.09744878690089287,
+        "link_sigma_min": 0.9925331349958723
+      },
+      {
+        "u": 0.7000000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.540150750187115,
+          -9.193707149844652
+        ],
+        "isolation_gap": 0.09676425969807312,
+        "link_sigma_min": 0.9995947342553103
+      },
+      {
+        "u": 0.7250000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.416800043626026,
+          -9.19370714967644
+        ],
+        "isolation_gap": 0.09740967013960855,
+        "link_sigma_min": 0.9993318781396994
+      },
+      {
+        "u": 0.75,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.13226368919912,
+          -9.193707149316221
+        ],
+        "isolation_gap": 0.02770203281945527,
+        "link_sigma_min": 0.991061870150677
+      },
+      {
+        "u": 0.775,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.957294985026753,
+          -9.193707149148969
+        ],
+        "isolation_gap": 0.09225682961539938,
+        "link_sigma_min": 0.9624575538605905
+      },
+      {
+        "u": 0.8,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.125090169997812,
+          -9.193707148972312
+        ],
+        "isolation_gap": 0.015103411171427439,
+        "link_sigma_min": 0.9600218679902757
+      },
+      {
+        "u": 0.8250000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.40979187862236,
+          -9.193707148944165
+        ],
+        "isolation_gap": 0.09735375145640113,
+        "link_sigma_min": 0.9903953896978756
+      },
+      {
+        "u": 0.8500000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.533657379972023,
+          -9.19370714892995
+        ],
+        "isolation_gap": 0.09904511330693566,
+        "link_sigma_min": 0.9993087186578182
+      },
+      {
+        "u": 0.875,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.392414686201384,
+          -9.193707148914822
+        ],
+        "isolation_gap": 0.09681555878931469,
+        "link_sigma_min": 0.9997225969832569
+      },
+      {
+        "u": 0.9,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.026992509412313,
+          -9.193707148892976
+        ],
+        "isolation_gap": 0.07784950773926091,
+        "link_sigma_min": 0.9963375982770242
+      },
+      {
+        "u": 0.925,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.628459410727075,
+          -9.193707148868853
+        ],
+        "isolation_gap": 0.08608894853659521,
+        "link_sigma_min": 0.9686854319796377
+      },
+      {
+        "u": 0.9500000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.674423334743162,
+          -9.193707148856225
+        ],
+        "isolation_gap": 0.07844631461895979,
+        "link_sigma_min": 0.7866938595461099
+      },
+      {
+        "u": 0.9750000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.040687715547156,
+          -9.193707148849892
+        ],
+        "isolation_gap": 0.049097227034662794,
+        "link_sigma_min": 0.9717054204209192
+      },
+      {
+        "u": 1.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.193708165898379,
+          -9.193707148848693
+        ],
+        "isolation_gap": 0.001247694633905283,
+        "link_sigma_min": 0.9991832803041104
+      }
+    ]
+  },
+  "audit_B": {
+    "side": "right",
+    "loop_rung": 3,
+    "theta": 0.3,
+    "steps": 41,
+    "n_eigs": 16,
+    "minimum_isolation_gap": 0.0012476946338946249,
+    "minimum_parallel_transport_link_singular_value": 0.6696589353116886,
+    "trace": [
+      {
+        "u": 0.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.19370816589843,
+          -9.193707148848711
+        ],
+        "isolation_gap": 0.0012476946338964012,
+        "link_sigma_min": 0.9999999987355597
+      },
+      {
+        "u": 0.025,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708166098709,
+          -8.947643585478112
+        ],
+        "isolation_gap": 0.06277170045641434,
+        "link_sigma_min": 0.9972508103833659
+      },
+      {
+        "u": 0.05,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708166819613,
+          -8.556579758113198
+        ],
+        "isolation_gap": 0.08352121038983107,
+        "link_sigma_min": 0.8239674227246773
+      },
+      {
+        "u": 0.07500000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708168353544,
+          -8.963907885918195
+        ],
+        "isolation_gap": 0.08916865608876634,
+        "link_sigma_min": 0.8808026510525271
+      },
+      {
+        "u": 0.1,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708170559644,
+          -9.42767394354061
+        ],
+        "isolation_gap": 0.09771896568478589,
+        "link_sigma_min": 0.9936641130323522
+      },
+      {
+        "u": 0.125,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708171431812,
+          -9.508637373721491
+        ],
+        "isolation_gap": 0.09893434576591176,
+        "link_sigma_min": 0.999926664203621
+      },
+      {
+        "u": 0.15000000000000002,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.19370817434367,
+          -9.208514840534878
+        ],
+        "isolation_gap": 0.05953720595839407,
+        "link_sigma_min": 0.9933100546376489
+      },
+      {
+        "u": 0.17500000000000002,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708184078034,
+          -8.954889975880695
+        ],
+        "isolation_gap": 0.09416032325399115,
+        "link_sigma_min": 0.9432813344630676
+      },
+      {
+        "u": 0.2,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.193708203820105,
+          -9.21595525935453
+        ],
+        "isolation_gap": 0.06628051902164778,
+        "link_sigma_min": 0.9469963006207728
+      },
+      {
+        "u": 0.225,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.19370822550911,
+          -9.515205231548766
+        ],
+        "isolation_gap": 0.09812048762155712,
+        "link_sigma_min": 0.9936745348351412
+      },
+      {
+        "u": 0.25,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708281704515,
+          -9.435345304388893
+        ],
+        "isolation_gap": 0.09849330305551263,
+        "link_sigma_min": 0.9998709086495372
+      },
+      {
+        "u": 0.275,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708610872466,
+          -8.98924624327128
+        ],
+        "isolation_gap": 0.09542434531070043,
+        "link_sigma_min": 0.986389949290065
+      },
+      {
+        "u": 0.30000000000000004,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193709390049428,
+          -8.840832456077283
+        ],
+        "isolation_gap": 0.09567072163300061,
+        "link_sigma_min": 0.7166055612571801
+      },
+      {
+        "u": 0.325,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193710725056995,
+          -9.316847391154244
+        ],
+        "isolation_gap": 0.019069101362102714,
+        "link_sigma_min": 0.9560088327184202
+      },
+      {
+        "u": 0.35000000000000003,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193711649935027,
+          -9.541395740352847
+        ],
+        "isolation_gap": 0.0957629207021995,
+        "link_sigma_min": 0.9987488536058142
+      },
+      {
+        "u": 0.375,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.193711649337853,
+          -9.194767474608133
+        ],
+        "isolation_gap": 0.24239806570557754,
+        "link_sigma_min": 0.99831026036193
+      },
+      {
+        "u": 0.4,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.193711648588899,
+          -8.52850791781134
+        ],
+        "isolation_gap": 0.15687237844977275,
+        "link_sigma_min": 0.7344451718228149
+      },
+      {
+        "u": 0.42500000000000004,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.193711648291185,
+          -9.192594384542346
+        ],
+        "isolation_gap": 0.24384097388078452,
+        "link_sigma_min": 0.6696589353116886
+      },
+      {
+        "u": 0.45,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193711648259223,
+          -9.540176784184123
+        ],
+        "isolation_gap": 0.09795099300283816,
+        "link_sigma_min": 0.9985580436512725
+      },
+      {
+        "u": 0.47500000000000003,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.193727115927288,
+          -9.23068156625621
+        ],
+        "isolation_gap": 0.05101586977112582,
+        "link_sigma_min": 0.998556364098709
+      },
+      {
+        "u": 0.5,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193785603014083,
+          -8.636639488071795
+        ],
+        "isolation_gap": 0.09436703287036785,
+        "link_sigma_min": 0.7572249220054353
+      },
+      {
+        "u": 0.525,
+        "selected_indices": [
+          3,
+          2
+        ],
+        "selected_energies": [
+          -9.193909988045139,
+          -9.22936218310386
+        ],
+        "isolation_gap": 0.0668208448337051,
+        "link_sigma_min": 0.73997239552135
+      },
+      {
+        "u": 0.55,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.194013259536826,
+          -9.539416203324087
+        ],
+        "isolation_gap": 0.0956804177848749,
+        "link_sigma_min": 0.9986235172254261
+      },
+      {
+        "u": 0.5750000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193959787084077,
+          -9.39980729693571
+        ],
+        "isolation_gap": 0.095718962561115,
+        "link_sigma_min": 0.9995987523395621
+      },
+      {
+        "u": 0.6000000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193862141726772,
+          -9.046213250785414
+        ],
+        "isolation_gap": 0.05107831726944845,
+        "link_sigma_min": 0.9926481379010209
+      },
+      {
+        "u": 0.625,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193786406665167,
+          -8.767472472062707
+        ],
+        "isolation_gap": 0.09484251012869827,
+        "link_sigma_min": 0.8759963895419415
+      },
+      {
+        "u": 0.65,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193741157911395,
+          -9.04716656727378
+        ],
+        "isolation_gap": 0.05168972725287624,
+        "link_sigma_min": 0.8770030571453024
+      },
+      {
+        "u": 0.675,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193718382265878,
+          -9.400567248806688
+        ],
+        "isolation_gap": 0.09745033278434256,
+        "link_sigma_min": 0.9927066161622071
+      },
+      {
+        "u": 0.7000000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193711580678864,
+          -9.540095033690804
+        ],
+        "isolation_gap": 0.09676499995154408,
+        "link_sigma_min": 0.999599347626947
+      },
+      {
+        "u": 0.7250000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193711010387043,
+          -9.416729746922773
+        ],
+        "isolation_gap": 0.09741095750810835,
+        "link_sigma_min": 0.9993329926652603
+      },
+      {
+        "u": 0.75,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.19370995906026,
+          -9.132139036872541
+        ],
+        "isolation_gap": 0.027583541119589938,
+        "link_sigma_min": 0.991070362130525
+      },
+      {
+        "u": 0.775,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193709140663266,
+          -8.9571568193839
+        ],
+        "isolation_gap": 0.09225836698429468,
+        "link_sigma_min": 0.9624307776867513
+      },
+      {
+        "u": 0.8,
+        "selected_indices": [
+          2,
+          3
+        ],
+        "selected_energies": [
+          -9.193708661962807,
+          -9.125049919158307
+        ],
+        "isolation_gap": 0.015066228235017576,
+        "link_sigma_min": 0.960073328168147
+      },
+      {
+        "u": 0.8250000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708438115786,
+          -9.409780450219213
+        ],
+        "isolation_gap": 0.09735272092849456,
+        "link_sigma_min": 0.9904119371133285
+      },
+      {
+        "u": 0.8500000000000001,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708378446534,
+          -9.533650012333522
+        ],
+        "isolation_gap": 0.09904567033786194,
+        "link_sigma_min": 0.9993094872219646
+      },
+      {
+        "u": 0.875,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -9.193708340826127,
+          -9.392403876464321
+        ],
+        "isolation_gap": 0.09681447856677572,
+        "link_sigma_min": 0.9997231457770199
+      },
+      {
+        "u": 0.9,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708272133156,
+          -9.026957141604747
+        ],
+        "isolation_gap": 0.07788444750795342,
+        "link_sigma_min": 0.9963509726270379
+      },
+      {
+        "u": 0.925,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708218821488,
+          -8.628275915798412
+        ],
+        "isolation_gap": 0.08608944864922563,
+        "link_sigma_min": 0.9687996625887905
+      },
+      {
+        "u": 0.9500000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.19370818691215,
+          -8.6743843413031
+        ],
+        "isolation_gap": 0.07845038354507672,
+        "link_sigma_min": 0.7867127422696519
+      },
+      {
+        "u": 0.9750000000000001,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193708170762802,
+          -9.040685371574993
+        ],
+        "isolation_gap": 0.04909836473644802,
+        "link_sigma_min": 0.9717827870561389
+      },
+      {
+        "u": 1.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.19370816589841,
+          -9.193707148848686
+        ],
+        "isolation_gap": 0.0012476946338946249,
+        "link_sigma_min": 0.9991840185921398
+      }
+    ]
+  },
+  "runtime_s": 70.76907324790955
+}

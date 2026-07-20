@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or its archived numerical data, please cite it as below."
+title: "ANTLER"
+version: "0.7.0"
+date-released: 2026-07-20
+authors:
+  - family-names: "POLLY"
+    given-names: "Fabien"
+repository-code: "https://github.com/infinition/antler"
+url: "https://github.com/infinition/antler"

@@ -1,0 +1,281 @@
+{
+  "schema": "antler.phase6.flux-pair-mediator-local-preflight.v1",
+  "model": {
+    "name": "two-rail detuned-mediator pi-flux interferometer",
+    "modes": [
+      "a0",
+      "a1",
+      "b0",
+      "b1",
+      "p0",
+      "p1",
+      "m0",
+      "m1"
+    ],
+    "parameters": {
+      "Delta": 5.0,
+      "U_mediator": 4.0,
+      "E_bind": 2.0
+    },
+    "relative_branch_parity": "Each retained pair transfer changes N_a and N_b by two, preserving (-1)^N_a and (-1)^N_b."
+  },
+  "mechanism_test": {
+    "single_particle_requirement": "pi flux cancels the exact N=1 zero-energy Schur cross block below 1e-12",
+    "two_particle_requirement": "a nonzero, isolated low-pair splitting has a fourth-order hopping power",
+    "qualification": true
+  },
+  "results_by_flux": {
+    "zero_flux": {
+      "phi": 0.0,
+      "one_particle_schur_cross_norm_at_t_0p1": 0.005656854249492381,
+      "two_particle_rows": [
+        {
+          "t": 0.05,
+          "lowest_energies": [
+            -2.001429597677337,
+            -2.001428280002319,
+            -0.0019996001599211035
+          ],
+          "pair_splitting": 1.3176750179866303e-06,
+          "pair_effective_offdiagonal_magnitude": 6.588375089933152e-07,
+          "pair_isolation_gap": 1.9994286798423977,
+          "pair_subspace_captures": [
+            0.9997951346474874,
+            0.9997960432303472
+          ],
+          "minimum_pair_subspace_capture": 0.9997951346474874
+        },
+        {
+          "t": 0.075,
+          "lowest_energies": [
+            -2.003219479610646,
+            -2.0032128111206715,
+            -0.0044979768204527325
+          ],
+          "pair_splitting": 6.668489974437364e-06,
+          "pair_effective_offdiagonal_magnitude": 3.334244987218682e-06,
+          "pair_isolation_gap": 1.9987148343002188,
+          "pair_subspace_captures": [
+            0.9995368504112121,
+            0.9995414479088347
+          ],
+          "minimum_pair_subspace_capture": 0.9995368504112121
+        },
+        {
+          "t": 0.1,
+          "lowest_energies": [
+            -2.0057306943373643,
+            -2.0057096285916227,
+            -0.007993610219566355
+          ],
+          "pair_splitting": 2.106574574156639e-05,
+          "pair_effective_offdiagonal_magnitude": 1.0532872870783194e-05,
+          "pair_isolation_gap": 1.9977160183720564,
+          "pair_subspace_captures": [
+            0.999171146725718,
+            0.9991856672119882
+          ],
+          "minimum_pair_subspace_capture": 0.999171146725718
+        },
+        {
+          "t": 0.125,
+          "lowest_energies": [
+            -2.0089686103621673,
+            -2.00891721190455,
+            -0.01248441394085528
+          ],
+          "pair_splitting": 5.1398457617146676e-05,
+          "pair_effective_offdiagonal_magnitude": 2.5699228808573338e-05,
+          "pair_isolation_gap": 1.9964327979636949,
+          "pair_subspace_captures": [
+            0.9986939310483571,
+            0.9987293499153673
+          ],
+          "minimum_pair_subspace_capture": 0.9986939310483571
+        },
+        {
+          "t": 0.15,
+          "lowest_energies": [
+            -2.01294011297915,
+            -2.0128336140500593,
+            -0.017967716117752608
+          ],
+          "pair_splitting": 0.00010649892909064818,
+          "pair_effective_offdiagonal_magnitude": 5.324946454532409e-05,
+          "pair_isolation_gap": 1.9948658979323066,
+          "pair_subspace_captures": [
+            0.9980999615865741,
+            0.9981733245208751
+          ],
+          "minimum_pair_subspace_capture": 0.9980999615865741
+        },
+        {
+          "t": 0.2,
+          "lowest_energies": [
+            -2.023118915570172,
+            -2.022782990761706,
+            -0.031898250163651415
+          ],
+          "pair_splitting": 0.0003359248084660038,
+          "pair_effective_offdiagonal_magnitude": 0.0001679624042330019,
+          "pair_isolation_gap": 1.9908847405980545,
+          "pair_subspace_captures": [
+            0.9965351563901567,
+            0.9967663363282019
+          ],
+          "minimum_pair_subspace_capture": 0.9965351563901567
+        }
+      ],
+      "pair_splitting_power_fit": {
+        "power": 3.997187990975515,
+        "prefactor": 0.20918989532450968,
+        "r_squared_log": 0.9999999075109045
+      }
+    },
+    "pi_flux": {
+      "phi": 3.141592653589793,
+      "one_particle_schur_cross_norm_at_t_0p1": 3.4808104617155735e-19,
+      "two_particle_rows": [
+        {
+          "t": 0.05,
+          "lowest_energies": [
+            -2.0014284499662827,
+            -2.001428407475294,
+            -0.0019996001599211517
+          ],
+          "pair_splitting": 4.249098850550581e-08,
+          "pair_effective_offdiagonal_magnitude": 2.1245494252752906e-08,
+          "pair_isolation_gap": 1.999428807315373,
+          "pair_subspace_captures": [
+            0.9997959805352656,
+            0.9997959988647208
+          ],
+          "minimum_pair_subspace_capture": 0.9997959805352656
+        },
+        {
+          "t": 0.075,
+          "lowest_energies": [
+            -2.00321367090557,
+            -2.003213455959405,
+            -0.0044979768204573885
+          ],
+          "pair_splitting": 2.149461648670581e-07,
+          "pair_effective_offdiagonal_magnitude": 1.0747308243352904e-07,
+          "pair_isolation_gap": 1.9987154791389476,
+          "pair_subspace_captures": [
+            0.9995411309452318,
+            0.9995412236202174
+          ],
+          "minimum_pair_subspace_capture": 0.9995411309452318
+        },
+        {
+          "t": 0.1,
+          "lowest_energies": [
+            -2.005712343031531,
+            -2.005711664422148,
+            -0.007993610219566192
+          ],
+          "pair_splitting": 6.78609382909201e-07,
+          "pair_effective_offdiagonal_magnitude": 3.393046914546005e-07,
+          "pair_isolation_gap": 1.997718054202582,
+          "pair_subspace_captures": [
+            0.9991846673494037,
+            0.9991849597276385
+          ],
+          "minimum_pair_subspace_capture": 0.9991846673494037
+        },
+        {
+          "t": 0.125,
+          "lowest_energies": [
+            -2.008923829857597,
+            -2.0089221753728763,
+            -0.012484413940855697
+          ],
+          "pair_splitting": 1.654484720781113e-06,
+          "pair_effective_offdiagonal_magnitude": 8.272423603905565e-07,
+          "pair_isolation_gap": 1.9964377614320206,
+          "pair_subspace_captures": [
+            0.9987269147852726,
+            0.9987276269701368
+          ],
+          "minimum_pair_subspace_capture": 0.9987269147852726
+        },
+        {
+          "t": 0.15,
+          "lowest_energies": [
+            -2.012847314047005,
+            -2.012843889062937,
+            -0.017967716117751324
+          ],
+          "pair_splitting": 3.424984067912362e-06,
+          "pair_effective_offdiagonal_magnitude": 1.712492033956181e-06,
+          "pair_isolation_gap": 1.9948761729451858,
+          "pair_subspace_captures": [
+            0.9981682900282067,
+            0.9981697627002358
+          ],
+          "minimum_pair_subspace_capture": 0.9981682900282067
+        },
+        {
+          "t": 0.2,
+          "lowest_energies": [
+            -2.022826105593386,
+            -2.022815327035558,
+            -0.0318982501636519
+          ],
+          "pair_splitting": 1.0778557827606505e-05,
+          "pair_effective_offdiagonal_magnitude": 5.389278913803253e-06,
+          "pair_isolation_gap": 1.9909170768719062,
+          "pair_subspace_captures": [
+            0.9967505444848661,
+            0.9967551659808823
+          ],
+          "minimum_pair_subspace_capture": 0.9967505444848661
+        }
+      ],
+      "pair_splitting_power_fit": {
+        "power": 3.9937855682051007,
+        "prefactor": 0.006682187023308247,
+        "r_squared_log": 0.999999572136774
+      }
+    }
+  },
+  "interaction_off_control": {
+    "description": "same pi-flux block with U_mediator=0; the pair splitting must vanish to numerical precision",
+    "rows": [
+      {
+        "t": 0.05,
+        "pair_splitting": 1.7763568394002505e-15,
+        "pair_isolation_gap": 1.9994288498063626
+      },
+      {
+        "t": 0.075,
+        "pair_splitting": 2.6645352591003757e-15,
+        "pair_isolation_gap": 1.9987156940851172
+      },
+      {
+        "t": 0.1,
+        "pair_splitting": 1.7763568394002505e-15,
+        "pair_isolation_gap": 1.9977187328119619
+      },
+      {
+        "t": 0.125,
+        "pair_splitting": 1.7763568394002505e-15,
+        "pair_isolation_gap": 1.9964394159167393
+      },
+      {
+        "t": 0.15,
+        "pair_splitting": 2.6645352591003757e-15,
+        "pair_isolation_gap": 1.9948795979292522
+      },
+      {
+        "t": 0.2,
+        "pair_splitting": 1.7763568394002505e-15,
+        "pair_isolation_gap": 1.9909278554297365
+      }
+    ],
+    "maximum_pair_splitting": 2.6645352591003757e-15
+  },
+  "claim_boundary": "This validates or rejects a local microscopic mechanism only. It does not construct a full correlated-Jordan--Wigner ANTLER lattice, a locally indistinguishable code, a topological phase, an adiabatic exchange, or a non-Abelian braid. The original frozen ladder remains unchanged.",
+  "decision": "local mechanism qualifies: derive and pre-register a tiled full-ladder embedding before any code or braid calculation"
+}

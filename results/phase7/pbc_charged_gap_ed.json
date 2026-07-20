@@ -1,0 +1,169 @@
+{
+  "schema": "antler.phase8.pbc-charged-gap-ed.v1",
+  "citation": "Defossez et al., arXiv:2412.14886v2 (2025)",
+  "parameters": {
+    "alpha": 0.5,
+    "eta": 1.5707963267948966,
+    "t_leg": 1.0
+  },
+  "rows": [
+    {
+      "L": 6,
+      "N": 4,
+      "u0": -1.5,
+      "label": "published_density_L6",
+      "filling_N_over_2L": 0.3333333333333333,
+      "boundary_condition": "periodic",
+      "energies": {
+        "3": {
+          "N": 3,
+          "hilbert_dimension": 220,
+          "ground_energy": -5.349156868700145,
+          "branch_parity_weight": {
+            "0": 0.12771325823159355,
+            "1": 0.8722867417684066
+          }
+        },
+        "4": {
+          "N": 4,
+          "hilbert_dimension": 495,
+          "ground_energy": -7.428323617731403,
+          "branch_parity_weight": {
+            "0": 1.696466806577313e-25,
+            "1": 1.0000000000000018
+          }
+        },
+        "5": {
+          "N": 5,
+          "hilbert_dimension": 792,
+          "ground_energy": -8.74520915346848,
+          "branch_parity_weight": {
+            "0": 0.24338460855175034,
+            "1": 0.7566153914482499
+          }
+        }
+      },
+      "charged_gap_curvature": 0.38114060664709015,
+      "diagnostic_note": "Finite periodic-system estimate. It is not the infinite-MPS charged excitation gap used for a phase certificate."
+    },
+    {
+      "L": 9,
+      "N": 6,
+      "u0": -1.5,
+      "label": "published_density_L9",
+      "filling_N_over_2L": 0.3333333333333333,
+      "boundary_condition": "periodic",
+      "energies": {
+        "5": {
+          "N": 5,
+          "hilbert_dimension": 8568,
+          "ground_energy": -9.301529583672139,
+          "branch_parity_weight": {
+            "0": 0.4519467272695606,
+            "1": 0.5480532727304356
+          }
+        },
+        "6": {
+          "N": 6,
+          "hilbert_dimension": 18564,
+          "ground_energy": -11.299115762679328,
+          "branch_parity_weight": {
+            "0": 2.244206212017344e-22,
+            "1": 0.9999999999999918
+          }
+        },
+        "7": {
+          "N": 7,
+          "hilbert_dimension": 31824,
+          "ground_energy": -12.578038916406111,
+          "branch_parity_weight": {
+            "0": 0.7217563244699057,
+            "1": 0.27824367553009954
+          }
+        }
+      },
+      "charged_gap_curvature": 0.35933151264020324,
+      "diagnostic_note": "Finite periodic-system estimate. It is not the infinite-MPS charged excitation gap used for a phase certificate."
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "u0": -2.0,
+      "label": "registered_L4",
+      "filling_N_over_2L": 0.25,
+      "boundary_condition": "periodic",
+      "energies": {
+        "1": {
+          "N": 1,
+          "hilbert_dimension": 8,
+          "ground_energy": -2.0,
+          "branch_parity_weight": {
+            "0": 0.5519686398696385,
+            "1": 0.4480313601303615
+          }
+        },
+        "2": {
+          "N": 2,
+          "hilbert_dimension": 28,
+          "ground_energy": -4.00000000000001,
+          "branch_parity_weight": {
+            "0": 3.537249514394548e-30,
+            "1": 1.0000000000000004
+          }
+        },
+        "3": {
+          "N": 3,
+          "hilbert_dimension": 56,
+          "ground_energy": -5.383184671608096,
+          "branch_parity_weight": {
+            "0": 0.3258398019198067,
+            "1": 0.6741601980801937
+          }
+        }
+      },
+      "charged_gap_curvature": 0.30840766419596166,
+      "diagnostic_note": "Finite periodic-system estimate. It is not the infinite-MPS charged excitation gap used for a phase certificate."
+    },
+    {
+      "L": 8,
+      "N": 4,
+      "u0": -2.0,
+      "label": "registered_L8",
+      "filling_N_over_2L": 0.25,
+      "boundary_condition": "periodic",
+      "energies": {
+        "3": {
+          "N": 3,
+          "hilbert_dimension": 560,
+          "ground_energy": -5.830881700407607,
+          "branch_parity_weight": {
+            "0": 0.259116074522567,
+            "1": 0.7408839254774333
+          }
+        },
+        "4": {
+          "N": 4,
+          "hilbert_dimension": 1820,
+          "ground_energy": -8.000000000000028,
+          "branch_parity_weight": {
+            "0": 3.294644058058921e-24,
+            "1": 1.0000000000000004
+          }
+        },
+        "5": {
+          "N": 5,
+          "hilbert_dimension": 4368,
+          "ground_energy": -9.654622474406153,
+          "branch_parity_weight": {
+            "0": 0.3845544164118792,
+            "1": 0.6154455835881175
+          }
+        }
+      },
+      "charged_gap_curvature": 0.25724791259314816,
+      "diagnostic_note": "Finite periodic-system estimate. It is not the infinite-MPS charged excitation gap used for a phase certificate."
+    }
+  ],
+  "decision": "Small-system periodic charged-gap calibration. The neutral gap is intentionally not used as a rejection condition.",
+  "claim_boundary": "No thermodynamic phase, native ANTLER realization, protected hardware qubit, braid, or non-Abelian conclusion follows."
+}

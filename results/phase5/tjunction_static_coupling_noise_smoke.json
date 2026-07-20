@@ -1,0 +1,52 @@
+{
+  "schema": "antler.phase5.tjunction-static-coupling-noise.v1",
+  "claim_boundary": "This is a static calibration-noise ensemble for the effective Majorana T-junction exchange.  It neither derives pairing from the ANTLER ladder nor establishes a device-level topological noise threshold.",
+  "noise_model": "independent positive scales 1 + sigma * Normal(0,1) on the three arms",
+  "T": 10.0,
+  "dt": 0.05,
+  "seed": 20260718,
+  "ensembles": [
+    {
+      "summary": {
+        "sigma": 0.01,
+        "samples": 2,
+        "favg_mean": 0.7519286945335708,
+        "favg_variance": 4.115671869428208e-07,
+        "leak_worst_mean": 0.050372225145524196,
+        "leak_worst_variance": 5.080697396098209e-05,
+        "phase_matrix_error_mean": 0.911269162186782,
+        "phase_matrix_error_variance": 1.7760057609431874e-06,
+        "minimum_gap_mean": 0.7019120416075693,
+        "minimum_gap_worst": 0.6933285351277059,
+        "favg_min": 0.7514750607677735,
+        "leak_worst_max": 0.05541241234249328
+      },
+      "realizations": [
+        {
+          "sample": 0,
+          "arm_scales": [
+            1.0130186912050148,
+            1.00972575977244,
+            0.9996128619487905
+          ],
+          "favg_target": 0.752382328299368,
+          "leak_worst": 0.05541241234249328,
+          "matrix_error": 0.9103268231392669,
+          "minimum_even_parity_gap": 0.7104955480874328
+        },
+        {
+          "sample": 1,
+          "arm_scales": [
+            0.9931235074924576,
+            1.012128143561057,
+            0.9681930660657239
+          ],
+          "favg_target": 0.7514750607677735,
+          "leak_worst": 0.045332037948555115,
+          "matrix_error": 0.9122115012342971,
+          "minimum_even_parity_gap": 0.6933285351277059
+        }
+      ]
+    }
+  ]
+}

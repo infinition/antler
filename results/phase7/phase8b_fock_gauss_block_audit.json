@@ -1,0 +1,125 @@
+{
+  "schema": "antler.phase8b.fock-gauss-block-audit.v1",
+  "parameters": {
+    "block_size_b": 2,
+    "matter_modes": 4,
+    "fixed_matter_particle_number": 2,
+    "detuning": 10.0,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "walker": "vacuum plus mu0,mu1,mu2; at most one neutral walker",
+    "new_inserted_primitive": "neutral-walker hopping conditioned on (1-2 n_a,j)",
+    "gauge": "two boundary qubits with G_B=X_L(-1)^N_a,B X_R"
+  },
+  "dimensions": {
+    "dimension": 96,
+    "matter_dimension": 6
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "coupling": 2.0,
+      "gauss_sector_energies": {
+        "G_plus": -0.7956544868725383,
+        "G_minus": -0.744562646538032
+      },
+      "gauss_sector_gap": 0.05109184033450631,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "coupling": 1.5,
+      "gauss_sector_energies": {
+        "G_plus": -0.4491684897382617,
+        "G_minus": -0.4313902456001113
+      },
+      "gauss_sector_gap": 0.01777824413815038,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "coupling": 1.0,
+      "gauss_sector_energies": {
+        "G_plus": -0.19992316441014746,
+        "G_minus": -0.1961524227066335
+      },
+      "gauss_sector_gap": 0.0037707417035139634,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "coupling": 0.75,
+      "gauss_sector_energies": {
+        "G_plus": -0.1124860801609155,
+        "G_minus": -0.11126207506522304
+      },
+      "gauss_sector_gap": 0.001224005095692468,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "coupling": 0.5,
+      "gauss_sector_energies": {
+        "G_plus": -0.049998762467830936,
+        "G_minus": -0.049752469181044236
+      },
+      "gauss_sector_gap": 0.00024629328678670015,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "coupling": 0.375,
+      "gauss_sector_energies": {
+        "G_plus": -0.028124778776479918,
+        "G_minus": -0.028046340279693806
+      },
+      "gauss_sector_gap": 7.843849678611237e-05,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "coupling": 0.25,
+      "gauss_sector_energies": {
+        "G_plus": -0.012499980517554805,
+        "G_minus": -0.012484413940859956
+      },
+      "gauss_sector_gap": 1.5566576694849704e-05,
+      "hamiltonian_gauss_commutator_frobenius": 0.0,
+      "bare_rung_tunnel_gauss_anticommutator_frobenius": 0.0,
+      "bare_rung_tunnel_physical_projection_norm": 0.0,
+      "bare_rung_tunnel_sector_changing_norm": 1.0
+    }
+  ],
+  "deep_sw_gap_power_vs_coupling_over_detuning": 3.973253448310562,
+  "intra_block_leg_hopping_control": {
+    "t_leg": 0.3,
+    "hamiltonian_gauss_commutator_frobenius": 0.0
+  },
+  "decision": "The declared Lambda-walker primitive embeds consistently in a fixed-charge Fock block: it has exact Gauss commutation, the bare rail tunnel changes Gauss sector rather than acting within it, and the sector gap has the expected fourth-order scaling. This is still an inserted-primitive control, not a native ANTLER derivation or a multi-block paired-phase result.",
+  "claim_boundary": "This one-block audit omits physical realization of the conditional walker hop, inter-block pair transport, the full Floquet sequence, noise, local indistinguishability, a thermodynamic phase, fusion and braid operations."
+}

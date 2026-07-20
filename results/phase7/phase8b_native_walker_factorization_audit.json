@@ -1,0 +1,136 @@
+{
+  "schema": "antler.phase8b.native-walker-factorization-audit.v1",
+  "parameters": {
+    "weighted_total_charge": 3,
+    "mode_order": [
+      "q_a",
+      "q_b",
+      "r0",
+      "r1",
+      "d0",
+      "d1"
+    ],
+    "fixed_charge_dimension": 6,
+    "native_terms_tested": [
+      "rung hopping q_a^dag q_b+h.c.",
+      "two independently phase-programmed charge-two conversions d_i^dag r0 r1+h.c.",
+      "positive mediator detunings"
+    ],
+    "excluded_new_term": "d_i^dag d_j times a rail-Pauli or density-conditioned factor"
+  },
+  "static_factorization": {
+    "frobenius_residual_H_minus_Hq_tensor_I_minus_I_tensor_Hw": 2.7194799110210365e-16,
+    "subtracted_scalar_energy": 6.666666666666666,
+    "rail_factor": [
+      [
+        [
+          6.666666666666666,
+          0.0
+        ],
+        [
+          -0.6999999999999998,
+          0.0
+        ]
+      ],
+      [
+        [
+          -0.6999999999999998,
+          0.0
+        ],
+        [
+          6.666666666666666,
+          0.0
+        ]
+      ]
+    ],
+    "walker_factor": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          -0.5
+        ]
+      ],
+      [
+        [
+          0.5,
+          0.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          10.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "complex_phase_floquet_factorization": {
+    "segments": [
+      {
+        "j_perp": 0.7,
+        "g0": [
+          0.5,
+          0.0
+        ],
+        "g1": [
+          0.0,
+          0.5
+        ],
+        "duration": 0.11
+      },
+      {
+        "j_perp": 0.2,
+        "g0": [
+          0.0,
+          0.35
+        ],
+        "g1": [
+          -0.4,
+          0.0
+        ],
+        "duration": 0.07
+      },
+      {
+        "j_perp": -0.45,
+        "g0": [
+          0.1864654691212069,
+          0.0723230863929924
+        ],
+        "g1": [
+          0.2761855872699652,
+          -0.3552766828604777
+        ],
+        "duration": 0.13
+      }
+    ],
+    "maximum_segment_connected_residual": 2.7194799110210365e-16,
+    "accumulated_global_phase_exponent": 2.0666666666666664,
+    "full_piecewise_unitary_factorization_residual": 8.663907990535308e-16
+  },
+  "decision": "In the smallest exact fixed-charge realization using only disjoint native rung hopping and phase-programmed charge-two conversions, the rail qubit and mediator walker factorize at every time. Complex channel phases and Floquet sequencing cannot produce a conditional neutral-walker Pauli link.",
+  "claim_boundary": "This is a factorization obstruction for the disjoint-reservoir minimal block. It does not rule out a future non-separable coupling in which the mediator transition shares matter modes or a derived correlated-hopping path; such a construction must separately pass selectivity, leakage, symmetry and code-protection audits."
+}

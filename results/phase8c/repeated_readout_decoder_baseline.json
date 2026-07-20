@@ -1,0 +1,85 @@
+{
+  "schema": "antler.phase8c.repeated-readout-decoder-baseline.v1",
+  "parameters": {
+    "measurement_stages": 24,
+    "noise_model": "independent classical outcome-bit flips only; data faults, correlated errors, measurement backaction and time correlations excluded",
+    "decoder": "odd-repetition majority vote"
+  },
+  "rows": [
+    {
+      "independent_readout_flip_probability": 0.001,
+      "repetitions_per_check": 1,
+      "majority_decoder_per_check_failure": 0.001,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.023726013416369818
+    },
+    {
+      "independent_readout_flip_probability": 0.001,
+      "repetitions_per_check": 3,
+      "majority_decoder_per_check_failure": 2.9980000000000003e-06,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 7.194951936617677e-05
+    },
+    {
+      "independent_readout_flip_probability": 0.001,
+      "repetitions_per_check": 5,
+      "majority_decoder_per_check_failure": 9.985006e-09,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 2.3964011752752867e-07
+    },
+    {
+      "independent_readout_flip_probability": 0.001,
+      "repetitions_per_check": 7,
+      "majority_decoder_per_check_failure": 3.491606998000001e-11,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 8.379856808460318e-10
+    },
+    {
+      "independent_readout_flip_probability": 0.01,
+      "repetitions_per_check": 1,
+      "majority_decoder_per_check_failure": 0.01,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.21432185919278124
+    },
+    {
+      "independent_readout_flip_probability": 0.01,
+      "repetitions_per_check": 3,
+      "majority_decoder_per_check_failure": 0.00029800000000000003,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.007127543574612205
+    },
+    {
+      "independent_readout_flip_probability": 0.01,
+      "repetitions_per_check": 5,
+      "majority_decoder_per_check_failure": 9.850600000000002e-06,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.0002363876204627413
+    },
+    {
+      "independent_readout_flip_probability": 0.01,
+      "repetitions_per_check": 7,
+      "majority_decoder_per_check_failure": 3.416698e-07,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 8.200042980521793e-06
+    },
+    {
+      "independent_readout_flip_probability": 0.05,
+      "repetitions_per_check": 1,
+      "majority_decoder_per_check_failure": 0.05,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.7080109756612276
+    },
+    {
+      "independent_readout_flip_probability": 0.05,
+      "repetitions_per_check": 3,
+      "majority_decoder_per_check_failure": 0.007250000000000001,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.160235526623543
+    },
+    {
+      "independent_readout_flip_probability": 0.05,
+      "repetitions_per_check": 5,
+      "majority_decoder_per_check_failure": 0.0011581250000000003,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.027427938960755238
+    },
+    {
+      "independent_readout_flip_probability": 0.05,
+      "repetitions_per_check": 7,
+      "majority_decoder_per_check_failure": 0.000193578125,
+      "probability_at_least_one_wrong_decoded_outcome_in_24_stage_protocol": 0.004635547259519535
+    }
+  ],
+  "decision": "PASS as a readout-only baseline: odd repetition suppresses the independent outcome-flip channel polynomially, but this is not a syndrome decoder for the full circuit and cannot establish fault tolerance.",
+  "next_gate": "Integrate repeated checks with propagated data faults and a time-resolved decoder, then test correlated circuit noise before attempting any microscopic ANTLER derivation.",
+  "claim_boundary": "This is an exact binomial calculation for an inserted classical readout-noise model. It does not include physical measurement dynamics, code thresholds, topological protection, non-Abelian braiding or an ANTLER realization."
+}

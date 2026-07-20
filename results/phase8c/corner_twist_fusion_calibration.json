@@ -1,0 +1,594 @@
+{
+  "schema": "antler.phase8c.corner-twist-fusion-calibration.v1",
+  "parameters": {
+    "new_declared_resource": "neutral stabilizer qubits with imposed local X/Z checks; not derived from ANTLER charge-two mediators",
+    "family": "odd-distance rotated planar surface-code reference with alternating X/Z boundaries",
+    "corner_interpretation": "each meeting of X and Z boundary is a boundary-twist calibration; the four-corner code doublet matches the fixed-sector dimension expected of a four-twist encoding",
+    "distances": [
+      3,
+      5
+    ]
+  },
+  "rows": [
+    {
+      "distance": 3,
+      "qubits": 9,
+      "check_count": 8,
+      "check_labels": [
+        "XXIXXIIII",
+        "IZZIZZIII",
+        "IIIZZIZZI",
+        "IIIIXXIXX",
+        "ZZIIIIIII",
+        "IIIIIIIZZ",
+        "IIIXIIXII",
+        "IIXIIXIII"
+      ],
+      "check_metadata": [
+        {
+          "kind": "X",
+          "location": [
+            0.5,
+            0.5
+          ],
+          "support": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            1.5,
+            0.5
+          ],
+          "support": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            0.5,
+            1.5
+          ],
+          "support": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            1.5,
+            1.5
+          ],
+          "support": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            0.5,
+            0.0
+          ],
+          "support": [
+            0,
+            1
+          ],
+          "boundary": true,
+          "side": "top"
+        },
+        {
+          "kind": "Z",
+          "location": [
+            1.5,
+            2.0
+          ],
+          "support": [
+            7,
+            8
+          ],
+          "boundary": true,
+          "side": "bottom"
+        },
+        {
+          "kind": "X",
+          "location": [
+            0.0,
+            1.5
+          ],
+          "support": [
+            3,
+            6
+          ],
+          "boundary": true,
+          "side": "left"
+        },
+        {
+          "kind": "X",
+          "location": [
+            2.0,
+            0.5
+          ],
+          "support": [
+            2,
+            5
+          ],
+          "boundary": true,
+          "side": "right"
+        }
+      ],
+      "pair_anticommutations": 0,
+      "independent_rank_over_GF2": 8,
+      "encoded_qubits": 1,
+      "ground_space_degeneracy": 2,
+      "exact_syndrome_gap_in_units_of_J": 2.0,
+      "corner_twists": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "nearest_corner_separation": 2,
+      "logical_x": "XXXIIIIII",
+      "logical_z": "ZIIZIIZII",
+      "logical_pair_symplectic_parity": 1,
+      "logical_x_commutes_with_checks": true,
+      "logical_z_commutes_with_checks": true,
+      "logical_x_outside_stabilizers": true,
+      "logical_z_outside_stabilizers": true,
+      "local_protection": {
+        "projects_to_zero": 347,
+        "stabilizer_scalar": 4,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 351,
+        "all_below_distance_probes_scalar_or_zero": true
+      }
+    },
+    {
+      "distance": 5,
+      "qubits": 25,
+      "check_count": 24,
+      "check_labels": [
+        "XXIIIXXIIIIIIIIIIIIIIIIII",
+        "IZZIIIZZIIIIIIIIIIIIIIIII",
+        "IIXXIIIXXIIIIIIIIIIIIIIII",
+        "IIIZZIIIZZIIIIIIIIIIIIIII",
+        "IIIIIZZIIIZZIIIIIIIIIIIII",
+        "IIIIIIXXIIIXXIIIIIIIIIIII",
+        "IIIIIIIZZIIIZZIIIIIIIIIII",
+        "IIIIIIIIXXIIIXXIIIIIIIIII",
+        "IIIIIIIIIIXXIIIXXIIIIIIII",
+        "IIIIIIIIIIIZZIIIZZIIIIIII",
+        "IIIIIIIIIIIIXXIIIXXIIIIII",
+        "IIIIIIIIIIIIIZZIIIZZIIIII",
+        "IIIIIIIIIIIIIIIZZIIIZZIII",
+        "IIIIIIIIIIIIIIIIXXIIIXXII",
+        "IIIIIIIIIIIIIIIIIZZIIIZZI",
+        "IIIIIIIIIIIIIIIIIIXXIIIXX",
+        "ZZIIIIIIIIIIIIIIIIIIIIIII",
+        "IIZZIIIIIIIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIIIIIIIZZII",
+        "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+        "IIIIIXIIIIXIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIIXIIIIXIIII",
+        "IIIIXIIIIXIIIIIIIIIIIIIII",
+        "IIIIIIIIIIIIIIXIIIIXIIIII"
+      ],
+      "check_metadata": [
+        {
+          "kind": "X",
+          "location": [
+            0.5,
+            0.5
+          ],
+          "support": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            1.5,
+            0.5
+          ],
+          "support": [
+            1,
+            2,
+            6,
+            7
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            2.5,
+            0.5
+          ],
+          "support": [
+            2,
+            3,
+            7,
+            8
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            3.5,
+            0.5
+          ],
+          "support": [
+            3,
+            4,
+            8,
+            9
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            0.5,
+            1.5
+          ],
+          "support": [
+            5,
+            6,
+            10,
+            11
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            1.5,
+            1.5
+          ],
+          "support": [
+            6,
+            7,
+            11,
+            12
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            2.5,
+            1.5
+          ],
+          "support": [
+            7,
+            8,
+            12,
+            13
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            3.5,
+            1.5
+          ],
+          "support": [
+            8,
+            9,
+            13,
+            14
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            0.5,
+            2.5
+          ],
+          "support": [
+            10,
+            11,
+            15,
+            16
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            1.5,
+            2.5
+          ],
+          "support": [
+            11,
+            12,
+            16,
+            17
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            2.5,
+            2.5
+          ],
+          "support": [
+            12,
+            13,
+            17,
+            18
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            3.5,
+            2.5
+          ],
+          "support": [
+            13,
+            14,
+            18,
+            19
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            0.5,
+            3.5
+          ],
+          "support": [
+            15,
+            16,
+            20,
+            21
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            1.5,
+            3.5
+          ],
+          "support": [
+            16,
+            17,
+            21,
+            22
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            2.5,
+            3.5
+          ],
+          "support": [
+            17,
+            18,
+            22,
+            23
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "X",
+          "location": [
+            3.5,
+            3.5
+          ],
+          "support": [
+            18,
+            19,
+            23,
+            24
+          ],
+          "boundary": false
+        },
+        {
+          "kind": "Z",
+          "location": [
+            0.5,
+            0.0
+          ],
+          "support": [
+            0,
+            1
+          ],
+          "boundary": true,
+          "side": "top"
+        },
+        {
+          "kind": "Z",
+          "location": [
+            2.5,
+            0.0
+          ],
+          "support": [
+            2,
+            3
+          ],
+          "boundary": true,
+          "side": "top"
+        },
+        {
+          "kind": "Z",
+          "location": [
+            1.5,
+            4.0
+          ],
+          "support": [
+            21,
+            22
+          ],
+          "boundary": true,
+          "side": "bottom"
+        },
+        {
+          "kind": "Z",
+          "location": [
+            3.5,
+            4.0
+          ],
+          "support": [
+            23,
+            24
+          ],
+          "boundary": true,
+          "side": "bottom"
+        },
+        {
+          "kind": "X",
+          "location": [
+            0.0,
+            1.5
+          ],
+          "support": [
+            5,
+            10
+          ],
+          "boundary": true,
+          "side": "left"
+        },
+        {
+          "kind": "X",
+          "location": [
+            0.0,
+            3.5
+          ],
+          "support": [
+            15,
+            20
+          ],
+          "boundary": true,
+          "side": "left"
+        },
+        {
+          "kind": "X",
+          "location": [
+            4.0,
+            0.5
+          ],
+          "support": [
+            4,
+            9
+          ],
+          "boundary": true,
+          "side": "right"
+        },
+        {
+          "kind": "X",
+          "location": [
+            4.0,
+            2.5
+          ],
+          "support": [
+            14,
+            19
+          ],
+          "boundary": true,
+          "side": "right"
+        }
+      ],
+      "pair_anticommutations": 0,
+      "independent_rank_over_GF2": 24,
+      "encoded_qubits": 1,
+      "ground_space_degeneracy": 2,
+      "exact_syndrome_gap_in_units_of_J": 2.0,
+      "corner_twists": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "nearest_corner_separation": 4,
+      "logical_x": "XXXXXIIIIIIIIIIIIIIIIIIII",
+      "logical_z": "ZIIIIZIIIIZIIIIZIIIIZIIII",
+      "logical_pair_symplectic_parity": 1,
+      "logical_x_commutes_with_checks": true,
+      "logical_z_commutes_with_checks": true,
+      "logical_x_outside_stabilizers": true,
+      "logical_z_outside_stabilizers": true,
+      "local_protection": {
+        "projects_to_zero": 1089445,
+        "stabilizer_scalar": 80,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 1089525,
+        "all_below_distance_probes_scalar_or_zero": true
+      }
+    }
+  ],
+  "scaling": {
+    "corner_separations": [
+      2,
+      4
+    ],
+    "code_distances": [
+      3,
+      5
+    ],
+    "ground_space_dimensions": [
+      2,
+      2
+    ],
+    "conclusion": "the protected doublet persists while the minimum logical support grows with the corner separation in this imposed reference family"
+  },
+  "decision": "PASS T4 as an external four-boundary-twist code-space calibration. At d=3 and d=5 the locally indistinguishable two-dimensional code space has minimum logical support growing from 3 to 5. This calibrates fusion-space dimension and local protection before any defect-motion or braid protocol; it is not a physical fusion measurement or an ANTLER-derived anyon result.",
+  "next_gate": "T5 must replace boundary-fixed corner twists by an explicitly deformable interior twist-pair geometry, derive local deformation Hamiltonians, and calculate two adjacent exchange holonomies with a nonzero commutator before reporting Yang-Baxter.",
+  "claim_boundary": "This is a CSS stabilizer reference with boundary twists, not a microscopic ANTLER Hamiltonian. It does not demonstrate mobile interior defects, physical fusion measurement, non-Abelian braid matrices, universality, material noise or fault tolerance."
+}

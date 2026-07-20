@@ -1,0 +1,54 @@
+{
+  "current_abelian": {
+    "commutator_norm": 0.0,
+    "braid_relation_residual": 0.0,
+    "generated_lie_rank": 1,
+    "interpretation": "U(1) scalar phases; braid order carries no information."
+  },
+  "nonabelian_target": {
+    "commutator_norm": 1.4142135623730947,
+    "braid_relation_residual": 2.220446049250313e-16,
+    "B1_real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "B1_imag": [
+      [
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865475
+      ]
+    ],
+    "B2_real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "B2_imag": [
+      [
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ]
+    ],
+    "interpretation": "Two-dimensional fusion space; braid order changes the logical state."
+  },
+  "conclusion": "The current ANTLER gate is a high-fidelity Abelian Z primitive. Universal topological computation requires an internal degenerate fusion space or a synthetic non-Abelian Wilczek-Zee connection."
+}

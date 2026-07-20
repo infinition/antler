@@ -1,0 +1,46 @@
+{
+  "schema": "antler.phase7d.direct-peierls-echo-audit.v1",
+  "control_contract": "Apply phi_leg=0 or pi synchronously to every intraleg hopping while pair-conversion amplitudes are unchanged. This is a new dynamic hardware resource; static local pi-flux cancellation does not by itself establish its availability.",
+  "parameters": {
+    "leg_hopping": 1.0,
+    "inactive_channel_coupling_over_g": 0.01,
+    "subcycles": [
+      16,
+      32
+    ]
+  },
+  "identity_checks": [
+    {
+      "channel_kind": "same",
+      "Q_Hplus_Q_minus_direct_pi_Peierls_hminus_frobenius": 0.0
+    },
+    {
+      "channel_kind": "opposite",
+      "Q_Hplus_Q_minus_direct_pi_Peierls_hminus_frobenius": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "subcycles_per_mediator_pulse": 16,
+      "peierls_pi_sign_switches_per_mediator_pulse": 32,
+      "peierls_pi_sign_switches_full_four_pulse_schedule": 128,
+      "monomer_leakage": 6.969127468962724e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.115936087278368e-05,
+      "logical_parity_a_residual": 1.7176478592051334e-05,
+      "logical_parity_b_residual": 1.7176478592051334e-05,
+      "logical_singular_value_min": 0.9999999651543618
+    },
+    {
+      "subcycles_per_mediator_pulse": 32,
+      "peierls_pi_sign_switches_per_mediator_pulse": 64,
+      "peierls_pi_sign_switches_full_four_pulse_schedule": 256,
+      "monomer_leakage": 5.73948170836263e-08,
+      "logical_deviation_from_zero_leg_schedule": 1.0763156017525222e-05,
+      "logical_parity_a_residual": 4.291134373376413e-06,
+      "logical_parity_b_residual": 4.291134373376413e-06,
+      "logical_singular_value_min": 0.9999999713025839
+    }
+  ],
+  "decision": "Direct Peierls-sign modulation exactly realizes the ideal echo Hamiltonian in the registered microscopic model. It is a conditional control bridge pending a derivation of synchronous phase-switch bandwidth, errors and effects on pair conversion.",
+  "claim_boundary": "This establishes no experimental implementation, protected phase, edge mode, 2D code, braid, non-Abelian statistics, universality or fault tolerance."
+}

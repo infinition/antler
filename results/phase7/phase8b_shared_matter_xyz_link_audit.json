@@ -1,0 +1,241 @@
+{
+  "schema": "antler.phase8b.shared-matter-xyz-link-audit.v1",
+  "parameters": {
+    "pair_detuning": 10.0,
+    "rung_hopping_magnitude": 0.2,
+    "walker_transition": "X_(d0,d1)",
+    "axes": {
+      "X": "real rung hop sign echo",
+      "Y": "pi/2 rung Peierls phase plus sign echo",
+      "Z": "signed rail-potential bias plus pair-channel echo"
+    }
+  },
+  "rows": [
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.2,
+      "target_pauli": "XX",
+      "target_coefficient": -0.0020034713474648544,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805986880035851,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.15,
+      "target_pauli": "XX",
+      "target_coefficient": -0.0011269526329489806,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790796
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.1,
+      "target_pauli": "XX",
+      "target_coefficient": -0.0005008678368662136,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521216,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.075,
+      "target_pauli": "XX",
+      "target_coefficient": -0.00028173815823724516,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.62444957367763
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.05,
+      "target_pauli": "XX",
+      "target_coefficient": -0.0001252169592165534,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060568,
+      "minimum_low_high_gap": 19.593471406485484
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.0375,
+      "target_pauli": "XX",
+      "target_coefficient": -7.043453955931129e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977835,
+      "minimum_low_high_gap": 19.582606093732757
+    },
+    {
+      "axis": "X",
+      "coupling_over_detuning": 0.025,
+      "target_pauli": "XX",
+      "target_coefficient": -3.130423980413835e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673512,
+      "minimum_low_high_gap": 19.574837832990582
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.2,
+      "target_pauli": "YX",
+      "target_coefficient": 0.0020034713474648544,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805986880035857,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.15,
+      "target_pauli": "YX",
+      "target_coefficient": 0.0011269526329489806,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790782
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.1,
+      "target_pauli": "YX",
+      "target_coefficient": 0.0005008678368662136,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521216,
+      "minimum_low_high_gap": 19.667657147658822
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.075,
+      "target_pauli": "YX",
+      "target_coefficient": 0.00028173815823724516,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.624449573677627
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.05,
+      "target_pauli": "YX",
+      "target_coefficient": 0.0001252169592165534,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060564,
+      "minimum_low_high_gap": 19.593471406485477
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.0375,
+      "target_pauli": "YX",
+      "target_coefficient": 7.043453955931129e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977835,
+      "minimum_low_high_gap": 19.582606093732757
+    },
+    {
+      "axis": "Y",
+      "coupling_over_detuning": 0.025,
+      "target_pauli": "YX",
+      "target_coefficient": 3.130423980413835e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673514,
+      "minimum_low_high_gap": 19.57483783299057
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.2,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.004008147226148284,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805916537953882,
+      "minimum_low_high_gap": 19.560124559980064
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.15,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.00225458281470841,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885719398010268,
+      "minimum_low_high_gap": 19.391149050862715
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.1,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.001002036806537071,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945219102380054,
+      "minimum_low_high_gap": 19.268696903416263
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.075,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.0005636457036771025,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966563459713769,
+      "minimum_low_high_gap": 19.22548158102434
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.05,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.00025050920163426776,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9981979793348646,
+      "minimum_low_high_gap": 19.194497917957865
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.0375,
+      "target_pauli": "ZX",
+      "target_coefficient": 0.00014091142591927562,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987409529057638,
+      "minimum_low_high_gap": 19.18363068920745
+    },
+    {
+      "axis": "Z",
+      "coupling_over_detuning": 0.025,
+      "target_pauli": "ZX",
+      "target_coefficient": 6.262730040856694e-05,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991298801197759,
+      "minimum_low_high_gap": 19.175861062283634
+    }
+  ],
+  "deep_point_pulse_controls": {
+    "X": {
+      "target_pauli": "XX",
+      "segment_duration": 0.627534602114852,
+      "low_frame_leakage_worst": 5.041357477213353e-07,
+      "polar_distance_to_piecewise_sw": 3.953578362971273e-05,
+      "raw_logical_min_singular_value": 0.999999747932094,
+      "piecewise_sw_signal_distance_from_identity": 3.928898733746877e-05,
+      "physical_polar_signal_distance_from_identity": 2.7381047236311355e-07,
+      "relative_piecewise_sw_error": 1.0062815640964256,
+      "deep_sw_target_power": 2.0000000000000004
+    },
+    "Y": {
+      "target_pauli": "YX",
+      "segment_duration": 0.627534602114852,
+      "low_frame_leakage_worst": 5.041357477213353e-07,
+      "polar_distance_to_piecewise_sw": 3.95357836297146e-05,
+      "raw_logical_min_singular_value": 0.9999997479320942,
+      "piecewise_sw_signal_distance_from_identity": 3.9288987337468776e-05,
+      "physical_polar_signal_distance_from_identity": 2.738104723597674e-07,
+      "relative_piecewise_sw_error": 1.0062815640964728,
+      "deep_sw_target_power": 2.0000000000000004
+    },
+    "Z": {
+      "target_pauli": "ZX",
+      "segment_duration": 0.627534602114852,
+      "low_frame_leakage_worst": 5.405765617436657e-07,
+      "polar_distance_to_piecewise_sw": 7.909575132104005e-05,
+      "raw_logical_min_singular_value": 0.9999997297116829,
+      "piecewise_sw_signal_distance_from_identity": 7.860159606660112e-05,
+      "physical_polar_signal_distance_from_identity": 5.049345397055008e-07,
+      "relative_piecewise_sw_error": 1.0062868348629996,
+      "deep_sw_target_power": 2.0000000000000018
+    }
+  },
+  "decision": "The shared-matter controls derive selective conditional X, Y and Z axes in the static/downfolded Hamiltonian. The registered integer-Rabi pulse controls are rejected as gates because their relative error to the non-scalar SW signal is approximately one; they return almost scalar low-frame operations.",
+  "claim_boundary": "This is a static one-link compiler library, not a pulse-realized link library. It does not derive a common four-state walker with all three link types, a simultaneous multi-link Hamiltonian, a stabilizer patch, a defect/fusion space, non-Abelian braid, universality or fault tolerance."
+}

@@ -1,0 +1,470 @@
+{
+  "schema": "antler.phase8c.two-qubit-fault-audit.v1",
+  "parameters": {
+    "fault_model": "all 15 nonidentity Pauli faults after each data-ancilla CNOT",
+    "schedule_search": "all 4! or 6! data-CNOT orders",
+    "readout_boundary": "an ancilla X/Y component flips the measured bit and requires repeated syndrome/decoding"
+  },
+  "rows": [
+    {
+      "protocol": "T5f",
+      "stage_index": 0,
+      "check": "IIIYYIXZI",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 1,
+      "check": "IIIZIYZIX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 2,
+      "check": "IZXIXZIXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 80,
+      "data_scalar": 10,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 3,
+      "check": "XZIIIIZXI",
+      "weight": 4,
+      "best_cnot_data_order": [
+        1,
+        0,
+        6,
+        7
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 4,
+      "check": "IIIXIYZIX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 5,
+      "check": "IIIZYIXZI",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 6,
+      "check": "IZYIXZIXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        4,
+        2,
+        5,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 7,
+      "check": "YXIXZIIII",
+      "weight": 4,
+      "best_cnot_data_order": [
+        1,
+        0,
+        3,
+        4
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 8,
+      "check": "IZXIXZIXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 9,
+      "check": "XZXIIIYXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        0,
+        2,
+        6,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 10,
+      "check": "IYXIXZIXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 80,
+      "data_scalar": 10,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 11,
+      "check": "YIZZIXIII",
+      "weight": 4,
+      "best_cnot_data_order": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5f",
+      "stage_index": 13,
+      "check": "XZIXZIZXI",
+      "weight": 6,
+      "best_cnot_data_order": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 80,
+      "data_scalar": 10,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 0,
+      "check": "IIIXIZZIX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 1,
+      "check": "IIIZYXXXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 2,
+      "check": "IXZIIIIYX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        2,
+        1,
+        7,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 3,
+      "check": "IYXIXZIII",
+      "weight": 4,
+      "best_cnot_data_order": [
+        2,
+        1,
+        4,
+        5
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 4,
+      "check": "IIIYIZZIX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        6,
+        5,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 6,
+      "check": "IIIIYXIXZ",
+      "weight": 4,
+      "best_cnot_data_order": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 7,
+      "check": "IXZIIIIZX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        2,
+        1,
+        7,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 8,
+      "check": "XZIXZIZXI",
+      "weight": 6,
+      "best_cnot_data_order": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 9,
+      "check": "IIIXIYZIX",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 54,
+      "data_scalar": 6,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 10,
+      "check": "IYXIXZIXZ",
+      "weight": 6,
+      "best_cnot_data_order": [
+        1,
+        2,
+        4,
+        7,
+        5,
+        8
+      ],
+      "faults": 90,
+      "data_logical": 0,
+      "data_detected": 82,
+      "data_scalar": 8,
+      "readout_bit_flips": 48,
+      "logical_with_readout_flip": 0
+    },
+    {
+      "protocol": "T5g",
+      "stage_index": 12,
+      "check": "IIIZYIXZI",
+      "weight": 4,
+      "best_cnot_data_order": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "faults": 60,
+      "data_logical": 0,
+      "data_detected": 52,
+      "data_scalar": 8,
+      "readout_bit_flips": 32,
+      "logical_with_readout_flip": 0
+    }
+  ],
+  "aggregate": {
+    "high_weight_measurement_stages": 24,
+    "stages_with_zero_data_logical_single_cnot_faults": 24,
+    "stages_with_unavoidable_data_logical_faults": 0,
+    "worst_minimum_data_logical_fault_count": 0,
+    "total_best_schedule_readout_bit_flips": 912
+  },
+  "decision": "PASS the data-logical part of the all-two-qubit-Pauli fault screen: every recorded stage has an order with zero data-logical single-CNOT faults. Readout-bit flips remain and require repeated syndrome extraction and decoding.",
+  "next_gate": "If data-logical faults are absent, audit repeated noisy syndrome extraction and decoding; otherwise use flags/cat ancillas or reject this circuit architecture.",
+  "claim_boundary": "This is an external finite-circuit Pauli-fault screen, not a physical ANTLER derivation, threshold proof, braid or non-Abelian claim."
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "antler.phase6.kitaev-edge-harness-control.v1",
+  "model": "open ideal Kitaev chain H = i sum_j b_j a_{j+1}, mu=0, t=Delta",
+  "L": 6,
+  "fock_dimension": 64,
+  "two_lowest_energies": [
+    -4.999999999999994,
+    -4.99999999999999
+  ],
+  "gap_above_ground_doublet": 1.99999999999998,
+  "projected_commutator_definition": "||(I-P)[H,O]P||_F / ||OP||_F",
+  "exact_left_edge_majorana_a0": {
+    "operator_on_code_frobenius": 1.4142135623730951,
+    "logical_action_frobenius": 1.4142135623730954,
+    "logical_leakage_amplitude_frobenius": 6.37320111348158e-15,
+    "full_commutator_on_code_frobenius": 0.0,
+    "code_commutator_action_frobenius": 0.0,
+    "code_commutator_action_normalized": 0.0
+  },
+  "bulk_negative_control_majorana_a1": {
+    "operator_on_code_frobenius": 1.4142135623730951,
+    "logical_action_frobenius": 2.5271586404937864e-15,
+    "logical_leakage_amplitude_frobenius": 1.4142135623730951,
+    "full_commutator_on_code_frobenius": 2.8284271247461903,
+    "code_commutator_action_frobenius": 2.8284271247461903,
+    "code_commutator_action_normalized": 2.0
+  },
+  "passes_exact_edge_control": true,
+  "rejects_bulk_negative_control": true,
+  "claim_boundary": "This validates the numerical projected-commutator harness on an exact, number-nonconserving Kitaev zero mode. It does not validate the external Iemini generator, establish a native ANTLER mapping, or demonstrate a physical braid.",
+  "decision": "The harness resolves an exact zero mode from a bulk operator; apply its negative result to the external parent literally."
+}

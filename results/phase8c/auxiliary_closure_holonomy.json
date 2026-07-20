@@ -1,0 +1,262 @@
+{
+  "schema": "antler.phase8c.auxiliary-closure-holonomy.v1",
+  "parameters": {
+    "new_declared_resource": "one single-vertex Pauli-Y measurement YIIIIIIII used only on the closing leg",
+    "logical_order": [
+      "X1",
+      "Z1",
+      "X2",
+      "Z2",
+      "X3",
+      "Z3"
+    ]
+  },
+  "legs": [
+    {
+      "measurements": [
+        "IIIYYIXZI",
+        "IIIZIYZIX",
+        "IZXIXZIXZ",
+        "XZIIIIZXI"
+      ],
+      "stages": [
+        {
+          "measurement": "IIIYYIXZI",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "IIIZIYZIX",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "IZXIXZIXZ",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "XZIIIIZXI",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        }
+      ]
+    },
+    {
+      "measurements": [
+        "IIIXIYZIX",
+        "IIIZYIXZI",
+        "IZYIXZIXZ",
+        "YXIXZIIII"
+      ],
+      "stages": [
+        {
+          "measurement": "IIIXIYZIX",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "IIIZYIXZI",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "IZYIXZIXZ",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "YXIXZIIII",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        }
+      ]
+    },
+    {
+      "measurements": [
+        "IZXIXZIXZ",
+        "XZXIIIYXZ"
+      ],
+      "stages": [
+        {
+          "measurement": "IZXIXZIXZ",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "XZXIIIYXZ",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        }
+      ]
+    },
+    {
+      "measurements": [
+        "IYXIXZIXZ",
+        "YIZZIXIII",
+        "YIIIIIIII",
+        "XZIXZIZXI"
+      ],
+      "stages": [
+        {
+          "measurement": "IYXIXZIXZ",
+          "anticommuting_generators": 2,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "YIZZIXIII",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "YIIIIIIII",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 26,
+            "stabilizer_scalar": 1,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        },
+        {
+          "measurement": "XZIXZIZXI",
+          "anticommuting_generators": 1,
+          "local_gate": {
+            "projects_to_zero": 27,
+            "stabilizer_scalar": 0,
+            "nontrivial_logical": 0,
+            "tested_nonidentity_paulis": 27,
+            "all_single_qubit_probes_scalar_or_zero": true
+          }
+        }
+      ]
+    }
+  ],
+  "returns_to_initial_stabilizer_span": true,
+  "closed_loop_logical_symplectic_map": [
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "decision": "PASS as a conditional reference closed-loop holonomy: the auxiliary Y measurement closes the four-leg code-deformation cycle, every stage passes the one-qubit local gate, and the resulting logical symplectic map is nonidentity. It is a single conditional holonomy, not a second adjacent loop or a non-Abelian braid.",
+  "next_gate": "A second independent closed loop using declared resources must be built on this same code and its commutator with this map must be nonzero before Yang-Baxter or non-Abelian claims.",
+  "claim_boundary": "The single-site Y measurement is a newly declared external resource, not derived from ANTLER or a physical measurement apparatus. No exchange protocol, non-Abelian braid, universality, noise robustness or fault tolerance is established."
+}

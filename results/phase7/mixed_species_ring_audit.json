@@ -1,0 +1,167 @@
+{
+  "schema": "antler.phase7c.mixed-species-ring-audit.v1",
+  "raw_submission_status": "rejected",
+  "raw_submission_rejection": "invalid candidate payload: channel even_pair_12 declares mediator parity (0, 0), but its pair terms require (1, 1)",
+  "counterfactual_metadata_corrected_only": {
+    "description": "The pair terms are unchanged. Only the two mixed mediator signatures are corrected from [0,0] to [1,1], which changes the exact microscopic symmetry from bare rail parities to mediator-dressed parities.",
+    "candidate_parity_type": "mediator_dressed_parities",
+    "audits": {
+      "XXXX": {
+        "compact_observation": {
+          "schema": "antler.phase7.optimizer-observation.v1",
+          "target": {
+            "label": "XXXX",
+            "target_strength": 1.0,
+            "required_traceless_pauli_coefficient": -0.5
+          },
+          "reward": -0.05593592496511626,
+          "state_fields": [
+            "minimum_monomer_overlap_singular_value",
+            "low_to_high_gap",
+            "gap_over_mott_u",
+            "maximum_low_state_mott_violation",
+            "parity_commutator_frobenius_max",
+            "observed_target_coefficient",
+            "target_coefficient_ratio",
+            "target_alignment",
+            "fixed_scale_spectral_algebraic_residual",
+            "best_scale_operator_residual",
+            "unwanted_pauli_norm_over_target"
+          ],
+          "state_vector": [
+            0.999700344534181,
+            39.95016536032691,
+            1.9975082680163456,
+            0.0011985620368969172,
+            0.0,
+            -1.2476172057969712e-10,
+            2.4952344115939424e-10,
+            2.0770581601349924e-16,
+            1.000149868646022,
+            0.9999999999999998,
+            0.017313585755159934
+          ],
+          "pauli_weight_square_histogram": {
+            "1": 1.0036825890996907e-28,
+            "2": 7.494006292531917e-05,
+            "3": 3.1694540466257913e-28,
+            "4": 8.781370801037921e-20
+          },
+          "interaction_connectivity": {
+            "components": [
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            "component_count": 1,
+            "patch_connected": true
+          },
+          "top_unwanted_paulis": [
+            {
+              "label": "XIIX",
+              "coefficient": -0.0024990008241397477
+            },
+            {
+              "label": "IXXI",
+              "coefficient": -0.002499000824139467
+            },
+            {
+              "label": "YIIY",
+              "coefficient": -0.002499000824139403
+            },
+            {
+              "label": "IIZZ",
+              "coefficient": -0.002499000824138804
+            }
+          ],
+          "hard_failures": [],
+          "next_action": "increase connected target coefficient while reducing the listed unwanted Pauli terms"
+        },
+        "observed_target_coefficient": -1.2476172057969712e-10,
+        "reward": -0.05593592496511626
+      },
+      "ZZZZ": {
+        "compact_observation": {
+          "schema": "antler.phase7.optimizer-observation.v1",
+          "target": {
+            "label": "ZZZZ",
+            "target_strength": 1.0,
+            "required_traceless_pauli_coefficient": -0.5
+          },
+          "reward": -0.05593592496509561,
+          "state_fields": [
+            "minimum_monomer_overlap_singular_value",
+            "low_to_high_gap",
+            "gap_over_mott_u",
+            "maximum_low_state_mott_violation",
+            "parity_commutator_frobenius_max",
+            "observed_target_coefficient",
+            "target_coefficient_ratio",
+            "target_alignment",
+            "fixed_scale_spectral_algebraic_residual",
+            "best_scale_operator_residual",
+            "unwanted_pauli_norm_over_target"
+          ],
+          "state_vector": [
+            0.999700344534181,
+            39.95016536032691,
+            1.9975082680163456,
+            0.0011985620368969172,
+            0.0,
+            -1.247720455600787e-10,
+            2.495440911201574e-10,
+            2.0774019590510016e-16,
+            1.0001498686460013,
+            1.0,
+            0.017313585755159934
+          ],
+          "pauli_weight_square_histogram": {
+            "1": 1.0036825890996907e-28,
+            "2": 7.494006292531917e-05,
+            "3": 3.1694540466257913e-28,
+            "4": 8.781370801037921e-20
+          },
+          "interaction_connectivity": {
+            "components": [
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            "component_count": 1,
+            "patch_connected": true
+          },
+          "top_unwanted_paulis": [
+            {
+              "label": "XIIX",
+              "coefficient": -0.0024990008241397477
+            },
+            {
+              "label": "IXXI",
+              "coefficient": -0.002499000824139467
+            },
+            {
+              "label": "YIIY",
+              "coefficient": -0.002499000824139403
+            },
+            {
+              "label": "IIZZ",
+              "coefficient": -0.002499000824138804
+            }
+          ],
+          "hard_failures": [],
+          "next_action": "increase connected target coefficient while reducing the listed unwanted Pauli terms"
+        },
+        "observed_target_coefficient": -1.247720455600787e-10,
+        "reward": -0.05593592496509561
+      }
+    }
+  },
+  "decision": "Reject as a target primitive. The submitted payload has false parity metadata; after metadata-only correction, the connected mixed ring still has XXXX and ZZZZ coefficients of order 1e-10 rather than -0.5, while two-body Pauli terms remain of order 2.5e-3.",
+  "claim_boundary": "This is a local counterfactual audit, not a repair or promotion of the submitted proposal. It establishes no microscopic stabilizer, global parent, topological order, braid or non-Abelian result."
+}

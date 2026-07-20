@@ -1,0 +1,298 @@
+{
+  "schema": "antler.phase8b.shared-matter-two-segment-gate-search.v1",
+  "parameters": {
+    "coupling_ratios": [
+      0.1,
+      0.05,
+      0.025
+    ],
+    "duration_range": [
+      0.0,
+      8.0
+    ],
+    "duration_grid_points": 121,
+    "nonzero_xx_angle_range": [
+      0.05,
+      1.5707963267948966
+    ],
+    "screen": {
+      "low_frame_leakage_worst": 0.0001,
+      "best_nonzero_xx_trace_fidelity": 0.999
+    }
+  },
+  "top_candidates_per_ratio": [
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 0.0,
+      "duration_b": 0.0,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502603949663,
+      "low_frame_leakage_worst": 3.0619721666294858e-31,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 0.9333333333333333,
+      "duration_b": 0.9333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502929358115,
+      "low_frame_leakage_worst": 0.00016932834272824244,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 1.8666666666666667,
+      "duration_b": 1.8666666666666667,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987508531361541,
+      "low_frame_leakage_worst": 0.0003585054152138857,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 2.8,
+      "duration_b": 2.8,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987504021432886,
+      "low_frame_leakage_worst": 0.0007555076324672744,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 7.8,
+      "duration_b": 7.466666666666667,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9964168778099703,
+      "low_frame_leakage_worst": 0.0007727782395487674,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 7.466666666666667,
+      "duration_b": 7.8,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9964168778099696,
+      "low_frame_leakage_worst": 0.0007727782395497439,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 4.066666666666666,
+      "duration_b": 4.066666666666666,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503796174285,
+      "low_frame_leakage_worst": 0.0011085535115636423,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 5.0,
+      "duration_b": 5.0,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987517692490845,
+      "low_frame_leakage_worst": 0.0011829419223723064,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 3.1333333333333333,
+      "duration_b": 3.1333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987511569219095,
+      "low_frame_leakage_worst": 0.0012190758850551557,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "duration_a": 3.7333333333333334,
+      "duration_b": 3.7333333333333334,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987513537460609,
+      "low_frame_leakage_worst": 0.0012407716698848638,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 0.0,
+      "duration_b": 0.0,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502603949663,
+      "low_frame_leakage_worst": 5.896847534682955e-31,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 5.333333333333333,
+      "duration_b": 5.333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503315783902,
+      "low_frame_leakage_worst": 1.882280040470261e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 7.533333333333333,
+      "duration_b": 7.533333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987507897010129,
+      "low_frame_leakage_worst": 5.2244481445213804e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 2.2,
+      "duration_b": 2.2,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.998750285324821,
+      "low_frame_leakage_worst": 5.6584904237162136e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 3.1333333333333333,
+      "duration_b": 3.1333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987505031582368,
+      "low_frame_leakage_worst": 5.671953706790593e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 4.4,
+      "duration_b": 4.4,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987505824893292,
+      "low_frame_leakage_worst": 0.00016219102166728586,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 0.9333333333333333,
+      "duration_b": 0.9333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502669995939,
+      "low_frame_leakage_worst": 0.00018308603353224233,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 6.266666666666667,
+      "duration_b": 6.266666666666667,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987507144472977,
+      "low_frame_leakage_worst": 0.00022428053697290084,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 6.6,
+      "duration_b": 6.6,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503947524397,
+      "low_frame_leakage_worst": 0.00037879765030473384,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "duration_a": 1.2666666666666666,
+      "duration_b": 1.2666666666666666,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503521260583,
+      "low_frame_leakage_worst": 0.00038779032294082566,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 0.0,
+      "duration_b": 0.0,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502603949663,
+      "low_frame_leakage_worst": 1.6496775392505842e-31,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 2.2,
+      "duration_b": 2.2,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502661923314,
+      "low_frame_leakage_worst": 3.0763182593029025e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 5.333333333333333,
+      "duration_b": 5.333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.998750275097024,
+      "low_frame_leakage_worst": 4.18045604877139e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 7.533333333333333,
+      "duration_b": 7.533333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503900764763,
+      "low_frame_leakage_worst": 5.926500473860705e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 3.1333333333333333,
+      "duration_b": 3.1333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503195803208,
+      "low_frame_leakage_worst": 7.420918962598948e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 4.4,
+      "duration_b": 4.4,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.998750342264079,
+      "low_frame_leakage_worst": 9.247504559344059e-05,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 0.9333333333333333,
+      "duration_b": 0.9333333333333333,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502619358164,
+      "low_frame_leakage_worst": 0.00014804855476589575,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 6.6,
+      "duration_b": 6.6,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502898065378,
+      "low_frame_leakage_worst": 0.00022425888025158022,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 1.2666666666666666,
+      "duration_b": 1.2666666666666666,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987502836461268,
+      "low_frame_leakage_worst": 0.0002671128684271886,
+      "passes_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "duration_a": 6.266666666666667,
+      "duration_b": 6.266666666666667,
+      "best_nonzero_xx_angle": 0.05,
+      "best_nonzero_xx_trace_fidelity": 0.9987503643814756,
+      "low_frame_leakage_worst": 0.0002905822263866895,
+      "passes_screen": false
+    }
+  ],
+  "passing_candidates": [],
+  "decision": "No nontrivial low-leakage XX candidate is present in the registered two-segment duration box: all top rows collapse to the minimum allowed target angle with fidelity below the screen, so the box is rejected as a gate search.",
+  "claim_boundary": "A passing grid point would not prove an analytic control law, Schrieffer-Wolff convergence, robustness, a walker loop, a code, fusion, a non-Abelian braid, universality or fault tolerance. An empty result rejects only this two-segment duration box and target family."
+}

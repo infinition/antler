@@ -1,0 +1,79 @@
+{
+  "schema": "antler.phase8b.y-link-walker-audit.v1",
+  "parameters": {
+    "gauge_links": 4,
+    "walker_states": 4,
+    "detuning": 10.0,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "target_word": "YXZX",
+    "y_link_realization": "forward hop i*g*Z followed by gauge-bit flip; this is exactly Pauli Y",
+    "downfolding": "exact zero-energy Schur complement onto walker vacuum"
+  },
+  "dimensions": {
+    "total": 64,
+    "low_gauge_subspace": 16,
+    "high_walker_subspace": 48
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "target_yxzx_coefficient": -0.03478260869565218,
+      "maximum_unwanted_non_scalar_coefficient": 2.7755575615628914e-17,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "target_yxzx_coefficient": -0.010602094240837698,
+      "maximum_unwanted_non_scalar_coefficient": 1.3877787807814457e-17,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "target_yxzx_coefficient": -0.0020408163265306124,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IIIX",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "target_yxzx_coefficient": -0.0006400126422250318,
+      "maximum_unwanted_non_scalar_coefficient": 1.734723475976807e-18,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "target_yxzx_coefficient": -0.00012562814070351763,
+      "maximum_unwanted_non_scalar_coefficient": 8.673617379884035e-19,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "target_yxzx_coefficient": -3.966233155750549e-05,
+      "maximum_unwanted_non_scalar_coefficient": 1.3010426069826053e-18,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "target_yxzx_coefficient": -7.822277847309134e-06,
+      "maximum_unwanted_non_scalar_coefficient": 4.336808689942018e-19,
+      "largest_unwanted_non_scalar_pauli": "IIIZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    }
+  ],
+  "deep_sw_yxzx_power": 4.009061792590246,
+  "decision": "A coherent pi/2 phase on an X-conditioned walker hop implements its local Pauli-Y action exactly. The explicit four-link loop isolates the mixed YXZX word at fourth order.",
+  "claim_boundary": "This is a local phase-controlled-walker derivation, not a full twist geometry, a branch cut, a fusion space, defect motion, a non-Abelian braid, a native ANTLER realization or a fault-tolerance result. It requires that the declared neutral walker can maintain and calibrate a coherent pi/2 conditional phase."
+}

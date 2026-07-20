@@ -1,0 +1,28 @@
+{
+  "schema": "antler.phase5.n3-pinned-mediator-status.v1",
+  "claim_boundary": "This rejects the tested static pinned-mediator route.  It does not prove that every mobile-mediator or enlarged-graph N=3 model is impossible.",
+  "static_near_crossing": {
+    "logical_split_max": 1.0251418895990128e-06,
+    "subspace_isolation_gap_min": 0.0012476946338626504,
+    "gap_over_split": 1217.0945763914592,
+    "interpretation": "The ~1e-6 internal splitting is a near-degeneracy, not the gap to the complement.  It therefore requires subspace transport rather than independent-eigenstate adiabatic following."
+  },
+  "algebra_gate": {
+    "commutator_norm": 5.798526667142203e-08,
+    "noncommuting_threshold": 1e-05,
+    "passes": false,
+    "braid_relation_status": "not_interpretable_commutator_below_threshold",
+    "raw_braid_relation_residual": 0.000579273207994008
+  },
+  "adiabatic_continuity_gate": {
+    "minimum_parallel_transport_link_singular_value": 0.663913957173906,
+    "required_minimum": 0.95,
+    "passes": false,
+    "interpretation": "This is a quality gate for the sampled control path, not a universal no-go theorem.  The selected branch is not smooth enough at this resolution to promote a finite-time braid."
+  },
+  "decision": "reject_pinned_mediator_route__commuting_controls_and_unqualified_adiabatic_continuity",
+  "sources": {
+    "static": "results\\phase5\\n3_mediator_gap_optimization.json",
+    "holonomy": "results\\phase5\\n3_local_exchange_holonomy.json"
+  }
+}

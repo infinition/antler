@@ -1,0 +1,109 @@
+{
+  "schema": "antler.phase6.sw-dressed-edge-operator-audit.v1",
+  "construction": {
+    "external_target": "Iemini finite-support aR-bR edge generator embedded in the multiplet-mediator bridge",
+    "support_rungs": 1,
+    "dressing": "O_phys = O + [S,O] + O(Delta^-1), S_high,low=-H_high,low/Delta"
+  },
+  "rows": [
+    {
+      "Delta": 80.0,
+      "raw_zero_mediator_operator": {
+        "logical_action_frobenius": 1.0355468782873296,
+        "logical_leakage_amplitude_frobenius": 1.002253380802415,
+        "code_commutator_action_frobenius": 46.63483734255657,
+        "code_commutator_action_normalized": 32.35980500030516,
+        "antihermiticity_error": 0.0
+      },
+      "first_order_SW_dressed_operator": {
+        "logical_action_frobenius": 1.2916606216014594,
+        "logical_leakage_amplitude_frobenius": 1.106207667638527,
+        "code_commutator_action_frobenius": 16.24723812789873,
+        "code_commutator_action_normalized": 9.553757248139702,
+        "antihermiticity_error": 0.0
+      },
+      "opposite_sign_convention_diagnostic": {
+        "logical_action_frobenius": 0.7794331349731998,
+        "logical_leakage_amplitude_frobenius": 1.1227072080699558,
+        "code_commutator_action_frobenius": 86.95931431452425,
+        "code_commutator_action_normalized": 63.625194837222196,
+        "antihermiticity_error": 0.0
+      }
+    },
+    {
+      "Delta": 160.0,
+      "raw_zero_mediator_operator": {
+        "logical_action_frobenius": 1.0880378093500302,
+        "logical_leakage_amplitude_frobenius": 0.9993432562992214,
+        "code_commutator_action_frobenius": 64.04280584942293,
+        "code_commutator_action_normalized": 43.350280272049915,
+        "antihermiticity_error": 0.0
+      },
+      "first_order_SW_dressed_operator": {
+        "logical_action_frobenius": 1.2255451149651082,
+        "logical_leakage_amplitude_frobenius": 1.052207543715821,
+        "code_commutator_action_frobenius": 15.37102498316339,
+        "code_commutator_action_normalized": 9.516063635056133,
+        "antihermiticity_error": 0.0
+      },
+      "opposite_sign_convention_diagnostic": {
+        "logical_action_frobenius": 0.9505305037349523,
+        "logical_leakage_amplitude_frobenius": 1.0739544191412354,
+        "code_commutator_action_frobenius": 123.61913229939157,
+        "code_commutator_action_normalized": 86.19469646699422,
+        "antihermiticity_error": 0.0
+      }
+    },
+    {
+      "Delta": 320.0,
+      "raw_zero_mediator_operator": {
+        "logical_action_frobenius": 1.116702337310273,
+        "logical_leakage_amplitude_frobenius": 0.9967776756918129,
+        "code_commutator_action_frobenius": 89.00718939655073,
+        "code_commutator_action_normalized": 59.46260150467934,
+        "antihermiticity_error": 0.0
+      },
+      "first_order_SW_dressed_operator": {
+        "logical_action_frobenius": 1.1882004960656138,
+        "logical_leakage_amplitude_frobenius": 1.0235189326749785,
+        "code_commutator_action_frobenius": 14.945152370278146,
+        "code_commutator_action_normalized": 9.529821237449259,
+        "antihermiticity_error": 0.0
+      },
+      "opposite_sign_convention_diagnostic": {
+        "logical_action_frobenius": 1.0452041785549315,
+        "logical_leakage_amplitude_frobenius": 1.0387589324130393,
+        "code_commutator_action_frobenius": 174.8550285029024,
+        "code_commutator_action_normalized": 118.65909180399305,
+        "antihermiticity_error": 0.0
+      }
+    },
+    {
+      "Delta": 640.0,
+      "raw_zero_mediator_operator": {
+        "logical_action_frobenius": 1.1316785792556998,
+        "logical_leakage_amplitude_frobenius": 0.9951901315758235,
+        "code_commutator_action_frobenius": 124.67197958096433,
+        "code_commutator_action_normalized": 82.72766098923398,
+        "antihermiticity_error": 0.0
+      },
+      "first_order_SW_dressed_operator": {
+        "logical_action_frobenius": 1.1681716616813158,
+        "logical_leakage_amplitude_frobenius": 1.0086556071767068,
+        "code_commutator_action_frobenius": 14.736490766645758,
+        "code_commutator_action_normalized": 9.54821478771315,
+        "antihermiticity_error": 0.0
+      },
+      "opposite_sign_convention_diagnostic": {
+        "logical_action_frobenius": 1.0951854968300843,
+        "logical_leakage_amplitude_frobenius": 1.017532555542359,
+        "code_commutator_action_frobenius": 247.10961928876029,
+        "code_commutator_action_normalized": 165.2988962053602,
+        "antihermiticity_error": 0.0
+      }
+    }
+  ],
+  "first_order_improves_all_tested_Delta": true,
+  "claim_boundary": "This is only a first-order dressed finite-support edge diagnostic on a microscopic bridge to an external parent. It does not establish a quasi-zero mode, an adiabatic braid, or a native ANTLER topological qubit.",
+  "decision": "first-order dressing removes the divergent virtual-mediator contribution at every tested detuning, but the residual stays finite; next test support and L scaling"
+}

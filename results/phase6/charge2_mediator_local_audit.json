@@ -1,0 +1,160 @@
+{
+  "schema": "antler.phase6.charge2-mediator-local-audit.v1",
+  "model": {
+    "name": "charge-two molecular mediator with local pair conversion",
+    "modes": [
+      "a0",
+      "a1",
+      "b0",
+      "b1",
+      "d"
+    ],
+    "mode_charges": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "parameters": {
+      "Delta": 5.0,
+      "V_mixed": 3.0
+    },
+    "interaction": "-g[d^dagger(a0 a1 + b0 b1)+h.c.]"
+  },
+  "requirements": {
+    "exact_branch_parity": "both branch-parity commutator norms below 1e-12",
+    "no_single_particle_transfer": "charge-one a/b cross norm below 1e-12",
+    "derived_pair_transfer": "nonzero isolated charge-two pair splitting with second-order g power",
+    "qualification": true
+  },
+  "rows": [
+    {
+      "g": 0.05,
+      "lowest_energies": [
+        -0.0009998000799601144,
+        1.5485108641622896e-16,
+        3.0
+      ],
+      "pair_splitting": 0.0009998000799602692,
+      "pair_isolation_gap": 3.0,
+      "pair_subspace_captures": [
+        0.9998001199200559,
+        0.9999999999999998
+      ],
+      "minimum_pair_subspace_capture": 0.9998001199200559,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    },
+    {
+      "g": 0.075,
+      "lowest_energies": [
+        -0.0022489884102262305,
+        2.297535468109757e-16,
+        3.0
+      ],
+      "pair_splitting": 0.0022489884102264604,
+      "pair_isolation_gap": 2.9999999999999996,
+      "pair_subspace_captures": [
+        0.9995506065901829,
+        1.0000000000000002
+      ],
+      "minimum_pair_subspace_capture": 0.9995506065901829,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    },
+    {
+      "g": 0.1,
+      "lowest_energies": [
+        -0.0039968051097830195,
+        1.002334416183926e-16,
+        3.0
+      ],
+      "pair_splitting": 0.00399680510978312,
+      "pair_isolation_gap": 3.0,
+      "pair_subspace_captures": [
+        0.9992019148942948,
+        0.9999999999999998
+      ],
+      "minimum_pair_subspace_capture": 0.9992019148942948,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    },
+    {
+      "g": 0.15,
+      "lowest_energies": [
+        -0.008983858058875381,
+        -2.0714250420757536e-16,
+        3.0
+      ],
+      "pair_splitting": 0.008983858058875175,
+      "pair_isolation_gap": 3.0,
+      "pair_subspace_captures": [
+        0.9982096620450509,
+        1.0000000000000002
+      ],
+      "minimum_pair_subspace_capture": 0.9982096620450509,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    },
+    {
+      "g": 0.2,
+      "lowest_energies": [
+        -0.01594912508182522,
+        -2.8588242884095964e-16,
+        3.0
+      ],
+      "pair_splitting": 0.015949125081824937,
+      "pair_isolation_gap": 3.0000000000000004,
+      "pair_subspace_captures": [
+        0.9968303959482274,
+        1.0000000000000002
+      ],
+      "minimum_pair_subspace_capture": 0.9968303959482274,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    },
+    {
+      "g": 0.3,
+      "lowest_energies": [
+        -0.0357444666211935,
+        3.623364234913197e-16,
+        3.0
+      ],
+      "pair_splitting": 0.03574446662119386,
+      "pair_isolation_gap": 2.9999999999999996,
+      "pair_subspace_captures": [
+        0.9929518792031867,
+        1.0000000000000002
+      ],
+      "minimum_pair_subspace_capture": 0.9929518792031867,
+      "branch_parity_commutator_norms": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "one_particle_cross_norm": 0.0
+    }
+  ],
+  "pair_splitting_power_fit": {
+    "power": 1.9964278529920636,
+    "prefactor": 0.39611512576503344,
+    "r_squared_log": 0.9999992235721323
+  },
+  "claim_boundary": "This is a local candidate extension with a new charge-two degree of freedom. It is not yet an ANTLER lattice derivation, a protected code, a topological phase, a braid calculation, or an experimental realization of atom--molecule conversion.",
+  "decision": "local exact-parity mechanism qualifies: next derive a tiled bond-mediator ladder and run the protection preflight"
+}

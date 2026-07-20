@@ -1,0 +1,69 @@
+{
+  "schema": "antler.phase7d.multilink-floquet-compiler-audit.v1",
+  "model": {
+    "rung_count": 4,
+    "logical_dimension": 16,
+    "links": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "schedule": "parallel even links (0,1),(2,3), followed by odd link (1,2)",
+    "target_generator": "sum_j (S+_j S+_(j+1) + h.c.)",
+    "microscopic_contract": "each pair gate is the closed positive-detuning mediator pulse from Phase 7D signed-ZZ preflight"
+  },
+  "noncommuting_layer_commutator_frobenius": 4.0,
+  "rows": [
+    {
+      "pair_angle": 0.008,
+      "trotter_residual": 6.399943110519757e-05,
+      "parity_a_residual": 0.0,
+      "parity_b_residual": 0.0,
+      "unitarity_residual": 2.2668846162379713e-16
+    },
+    {
+      "pair_angle": 0.012,
+      "trotter_residual": 0.0001439971199318139,
+      "parity_a_residual": 0.0,
+      "parity_b_residual": 0.0,
+      "unitarity_residual": 3.3481994328654377e-16
+    },
+    {
+      "pair_angle": 0.018,
+      "trotter_residual": 0.00032398541922332906,
+      "parity_a_residual": 0.0,
+      "parity_b_residual": 0.0,
+      "unitarity_residual": 2.2225226662673374e-16
+    },
+    {
+      "pair_angle": 0.027,
+      "trotter_residual": 0.0007289261799051175,
+      "parity_a_residual": 0.0,
+      "parity_b_residual": 0.0,
+      "unitarity_residual": 2.2204999355014917e-16
+    },
+    {
+      "pair_angle": 0.04,
+      "trotter_residual": 0.0015996443509775755,
+      "parity_a_residual": 0.0,
+      "parity_b_residual": 0.0,
+      "unitarity_residual": 1.1868223622282587e-16
+    }
+  ],
+  "trotter_power_fit": {
+    "power": 1.999874234603491,
+    "prefactor": 0.9994151176720285,
+    "r_squared_log": 0.999999999246109
+  },
+  "decision": "The dynamic pair-hopping primitive composes into a parity-preserving four-rung digital compiler with a measured Trotter error. Passing this gate permits a full finite-pulse ladder Hamiltonian audit; it does not by itself create a gapped topological phase or a commuting 2D parent.",
+  "claim_boundary": "This audit acts entirely within the monomer logical sector after each closed mediator pulse. It does not yet include simultaneous mediator crosstalk, finite rail-rotation errors, leg hopping, a many-body gap, edge protection, 2D order, braiding, non-Abelian statistics, universality or fault tolerance."
+}

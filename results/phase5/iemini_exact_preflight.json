@@ -1,0 +1,117 @@
+{
+  "schema": "antler.phase5.iemini-exact-preflight.v1",
+  "reference": {
+    "citation": "F. Iemini et al., Phys. Rev. Lett. 115, 156402 (2015), Eq. (3)",
+    "arxiv": "https://arxiv.org/abs/1504.04230",
+    "boundary_conditions": "open",
+    "exact_line": "lambda=1"
+  },
+  "claim_boundary": "This independently reproduces a published number-conserving reference Hamiltonian. It does not derive that Hamiltonian from ANTLER, does not establish a gapped many-body topological phase, and does not execute a physical braid.",
+  "rows": [
+    {
+      "L": 4,
+      "N": 4,
+      "filling": 0.5,
+      "lambda": 1.0,
+      "sector_energies_lowest_three": {
+        "ee": [
+          2.7051826751859805e-15,
+          1.4621250708201379,
+          2.189051211570807
+        ],
+        "oo": [
+          2.6928761999591827e-15,
+          1.5278640450004193,
+          3.0816259383234907
+        ]
+      },
+      "ground_doublet_split": 1.2306475226797747e-17,
+      "fixed_parity_collective_gap": 1.4621250708201352,
+      "ground_energy_abs_max": 2.7051826751859805e-15,
+      "cross_parity_block_norm": 0.0,
+      "solver": "dense-eigh",
+      "local_a_dag_b_profile": [
+        0.28676966733820225,
+        0.057353933467640485,
+        0.057353933467640485,
+        0.2867696673382021
+      ],
+      "edge_transfer_mean": 0.2867696673382022,
+      "bulk_transfer_max": 0.057353933467640485,
+      "bulk_to_edge_transfer_ratio": 0.20000000000000015
+    },
+    {
+      "L": 6,
+      "N": 6,
+      "filling": 0.5,
+      "lambda": 1.0,
+      "sector_energies_lowest_three": {
+        "ee": [
+          -1.0124565712121019e-14,
+          0.7265968799492069,
+          1.6093965521015594
+        ],
+        "oo": [
+          -2.624096218250817e-15,
+          0.7174655047194682,
+          1.5192413327588257
+        ]
+      },
+      "ground_doublet_split": 7.5004694938702e-15,
+      "fixed_parity_collective_gap": 0.7174655047194709,
+      "ground_energy_abs_max": 1.0124565712121019e-14,
+      "cross_parity_block_norm": 0.0,
+      "solver": "dense-eigh",
+      "local_a_dag_b_profile": [
+        0.27279118249778117,
+        0.03031013138864264,
+        0.01299005630941854,
+        0.01299005630941848,
+        0.03031013138864269,
+        0.27279118249778084
+      ],
+      "edge_transfer_mean": 0.272791182497781,
+      "bulk_transfer_max": 0.03031013138864269,
+      "bulk_to_edge_transfer_ratio": 0.11111111111111242
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "filling": 0.5,
+      "lambda": 1.0,
+      "sector_energies_lowest_three": {
+        "ee": [
+          3.3070025688503794e-15,
+          0.4181119802117528,
+          0.8840365109060598
+        ],
+        "oo": [
+          9.14756774377861e-15,
+          0.41944129741450853,
+          0.8957291191321461
+        ]
+      },
+      "ground_doublet_split": 5.840565174928231e-15,
+      "fixed_parity_collective_gap": 0.41811198021174945,
+      "ground_energy_abs_max": 9.14756774377861e-15,
+      "cross_parity_block_norm": 0.0,
+      "solver": "sparse-eigsh",
+      "local_a_dag_b_profile": [
+        0.2666706111248691,
+        0.020513123932682314,
+        0.005594488345276999,
+        0.0031080490807094377,
+        0.00310804908070942,
+        0.005594488345276945,
+        0.020513123932682207,
+        0.26667061112486895
+      ],
+      "edge_transfer_mean": 0.266670611124869,
+      "bulk_transfer_max": 0.020513123932682314,
+      "bulk_to_edge_transfer_ratio": 0.07692307692307723
+    }
+  ],
+  "reproduction_checks_pass": true,
+  "finite_size_localization_trend": true,
+  "decision": "exact-parent reproduction passed; the proper next task is a finite-size scaling and explicit published edge-braid-operator audit, still outside frozen ANTLER"
+}

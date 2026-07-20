@@ -1,0 +1,84 @@
+{
+  "schema": "antler.phase6.neutral-gap-scaling.v1",
+  "reference": "external Iemini lambda=1 parent at fixed N=L; parity-sector excitation above its exact ground state",
+  "matrix_free_L6_reconstruction": {
+    "L": 6,
+    "N": 6,
+    "basis_dimension": 924,
+    "sectors": [
+      {
+        "wire_a_parity": 0,
+        "sector_dimension": 452,
+        "deflation_shift": 16.0,
+        "first_neutral_excitation": 0.7265968799492141,
+        "eigensolver_residual": 3.698435745303659e-13,
+        "parent_action_on_exact_ground": 6.591583993652515e-15
+      },
+      {
+        "wire_a_parity": 1,
+        "sector_dimension": 472,
+        "deflation_shift": 16.0,
+        "first_neutral_excitation": 0.717465504719491,
+        "eigensolver_residual": 4.021607155380894e-12,
+        "parent_action_on_exact_ground": 1.7174759060739048e-14
+      }
+    ],
+    "fixed_N_neutral_code_gap": 0.717465504719491
+  },
+  "known_L6_gap_absolute_error": 1.3322676295501878e-14,
+  "matrix_free_L10": {
+    "L": 10,
+    "N": 10,
+    "basis_dimension": 184756,
+    "sectors": [
+      {
+        "wire_a_parity": 0,
+        "sector_dimension": 92252,
+        "deflation_shift": 16.0,
+        "first_neutral_excitation": 0.27220491731765206,
+        "eigensolver_residual": 5.879160541996326e-13,
+        "parent_action_on_exact_ground": 5.2718168689126796e-14
+      },
+      {
+        "wire_a_parity": 1,
+        "sector_dimension": 92504,
+        "deflation_shift": 16.0,
+        "first_neutral_excitation": 0.27199271800121205,
+        "eigensolver_residual": 1.8601404504841968e-12,
+        "parent_action_on_exact_ground": 5.544714851849119e-13
+      }
+    ],
+    "fixed_N_neutral_code_gap": 0.27199271800121205
+  },
+  "neutral_gaps": [
+    {
+      "L": 4,
+      "gap": 1.4621250708201343
+    },
+    {
+      "L": 6,
+      "gap": 0.7174655047194777
+    },
+    {
+      "L": 8,
+      "gap": 0.41811198021175106
+    },
+    {
+      "L": 10,
+      "gap": 0.27199271800121205
+    }
+  ],
+  "strictly_decreasing_over_L4_to_L10": true,
+  "fit_gap_vs_inverse_L": {
+    "slope": 8.036639690568558,
+    "intercept": -0.5717871319238957,
+    "r_squared": 0.9941177406912179
+  },
+  "pure_power_law_descriptive_fit": {
+    "amplitude": 18.81917723327619,
+    "exponent_p_in_a_times_L_to_minus_p": 1.8340586720679264,
+    "log_space_r_squared": 0.9995160308086751
+  },
+  "claim_boundary": "The fits are descriptive four-size finite-size diagnostics, not a proof of a thermodynamic exponent or gap closure. This audit concerns the external Iemini parent, not a native ANTLER Hamiltonian or a physical braid.",
+  "decision": "The neutral gap continues to fall through L=10. These finite sizes do not establish a nonzero thermodynamic neutral gap; do not spend L=12 edge-support effort as evidence for a protected braid."
+}

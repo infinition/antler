@@ -1,0 +1,41 @@
+{
+  "schema": "antler.phase7d.peierls-phase-ramp-gpu-audit.v1",
+  "method": "exact segment spectral propagation on CUDA, complex128",
+  "device": "NVIDIA GeForce RTX 4070 Ti",
+  "parameters": {
+    "leg_hopping": 1.0,
+    "inactive_channel_coupling_over_g": 0.01,
+    "subcycles": 16,
+    "ramp_fraction_scan": [
+      0.005,
+      0.02
+    ]
+  },
+  "rows": [
+    {
+      "ramp_fraction_of_each_subcycle": 0.005,
+      "ramp_duration": 2.4272149851866614e-05,
+      "ramp_steps": 4,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+      "monomer_leakage": 9.147772759427667e-07,
+      "logical_deviation_from_zero_leg_schedule": 2.9505838071918256e-05,
+      "logical_parity_a_residual": 1.6236539817780376e-05,
+      "logical_parity_b_residual": 1.6236539817780376e-05,
+      "logical_singular_value_min": 0.9999995426113742
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.02,
+      "ramp_duration": 9.708859940746645e-05,
+      "ramp_steps": 4,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+      "monomer_leakage": 1.3865298331749302e-05,
+      "logical_deviation_from_zero_leg_schedule": 1.1952602731155212e-05,
+      "logical_parity_a_residual": 1.0057877388220719e-05,
+      "logical_parity_b_residual": 1.0057877388220719e-05,
+      "logical_singular_value_min": 0.9999930673269023
+    }
+  ],
+  "wall_clock_seconds_including_cached_eigensystems": 6.939292800001567,
+  "decision": "CUDA completion of the finite Peierls-ramp audit; numerical temporal convergence must be checked before promotion.",
+  "claim_boundary": "This is a finite-block pulse control only; no hardware bandwidth, protected phase, 2D code, braid, non-Abelianity, universality or fault tolerance is established."
+}

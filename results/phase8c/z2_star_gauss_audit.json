@@ -1,0 +1,180 @@
+{
+  "schema": "antler.phase8c.z2-star-gauss-audit.v1",
+  "parameters": {
+    "new_declared_resource": "one neutral Z2 link qubit tau_e per edge; not an ANTLER charge-two mediator",
+    "matter": "spinless U(1)-conserving fermion on each vertex",
+    "gauge_generator": "G_v=(-1)^n_v product_(e incident to v) tau^x_e",
+    "dressed_hopping": "c_v^dag tau^z_vw c_w+h.c.",
+    "reference_hamiltonian": "sum_e[-t_e dressed_hop_e-h_e tau^x_e]+sum_v[mu_v n_v-lambda G_v]",
+    "edge_hoppings": [
+      0.61,
+      0.73,
+      0.89
+    ],
+    "electric_fields": [
+      0.27,
+      0.34,
+      0.41
+    ],
+    "vertex_potentials": [
+      0.11,
+      -0.07,
+      0.13,
+      -0.17
+    ],
+    "gauss_penalty": 2.0
+  },
+  "geometry": {
+    "name": "three-arm star (gauge-algebra preflight only)",
+    "vertices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "plaquettes": 0
+  },
+  "dimensions": {
+    "full": 128,
+    "fixed_N2_before_gauss": 48,
+    "physical_fixed_N2": 6,
+    "physical_all_charges": 8
+  },
+  "algebra": {
+    "hamiltonian_hermiticity_norm": 0.0,
+    "max_gauss_hermiticity_norm": 0.0,
+    "max_gauss_involution_norm": 0.0,
+    "max_hamiltonian_gauss_commutator_norm": 0.0,
+    "max_pairwise_gauss_commutator_norm": 0.0,
+    "hamiltonian_charge_commutator_norm": 0.0,
+    "global_gauss_product_minus_fermion_parity_norm": 0.0,
+    "max_dressed_hop_gauss_commutator_norm": 0.0,
+    "max_bare_hop_gauss_commutator_norm": 2.0
+  },
+  "physical_projection": {
+    "projector_idempotency_norm": 0.0,
+    "max_projected_gauss_minus_projector_norm": 0.0,
+    "bare_hopping_projected_norm": 2.7755575615628914e-17,
+    "dressed_hopping_projected_nonscalar_norm": 1.302727907124124,
+    "local_vertex_density_projected_nonscalar_norm": 0.5000000000000001
+  },
+  "spectra": {
+    "physical_N2_eigenvalues": [
+      -9.454111758308176,
+      -9.221109120644709,
+      -8.244645682218563,
+      -7.755354317781437,
+      -6.7788908793552825,
+      -6.545888241691821
+    ],
+    "physical_internal_gap": 0.23300263766346774,
+    "minimum_Gauss_syndrome_gap_at_N2": 7.420370669517658,
+    "gauss_signature_sectors_at_N2": [
+      {
+        "signs": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "dimension": 6,
+        "ground_energy": 6.509137750526009,
+        "first_excited_energy": 6.702695992929351
+      },
+      {
+        "signs": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "dimension": 6,
+        "ground_energy": -1.9337414449045436,
+        "first_excited_energy": -0.9418005019690335
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "dimension": 6,
+        "ground_energy": -1.7540326280141303,
+        "first_excited_energy": -1.076337756203762
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "dimension": 6,
+        "ground_energy": -1.933843437188402,
+        "first_excited_energy": -1.1871513071974233
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "dimension": 6,
+        "ground_energy": -1.7751767755430106,
+        "first_excited_energy": -1.1053181242376366
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "dimension": 6,
+        "ground_energy": -2.033741088790518,
+        "first_excited_energy": -1.0699345397963396
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "dimension": 6,
+        "ground_energy": -1.9107415765097875,
+        "first_excited_energy": -1.013249868359411
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dimension": 6,
+        "ground_energy": -9.454111758308176,
+        "first_excited_energy": -9.221109120644709
+      }
+    ],
+    "odd_N_physical_sector_note": "For all G_v=+1, product_v G_v=(-1)^N, so odd total N has no physical state without background charge."
+  },
+  "decision": "PASS T0. The separately declared neutral-link reference model has exact local Z2 Gauss algebra, exact total-U(1) conservation and the expected selection rule: bare hopping has no physical-sector matrix element, whereas dressed hopping is gauge invariant. The three-arm star contains no plaquette and its local density remains non-scalar in the physical N=2 sector, so it is explicitly not a topological code, fusion space or braid implementation.",
+  "claim_boundary": "This audit inserts neutral Z2 link qubits and a Gauss penalty as new reference resources. It neither derives them from the frozen ANTLER ladder nor establishes a deconfined two-dimensional phase, plaquette flux, local indistinguishability, twist defects, anyons, fusion or non-Abelian braiding."
+}

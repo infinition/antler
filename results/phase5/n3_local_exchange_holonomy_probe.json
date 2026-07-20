@@ -1,0 +1,165 @@
+{
+  "schema": "antler.phase5.n3-local-exchange-holonomy.v1",
+  "claim_boundary": "This is a projected adiabatic-holonomy diagnostic, not a finite-time gate fidelity calculation.  It tests whether pinned-mediator local exchanges can even generate a matrix-valued noncommuting action.",
+  "config": {
+    "L": 14,
+    "N": 3,
+    "J1": 0.4,
+    "J2": 1.0,
+    "JPERP": 0.1,
+    "code_depth": -2.5,
+    "mediator_depth_scale": 1.5,
+    "mediator_rung": 7,
+    "mediator_leg": 0
+  },
+  "theta": 0.3,
+  "UA": {
+    "real": [
+      [
+        4.293225099814986e-15,
+        -1.8643204821407278e-08
+      ],
+      [
+        9.60552056397185e-08,
+        0.14657488505712393
+      ]
+    ],
+    "imag": [
+      [
+        3.3310508057489858e-15,
+        -6.289010406671699e-09
+      ],
+      [
+        -2.8638836941182676e-07,
+        0.989199576966341
+      ]
+    ]
+  },
+  "UB": {
+    "real": [
+      [
+        0.008064095003010745,
+        -2.827921281557451e-07
+      ],
+      [
+        7.463408971787768e-09,
+        -2.841496573849058e-15
+      ]
+    ],
+    "imag": [
+      [
+        -0.9999674846572156,
+        1.164726371622883e-07
+      ],
+      [
+        -6.973491084331466e-09,
+        -9.03660434271448e-18
+      ]
+    ]
+  },
+  "commutator_norm": 4.143764288752954e-07,
+  "braid_relation_residual": 1.2126319826492054e-13,
+  "UA_offdiag_norm": 3.027078152323817e-07,
+  "UB_offdiag_norm": 3.060091420297388e-07,
+  "audit_A": {
+    "side": "left",
+    "loop_rung": 3,
+    "theta": 0.3,
+    "steps": 3,
+    "n_eigs": 8,
+    "minimum_isolation_gap": 1.0170497048989091e-06,
+    "minimum_parallel_transport_link_singular_value": 0.06676821690238283,
+    "trace": [
+      {
+        "u": 0.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.193708165898524,
+          -9.193707148848837
+        ],
+        "isolation_gap": 0.001247694633949692,
+        "link_sigma_min": 0.9999999994652652
+      },
+      {
+        "u": 0.5,
+        "selected_indices": [
+          4,
+          1
+        ],
+        "selected_energies": [
+          -8.641690106869945,
+          -9.193708022207714
+        ],
+        "isolation_gap": 0.09437854769858944,
+        "link_sigma_min": 0.06676821690238283
+      },
+      {
+        "u": 1.0,
+        "selected_indices": [
+          7,
+          2
+        ],
+        "selected_energies": [
+          -8.137797582671134,
+          -9.193707148848828
+        ],
+        "isolation_gap": 1.0170497048989091e-06,
+        "link_sigma_min": 0.4953632324524053
+      }
+    ]
+  },
+  "audit_B": {
+    "side": "right",
+    "loop_rung": 3,
+    "theta": 0.3,
+    "steps": 3,
+    "n_eigs": 8,
+    "minimum_isolation_gap": 1.0170496675954155e-06,
+    "minimum_parallel_transport_link_singular_value": 0.0664706247409503,
+    "trace": [
+      {
+        "u": 0.0,
+        "selected_indices": [
+          1,
+          2
+        ],
+        "selected_energies": [
+          -9.193708165898498,
+          -9.193707148848777
+        ],
+        "isolation_gap": 0.0012476946338910722,
+        "link_sigma_min": 0.9999999995033748
+      },
+      {
+        "u": 0.5,
+        "selected_indices": [
+          1,
+          4
+        ],
+        "selected_energies": [
+          -9.193785603014117,
+          -8.636639488071898
+        ],
+        "isolation_gap": 0.0943670328702737,
+        "link_sigma_min": 0.0664706247409503
+      },
+      {
+        "u": 1.0,
+        "selected_indices": [
+          1,
+          6
+        ],
+        "selected_energies": [
+          -9.193708165898526,
+          -8.138516899129803
+        ],
+        "isolation_gap": 1.0170496675954155e-06,
+        "link_sigma_min": 0.2785974805728974
+      }
+    ]
+  },
+  "runtime_s": 2.8009703159332275
+}

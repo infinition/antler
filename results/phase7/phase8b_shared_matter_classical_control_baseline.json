@@ -1,0 +1,64 @@
+{
+  "schema": "antler.phase8b.shared-matter-classical-control-baseline.v1",
+  "parameters": {
+    "coupling_over_detuning": 0.05,
+    "ramp_shape": "sin^2 zero-to-zero",
+    "ramp_duration": 4.0,
+    "ramp_slices": 32,
+    "target": "exp(-i 0.1 XX)",
+    "hold_bounds": [
+      0.0,
+      400.0
+    ],
+    "seeds": [
+      13,
+      19,
+      31
+    ],
+    "screen": {
+      "relative_target_error": 0.1,
+      "low_frame_leakage_worst": 0.0001
+    }
+  },
+  "rows": [
+    {
+      "seed": 13,
+      "objective": 1.0010574715866418,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "duration_a": 281.7409013750499,
+      "duration_b": 30.275779226045625,
+      "relative_target_error": 1.0010574715866418,
+      "low_frame_leakage_worst": 4.4891078784030555e-06,
+      "physical_polar_signal_distance_from_identity": 0.003906799458080688,
+      "passes_local_screen": false
+    },
+    {
+      "seed": 19,
+      "objective": 1.0003179196530176,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "duration_a": 139.12255596209482,
+      "duration_b": 139.1225562770388,
+      "relative_target_error": 1.0003179196530176,
+      "low_frame_leakage_worst": 5.311748297608189e-06,
+      "physical_polar_signal_distance_from_identity": 3.182626102067605e-05,
+      "passes_local_screen": false
+    },
+    {
+      "seed": 31,
+      "objective": 1.0011227388446153,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "duration_a": 63.631793388624835,
+      "duration_b": 315.096937173147,
+      "relative_target_error": 1.0011227388446153,
+      "low_frame_leakage_worst": 6.7398012867756315e-06,
+      "physical_polar_signal_distance_from_identity": 0.003908448730675223,
+      "passes_local_screen": false
+    }
+  ],
+  "passing_rows": [],
+  "decision": "No registered seeded differential-evolution run finds a nontrivial low-leakage XX gate in the two-duration smooth-pulse box.",
+  "claim_boundary": "This is a reproducible classical-optimizer baseline in a fixed two-parameter control box. Its failure does not prove that all smooth/composite/dressed pulse families or new microscopic resources fail."
+}

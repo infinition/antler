@@ -1,0 +1,44 @@
+{
+  "schema": "antler.phase5.tjunction-braid-dynamics.v1",
+  "claim_boundary": "This is a finite-time effective Majorana-network braid.  The microscopic pairing/T-junction derivation from ANTLER remains a separate requirement.",
+  "rows": [
+    {
+      "T": 80.0,
+      "dt": 0.1,
+      "nseg": 800,
+      "arm_scales": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "U": {
+        "real": [
+          [
+            -0.707021628512029,
+            0.0
+          ],
+          [
+            0.0,
+            -0.707021628512029
+          ]
+        ],
+        "imag": [
+          [
+            0.7071919236078691,
+            0.0
+          ],
+          [
+            0.0,
+            -0.7071919236078691
+          ]
+        ]
+      },
+      "target_orientation": "B12",
+      "matrix_error": 0.00017029509614894874,
+      "favg_target": 0.9999999903331931,
+      "leak_worst": 0.0008562733220867091,
+      "sigma_min": 0.9995717716491964,
+      "minimum_even_parity_gap": 0.7071081442428961
+    }
+  ]
+}

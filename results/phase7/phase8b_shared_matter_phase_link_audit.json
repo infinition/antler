@@ -1,0 +1,363 @@
+{
+  "schema": "antler.phase8b.shared-matter-phase-link-audit.v1",
+  "parameters": {
+    "rung_hopping_magnitude": 0.2,
+    "relative_pair_channel_echo": "A: g0=g1, B: g0=-g1",
+    "target_family": "(-cos(phi) X_rail + sin(phi) Y_rail) tensor X_walker"
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -0.0020034713474648544,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805986880035851,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "coupling_over_detuning": 0.2,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -0.0014166681757053485,
+      "yx_coefficient": 0.0014166681757053485,
+      "phase_rotation_residual": 3.0665868333667484e-19,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805986880035853,
+      "minimum_low_high_gap": 19.959029907498383
+    },
+    {
+      "coupling_over_detuning": 0.2,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -1.2267723864281345e-19,
+      "yx_coefficient": 0.0020034713474648544,
+      "phase_rotation_residual": 2.407412430484045e-35,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.980598688003586,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "coupling_over_detuning": 0.2,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 0.0020034713474648544,
+      "yx_coefficient": 2.453544772856269e-19,
+      "phase_rotation_residual": 4.81482486096809e-35,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9805986880035851,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "coupling_over_detuning": 0.2,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 3.6803171592844027e-19,
+      "yx_coefficient": -0.0020034713474648544,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.980598688003586,
+      "minimum_low_high_gap": 19.959029907498405
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -0.0011269526329489806,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790796
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -0.0007968758488342586,
+      "yx_coefficient": 0.0007968758488342586,
+      "phase_rotation_residual": 1.5332934166833742e-19,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330426,
+      "minimum_low_high_gap": 19.790086801790803
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -6.900594673658256e-20,
+      "yx_coefficient": 0.0011269526329489806,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790782
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 0.0011269526329489806,
+      "yx_coefficient": 1.3801189347316511e-19,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790796
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 2.0701784020974765e-19,
+      "yx_coefficient": -0.0011269526329489806,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9885791524330426,
+      "minimum_low_high_gap": 19.79008680179079
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -0.0005008678368662136,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521216,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -0.00035416704392633714,
+      "yx_coefficient": 0.00035416704392633714,
+      "phase_rotation_residual": 7.666467083416871e-20,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521221,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -3.066930966070336e-20,
+      "yx_coefficient": 0.0005008678368662136,
+      "phase_rotation_residual": 6.018531076210112e-36,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.994529256352121,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 0.0005008678368662136,
+      "yx_coefficient": 6.133861932140672e-20,
+      "phase_rotation_residual": 1.2037062152420224e-35,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521216,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 9.200792898211007e-20,
+      "yx_coefficient": -0.0005008678368662136,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9945292563521214,
+      "minimum_low_high_gap": 19.66765714765882
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -0.00028173815823724516,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.62444957367763
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -0.00019921896220856465,
+      "yx_coefficient": 0.00019921896220856465,
+      "phase_rotation_residual": 3.8332335417084355e-20,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.624449573677634
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -1.725148668414564e-20,
+      "yx_coefficient": 0.00028173815823724516,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614125,
+      "minimum_low_high_gap": 19.624449573677616
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 0.00028173815823724516,
+      "yx_coefficient": 3.450297336829128e-20,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.62444957367763
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 5.175446005243691e-20,
+      "yx_coefficient": -0.00028173815823724516,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9966637400614133,
+      "minimum_low_high_gap": 19.62444957367762
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -0.0001252169592165534,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060568,
+      "minimum_low_high_gap": 19.593471406485484
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -8.854176098158428e-05,
+      "yx_coefficient": 8.854176098158428e-05,
+      "phase_rotation_residual": 1.9166167708542177e-20,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060573,
+      "minimum_low_high_gap": 19.593471406485488
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -7.66732741517584e-21,
+      "yx_coefficient": 0.0001252169592165534,
+      "phase_rotation_residual": 1.504632769052528e-36,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060568,
+      "minimum_low_high_gap": 19.593471406485477
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 0.0001252169592165534,
+      "yx_coefficient": 1.533465483035168e-20,
+      "phase_rotation_residual": 3.009265538105056e-36,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060571,
+      "minimum_low_high_gap": 19.593471406485484
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 2.3001982245527517e-20,
+      "yx_coefficient": -0.0001252169592165534,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9982054081060568,
+      "minimum_low_high_gap": 19.593471406485477
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -7.043453955931129e-05,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977835,
+      "minimum_low_high_gap": 19.582606093732757
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -4.980474055214116e-05,
+      "yx_coefficient": 4.980474055214116e-05,
+      "phase_rotation_residual": 9.583083854271089e-21,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977841,
+      "minimum_low_high_gap": 19.582606093732757
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -4.31287167103641e-21,
+      "yx_coefficient": 7.043453955931129e-05,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977844,
+      "minimum_low_high_gap": 19.582606093732764
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 7.043453955931129e-05,
+      "yx_coefficient": 8.62574334207282e-21,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977835,
+      "minimum_low_high_gap": 19.582606093732757
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 1.2938615013109228e-20,
+      "yx_coefficient": -7.043453955931129e-05,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9987483938977844,
+      "minimum_low_high_gap": 19.582606093732764
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rung_peierls_phase": 0.0,
+      "xx_coefficient": -3.130423980413835e-05,
+      "yx_coefficient": 0.0,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673512,
+      "minimum_low_high_gap": 19.574837832990582
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rung_peierls_phase": 0.7853981633974483,
+      "xx_coefficient": -2.213544024539607e-05,
+      "yx_coefficient": 2.213544024539607e-05,
+      "phase_rotation_residual": 4.791541927135544e-21,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673516,
+      "minimum_low_high_gap": 19.57483783299058
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rung_peierls_phase": 1.5707963267948966,
+      "xx_coefficient": -1.91683185379396e-21,
+      "yx_coefficient": 3.130423980413835e-05,
+      "phase_rotation_residual": 3.76158192263132e-37,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673514,
+      "minimum_low_high_gap": 19.57483783299057
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rung_peierls_phase": 3.141592653589793,
+      "xx_coefficient": 3.130423980413835e-05,
+      "yx_coefficient": 3.83366370758792e-21,
+      "phase_rotation_residual": 7.52316384526264e-37,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673512,
+      "minimum_low_high_gap": 19.574837832990582
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rung_peierls_phase": 4.71238898038469,
+      "xx_coefficient": 5.750495561381879e-21,
+      "yx_coefficient": -3.130423980413835e-05,
+      "phase_rotation_residual": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "minimum_low_frame_capture": 0.9991373298673516,
+      "minimum_low_high_gap": 19.57483783299057
+    }
+  ],
+  "deep_sw_yx_power": 2.0000000000000004,
+  "decision": "A physical Peierls phase on the shared-matter rung rotates the derived conditional link continuously between X and Y rail axes while the echo cancels isolated flips.",
+  "claim_boundary": "This is a local SW compiler result for conditional X/Y links. It does not establish a complete four-state walker, a finite-pulse complex-phase closure, a code patch, defects, fusion, non-Abelian braiding, universality or fault tolerance."
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "antler.phase8.native-direct-h1-fixed-time-scaling.v1",
+  "parameters": {
+    "L": 6,
+    "N": 3,
+    "filling": 0.25,
+    "target_u0": -1.5,
+    "alpha": 0.5,
+    "protocol": "integer virtual-Rabi closure with the nearest number of cycles to retain the r=0.05 total duration"
+  },
+  "rotated_channel_factorization_frobenius_residual": 3.510833468576701e-16,
+  "closest_fixed_duration_loglog_powers": {
+    "accumulated_leakage_vs_g_over_detuning": 1.9696531416938083,
+    "polar_logical_distance_vs_g_over_detuning": 1.988636991561573
+  },
+  "rows": [
+    {
+      "g_over_detuning": 0.05,
+      "cycles_at_closure": 1,
+      "detuning": 599.9999999999999,
+      "g": 29.999999999999996,
+      "closure_period": 0.020840010178748883,
+      "total_duration": 0.020840010178748883,
+      "low_frame_leakage_worst": 1.5711434996154053e-05,
+      "polar_logical_vs_target_distance": 0.00014264292349006242,
+      "raw_logical_min_singular_value": 0.999992144251645,
+      "duration_over_r005_reference": 1.0
+    },
+    {
+      "g_over_detuning": 0.025,
+      "cycles_at_closure": 4,
+      "detuning": 2399.9999999999995,
+      "g": 59.99999999999999,
+      "closure_period": 0.005229455017623768,
+      "total_duration": 0.020917820070495072,
+      "low_frame_leakage_worst": 4.062010440485157e-06,
+      "polar_logical_vs_target_distance": 3.6111750440862894e-05,
+      "raw_logical_min_singular_value": 0.9999979689927165,
+      "duration_over_r005_reference": 1.0037336782025919
+    },
+    {
+      "g_over_detuning": 0.0125,
+      "cycles_at_closure": 16,
+      "detuning": 9599.999999999998,
+      "g": 119.99999999999999,
+      "closure_period": 0.0013085880691000955,
+      "total_duration": 0.020937409105601528,
+      "low_frame_leakage_worst": 1.02415690995113e-06,
+      "polar_logical_vs_target_distance": 9.056730846438912e-06,
+      "raw_logical_min_singular_value": 0.9999994879214114,
+      "duration_over_r005_reference": 1.004673650637271
+    }
+  ],
+  "decision": "Fixed-logical-duration control: lower r is credited only if the accumulated, not one-cycle, leakage improves.",
+  "claim_boundary": "This is exact L=6 finite-block evidence only. Integer Rabi closures change the total duration by the reported small mismatch. Neither a positive nor negative result proves a thermodynamic topological phase or hardware implementability."
+}

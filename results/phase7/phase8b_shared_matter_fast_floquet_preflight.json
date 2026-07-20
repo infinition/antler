@@ -1,0 +1,269 @@
+{
+  "schema": "antler.phase8b.shared-matter-fast-floquet-preflight.v1",
+  "parameters": {
+    "coupling_ratios": [
+      0.05,
+      0.025
+    ],
+    "total_durations": [
+      20.0,
+      100.0
+    ],
+    "segment_durations": [
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "screen": {
+      "relative_piecewise_sw_error": 0.1,
+      "low_frame_leakage_worst": 0.0001
+    }
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.025,
+      "repetitions": 400,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0025043385298936438,
+      "physical_polar_signal_distance_from_identity": 0.12771666887911529,
+      "relative_piecewise_sw_error": 51.007888816335615,
+      "low_frame_leakage_worst": 0.004008187111698515,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.05,
+      "repetitions": 200,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0025043385298935713,
+      "physical_polar_signal_distance_from_identity": 0.1365758858413408,
+      "relative_piecewise_sw_error": 54.54479765613638,
+      "low_frame_leakage_worst": 0.004598927160337922,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.1,
+      "repetitions": 100,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0025043385298935744,
+      "physical_polar_signal_distance_from_identity": 0.197029732547754,
+      "relative_piecewise_sw_error": 78.68166763120873,
+      "low_frame_leakage_worst": 0.010676219848132516,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.2,
+      "repetitions": 50,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.002504338529893573,
+      "physical_polar_signal_distance_from_identity": 0.13613512161801872,
+      "relative_piecewise_sw_error": 54.36880547190327,
+      "low_frame_leakage_worst": 0.008349150021360944,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.4,
+      "repetitions": 25,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0025043385298935783,
+      "physical_polar_signal_distance_from_identity": 0.03608779101993267,
+      "relative_piecewise_sw_error": 14.444700597142125,
+      "low_frame_leakage_worst": 0.006327437716544702,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.025,
+      "repetitions": 2000,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.012521614117124614,
+      "physical_polar_signal_distance_from_identity": 0.6263447282472551,
+      "relative_piecewise_sw_error": 50.0291204281543,
+      "low_frame_leakage_worst": 0.0014042049741459226,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.05,
+      "repetitions": 1000,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.012521614117123136,
+      "physical_polar_signal_distance_from_identity": 0.6684951964108884,
+      "relative_piecewise_sw_error": 53.39457755369977,
+      "low_frame_leakage_worst": 0.0013119643139136506,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.1,
+      "repetitions": 500,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.012521614117122867,
+      "physical_polar_signal_distance_from_identity": 0.9464672867866304,
+      "relative_piecewise_sw_error": 75.59040538692102,
+      "low_frame_leakage_worst": 0.004137349961692948,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.2,
+      "repetitions": 250,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.012521614117122827,
+      "physical_polar_signal_distance_from_identity": 0.6636436656840352,
+      "relative_piecewise_sw_error": 53.007191774648916,
+      "low_frame_leakage_worst": 0.007085555007664817,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.4,
+      "repetitions": 125,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.01252161411712296,
+      "physical_polar_signal_distance_from_identity": 0.18058816900002728,
+      "relative_piecewise_sw_error": 14.456136406518919,
+      "low_frame_leakage_worst": 0.004227436902615568,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.025,
+      "repetitions": 400,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0006260847858571895,
+      "physical_polar_signal_distance_from_identity": 0.03194372598223043,
+      "relative_piecewise_sw_error": 51.03120046497983,
+      "low_frame_leakage_worst": 0.0025641282491871754,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.05,
+      "repetitions": 200,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0006260847858571749,
+      "physical_polar_signal_distance_from_identity": 0.03416578565114198,
+      "relative_piecewise_sw_error": 54.579700827424226,
+      "low_frame_leakage_worst": 0.0027119321108644216,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.1,
+      "repetitions": 100,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0006260847858571793,
+      "physical_polar_signal_distance_from_identity": 0.049324882307601695,
+      "relative_piecewise_sw_error": 78.78948734439668,
+      "low_frame_leakage_worst": 0.004197831172730086,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.2,
+      "repetitions": 50,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0006260847858571801,
+      "physical_polar_signal_distance_from_identity": 0.03441974782553795,
+      "relative_piecewise_sw_error": 54.985247596255306,
+      "low_frame_leakage_worst": 0.005098672592387622,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 20.0,
+      "segment_duration": 0.4,
+      "repetitions": 25,
+      "actual_total_duration": 20.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0006260847858571802,
+      "physical_polar_signal_distance_from_identity": 0.008930416792420723,
+      "relative_piecewise_sw_error": 14.298879502078849,
+      "low_frame_leakage_worst": 0.003293528109343073,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.025,
+      "repetitions": 2000,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0031304227022158973,
+      "physical_polar_signal_distance_from_identity": 0.15927062699460676,
+      "relative_piecewise_sw_error": 50.888015798752015,
+      "low_frame_leakage_worst": 0.00010464677310412602,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.05,
+      "repetitions": 1000,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0031304227022155803,
+      "physical_polar_signal_distance_from_identity": 0.17035792999239835,
+      "relative_piecewise_sw_error": 54.42916122067978,
+      "low_frame_leakage_worst": 0.00014284144172684862,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.1,
+      "repetitions": 500,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0031304227022156375,
+      "physical_polar_signal_distance_from_identity": 0.24599181888419022,
+      "relative_piecewise_sw_error": 78.58727154209926,
+      "low_frame_leakage_worst": 0.0009975828032336318,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.2,
+      "repetitions": 250,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.0031304227022156583,
+      "physical_polar_signal_distance_from_identity": 0.1706551352148598,
+      "relative_piecewise_sw_error": 54.524068716733886,
+      "low_frame_leakage_worst": 0.00024075498863222438,
+      "passes_signal_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "requested_total_duration": 100.0,
+      "segment_duration": 0.4,
+      "repetitions": 125,
+      "actual_total_duration": 100.0,
+      "piecewise_sw_signal_distance_from_identity": 0.003130422702215659,
+      "physical_polar_signal_distance_from_identity": 0.04464179204700885,
+      "relative_piecewise_sw_error": 14.29555888915425,
+      "low_frame_leakage_worst": 0.000107101692712464,
+      "passes_signal_screen": false
+    }
+  ],
+  "passing_rows": [],
+  "decision": "No registered fast A/B switching row realizes the SW conditional signal: every row must be judged by relative signal error and leakage, not by bare population return.",
+  "claim_boundary": "This rejects the stated abrupt two-segment fast-switching window only. It does not refute a pulse sequence with additional derived controls, smooth switch compensation, dressed-state preparation, or a different microscopic resource grammar."
+}

@@ -1,0 +1,271 @@
+{
+  "schema": "antler.phase47.composition.v2",
+  "claim_boundary": "Composition is tested only for the present Abelian Z-family in the frozen correlated-hopping ladder.  Passing it does not make the family universal or non-commutative.",
+  "config": {
+    "L": 14,
+    "N": 2,
+    "J1": 0.4,
+    "J2": 1.0,
+    "JPERP": 0.1,
+    "DEPTH": -6.0,
+    "R_LOOP": 4,
+    "T_TOTAL": 45000.0,
+    "ramp": "sin2",
+    "handoff_fraction": 0.1,
+    "pause_fraction": 0.0,
+    "parking_depth_scale": 1.0,
+    "spectator_depth_scale": 1.0,
+    "handoff_order": "left_then_rung"
+  },
+  "theta": 0.3,
+  "rows": [
+    {
+      "n": 1,
+      "target_phase": -0.3,
+      "composed_phase_unwrapped": -0.2971055463718193,
+      "direct_phase_unwrapped": -0.2971055463718193,
+      "phase_additivity_error": 0.0,
+      "phase_error_to_ideal": 0.002894453628180693,
+      "leak_worst": 0.0002115427686375515,
+      "leak_per_cycle": 0.0002115427686375515,
+      "leak_relative_to_n_times_single": 1.0,
+      "coherent_distance_to_ideal": 0.0020466876099430446,
+      "coherent_distance_to_direct": 3.1401849173675513e-16,
+      "coherent_distance_to_power_of_one_cycle": 3.1401849173675513e-16,
+      "favg_to_ideal": 0.9999986036906735,
+      "odd_offdiag_norm": 3.131003380177281e-08,
+      "axis": {
+        "angle": 0.29710554637182224,
+        "axis": [
+          -1.1996994109566126e-07,
+          8.934597726978827e-08,
+          0.9999999999999889
+        ],
+        "z_axis_drift": 1.4958439230344174e-07
+      },
+      "direct_axis": {
+        "angle": 0.29710554637182224,
+        "axis": [
+          -1.1996994109566126e-07,
+          8.934597726978827e-08,
+          0.9999999999999889
+        ],
+        "z_axis_drift": 1.4958439230344174e-07
+      },
+      "axis_drift_from_z": 1.4958439230344174e-07,
+      "axis_drift_relative_to_direct": 0.0,
+      "minimum_handoff_isolation_gap": 0.0052991309065975045,
+      "phase_extraction": {
+        "composed": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -0.5942110927436386,
+          "Q_relative_phase_unwrapped": -0.5942110927436386,
+          "recovered_relative_phase": -0.2971055463718193,
+          "principal_root_relative_phase": -0.2971055463718191,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 6.193038979721679e-08
+        },
+        "direct": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -0.5942110927436386,
+          "Q_relative_phase_unwrapped": -0.5942110927436386,
+          "recovered_relative_phase": -0.2971055463718193,
+          "principal_root_relative_phase": -0.2971055463718191,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 6.193038979721679e-08
+        }
+      },
+      "composed_file": "composed_n1.json",
+      "direct_file": "composed_n1.json"
+    },
+    {
+      "n": 2,
+      "target_phase": -0.6,
+      "composed_phase_unwrapped": -0.5942008498118866,
+      "direct_phase_unwrapped": -0.5950240187602498,
+      "phase_additivity_error": 0.0008231689483632065,
+      "phase_error_to_ideal": 0.005799150188113389,
+      "leak_worst": 0.000235993944675994,
+      "leak_per_cycle": 0.000117996972337997,
+      "leak_relative_to_n_times_single": 0.5577925121145032,
+      "coherent_distance_to_ideal": 0.0041006169867646965,
+      "coherent_distance_to_direct": 0.0005820683421883458,
+      "coherent_distance_to_power_of_one_cycle": 7.243416563521165e-06,
+      "favg_to_ideal": 0.9999943949918902,
+      "odd_offdiag_norm": 3.3150084835271884e-08,
+      "axis": {
+        "angle": 0.594200849811888,
+        "axis": [
+          8.00644679348503e-08,
+          -1.0100320841971873e-09,
+          0.9999999999999968
+        ],
+        "z_axis_drift": 8.007083857748574e-08
+      },
+      "direct_axis": {
+        "angle": 0.5950240187602538,
+        "axis": [
+          1.0168201310810793e-07,
+          -7.357306280289292e-08,
+          0.999999999999992
+        ],
+        "z_axis_drift": 1.2550787768070918e-07
+      },
+      "axis_drift_from_z": 8.007083857748574e-08,
+      "axis_drift_relative_to_direct": 7.571467286068294e-08,
+      "minimum_handoff_isolation_gap": 0.0052991309065975045,
+      "phase_extraction": {
+        "composed": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -1.1884016996237732,
+          "Q_relative_phase_unwrapped": -1.1884016996237732,
+          "recovered_relative_phase": -0.5942008498118866,
+          "principal_root_relative_phase": -0.5942008498118863,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 6.339551647053675e-08
+        },
+        "direct": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -1.1900480375204996,
+          "Q_relative_phase_unwrapped": -1.1900480375204996,
+          "recovered_relative_phase": -0.5950240187602498,
+          "principal_root_relative_phase": -0.5950240187602494,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 9.949099986373748e-08
+        }
+      },
+      "composed_file": "composed_n2.json",
+      "direct_file": "direct_theta_0.6.json"
+    },
+    {
+      "n": 4,
+      "target_phase": -1.2,
+      "composed_phase_unwrapped": -1.1883674039723824,
+      "direct_phase_unwrapped": -1.1951761820891478,
+      "phase_additivity_error": 0.0068087781167653905,
+      "phase_error_to_ideal": 0.01163259602761757,
+      "leak_worst": 0.00021796947169649972,
+      "leak_per_cycle": 5.449236792412493e-05,
+      "leak_relative_to_n_times_single": 0.25759503988287996,
+      "coherent_distance_to_ideal": 0.008225475941148579,
+      "coherent_distance_to_direct": 0.004814530857421668,
+      "coherent_distance_to_power_of_one_cycle": 3.8736432005909286e-05,
+      "favg_to_ideal": 0.9999774473725834,
+      "odd_offdiag_norm": 1.5611908700538826e-07,
+      "axis": {
+        "angle": 1.188367403972389,
+        "axis": [
+          -1.9024913744034217e-07,
+          5.185362512997314e-08,
+          0.9999999999999806
+        ],
+        "z_axis_drift": 1.9718907864259114e-07
+      },
+      "direct_axis": {
+        "angle": 1.1951761820891527,
+        "axis": [
+          4.346797260441245e-08,
+          1.6787694153053587e-07,
+          0.999999999999985
+        ],
+        "z_axis_drift": 1.7341318329349966e-07
+      },
+      "axis_drift_from_z": 1.9718907864259114e-07,
+      "axis_drift_relative_to_direct": 2.6093121215419414e-07,
+      "minimum_handoff_isolation_gap": 0.0052991309065975045,
+      "phase_extraction": {
+        "composed": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -2.3767348079447648,
+          "Q_relative_phase_unwrapped": -2.3767348079447648,
+          "recovered_relative_phase": -1.1883674039723824,
+          "principal_root_relative_phase": -1.188367403972371,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 2.587223510556717e-07
+        },
+        "direct": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": -2.3903523641782956,
+          "Q_relative_phase_unwrapped": -2.3903523641782956,
+          "recovered_relative_phase": -1.1951761820891478,
+          "principal_root_relative_phase": -1.195176182089139,
+          "sqrt_branch": "principal",
+          "Q_offdiag_norm": 2.2814498834812868e-07
+        }
+      },
+      "composed_file": "composed_n4.json",
+      "direct_file": "direct_theta_1.2.json"
+    },
+    {
+      "n": 8,
+      "target_phase": -2.4,
+      "composed_phase_unwrapped": -2.3767311214908537,
+      "direct_phase_unwrapped": -2.402471850776691,
+      "phase_additivity_error": 0.02574072928583737,
+      "phase_error_to_ideal": 0.023268878509146163,
+      "leak_worst": 0.00024566477704024425,
+      "leak_per_cycle": 3.070809713003053e-05,
+      "leak_relative_to_n_times_single": 0.14516259443802826,
+      "coherent_distance_to_ideal": 0.016453488986286815,
+      "coherent_distance_to_direct": 0.018201318605992316,
+      "coherent_distance_to_power_of_one_cycle": 8.007979825211773e-05,
+      "favg_to_ideal": 0.9999097639537199,
+      "odd_offdiag_norm": 3.118346971679046e-08,
+      "axis": {
+        "angle": 3.906454185688732,
+        "axis": [
+          -1.469246602334843e-08,
+          1.868153936247925e-08,
+          -0.9999999999999998
+        ],
+        "z_axis_drift": 2.376696174943507e-08
+      },
+      "direct_axis": {
+        "angle": 3.880713456402893,
+        "axis": [
+          -5.07704266629041e-08,
+          -8.326444570261278e-09,
+          -0.9999999999999987
+        ],
+        "z_axis_drift": 5.1448672506829146e-08
+      },
+      "axis_drift_from_z": 2.376696174943507e-08,
+      "axis_drift_relative_to_direct": 4.5067176969724875e-08,
+      "minimum_handoff_isolation_gap": 0.0052991309065975045,
+      "phase_extraction": {
+        "composed": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": 1.5297230641978787,
+          "Q_relative_phase_unwrapped": -4.7534622429817075,
+          "recovered_relative_phase": -2.3767311214908537,
+          "principal_root_relative_phase": 0.7648615320989389,
+          "sqrt_branch": "alternate_diagonal_SU2_root",
+          "Q_offdiag_norm": 5.786156869477454e-08
+        },
+        "direct": {
+          "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+          "Q_relative_phase_principal": 1.4782416056262042,
+          "Q_relative_phase_unwrapped": -4.804943701553382,
+          "recovered_relative_phase": -2.402471850776691,
+          "principal_root_relative_phase": 0.7391208028131007,
+          "sqrt_branch": "alternate_diagonal_SU2_root",
+          "Q_offdiag_norm": 1.2653306072098774e-07
+        }
+      },
+      "composed_file": "composed_n8.json",
+      "direct_file": "direct_theta_2.4.json"
+    }
+  ],
+  "leakage_model_diagnostic": "leak_relative_to_n_times_single near one indicates approximately linear worst-case leakage; a systematic growth above one flags coherent or superlinear accumulation.",
+  "phase_branch_note": "The phase is reconstructed from the cached raw +/-theta differentials. This removes the principal-square-root alias that otherwise appears for n=8; the alternate root is used only after verifying that Q is near diagonal.",
+  "one_cycle_phase_extraction": {
+    "method": "raw_balanced_Q_then_target_anchored_square_root_branch",
+    "Q_relative_phase_principal": -0.5942110927436386,
+    "Q_relative_phase_unwrapped": -0.5942110927436386,
+    "recovered_relative_phase": -0.2971055463718193,
+    "principal_root_relative_phase": -0.2971055463718191,
+    "sqrt_branch": "principal",
+    "Q_offdiag_norm": 6.193038979721679e-08
+  },
+  "runtime_s": 0.008001327514648438
+}

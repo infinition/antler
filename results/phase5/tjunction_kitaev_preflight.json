@@ -1,0 +1,5953 @@
+{
+  "schema": "antler.phase5.tjunction-kitaev-preflight.v1",
+  "claim_boundary": "This is a microscopic superconducting T-junction target, not yet a derivation from ANTLER's number-conserving correlated-hopping ladder.",
+  "best": {
+    "arm_length": 4,
+    "mu": 0.0,
+    "t": 1.0,
+    "delta": 1.0,
+    "junction_chiral": 1.0,
+    "junction_channel": "bb",
+    "zero_mode_count": 4,
+    "bulk_gap": 1.035276180410083,
+    "endpoints": [
+      4,
+      8,
+      12
+    ],
+    "zero_mode_profiles": [
+      {
+        "energy": -1.2766077523021981e-15,
+        "endpoint_weight": 1.0,
+        "junction_weight": 6.32415354660201e-33,
+        "max_site": 8
+      },
+      {
+        "energy": -9.218060533782901e-16,
+        "endpoint_weight": 3.0359624415719592e-05,
+        "junction_weight": 0.9999696403755831,
+        "max_site": 0
+      },
+      {
+        "energy": -4.902612130890299e-16,
+        "endpoint_weight": 0.9999999999999993,
+        "junction_weight": 2.3454770713200048e-64,
+        "max_site": 12
+      },
+      {
+        "energy": 2.6770481474344637e-16,
+        "endpoint_weight": 0.9999696403755847,
+        "junction_weight": 3.035962441571961e-05,
+        "max_site": 4
+      }
+    ],
+    "fixed_parity_zero_mode_dimension": 2,
+    "suitable_for_fixed_parity_fusion_space": true
+  },
+  "viable_rows": [
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.035276180410083,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.2766077523021981e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 6.32415354660201e-33,
+          "max_site": 8
+        },
+        {
+          "energy": -9.218060533782901e-16,
+          "endpoint_weight": 3.0359624415719592e-05,
+          "junction_weight": 0.9999696403755831,
+          "max_site": 0
+        },
+        {
+          "energy": -4.902612130890299e-16,
+          "endpoint_weight": 0.9999999999999993,
+          "junction_weight": 2.3454770713200048e-64,
+          "max_site": 12
+        },
+        {
+          "energy": 2.6770481474344637e-16,
+          "endpoint_weight": 0.9999696403755847,
+          "junction_weight": 3.035962441571961e-05,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.035276180410083,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.4245753979944666e-16,
+          "endpoint_weight": 7.200706643106716e-34,
+          "junction_weight": 1.0,
+          "max_site": 0
+        },
+        {
+          "energy": -1.6086696054483792e-16,
+          "endpoint_weight": 0.9999999999999994,
+          "junction_weight": 4.7547234643023615e-65,
+          "max_site": 15
+        },
+        {
+          "energy": -1.3385024181734443e-16,
+          "endpoint_weight": 1.0000000000000007,
+          "junction_weight": 7.193585965414987e-34,
+          "max_site": 5
+        },
+        {
+          "energy": -7.552455420169067e-17,
+          "endpoint_weight": 1.0,
+          "junction_weight": 2.1970422737354716e-42,
+          "max_site": 10
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.0352761804100825,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.572413337204831e-15,
+          "endpoint_weight": 0.9999998998983011,
+          "junction_weight": 1.0010169844967449e-07,
+          "max_site": 6
+        },
+        {
+          "energy": -2.12654442866537e-15,
+          "endpoint_weight": 0.9999999217218684,
+          "junction_weight": 7.827813233161947e-08,
+          "max_site": 9
+        },
+        {
+          "energy": -1.7253993776622591e-16,
+          "endpoint_weight": 0.9781834614396071,
+          "junction_weight": 0.02181653856039411,
+          "max_site": 3
+        },
+        {
+          "energy": 4.653691640173296e-16,
+          "endpoint_weight": 0.021816716940224884,
+          "junction_weight": 0.9781832830597759,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.0352761804100825,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.0112330329268737e-16,
+          "endpoint_weight": 1.9782387545864062e-35,
+          "junction_weight": 0.9999999999999998,
+          "max_site": 0
+        },
+        {
+          "energy": 7.243039604972922e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 1.91948320877476e-35,
+          "max_site": 6
+        },
+        {
+          "energy": 1.4707836392670896e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 3.358711376155048e-61,
+          "max_site": 12
+        },
+        {
+          "energy": 1.9610448523561196e-15,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 9.732956939403794e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.033133382064133,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585934546285174e-09,
+          "endpoint_weight": 0.4987500673639118,
+          "junction_weight": 0.4987499326360877,
+          "max_site": 18
+        },
+        {
+          "energy": -9.040629575999e-16,
+          "endpoint_weight": 0.9974999999999995,
+          "junction_weight": 2.670222043827225e-33,
+          "max_site": 12
+        },
+        {
+          "energy": 6.872146554991272e-16,
+          "endpoint_weight": 0.997499999999846,
+          "junction_weight": 1.5425181644151588e-13,
+          "max_site": 6
+        },
+        {
+          "energy": 1.55859415239387e-09,
+          "endpoint_weight": 0.4987499326362409,
+          "junction_weight": 0.49875006736375893,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088308,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.1466334093447785e-15,
+          "endpoint_weight": 0.9999999999999989,
+          "junction_weight": 6.077163357286271e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -3.0941817124221083e-16,
+          "endpoint_weight": 3.8771528067384795e-32,
+          "junction_weight": 0.9999999999999998,
+          "max_site": 0
+        },
+        {
+          "energy": 1.0553730354335096e-16,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 7.554300993495954e-32,
+          "max_site": 6
+        },
+        {
+          "energy": 2.8665835232155627e-16,
+          "endpoint_weight": 0.9999999999999986,
+          "junction_weight": 4.7477838728799e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088306,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.8274192102462686e-16,
+          "endpoint_weight": 3.220724771465064e-31,
+          "junction_weight": 0.9999999999999994,
+          "max_site": 0
+        },
+        {
+          "energy": -1.2653278833314228e-16,
+          "endpoint_weight": 1.0000000000000002,
+          "junction_weight": 5.566251480985815e-65,
+          "max_site": 15
+        },
+        {
+          "energy": 4.0076361796701667e-16,
+          "endpoint_weight": 0.9999999999999988,
+          "junction_weight": 2.0032332762269986e-38,
+          "max_site": 10
+        },
+        {
+          "energy": 2.0668633889713668e-15,
+          "endpoint_weight": 0.9999999999999993,
+          "junction_weight": 2.982261043127898e-31,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088305,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.13984763509614e-16,
+          "endpoint_weight": 0.9999944204848807,
+          "junction_weight": 5.579515119534648e-06,
+          "max_site": 9
+        },
+        {
+          "energy": 9.674717170848151e-17,
+          "endpoint_weight": 0.013368122343277947,
+          "junction_weight": 0.9866318776567227,
+          "max_site": 0
+        },
+        {
+          "energy": 4.2157512385673054e-16,
+          "endpoint_weight": 0.9866383021242169,
+          "junction_weight": 0.013361697875782345,
+          "max_site": 3
+        },
+        {
+          "energy": 1.2849248413372146e-15,
+          "endpoint_weight": 0.9999991550476245,
+          "junction_weight": 8.449523761157468e-07,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088302,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.361735042342749e-15,
+          "endpoint_weight": 0.9998841447300796,
+          "junction_weight": 0.0001158552699208987,
+          "max_site": 4
+        },
+        {
+          "energy": -8.019887552702619e-16,
+          "endpoint_weight": 1.0000000000000009,
+          "junction_weight": 1.7912907268476393e-33,
+          "max_site": 8
+        },
+        {
+          "energy": -5.733167046599191e-16,
+          "endpoint_weight": 1.0000000000000009,
+          "junction_weight": 5.0391037948841395e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -4.3066420058173094e-16,
+          "endpoint_weight": 0.00011585526992089905,
+          "junction_weight": 0.9998841447300781,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5605631731207363,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585948367172797e-09,
+          "endpoint_weight": 0.4987502094914151,
+          "junction_weight": 0.4987497905085826,
+          "max_site": 18
+        },
+        {
+          "energy": -1.4601821288197124e-15,
+          "endpoint_weight": 0.9974999999997081,
+          "junction_weight": 2.91597214774371e-13,
+          "max_site": 6
+        },
+        {
+          "energy": 5.532331884726685e-16,
+          "endpoint_weight": 0.9974999999995595,
+          "junction_weight": 4.4009054147254393e-13,
+          "max_site": 12
+        },
+        {
+          "energy": 1.558592645616548e-09,
+          "endpoint_weight": 0.4987497905093115,
+          "junction_weight": 0.49875020949068594,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2866775494594753,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.71602056710205e-16,
+          "endpoint_weight": 0.999980686409402,
+          "junction_weight": 1.931359059824761e-05,
+          "max_site": 3
+        },
+        {
+          "energy": -2.0153720485075203e-16,
+          "endpoint_weight": 0.9998324528798817,
+          "junction_weight": 0.00016754712011750114,
+          "max_site": 6
+        },
+        {
+          "energy": 1.5613083533128876e-17,
+          "endpoint_weight": 0.00018686669046840028,
+          "junction_weight": 0.9998131333095327,
+          "max_site": 0
+        },
+        {
+          "energy": 1.1722075243779848e-15,
+          "endpoint_weight": 0.9999999940202474,
+          "junction_weight": 5.979752652821344e-09,
+          "max_site": 9
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.28667754945947516,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.85279226530068e-16,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 1.7880211214296295e-40,
+          "max_site": 12
+        },
+        {
+          "energy": -4.0483871519700926e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 2.09887642819452e-30,
+          "max_site": 6
+        },
+        {
+          "energy": -1.857658788394561e-16,
+          "endpoint_weight": 2.0988764434935008e-30,
+          "junction_weight": 1.0,
+          "max_site": 0
+        },
+        {
+          "energy": 8.270975252328636e-16,
+          "endpoint_weight": 1.0000000000000002,
+          "junction_weight": 1.89911354915196e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2866775494594748,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.787911205599206e-16,
+          "endpoint_weight": 1.0,
+          "junction_weight": 4.8600748050153755e-33,
+          "max_site": 10
+        },
+        {
+          "energy": -9.191384020912819e-18,
+          "endpoint_weight": 3.218492531032378e-30,
+          "junction_weight": 1.0000000000000007,
+          "max_site": 0
+        },
+        {
+          "energy": 7.403256686578822e-17,
+          "endpoint_weight": 1.0000000000000013,
+          "junction_weight": 2.709021364815628e-51,
+          "max_site": 15
+        },
+        {
+          "energy": 1.826787544362436e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 3.218492218660337e-30,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.28667754945947455,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.4914260837165858e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 4.941915064581939e-32,
+          "max_site": 8
+        },
+        {
+          "energy": -1.1027967003105015e-15,
+          "endpoint_weight": 0.9999999999999996,
+          "junction_weight": 2.8124306794839578e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -8.760312701739798e-18,
+          "endpoint_weight": 0.00024543320245100673,
+          "junction_weight": 0.9997545667975491,
+          "max_site": 0
+        },
+        {
+          "energy": 2.6306779329719187e-16,
+          "endpoint_weight": 0.9997545667975483,
+          "junction_weight": 0.00024543320245100727,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2861927783086088,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585932564171422e-09,
+          "endpoint_weight": 0.4987499570305684,
+          "junction_weight": 0.4987500429694206,
+          "max_site": 0
+        },
+        {
+          "energy": -1.8937368605831702e-15,
+          "endpoint_weight": 0.9974999999981174,
+          "junction_weight": 1.883754722743163e-12,
+          "max_site": 6
+        },
+        {
+          "energy": 1.6209972962057366e-15,
+          "endpoint_weight": 0.9974999999988421,
+          "junction_weight": 1.1569833394933123e-12,
+          "max_site": 12
+        },
+        {
+          "energy": 1.5585943368180194e-09,
+          "endpoint_weight": 0.49875004297245085,
+          "junction_weight": 0.49874995702753844,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    }
+  ],
+  "rows": [
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.035276180410083,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.2766077523021981e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 6.32415354660201e-33,
+          "max_site": 8
+        },
+        {
+          "energy": -9.218060533782901e-16,
+          "endpoint_weight": 3.0359624415719592e-05,
+          "junction_weight": 0.9999696403755831,
+          "max_site": 0
+        },
+        {
+          "energy": -4.902612130890299e-16,
+          "endpoint_weight": 0.9999999999999993,
+          "junction_weight": 2.3454770713200048e-64,
+          "max_site": 12
+        },
+        {
+          "energy": 2.6770481474344637e-16,
+          "endpoint_weight": 0.9999696403755847,
+          "junction_weight": 3.035962441571961e-05,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.035276180410083,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.4245753979944666e-16,
+          "endpoint_weight": 7.200706643106716e-34,
+          "junction_weight": 1.0,
+          "max_site": 0
+        },
+        {
+          "energy": -1.6086696054483792e-16,
+          "endpoint_weight": 0.9999999999999994,
+          "junction_weight": 4.7547234643023615e-65,
+          "max_site": 15
+        },
+        {
+          "energy": -1.3385024181734443e-16,
+          "endpoint_weight": 1.0000000000000007,
+          "junction_weight": 7.193585965414987e-34,
+          "max_site": 5
+        },
+        {
+          "energy": -7.552455420169067e-17,
+          "endpoint_weight": 1.0,
+          "junction_weight": 2.1970422737354716e-42,
+          "max_site": 10
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.0352761804100825,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.572413337204831e-15,
+          "endpoint_weight": 0.9999998998983011,
+          "junction_weight": 1.0010169844967449e-07,
+          "max_site": 6
+        },
+        {
+          "energy": -2.12654442866537e-15,
+          "endpoint_weight": 0.9999999217218684,
+          "junction_weight": 7.827813233161947e-08,
+          "max_site": 9
+        },
+        {
+          "energy": -1.7253993776622591e-16,
+          "endpoint_weight": 0.9781834614396071,
+          "junction_weight": 0.02181653856039411,
+          "max_site": 3
+        },
+        {
+          "energy": 4.653691640173296e-16,
+          "endpoint_weight": 0.021816716940224884,
+          "junction_weight": 0.9781832830597759,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.0352761804100825,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.0112330329268737e-16,
+          "endpoint_weight": 1.9782387545864062e-35,
+          "junction_weight": 0.9999999999999998,
+          "max_site": 0
+        },
+        {
+          "energy": 7.243039604972922e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 1.91948320877476e-35,
+          "max_site": 6
+        },
+        {
+          "energy": 1.4707836392670896e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 3.358711376155048e-61,
+          "max_site": 12
+        },
+        {
+          "energy": 1.9610448523561196e-15,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 9.732956939403794e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 1.033133382064133,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585934546285174e-09,
+          "endpoint_weight": 0.4987500673639118,
+          "junction_weight": 0.4987499326360877,
+          "max_site": 18
+        },
+        {
+          "energy": -9.040629575999e-16,
+          "endpoint_weight": 0.9974999999999995,
+          "junction_weight": 2.670222043827225e-33,
+          "max_site": 12
+        },
+        {
+          "energy": 6.872146554991272e-16,
+          "endpoint_weight": 0.997499999999846,
+          "junction_weight": 1.5425181644151588e-13,
+          "max_site": 6
+        },
+        {
+          "energy": 1.55859415239387e-09,
+          "endpoint_weight": 0.4987499326362409,
+          "junction_weight": 0.49875006736375893,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088308,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.1466334093447785e-15,
+          "endpoint_weight": 0.9999999999999989,
+          "junction_weight": 6.077163357286271e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -3.0941817124221083e-16,
+          "endpoint_weight": 3.8771528067384795e-32,
+          "junction_weight": 0.9999999999999998,
+          "max_site": 0
+        },
+        {
+          "energy": 1.0553730354335096e-16,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 7.554300993495954e-32,
+          "max_site": 6
+        },
+        {
+          "energy": 2.8665835232155627e-16,
+          "endpoint_weight": 0.9999999999999986,
+          "junction_weight": 4.7477838728799e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088306,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.8274192102462686e-16,
+          "endpoint_weight": 3.220724771465064e-31,
+          "junction_weight": 0.9999999999999994,
+          "max_site": 0
+        },
+        {
+          "energy": -1.2653278833314228e-16,
+          "endpoint_weight": 1.0000000000000002,
+          "junction_weight": 5.566251480985815e-65,
+          "max_site": 15
+        },
+        {
+          "energy": 4.0076361796701667e-16,
+          "endpoint_weight": 0.9999999999999988,
+          "junction_weight": 2.0032332762269986e-38,
+          "max_site": 10
+        },
+        {
+          "energy": 2.0668633889713668e-15,
+          "endpoint_weight": 0.9999999999999993,
+          "junction_weight": 2.982261043127898e-31,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088305,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.13984763509614e-16,
+          "endpoint_weight": 0.9999944204848807,
+          "junction_weight": 5.579515119534648e-06,
+          "max_site": 9
+        },
+        {
+          "energy": 9.674717170848151e-17,
+          "endpoint_weight": 0.013368122343277947,
+          "junction_weight": 0.9866318776567227,
+          "max_site": 0
+        },
+        {
+          "energy": 4.2157512385673054e-16,
+          "endpoint_weight": 0.9866383021242169,
+          "junction_weight": 0.013361697875782345,
+          "max_site": 3
+        },
+        {
+          "energy": 1.2849248413372146e-15,
+          "endpoint_weight": 0.9999991550476245,
+          "junction_weight": 8.449523761157468e-07,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5615528128088302,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.361735042342749e-15,
+          "endpoint_weight": 0.9998841447300796,
+          "junction_weight": 0.0001158552699208987,
+          "max_site": 4
+        },
+        {
+          "energy": -8.019887552702619e-16,
+          "endpoint_weight": 1.0000000000000009,
+          "junction_weight": 1.7912907268476393e-33,
+          "max_site": 8
+        },
+        {
+          "energy": -5.733167046599191e-16,
+          "endpoint_weight": 1.0000000000000009,
+          "junction_weight": 5.0391037948841395e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -4.3066420058173094e-16,
+          "endpoint_weight": 0.00011585526992089905,
+          "junction_weight": 0.9998841447300781,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.5605631731207363,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585948367172797e-09,
+          "endpoint_weight": 0.4987502094914151,
+          "junction_weight": 0.4987497905085826,
+          "max_site": 18
+        },
+        {
+          "energy": -1.4601821288197124e-15,
+          "endpoint_weight": 0.9974999999997081,
+          "junction_weight": 2.91597214774371e-13,
+          "max_site": 6
+        },
+        {
+          "energy": 5.532331884726685e-16,
+          "endpoint_weight": 0.9974999999995595,
+          "junction_weight": 4.4009054147254393e-13,
+          "max_site": 12
+        },
+        {
+          "energy": 1.558592645616548e-09,
+          "endpoint_weight": 0.4987497905093115,
+          "junction_weight": 0.49875020949068594,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2866775494594753,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.71602056710205e-16,
+          "endpoint_weight": 0.999980686409402,
+          "junction_weight": 1.931359059824761e-05,
+          "max_site": 3
+        },
+        {
+          "energy": -2.0153720485075203e-16,
+          "endpoint_weight": 0.9998324528798817,
+          "junction_weight": 0.00016754712011750114,
+          "max_site": 6
+        },
+        {
+          "energy": 1.5613083533128876e-17,
+          "endpoint_weight": 0.00018686669046840028,
+          "junction_weight": 0.9998131333095327,
+          "max_site": 0
+        },
+        {
+          "energy": 1.1722075243779848e-15,
+          "endpoint_weight": 0.9999999940202474,
+          "junction_weight": 5.979752652821344e-09,
+          "max_site": 9
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.28667754945947516,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.85279226530068e-16,
+          "endpoint_weight": 0.9999999999999998,
+          "junction_weight": 1.7880211214296295e-40,
+          "max_site": 12
+        },
+        {
+          "energy": -4.0483871519700926e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 2.09887642819452e-30,
+          "max_site": 6
+        },
+        {
+          "energy": -1.857658788394561e-16,
+          "endpoint_weight": 2.0988764434935008e-30,
+          "junction_weight": 1.0,
+          "max_site": 0
+        },
+        {
+          "energy": 8.270975252328636e-16,
+          "endpoint_weight": 1.0000000000000002,
+          "junction_weight": 1.89911354915196e-65,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2866775494594748,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.787911205599206e-16,
+          "endpoint_weight": 1.0,
+          "junction_weight": 4.8600748050153755e-33,
+          "max_site": 10
+        },
+        {
+          "energy": -9.191384020912819e-18,
+          "endpoint_weight": 3.218492531032378e-30,
+          "junction_weight": 1.0000000000000007,
+          "max_site": 0
+        },
+        {
+          "energy": 7.403256686578822e-17,
+          "endpoint_weight": 1.0000000000000013,
+          "junction_weight": 2.709021364815628e-51,
+          "max_site": 15
+        },
+        {
+          "energy": 1.826787544362436e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 3.218492218660337e-30,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.28667754945947455,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.4914260837165858e-15,
+          "endpoint_weight": 1.0,
+          "junction_weight": 4.941915064581939e-32,
+          "max_site": 8
+        },
+        {
+          "energy": -1.1027967003105015e-15,
+          "endpoint_weight": 0.9999999999999996,
+          "junction_weight": 2.8124306794839578e-64,
+          "max_site": 12
+        },
+        {
+          "energy": -8.760312701739798e-18,
+          "endpoint_weight": 0.00024543320245100673,
+          "junction_weight": 0.9997545667975491,
+          "max_site": 0
+        },
+        {
+          "energy": 2.6306779329719187e-16,
+          "endpoint_weight": 0.9997545667975483,
+          "junction_weight": 0.00024543320245100727,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.2861927783086088,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585932564171422e-09,
+          "endpoint_weight": 0.4987499570305684,
+          "junction_weight": 0.4987500429694206,
+          "max_site": 0
+        },
+        {
+          "energy": -1.8937368605831702e-15,
+          "endpoint_weight": 0.9974999999981174,
+          "junction_weight": 1.883754722743163e-12,
+          "max_site": 6
+        },
+        {
+          "energy": 1.6209972962057366e-15,
+          "endpoint_weight": 0.9974999999988421,
+          "junction_weight": 1.1569833394933123e-12,
+          "max_site": 12
+        },
+        {
+          "energy": 1.5585943368180194e-09,
+          "endpoint_weight": 0.49875004297245085,
+          "junction_weight": 0.49874995702753844,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": true
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999976,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.0236191632010824e-15,
+          "endpoint_weight": 0.5931643631493094,
+          "junction_weight": 7.389519208167452e-05,
+          "max_site": 3
+        },
+        {
+          "energy": -5.164796953577033e-16,
+          "endpoint_weight": 0.730167191784196,
+          "junction_weight": 1.1887025320628891e-05,
+          "max_site": 6
+        },
+        {
+          "energy": -4.441584075852288e-16,
+          "endpoint_weight": 0.8125861607112367,
+          "junction_weight": 6.534078388934267e-09,
+          "max_site": 9
+        },
+        {
+          "energy": -3.584057583617205e-16,
+          "endpoint_weight": 0.8569651670383586,
+          "junction_weight": 1.3197389206729214e-05,
+          "max_site": 6
+        },
+        {
+          "energy": -7.012836132887545e-17,
+          "endpoint_weight": 0.00030196082985260367,
+          "junction_weight": 0.9416185085335209,
+          "max_site": 0
+        },
+        {
+          "energy": 9.001125143157768e-16,
+          "endpoint_weight": 0.006815156487047031,
+          "junction_weight": 0.05828250532579229,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999976,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.0236191632010824e-15,
+          "endpoint_weight": 0.5931643631493094,
+          "junction_weight": 7.389519208167452e-05,
+          "max_site": 3
+        },
+        {
+          "energy": -5.164796953577033e-16,
+          "endpoint_weight": 0.730167191784196,
+          "junction_weight": 1.1887025320628891e-05,
+          "max_site": 6
+        },
+        {
+          "energy": -4.441584075852288e-16,
+          "endpoint_weight": 0.8125861607112367,
+          "junction_weight": 6.534078388934267e-09,
+          "max_site": 9
+        },
+        {
+          "energy": -3.584057583617205e-16,
+          "endpoint_weight": 0.8569651670383586,
+          "junction_weight": 1.3197389206729214e-05,
+          "max_site": 6
+        },
+        {
+          "energy": -7.012836132887545e-17,
+          "endpoint_weight": 0.00030196082985260367,
+          "junction_weight": 0.9416185085335209,
+          "max_site": 0
+        },
+        {
+          "energy": 9.001125143157768e-16,
+          "endpoint_weight": 0.006815156487047031,
+          "junction_weight": 0.05828250532579229,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999967,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.7597260164040164e-16,
+          "endpoint_weight": 0.2606979168313832,
+          "junction_weight": 7.859629795440078e-09,
+          "max_site": 9
+        },
+        {
+          "energy": -1.1032036290448894e-16,
+          "endpoint_weight": 0.6792730870168225,
+          "junction_weight": 0.045778709229386164,
+          "max_site": 4
+        },
+        {
+          "energy": -6.741209331738125e-17,
+          "endpoint_weight": 0.7393033344855939,
+          "junction_weight": 2.77150481041128e-09,
+          "max_site": 12
+        },
+        {
+          "energy": 3.8530931684923217e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 1.8236105902704482e-25,
+          "max_site": 8
+        },
+        {
+          "energy": 4.297143065316934e-16,
+          "endpoint_weight": 0.19080881208152262,
+          "junction_weight": 0.6879922645728859,
+          "max_site": 0
+        },
+        {
+          "energy": 9.215184847582028e-16,
+          "endpoint_weight": 0.12991684958467825,
+          "junction_weight": 0.266229015566593,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999967,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.7597260164040164e-16,
+          "endpoint_weight": 0.2606979168313832,
+          "junction_weight": 7.859629795440078e-09,
+          "max_site": 9
+        },
+        {
+          "energy": -1.1032036290448894e-16,
+          "endpoint_weight": 0.6792730870168225,
+          "junction_weight": 0.045778709229386164,
+          "max_site": 4
+        },
+        {
+          "energy": -6.741209331738125e-17,
+          "endpoint_weight": 0.7393033344855939,
+          "junction_weight": 2.77150481041128e-09,
+          "max_site": 12
+        },
+        {
+          "energy": 3.8530931684923217e-16,
+          "endpoint_weight": 1.0000000000000004,
+          "junction_weight": 1.8236105902704482e-25,
+          "max_site": 8
+        },
+        {
+          "energy": 4.297143065316934e-16,
+          "endpoint_weight": 0.19080881208152262,
+          "junction_weight": 0.6879922645728859,
+          "max_site": 0
+        },
+        {
+          "energy": 9.215184847582028e-16,
+          "endpoint_weight": 0.12991684958467825,
+          "junction_weight": 0.266229015566593,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999967,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.639860485081666e-16,
+          "endpoint_weight": 0.5996488273441439,
+          "junction_weight": 4.5018237433481215e-31,
+          "max_site": 6
+        },
+        {
+          "energy": -5.42104447770166e-16,
+          "endpoint_weight": 2.614578809918452e-29,
+          "junction_weight": 0.2507944781786613,
+          "max_site": 1
+        },
+        {
+          "energy": -1.1584386684422927e-16,
+          "endpoint_weight": 0.8372508532229433,
+          "junction_weight": 4.642213733576807e-36,
+          "max_site": 12
+        },
+        {
+          "energy": 2.7194799110177085e-16,
+          "endpoint_weight": 1.0,
+          "junction_weight": 0.0,
+          "max_site": 18
+        },
+        {
+          "energy": 3.466418291655289e-16,
+          "endpoint_weight": 1.3144625252424688e-29,
+          "junction_weight": 0.749205521821338,
+          "max_site": 0
+        },
+        {
+          "energy": 5.839689354326678e-16,
+          "endpoint_weight": 0.5631003194329129,
+          "junction_weight": 1.1571410415356221e-32,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999967,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.639860485081666e-16,
+          "endpoint_weight": 0.5996488273441439,
+          "junction_weight": 4.5018237433481215e-31,
+          "max_site": 6
+        },
+        {
+          "energy": -5.42104447770166e-16,
+          "endpoint_weight": 2.614578809918452e-29,
+          "junction_weight": 0.2507944781786613,
+          "max_site": 1
+        },
+        {
+          "energy": -1.1584386684422927e-16,
+          "endpoint_weight": 0.8372508532229433,
+          "junction_weight": 4.642213733576807e-36,
+          "max_site": 12
+        },
+        {
+          "energy": 2.7194799110177085e-16,
+          "endpoint_weight": 1.0,
+          "junction_weight": 0.0,
+          "max_site": 18
+        },
+        {
+          "energy": 3.466418291655289e-16,
+          "endpoint_weight": 1.3144625252424688e-29,
+          "junction_weight": 0.749205521821338,
+          "max_site": 0
+        },
+        {
+          "energy": 5.839689354326678e-16,
+          "endpoint_weight": 0.5631003194329129,
+          "junction_weight": 1.1571410415356221e-32,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999964,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.583533211740019e-16,
+          "endpoint_weight": 0.9377844864183184,
+          "junction_weight": 1.2352027209826497e-33,
+          "max_site": 5
+        },
+        {
+          "energy": -4.7803357810916677e-17,
+          "endpoint_weight": 0.9987097941896275,
+          "junction_weight": 2.260528603863269e-67,
+          "max_site": 10
+        },
+        {
+          "energy": -2.2598923784283004e-18,
+          "endpoint_weight": 1.2563067709836283e-32,
+          "junction_weight": 0.1922676356364659,
+          "max_site": 1
+        },
+        {
+          "energy": 2.7194799110210246e-16,
+          "endpoint_weight": 1.0000000000000007,
+          "junction_weight": 0.0,
+          "max_site": 15
+        },
+        {
+          "energy": 7.373693058263023e-16,
+          "endpoint_weight": 3.2932122349934675e-34,
+          "junction_weight": 0.8077323643635339,
+          "max_site": 0
+        },
+        {
+          "energy": 1.1421842922558386e-15,
+          "endpoint_weight": 0.06350571939205325,
+          "junction_weight": 1.5153186565558308e-32,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.9999999999999964,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.583533211740019e-16,
+          "endpoint_weight": 0.9377844864183184,
+          "junction_weight": 1.2352027209826497e-33,
+          "max_site": 5
+        },
+        {
+          "energy": -4.7803357810916677e-17,
+          "endpoint_weight": 0.9987097941896275,
+          "junction_weight": 2.260528603863269e-67,
+          "max_site": 10
+        },
+        {
+          "energy": -2.2598923784283004e-18,
+          "endpoint_weight": 1.2563067709836283e-32,
+          "junction_weight": 0.1922676356364659,
+          "max_site": 1
+        },
+        {
+          "energy": 2.7194799110210246e-16,
+          "endpoint_weight": 1.0000000000000007,
+          "junction_weight": 0.0,
+          "max_site": 15
+        },
+        {
+          "energy": 7.373693058263023e-16,
+          "endpoint_weight": 3.2932122349934675e-34,
+          "junction_weight": 0.8077323643635339,
+          "max_site": 0
+        },
+        {
+          "energy": 1.1421842922558386e-15,
+          "endpoint_weight": 0.06350571939205325,
+          "junction_weight": 1.5153186565558308e-32,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.7655644370746377,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.214263850791884e-16,
+          "endpoint_weight": 0.03130580971412744,
+          "junction_weight": 0.2467688844928631,
+          "max_site": 1
+        },
+        {
+          "energy": -5.4230626361854295e-16,
+          "endpoint_weight": 0.4067195570406119,
+          "junction_weight": 3.116464004412185e-06,
+          "max_site": 6
+        },
+        {
+          "energy": 1.0109672705264614e-16,
+          "endpoint_weight": 0.0637510307429412,
+          "junction_weight": 0.7239847220746056,
+          "max_site": 0
+        },
+        {
+          "energy": 5.082696815665812e-16,
+          "endpoint_weight": 0.9631310267603013,
+          "junction_weight": 0.008466549992409068,
+          "max_site": 12
+        },
+        {
+          "energy": 7.032318947296629e-16,
+          "endpoint_weight": 0.5350925757420198,
+          "junction_weight": 0.020776726976117543,
+          "max_site": 6
+        },
+        {
+          "energy": 1.9036359377137113e-15,
+          "endpoint_weight": 1.0000000000000007,
+          "junction_weight": 0.0,
+          "max_site": 18
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.7655644370746375,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.0370432480040847e-15,
+          "endpoint_weight": 0.030489534484227032,
+          "junction_weight": 0.07492013819004183,
+          "max_site": 1
+        },
+        {
+          "energy": -3.5192271356100324e-16,
+          "endpoint_weight": 0.8870920980246512,
+          "junction_weight": 0.03761544562320261,
+          "max_site": 10
+        },
+        {
+          "energy": -1.0622968402425928e-16,
+          "endpoint_weight": 0.9560194259119131,
+          "junction_weight": 2.7469933188404862e-117,
+          "max_site": 5
+        },
+        {
+          "energy": 2.0262298654591058e-16,
+          "endpoint_weight": 0.02053492433430254,
+          "junction_weight": 0.8874643235325903,
+          "max_site": 0
+        },
+        {
+          "energy": 9.887557627340427e-16,
+          "endpoint_weight": 0.1058640172449058,
+          "junction_weight": 9.265416557398748e-08,
+          "max_site": 6
+        },
+        {
+          "energy": 1.3597399555157098e-15,
+          "endpoint_weight": 0.9999999999999999,
+          "junction_weight": 0.0,
+          "max_site": 15
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.7655644370746373,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.926932715723548e-16,
+          "endpoint_weight": 0.7942789348413755,
+          "junction_weight": 2.208590990906084e-07,
+          "max_site": 3
+        },
+        {
+          "energy": 5.036456702067533e-16,
+          "endpoint_weight": 0.05462351029811457,
+          "junction_weight": 0.728619574707086,
+          "max_site": 0
+        },
+        {
+          "energy": 7.481735171889046e-16,
+          "endpoint_weight": 0.7491840091390959,
+          "junction_weight": 0.11140930365015561,
+          "max_site": 9
+        },
+        {
+          "energy": 1.1031610626393548e-15,
+          "endpoint_weight": 0.2436295563582284,
+          "junction_weight": 0.14773040682865657,
+          "max_site": 1
+        },
+        {
+          "energy": 1.46928345757204e-15,
+          "endpoint_weight": 0.6209358802308895,
+          "junction_weight": 0.012050608754980542,
+          "max_site": 9
+        },
+        {
+          "energy": 1.9060665382019482e-15,
+          "endpoint_weight": 0.5373481091322967,
+          "junction_weight": 0.00018988520002205484,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.7655644370746366,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.502859388382916e-16,
+          "endpoint_weight": 0.013056295705366762,
+          "junction_weight": 0.9290415546133349,
+          "max_site": 0
+        },
+        {
+          "energy": -1.297772444784366e-16,
+          "endpoint_weight": 0.9595674241544576,
+          "junction_weight": 0.0,
+          "max_site": 12
+        },
+        {
+          "energy": -4.346561977237567e-18,
+          "endpoint_weight": 0.9579869216616164,
+          "junction_weight": 2.738808010209703e-72,
+          "max_site": 8
+        },
+        {
+          "energy": 8.513329994338259e-17,
+          "endpoint_weight": 0.11744760855298679,
+          "junction_weight": 0.0,
+          "max_site": 5
+        },
+        {
+          "energy": 4.803979300585817e-16,
+          "endpoint_weight": 0.7529452252454532,
+          "junction_weight": 0.044397958004057776,
+          "max_site": 4
+        },
+        {
+          "energy": 1.2167363051901212e-15,
+          "endpoint_weight": 0.19899652468011744,
+          "junction_weight": 0.02656048738260651,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.5615528128088305,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.076549042877416e-15,
+          "endpoint_weight": 0.674520336235553,
+          "junction_weight": 0.0005160002502449426,
+          "max_site": 3
+        },
+        {
+          "energy": -7.138506791362164e-16,
+          "endpoint_weight": 0.49633801103184993,
+          "junction_weight": 0.0019237434187275027,
+          "max_site": 9
+        },
+        {
+          "energy": 4.000639679284766e-16,
+          "endpoint_weight": 0.6990230800300894,
+          "junction_weight": 0.09413104790453268,
+          "max_site": 9
+        },
+        {
+          "energy": 4.294093673379712e-16,
+          "endpoint_weight": 0.16891210513948476,
+          "junction_weight": 0.6350499015056865,
+          "max_site": 0
+        },
+        {
+          "energy": 4.581273504677834e-16,
+          "endpoint_weight": 0.938628698934984,
+          "junction_weight": 0.0008609554246056176,
+          "max_site": 6
+        },
+        {
+          "energy": 9.503576930814176e-16,
+          "endpoint_weight": 0.022577768628037974,
+          "junction_weight": 0.2675183514962022,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.5615528128088303,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.1808534009671704e-15,
+          "endpoint_weight": 0.805869243967438,
+          "junction_weight": 7.794160386736822e-07,
+          "max_site": 6
+        },
+        {
+          "energy": -8.592808031806372e-16,
+          "endpoint_weight": 0.0033367309037344375,
+          "junction_weight": 0.22806615184424872,
+          "max_site": 1
+        },
+        {
+          "energy": -5.43723371833667e-16,
+          "endpoint_weight": 0.3072843810631845,
+          "junction_weight": 0.0027525088869543943,
+          "max_site": 7
+        },
+        {
+          "energy": 8.071553095735814e-18,
+          "endpoint_weight": 0.00039530265027269907,
+          "junction_weight": 0.7691804601364209,
+          "max_site": 0
+        },
+        {
+          "energy": 3.229382394337482e-16,
+          "endpoint_weight": 0.9999999999999997,
+          "junction_weight": 0.0,
+          "max_site": 18
+        },
+        {
+          "energy": 1.6317827992128454e-15,
+          "endpoint_weight": 0.8831143414153709,
+          "junction_weight": 9.971633689281277e-08,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.5615528128088298,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -5.769791148349802e-16,
+          "endpoint_weight": 0.2593153022738533,
+          "junction_weight": 0.004277942619544495,
+          "max_site": 6
+        },
+        {
+          "energy": -3.944125158295818e-16,
+          "endpoint_weight": 0.7603785535364298,
+          "junction_weight": 0.008606743204668338,
+          "max_site": 10
+        },
+        {
+          "energy": -1.168526524266852e-17,
+          "endpoint_weight": 0.963605924399206,
+          "junction_weight": 1.6316354661696797e-111,
+          "max_site": 5
+        },
+        {
+          "energy": 3.0263141955630986e-16,
+          "endpoint_weight": 0.009380275470070004,
+          "junction_weight": 0.8250336017907516,
+          "max_site": 0
+        },
+        {
+          "energy": 8.158439732878875e-16,
+          "endpoint_weight": 0.999999999999998,
+          "junction_weight": 0.0,
+          "max_site": 15
+        },
+        {
+          "energy": 1.0001968252638928e-15,
+          "endpoint_weight": 0.0073199443204400964,
+          "junction_weight": 0.1620817123850342,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.5615528128088287,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.6378730488893363e-15,
+          "endpoint_weight": 0.8885368171050412,
+          "junction_weight": 0.0001252488504372066,
+          "max_site": 4
+        },
+        {
+          "energy": -8.975117967434697e-16,
+          "endpoint_weight": 0.8737836664547474,
+          "junction_weight": 0.0,
+          "max_site": 12
+        },
+        {
+          "energy": -5.445271853186624e-16,
+          "endpoint_weight": 0.29468017263875856,
+          "junction_weight": 0.0,
+          "max_site": 5
+        },
+        {
+          "energy": -3.716912329743395e-16,
+          "endpoint_weight": 0.0011975888048159204,
+          "junction_weight": 0.178163675502711,
+          "max_site": 1
+        },
+        {
+          "energy": 9.492429261098625e-17,
+          "endpoint_weight": 0.9417817170502304,
+          "junction_weight": 0.0,
+          "max_site": 8
+        },
+        {
+          "energy": 2.865188069901392e-16,
+          "endpoint_weight": 2.0037946408071803e-05,
+          "junction_weight": 0.821711075646851,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.23606797749979,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -5.216043546775531e-16,
+          "endpoint_weight": 0.3403483920304423,
+          "junction_weight": 0.056186423461273685,
+          "max_site": 1
+        },
+        {
+          "energy": -1.635541058079254e-16,
+          "endpoint_weight": 0.5777805396260369,
+          "junction_weight": 0.17883485245077124,
+          "max_site": 9
+        },
+        {
+          "energy": 2.04312960254356e-16,
+          "endpoint_weight": 0.05412632567296893,
+          "junction_weight": 0.7644742053799402,
+          "max_site": 0
+        },
+        {
+          "energy": 3.8386730062837327e-16,
+          "endpoint_weight": 0.33813338917525604,
+          "junction_weight": 3.1324188685344696e-09,
+          "max_site": 7
+        },
+        {
+          "energy": 1.826541938183329e-15,
+          "endpoint_weight": 0.8589982187497729,
+          "junction_weight": 2.309101123119014e-05,
+          "max_site": 6
+        },
+        {
+          "energy": 2.360914217771914e-15,
+          "endpoint_weight": 0.8306131347455203,
+          "junction_weight": 0.0004814245643653826,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.2360679774997898,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.91779784559681e-16,
+          "endpoint_weight": 0.9545224243571122,
+          "junction_weight": 0.0,
+          "max_site": 8
+        },
+        {
+          "energy": -5.71960678610635e-16,
+          "endpoint_weight": 0.9892363332160008,
+          "junction_weight": 0.0,
+          "max_site": 12
+        },
+        {
+          "energy": -1.4462764746184788e-16,
+          "endpoint_weight": 9.13702218938028e-07,
+          "junction_weight": 0.9880899017356168,
+          "max_site": 0
+        },
+        {
+          "energy": 7.509941214180772e-22,
+          "endpoint_weight": 0.056336397763122846,
+          "junction_weight": 7.69187517529823e-07,
+          "max_site": 5
+        },
+        {
+          "energy": 5.981004323086012e-18,
+          "endpoint_weight": 0.999791268068655,
+          "junction_weight": 0.0,
+          "max_site": 4
+        },
+        {
+          "energy": 2.2161057349407723e-15,
+          "endpoint_weight": 0.00011266289288908861,
+          "junction_weight": 0.01190932907686455,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.2360679774997898,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.2237659599594668e-15,
+          "endpoint_weight": 0.9999999995238369,
+          "junction_weight": 0.0,
+          "max_site": 15
+        },
+        {
+          "energy": -5.416797840235868e-16,
+          "endpoint_weight": 0.3124328608549475,
+          "junction_weight": 0.04070773710324847,
+          "max_site": 11
+        },
+        {
+          "energy": -2.285985095312947e-16,
+          "endpoint_weight": 0.027171768581840748,
+          "junction_weight": 0.7330885392715326,
+          "max_site": 0
+        },
+        {
+          "energy": 6.028534568376714e-17,
+          "endpoint_weight": 0.9930073433563052,
+          "junction_weight": 3.8535916566976412e-112,
+          "max_site": 10
+        },
+        {
+          "energy": 4.3125953145622655e-16,
+          "endpoint_weight": 0.010562122641121326,
+          "junction_weight": 0.2252426276589234,
+          "max_site": 1
+        },
+        {
+          "energy": 1.6350209071946183e-15,
+          "endpoint_weight": 0.6568259050419454,
+          "junction_weight": 0.0009610959662949482,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 6,
+      "bulk_gap": 1.2360679774997883,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.548727431775135e-15,
+          "endpoint_weight": 1.0000000000000013,
+          "junction_weight": 0.0,
+          "max_site": 18
+        },
+        {
+          "energy": -6.510867169340544e-16,
+          "endpoint_weight": 0.192788464377374,
+          "junction_weight": 0.22314024921601108,
+          "max_site": 13
+        },
+        {
+          "energy": -3.2113142115689533e-16,
+          "endpoint_weight": 0.28679818574170474,
+          "junction_weight": 0.26335770142475823,
+          "max_site": 7
+        },
+        {
+          "energy": 1.7148415355351101e-16,
+          "endpoint_weight": 0.42777395470852037,
+          "junction_weight": 0.08059296900013722,
+          "max_site": 6
+        },
+        {
+          "energy": 2.451963917894097e-16,
+          "endpoint_weight": 0.11075394039689722,
+          "junction_weight": 0.4329090447483275,
+          "max_site": 0
+        },
+        {
+          "energy": 5.599018520488323e-16,
+          "endpoint_weight": 0.9818854547755048,
+          "junction_weight": 3.561076576653332e-08,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 4,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.03758126385681644,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.348492817383337e-15,
+          "endpoint_weight": 0.2860842269235682,
+          "junction_weight": 2.616856555421105e-32,
+          "max_site": 7
+        },
+        {
+          "energy": -9.829764534079498e-16,
+          "endpoint_weight": 0.9151579703938758,
+          "junction_weight": 1.4654218563304883e-30,
+          "max_site": 3
+        },
+        {
+          "energy": 9.810095852644946e-17,
+          "endpoint_weight": 0.6951263576664505,
+          "junction_weight": 6.357214302582092e-36,
+          "max_site": 9
+        },
+        {
+          "energy": 1.0121229815298072e-15,
+          "endpoint_weight": 0.10363144501610654,
+          "junction_weight": 2.2574617872781675e-36,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.03758126385681644,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.348492817383337e-15,
+          "endpoint_weight": 0.2860842269235682,
+          "junction_weight": 2.616856555421105e-32,
+          "max_site": 7
+        },
+        {
+          "energy": -9.829764534079498e-16,
+          "endpoint_weight": 0.9151579703938758,
+          "junction_weight": 1.4654218563304883e-30,
+          "max_site": 3
+        },
+        {
+          "energy": 9.810095852644946e-17,
+          "endpoint_weight": 0.6951263576664505,
+          "junction_weight": 6.357214302582092e-36,
+          "max_site": 9
+        },
+        {
+          "energy": 1.0121229815298072e-15,
+          "endpoint_weight": 0.10363144501610654,
+          "junction_weight": 2.2574617872781675e-36,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.004172729949871264,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.077895822485795e-15,
+          "endpoint_weight": 0.02035553885730933,
+          "junction_weight": 2.5717089438345568e-27,
+          "max_site": 6
+        },
+        {
+          "energy": -2.3112365238752636e-16,
+          "endpoint_weight": 0.8572997013800305,
+          "junction_weight": 2.0242282018867633e-35,
+          "max_site": 5
+        },
+        {
+          "energy": -1.5039263785609126e-17,
+          "endpoint_weight": 0.8607979947251434,
+          "junction_weight": 1.118848053922227e-34,
+          "max_site": 15
+        },
+        {
+          "energy": 1.420060582401635e-16,
+          "endpoint_weight": 0.2371601927057373,
+          "junction_weight": 2.1894636628410556e-34,
+          "max_site": 11
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 4,
+      "bulk_gap": 0.004172729949871264,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.077895822485795e-15,
+          "endpoint_weight": 0.02035553885730933,
+          "junction_weight": 2.5717089438345568e-27,
+          "max_site": 6
+        },
+        {
+          "energy": -2.3112365238752636e-16,
+          "endpoint_weight": 0.8572997013800305,
+          "junction_weight": 2.0242282018867633e-35,
+          "max_site": 5
+        },
+        {
+          "energy": -1.5039263785609126e-17,
+          "endpoint_weight": 0.8607979947251434,
+          "junction_weight": 1.118848053922227e-34,
+          "max_site": 15
+        },
+        {
+          "energy": 1.420060582401635e-16,
+          "endpoint_weight": 0.2371601927057373,
+          "junction_weight": 2.1894636628410556e-34,
+          "max_site": 11
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 2,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.03758126385681756,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.060417215572114e-15,
+          "endpoint_weight": 0.987804878048782,
+          "junction_weight": 1.2687381808733012e-29,
+          "max_site": 6
+        },
+        {
+          "energy": 5.753892093153562e-16,
+          "endpoint_weight": 0.9878048780487796,
+          "junction_weight": 1.582630840576575e-31,
+          "max_site": 3
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.03758126385681752,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.485551656357974e-16,
+          "endpoint_weight": 0.9878048780487814,
+          "junction_weight": 1.1303327046342216e-29,
+          "max_site": 6
+        },
+        {
+          "energy": 1.8304685683715287e-17,
+          "endpoint_weight": 0.9878048780487816,
+          "junction_weight": 2.6553964037045075e-31,
+          "max_site": 3
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.03758126385681736,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.124997094043415e-16,
+          "endpoint_weight": 0.9878048780487811,
+          "junction_weight": 2.09773025348163e-29,
+          "max_site": 9
+        },
+        {
+          "energy": 4.811473573344616e-16,
+          "endpoint_weight": 0.9878048780487814,
+          "junction_weight": 1.1298889011772928e-30,
+          "max_site": 3
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.021954445729288632,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -2.467240405276148e-16,
+          "endpoint_weight": 0.9877039052587445,
+          "junction_weight": 0.00010036111185226142,
+          "max_site": 8
+        },
+        {
+          "energy": 1.7403854798469094e-15,
+          "endpoint_weight": 0.0004921243966984392,
+          "junction_weight": 0.9638105536565373,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.02195444572928848,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 5.018977784064509e-16,
+          "endpoint_weight": 0.9877039052587404,
+          "junction_weight": 0.00010036111185702428,
+          "max_site": 8
+        },
+        {
+          "energy": 5.608958938052356e-16,
+          "endpoint_weight": 0.0004921243967033178,
+          "junction_weight": 0.9638105536565327,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.02195444572928826,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.198319134048563e-19,
+          "endpoint_weight": 0.9877039052587435,
+          "junction_weight": 0.0001003611118542715,
+          "max_site": 8
+        },
+        {
+          "energy": 8.369171797354004e-16,
+          "endpoint_weight": 0.0004921243967004923,
+          "junction_weight": 0.9638105536565345,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.02195444572928826,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.198319134048563e-19,
+          "endpoint_weight": 0.9877039052587435,
+          "junction_weight": 0.0001003611118542715,
+          "max_site": 8
+        },
+        {
+          "energy": 8.369171797354004e-16,
+          "endpoint_weight": 0.0004921243967004923,
+          "junction_weight": 0.9638105536565345,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.02195444572928805,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 2.5685226583293354e-16,
+          "endpoint_weight": 0.0004921243967081297,
+          "junction_weight": 0.9638105536565279,
+          "max_site": 0
+        },
+        {
+          "energy": 8.094909379148737e-16,
+          "endpoint_weight": 0.9877039052587362,
+          "junction_weight": 0.00010036111186173344,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.012298471618584057,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 5.42815673202653e-16,
+          "endpoint_weight": 0.012195121951219504,
+          "junction_weight": 2.2801921718866938e-29,
+          "max_site": 1
+        },
+        {
+          "energy": 7.857730227658214e-16,
+          "endpoint_weight": 0.012195121951219504,
+          "junction_weight": 2.214034256604851e-29,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.006799252544400356,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.3227174606181384e-16,
+          "endpoint_weight": 0.01219512195121955,
+          "junction_weight": 3.6455827554336594e-30,
+          "max_site": 1
+        },
+        {
+          "energy": 7.625545504441751e-16,
+          "endpoint_weight": 0.012195121951219514,
+          "junction_weight": 4.519546438593029e-29,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.00417272994987166,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -4.542343636607633e-16,
+          "endpoint_weight": 0.9876561794369995,
+          "junction_weight": 4.9510038661356725e-29,
+          "max_site": 10
+        },
+        {
+          "energy": 2.6124428221651624e-17,
+          "endpoint_weight": 0.9876561794370025,
+          "junction_weight": 1.0766345197286174e-34,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.004172729949871526,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.4393548945374385e-16,
+          "endpoint_weight": 0.9876561794369996,
+          "junction_weight": 6.819941539541226e-34,
+          "max_site": 5
+        },
+        {
+          "energy": -1.2954446995149626e-16,
+          "endpoint_weight": 0.9876561794370006,
+          "junction_weight": 4.749615517452425e-28,
+          "max_site": 10
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.004172729949871033,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.4422841780339153e-15,
+          "endpoint_weight": 0.9876561794370023,
+          "junction_weight": 1.4789894573267012e-27,
+          "max_site": 10
+        },
+        {
+          "energy": 8.148963559334157e-16,
+          "endpoint_weight": 0.9876561794370011,
+          "junction_weight": 3.903281254251161e-35,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0034897030121593324,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -5.4593147602252006e-17,
+          "endpoint_weight": 0.012195121951219579,
+          "junction_weight": 5.429281315527692e-31,
+          "max_site": 4
+        },
+        {
+          "energy": 3.984361631829719e-16,
+          "endpoint_weight": 0.012195121951219523,
+          "junction_weight": 8.02937879347427e-30,
+          "max_site": 1
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0024386661842746246,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 6.04460046294757e-17,
+          "endpoint_weight": 3.877791470165616e-05,
+          "junction_weight": 0.9638229534984717,
+          "max_site": 0
+        },
+        {
+          "energy": 1.315903734125191e-15,
+          "endpoint_weight": 0.9876222306787901,
+          "junction_weight": 3.31532251323564e-05,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.00243866618427452,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 4.3139001144227064e-16,
+          "endpoint_weight": 0.0020866692343130067,
+          "junction_weight": 0.9618244016187448,
+          "max_site": 0
+        },
+        {
+          "energy": 4.3933644558948016e-16,
+          "endpoint_weight": 0.9855743393591789,
+          "junction_weight": 0.0020317051048601466,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0024386661842744476,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.573215900937321e-16,
+          "endpoint_weight": 6.075767891928877e-06,
+          "junction_weight": 0.9638548677589359,
+          "max_site": 0
+        },
+        {
+          "energy": -6.357578807108983e-16,
+          "endpoint_weight": 0.987654932825598,
+          "junction_weight": 1.2389646675386437e-06,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0024386661842744476,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.573215900937321e-16,
+          "endpoint_weight": 6.075767891928877e-06,
+          "junction_weight": 0.9638548677589359,
+          "max_site": 0
+        },
+        {
+          "energy": -6.357578807108983e-16,
+          "endpoint_weight": 0.987654932825598,
+          "junction_weight": 1.2389646675386437e-06,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0024386661842732394,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.1987214229615136e-15,
+          "endpoint_weight": 0.00020011278681143077,
+          "junction_weight": 0.9636655056354754,
+          "max_site": 0
+        },
+        {
+          "energy": 6.292328230791094e-16,
+          "endpoint_weight": 0.9874608958066788,
+          "junction_weight": 0.00019060108812824102,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0016798290172415496,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.2713670327806571e-15,
+          "endpoint_weight": 0.0004921244169830796,
+          "junction_weight": 0.9638105536367343,
+          "max_site": 0
+        },
+        {
+          "energy": 9.240904961919435e-16,
+          "endpoint_weight": 0.9877039052384605,
+          "junction_weight": 0.00010036113165399327,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0008436130410459876,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 7.401051471833157e-16,
+          "endpoint_weight": 0.9877039051389147,
+          "junction_weight": 0.00010036122882911937,
+          "max_site": 8
+        },
+        {
+          "energy": 9.980310260465242e-16,
+          "endpoint_weight": 0.0004921245165279426,
+          "junction_weight": 0.9638105535395605,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.0004222739479650915,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -6.506036297526892e-16,
+          "endpoint_weight": 0.0004921241687098391,
+          "junction_weight": 0.9638105538790979,
+          "max_site": 0
+        },
+        {
+          "energy": 1.4119955684335604e-16,
+          "endpoint_weight": 0.9877039054867348,
+          "junction_weight": 0.00010036088929117265,
+          "max_site": 8
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 0.00017352083763545054,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 1.4376839906457955e-16,
+          "endpoint_weight": 0.00015053439710974108,
+          "junction_weight": 8.058388997491666e-35,
+          "max_site": 11
+        },
+        {
+          "energy": 1.719348542653484e-16,
+          "endpoint_weight": 0.00015053439710974257,
+          "junction_weight": 6.13374267780978e-35,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 8.68733808549159e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": 1.2312921240521376e-16,
+          "endpoint_weight": 0.00015053439710974024,
+          "junction_weight": 1.2591000341052644e-34,
+          "max_site": 1
+        },
+        {
+          "energy": 2.801790710570047e-16,
+          "endpoint_weight": 0.0001505343971097446,
+          "junction_weight": 1.4644141510442182e-34,
+          "max_site": 11
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 4.345082468550188e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.485006080521714e-16,
+          "endpoint_weight": 0.00015053439710974168,
+          "junction_weight": 3.404715822712268e-34,
+          "max_site": 1
+        },
+        {
+          "energy": 2.4621953912896214e-16,
+          "endpoint_weight": 0.00015053439710974417,
+          "junction_weight": 7.182641470115788e-35,
+          "max_site": 11
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 2.0857119232483577e-05,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.1737458272318345e-16,
+          "endpoint_weight": 8.401881350751095e-06,
+          "junction_weight": 0.9638525976880687,
+          "max_site": 0
+        },
+        {
+          "energy": 7.622485736484044e-16,
+          "endpoint_weight": 0.9876526067121395,
+          "junction_weight": 3.5090355355847374e-06,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.0429131759770901e-05,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.6163498405874908e-16,
+          "endpoint_weight": 0.9875336466165695,
+          "junction_weight": 0.0001196030490890923,
+          "max_site": 18
+        },
+        {
+          "energy": 3.1943899367722103e-16,
+          "endpoint_weight": 0.00012736197692124566,
+          "junction_weight": 0.9637365036745174,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.0,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 5.214637407755615e-06,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -8.2998669177228805e-16,
+          "endpoint_weight": 0.9872241238863393,
+          "junction_weight": 0.0004216685094954884,
+          "max_site": 18
+        },
+        {
+          "energy": 2.3095817241440395e-16,
+          "endpoint_weight": 0.0004368847071517553,
+          "junction_weight": 0.9634344382141105,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9800003059532583e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.919998713807737e-10,
+          "endpoint_weight": 0.9899998416990401,
+          "junction_weight": 1.5839995993601365e-07,
+          "max_site": 10
+        },
+        {
+          "energy": 7.919999037142585e-10,
+          "endpoint_weight": 0.9899998416989888,
+          "junction_weight": 1.5840001227963541e-07,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9800000767058973e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.959996839451435e-10,
+          "endpoint_weight": 0.9899999604989891,
+          "junction_weight": 3.960001206507484e-08,
+          "max_site": 10
+        },
+        {
+          "energy": 3.959999732121428e-10,
+          "endpoint_weight": 0.9899999604990186,
+          "junction_weight": 3.9599981891107586e-08,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9800000178756894e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.9799979509149264e-10,
+          "endpoint_weight": 0.9899999901990115,
+          "junction_weight": 9.899987982297632e-09,
+          "max_site": 5
+        },
+        {
+          "energy": 1.9799958728165507e-10,
+          "endpoint_weight": 0.9899999901989937,
+          "junction_weight": 9.900006343342393e-09,
+          "max_site": 10
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 6.234376546581987e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.117184432708847e-10,
+          "endpoint_weight": 0.9974997506639318,
+          "junction_weight": 2.4937503370948275e-07,
+          "max_site": 8
+        },
+        {
+          "energy": 3.117184345004622e-10,
+          "endpoint_weight": 0.9974997506640305,
+          "junction_weight": 2.493749346202044e-07,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 6.234375379495962e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.5585927013814035e-10,
+          "endpoint_weight": 0.9974999376952548,
+          "junction_weight": 6.234370979763872e-08,
+          "max_site": 8
+        },
+        {
+          "energy": 1.5585936591746325e-10,
+          "endpoint_weight": 0.9974999376952584,
+          "junction_weight": 6.234370588627856e-08,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 6.234375091208084e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.792950353292265e-11,
+          "endpoint_weight": 0.9974999844529364,
+          "junction_weight": 1.5586028662738642e-08,
+          "max_site": 8
+        },
+        {
+          "energy": 7.792986449310474e-11,
+          "endpoint_weight": 0.9974999844530594,
+          "junction_weight": 1.5585905164364094e-08,
+          "max_site": 4
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9800000015399596e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.920309445283227e-12,
+          "endpoint_weight": 0.9899999984170826,
+          "junction_weight": 1.5839071770576036e-09,
+          "max_site": 6
+        },
+        {
+          "energy": 7.919945173382086e-12,
+          "endpoint_weight": 0.9899999984168767,
+          "junction_weight": 1.5841144304658176e-09,
+          "max_site": 12
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9799999934035806e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.9799051863883757e-12,
+          "endpoint_weight": 0.9899999999019713,
+          "junction_weight": 9.901885075503729e-11,
+          "max_site": 12
+        },
+        {
+          "energy": 1.980403560492713e-12,
+          "endpoint_weight": 0.9899999999019995,
+          "junction_weight": 9.899072569287198e-11,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 1.9799999918632165e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.959481941264466e-12,
+          "endpoint_weight": 0.98999999960501,
+          "junction_weight": 3.959802969564853e-10,
+          "max_site": 12
+        },
+        {
+          "energy": 3.960295708638281e-12,
+          "endpoint_weight": 0.9899999996049812,
+          "junction_weight": 3.960096592838343e-10,
+          "max_site": 6
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.11718746540179e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -1.9502079854265366e-13,
+          "endpoint_weight": 0.9974999999611198,
+          "junction_weight": 3.897735165589682e-11,
+          "max_site": 10
+        },
+        {
+          "energy": 1.9528515465303528e-13,
+          "endpoint_weight": 0.9974999999611052,
+          "junction_weight": 3.899182233460016e-11,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117187453425463e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -7.799243093738161e-13,
+          "endpoint_weight": 0.9974999993770144,
+          "junction_weight": 6.230818558230354e-10,
+          "max_site": 5
+        },
+        {
+          "energy": 7.794818967552271e-13,
+          "endpoint_weight": 0.9974999993765995,
+          "junction_weight": 6.234983469582051e-10,
+          "max_site": 10
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117187451012114e-08,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -9.006050533374661e-10,
+          "endpoint_weight": 0.49874975242161024,
+          "junction_weight": 0.49958288572125875,
+          "max_site": 0
+        },
+        {
+          "energy": 9.006056236972706e-10,
+          "endpoint_weight": 0.49875024757838937,
+          "junction_weight": 0.49958238973784064,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117187451012114e-08,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -9.006050533374661e-10,
+          "endpoint_weight": 0.49874975242161024,
+          "junction_weight": 0.49958288572125875,
+          "max_site": 0
+        },
+        {
+          "energy": 9.006056236972706e-10,
+          "endpoint_weight": 0.49875024757838937,
+          "junction_weight": 0.49958238973784064,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117187412543147e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -3.897095885522161e-13,
+          "endpoint_weight": 0.9974999998442289,
+          "junction_weight": 1.5586755212090158e-10,
+          "max_site": 10
+        },
+        {
+          "energy": 3.8963743032200773e-13,
+          "endpoint_weight": 0.9974999998442056,
+          "junction_weight": 1.5589129715688802e-10,
+          "max_site": 5
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117186025434401e-08,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -9.006047613995056e-10,
+          "endpoint_weight": 0.4987499292639379,
+          "junction_weight": 0.4995827085828852,
+          "max_site": 0
+        },
+        {
+          "energy": 9.006060623500411e-10,
+          "endpoint_weight": 0.498750070734432,
+          "junction_weight": 0.49958256687621283,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.1171846945605957e-08,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -9.006047389133912e-10,
+          "endpoint_weight": 0.4987500610933455,
+          "junction_weight": 0.4995825765309735,
+          "max_site": 0
+        },
+        {
+          "energy": 9.00605890286066e-10,
+          "endpoint_weight": 0.4987499389001938,
+          "junction_weight": 0.4995826989281209,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 2,
+      "bulk_gap": 3.117181934600297e-08,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [
+        {
+          "energy": -9.006052008540835e-10,
+          "endpoint_weight": 0.4987498291197043,
+          "junction_weight": 0.4995828088821219,
+          "max_site": 0
+        },
+        {
+          "energy": 9.006051475708031e-10,
+          "endpoint_weight": 0.4987501708543619,
+          "junction_weight": 0.49958246657695515,
+          "max_site": 0
+        }
+      ],
+      "fixed_parity_zero_mode_dimension": 1,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.030588587600151308,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.030588587600151308,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.030311626558183015,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.029550429875836243,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.027205738314021437,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.021597787550852027,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.021597787550852027,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.019902871444121964,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.018194015559085987,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.015080077190518298,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.008773927468384771,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.008773927468384771,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.008772360616237526,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00876766587970177,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00874897375181885,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.005808069428530512,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.004745929120500227,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.004745929120500227,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.004745890262238192,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.004745773692579607,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.004745307490874135,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0035146744228301474,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0035146744228301474,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00349536737549546,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.003473704014068178,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0034256389826809973,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.002948249978960336,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0024218437069810027,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0024218437069810027,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00242181438564663,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.002421726428247974,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0024213746976999464,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0016292844041428838,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0014798648357103755,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.001385034860091845,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0009504730691870992,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0009504730691870992,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00094866062788631,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0009468340387650174,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.000943139810743365,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0008181281021918803,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0007604895734391284,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.000733457313117624,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.000733457313117624,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0007334569971201124,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.000733456049132111,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0007334522572153197,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.0006958001123048039,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00040950446867378125,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00038101892977468476,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00034830771338204697,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00019060671744401588,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00013262554280198816,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00011469835987920263,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00011469835987920263,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00011467463344399685,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00011460354257631505,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 0.00011432049838159302,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 6.633873138161327e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 4.338864129977886e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.3172612949315815e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 2.169680024779151e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.4469739370462073e-05,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832077335918e-05,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832077335918e-05,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.146980834339008e-05,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469737143015132e-05,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469452355800797e-05,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.084871016237468e-05,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.907346682574765e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.235157675412431e-06,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.204842746067138e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.204842746067138e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.204468150906765e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.2033447157758295e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.1988562284309685e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.958420292766349e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.6176148393448886e-06,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.1930121423767916e-06,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.979803989954011e-06,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.5965195709781254e-06,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832035108438e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832035108438e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469831793810635e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469831083120426e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469828236207577e-06,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 0.8,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.982614729754989e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.602421350046316e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.602421350046316e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.6024208770161994e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.6024194804424156e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.6024138617515604e-07,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.246750337435376e-07,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832022861718e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832022861718e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469832008980268e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469831990324351e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 6,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.1469831909785931e-07,
+      "endpoints": [
+        6,
+        12,
+        18
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 7.919873379615995e-08,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 6.234219215538012e-08,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.9599841898585645e-08,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 3,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 3.117168060295871e-08,
+      "endpoints": [
+        3,
+        6,
+        9
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 4,
+      "mu": 0.2,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.979998036208225e-08,
+      "endpoints": [
+        4,
+        8,
+        12
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.8012106427524078e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.0,
+      "junction_channel": "bb",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.8012106427524078e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.25,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.8012106335643615e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 1.0,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.8012106317804552e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    },
+    {
+      "arm_length": 5,
+      "mu": 0.1,
+      "t": 1.0,
+      "delta": 1.0,
+      "junction_chiral": 0.5,
+      "junction_channel": "aa",
+      "zero_mode_count": 0,
+      "bulk_gap": 1.801210562691367e-08,
+      "endpoints": [
+        5,
+        10,
+        15
+      ],
+      "zero_mode_profiles": [],
+      "fixed_parity_zero_mode_dimension": 0,
+      "suitable_for_fixed_parity_fusion_space": false
+    }
+  ],
+  "decision": "derive_or_engineer_phase_biased_pairing_extension_then_simulate_braids"
+}

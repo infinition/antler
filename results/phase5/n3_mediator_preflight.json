@@ -1,0 +1,2314 @@
+{
+  "schema": "antler.phase5.n3-preflight.v1",
+  "claim_boundary": "This tests only a pinned-mediator static code candidate.  A positive result does not establish a non-Abelian braid; a negative result does not rule out a synthetic-dimension or T-junction extension.",
+  "dimension": 3276,
+  "theta_tested": [
+    0.0,
+    0.3
+  ],
+  "rows": [
+    {
+      "label": "r9_leg0_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 9,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474976015611919,
+            -14.275249776401978,
+            -14.275244766366798,
+            -14.274976015611921,
+            -14.274975844204203,
+            -14.0749758442042,
+            -12.22684474506494,
+            -12.226842198255614,
+            -12.026845110507951,
+            -12.02684219825559,
+            -11.77769088807525,
+            -11.77750319192149
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249776401978,
+            -14.275244766366798
+          ],
+          "target_weights_selected": [
+            0.9468541276801173,
+            0.9468614986990735
+          ],
+          "capture": 1.893715626379191,
+          "logical_split": 5.010035179608963e-06,
+          "isolation_gap_to_low_energy_complement": 0.00026875075487708955,
+          "mediator_occupation_selected": [
+            0.9696291097672524,
+            0.9696304586473297
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474976003135275,
+            -14.275161440049136,
+            -14.275156436887976,
+            -14.274976003135144,
+            -14.274975843557291,
+            -14.07497584355732,
+            -12.226756408712014,
+            -12.22675389004172,
+            -12.026756774155164,
+            -12.026753890041723,
+            -11.777337929623833,
+            -11.777139500698262
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275161440049136,
+            -14.275156436887976
+          ],
+          "target_weights_selected": [
+            0.9469143659765996,
+            0.9469217235259397
+          ],
+          "capture": 1.8938360895025395,
+          "logical_split": 5.003161160033187e-06,
+          "isolation_gap_to_low_energy_complement": 0.00018043375283127716,
+          "mediator_occupation_selected": [
+            0.9696291097672604,
+            0.9696304606709373
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.893715626379191,
+        "mediator_occupation_min_over_theta": 0.9696291097672524,
+        "isolation_gap_min_over_theta": 0.00018043375283127716,
+        "logical_split_max_over_theta": 5.010035179608963e-06,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r9_leg1_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 9,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474976015611947,
+            -14.275249776401958,
+            -14.275244766366837,
+            -14.274976015611843,
+            -14.274975844204105,
+            -14.07497584420419,
+            -12.226844745064916,
+            -12.226842198255602,
+            -12.026845110507969,
+            -12.02684219825563,
+            -11.77769088807522,
+            -11.777503191921463
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249776401958,
+            -14.275244766366837
+          ],
+          "target_weights_selected": [
+            0.9468541276801155,
+            0.9468614986990743
+          ],
+          "capture": 1.8937156263791897,
+          "logical_split": 5.010035120989187e-06,
+          "isolation_gap_to_low_energy_complement": 0.0002687507549943291,
+          "mediator_occupation_selected": [
+            0.9696291097672507,
+            0.9696304586473306
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474975883967025,
+            -14.27516144004908,
+            -14.275156190554508,
+            -14.274975883966988,
+            -14.274975721482127,
+            -14.07497572148218,
+            -12.226756408712104,
+            -12.226753890271237,
+            -12.026756774155086,
+            -12.026753890271157,
+            -11.777460471256859,
+            -11.777260507204208
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.27516144004908,
+            -14.275156190554508
+          ],
+          "target_weights_selected": [
+            0.9469143659764386,
+            0.9469220335623979
+          ],
+          "capture": 1.8938363995388365,
+          "logical_split": 5.2494945723680075e-06,
+          "isolation_gap_to_low_energy_complement": 0.0001803065875201071,
+          "mediator_occupation_selected": [
+            0.9696291097672542,
+            0.9696305566168382
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937156263791897,
+        "mediator_occupation_min_over_theta": 0.9696291097672507,
+        "isolation_gap_min_over_theta": 0.0001803065875201071,
+        "logical_split_max_over_theta": 5.2494945723680075e-06,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg0_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 5,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474978160841486,
+            -14.275249635527986,
+            -14.275249577839162,
+            -14.274978160841346,
+            -14.274978158709319,
+            -14.074978158709264,
+            -12.226847291442871,
+            -12.226847260405322,
+            -12.026847295509267,
+            -12.026847260405654,
+            -11.762208974285024,
+            -11.761987364457974
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249635527986,
+            -14.275249577839162
+          ],
+          "target_weights_selected": [
+            0.9468543434105418,
+            0.9468544572638179
+          ],
+          "capture": 1.8937088006743596,
+          "logical_split": 5.768882438417222e-08,
+          "isolation_gap_to_low_energy_complement": 0.0002714169978155212,
+          "mediator_occupation_selected": [
+            0.9696293306770889,
+            0.9696293458902705
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.47497815932531,
+            -14.27516129917512,
+            -14.275161238670979,
+            -14.274978159325153,
+            -14.274978157301984,
+            -14.074978157301953,
+            -12.226758955089993,
+            -12.226758924426573,
+            -12.026758959156407,
+            -12.026758924426941,
+            -11.761602953422802,
+            -11.761361736427894
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.27516129917512,
+            -14.275161238670979
+          ],
+          "target_weights_selected": [
+            0.9469145817205354,
+            0.94691470030309
+          ],
+          "capture": 1.8938292820236255,
+          "logical_split": 6.050414214087141e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018307934582573182,
+          "mediator_occupation_selected": [
+            0.9696293306770877,
+            0.9696293471724702
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937088006743596,
+        "mediator_occupation_min_over_theta": 0.9696293306770877,
+        "isolation_gap_min_over_theta": 0.00018307934582573182,
+        "logical_split_max_over_theta": 6.050414214087141e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg1_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 5,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474978160841555,
+            -14.275249635527981,
+            -14.275249577839148,
+            -14.274978160841325,
+            -14.274978158709267,
+            -14.074978158709223,
+            -12.226847291442867,
+            -12.226847260405314,
+            -12.026847295509208,
+            -12.026847260405736,
+            -11.762208974285025,
+            -11.761987364457967
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249635527981,
+            -14.275249577839148
+          ],
+          "target_weights_selected": [
+            0.9468543434105395,
+            0.946854457263819
+          ],
+          "capture": 1.8937088006743585,
+          "logical_split": 5.768883326595642e-08,
+          "isolation_gap_to_low_energy_complement": 0.0002714169978226266,
+          "mediator_occupation_selected": [
+            0.9696293306770867,
+            0.9696293458902715
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474978160728988,
+            -14.275161299174995,
+            -14.275161241664692,
+            -14.274978160728857,
+            -14.274978158736351,
+            -14.074978158736295,
+            -12.226758955090016,
+            -12.226758924422809,
+            -12.02675895915636,
+            -12.026758924423296,
+            -11.761458658822669,
+            -11.761223055012238
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275161299174995,
+            -14.275161241664692
+          ],
+          "target_weights_selected": [
+            0.9469145817211754,
+            0.9469146951223607
+          ],
+          "capture": 1.893829276843536,
+          "logical_split": 5.7510302298169336e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018308093583563334,
+          "mediator_occupation_selected": [
+            0.9696293306771608,
+            0.969629345904763
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937088006743585,
+        "mediator_occupation_min_over_theta": 0.9696293306770867,
+        "isolation_gap_min_over_theta": 0.00018308093583563334,
+        "logical_split_max_over_theta": 5.768883326595642e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg1_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 7,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474978184215528,
+            -14.275249634875863,
+            -14.275249631159733,
+            -14.27497818421384,
+            -14.274978184087068,
+            -14.074978184085616,
+            -12.226847318261406,
+            -12.226847316150636,
+            -12.026847318512965,
+            -12.026847316155973,
+            -11.75683904512781,
+            -11.756658340835164
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249634875863,
+            -14.275249631159733
+          ],
+          "target_weights_selected": [
+            0.9468543446624547,
+            0.9468543537402895
+          ],
+          "capture": 1.8937086984027443,
+          "logical_split": 3.716129626241127e-09,
+          "isolation_gap_to_low_energy_complement": 0.00027144694589331664,
+          "mediator_occupation_selected": [
+            0.9696293318446202,
+            0.9696293328052374
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474978184118612,
+            -14.275161298523173,
+            -14.275161294621523,
+            -14.274978184117131,
+            -14.27497818399651,
+            -14.074978183995139,
+            -12.226758981908809,
+            -12.22675897982567,
+            -12.026758982160448,
+            -12.026758979831,
+            -11.7560567632786,
+            -11.755855047575238
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275161298523173,
+            -14.275161294621523
+          ],
+          "target_weights_selected": [
+            0.9469145829718638,
+            0.946914592445386
+          ],
+          "capture": 1.8938291754172498,
+          "logical_split": 3.90165055819125e-09,
+          "isolation_gap_to_low_energy_complement": 0.00018311050439123733,
+          "mediator_occupation_selected": [
+            0.9696293318446302,
+            0.9696293328920954
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937086984027443,
+        "mediator_occupation_min_over_theta": 0.9696293318446202,
+        "isolation_gap_min_over_theta": 0.00018311050439123733,
+        "logical_split_max_over_theta": 3.90165055819125e-09,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg0_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 7,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474978184215471,
+            -14.275249634875852,
+            -14.275249631159708,
+            -14.27497818421389,
+            -14.274978184087086,
+            -14.074978184085522,
+            -12.226847318261411,
+            -12.226847316150616,
+            -12.02684731851294,
+            -12.026847316156115,
+            -11.756839045127847,
+            -11.756658340835225
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275249634875852,
+            -14.275249631159708
+          ],
+          "target_weights_selected": [
+            0.9468543446624541,
+            0.9468543537402869
+          ],
+          "capture": 1.8937086984027411,
+          "logical_split": 3.716143837095842e-09,
+          "isolation_gap_to_low_energy_complement": 0.00027144694581870965,
+          "mediator_occupation_selected": [
+            0.9696293318446193,
+            0.9696293328052349
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474978184205604,
+            -14.275161298520828,
+            -14.275161294816591,
+            -14.27497818420406,
+            -14.274978184085631,
+            -14.07497818408417,
+            -12.226758981908851,
+            -12.226758979825417,
+            -12.026758982160453,
+            -12.026758979830749,
+            -11.755922415050005,
+            -11.755730308655522
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275161298520828,
+            -14.275161294816591
+          ],
+          "target_weights_selected": [
+            0.9469145829783032,
+            0.946914592020734
+          ],
+          "capture": 1.8938291749990372,
+          "logical_split": 3.7042369172013423e-09,
+          "isolation_gap_to_low_energy_complement": 0.00018311061253051264,
+          "mediator_occupation_selected": [
+            0.9696293318456627,
+            0.9696293328067309
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937086984027411,
+        "mediator_occupation_min_over_theta": 0.9696293318446193,
+        "isolation_gap_min_over_theta": 0.00018311061253051264,
+        "logical_split_max_over_theta": 3.716143837095842e-09,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r9_leg0_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 9,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510931498486014,
+            -13.311206368397341,
+            -13.311198919070497,
+            -13.310931498485946,
+            -13.310931084135555,
+            -13.110931084135514,
+            -12.226843301518555,
+            -12.226839719223795,
+            -12.026844125946766,
+            -12.026839719223803,
+            -10.813674085301859,
+            -10.813488792326714
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311206368397341,
+            -13.311198919070497
+          ],
+          "target_weights_selected": [
+            0.9349709151408403,
+            0.9349819324609948
+          ],
+          "capture": 1.869952847601835,
+          "logical_split": 7.4493268442665794e-06,
+          "isolation_gap_to_low_energy_complement": 0.00026742058455120343,
+          "mediator_occupation_selected": [
+            0.9574600665552219,
+            0.9574644890976917
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510931473665105,
+            -13.311118032044396,
+            -13.311110586393152,
+            -13.310931473665107,
+            -13.310931086906063,
+            -13.110931086906032,
+            -12.226754965165636,
+            -12.22675142148305,
+            -12.026755789593867,
+            -12.026751421483073,
+            -10.81320703057405,
+            -10.81300972914834
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311118032044396,
+            -13.311110586393152
+          ],
+          "target_weights_selected": [
+            0.935030397433872,
+            0.9350414078106466
+          ],
+          "capture": 1.8700718052445184,
+          "logical_split": 7.445651243997986e-06,
+          "isolation_gap_to_low_energy_complement": 0.00017911272804482792,
+          "mediator_occupation_selected": [
+            0.9574600665552202,
+            0.9574644940693106
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.869952847601835,
+        "mediator_occupation_min_over_theta": 0.9574600665552202,
+        "isolation_gap_min_over_theta": 0.00017911272804482792,
+        "logical_split_max_over_theta": 7.4493268442665794e-06,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r9_leg1_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 9,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510931498486006,
+            -13.31120636839733,
+            -13.31119891907047,
+            -13.310931498485997,
+            -13.310931084135541,
+            -13.11093108413551,
+            -12.226843301518533,
+            -12.226839719223792,
+            -12.026844125946761,
+            -12.026839719223773,
+            -10.813674085301884,
+            -10.813488792326702
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.31120636839733,
+            -13.31119891907047
+          ],
+          "target_weights_selected": [
+            0.9349709151408375,
+            0.9349819324609959
+          ],
+          "capture": 1.8699528476018334,
+          "logical_split": 7.449326860253791e-06,
+          "isolation_gap_to_low_energy_complement": 0.00026742058447304373,
+          "mediator_occupation_selected": [
+            0.957460066555219,
+            0.9574644890976928
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510931286365166,
+            -13.311118032044474,
+            -13.311110201273195,
+            -13.31093128636514,
+            -13.31093089470924,
+            -13.11093089470922,
+            -12.226754965165666,
+            -12.226751421891537,
+            -12.026755789593862,
+            -12.026751421891497,
+            -10.813368304188725,
+            -10.813170299887815
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311118032044474,
+            -13.311110201273195
+          ],
+          "target_weights_selected": [
+            0.9350303974336073,
+            0.9350418895215133
+          ],
+          "capture": 1.8700722869551205,
+          "logical_split": 7.830771279415671e-06,
+          "isolation_gap_to_low_energy_complement": 0.00017891490805510557,
+          "mediator_occupation_selected": [
+            0.9574600665552198,
+            0.9574646922020925
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8699528476018334,
+        "mediator_occupation_min_over_theta": 0.957460066555219,
+        "isolation_gap_min_over_theta": 0.00017891490805510557,
+        "logical_split_max_over_theta": 7.830771279415671e-06,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg1_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 5,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510934018493016,
+            -13.311205505141182,
+            -13.311205420062828,
+            -13.310934018492702,
+            -13.310934012963966,
+            -13.11093401296369,
+            -12.226847275381228,
+            -12.226847231842733,
+            -12.026847284554215,
+            -12.026847231844181,
+            -10.79826750851281,
+            -10.798049342400533
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311205505141182,
+            -13.311205420062828
+          ],
+          "target_weights_selected": [
+            0.934972721791854,
+            0.934972882807579
+          ],
+          "capture": 1.869945604599433,
+          "logical_split": 8.507835325133328e-08,
+          "isolation_gap_to_low_energy_complement": 0.00027140157012617294,
+          "mediator_occupation_selected": [
+            0.9574619166506271,
+            0.957461966149192
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510934018236815,
+            -13.311117168788027,
+            -13.311117083855184,
+            -13.31093401823649,
+            -13.310934013041393,
+            -13.110934013041158,
+            -12.22675893902841,
+            -12.226758896004238,
+            -12.026758948201344,
+            -12.026758896005685,
+            -10.797278149133366,
+            -10.79704360144749
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311117168788027,
+            -13.311117083855184
+          ],
+          "target_weights_selected": [
+            0.9350322042005709,
+            0.9350323648440245
+          ],
+          "capture": 1.8700645690445954,
+          "logical_split": 8.493284298083381e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018306561869430027,
+          "mediator_occupation_selected": [
+            0.9574619166508201,
+            0.9574619662135045
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.869945604599433,
+        "mediator_occupation_min_over_theta": 0.9574619166506271,
+        "isolation_gap_min_over_theta": 0.00018306561869430027,
+        "logical_split_max_over_theta": 8.507835325133328e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg0_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 5,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.51093401849297,
+            -13.311205505141132,
+            -13.311205420062832,
+            -13.310934018492679,
+            -13.310934012963916,
+            -13.110934012963666,
+            -12.22684727538127,
+            -12.226847231842763,
+            -12.026847284554236,
+            -12.026847231844203,
+            -10.798267508512865,
+            -10.798049342400484
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311205505141132,
+            -13.311205420062832
+          ],
+          "target_weights_selected": [
+            0.9349727217918509,
+            0.9349728828075797
+          ],
+          "capture": 1.8699456045994305,
+          "logical_split": 8.50782999606281e-08,
+          "isolation_gap_to_low_energy_complement": 0.0002714015701528183,
+          "mediator_occupation_selected": [
+            0.9574619166506237,
+            0.9574619661491924
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510934015901059,
+            -13.311117168788284,
+            -13.311117078913814,
+            -13.310934015900811,
+            -13.3109340106489,
+            -13.110934010648666,
+            -12.226758939028393,
+            -12.226758896009711,
+            -12.026758948201364,
+            -12.026758896011122,
+            -10.797467760644569,
+            -10.797228224299236
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311117168788284,
+            -13.311117078913814
+          ],
+          "target_weights_selected": [
+            0.9350322041995139,
+            0.9350323731465054
+          ],
+          "capture": 1.8700645773460194,
+          "logical_split": 8.987447053243613e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018306301300263783,
+          "mediator_occupation_selected": [
+            0.9574619166506335,
+            0.957461969161181
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8699456045994305,
+        "mediator_occupation_min_over_theta": 0.9574619166506237,
+        "isolation_gap_min_over_theta": 0.00018306301300263783,
+        "logical_split_max_over_theta": 8.987447053243613e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg1_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 7,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510934048356276,
+            -13.311205499739996,
+            -13.311205494304975,
+            -13.310934048351982,
+            -13.310934047993488,
+            -13.110934047989199,
+            -12.226847317249947,
+            -12.226847314266216,
+            -12.026847317808002,
+            -12.026847314287911,
+            -10.793070773834767,
+            -10.792893655005452
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311205499739996,
+            -13.311205494304975
+          ],
+          "target_weights_selected": [
+            0.9349727351642373,
+            0.9349727476356795
+          ],
+          "capture": 1.869945482799917,
+          "logical_split": 5.435021321886779e-09,
+          "isolation_gap_to_low_energy_complement": 0.0002714459529933322,
+          "mediator_occupation_selected": [
+            0.9574619302092392,
+            0.9574619333009812
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510934048186078,
+            -13.311117163387246,
+            -13.311117157627129,
+            -13.310934048181988,
+            -13.310934047840485,
+            -13.11093404783642,
+            -12.226758980897287,
+            -12.22675897795245,
+            -12.026758981455725,
+            -12.026758977973774,
+            -10.792041097464123,
+            -10.791840807819325
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311117163387246,
+            -13.311117157627129
+          ],
+          "target_weights_selected": [
+            0.9350322175721884,
+            0.9350322307120064
+          ],
+          "capture": 1.8700644482841948,
+          "logical_split": 5.760117716135937e-09,
+          "isolation_gap_to_low_energy_complement": 0.0001831094451407722,
+          "mediator_occupation_selected": [
+            0.9574619302093105,
+            0.9574619335220251
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.869945482799917,
+        "mediator_occupation_min_over_theta": 0.9574619302092392,
+        "isolation_gap_min_over_theta": 0.0001831094451407722,
+        "logical_split_max_over_theta": 5.760117716135937e-09,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg0_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 7,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510934048356328,
+            -13.31120549974001,
+            -13.311205494304966,
+            -13.310934048351939,
+            -13.31093404799348,
+            -13.110934047989156,
+            -12.226847317249945,
+            -12.226847314266209,
+            -12.026847317808004,
+            -12.026847314287902,
+            -10.793070773834765,
+            -10.79289365500541
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.31120549974001,
+            -13.311205494304966
+          ],
+          "target_weights_selected": [
+            0.9349727351642372,
+            0.9349727476356788
+          ],
+          "capture": 1.869945482799916,
+          "logical_split": 5.4350444145256915e-09,
+          "isolation_gap_to_low_energy_complement": 0.00027144595302708296,
+          "mediator_occupation_selected": [
+            0.9574619302092392,
+            0.9574619333009803
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.51093404833594,
+            -13.311117163383226,
+            -13.31111715795884,
+            -13.310934048331823,
+            -13.310934047994214,
+            -13.11093404799009,
+            -12.226758980897321,
+            -12.2267589779521,
+            -12.02675898145571,
+            -12.026758977973389,
+            -10.791866473047667,
+            -10.79167546072963
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311117163383226,
+            -13.31111715795884
+          ],
+          "target_weights_selected": [
+            0.9350322175827341,
+            0.935032230023025
+          ],
+          "capture": 1.8700644476057593,
+          "logical_split": 5.42438627348929e-09,
+          "isolation_gap_to_low_energy_complement": 0.00018310962701661992,
+          "mediator_occupation_selected": [
+            0.9574619302120659,
+            0.9574619333066596
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.869945482799916,
+        "mediator_occupation_min_over_theta": 0.9574619302092392,
+        "isolation_gap_min_over_theta": 0.00018310962701661992,
+        "logical_split_max_over_theta": 5.4350444145256915e-09,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg0_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 7,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562878122768174,
+            -12.363149585690012,
+            -12.363149561166269,
+            -12.362878123225503,
+            -12.362878122760614,
+            -12.226847302557529,
+            -12.226847297247634,
+            -12.162878123218029,
+            -12.026847313192022,
+            -12.026847297600877,
+            -9.845460331722785,
+            -9.8452887795474
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363149585690012,
+            -12.363149561166269
+          ],
+          "target_weights_selected": [
+            0.9146570797890187,
+            0.9146572201107792
+          ],
+          "capture": 1.829314299899798,
+          "logical_split": 2.4523743036297674e-08,
+          "isolation_gap_to_low_energy_complement": 0.00027143794076600614,
+          "mediator_occupation_selected": [
+            0.9366576159238273,
+            0.9366577473905724
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.56287812264471,
+            -12.363061249326796,
+            -12.36306122480411,
+            -12.362878123317557,
+            -12.362878122639813,
+            -12.226758966200313,
+            -12.226758960954017,
+            -12.162878123312755,
+            -12.026758976841686,
+            -12.026758961300343,
+            -9.84380972217841,
+            -9.843620618670872
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061249326796,
+            -12.36306122480411
+          ],
+          "target_weights_selected": [
+            0.9147152697209785,
+            0.9147154100427041
+          ],
+          "capture": 1.8294306797636826,
+          "logical_split": 2.452268610397823e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018310148655231728,
+          "mediator_occupation_selected": [
+            0.9366576159373932,
+            0.936657747427968
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.829314299899798,
+        "mediator_occupation_min_over_theta": 0.9366576159238273,
+        "isolation_gap_min_over_theta": 0.00018310148655231728,
+        "logical_split_max_over_theta": 2.4523743036297674e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg1_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 7,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562878122768172,
+            -12.363149585690023,
+            -12.363149561166267,
+            -12.362878123225485,
+            -12.362878122760645,
+            -12.226847302557568,
+            -12.226847297247659,
+            -12.162878123218073,
+            -12.02684731319203,
+            -12.026847297600911,
+            -9.845460331722828,
+            -9.845288779547428
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363149585690023,
+            -12.363149561166267
+          ],
+          "target_weights_selected": [
+            0.9146570797890128,
+            0.9146572201107737
+          ],
+          "capture": 1.8293142998997864,
+          "logical_split": 2.452375547079555e-08,
+          "isolation_gap_to_low_energy_complement": 0.00027143794078199335,
+          "mediator_occupation_selected": [
+            0.9366576159238228,
+            0.9366577473905666
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.5628781222867,
+            -12.363061249337035,
+            -12.363061224031531,
+            -12.36287812294995,
+            -12.362878122281883,
+            -12.226758966200315,
+            -12.226758960954683,
+            -12.162878122945314,
+            -12.026758976841688,
+            -12.026758961301038,
+            -9.844044935968192,
+            -9.843847022256252
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061249337035,
+            -12.363061224031531
+          ],
+          "target_weights_selected": [
+            0.9147152696947685,
+            0.9147154116085637
+          ],
+          "capture": 1.8294306813033323,
+          "logical_split": 2.530550347046301e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018310108158203775,
+          "mediator_occupation_selected": [
+            0.936657615924468,
+            0.9366577482750719
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8293142998997864,
+        "mediator_occupation_min_over_theta": 0.9366576159238228,
+        "isolation_gap_min_over_theta": 0.00018310108158203775,
+        "logical_split_max_over_theta": 2.530550347046301e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg1_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 5,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562878134451232,
+            -12.36314981450873,
+            -12.363149421148297,
+            -12.362878160086478,
+            -12.362878134450042,
+            -12.226847039074377,
+            -12.226846966765304,
+            -12.162878160085464,
+            -12.02684721292669,
+            -12.026846966789323,
+            -9.850398798606681,
+            -9.850186266315092
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.36314981450873,
+            -12.363149421148297
+          ],
+          "target_weights_selected": [
+            0.9146552528950556,
+            0.9146574665889429
+          ],
+          "capture": 1.8293127194839984,
+          "logical_split": 3.9336043400339804e-07,
+          "isolation_gap_to_low_energy_complement": 0.0002712610618189615,
+          "mediator_occupation_selected": [
+            0.9366557452642286,
+            0.9366578718852892
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562878132810773,
+            -12.363061478155071,
+            -12.363061084774467,
+            -12.36287816141543,
+            -12.362878132809763,
+            -12.226758702721268,
+            -12.226758631187032,
+            -12.162878161414596,
+            -12.02675887657391,
+            -12.026758631210576,
+            -9.849037020479082,
+            -9.84880445044089
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061478155071,
+            -12.363061084774467
+          ],
+          "target_weights_selected": [
+            0.9147134426886914,
+            0.9147156565056304
+          ],
+          "capture": 1.8294290991943218,
+          "logical_split": 3.9338060453530943e-07,
+          "isolation_gap_to_low_energy_complement": 0.00018292335903602464,
+          "mediator_occupation_selected": [
+            0.9366557452652665,
+            0.9366578722434341
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8293127194839984,
+        "mediator_occupation_min_over_theta": 0.9366557452642286,
+        "isolation_gap_min_over_theta": 0.00018292335903602464,
+        "logical_split_max_over_theta": 3.9338060453530943e-07,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r5_leg0_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 5,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562878134451188,
+            -12.36314981450872,
+            -12.36314942114822,
+            -12.362878160086488,
+            -12.36287813445003,
+            -12.226847039074453,
+            -12.226846966765313,
+            -12.162878160085448,
+            -12.02684721292664,
+            -12.026846966789307,
+            -9.850398798606701,
+            -9.850186266315124
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.36314981450872,
+            -12.36314942114822
+          ],
+          "target_weights_selected": [
+            0.9146552528950567,
+            0.9146574665889371
+          ],
+          "capture": 1.8293127194839938,
+          "logical_split": 3.933604997286011e-07,
+          "isolation_gap_to_low_energy_complement": 0.00027126106173192,
+          "mediator_occupation_selected": [
+            0.9366557452642298,
+            0.9366578718852843
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562878127817905,
+            -12.363061478155796,
+            -12.363061074387213,
+            -12.362878156300464,
+            -12.362878127816938,
+            -12.226758702721234,
+            -12.226758631197043,
+            -12.162878156299598,
+            -12.026758876573881,
+            -12.02675863122058,
+            -9.84929614754182,
+            -9.849059527169299
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061478155796,
+            -12.363061074387213
+          ],
+          "target_weights_selected": [
+            0.9147134426853454,
+            0.914715673936848
+          ],
+          "capture": 1.8294291166221934,
+          "logical_split": 4.0376858301272023e-07,
+          "isolation_gap_to_low_energy_complement": 0.00018291808674852916,
+          "mediator_occupation_selected": [
+            0.9366557452642486,
+            0.9366578818427429
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8293127194839938,
+        "mediator_occupation_min_over_theta": 0.9366557452642298,
+        "isolation_gap_min_over_theta": 0.00018291808674852916,
+        "logical_split_max_over_theta": 4.0376858301272023e-07,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r3_leg0_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 3,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474946444149078,
+            -14.275254978647533,
+            -14.275176630549982,
+            -14.274946444148942,
+            -14.274943863908163,
+            -14.074943863908242,
+            -12.226806123424637,
+            -12.226767923164303,
+            -12.026811956801412,
+            -12.026767923164273,
+            -11.782296260613226,
+            -11.782163078052932
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275254978647533,
+            -14.275176630549982
+          ],
+          "target_weights_selected": [
+            0.9468478153875155,
+            0.9469304948014254
+          ],
+          "capture": 1.893778310188941,
+          "logical_split": 7.834809755102867e-05,
+          "isolation_gap_to_low_energy_complement": 0.0002301864010405552,
+          "mediator_occupation_selected": [
+            0.9696226456431963,
+            0.9696440904021553
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.474944550757007,
+            -14.275166642294693,
+            -14.275084945213802,
+            -14.274944550756942,
+            -14.274942121602402,
+            -14.074942121602477,
+            -12.226717787071808,
+            -12.226680003273552,
+            -12.02672362044854,
+            -12.026680003273505,
+            -11.782100863351582,
+            -11.781959121247944
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275166642294693,
+            -14.275084945213802
+          ],
+          "target_weights_selected": [
+            0.9469080532823217,
+            0.9469935828975133
+          ],
+          "capture": 1.893901636179835,
+          "logical_split": 8.169708089056371e-05,
+          "isolation_gap_to_low_energy_complement": 0.00014039445686009344,
+          "mediator_occupation_selected": [
+            0.9696226456431986,
+            0.9696452876745543
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.893778310188941,
+        "mediator_occupation_min_over_theta": 0.9696226456431963,
+        "isolation_gap_min_over_theta": 0.00014039445686009344,
+        "logical_split_max_over_theta": 8.169708089056371e-05,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r3_leg1_scale1.5",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.5,
+        "mediator_rung": 3,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -14.474946444149019,
+            -14.27525497864755,
+            -14.275176630549959,
+            -14.274946444148911,
+            -14.274943863908119,
+            -14.07494386390816,
+            -12.226806123424652,
+            -12.226767923164266,
+            -12.026811956801504,
+            -12.026767923164321,
+            -11.782296260613263,
+            -11.78216307805288
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.27525497864755,
+            -14.275176630549959
+          ],
+          "target_weights_selected": [
+            0.9468478153875147,
+            0.9469304948014257
+          ],
+          "capture": 1.8937783101889405,
+          "logical_split": 7.834809759188488e-05,
+          "isolation_gap_to_low_energy_complement": 0.00023018640104766064,
+          "mediator_occupation_selected": [
+            0.9696226456431954,
+            0.9696440904021557
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -14.47494628920535,
+            -14.275166642294597,
+            -14.275088444950272,
+            -14.274946289205234,
+            -14.274943896616255,
+            -14.074943896616288,
+            -12.226717787071797,
+            -12.226680005912279,
+            -12.026723620448541,
+            -12.02668000591226,
+            -11.782001844855822,
+            -11.781859219719276
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -14.275166642294597,
+            -14.275088444950272
+          ],
+          "target_weights_selected": [
+            0.9469080532824224,
+            0.9469905043968013
+          ],
+          "capture": 1.8938985576792238,
+          "logical_split": 7.819734432423786e-05,
+          "isolation_gap_to_low_energy_complement": 0.00014215574503850803,
+          "mediator_occupation_selected": [
+            0.9696226456431952,
+            0.96964411018661
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8937783101889405,
+        "mediator_occupation_min_over_theta": 0.9696226456431952,
+        "isolation_gap_min_over_theta": 0.00014215574503850803,
+        "logical_split_max_over_theta": 7.834809759188488e-05,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r3_leg0_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 3,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510901715854665,
+            -13.31122871769281,
+            -13.31111149399742,
+            -13.310901715854621,
+            -13.310896622333082,
+            -13.110896622333122,
+            -12.22678303385798,
+            -12.226729069325568,
+            -12.026796193865902,
+            -12.026729069325544,
+            -10.818198705812394,
+            -10.818084714542623
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.31122871769281,
+            -13.31111149399742
+          ],
+          "target_weights_selected": [
+            0.9349326271267208,
+            0.9350679190896727
+          ],
+          "capture": 1.8700005462163936,
+          "logical_split": 0.00011722369539057809,
+          "isolation_gap_to_low_energy_complement": 0.00020977814279810048,
+          "mediator_occupation_selected": [
+            0.9574208575873968,
+            0.9574914530540076
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510898856344705,
+            -13.311140381339923,
+            -13.311018195738008,
+            -13.310898856344727,
+            -13.310894109160035,
+            -13.110894109159961,
+            -12.22669469750508,
+            -12.226641286025348,
+            -12.02670785751301,
+            -12.026641286025372,
+            -10.817940910438853,
+            -10.817819054622555
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311140381339923,
+            -13.311018195738008
+          ],
+          "target_weights_selected": [
+            0.9349921069840178,
+            0.9351317963151138
+          ],
+          "capture": 1.8701239032991315,
+          "logical_split": 0.00012218560191534777,
+          "isolation_gap_to_low_energy_complement": 0.000119339393281237,
+          "mediator_occupation_selected": [
+            0.9574208575873961,
+            0.9574936051244519
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8700005462163936,
+        "mediator_occupation_min_over_theta": 0.9574208575873961,
+        "isolation_gap_min_over_theta": 0.000119339393281237,
+        "logical_split_max_over_theta": 0.00012218560191534777,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r3_leg1_scale1.25",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.25,
+        "mediator_rung": 3,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -13.510901715854605,
+            -13.311228717692863,
+            -13.31111149399736,
+            -13.310901715854621,
+            -13.310896622333082,
+            -13.110896622333078,
+            -12.226783033857947,
+            -12.226729069325536,
+            -12.02679619386585,
+            -12.026729069325524,
+            -10.818198705812373,
+            -10.818084714542639
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311228717692863,
+            -13.31111149399736
+          ],
+          "target_weights_selected": [
+            0.9349326271267235,
+            0.9350679190896692
+          ],
+          "capture": 1.8700005462163927,
+          "logical_split": 0.00011722369550248857,
+          "isolation_gap_to_low_energy_complement": 0.0002097781427394807,
+          "mediator_occupation_selected": [
+            0.9574208575873996,
+            0.9574914530540041
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -13.510901387850993,
+            -13.311140381339923,
+            -13.31102327573996,
+            -13.310901387851015,
+            -13.310896698253268,
+            -13.110896698253304,
+            -12.226694697505067,
+            -12.226641283264238,
+            -12.026707857512967,
+            -12.026641283264258,
+            -10.817810947260634,
+            -10.817686439524131
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -13.311140381339923,
+            -13.31102327573996
+          ],
+          "target_weights_selected": [
+            0.9349921069841578,
+            0.9351272223408769
+          ],
+          "capture": 1.8701193293250347,
+          "logical_split": 0.0001171055999638071,
+          "isolation_gap_to_low_energy_complement": 0.00012188788894462732,
+          "mediator_occupation_selected": [
+            0.9574208575873957,
+            0.9574915037273913
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8700005462163927,
+        "mediator_occupation_min_over_theta": 0.9574208575873957,
+        "isolation_gap_min_over_theta": 0.00012188788894462732,
+        "logical_split_max_over_theta": 0.00011722369550248857,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r9_leg0_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 9,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562880536248896,
+            -12.363173557639733,
+            -12.363138428743147,
+            -12.362884939126985,
+            -12.362880536248813,
+            -12.22682206705125,
+            -12.22681566713395,
+            -12.162884939126997,
+            -12.026837688328882,
+            -12.026815667134235,
+            -9.865674329796125,
+            -9.865508796790484
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363173557639733,
+            -12.363138428743147
+          ],
+          "target_weights_selected": [
+            0.9144782558064974,
+            0.9146725448404393
+          ],
+          "capture": 1.8291508006469366,
+          "logical_split": 3.5128896586300584e-05,
+          "isolation_gap_to_low_energy_complement": 0.00025348961616167287,
+          "mediator_occupation_selected": [
+            0.9364744908205406,
+            0.9366655262121967
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562880406818431,
+            -12.36308522128686,
+            -12.363050086486231,
+            -12.362885021080777,
+            -12.362880406818437,
+            -12.226733730698426,
+            -12.22672740065236,
+            -12.162885021080879,
+            -12.026749351975994,
+            -12.026727400652689,
+            -9.865027106594901,
+            -9.864847571983649
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.36308522128686,
+            -12.363050086486231
+          ],
+          "target_weights_selected": [
+            0.9145364343452425,
+            0.9147307460132675
+          ],
+          "capture": 1.82926718035851,
+          "logical_split": 3.513480062977692e-05,
+          "isolation_gap_to_low_energy_complement": 0.00016506540545435655,
+          "mediator_occupation_selected": [
+            0.9364744908205245,
+            0.9366655435158634
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8291508006469366,
+        "mediator_occupation_min_over_theta": 0.9364744908205245,
+        "isolation_gap_min_over_theta": 0.00016506540545435655,
+        "logical_split_max_over_theta": 3.513480062977692e-05,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r9_leg1_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 9,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562880536248866,
+            -12.36317355763973,
+            -12.363138428743147,
+            -12.362884939126936,
+            -12.362880536248811,
+            -12.226822067051263,
+            -12.226815667133925,
+            -12.162884939126979,
+            -12.026837688328873,
+            -12.02681566713423,
+            -9.865674329796072,
+            -9.865508796790444
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.36317355763973,
+            -12.363138428743147
+          ],
+          "target_weights_selected": [
+            0.9144782558064963,
+            0.914672544840439
+          ],
+          "capture": 1.8291508006469352,
+          "logical_split": 3.512889658274787e-05,
+          "isolation_gap_to_low_energy_complement": 0.00025348961621141086,
+          "mediator_occupation_selected": [
+            0.9364744908205398,
+            0.936665526212196
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562880058427636,
+            -12.363085221286823,
+            -12.363049378136452,
+            -12.362884664398099,
+            -12.362880058427548,
+            -12.226733730698351,
+            -12.226727401216081,
+            -12.162884664398184,
+            -12.026749351976003,
+            -12.026727401216313,
+            -9.865248145455375,
+            -9.8650693233164
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363085221286823,
+            -12.363049378136452
+          ],
+          "target_weights_selected": [
+            0.9145364343442808,
+            0.9147316516089367
+          ],
+          "capture": 1.8292680859532173,
+          "logical_split": 3.5843150371306365e-05,
+          "isolation_gap_to_low_energy_complement": 0.0001647137383535835,
+          "mediator_occupation_selected": [
+            0.9364744908205099,
+            0.9366660549194754
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8291508006469352,
+        "mediator_occupation_min_over_theta": 0.9364744908205099,
+        "isolation_gap_min_over_theta": 0.0001647137383535835,
+        "logical_split_max_over_theta": 3.5843150371306365e-05,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r3_leg1_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 3,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.56293970960669,
+            -12.363567400348215,
+            -12.36304341927291,
+            -12.363008726041423,
+            -12.362939709606579,
+            -12.226444679767168,
+            -12.226337490564585,
+            -12.163043419272881,
+            -12.02669308037929,
+            -12.026337490564647,
+            -9.870347654360726,
+            -9.870164525535525
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            3
+          ],
+          "selected_energies": [
+            -12.363567400348215,
+            -12.363008726041423
+          ],
+          "target_weights_selected": [
+            0.9117682528682921,
+            0.9148010759273415
+          ],
+          "capture": 1.8265693287956335,
+          "logical_split": 0.0005586743067915734,
+          "isolation_gap_to_low_energy_complement": 3.469323148763692e-05,
+          "mediator_occupation_selected": [
+            0.9336993033070797,
+            0.9367301375004673
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562938008067144,
+            -12.363479063995333,
+            -12.363044202833139,
+            -12.362938008067104,
+            -12.36292041940189,
+            -12.226356343414302,
+            -12.22625042354804,
+            -12.16304420283314,
+            -12.026604744026434,
+            -12.026250423548033,
+            -9.869802429756243,
+            -9.869630658349747
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            4
+          ],
+          "selected_energies": [
+            -12.363479063995333,
+            -12.36292041940189
+          ],
+          "target_weights_selected": [
+            0.9118262590199471,
+            0.9148592216156389
+          ],
+          "capture": 1.826685480635586,
+          "logical_split": 0.000558644593443347,
+          "isolation_gap_to_low_energy_complement": 1.7588665214063326e-05,
+          "mediator_occupation_selected": [
+            0.9336993033070763,
+            0.936730281780056
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8265693287956335,
+        "mediator_occupation_min_over_theta": 0.9336993033070763,
+        "isolation_gap_min_over_theta": 1.7588665214063326e-05,
+        "logical_split_max_over_theta": 0.0005586743067915734,
+        "passes_static_preflight": false
+      }
+    },
+    {
+      "label": "r3_leg0_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 3,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562939709606692,
+            -12.363567400348224,
+            -12.363043419272891,
+            -12.363008726041432,
+            -12.362939709606607,
+            -12.22644467976721,
+            -12.226337490564642,
+            -12.163043419272883,
+            -12.026693080379303,
+            -12.02633749056464,
+            -9.870347654360643,
+            -9.870164525535554
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            3
+          ],
+          "selected_energies": [
+            -12.363567400348224,
+            -12.363008726041432
+          ],
+          "target_weights_selected": [
+            0.9117682528682859,
+            0.914801075927339
+          ],
+          "capture": 1.8265693287956248,
+          "logical_split": 0.0005586743067915734,
+          "isolation_gap_to_low_energy_complement": 3.469323145921521e-05,
+          "mediator_occupation_selected": [
+            0.9336993033070733,
+            0.936730137500468
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.56293393559291,
+            -12.363479063995351,
+            -12.363040078858036,
+            -12.362933935592878,
+            -12.362912314423385,
+            -12.2263563434143,
+            -12.22625040455768,
+            -12.163040078858106,
+            -12.026604744026438,
+            -12.026250404557773,
+            -9.869986673034065,
+            -9.869808285096585
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            4
+          ],
+          "selected_energies": [
+            -12.363479063995351,
+            -12.362912314423385
+          ],
+          "target_weights_selected": [
+            0.911826259019887,
+            0.9148668521343276
+          ],
+          "capture": 1.8266931111542146,
+          "logical_split": 0.0005667495719663407,
+          "isolation_gap_to_low_energy_complement": 2.1621169493002412e-05,
+          "mediator_occupation_selected": [
+            0.9336993033070724,
+            0.9367345657556804
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8265693287956248,
+        "mediator_occupation_min_over_theta": 0.9336993033070724,
+        "isolation_gap_min_over_theta": 2.1621169493002412e-05,
+        "logical_split_max_over_theta": 0.0005667495719663407,
+        "passes_static_preflight": false
+      }
+    }
+  ],
+  "gatekeeper": {
+    "pass_labels": [
+      "r5_leg0_scale1",
+      "r5_leg0_scale1.25",
+      "r5_leg0_scale1.5",
+      "r5_leg1_scale1",
+      "r5_leg1_scale1.25",
+      "r5_leg1_scale1.5",
+      "r7_leg0_scale1",
+      "r7_leg0_scale1.25",
+      "r7_leg0_scale1.5",
+      "r7_leg1_scale1",
+      "r7_leg1_scale1.25",
+      "r7_leg1_scale1.5",
+      "r9_leg0_scale1.25",
+      "r9_leg0_scale1.5",
+      "r9_leg1_scale1.25",
+      "r9_leg1_scale1.5"
+    ],
+    "decision": "compile_two_exchange_dynamics",
+    "note": "A static pass is necessary but not sufficient.  It does not demonstrate non-commutativity; that requires two full logical propagations on the same tracked doublet."
+  },
+  "runtime_s": 26.892937898635864
+}

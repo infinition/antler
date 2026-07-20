@@ -1,0 +1,878 @@
+{
+  "schema": "antler.phase8c.interior-twist-logical-transport.v1",
+  "parameters": {
+    "reference_geometry": "3x3 periodic vertex-qubit graph-code reference",
+    "outcome_convention": "+1 branch transports logical representatives; each -1 outcome is corrected before the next measurement by its recorded pivot Pauli",
+    "logical_order": [
+      "X1",
+      "Z1",
+      "X2",
+      "Z2",
+      "X3",
+      "Z3"
+    ],
+    "final_coordinate_order": [
+      "X1_final",
+      "Z1_final",
+      "X2_final",
+      "Z2_final",
+      "X3_final",
+      "Z3_final"
+    ]
+  },
+  "measurement_sequence": [
+    "IIIYYIXZI",
+    "IIIZIYZIX",
+    "IZXIXZIXZ",
+    "XZIIIIZXI"
+  ],
+  "initial_logical_pairs": [
+    [
+      "IXIIYIIII",
+      "XZYIIIIII"
+    ],
+    [
+      "IIIIYIIZI",
+      "YYYXZIIII"
+    ],
+    [
+      "YIZIYIIII",
+      "ZXIIIYIII"
+    ]
+  ],
+  "final_canonical_logical_pairs": [
+    [
+      "IZXIIIIII",
+      "IXIIIIIZI"
+    ],
+    [
+      "IIIZXIIII",
+      "IIIYIZIII"
+    ],
+    [
+      "IIIXZXIII",
+      "ZIIYYZIZI"
+    ]
+  ],
+  "stages": [
+    {
+      "measurement_plus_outcome": null,
+      "logical_labels": [
+        "IXIIYIIII",
+        "XZYIIIIII",
+        "IIIIYIIZI",
+        "YYYXZIIII",
+        "YIZIYIIII",
+        "ZXIIIYIII"
+      ],
+      "logical_contract": {
+        "all_commute_with_current_stabilizers": true,
+        "all_outside_current_stabilizer_span": true,
+        "symplectic_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "canonical_symplectic_form": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "is_canonical_symplectic_basis": true
+      }
+    },
+    {
+      "measurement_plus_outcome": "IIIYYIXZI",
+      "minus_outcome_frame_generator_before_measurement": "IIIZYIXZI",
+      "logical_labels": [
+        "IXIIYIIII",
+        "XZYIIIIII",
+        "IIIIYIIZI",
+        "YYYXZIIII",
+        "YIZIYIIII",
+        "ZXIIIYIII"
+      ],
+      "logical_contract": {
+        "all_commute_with_current_stabilizers": true,
+        "all_outside_current_stabilizer_span": true,
+        "symplectic_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "canonical_symplectic_form": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "is_canonical_symplectic_basis": true
+      },
+      "single_qubit_local_gate": {
+        "projects_to_zero": 27,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 27,
+        "all_single_qubit_probes_scalar_or_zero": true
+      }
+    },
+    {
+      "measurement_plus_outcome": "IIIZIYZIX",
+      "minus_outcome_frame_generator_before_measurement": "IIIXIYZIX",
+      "logical_labels": [
+        "IXIIYIIII",
+        "XZYIIIIII",
+        "IIIIYIIZI",
+        "YYYIZYZIX",
+        "YIZIYIIII",
+        "ZXIIIYIII"
+      ],
+      "logical_contract": {
+        "all_commute_with_current_stabilizers": true,
+        "all_outside_current_stabilizer_span": true,
+        "symplectic_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "canonical_symplectic_form": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "is_canonical_symplectic_basis": true
+      },
+      "single_qubit_local_gate": {
+        "projects_to_zero": 27,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 27,
+        "all_single_qubit_probes_scalar_or_zero": true
+      }
+    },
+    {
+      "measurement_plus_outcome": "IZXIXZIXZ",
+      "minus_outcome_frame_generator_before_measurement": "IYXIXZIXZ",
+      "logical_labels": [
+        "IXIIYIIII",
+        "XXZIXZIXZ",
+        "IIIIYIIZI",
+        "YIZIYXZXY",
+        "YIZIYIIII",
+        "ZXIIIYIII"
+      ],
+      "logical_contract": {
+        "all_commute_with_current_stabilizers": true,
+        "all_outside_current_stabilizer_span": true,
+        "symplectic_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "canonical_symplectic_form": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "is_canonical_symplectic_basis": true
+      },
+      "single_qubit_local_gate": {
+        "projects_to_zero": 27,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 27,
+        "all_single_qubit_probes_scalar_or_zero": true
+      }
+    },
+    {
+      "measurement_plus_outcome": "XZIIIIZXI",
+      "minus_outcome_frame_generator_before_measurement": "XXXIYXIIY",
+      "logical_labels": [
+        "XIXIIXIIY",
+        "IIYIZYIXX",
+        "XXXIIXIZY",
+        "ZXYIIIZXI",
+        "ZXYIIXIIY",
+        "ZXIIIYIII"
+      ],
+      "logical_contract": {
+        "all_commute_with_current_stabilizers": true,
+        "all_outside_current_stabilizer_span": true,
+        "symplectic_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "canonical_symplectic_form": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "is_canonical_symplectic_basis": true
+      },
+      "single_qubit_local_gate": {
+        "projects_to_zero": 27,
+        "stabilizer_scalar": 0,
+        "nontrivial_logical": 0,
+        "tested_nonidentity_paulis": 27,
+        "all_single_qubit_probes_scalar_or_zero": true
+      }
+    }
+  ],
+  "outcome_frame_table": [
+    {
+      "minus_outcome_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IIIIIIIII"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XXXIYXIIY"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IYXIXZIXZ"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XZIIZYIXX"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IIIXIYZIX"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XXXXYZZIZ"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IYXXXXZXY"
+    },
+    {
+      "minus_outcome_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XZIXZIZXI"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IIIZYIXZI"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XXXZIXXZY"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IYXZZZXYZ"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XZIZXYXYX"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IIIYYYYZX"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XXXYIZYZZ"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "chronological_pauli_frame_mod_global_phase": "IYXYZXYYY"
+    },
+    {
+      "minus_outcome_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "chronological_pauli_frame_mod_global_phase": "XZIYXIYYI"
+    }
+  ],
+  "transported_initial_logicals": [
+    "XIXIIXIIY",
+    "IIYIZYIXX",
+    "XXXIIXIZY",
+    "ZXYIIIZXI",
+    "ZXYIIXIIY",
+    "ZXIIIYIII"
+  ],
+  "transport_coordinates_in_final_logical_basis": [
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  ],
+  "decision": "PASS T5d as a +1-outcome logical-transport and Pauli-frame reference. The six transported representatives remain a canonical symplectic logical basis at every stabilizer stage, terminate in the final-code centralizer, and have explicit coordinates in a declared final basis. All sixteen classical outcome patterns have a recorded chronological Pauli-frame word modulo global phase. This is one code deformation, not two exchanges or a non-Abelian braid.",
+  "next_gate": "T5e must construct a second adjacent interior-twist deformation on the same declared logical basis, concatenate the two outcome-resolved transports, and only then evaluate a commutator. Yang-Baxter is gated on a nonzero commutator.",
+  "claim_boundary": "The result is an imposed stabilizer-measurement reference. It does not derive a physical measurement apparatus, ANTLER microscopic Hamiltonian, e<->m transport, fusion readout, an exchange path, non-Abelian braid statistics, universality, noise robustness or fault tolerance."
+}

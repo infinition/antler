@@ -1,0 +1,389 @@
+{
+  "schema": "antler.phase6.multiplet-mediator-parent-convergence.v1",
+  "construction": {
+    "type": "state-to-Hamiltonian microscopic bridge",
+    "external_low_energy_target": "published Iemini lambda=1 parent Hamiltonian",
+    "fixed_design": "three charge-two mediator channels per bond from the rank-three Gram factorization; no coupling scan",
+    "Delta_role": "controlled detuning for the Schrieffer--Wolff expansion only"
+  },
+  "symmetry": "generalized branch parities include the two mixed-pair mediator occupations",
+  "rows": [
+    {
+      "Delta": 10.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.5481473917512707,
+            1.696208178605159,
+            2.1747129509275207
+          ],
+          "mediator_number_expectation": 0.4760297380639256,
+          "zero_mediator_weight": 0.5751068628124926
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.672880131801646,
+            1.7446875834422362,
+            2.5043516001357187
+          ],
+          "mediator_number_expectation": 0.5296492340735661,
+          "zero_mediator_weight": 0.4846163472787404
+        }
+      ],
+      "logical_split": 0.12473274005037527,
+      "isolation_gap": 1.023328046803513,
+      "minimum_target_frame_overlap": 0.6919837659906722,
+      "target_frame_overlap_abs": [
+        [
+          0.7460286962773391,
+          0.0
+        ],
+        [
+          0.0,
+          0.6919837659906722
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 20.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.4413652494756124,
+            1.8083825961229067,
+            2.3004620042708854
+          ],
+          "mediator_number_expectation": 0.28139546657414544,
+          "zero_mediator_weight": 0.7344131537747204
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.5472745970692405,
+            1.8255276966786547,
+            2.8173235073819063
+          ],
+          "mediator_number_expectation": 0.3530240648225429,
+          "zero_mediator_weight": 0.6520872518732367
+        }
+      ],
+      "logical_split": 0.10590934759362813,
+      "isolation_gap": 1.2611079990536662,
+      "minimum_target_frame_overlap": 0.804660452263198,
+      "target_frame_overlap_abs": [
+        [
+          0.8478186881495525,
+          0.0
+        ],
+        [
+          0.0,
+          0.804660452263198
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 40.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.31003889707260124,
+            1.7868475386916711,
+            2.3114498390159697
+          ],
+          "mediator_number_expectation": 0.16330873850954644,
+          "zero_mediator_weight": 0.8414716722283695
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.38016344186826234,
+            1.7768579194773761,
+            2.970460186450673
+          ],
+          "mediator_number_expectation": 0.21724639769362317,
+          "zero_mediator_weight": 0.7844089122343086
+        }
+      ],
+      "logical_split": 0.0701245447956611,
+      "isolation_gap": 1.3966944776091137,
+      "minimum_target_frame_overlap": 0.8842415807283397,
+      "target_frame_overlap_abs": [
+        [
+          0.9121383507074372,
+          0.0
+        ],
+        [
+          0.0,
+          0.8842415807283397
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 80.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.19509964818811046,
+            1.702925295541366,
+            2.279229942466471
+          ],
+          "mediator_number_expectation": 0.09172023407740948,
+          "zero_mediator_weight": 0.9096674278544237
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.23329696338607298,
+            1.6935136167864564,
+            3.035749195578464
+          ],
+          "mediator_number_expectation": 0.12476227813739085,
+          "zero_mediator_weight": 0.8757307534080621
+        }
+      ],
+      "logical_split": 0.03819731519796252,
+      "isolation_gap": 1.4602166534003835,
+      "minimum_target_frame_overlap": 0.9352538117242791,
+      "target_frame_overlap_abs": [
+        [
+          0.95147869118877,
+          0.0
+        ],
+        [
+          0.0,
+          0.9352538117242791
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 160.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.11260177504389142,
+            1.614708435390204,
+            2.244431789240421
+          ],
+          "mediator_number_expectation": 0.04966935226103059,
+          "zero_mediator_weight": 0.9507142083645181
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.13129834930574147,
+            1.6247055692430306,
+            3.062092928487325
+          ],
+          "mediator_number_expectation": 0.06787516659335624,
+          "zero_mediator_weight": 0.9322621591059101
+        }
+      ],
+      "logical_split": 0.01869657426185005,
+      "isolation_gap": 1.4834100860844623,
+      "minimum_target_frame_overlap": 0.9653599024979784,
+      "target_frame_overlap_abs": [
+        [
+          0.9742256372927168,
+          0.0
+        ],
+        [
+          0.0,
+          0.9653599024979784
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 320.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.06115840325044514,
+            1.549321288840384,
+            2.2199037214689334
+          ],
+          "mediator_number_expectation": 0.026080445555246568,
+          "zero_mediator_weight": 0.9740213506094643
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.07001897868513327,
+            1.5804758857855838,
+            3.0728830621060457
+          ],
+          "mediator_number_expectation": 0.03559248397635441,
+          "zero_mediator_weight": 0.9644440221134638
+        }
+      ],
+      "logical_split": 0.008860575434688128,
+      "isolation_gap": 1.4793023101552507,
+      "minimum_target_frame_overlap": 0.9820102159159665,
+      "target_frame_overlap_abs": [
+        [
+          0.9866721480895685,
+          0.0
+        ],
+        [
+          0.0,
+          0.9820102159159665
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 640.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.03198577203783869,
+            1.5089597192275486,
+            2.2053632685194717
+          ],
+          "mediator_number_expectation": 0.013405083047628186,
+          "zero_mediator_weight": 0.9866212165872441
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.036212403932608786,
+            1.5553252264910897,
+            3.0775365666300702
+          ],
+          "mediator_number_expectation": 0.01825534113313724,
+          "zero_mediator_weight": 0.981754091403067
+        }
+      ],
+      "logical_split": 0.004226631894770093,
+      "isolation_gap": 1.4727473152949397,
+      "minimum_target_frame_overlap": 0.9908213680700262,
+      "target_frame_overlap_abs": [
+        [
+          0.9932171071512603,
+          0.0
+        ],
+        [
+          0.0,
+          0.9908213680700262
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    },
+    {
+      "Delta": 1280.0,
+      "local_L2_zero_energy_schur_residual": 1.9860273225978185e-15,
+      "sectors": [
+        {
+          "sector": [
+            1,
+            1
+          ],
+          "lowest_energies": [
+            0.01637365966623197,
+            1.486429257921468,
+            2.197442405036888
+          ],
+          "mediator_number_expectation": 0.006802051024637402,
+          "zero_mediator_weight": 0.9932046384967427
+        },
+        {
+          "sector": [
+            -1,
+            -1
+          ],
+          "lowest_energies": [
+            0.01842251441273927,
+            1.541898637305184,
+            3.0796554003082095
+          ],
+          "mediator_number_expectation": 0.009248968687279263,
+          "zero_mediator_weight": 0.9907534301784271
+        }
+      ],
+      "logical_split": 0.0020488547465072997,
+      "isolation_gap": 1.4680067435087287,
+      "minimum_target_frame_overlap": 0.9953624285975889,
+      "target_frame_overlap_abs": [
+        [
+          0.9965776788399117,
+          0.0
+        ],
+        [
+          0.0,
+          0.9953624285975889
+        ]
+      ],
+      "maximum_cross_generalized_parity_matrix_element": 0.0
+    }
+  ],
+  "large_detuning_logical_split_fit": {
+    "fit_domain_Delta_at_least": 80.0,
+    "coefficient_over_Delta": 3.0975342624961417,
+    "infinite_detuning_intercept": -0.0005976912768100725,
+    "r_squared": 0.9998730007546048
+  },
+  "qualification": true,
+  "claim_boundary": "A successful convergence only gives a microscopic realization candidate for an external published parent Hamiltonian. It is not a distinct ANTLER topological discovery, a physical edge-braid implementation, or a topological quantum computer.",
+  "decision": "the fixed mediator construction converges to the external parent frame; next audit quasi-conserved edge operators and physical implementation constraints"
+}

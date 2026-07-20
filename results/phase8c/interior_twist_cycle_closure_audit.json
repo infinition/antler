@@ -1,0 +1,129 @@
+{
+  "schema": "antler.phase8c.interior-twist-cycle-closure-audit.v1",
+  "parameters": {
+    "reference_geometry": "3x3 periodic vertex-qubit graph-code; one degree-three endpoint is moved through four incident-edge orientations",
+    "search": "all nonrepeating orders of all seven target face checks, accepting only rank-preserving stabilizer updates with the registered one-qubit local gate"
+  },
+  "legs": [
+    {
+      "from_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "to_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_check_candidates": 7,
+      "permutations_tested": 265,
+      "protected_measurement_sequence": [
+        "IIIYYIXZI",
+        "IIIZIYZIX",
+        "IZXIXZIXZ",
+        "XZIIIIZXI"
+      ],
+      "passes_registered_single_qubit_gate": true
+    },
+    {
+      "from_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "to_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "target_check_candidates": 7,
+      "permutations_tested": 266,
+      "protected_measurement_sequence": [
+        "IIIXIYZIX",
+        "IIIZYIXZI",
+        "IZYIXZIXZ",
+        "YXIXZIIII"
+      ],
+      "passes_registered_single_qubit_gate": true
+    },
+    {
+      "from_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "to_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "target_check_candidates": 7,
+      "permutations_tested": 29,
+      "protected_measurement_sequence": [
+        "IZXIXZIXZ",
+        "XZXIIIYXZ"
+      ],
+      "passes_registered_single_qubit_gate": true
+    },
+    {
+      "from_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "to_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "target_check_candidates": 7,
+      "permutations_tested": 13699,
+      "protected_measurement_sequence": null,
+      "passes_registered_single_qubit_gate": false
+    }
+  ],
+  "decision": "REJECT closure of this first four-leg reference cycle in the registered target-check measurement grammar. Three legs admit protected sequences, but the final S-to-E leg has no accepted ordering even with all seven target checks. Thus no closed holonomy, exchange, commutator or braid is reported.",
+  "next_gate": "A new declared auxiliary measurement/check or a different interior-twist cellulation must be derived and pass the same local gate before a closed loop can be attempted.",
+  "claim_boundary": "This is a finite grammar closure result only. It does not rule out all twist-deformation protocols and does not demonstrate a braid, non-Abelian statistics, ANTLER realization, universality or fault tolerance."
+}

@@ -1,0 +1,211 @@
+{
+  "schema": "antler.phase5.iemini-braid-scaling.v1",
+  "reference": "Iemini et al. PRL 115, 156402 (2015), lambda=1 fixed-N ground states and finite-support braid operators",
+  "claim_boundary": "Exact-frame finite-size scaling for an external published model only. Finite-support leakage is reported explicitly; no finite-L row is called an exact physical braid or an ANTLER realization.",
+  "rung_major_convention_check": {
+    "L": 6,
+    "N": 6,
+    "max_parent_residual": 1.7174848770290498e-15,
+    "projected_parent_matrix": {
+      "real": [
+        [
+          1.0398406742156068e-15,
+          0.0
+        ],
+        [
+          0.0,
+          -4.152050242747162e-16
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "criterion": "must be below 1e-10 before using the analytic frame for larger L"
+  },
+  "records": [
+    {
+      "L": 8,
+      "N": 8,
+      "basis_dimension": 12870,
+      "rows": [
+        {
+          "support_rungs": 1,
+          "analytic_tail_probability": 0.5,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.8856934341807271,
+              0.8856934341807264
+            ],
+            "projected_unitarity_frobenius": 0.30482968963677004,
+            "leakage_amplitude_frobenius": 0.705544119006029
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.8876780969711074,
+              0.8836854644046149
+            ],
+            "projected_unitarity_frobenius": 0.304894262872287,
+            "leakage_amplitude_frobenius": 0.7055198076169252
+          },
+          "commutator_norm_raw_projected": 0.8045150810492511,
+          "yang_baxter_residual_raw_projected": 0.22999197426150078,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.3309513989152246
+        },
+        {
+          "support_rungs": 2,
+          "analytic_tail_probability": 0.125,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.9204403412099295,
+              0.9204403412099287
+            ],
+            "projected_unitarity_frobenius": 0.21607709378343626,
+            "leakage_amplitude_frobenius": 0.44322455004928984
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.9206829763046248,
+              0.9201893270786301
+            ],
+            "projected_unitarity_frobenius": 0.21608887000338253,
+            "leakage_amplitude_frobenius": 0.4432156594337766
+          },
+          "commutator_norm_raw_projected": 0.9820483437102399,
+          "yang_baxter_residual_raw_projected": 0.18006602360540663,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.23091119958117812
+        },
+        {
+          "support_rungs": 3,
+          "analytic_tail_probability": 0.03125,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.9557936006220584,
+              0.955793600622057
+            ],
+            "projected_unitarity_frobenius": 0.12227091481832804,
+            "leakage_amplitude_frobenius": 0.3113258217098261
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.9582317669671409,
+              0.9533235581121523
+            ],
+            "projected_unitarity_frobenius": 0.12248528617721995,
+            "leakage_amplitude_frobenius": 0.3113146554746614
+          },
+          "commutator_norm_raw_projected": 1.1696183459131928,
+          "yang_baxter_residual_raw_projected": 0.11142705688995591,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.12738992420155662
+        }
+      ]
+    },
+    {
+      "L": 10,
+      "N": 10,
+      "basis_dimension": 184756,
+      "rows": [
+        {
+          "support_rungs": 1,
+          "analytic_tail_probability": 0.5,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.8814810409723737,
+              0.8814810409723685
+            ],
+            "projected_unitarity_frobenius": 0.3153571431348443,
+            "leakage_amplitude_frobenius": 0.7061273865731493
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.881956586305253,
+              0.8810040762742388
+            ],
+            "projected_unitarity_frobenius": 0.3153608271630455,
+            "leakage_amplitude_frobenius": 0.70612590981328
+          },
+          "commutator_norm_raw_projected": 0.7834969277231969,
+          "yang_baxter_residual_raw_projected": 0.23473176548033686,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.34271069862155584
+        },
+        {
+          "support_rungs": 2,
+          "analytic_tail_probability": 0.125,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.9177822740243287,
+              0.9177822740243236
+            ],
+            "projected_unitarity_frobenius": 0.2229871098423807,
+            "leakage_amplitude_frobenius": 0.447121228156
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.9177948300894495,
+              0.9177689890703621
+            ],
+            "projected_unitarity_frobenius": 0.2229880581826033,
+            "leakage_amplitude_frobenius": 0.44712083693839727
+          },
+          "commutator_norm_raw_projected": 0.9682383962891525,
+          "yang_baxter_residual_raw_projected": 0.18450763394944675,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.2386687697742364
+        },
+        {
+          "support_rungs": 3,
+          "analytic_tail_probability": 0.03125,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.9541150034245013,
+              0.9541150034244961
+            ],
+            "projected_unitarity_frobenius": 0.12680483715600768,
+            "leakage_amplitude_frobenius": 0.31580739110248585
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.9544048439869068,
+              0.9538236779156689
+            ],
+            "projected_unitarity_frobenius": 0.12680914609494937,
+            "leakage_amplitude_frobenius": 0.3158075560760595
+          },
+          "commutator_norm_raw_projected": 1.160601738880001,
+          "yang_baxter_residual_raw_projected": 0.11487730343001279,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.13225813781434317
+        },
+        {
+          "support_rungs": 4,
+          "analytic_tail_probability": 0.0078125,
+          "aR_bR": {
+            "projected_singular_values": [
+              0.9760853955106968,
+              0.9760853955106914
+            ],
+            "projected_unitarity_frobenius": 0.06683191552969192,
+            "leakage_amplitude_frobenius": 0.22321390596383484
+          },
+          "aR_aL": {
+            "projected_singular_values": [
+              0.9769310673182213,
+              0.9752419716575985
+            ],
+            "projected_unitarity_frobenius": 0.06686846642728986,
+            "leakage_amplitude_frobenius": 0.2232022135900226
+          },
+          "commutator_norm_raw_projected": 1.2805517203847514,
+          "yang_baxter_residual_raw_projected": 0.06363813729994072,
+          "yang_baxter_projective_residual_polar_diagnostic": 0.06838506822691606
+        }
+      ]
+    }
+  ],
+  "decision": "Increasing support lowers the analytic truncation tail and the finite-support leakage/Yang--Baxter residual while the commutator remains nonzero. A controlled L, support -> infinity extrapolation remains required."
+}

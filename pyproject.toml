@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antler-research"
+version = "0.7.0"
+description = "Exact-diagonalization and dynamic-control experiments for correlated-hopping SSH ladders"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+
+[tool.setuptools]
+packages = ["antler"]

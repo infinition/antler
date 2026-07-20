@@ -1,0 +1,607 @@
+{
+  "schema": "antler.phase8c.ancilla-check-circuit-audit.v1",
+  "parameters": {
+    "data_qubits": 9,
+    "readout_ancillas_per_check": 1,
+    "declared_external_gate_set": "arbitrary data-ancilla CNOT, single-qubit H/S basis rotations, ancilla Z preparation/reset/readout",
+    "checked_outcome_instrument": "M_+ = (I+P)/2 and M_- = (I-P)/2 on the data after uncomputing the basis rotation",
+    "test_vectors": 3
+  },
+  "declared_single_vertex_auxiliary_measurements": [
+    "IIIIIIIZI",
+    "IIIYIIIII",
+    "YIIIIIIII"
+  ],
+  "high_weight_graph_checks": [
+    {
+      "check": "IIIIYXIXZ",
+      "weight": 4,
+      "support_vertices": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.0347858054890984e-16,
+      "max_minus_instrument_residual": 4.0967622862557644e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "IIIXIYZIX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.0183411132720765e-16,
+      "max_minus_instrument_residual": 4.12988248292903e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "IIIXIZZIX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 4,
+      "max_plus_instrument_residual": 2.7202051563117696e-16,
+      "max_minus_instrument_residual": 2.840930796238618e-16,
+      "max_probability_completeness_residual": 7.771561172376096e-16
+    },
+    {
+      "check": "IIIYIZZIX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 2.7037390449983786e-16,
+      "max_minus_instrument_residual": 2.8507368183911372e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "IIIYYIXZI",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 10,
+      "max_plus_instrument_residual": 4.1418283360952255e-16,
+      "max_minus_instrument_residual": 3.9944780246648644e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "IIIZIYZIX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 2.8061314954765203e-16,
+      "max_minus_instrument_residual": 2.8164734509613965e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "IIIZYIXZI",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 2.8703135019190585e-16,
+      "max_minus_instrument_residual": 2.762785996436084e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "IIIZYXXXZ",
+      "weight": 6,
+      "support_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 10,
+      "max_plus_instrument_residual": 5.313223261607619e-16,
+      "max_minus_instrument_residual": 5.339420183952911e-16,
+      "max_probability_completeness_residual": 1.3322676295501878e-15
+    },
+    {
+      "check": "IXZIIIIYX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.1557210453712973e-16,
+      "max_minus_instrument_residual": 4.145677784707283e-16,
+      "max_probability_completeness_residual": 9.992007221626409e-16
+    },
+    {
+      "check": "IXZIIIIZX",
+      "weight": 4,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 4,
+      "max_plus_instrument_residual": 2.7830956593653686e-16,
+      "max_minus_instrument_residual": 2.6964145085251825e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "IYXIXZIII",
+      "weight": 4,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.1214995490991214e-16,
+      "max_minus_instrument_residual": 4.201997042597321e-16,
+      "max_probability_completeness_residual": 1.2212453270876722e-15
+    },
+    {
+      "check": "IYXIXZIXZ",
+      "weight": 6,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 10,
+      "max_plus_instrument_residual": 5.279184065407199e-16,
+      "max_minus_instrument_residual": 5.450371399487308e-16,
+      "max_probability_completeness_residual": 1.4432899320127035e-15
+    },
+    {
+      "check": "IZXIXZIXZ",
+      "weight": 6,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 4.072062358216256e-16,
+      "max_minus_instrument_residual": 4.1153755259565044e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "IZYIXZIXZ",
+      "weight": 6,
+      "support_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.0642625401016496e-16,
+      "max_minus_instrument_residual": 4.083728332864622e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "XZIIIIZXI",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 4,
+      "max_plus_instrument_residual": 2.933430349287506e-16,
+      "max_minus_instrument_residual": 2.7656941248469815e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "XZIXZIZXI",
+      "weight": 6,
+      "support_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 4.1424650869477053e-16,
+      "max_minus_instrument_residual": 4.06795111324089e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    },
+    {
+      "check": "XZXIIIYXZ",
+      "weight": 6,
+      "support_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 6,
+      "single_qubit_basis_operations": 10,
+      "max_plus_instrument_residual": 5.435096731399263e-16,
+      "max_minus_instrument_residual": 5.129846180356505e-16,
+      "max_probability_completeness_residual": 1.4432899320127035e-15
+    },
+    {
+      "check": "YIZZIXIII",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 6,
+      "max_plus_instrument_residual": 2.871826438052725e-16,
+      "max_minus_instrument_residual": 2.8213815996533225e-16,
+      "max_probability_completeness_residual": 6.661338147750939e-16
+    },
+    {
+      "check": "YXIXZIIII",
+      "weight": 4,
+      "support_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "torus_support_diameter": 2,
+      "data_to_ancilla_cnot_count": 4,
+      "single_qubit_basis_operations": 8,
+      "max_plus_instrument_residual": 4.1751095476286243e-16,
+      "max_minus_instrument_residual": 4.027996825499732e-16,
+      "max_probability_completeness_residual": 1.1102230246251565e-15
+    }
+  ],
+  "aggregate": {
+    "unique_high_weight_checks": 19,
+    "maximum_check_weight": 6,
+    "maximum_data_to_ancilla_cnot_count": 6,
+    "maximum_torus_support_diameter": 2,
+    "worst_instrument_residual": 1.4432899320127035e-15
+  },
+  "decision": "PASS as an explicit external measurement-apparatus compilation: every high-weight Pauli check used by T5f/T5g is realized by one readout ancilla, basis rotations and data-to-ancilla CNOT parity accumulation, reproducing both projective branches below 1e-12 on reproducible statevectors.",
+  "next_gate": "A physical architecture must provide geometrically local, fault-tolerant versions of these CNOT/readout operations and derive them from a microscopic Hamiltonian. In particular, this audit does not solve hook errors, connectivity, timing, noise, fault tolerance, or the ANTLER resource gap.",
+  "claim_boundary": "The CNOT/readout gate set is inserted as a new external circuit resource. This is not an ANTLER derivation, a locality- or noise-qualified measurement apparatus, a physical defect exchange, non-Abelian anyon evidence, universality, or a topological quantum computer."
+}

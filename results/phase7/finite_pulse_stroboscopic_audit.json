@@ -1,0 +1,71 @@
+{
+  "schema": "antler.phase8.finite-pulse-stroboscopic-audit.v1",
+  "citation": "Defossez et al., arXiv:2412.14886v2 (2025)",
+  "parameters": {
+    "L": 6,
+    "N": 4,
+    "u0_attractive_nn": -1.5,
+    "alpha": 0.5
+  },
+  "rows": [
+    {
+      "period": 0.4,
+      "eta": 1.5707963267948966,
+      "one_period_unitary_distance_normalized": 0.04262950360008982,
+      "stroboscopic_branch_parity_commutator_normalized": 4.261700535474943e-16,
+      "effective_branch_parity_commutator_normalized": 5.950885996858743e-16
+    },
+    {
+      "period": 0.2,
+      "eta": 1.5707963267948966,
+      "one_period_unitary_distance_normalized": 0.011090034128534718,
+      "stroboscopic_branch_parity_commutator_normalized": 3.8369157327731074e-16,
+      "effective_branch_parity_commutator_normalized": 5.950885996858743e-16
+    },
+    {
+      "period": 0.1,
+      "eta": 1.5707963267948966,
+      "one_period_unitary_distance_normalized": 0.0028007609030291985,
+      "stroboscopic_branch_parity_commutator_normalized": 3.685374950089467e-16,
+      "effective_branch_parity_commutator_normalized": 5.950885996858743e-16
+    },
+    {
+      "period": 0.05,
+      "eta": 1.5707963267948966,
+      "one_period_unitary_distance_normalized": 0.0007019755317353153,
+      "stroboscopic_branch_parity_commutator_normalized": 3.579759867288619e-16,
+      "effective_branch_parity_commutator_normalized": 5.950885996858743e-16
+    },
+    {
+      "period": 0.4,
+      "eta": 1.6707963267948966,
+      "one_period_unitary_distance_normalized": 0.04261649452780055,
+      "stroboscopic_branch_parity_commutator_normalized": 0.044252842271011894,
+      "effective_branch_parity_commutator_normalized": 0.1120646163015505
+    },
+    {
+      "period": 0.2,
+      "eta": 1.6707963267948966,
+      "one_period_unitary_distance_normalized": 0.011086901635838173,
+      "stroboscopic_branch_parity_commutator_normalized": 0.022340319831254726,
+      "effective_branch_parity_commutator_normalized": 0.1120646163015505
+    },
+    {
+      "period": 0.1,
+      "eta": 1.6707963267948966,
+      "one_period_unitary_distance_normalized": 0.002799992271483174,
+      "stroboscopic_branch_parity_commutator_normalized": 0.011197355150730802,
+      "effective_branch_parity_commutator_normalized": 0.1120646163015505
+    },
+    {
+      "period": 0.05,
+      "eta": 1.6707963267948966,
+      "one_period_unitary_distance_normalized": 0.0007017844000650578,
+      "stroboscopic_branch_parity_commutator_normalized": 0.005602091530923777,
+      "effective_branch_parity_commutator_normalized": 0.1120646163015505
+    }
+  ],
+  "ideal_eta_unitary_error_loglog_slope": 1.9758236176157415,
+  "decision": "Finite-block validation of the actual pulsed external protocol against its high-frequency effective Hamiltonian.",
+  "claim_boundary": "This validates neither an ANTLER-native pulse resource nor an asymptotic topological phase, braid, non-Abelian operation, or hardware gate."
+}

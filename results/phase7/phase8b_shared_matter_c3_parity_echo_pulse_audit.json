@@ -1,0 +1,161 @@
+{
+  "schema": "antler.phase8b.shared-matter-c3-parity-echo-pulse-audit.v1",
+  "parameters": {
+    "sign_group": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "schedule": "for each sign word in listed order: microscopic A then B, equal virtual-Rabi durations",
+    "pair_detuning": 10.0,
+    "fixed_charge_dimension": 1488
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "segment_duration": 0.5833791102228985,
+      "segment_count": 8,
+      "total_duration": 4.667032881783188,
+      "grouped_xxx_coefficient": 0.12605858359208222,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 3.469446951953614e-17,
+      "low_frame_leakage_worst": 0.044041852055732356,
+      "raw_logical_min_singular_value": 0.9777311225200579,
+      "polar_distance_to_piecewise_sw": 0.5798716417901434,
+      "polar_distance_to_group_average_sw": 0.5798716417901432,
+      "piecewise_sw_signal_distance_from_identity": 0.5798716414757676,
+      "physical_polar_signal_distance_from_identity": 2.0929408448025082e-05,
+      "relative_piecewise_sw_error": 1.0000000005421472,
+      "xxx_phase_magnitude_per_group": 0.5883195546552623,
+      "ideal_groups_to_pi_over_4": 1.3349856505410025,
+      "linear_leakage_budget_estimate_to_pi_over_4": 0.05879524051765245
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "segment_duration": 0.6018200042131941,
+      "segment_count": 8,
+      "total_duration": 4.814560033705553,
+      "grouped_xxx_coefficient": -0.6120687392021702,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 1.3877787807814457e-16,
+      "low_frame_leakage_worst": 0.014917507217607496,
+      "raw_logical_min_singular_value": 0.9925132204574144,
+      "polar_distance_to_piecewise_sw": 0.19444333917314868,
+      "polar_distance_to_group_average_sw": 0.19444333917314868,
+      "piecewise_sw_signal_distance_from_identity": 0.19444333889092597,
+      "physical_polar_signal_distance_from_identity": 1.057651522182423e-05,
+      "relative_piecewise_sw_error": 1.0000000014514394,
+      "xxx_phase_magnitude_per_group": 2.946841689643316,
+      "ideal_groups_to_pi_over_4": 0.2665220076659471,
+      "linear_leakage_budget_estimate_to_pi_over_4": 0.003975843973008006
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "segment_duration": 0.616117009400542,
+      "segment_count": 8,
+      "total_duration": 4.928936075204336,
+      "grouped_xxx_coefficient": -0.0004237079375948133,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 1.2197274440461925e-19,
+      "low_frame_leakage_worst": 0.008424428606852878,
+      "raw_logical_min_singular_value": 0.9957788767559949,
+      "polar_distance_to_piecewise_sw": 0.0020884290073361978,
+      "polar_distance_to_group_average_sw": 0.0020884290073361956,
+      "piecewise_sw_signal_distance_from_identity": 0.0020884289594297733,
+      "physical_polar_signal_distance_from_identity": 4.4732369004409474e-07,
+      "relative_piecewise_sw_error": 1.0000000229389774,
+      "xxx_phase_magnitude_per_group": 0.002088429338961503,
+      "ideal_groups_to_pi_over_4": 376.0712171320084,
+      "linear_leakage_budget_estimate_to_pi_over_4": 3.168185119820872
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "segment_duration": 0.6213670362077853,
+      "segment_count": 8,
+      "total_duration": 4.970936289662283,
+      "grouped_xxx_coefficient": -4.74273640055973e-05,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 6.938893903907228e-18,
+      "low_frame_leakage_worst": 0.0034011421102630303,
+      "raw_logical_min_singular_value": 0.9982979805100094,
+      "polar_distance_to_piecewise_sw": 0.00023575842130664991,
+      "polar_distance_to_group_average_sw": 0.0002357584213066507,
+      "piecewise_sw_signal_distance_from_identity": 0.00023575840431244849,
+      "physical_polar_signal_distance_from_identity": 8.951517911295352e-08,
+      "relative_piecewise_sw_error": 1.0000000720831204,
+      "xxx_phase_magnitude_per_group": 0.00023575840485844636,
+      "ideal_groups_to_pi_over_4": 3331.3686689940732,
+      "linear_leakage_budget_estimate_to_pi_over_4": 11.330458264926644
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "segment_duration": 0.6252003053624663,
+      "segment_count": 8,
+      "total_duration": 5.00160244289973,
+      "grouped_xxx_coefficient": -3.1438560039958035e-06,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 6.938893903907228e-18,
+      "low_frame_leakage_worst": 0.000592190789436384,
+      "raw_logical_min_singular_value": 0.9997038607563707,
+      "polar_distance_to_piecewise_sw": 1.5724433346494865e-05,
+      "polar_distance_to_group_average_sw": 1.5724433346494855e-05,
+      "piecewise_sw_signal_distance_from_identity": 1.5724317869548565e-05,
+      "physical_polar_signal_distance_from_identity": 6.026284349028059e-08,
+      "relative_piecewise_sw_error": 1.0000073438445634,
+      "xxx_phase_magnitude_per_group": 1.5724317869710395e-05,
+      "ideal_groups_to_pi_over_4": 49947.995830735104,
+      "linear_leakage_budget_estimate_to_pi_over_4": 29.578743081768238
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "segment_duration": 0.6265588052220772,
+      "segment_count": 8,
+      "total_duration": 5.0124704417766175,
+      "grouped_xxx_coefficient": -5.108509892334988e-07,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 5.293955920339377e-22,
+      "low_frame_leakage_worst": 0.0001313776517795752,
+      "raw_logical_min_singular_value": 0.9999343090165885,
+      "polar_distance_to_piecewise_sw": 2.560838024411831e-06,
+      "polar_distance_to_group_average_sw": 2.560838024411508e-06,
+      "piecewise_sw_signal_distance_from_identity": 2.56062548368489e-06,
+      "physical_polar_signal_distance_from_identity": 3.29927028063783e-08,
+      "relative_piecewise_sw_error": 1.0000830034412667,
+      "xxx_phase_magnitude_per_group": 2.5606254836852576e-06,
+      "ideal_groups_to_pi_over_4": 306721.2165158575,
+      "linear_leakage_budget_estimate_to_pi_over_4": 40.296313176828015
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "segment_duration": 0.627534602114852,
+      "segment_count": 8,
+      "total_duration": 5.020276816918816,
+      "grouped_xxx_coefficient": -4.210871155333254e-08,
+      "maximum_grouped_unwanted_non_scalar_coefficient": 6.938893903907228e-18,
+      "low_frame_leakage_worst": 9.820743498038141e-06,
+      "raw_logical_min_singular_value": 0.9999950896162865,
+      "polar_distance_to_piecewise_sw": 2.1142315207212099e-07,
+      "polar_distance_to_group_average_sw": 2.1142315207309439e-07,
+      "piecewise_sw_signal_distance_from_identity": 2.1139738840061527e-07,
+      "physical_polar_signal_distance_from_identity": 3.300509858698221e-09,
+      "relative_piecewise_sw_error": 1.0001218731778128,
+      "xxx_phase_magnitude_per_group": 2.1139738840151686e-07,
+      "ideal_groups_to_pi_over_4": 3715268.99805264,
+      "linear_leakage_budget_estimate_to_pi_over_4": 36.48670385608814
+    }
+  ],
+  "deep_sw_group_pulse_leakage_power": 3.8547519122799914,
+  "decision": "The integer-Rabi eight-segment group is rejected as a C3 gate: static parity averaging cancels its effective-Hamiltonian parasites, but the exact physical group returns an almost scalar polar operation and has relative error approximately one to the intended non-scalar SW signal.",
+  "claim_boundary": "This rejects the registered integer-Rabi realization of the C3 parity group, not the static group algebra, an off-resonant dressed/adiabatic implementation, a different control sequence, a four-link stabilizer, a protected code, a 2D phase, defects, fusion, a non-Abelian braid, universality or fault tolerance."
+}

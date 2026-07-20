@@ -1,0 +1,87 @@
+{
+  "schema": "antler.phase8c.triangle-twist-reference.v1",
+  "parameters": {
+    "new_declared_resource": "seven neutral qubits and local non-CSS stabilizer checks; not derived from ANTLER charge-two mediators",
+    "geometry": "r=s=t=2 triangular stabilizer patch, with a twist-to-boundary reference junction",
+    "qubit_coordinates": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "check_labels": [
+      "XXIXIXI",
+      "ZIZZIIZ",
+      "YZXIXII",
+      "IZIIIZI",
+      "IIZIZII",
+      "IIIXIIX"
+    ],
+    "twist_check_index": 2,
+    "twist_check": "YZXIXII"
+  },
+  "stabilizer_algebra": {
+    "check_count": 6,
+    "pair_anticommutations": 0,
+    "all_checks_commute": true,
+    "independent_rank_over_GF2": 6,
+    "encoded_qubits": 1,
+    "ground_space_degeneracy": 2,
+    "exact_syndrome_gap_in_units_of_J": 2.0
+  },
+  "local_protection": {
+    "minimum_logical_weight": 3,
+    "maximum_tested_weight": 2,
+    "tested_nonidentity_paulis": 210,
+    "projects_to_zero": 207,
+    "stabilizer_scalar": 3,
+    "nontrivial_logical": 0,
+    "all_below_distance_probes_scalar_or_zero": true
+  },
+  "twist_to_boundary_string_witness": {
+    "pure_z_side_representative": "ZZZIIII",
+    "z_side_continued_through_mixed_check": "XIYIXII",
+    "pure_x_side_representative": "IIXXXII",
+    "x_side_continued_through_mixed_check": "YZIXIII",
+    "z_continuation_differs_by_twist_check": true,
+    "x_continuation_differs_by_twist_check": true,
+    "z_side_and_x_side_anticommute": true,
+    "z_to_mixed_continuation_witness": true,
+    "x_to_mixed_continuation_witness": true,
+    "interpretation": "the central non-CSS check permits a stabilizer-equivalent string deformation that changes Pauli type across the twist-to-boundary junction"
+  },
+  "decision": "PASS as a minimal local twist-to-boundary reference: the specified non-CSS triangle patch is a commuting [[7,1,3]] stabilizer code and supplies explicit X/Z-to-mixed string-deformation witnesses through its central junction. It is a calibration of the local e<->m branch-cut algebra, not a separated-defect fusion or braid result.",
+  "next_gate": "T4 must embed two separated, geometrically explicit twist endpoints in one growing patch, prove their fusion-space dimension and local indistinguishability, and only then define defect transports.",
+  "claim_boundary": "This finite reference inserts non-CSS stabilizer checks and a boundary. It does not derive a neutral link/check Hamiltonian from frozen ANTLER, demonstrate a thermodynamic wall, two separated twists, non-Abelian fusion, defect motion, a noncommutative braid, universality, noise resilience or fault tolerance."
+}

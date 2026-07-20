@@ -1,0 +1,41 @@
+{
+  "schema": "antler.phase5.tjunction-kitaev-static-noise.v1",
+  "claim_boundary": "This is a static BdG spectral-isolation audit for a phase-biased Kitaev T-junction target.  Pairing and the junction term are not derived from the frozen number-conserving ANTLER ladder.",
+  "noise_model": "independent Gaussian perturbations on onsite potentials, each arm normal hopping, each pairing amplitude, and the bb junction coupling",
+  "arm_length": 6,
+  "t": 1.0,
+  "delta": 1.0,
+  "junction_chiral": 1.0,
+  "seed": 20260718,
+  "ensembles": [
+    {
+      "sigma": 0.01,
+      "samples": 2,
+      "four_mode_splitting_mean": 3.2508124655579478e-09,
+      "four_mode_splitting_variance": 5.920122694921511e-19,
+      "isolation_gap_mean": 1.0369381840163796,
+      "isolation_gap_variance": 4.821390835732873e-05,
+      "isolation_gap_min": 1.0320283007001831,
+      "splitting_to_gap_ratio_mean": 3.1325967233519443e-09,
+      "splitting_to_gap_ratio_variance": 5.198956985574348e-19,
+      "splitting_to_gap_ratio_max": 3.6424475341571417e-09,
+      "well_separated_fraction": 1.0,
+      "realizations": [
+        {
+          "sample": 0,
+          "four_mode_splitting": 2.70674800729397e-09,
+          "isolation_gap": 1.0320283007001831,
+          "splitting_to_gap_ratio": 2.6227459125467465e-09,
+          "well_separated": true
+        },
+        {
+          "sample": 1,
+          "four_mode_splitting": 3.7948769238219255e-09,
+          "isolation_gap": 1.041848067332576,
+          "splitting_to_gap_ratio": 3.6424475341571417e-09,
+          "well_separated": true
+        }
+      ]
+    }
+  ]
+}

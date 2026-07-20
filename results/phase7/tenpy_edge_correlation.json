@@ -1,0 +1,87 @@
+{
+  "schema": "antler.phase8.tenpy-edge-correlation.v1",
+  "parameters": {
+    "L": 12,
+    "N": 8,
+    "filling_N_over_2L": 0.3333333333333333,
+    "u0_attractive_nn": -1.5,
+    "alpha": 0.5,
+    "chi_max": 384,
+    "branch_parity_sector": 0
+  },
+  "energy": -14.311672757964768,
+  "correlator_a0dagger_aj": [
+    {
+      "j": 1,
+      "real": 0.15818453140067654,
+      "imag": 0.0,
+      "abs": 0.15818453140067654
+    },
+    {
+      "j": 2,
+      "real": 0.1475098654742524,
+      "imag": 0.0,
+      "abs": 0.1475098654742524
+    },
+    {
+      "j": 3,
+      "real": 0.05594059697084488,
+      "imag": 0.0,
+      "abs": 0.05594059697084488
+    },
+    {
+      "j": 4,
+      "real": -0.0433462611923817,
+      "imag": 0.0,
+      "abs": 0.0433462611923817
+    },
+    {
+      "j": 5,
+      "real": -0.061381623703782334,
+      "imag": 0.0,
+      "abs": 0.061381623703782334
+    },
+    {
+      "j": 6,
+      "real": 0.0022048461613453836,
+      "imag": 0.0,
+      "abs": 0.0022048461613453836
+    },
+    {
+      "j": 7,
+      "real": 0.057287580887139346,
+      "imag": 0.0,
+      "abs": 0.057287580887139346
+    },
+    {
+      "j": 8,
+      "real": 0.03105005411012174,
+      "imag": 0.0,
+      "abs": 0.03105005411012174
+    },
+    {
+      "j": 9,
+      "real": -0.04680122868593004,
+      "imag": 0.0,
+      "abs": 0.04680122868593004
+    },
+    {
+      "j": 10,
+      "real": -0.08951355419432513,
+      "imag": 0.0,
+      "abs": 0.08951355419432513
+    },
+    {
+      "j": 11,
+      "real": -0.06233902997427387,
+      "imag": 0.0,
+      "abs": 0.06233902997427387
+    }
+  ],
+  "far_edge_abs": 0.06233902997427387,
+  "interior_abs_min": 0.0022048461613453836,
+  "interior_abs_max": 0.061381623703782334,
+  "far_edge_over_interior_min": 28.273641520746725,
+  "decision": "A finite-chain edge-correlation diagnostic at the published effective-model point.",
+  "claim_boundary": "A correlation revival alone does not establish a thermodynamic topological phase, native ANTLER realization, braid, non-Abelian statistics, or fault tolerance."
+}

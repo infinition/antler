@@ -1,0 +1,279 @@
+{
+  "exchange": {
+    "kind": "exchange",
+    "R": 4,
+    "total_exponent": -1,
+    "phase": "exp(i theta * -1)",
+    "final": [
+      0,
+      1
+    ],
+    "history": [
+      {
+        "label": "out leg0",
+        "src": 0,
+        "dst": 2,
+        "before": [
+          0,
+          1
+        ],
+        "after": [
+          1,
+          2
+        ],
+        "nu": -1
+      },
+      {
+        "label": "out leg0",
+        "src": 2,
+        "dst": 4,
+        "before": [
+          1,
+          2
+        ],
+        "after": [
+          1,
+          4
+        ],
+        "nu": 0
+      },
+      {
+        "label": "out leg0",
+        "src": 4,
+        "dst": 6,
+        "before": [
+          1,
+          4
+        ],
+        "after": [
+          1,
+          6
+        ],
+        "nu": 0
+      },
+      {
+        "label": "out leg0",
+        "src": 6,
+        "dst": 8,
+        "before": [
+          1,
+          6
+        ],
+        "after": [
+          1,
+          8
+        ],
+        "nu": 0
+      },
+      {
+        "label": "left rung swap",
+        "src": 1,
+        "dst": 0,
+        "before": [
+          1,
+          8
+        ],
+        "after": [
+          0,
+          8
+        ],
+        "nu": 0
+      },
+      {
+        "label": "remote rung swap",
+        "src": 8,
+        "dst": 9,
+        "before": [
+          0,
+          8
+        ],
+        "after": [
+          0,
+          9
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg1",
+        "src": 9,
+        "dst": 7,
+        "before": [
+          0,
+          9
+        ],
+        "after": [
+          0,
+          7
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg1",
+        "src": 7,
+        "dst": 5,
+        "before": [
+          0,
+          7
+        ],
+        "after": [
+          0,
+          5
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg1",
+        "src": 5,
+        "dst": 3,
+        "before": [
+          0,
+          5
+        ],
+        "after": [
+          0,
+          3
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg1",
+        "src": 3,
+        "dst": 1,
+        "before": [
+          0,
+          3
+        ],
+        "after": [
+          0,
+          1
+        ],
+        "nu": 0
+      }
+    ]
+  },
+  "roundtrip": {
+    "kind": "roundtrip",
+    "R": 4,
+    "total_exponent": 0,
+    "phase": "exp(i theta * 0)",
+    "final": [
+      0,
+      1
+    ],
+    "history": [
+      {
+        "label": "out leg0",
+        "src": 0,
+        "dst": 2,
+        "before": [
+          0,
+          1
+        ],
+        "after": [
+          1,
+          2
+        ],
+        "nu": -1
+      },
+      {
+        "label": "out leg0",
+        "src": 2,
+        "dst": 4,
+        "before": [
+          1,
+          2
+        ],
+        "after": [
+          1,
+          4
+        ],
+        "nu": 0
+      },
+      {
+        "label": "out leg0",
+        "src": 4,
+        "dst": 6,
+        "before": [
+          1,
+          4
+        ],
+        "after": [
+          1,
+          6
+        ],
+        "nu": 0
+      },
+      {
+        "label": "out leg0",
+        "src": 6,
+        "dst": 8,
+        "before": [
+          1,
+          6
+        ],
+        "after": [
+          1,
+          8
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg0",
+        "src": 8,
+        "dst": 6,
+        "before": [
+          1,
+          8
+        ],
+        "after": [
+          1,
+          6
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg0",
+        "src": 6,
+        "dst": 4,
+        "before": [
+          1,
+          6
+        ],
+        "after": [
+          1,
+          4
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg0",
+        "src": 4,
+        "dst": 2,
+        "before": [
+          1,
+          4
+        ],
+        "after": [
+          1,
+          2
+        ],
+        "nu": 0
+      },
+      {
+        "label": "return leg0",
+        "src": 2,
+        "dst": 0,
+        "before": [
+          1,
+          2
+        ],
+        "after": [
+          0,
+          1
+        ],
+        "nu": 1
+      }
+    ]
+  },
+  "differential_exponent": -1
+}

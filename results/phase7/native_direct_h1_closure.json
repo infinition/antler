@@ -1,0 +1,95 @@
+{
+  "schema": "antler.phase8.native-direct-h1-closure.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "omega_pair_mediator": 602.9925372672533,
+    "closure_period": 0.020840010178748883,
+    "alpha": 0.5,
+    "segments": "direct H0 and direct P\u2020H0P mediator channels"
+  },
+  "rotated_channel_factorization": {
+    "rotated_interaction_rank": 2,
+    "eigenvalues": [
+      4.440892098500626e-16,
+      4.440892098500626e-16,
+      1.0,
+      1.0
+    ],
+    "factorization_frobenius_residual": 3.510833468576701e-16,
+    "channels": [
+      [
+        {
+          "real": 0.7071067811865474,
+          "imag": 0.0
+        },
+        {
+          "real": 0.0,
+          "imag": 7.850462293418877e-17
+        },
+        {
+          "real": 0.0,
+          "imag": 7.850462293418877e-17
+        },
+        {
+          "real": -0.7071067811865477,
+          "imag": -0.0
+        }
+      ],
+      [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 0.7071067811865474,
+          "imag": -2.3551386880256624e-16
+        },
+        {
+          "real": 0.7071067811865477,
+          "imag": -2.355138688025663e-16
+        },
+        {
+          "real": 0.0,
+          "imag": -1.570092458683775e-16
+        }
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "cycles": 1,
+      "low_frame_leakage_worst": 2.0022988009193875e-06,
+      "polar_logical_vs_target_distance": 7.332276455577049e-05,
+      "logical_branch_parity_commutator_normalized": 1.9724334941042453e-07,
+      "raw_logical_min_singular_value": 0.9999989988500984
+    },
+    {
+      "cycles": 2,
+      "low_frame_leakage_worst": 8.005493367224708e-06,
+      "polar_logical_vs_target_distance": 0.00014659426966999426,
+      "logical_branch_parity_commutator_normalized": 3.9468009475428497e-07,
+      "raw_logical_min_singular_value": 0.9999959972453055
+    },
+    {
+      "cycles": 4,
+      "low_frame_leakage_worst": 3.196281378683401e-05,
+      "polar_logical_vs_target_distance": 0.0002927789151112532,
+      "logical_branch_parity_commutator_normalized": 8.018956314576184e-07,
+      "raw_logical_min_singular_value": 0.999984018465401
+    },
+    {
+      "cycles": 8,
+      "low_frame_leakage_worst": 0.00012690914883110442,
+      "polar_logical_vs_target_distance": 0.0005822952583024607,
+      "logical_branch_parity_commutator_normalized": 1.9984611543602083e-06,
+      "raw_logical_min_singular_value": 0.9999365434122138
+    }
+  ],
+  "decision": "Direct switched-mediator realization of the two leading Floquet segments at simultaneous virtual-Rabi closure.",
+  "claim_boundary": "This adds coherent rotated pair-conversion channels as a dynamic resource. It is an L=3 ideal-pulse test, not a frozen-ANTLER, hardware, thermodynamic, braid, non-Abelian, universal or fault-tolerant result."
+}

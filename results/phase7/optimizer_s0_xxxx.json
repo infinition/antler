@@ -1,0 +1,235 @@
+{
+  "schema": "antler.phase7c.initial-optimizer-observation.v1",
+  "target": {
+    "local_stabilizer": "XXXX",
+    "required_effective_term": "-0.5 * XXXX up to an additive identity for J_star=1",
+    "promotion_condition": "connected virtual graph, sign-correct target coefficient, then selectivity on XXXX and ZZZZ"
+  },
+  "candidate_payload": {
+    "local_patch": "four charge-frozen rung qubits supporting one candidate star or plaquette",
+    "mott_u": 20.0,
+    "maximum_sw_ratio": 0.15,
+    "parity_type": "bare_rail_parities",
+    "channels": [
+      {
+        "name": "even_pair_01",
+        "detuning": 10.0,
+        "coupling": 0.5,
+        "coupling_over_detuning": 0.05,
+        "phase": 0.0,
+        "mediator_parity_signature": [
+          0,
+          0
+        ],
+        "pair_terms": [
+          [
+            "a0",
+            "a1",
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          [
+            "b0",
+            "b1",
+            [
+              1.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "even_pair_23",
+        "detuning": 10.0,
+        "coupling": 0.5,
+        "coupling_over_detuning": 0.05,
+        "phase": 0.0,
+        "mediator_parity_signature": [
+          0,
+          0
+        ],
+        "pair_terms": [
+          [
+            "a2",
+            "a3",
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          [
+            "b2",
+            "b3",
+            [
+              1.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    ],
+    "rail_hops": [],
+    "zz_couplings": [],
+    "rail_biases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "action_space": {
+    "invariants_enforced_by_grammar": [
+      "weighted U(1) charge conservation",
+      "finite four-edge local support",
+      "hard-core charge-two mediators only",
+      "definite mediator branch-parity signature",
+      "no direct four-edge stabilizer insertion"
+    ],
+    "box_constraints": {
+      "mott_u": [
+        16.0,
+        64.0
+      ],
+      "channel_detuning": [
+        8.0,
+        48.0
+      ],
+      "absolute_coupling_over_detuning": [
+        0.005,
+        0.15
+      ],
+      "absolute_hop_over_mott_u": [
+        0.0,
+        0.15
+      ],
+      "absolute_zz_over_mott_u": [
+        0.0,
+        0.15
+      ],
+      "absolute_bias_over_mott_u": [
+        0.0,
+        0.05
+      ],
+      "phase": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "maximum_channel_count": 4
+    },
+    "curriculum": [
+      {
+        "stage": 0,
+        "name": "structural and downfolding gate",
+        "allowed": "one or two even-parity mediator channels; no rail hopping",
+        "advance_when": "parity residual <1e-10, overlap singular value >=0.98, positive low/high gap"
+      },
+      {
+        "stage": 1,
+        "name": "connected four-edge virtual hypergraph",
+        "allowed": "up to four channels plus same-rail hops; a mediator may couple multiple pair conversions within one four-edge plaquette, but no direct four-body stabilizer is allowed",
+        "advance_when": "no hard failure and a sign-correct target Pauli coefficient exceeds numerical noise"
+      },
+      {
+        "stage": 2,
+        "name": "operator selectivity",
+        "allowed": "phase and density tuning within the same perturbative box",
+        "advance_when": "target alignment >=0.80 and unwanted Pauli norm/target <=0.25 on both XXXX and ZZZZ primitives"
+      },
+      {
+        "stage": 3,
+        "name": "analytic and tiling gate",
+        "allowed": "only candidates with a repeated local motif",
+        "advance_when": "independent SW derivation, linked-cluster cross-check, and a scalable 2D tensor/matrix-free plan"
+      }
+    ]
+  },
+  "initial_loss": {
+    "name": "fixed_scale_spectral_algebraic_residual",
+    "value": 1.0000749672049536,
+    "secondary_operator_loss": 1.0,
+    "reward": -0.03835550829955116
+  },
+  "s0": {
+    "schema": "antler.phase7.optimizer-observation.v1",
+    "target": {
+      "label": "XXXX",
+      "target_strength": 1.0,
+      "required_traceless_pauli_coefficient": -0.5
+    },
+    "reward": -0.03835550829955116,
+    "state_fields": [
+      "minimum_monomer_overlap_singular_value",
+      "low_to_high_gap",
+      "gap_over_mott_u",
+      "maximum_low_state_mott_violation",
+      "parity_commutator_frobenius_max",
+      "observed_target_coefficient",
+      "target_coefficient_ratio",
+      "target_alignment",
+      "fixed_scale_spectral_algebraic_residual",
+      "best_scale_operator_residual",
+      "unwanted_pauli_norm_over_target"
+    ],
+    "state_vector": [
+      0.9998001199200567,
+      39.97506218943948,
+      1.998753109471974,
+      0.0007995203197761797,
+      0.0,
+      1.4895470872768345e-15,
+      -2.979094174553669e-15,
+      5.919034497894171e-26,
+      1.0000749672049536,
+      1.0,
+      0.012245000203479751
+    ],
+    "pauli_weight_square_histogram": {
+      "1": 7.814078014088075e-29,
+      "2": 3.748500749580478e-05,
+      "3": 2.373373657755402e-28,
+      "4": 1.7235415159195434e-28
+    },
+    "interaction_connectivity": {
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_count": 2,
+      "patch_connected": false
+    },
+    "top_unwanted_paulis": [
+      {
+        "label": "YYII",
+        "coefficient": 0.0024995001999029124
+      },
+      {
+        "label": "XXII",
+        "coefficient": -0.0024995001999010163
+      },
+      {
+        "label": "IIXX",
+        "coefficient": -0.0024995001999000635
+      },
+      {
+        "label": "IIYY",
+        "coefficient": 0.0024995001998998
+      }
+    ],
+    "hard_failures": [],
+    "next_action": "increase connected target coefficient while reducing the listed unwanted Pauli terms"
+  },
+  "monitoring": {
+    "history_jsonl": "results/phase7/optimizer_monitor/history.jsonl",
+    "history_csv": "results/phase7/optimizer_monitor/history.csv",
+    "dashboard_png": "results/phase7/optimizer_monitor/dashboard.png"
+  },
+  "claim_boundary": "S_0 is a local optimizer state and negative control. It does not establish a microscopic stabilizer, a controlled SW derivation, a tiled parent, topological order, braiding, or non-Abelian computation."
+}

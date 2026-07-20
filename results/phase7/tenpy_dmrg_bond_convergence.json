@@ -1,0 +1,122 @@
+{
+  "schema": "antler.phase8.tenpy-dmrg-bond-convergence.v1",
+  "parameters": {
+    "u0_attractive_nn": -2.0,
+    "alpha": 0.5,
+    "chi_values": [
+      128,
+      256,
+      384
+    ]
+  },
+  "rows": [
+    {
+      "L": 12,
+      "N": 6,
+      "filling_N_over_2L": 0.25,
+      "by_chi": {
+        "128": {
+          "sectors": {
+            "0": {
+              "energy": -11.616959155044855,
+              "measured_branch_parity": 0.9999999999999993,
+              "max_bond_dimension": 128
+            },
+            "1": {
+              "energy": -11.618317937819114,
+              "measured_branch_parity": -1.0000000000000002,
+              "max_bond_dimension": 128
+            }
+          },
+          "parity_sector_split": 0.0013587827742593817
+        },
+        "256": {
+          "sectors": {
+            "0": {
+              "energy": -11.61695915504536,
+              "measured_branch_parity": 0.9999999999999998,
+              "max_bond_dimension": 256
+            },
+            "1": {
+              "energy": -11.61831793781969,
+              "measured_branch_parity": -1.0,
+              "max_bond_dimension": 256
+            }
+          },
+          "parity_sector_split": 0.001358782774330436
+        },
+        "384": {
+          "sectors": {
+            "0": {
+              "energy": -11.61695915504535,
+              "measured_branch_parity": 1.0000000000000002,
+              "max_bond_dimension": 312
+            },
+            "1": {
+              "energy": -11.618317937819686,
+              "measured_branch_parity": -0.9999999999999999,
+              "max_bond_dimension": 312
+            }
+          },
+          "parity_sector_split": 0.001358782774335765
+        }
+      },
+      "split_change_from_chi256_to_chi384": 5.329070518200751e-15
+    },
+    {
+      "L": 16,
+      "N": 8,
+      "filling_N_over_2L": 0.25,
+      "by_chi": {
+        "128": {
+          "sectors": {
+            "0": {
+              "energy": -15.69773785367798,
+              "measured_branch_parity": 0.9999999999999999,
+              "max_bond_dimension": 128
+            },
+            "1": {
+              "energy": -15.697537288132406,
+              "measured_branch_parity": -1.0,
+              "max_bond_dimension": 128
+            }
+          },
+          "parity_sector_split": 0.00020056554557434936
+        },
+        "256": {
+          "sectors": {
+            "0": {
+              "energy": -15.69773785415748,
+              "measured_branch_parity": 1.0000000000000004,
+              "max_bond_dimension": 256
+            },
+            "1": {
+              "energy": -15.697537288485147,
+              "measured_branch_parity": -0.9999999999999999,
+              "max_bond_dimension": 256
+            }
+          },
+          "parity_sector_split": 0.00020056567233339706
+        },
+        "384": {
+          "sectors": {
+            "0": {
+              "energy": -15.69773785415835,
+              "measured_branch_parity": 1.0000000000000007,
+              "max_bond_dimension": 384
+            },
+            "1": {
+              "energy": -15.697537288485917,
+              "measured_branch_parity": -0.9999999999999992,
+              "max_bond_dimension": 384
+            }
+          },
+          "parity_sector_split": 0.00020056567243287304
+        }
+      },
+      "split_change_from_chi256_to_chi384": 9.947598300641403e-14
+    }
+  ],
+  "decision": "This is a numerical convergence audit of sector energies, not a thermodynamic phase certificate.",
+  "claim_boundary": "No bulk neutral-gap, correlation-length, native-ANTLER, or non-Abelian claim is made."
+}

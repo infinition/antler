@@ -1,0 +1,107 @@
+{
+  "schema": "antler.phase8b.shared-matter-conditional-link-sw-audit.v1",
+  "parameters": {
+    "mode_order": [
+      "q_a",
+      "q_b",
+      "r_a",
+      "r_b",
+      "d0",
+      "d1"
+    ],
+    "weighted_total_charge": 3,
+    "theta": 3.141592653589793,
+    "pair_detuning": 10.0,
+    "mott_q": 15.0,
+    "leg_hopping": 0.7,
+    "rung_hopping_magnitude": 0.2,
+    "segments": {
+      "A": "J_perp=+J, g0=+g, g1=+g",
+      "B": "J_perp=-J, g0=+g, g1=-g"
+    },
+    "target": "X_q tensor X_(d0,d1)",
+    "control_type": "registered Peierls rung-sign flip plus coherent relative pair-channel phase pi"
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "echoed_xx_coefficient": -0.0020034713474648544,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9805986880035851,
+      "minimum_low_high_gap": 19.959029907498405,
+      "echoed_schur_hermiticity_residual": 8.673617379884035e-19
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "echoed_xx_coefficient": -0.0011269526329489806,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9885791524330433,
+      "minimum_low_high_gap": 19.790086801790796,
+      "echoed_schur_hermiticity_residual": 8.685205656846983e-36
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "echoed_xx_coefficient": -0.0005008678368662136,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9945292563521216,
+      "minimum_low_high_gap": 19.66765714765882,
+      "echoed_schur_hermiticity_residual": 2.168404344971009e-19
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "echoed_xx_coefficient": -0.00028173815823724516,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9966637400614131,
+      "minimum_low_high_gap": 19.62444957367763,
+      "echoed_schur_hermiticity_residual": 2.171301414211746e-36
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "echoed_xx_coefficient": -0.0001252169592165534,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9982054081060568,
+      "minimum_low_high_gap": 19.593471406485484,
+      "echoed_schur_hermiticity_residual": 5.421010862427522e-20
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "echoed_xx_coefficient": -7.043453955931129e-05,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9987483938977835,
+      "minimum_low_high_gap": 19.582606093732757,
+      "echoed_schur_hermiticity_residual": 5.428253535529365e-37
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "echoed_xx_coefficient": -3.130423980413835e-05,
+      "echoed_ix_coefficient": 0.0,
+      "echoed_xi_coefficient": 0.0,
+      "maximum_unwanted_non_scalar_coefficient": 0.0,
+      "largest_unwanted_non_scalar_pauli": "IX",
+      "minimum_low_frame_capture": 0.9991373298673512,
+      "minimum_low_high_gap": 19.574837832990582,
+      "echoed_schur_hermiticity_residual": 1.3552527156068805e-20
+    }
+  ],
+  "deep_sw_echoed_xx_power": 2.0000000000000004,
+  "decision": "The non-separable shared-matter block produces a conditional X_q X_walker term. Averaging the two sign-correlated Schrieffer-Wolff segments cancels the isolated X_q and X_walker terms while retaining the conditional term.",
+  "claim_boundary": "This is a static/downfolded effective-Hamiltonian compiler result only. It does not yet demonstrate a finite-pulse Floquet sequence with low leakage, derive a four-state neutral walker, establish a Y-conditioned link, integrate a full stabilizer patch, derive the new mediators from frozen ANTLER without extension, or establish twists, fusion, non-Abelian braiding, universality or fault tolerance."
+}

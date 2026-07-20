@@ -1,0 +1,90 @@
+{
+  "schema": "antler.phase8b.shared-matter-c3-parity-echo-audit.v1",
+  "parameters": {
+    "sign_group": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "group_property": "each sign product s0*s1*s2=+1; all single and pair averages vanish",
+    "target": "XXX",
+    "segment_count": 8
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "echoed_xxx_coefficient": 0.12605858359208222,
+      "maximum_unwanted_non_scalar_coefficient": 3.469446951953614e-17,
+      "largest_unwanted_non_scalar_pauli": "XYY",
+      "unwanted_over_target": 2.75224967082014e-16,
+      "baseline_largest_unwanted_pauli": "XII",
+      "baseline_largest_unwanted_coefficient": 0.035626801047526246,
+      "baseline_unwanted_over_target": 0.28262098488122295,
+      "schur_hermiticity_residual": 1.6653345369377348e-16
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "echoed_xxx_coefficient": -0.6120687392021702,
+      "maximum_unwanted_non_scalar_coefficient": 1.3877787807814457e-16,
+      "largest_unwanted_non_scalar_pauli": "ZZI",
+      "unwanted_over_target": 2.2673577196417696e-16,
+      "baseline_largest_unwanted_pauli": "XIX",
+      "baseline_largest_unwanted_coefficient": -0.6220474982669089,
+      "baseline_unwanted_over_target": 1.0163033306973754,
+      "schur_hermiticity_residual": 9.155133597044475e-16
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "echoed_xxx_coefficient": -0.0004237079375948133,
+      "maximum_unwanted_non_scalar_coefficient": 1.2197274440461925e-19,
+      "largest_unwanted_non_scalar_pauli": "XYY",
+      "unwanted_over_target": 2.878698593587838e-16,
+      "baseline_largest_unwanted_pauli": "XIX",
+      "baseline_largest_unwanted_coefficient": -0.0016651029011475848,
+      "baseline_unwanted_over_target": 3.9298364590467085,
+      "schur_hermiticity_residual": 3.8332335417084353e-19
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "echoed_xxx_coefficient": -4.74273640055973e-05,
+      "maximum_unwanted_non_scalar_coefficient": 6.938893903907228e-18,
+      "largest_unwanted_non_scalar_pauli": "IZI",
+      "unwanted_over_target": 1.4630570451033946e-13,
+      "baseline_largest_unwanted_pauli": "XIX",
+      "baseline_largest_unwanted_coefficient": -0.0003952205607414754,
+      "baseline_unwanted_over_target": 8.333175773691156,
+      "schur_hermiticity_residual": 7.171323298281502e-20
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "echoed_xxx_coefficient": -3.1438560039958035e-06,
+      "maximum_unwanted_non_scalar_coefficient": 6.938893903907228e-18,
+      "largest_unwanted_non_scalar_pauli": "IZI",
+      "unwanted_over_target": 2.207128410171451e-12,
+      "baseline_largest_unwanted_pauli": "XIX",
+      "baseline_largest_unwanted_coefficient": -6.980147979251769e-05,
+      "baseline_unwanted_over_target": 22.202505364050023,
+      "schur_hermiticity_residual": 9.583083854271089e-21
+    }
+  ],
+  "deep_sw_xxx_power": 7.0493540354851225,
+  "decision": "Microscopic parity-group echo audit; selectivity must be read from the serialized unwanted/target ratios rather than inferred from the sign algebra.",
+  "claim_boundary": "This is an average of independently downfolded static segments. A positive result would still require a finite-pulse group sequence, pulse leakage/timing/crosstalk audits, a C4 geometry, code protection and defect/braid construction. A negative result would reject this parity group only."
+}

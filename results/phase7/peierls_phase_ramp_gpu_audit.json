@@ -1,0 +1,53 @@
+{
+  "schema": "antler.phase7d.peierls-phase-ramp-gpu-audit.v1",
+  "method": "exact segment spectral propagation on CUDA, complex128",
+  "device": "NVIDIA GeForce RTX 4070 Ti",
+  "parameters": {
+    "leg_hopping": 1.0,
+    "inactive_channel_coupling_over_g": 0.01,
+    "subcycles": 16,
+    "ramp_fraction_scan": [
+      0.0,
+      0.005,
+      0.02
+    ]
+  },
+  "rows": [
+    {
+      "ramp_fraction_of_each_subcycle": 0.0,
+      "ramp_duration": 0.0,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0,
+      "monomer_leakage": 6.96912746903206e-08,
+      "logical_deviation_from_zero_leg_schedule": 3.1159360873416244e-05,
+      "logical_parity_a_residual": 1.7176478576181976e-05,
+      "logical_parity_b_residual": 1.7176478576181976e-05,
+      "logical_singular_value_min": 0.9999999651543059
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.005,
+      "ramp_duration": 2.4272149851866614e-05,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0007767087952597316,
+      "monomer_leakage": 1.0628352584096645e-06,
+      "logical_deviation_from_zero_leg_schedule": 2.9222460482166984e-05,
+      "logical_parity_a_residual": 1.607755940725543e-05,
+      "logical_parity_b_residual": 1.607755940725543e-05,
+      "logical_singular_value_min": 0.9999994685822393
+    },
+    {
+      "ramp_fraction_of_each_subcycle": 0.02,
+      "ramp_duration": 9.708859940746645e-05,
+      "ramp_steps": 2,
+      "total_phase_ramp_time_per_mediator_pulse": 0.0031068351810389265,
+      "monomer_leakage": 1.6235432601549736e-05,
+      "logical_deviation_from_zero_leg_schedule": 1.271895844341367e-05,
+      "logical_parity_a_residual": 1.1582237153623745e-05,
+      "logical_parity_b_residual": 1.1582237153623745e-05,
+      "logical_singular_value_min": 0.9999918822507462
+    }
+  ],
+  "wall_clock_seconds_including_cached_eigensystems": 23.20721880000201,
+  "decision": "CUDA completion of the finite Peierls-ramp audit; numerical temporal convergence must be checked before promotion.",
+  "claim_boundary": "This is a finite-block pulse control only; no hardware bandwidth, protected phase, 2D code, braid, non-Abelianity, universality or fault tolerance is established."
+}

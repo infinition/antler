@@ -1,0 +1,74 @@
+{
+  "schema": "antler.phase8b.mixed-patch-closed-walk-closure.v1",
+  "parameters": {
+    "walker_graph": "independent four-state cycle C4 for each check",
+    "checks": [
+      "YXZXIII",
+      "XZIIXZI",
+      "XZXYIII",
+      "YXIIYXI",
+      "XIXIXIX",
+      "YIZIYIY"
+    ],
+    "formal_expansion": "Schrieffer-Wolff paths returning every walker to its vacuum state",
+    "coefficient_point": 0.05
+  },
+  "cycle_space_proof": {
+    "closed_C4_edge_parity_masks": [
+      "0000",
+      "1111"
+    ],
+    "returned_walk_parities_through_12_steps": {
+      "0": [
+        "0000"
+      ],
+      "1": [],
+      "2": [
+        "0000"
+      ],
+      "3": [],
+      "4": [
+        "0000",
+        "1111"
+      ],
+      "5": [],
+      "6": [
+        "0000",
+        "1111"
+      ],
+      "7": [],
+      "8": [
+        "0000",
+        "1111"
+      ],
+      "9": [],
+      "10": [
+        "0000",
+        "1111"
+      ],
+      "11": [],
+      "12": [
+        "0000",
+        "1111"
+      ]
+    },
+    "consequence": "for each walker, a vacuum-to-vacuum path carries either identity or its complete four-link check word modulo a scalar Pauli phase"
+  },
+  "simultaneous_multiwalker_consequence": {
+    "formal_effective_operator_algebra": "span of products of the six commuting check words",
+    "stabilizer_group_size": 64,
+    "every_generated_group_element_acts_as_scalar_on_patch_code": true,
+    "new_logical_pauli_from_ideal_walker_crosstalk": false,
+    "reason": "the Pauli group is Abelian modulo scalar phase, so interleaving different closed walker paths can alter only a scalar sign; it cannot alter their mod-two check-word product"
+  },
+  "registered_pairwise_input": {
+    "pair_count": 15,
+    "maximum_outside_generated_algebra_coefficient": 1.6631661325927638e-16,
+    "minimum_single_check_coefficient": 0.0001268997235444432,
+    "maximum_pair_product_coefficient": 9.694863028541744e-09,
+    "sum_abs_pair_product_coefficients": 7.604679126911504e-08,
+    "fourth_plus_eighth_syndrome_gap_lower_bound": 0.0002536473535063482
+  },
+  "decision": "Within the formal independent C4-walker SW grammar, simultaneous multi-walker virtual paths cannot generate a Pauli outside the finite patch stabilizer algebra at any perturbative order. The measured order-four checks dominate the registered order-eight pair products at g/Delta=0.05, leaving a positive fourth-plus-eighth syndrome-gap bound.",
+  "claim_boundary": "This is an all-order combinatorial selection rule for the declared ideal walker grammar, not an exact finite-coupling six-walker diagonalization or a convergence-radius proof. It does not derive the walker, its complex conditional phase, or the stabilizer patch from the frozen ANTLER Hamiltonian, and it does not establish scalable topological order, a full twist/dislocation geometry, fusion, defect motion, non-Abelian braid, universality or fault tolerance."
+}

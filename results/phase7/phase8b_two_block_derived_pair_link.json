@@ -1,0 +1,77 @@
+{
+  "schema": "antler.phase8b.two-block-derived-pair-link.v1",
+  "parameters": {
+    "blocks": 2,
+    "block_size_b": 2,
+    "fixed_total_charge": 2,
+    "detuning": 10.0,
+    "ratios": [
+      0.1,
+      0.05,
+      0.025
+    ],
+    "resources": "two neutral Lambda walkers plus one positive-detuned charge-two mediator shared by adjacent pair channels",
+    "replaced_term": "the formerly inserted coherent P_L^dag P_R boundary transfer"
+  },
+  "dimensions": {
+    "total": 3712,
+    "matter_charge2_plus_link_vacuum": 29,
+    "gauge_x_basis": 8,
+    "walker_states": 16
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.1,
+      "coupling": 1.0,
+      "expected_sw_pair_transfer_time": 15.707963267948966,
+      "maximum_target_pair_population": 0.9616383702094724,
+      "time_of_maximum_target_pair_population": 16.336281798666924,
+      "maximum_link_mediator_population": 0.03936296054833564,
+      "maximum_neutral_walker_population": 0.14392007699127765,
+      "maximum_gauss_sector_leakage": 1.034949903555571e-12,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_link_g0_commutator_frobenius": 0.0,
+      "pair_link_g1_commutator_frobenius": 0.0,
+      "physical_pair_link_frobenius": 11.313708498984761,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "coupling": 0.5,
+      "expected_sw_pair_transfer_time": 62.83185307179586,
+      "maximum_target_pair_population": 0.9900037181391017,
+      "time_of_maximum_target_pair_population": 62.83185307179586,
+      "maximum_link_mediator_population": 0.009983043826721648,
+      "maximum_neutral_walker_population": 0.03746549377048604,
+      "maximum_gauss_sector_leakage": 5.150324611236101e-13,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_link_g0_commutator_frobenius": 0.0,
+      "pair_link_g1_commutator_frobenius": 0.0,
+      "physical_pair_link_frobenius": 5.656854249492381,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "coupling": 0.25,
+      "expected_sw_pair_transfer_time": 251.32741228718345,
+      "maximum_target_pair_population": 0.9975015508942154,
+      "time_of_maximum_target_pair_population": 251.32741228718345,
+      "maximum_link_mediator_population": 0.002498197280672679,
+      "maximum_neutral_walker_population": 0.00966422318892244,
+      "maximum_gauss_sector_leakage": 4.3435033347805074e-11,
+      "hamiltonian_g0_commutator_frobenius": 0.0,
+      "hamiltonian_g1_commutator_frobenius": 0.0,
+      "pair_link_g0_commutator_frobenius": 0.0,
+      "pair_link_g1_commutator_frobenius": 0.0,
+      "physical_pair_link_frobenius": 2.8284271247461903,
+      "physical_single_boundary_projection_frobenius": 0.0,
+      "single_boundary_leaves_physical_sector_frobenius": 19.595917942265423
+    }
+  ],
+  "decision": "The explicit charge-two pair-link mediator can replace the inserted two-block pair-transfer term while preserving both coarse Gauss generators exactly in this fixed-charge Fock block.",
+  "claim_boundary": "This establishes only a two-block, one-pair derived-link control. The neutral walker and four-leg pair-channel topology are declared new resources; no many-pair phase, thermodynamic gap, local indistinguishability, T junction, fusion or non-Abelian braid is established."
+}

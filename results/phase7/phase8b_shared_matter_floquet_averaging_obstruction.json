@@ -1,0 +1,111 @@
+{
+  "schema": "antler.phase8b.shared-matter-floquet-averaging-obstruction.v1",
+  "parameters": {
+    "segments": "A=(+J,+g,+g), B=(-J,+g,-g)",
+    "fast_taus": [
+      0.01,
+      0.002,
+      0.0005,
+      0.00025
+    ],
+    "fast_total_duration": 100.0
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "average_of_sw_xx": -0.0020034713474648544,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.10008173341562275,
+      "averaging_noncommutation_frobenius": 0.2831306025270443,
+      "fast_limit_unwanted_over_static_xx": 49.95416257999588
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "average_of_sw_xx": -0.0011269526329489806,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.05629597504628779,
+      "averaging_noncommutation_frobenius": 0.15926096392146244,
+      "fast_limit_unwanted_over_static_xx": 49.954162579995874
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "average_of_sw_xx": -0.0005008678368662136,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.025020433353905688,
+      "averaging_noncommutation_frobenius": 0.07078265063176108,
+      "fast_limit_unwanted_over_static_xx": 49.95416257999588
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "average_of_sw_xx": -0.00028173815823724516,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.014073993761571948,
+      "averaging_noncommutation_frobenius": 0.03981524098036561,
+      "fast_limit_unwanted_over_static_xx": 49.954162579995874
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "average_of_sw_xx": -0.0001252169592165534,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.006255108338476421,
+      "averaging_noncommutation_frobenius": 0.01769566265794027,
+      "fast_limit_unwanted_over_static_xx": 49.954162579995874
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "average_of_sw_xx": -7.043453955931129e-05,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.003518498440392986,
+      "averaging_noncommutation_frobenius": 0.009953810245091402,
+      "fast_limit_unwanted_over_static_xx": 49.95416257999586
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "average_of_sw_xx": -3.130423980413835e-05,
+      "sw_of_microscopic_average_xx": 0.0,
+      "sw_of_microscopic_average_largest_unwanted_pauli": "IZ",
+      "sw_of_microscopic_average_largest_unwanted": -0.0015637770846191057,
+      "averaging_noncommutation_frobenius": 0.004423915664485066,
+      "fast_limit_unwanted_over_static_xx": 49.95416257999589
+    }
+  ],
+  "deep_static_xx_power": 2.0000000000000004,
+  "fast_limit_rows": [
+    {
+      "coupling_over_detuning": 0.05,
+      "segment_duration": 0.01,
+      "repetitions": 5000,
+      "total_duration": 100.0,
+      "full_space_distance_to_microscopic_average": 0.002418267888549013
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "segment_duration": 0.002,
+      "repetitions": 25000,
+      "total_duration": 100.0,
+      "full_space_distance_to_microscopic_average": 0.00010669774069874253
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "segment_duration": 0.0005,
+      "repetitions": 100000,
+      "total_duration": 100.0,
+      "full_space_distance_to_microscopic_average": 1.3136281822622475e-05
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "segment_duration": 0.00025,
+      "repetitions": 200000,
+      "total_duration": 100.0,
+      "full_space_distance_to_microscopic_average": 6.033701844511901e-06
+    }
+  ],
+  "decision": "For the registered two-segment shared-matter grammar, average-of-SW and SW-of-microscopic-average differ: the desired static XX is absent from the rapid-drive microscopic average, which instead retains a lower-order single-walker term. The exact fast product converges to that microscopic average.",
+  "claim_boundary": "This establishes a fast-Floquet obstruction for this A/B sign grammar and its high-frequency limit. It does not prove a no-go for a different control algebra, a derived kick/frame resource, a higher-order Floquet construction, a distinct mediator species, a complete walker, a code, defects, fusion or a non-Abelian braid."
+}

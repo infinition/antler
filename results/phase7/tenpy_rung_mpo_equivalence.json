@@ -1,0 +1,21 @@
+{
+  "schema": "antler.phase8.tenpy-rung-mpo-equivalence.v1",
+  "parameters": {
+    "L": 4,
+    "N": 2,
+    "u0_attractive_nn": -2.0,
+    "alpha": 0.5,
+    "eta": 1.5707963267948966
+  },
+  "total_u1_conserved_by_site": true,
+  "local_floquet_interaction_identity_frobenius": 3.143461747067036e-16,
+  "mpo_max_bond_dimension": [
+    2,
+    10,
+    10,
+    10,
+    2
+  ],
+  "threshold": 1e-11,
+  "decision": "The local Floquet algebra and charge-block MPO must pass before canonical DMRG validation against L=8 ED."
+}

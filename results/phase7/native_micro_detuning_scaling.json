@@ -1,0 +1,279 @@
+{
+  "schema": "antler.phase8.native-micro-detuning-scaling.v2",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "reference_period": 0.1,
+    "period_samples": [
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2
+    ],
+    "target_u0": -1.5,
+    "alpha": 0.5,
+    "eta": "pi/2"
+  },
+  "rows": [
+    {
+      "g_over_detuning": 0.0125,
+      "detuning": 9599.999999999998,
+      "g": 119.99999999999999,
+      "at_reference_period": {
+        "period": 0.1,
+        "low_frame_leakage_worst": 0.0011682610670235404,
+        "polar_logical_vs_target_distance": 0.001374837402996883,
+        "raw_logical_min_singular_value": 0.9994156987625316
+      },
+      "max_low_frame_leakage_over_period_samples": 0.0012424332399922295,
+      "max_polar_logical_distance_over_period_samples": 0.005442017774592767,
+      "samples": [
+        {
+          "period": 0.025,
+          "low_frame_leakage_worst": 0.0002330173377555328,
+          "polar_logical_vs_target_distance": 0.0001056877282243698,
+          "raw_logical_min_singular_value": 0.9998834845432012
+        },
+        {
+          "period": 0.05,
+          "low_frame_leakage_worst": 0.0005843012374798096,
+          "polar_logical_vs_target_distance": 0.00035279487046562024,
+          "raw_logical_min_singular_value": 0.9997078066928053
+        },
+        {
+          "period": 0.075,
+          "low_frame_leakage_worst": 0.0008677268428988839,
+          "polar_logical_vs_target_distance": 0.0007797533235273471,
+          "raw_logical_min_singular_value": 0.9995660424189632
+        },
+        {
+          "period": 0.1,
+          "low_frame_leakage_worst": 0.0011682610670235404,
+          "polar_logical_vs_target_distance": 0.001374837402996883,
+          "raw_logical_min_singular_value": 0.9994156987625316
+        },
+        {
+          "period": 0.125,
+          "low_frame_leakage_worst": 0.0012424332399922295,
+          "polar_logical_vs_target_distance": 0.002139825488813408,
+          "raw_logical_min_singular_value": 0.9993785903049939
+        },
+        {
+          "period": 0.15,
+          "low_frame_leakage_worst": 0.001059387839076383,
+          "polar_logical_vs_target_distance": 0.003075146619806691,
+          "raw_logical_min_singular_value": 0.9994701657182858
+        },
+        {
+          "period": 0.175,
+          "low_frame_leakage_worst": 0.0006952768678142976,
+          "polar_logical_vs_target_distance": 0.004176080996480958,
+          "raw_logical_min_singular_value": 0.9996523011188232
+        },
+        {
+          "period": 0.2,
+          "low_frame_leakage_worst": 0.00045762794586549503,
+          "polar_logical_vs_target_distance": 0.005442017774592767,
+          "raw_logical_min_singular_value": 0.9997711598431959
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.025,
+      "detuning": 2399.9999999999995,
+      "g": 59.99999999999999,
+      "at_reference_period": {
+        "period": 0.1,
+        "low_frame_leakage_worst": 0.001207779348184635,
+        "polar_logical_vs_target_distance": 0.0013906392818135932,
+        "raw_logical_min_singular_value": 0.9993959278743506
+      },
+      "max_low_frame_leakage_over_period_samples": 0.004918958740821557,
+      "max_polar_logical_distance_over_period_samples": 0.005429656970619058,
+      "samples": [
+        {
+          "period": 0.025,
+          "low_frame_leakage_worst": 0.002402635628091978,
+          "polar_logical_vs_target_distance": 0.00037740432812971754,
+          "raw_logical_min_singular_value": 0.9987979597355573
+        },
+        {
+          "period": 0.05,
+          "low_frame_leakage_worst": 0.004799498598222581,
+          "polar_logical_vs_target_distance": 0.0007394938967432253,
+          "raw_logical_min_singular_value": 0.997597364371911
+        },
+        {
+          "period": 0.075,
+          "low_frame_leakage_worst": 0.003850512907728956,
+          "polar_logical_vs_target_distance": 0.000968505969469823,
+          "raw_logical_min_singular_value": 0.9980728866632276
+        },
+        {
+          "period": 0.1,
+          "low_frame_leakage_worst": 0.001207779348184635,
+          "polar_logical_vs_target_distance": 0.0013906392818135932,
+          "raw_logical_min_singular_value": 0.9993959278743506
+        },
+        {
+          "period": 0.125,
+          "low_frame_leakage_worst": 0.0008220208247546405,
+          "polar_logical_vs_target_distance": 0.002149395377622118,
+          "raw_logical_min_singular_value": 0.9995889050881195
+        },
+        {
+          "period": 0.15,
+          "low_frame_leakage_worst": 0.003500077958916269,
+          "polar_logical_vs_target_distance": 0.003133085556004677,
+          "raw_logical_min_singular_value": 0.9982484270165805
+        },
+        {
+          "period": 0.175,
+          "low_frame_leakage_worst": 0.004918958740821557,
+          "polar_logical_vs_target_distance": 0.004213131648591248,
+          "raw_logical_min_singular_value": 0.9975374886485086
+        },
+        {
+          "period": 0.2,
+          "low_frame_leakage_worst": 0.0024912088103371957,
+          "polar_logical_vs_target_distance": 0.005429656970619058,
+          "raw_logical_min_singular_value": 0.9987536188618794
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.05,
+      "detuning": 599.9999999999999,
+      "g": 29.999999999999996,
+      "at_reference_period": {
+        "period": 0.1,
+        "low_frame_leakage_worst": 0.009011011402043355,
+        "polar_logical_vs_target_distance": 0.001919920608178584,
+        "raw_logical_min_singular_value": 0.995484298519047
+      },
+      "max_low_frame_leakage_over_period_samples": 0.017940824477598902,
+      "max_polar_logical_distance_over_period_samples": 0.006080997139794685,
+      "samples": [
+        {
+          "period": 0.025,
+          "low_frame_leakage_worst": 0.00894142472004372,
+          "polar_logical_vs_target_distance": 0.0013904084746007644,
+          "raw_logical_min_singular_value": 0.9955192490755551
+        },
+        {
+          "period": 0.05,
+          "low_frame_leakage_worst": 0.017802900364063224,
+          "polar_logical_vs_target_distance": 0.00260010387219291,
+          "raw_logical_min_singular_value": 0.991058575279957
+        },
+        {
+          "period": 0.075,
+          "low_frame_leakage_worst": 0.017872445685475184,
+          "polar_logical_vs_target_distance": 0.002724016980229668,
+          "raw_logical_min_singular_value": 0.9910234882758967
+        },
+        {
+          "period": 0.1,
+          "low_frame_leakage_worst": 0.009011011402043355,
+          "polar_logical_vs_target_distance": 0.001919920608178584,
+          "raw_logical_min_singular_value": 0.995484298519047
+        },
+        {
+          "period": 0.125,
+          "low_frame_leakage_worst": 7.871249962951705e-05,
+          "polar_logical_vs_target_distance": 0.002144586152743491,
+          "raw_logical_min_singular_value": 0.9999606429756985
+        },
+        {
+          "period": 0.15,
+          "low_frame_leakage_worst": 0.008869509292838782,
+          "polar_logical_vs_target_distance": 0.0033481628176740635,
+          "raw_logical_min_singular_value": 0.9955553679766695
+        },
+        {
+          "period": 0.175,
+          "low_frame_leakage_worst": 0.017732198535720844,
+          "polar_logical_vs_target_distance": 0.0048432645882941355,
+          "raw_logical_min_singular_value": 0.9910942444915505
+        },
+        {
+          "period": 0.2,
+          "low_frame_leakage_worst": 0.017940824477598902,
+          "polar_logical_vs_target_distance": 0.006080997139794685,
+          "raw_logical_min_singular_value": 0.9909889885979593
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.075,
+      "detuning": 266.6666666666667,
+      "g": 20.0,
+      "at_reference_period": {
+        "period": 0.1,
+        "low_frame_leakage_worst": 0.013846483806063539,
+        "polar_logical_vs_target_distance": 0.003125395771913058,
+        "raw_logical_min_singular_value": 0.9930526250878832
+      },
+      "max_low_frame_leakage_over_period_samples": 0.042964623978785074,
+      "max_polar_logical_distance_over_period_samples": 0.006945514917860496,
+      "samples": [
+        {
+          "period": 0.025,
+          "low_frame_leakage_worst": 0.042964623978785074,
+          "polar_logical_vs_target_distance": 0.0057837701883418895,
+          "raw_logical_min_singular_value": 0.9782818489684939
+        },
+        {
+          "period": 0.05,
+          "low_frame_leakage_worst": 0.00431451322749528,
+          "polar_logical_vs_target_distance": 0.001831102944428545,
+          "raw_logical_min_singular_value": 0.9978404114749535
+        },
+        {
+          "period": 0.075,
+          "low_frame_leakage_worst": 0.038636099509619326,
+          "polar_logical_vs_target_distance": 0.005850314524790757,
+          "raw_logical_min_singular_value": 0.9804916626317539
+        },
+        {
+          "period": 0.1,
+          "low_frame_leakage_worst": 0.013846483806063539,
+          "polar_logical_vs_target_distance": 0.003125395771913058,
+          "raw_logical_min_singular_value": 0.9930526250878832
+        },
+        {
+          "period": 0.125,
+          "low_frame_leakage_worst": 0.03084905189126104,
+          "polar_logical_vs_target_distance": 0.005501220991927752,
+          "raw_logical_min_singular_value": 0.9844546450237005
+        },
+        {
+          "period": 0.15,
+          "low_frame_leakage_worst": 0.021165236041465967,
+          "polar_logical_vs_target_distance": 0.004559875261980463,
+          "raw_logical_min_singular_value": 0.9893607855370739
+        },
+        {
+          "period": 0.175,
+          "low_frame_leakage_worst": 0.021981757932358136,
+          "polar_logical_vs_target_distance": 0.005608871578141936,
+          "raw_logical_min_singular_value": 0.988948048214688
+        },
+        {
+          "period": 0.2,
+          "low_frame_leakage_worst": 0.027501242498335535,
+          "polar_logical_vs_target_distance": 0.006945514917860496,
+          "raw_logical_min_singular_value": 0.9861535161939362
+        }
+      ]
+    }
+  ],
+  "max_leakage_loglog_slope": 1.9607507549322447,
+  "max_logical_distance_loglog_slope": 0.13294283241062224,
+  "decision": "Fixed-U0 detuning scaling of the explicit-mediator Floquet composition-error envelope.",
+  "claim_boundary": "This is an ideal-pulse L=3 scaling control, not a many-link or hardware robustness result."
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "antler.phase8.tenpy-neutral-gap-audit.v1",
+  "parameters": {
+    "u0_attractive_nn": -2.0,
+    "alpha": 0.5,
+    "chi_max": 384
+  },
+  "rows": [
+    {
+      "L": 8,
+      "N": 4,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "ground_energy": -7.486359178697734,
+          "first_neutral_excitation": -7.172503617935956,
+          "neutral_gap": 0.31385556076177856,
+          "ground_excited_overlap_abs": 3.382710778154774e-16,
+          "excited_branch_parity": 1.0000000000000004,
+          "ground_max_bond_dimension": 46,
+          "excited_max_bond_dimension": 46
+        },
+        "1": {
+          "ground_energy": -7.477259814803224,
+          "first_neutral_excitation": -7.1751733956169295,
+          "neutral_gap": 0.30208641918629464,
+          "ground_excited_overlap_abs": 1.3227266504323154e-16,
+          "excited_branch_parity": -0.9999999999999994,
+          "ground_max_bond_dimension": 42,
+          "excited_max_bond_dimension": 42
+        }
+      },
+      "smallest_neutral_gap": 0.30208641918629464,
+      "exact_ed_gap_residual_by_sector": {
+        "0": 3.108624468950438e-14,
+        "1": 8.881784197001252e-16
+      },
+      "exact_ed_gap_threshold": 1e-07
+    },
+    {
+      "L": 12,
+      "N": 6,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "ground_energy": -11.61695915504535,
+          "first_neutral_excitation": -11.465305742726144,
+          "neutral_gap": 0.15165341231920593,
+          "ground_excited_overlap_abs": 2.9345016000492663e-15,
+          "excited_branch_parity": 1.0000000000000002,
+          "ground_max_bond_dimension": 312,
+          "excited_max_bond_dimension": 331
+        },
+        "1": {
+          "ground_energy": -11.618317937819686,
+          "first_neutral_excitation": -11.465876697249945,
+          "neutral_gap": 0.1524412405697415,
+          "ground_excited_overlap_abs": 2.337886828573943e-14,
+          "excited_branch_parity": -0.9999999999999999,
+          "ground_max_bond_dimension": 312,
+          "excited_max_bond_dimension": 325
+        }
+      },
+      "smallest_neutral_gap": 0.15165341231920593
+    },
+    {
+      "L": 16,
+      "N": 8,
+      "filling_N_over_2L": 0.25,
+      "sectors": {
+        "0": {
+          "ground_energy": -15.69773785415835,
+          "first_neutral_excitation": -15.607703840428911,
+          "neutral_gap": 0.0900340137294382,
+          "ground_excited_overlap_abs": 1.758142242902494e-15,
+          "excited_branch_parity": 1.0,
+          "ground_max_bond_dimension": 384,
+          "excited_max_bond_dimension": 384
+        },
+        "1": {
+          "ground_energy": -15.697537288485917,
+          "first_neutral_excitation": -15.607564070697876,
+          "neutral_gap": 0.08997321778804057,
+          "ground_excited_overlap_abs": 7.9881847664387e-15,
+          "excited_branch_parity": -1.0000000000000002,
+          "ground_max_bond_dimension": 384,
+          "excited_max_bond_dimension": 384
+        }
+      },
+      "smallest_neutral_gap": 0.08997321778804057
+    }
+  ],
+  "decision": "Neutral excitations are variationally resolved in fixed U(1) x Z2 sectors; finite-size scaling remains required.",
+  "claim_boundary": "No thermodynamic phase, ANTLER-native realization, braid, or non-Abelian conclusion follows."
+}

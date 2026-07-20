@@ -1,0 +1,186 @@
+{
+  "schema": "antler.phase5.n3-preflight.v1",
+  "claim_boundary": "This tests only a pinned-mediator static code candidate.  A positive result does not establish a non-Abelian braid; a negative result does not rule out a synthetic-dimension or T-junction extension.",
+  "dimension": 3276,
+  "theta_tested": [
+    0.0,
+    0.3
+  ],
+  "rows": [
+    {
+      "label": "r7_leg1_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 7,
+        "mediator_leg": 1
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.562878122768186,
+            -12.363149585690065,
+            -12.363149561166313,
+            -12.36287812322552,
+            -12.362878122760671,
+            -12.226847302557553
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363149585690065,
+            -12.363149561166313
+          ],
+          "target_weights_selected": [
+            0.914657079789009,
+            0.9146572201107656
+          ],
+          "capture": 1.8293142998997745,
+          "logical_split": 2.452375191808187e-08,
+          "isolation_gap_to_low_energy_complement": 0.0002714379407926515,
+          "mediator_occupation_selected": [
+            0.9366576159238261,
+            0.9366577473905685
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562878122286653,
+            -12.363061249337036,
+            -12.363061224031542,
+            -12.362878122950015,
+            -12.362878122281854,
+            -12.226758966200325
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061249337036,
+            -12.363061224031542
+          ],
+          "target_weights_selected": [
+            0.9147152696947549,
+            0.9147154116085162
+          ],
+          "capture": 1.829430681303271,
+          "logical_split": 2.5305494588678812e-08,
+          "isolation_gap_to_low_energy_complement": 0.0001831010815269707,
+          "mediator_occupation_selected": [
+            0.9366576159244424,
+            0.9366577482750413
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8293142998997745,
+        "mediator_occupation_min_over_theta": 0.9366576159238261,
+        "isolation_gap_min_over_theta": 0.0001831010815269707,
+        "logical_split_max_over_theta": 2.5305494588678812e-08,
+        "passes_static_preflight": true
+      }
+    },
+    {
+      "label": "r7_leg0_scale1",
+      "config": {
+        "L": 14,
+        "N": 3,
+        "J1": 0.4,
+        "J2": 1.0,
+        "JPERP": 0.1,
+        "code_depth": -4.0,
+        "mediator_depth_scale": 1.0,
+        "mediator_rung": 7,
+        "mediator_leg": 0
+      },
+      "spectra": [
+        {
+          "theta": 0.0,
+          "energies_lowest": [
+            -12.5628781227682,
+            -12.363149585690088,
+            -12.363149561166281,
+            -12.362878123225515,
+            -12.362878122760693,
+            -12.22684730255757
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363149585690088,
+            -12.363149561166281
+          ],
+          "target_weights_selected": [
+            0.914657079789,
+            0.9146572201107601
+          ],
+          "capture": 1.8293142998997602,
+          "logical_split": 2.4523806985143892e-08,
+          "isolation_gap_to_low_energy_complement": 0.00027143794076600614,
+          "mediator_occupation_selected": [
+            0.9366576159238317,
+            0.9366577473905022
+          ]
+        },
+        {
+          "theta": 0.3,
+          "energies_lowest": [
+            -12.562878122644783,
+            -12.363061249326808,
+            -12.363061224804126,
+            -12.362878123317577,
+            -12.362878122639831,
+            -12.226758966200288
+          ],
+          "selected_eigenvalue_indices": [
+            1,
+            2
+          ],
+          "selected_energies": [
+            -12.363061249326808,
+            -12.363061224804126
+          ],
+          "target_weights_selected": [
+            0.9147152697209878,
+            0.9147154100426825
+          ],
+          "capture": 1.8294306797636704,
+          "logical_split": 2.4522682551264552e-08,
+          "isolation_gap_to_low_energy_complement": 0.00018310148654876457,
+          "mediator_occupation_selected": [
+            0.936657615937406,
+            0.936657747427949
+          ]
+        }
+      ],
+      "gatekeeper": {
+        "capture_min_over_theta": 1.8293142998997602,
+        "mediator_occupation_min_over_theta": 0.9366576159238317,
+        "isolation_gap_min_over_theta": 0.00018310148654876457,
+        "logical_split_max_over_theta": 2.4523806985143892e-08,
+        "passes_static_preflight": true
+      }
+    }
+  ],
+  "gatekeeper": {
+    "pass_labels": [
+      "r7_leg0_scale1",
+      "r7_leg1_scale1"
+    ],
+    "decision": "compile_two_exchange_dynamics",
+    "note": "A static pass is necessary but not sufficient.  It does not demonstrate non-commutativity; that requires two full logical propagations on the same tracked doublet."
+  },
+  "runtime_s": 1.7081565856933594
+}

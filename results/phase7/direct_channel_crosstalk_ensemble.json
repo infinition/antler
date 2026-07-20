@@ -1,0 +1,4149 @@
+{
+  "schema": "antler.phase8.direct-channel-crosstalk-ensemble.v1",
+  "parameters": {
+    "L": 4,
+    "N": 2,
+    "filling": 0.25,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.0125,
+    "detuning": 9599.999999999998,
+    "g": 119.99999999999999,
+    "closure_period": 0.0013085880691000955,
+    "logical_cycles": 16,
+    "total_duration": 0.020937409105601528,
+    "sigmas_rms_complex_epsilon_over_g": [
+      0.001,
+      0.002,
+      0.003,
+      0.005,
+      0.01
+    ],
+    "samples_per_sigma": 100,
+    "seed": 20260719,
+    "correlation_model": "one complex epsilon shared by every nearest-link crosstalk conversion in each realization"
+  },
+  "rows": [
+    {
+      "sigma_rms_complex_epsilon_over_g": 0.001,
+      "samples": 100,
+      "pass_count_strict": 100,
+      "metrics": {
+        "low_frame_leakage_worst": {
+          "mean": 2.0533728684249128e-07,
+          "variance": 1.3540157586580306e-19,
+          "maximum": 2.0620520385948243e-07
+        },
+        "polar_logical_vs_target_distance": {
+          "mean": 1.699707813972419e-05,
+          "variance": 1.1889274335065363e-10,
+          "maximum": 5.230428724617632e-05
+        },
+        "logical_branch_parity_commutator_normalized": {
+          "mean": 9.29083412267198e-10,
+          "variance": 1.750660150627962e-24,
+          "maximum": 9.3220954416374e-10
+        }
+      },
+      "raw_samples": [
+        {
+          "epsilon_real": -0.0002299101039600384,
+          "epsilon_imag": -0.00046392943152800866,
+          "epsilon_abs": 0.000517773283726398,
+          "low_frame_leakage_worst": 2.0524434814118687e-07,
+          "polar_logical_vs_target_distance": 8.185850162418804e-06,
+          "logical_branch_parity_commutator_normalized": 9.287480778180913e-10
+        },
+        {
+          "epsilon_real": -0.00046215923991938727,
+          "epsilon_imag": 0.0006444730485894693,
+          "epsilon_abs": 0.000793055277645304,
+          "low_frame_leakage_worst": 2.0511822865356957e-07,
+          "polar_logical_vs_target_distance": 1.4236334370581913e-05,
+          "logical_branch_parity_commutator_normalized": 9.282949913847716e-10
+        },
+        {
+          "epsilon_real": -0.00025620338803236095,
+          "epsilon_imag": 0.00036946449787016465,
+          "epsilon_abs": 0.0004496044831023301,
+          "low_frame_leakage_worst": 2.052299997894789e-07,
+          "polar_logical_vs_target_distance": 8.820428010063767e-06,
+          "logical_branch_parity_commutator_normalized": 9.286965297748687e-10
+        },
+        {
+          "epsilon_real": -0.0009214447367772578,
+          "epsilon_imag": 0.0011792457498604493,
+          "epsilon_abs": 0.0014965563609495112,
+          "low_frame_leakage_worst": 2.04870736345448e-07,
+          "polar_logical_vs_target_distance": 2.718591666327134e-05,
+          "logical_branch_parity_commutator_normalized": 9.274069292884857e-10
+        },
+        {
+          "epsilon_real": -0.0002667295753832416,
+          "epsilon_imag": -0.0008840346513955501,
+          "epsilon_abs": 0.0009233969521566422,
+          "low_frame_leakage_worst": 2.05224534074744e-07,
+          "polar_logical_vs_target_distance": 9.078322398098954e-06,
+          "logical_branch_parity_commutator_normalized": 9.286768613523882e-10
+        },
+        {
+          "epsilon_real": -0.0009139587882053518,
+          "epsilon_imag": -0.0006317135165932544,
+          "epsilon_abs": 0.001111027737540522,
+          "low_frame_leakage_worst": 2.048743579198368e-07,
+          "polar_logical_vs_target_distance": 2.697258781963767e-05,
+          "logical_branch_parity_commutator_normalized": 9.274199698794082e-10
+        },
+        {
+          "epsilon_real": -0.00035629284953958893,
+          "epsilon_imag": -0.0013295870070152728,
+          "epsilon_abs": 0.001376497803796603,
+          "low_frame_leakage_worst": 2.051762358352286e-07,
+          "polar_logical_vs_target_distance": 1.13785063267648e-05,
+          "logical_branch_parity_commutator_normalized": 9.28503346622732e-10
+        },
+        {
+          "epsilon_real": -0.0008395819164684423,
+          "epsilon_imag": 0.0005336970570306623,
+          "epsilon_abs": 0.0009948519202092401,
+          "low_frame_leakage_worst": 2.0491430901036227e-07,
+          "polar_logical_vs_target_distance": 2.484802670864185e-05,
+          "logical_branch_parity_commutator_normalized": 9.275632726346389e-10
+        },
+        {
+          "epsilon_real": -0.00020028294595120878,
+          "epsilon_imag": -0.00013722289857684043,
+          "epsilon_abs": 0.00024278258243276977,
+          "low_frame_leakage_worst": 2.0526040803894485e-07,
+          "polar_logical_vs_target_distance": 7.500671137367954e-06,
+          "logical_branch_parity_commutator_normalized": 9.288057367282539e-10
+        },
+        {
+          "epsilon_real": 5.725746222005377e-05,
+          "epsilon_imag": -0.0004294040163944348,
+          "epsilon_abs": 0.00043320460093996334,
+          "low_frame_leakage_worst": 2.054011718344513e-07,
+          "polar_logical_vs_target_distance": 5.017978383200438e-06,
+          "logical_branch_parity_commutator_normalized": 9.293118568531302e-10
+        },
+        {
+          "epsilon_real": -0.00046884656722237587,
+          "epsilon_imag": 0.00032471416331773307,
+          "epsilon_abs": 0.000570312538399202,
+          "low_frame_leakage_worst": 2.05114477122045e-07,
+          "polar_logical_vs_target_distance": 1.4420236876838305e-05,
+          "logical_branch_parity_commutator_normalized": 9.282815224383928e-10
+        },
+        {
+          "epsilon_real": 7.492543971454251e-06,
+          "epsilon_imag": -0.0006422418191902765,
+          "epsilon_abs": 0.0006422855225925616,
+          "low_frame_leakage_worst": 2.0537402341101392e-07,
+          "polar_logical_vs_target_distance": 4.737523940039058e-06,
+          "logical_branch_parity_commutator_normalized": 9.292141649342897e-10
+        },
+        {
+          "epsilon_real": -0.0005592399837408184,
+          "epsilon_imag": 3.2518140101799705e-05,
+          "epsilon_abs": 0.0005601846024750333,
+          "low_frame_leakage_worst": 2.0506547740150172e-07,
+          "polar_logical_vs_target_distance": 1.692325647290784e-05,
+          "logical_branch_parity_commutator_normalized": 9.281056288614393e-10
+        },
+        {
+          "epsilon_real": 0.00016756530712301634,
+          "epsilon_imag": 0.0004982775668594707,
+          "epsilon_abs": 0.0005256982649644423,
+          "low_frame_leakage_worst": 2.0546167642071487e-07,
+          "polar_logical_vs_target_distance": 6.7915351408101626e-06,
+          "logical_branch_parity_commutator_normalized": 9.295293432475546e-10
+        },
+        {
+          "epsilon_real": 3.8452110461742764e-05,
+          "epsilon_imag": 5.5278389421403105e-05,
+          "epsilon_abs": 6.733695223268096e-05,
+          "low_frame_leakage_worst": 2.0539079996728571e-07,
+          "polar_logical_vs_target_distance": 4.864901498007576e-06,
+          "logical_branch_parity_commutator_normalized": 9.292745043736998e-10
+        },
+        {
+          "epsilon_real": 0.00036863954113841227,
+          "epsilon_imag": -0.00031375366678716975,
+          "epsilon_abs": 0.0004840831278955439,
+          "low_frame_leakage_worst": 2.0557219187182633e-07,
+          "polar_logical_vs_target_distance": 1.1712193581939714e-05,
+          "logical_branch_parity_commutator_normalized": 9.299271551729082e-10
+        },
+        {
+          "epsilon_real": -0.0004351613204593169,
+          "epsilon_imag": -0.000122381194295283,
+          "epsilon_abs": 0.0004520426213766088,
+          "low_frame_leakage_worst": 2.0513270643258267e-07,
+          "polar_logical_vs_target_distance": 1.3499708550117722e-05,
+          "logical_branch_parity_commutator_normalized": 9.283470105901884e-10
+        },
+        {
+          "epsilon_real": -0.0007653323468253378,
+          "epsilon_imag": 0.0010532290564033641,
+          "epsilon_abs": 0.001301931275586196,
+          "low_frame_leakage_worst": 2.0495463028050492e-07,
+          "polar_logical_vs_target_distance": 2.2733019113151787e-05,
+          "logical_branch_parity_commutator_normalized": 9.277078281074227e-10
+        },
+        {
+          "epsilon_real": 0.00029881693408790244,
+          "epsilon_imag": 0.0005854862190222714,
+          "epsilon_abs": 0.0006573322392540085,
+          "low_frame_leakage_worst": 2.055338459307704e-07,
+          "polar_logical_vs_target_distance": 9.890017113024826e-06,
+          "logical_branch_parity_commutator_normalized": 9.297891413148218e-10
+        },
+        {
+          "epsilon_real": -0.0002987303723885749,
+          "epsilon_imag": 0.00037265511588314363,
+          "epsilon_abs": 0.00047761037549585945,
+          "low_frame_leakage_worst": 2.052068612215715e-07,
+          "polar_logical_vs_target_distance": 9.885317072243618e-06,
+          "logical_branch_parity_commutator_normalized": 9.286133476852896e-10
+        },
+        {
+          "epsilon_real": -0.0010478999539841863,
+          "epsilon_imag": -0.0002146963141697882,
+          "epsilon_abs": 0.0010696676216835547,
+          "low_frame_leakage_worst": 2.048023337822138e-07,
+          "polar_logical_vs_target_distance": 3.081182486731427e-05,
+          "logical_branch_parity_commutator_normalized": 9.27161708874786e-10
+        },
+        {
+          "epsilon_real": -0.0006711181798307123,
+          "epsilon_imag": -0.0005403418040817906,
+          "epsilon_abs": 0.0008616083080713954,
+          "low_frame_leakage_worst": 2.050051219898311e-07,
+          "polar_logical_vs_target_distance": 2.0064453575500773e-05,
+          "logical_branch_parity_commutator_normalized": 9.278890216020077e-10
+        },
+        {
+          "epsilon_real": -0.00013753071447168683,
+          "epsilon_imag": -0.0005508553524989086,
+          "epsilon_abs": 0.0005677643144825056,
+          "low_frame_leakage_worst": 2.0529474135654052e-07,
+          "polar_logical_vs_target_distance": 6.1932352830711944e-06,
+          "logical_branch_parity_commutator_normalized": 9.289291439365538e-10
+        },
+        {
+          "epsilon_real": -0.00062257551146745,
+          "epsilon_imag": 0.000948831104010406,
+          "epsilon_abs": 0.0011348483296972167,
+          "low_frame_leakage_worst": 2.0503159167441727e-07,
+          "polar_logical_vs_target_distance": 1.869601516899504e-05,
+          "logical_branch_parity_commutator_normalized": 9.27984046898737e-10
+        },
+        {
+          "epsilon_real": 0.0007316645632824484,
+          "epsilon_imag": -0.0005263810186605237,
+          "epsilon_abs": 0.0009013378999961038,
+          "low_frame_leakage_worst": 2.0577300199892115e-07,
+          "polar_logical_vs_target_distance": 2.1781310166524382e-05,
+          "logical_branch_parity_commutator_normalized": 9.306503336449867e-10
+        },
+        {
+          "epsilon_real": 0.0006653674019875045,
+          "epsilon_imag": 4.057454335029324e-06,
+          "epsilon_abs": 0.0006653797731846696,
+          "low_frame_leakage_worst": 2.0573612220186026e-07,
+          "polar_logical_vs_target_distance": 1.9905746501472593e-05,
+          "logical_branch_parity_commutator_normalized": 9.305174577070737e-10
+        },
+        {
+          "epsilon_real": 0.001038207485408211,
+          "epsilon_imag": 0.0003275432315504234,
+          "epsilon_abs": 0.0010886502428659698,
+          "low_frame_leakage_worst": 2.0594353857613177e-07,
+          "polar_logical_vs_target_distance": 3.0536874067859826e-05,
+          "logical_branch_parity_commutator_normalized": 9.312651932025009e-10
+        },
+        {
+          "epsilon_real": -0.001033858338816952,
+          "epsilon_imag": -0.00017474959105879382,
+          "epsilon_abs": 0.001048523001329281,
+          "low_frame_leakage_worst": 2.048098542574912e-07,
+          "polar_logical_vs_target_distance": 3.040875466129663e-05,
+          "logical_branch_parity_commutator_normalized": 9.271887148283556e-10
+        },
+        {
+          "epsilon_real": 0.0004621749864896052,
+          "epsilon_imag": -0.0004893841851144651,
+          "epsilon_abs": 0.0006731289614752999,
+          "low_frame_leakage_worst": 2.0562383575384384e-07,
+          "polar_logical_vs_target_distance": 1.4240249010595215e-05,
+          "logical_branch_parity_commutator_normalized": 9.301130952383023e-10
+        },
+        {
+          "epsilon_real": 0.001504800396206457,
+          "epsilon_imag": -0.00043735256458087853,
+          "epsilon_abs": 0.0015670678026711482,
+          "low_frame_leakage_worst": 2.0620520385948243e-07,
+          "polar_logical_vs_target_distance": 4.3980444681085326e-05,
+          "logical_branch_parity_commutator_normalized": 9.3220954416374e-10
+        },
+        {
+          "epsilon_real": 0.00045135166876783756,
+          "epsilon_imag": -4.1820218957273566e-05,
+          "epsilon_abs": 0.0004532849651302655,
+          "low_frame_leakage_worst": 2.0561776354371926e-07,
+          "polar_logical_vs_target_distance": 1.3944440437962594e-05,
+          "logical_branch_parity_commutator_normalized": 9.300911806056298e-10
+        },
+        {
+          "epsilon_real": 0.0010626093011347714,
+          "epsilon_imag": 0.002106509637455927,
+          "epsilon_abs": 0.002359347659746827,
+          "low_frame_leakage_worst": 2.0595897002858254e-07,
+          "polar_logical_vs_target_distance": 3.123440145356887e-05,
+          "logical_branch_parity_commutator_normalized": 9.313207959850238e-10
+        },
+        {
+          "epsilon_real": -0.0002658101387462018,
+          "epsilon_imag": -0.00014503278479480013,
+          "epsilon_abs": 0.00030280280468583816,
+          "low_frame_leakage_worst": 2.0522472376297677e-07,
+          "polar_logical_vs_target_distance": 9.057492882948426e-06,
+          "logical_branch_parity_commutator_normalized": 9.286775579617147e-10
+        },
+        {
+          "epsilon_real": -0.00010061480528730453,
+          "epsilon_imag": 0.0003659508223305737,
+          "epsilon_abs": 0.0003795304248771438,
+          "low_frame_leakage_worst": 2.0531482064069944e-07,
+          "polar_logical_vs_target_distance": 5.562886508774437e-06,
+          "logical_branch_parity_commutator_normalized": 9.290013697588011e-10
+        },
+        {
+          "epsilon_real": 0.00023638579824353814,
+          "epsilon_imag": 0.0002656863233372233,
+          "epsilon_abs": 0.00035562264835030724,
+          "low_frame_leakage_worst": 2.0549940120660635e-07,
+          "polar_logical_vs_target_distance": 8.343267448328845e-06,
+          "logical_branch_parity_commutator_normalized": 9.296652184149307e-10
+        },
+        {
+          "epsilon_real": 0.0005452585528433212,
+          "epsilon_imag": -0.0010412653176783005,
+          "epsilon_abs": 0.0011753894466297054,
+          "low_frame_leakage_worst": 2.0567008538070394e-07,
+          "polar_logical_vs_target_distance": 1.6535347745373743e-05,
+          "logical_branch_parity_commutator_normalized": 9.302795695763939e-10
+        },
+        {
+          "epsilon_real": -0.0011599590937175306,
+          "epsilon_imag": -0.00030014323722569704,
+          "epsilon_abs": 0.0011981615341640358,
+          "low_frame_leakage_worst": 2.047423586741274e-07,
+          "polar_logical_vs_target_distance": 3.4032785327114945e-05,
+          "logical_branch_parity_commutator_normalized": 9.269468156256707e-10
+        },
+        {
+          "epsilon_real": -0.0004670438404875777,
+          "epsilon_imag": 0.00014488233843224294,
+          "epsilon_abs": 0.0004889998373486242,
+          "low_frame_leakage_worst": 2.051154199730193e-07,
+          "polar_logical_vs_target_distance": 1.4370907913849773e-05,
+          "logical_branch_parity_commutator_normalized": 9.28284986485174e-10
+        },
+        {
+          "epsilon_real": -0.00032750171028673194,
+          "epsilon_imag": 0.0004854433614299397,
+          "epsilon_abs": 0.0005855874207982387,
+          "low_frame_leakage_worst": 2.0519125673335785e-07,
+          "polar_logical_vs_target_distance": 1.0626537671906617e-05,
+          "logical_branch_parity_commutator_normalized": 9.28557289506039e-10
+        },
+        {
+          "epsilon_real": 0.0009829811410592363,
+          "epsilon_imag": -0.0001700140002157973,
+          "epsilon_abs": 0.0009975754026375627,
+          "low_frame_leakage_worst": 2.0591269482056412e-07,
+          "polar_logical_vs_target_distance": 2.8952755430928813e-05,
+          "logical_branch_parity_commutator_normalized": 9.311539244318413e-10
+        },
+        {
+          "epsilon_real": -0.00020883231255023658,
+          "epsilon_imag": 0.00016796323776537182,
+          "epsilon_abs": 0.0002679973582065811,
+          "low_frame_leakage_worst": 2.0525575342112644e-07,
+          "polar_logical_vs_target_distance": 7.694912099810479e-06,
+          "logical_branch_parity_commutator_normalized": 9.287890284021011e-10
+        },
+        {
+          "epsilon_real": -2.9222258848058272e-05,
+          "epsilon_imag": 0.0019153735131208194,
+          "epsilon_abs": 0.001915596417614361,
+          "low_frame_leakage_worst": 2.053552775078285e-07,
+          "polar_logical_vs_target_distance": 4.7922189877680564e-06,
+          "logical_branch_parity_commutator_normalized": 9.2914677326749e-10
+        },
+        {
+          "epsilon_real": -0.0005541294199537111,
+          "epsilon_imag": -0.0001663674939116285,
+          "epsilon_abs": 0.0005785650845744773,
+          "low_frame_leakage_worst": 2.0506825380632694e-07,
+          "polar_logical_vs_target_distance": 1.678070832133963e-05,
+          "logical_branch_parity_commutator_normalized": 9.281156354963205e-10
+        },
+        {
+          "epsilon_real": 0.0008066834336453897,
+          "epsilon_imag": 6.351226107113055e-05,
+          "epsilon_abs": 0.0008091798127884081,
+          "low_frame_leakage_worst": 2.0581454700785898e-07,
+          "polar_logical_vs_target_distance": 2.3913919911853302e-05,
+          "logical_branch_parity_commutator_normalized": 9.308000758667728e-10
+        },
+        {
+          "epsilon_real": -5.825331694622211e-05,
+          "epsilon_imag": -0.0001040010222536174,
+          "epsilon_abs": 0.0001192042850112127,
+          "low_frame_leakage_worst": 2.0533790894576842e-07,
+          "polar_logical_vs_target_distance": 5.027325705223903e-06,
+          "logical_branch_parity_commutator_normalized": 9.290844156366871e-10
+        },
+        {
+          "epsilon_real": -9.604706697851969e-05,
+          "epsilon_imag": -0.0005196980261377022,
+          "epsilon_abs": 0.0005284988906767923,
+          "low_frame_leakage_worst": 2.053173705026438e-07,
+          "polar_logical_vs_target_distance": 5.493758788850178e-06,
+          "logical_branch_parity_commutator_normalized": 9.290105644529821e-10
+        },
+        {
+          "epsilon_real": -0.00022461955553142507,
+          "epsilon_imag": -0.00104563572276488,
+          "epsilon_abs": 0.001069489602309984,
+          "low_frame_leakage_worst": 2.052475886354483e-07,
+          "polar_logical_vs_target_distance": 8.058388332468664e-06,
+          "logical_branch_parity_commutator_normalized": 9.287596751629027e-10
+        },
+        {
+          "epsilon_real": 0.00034740220124130456,
+          "epsilon_imag": 0.0007625113295485171,
+          "epsilon_abs": 0.000837921128219805,
+          "low_frame_leakage_worst": 2.055606916267709e-07,
+          "polar_logical_vs_target_distance": 1.1149553312638989e-05,
+          "logical_branch_parity_commutator_normalized": 9.298857565057164e-10
+        },
+        {
+          "epsilon_real": -0.0007822679849457148,
+          "epsilon_imag": 0.0016172350996461974,
+          "epsilon_abs": 0.0017964945220619727,
+          "low_frame_leakage_worst": 2.0494611466345733e-07,
+          "polar_logical_vs_target_distance": 2.3213090875982395e-05,
+          "logical_branch_parity_commutator_normalized": 9.276772483630057e-10
+        },
+        {
+          "epsilon_real": -0.0008823410002977328,
+          "epsilon_imag": -3.273201457950678e-05,
+          "epsilon_abs": 0.0008829479178212251,
+          "low_frame_leakage_worst": 2.0489119274080788e-07,
+          "polar_logical_vs_target_distance": 2.606900830733577e-05,
+          "logical_branch_parity_commutator_normalized": 9.274803283719259e-10
+        },
+        {
+          "epsilon_real": -0.001067337134137236,
+          "epsilon_imag": -0.0003675158032707299,
+          "epsilon_abs": 0.001128838528560227,
+          "low_frame_leakage_worst": 2.0479195414984838e-07,
+          "polar_logical_vs_target_distance": 3.1369937396575846e-05,
+          "logical_branch_parity_commutator_normalized": 9.271244897453764e-10
+        },
+        {
+          "epsilon_real": 0.0002775923116038531,
+          "epsilon_imag": 9.005634365925832e-05,
+          "epsilon_abs": 0.0002918349473501162,
+          "low_frame_leakage_worst": 2.0552203131225265e-07,
+          "polar_logical_vs_target_distance": 9.354011426981567e-06,
+          "logical_branch_parity_commutator_normalized": 9.297465818660833e-10
+        },
+        {
+          "epsilon_real": 0.000231897916442278,
+          "epsilon_imag": -0.00021732532808259886,
+          "epsilon_abs": 0.00031781589305206084,
+          "low_frame_leakage_worst": 2.0549692518988864e-07,
+          "polar_logical_vs_target_distance": 8.2362920067877e-06,
+          "logical_branch_parity_commutator_normalized": 9.296562737196849e-10
+        },
+        {
+          "epsilon_real": -0.0011566518688504504,
+          "epsilon_imag": 0.0003642265938448349,
+          "epsilon_abs": 0.001212643623402626,
+          "low_frame_leakage_worst": 2.0474414450940185e-07,
+          "polar_logical_vs_target_distance": 3.393759903632491e-05,
+          "logical_branch_parity_commutator_normalized": 9.26953210291357e-10
+        },
+        {
+          "epsilon_real": 0.0004926972911352833,
+          "epsilon_imag": -0.000640345640432016,
+          "epsilon_abs": 0.0008079561621228807,
+          "low_frame_leakage_worst": 2.056407599041987e-07,
+          "polar_logical_vs_target_distance": 1.5079293774671684e-05,
+          "logical_branch_parity_commutator_normalized": 9.301739900476151e-10
+        },
+        {
+          "epsilon_real": -0.00018735736334846422,
+          "epsilon_imag": -0.0006380634847779263,
+          "epsilon_abs": 0.0006650020994010766,
+          "low_frame_leakage_worst": 2.052676113622591e-07,
+          "polar_logical_vs_target_distance": 7.212009577770735e-06,
+          "logical_branch_parity_commutator_normalized": 9.288316894224295e-10
+        },
+        {
+          "epsilon_real": 0.000874978448554833,
+          "epsilon_imag": -0.0014659303273534638,
+          "epsilon_abs": 0.0017072020999547933,
+          "low_frame_leakage_worst": 2.058534166739047e-07,
+          "polar_logical_vs_target_distance": 2.5860092098750023e-05,
+          "logical_branch_parity_commutator_normalized": 9.309401659613325e-10
+        },
+        {
+          "epsilon_real": 0.0005539422496965849,
+          "epsilon_imag": -0.0008874469401242541,
+          "epsilon_abs": 0.001046142479557548,
+          "low_frame_leakage_worst": 2.056747642535273e-07,
+          "polar_logical_vs_target_distance": 1.677768520293394e-05,
+          "logical_branch_parity_commutator_normalized": 9.302964420755568e-10
+        },
+        {
+          "epsilon_real": -0.000329932912982253,
+          "epsilon_imag": -0.0007463966807324089,
+          "epsilon_abs": 0.0008160660096323781,
+          "low_frame_leakage_worst": 2.0519006640247628e-07,
+          "polar_logical_vs_target_distance": 1.0689128115055913e-05,
+          "logical_branch_parity_commutator_normalized": 9.285530400056894e-10
+        },
+        {
+          "epsilon_real": 0.000111123486683285,
+          "epsilon_imag": 0.0016936368938897598,
+          "epsilon_abs": 0.0016972785150461325,
+          "low_frame_leakage_worst": 2.0543179187334954e-07,
+          "polar_logical_vs_target_distance": 5.720067075579265e-06,
+          "logical_branch_parity_commutator_normalized": 9.294220116956376e-10
+        },
+        {
+          "epsilon_real": 5.250959307874728e-05,
+          "epsilon_imag": -0.000432207600778143,
+          "epsilon_abs": 0.00043538565380096556,
+          "low_frame_leakage_worst": 2.0539857263566494e-07,
+          "polar_logical_vs_target_distance": 4.973885900328881e-06,
+          "logical_branch_parity_commutator_normalized": 9.29302444122669e-10
+        },
+        {
+          "epsilon_real": -2.4325688081158933e-05,
+          "epsilon_imag": -0.0009617649521403615,
+          "epsilon_abs": 0.0009620725348258174,
+          "low_frame_leakage_worst": 2.0535682966273075e-07,
+          "polar_logical_vs_target_distance": 4.782184950353803e-06,
+          "logical_branch_parity_commutator_normalized": 9.291523636498284e-10
+        },
+        {
+          "epsilon_real": 0.0006872175081462145,
+          "epsilon_imag": -0.001072627552305705,
+          "epsilon_abs": 0.001273890799663778,
+          "low_frame_leakage_worst": 2.057487111265656e-07,
+          "polar_logical_vs_target_distance": 2.0521655078129212e-05,
+          "logical_branch_parity_commutator_normalized": 9.305628522063643e-10
+        },
+        {
+          "epsilon_real": -0.0015050508085598423,
+          "epsilon_imag": 0.0004580370036291683,
+          "epsilon_abs": 0.0015732055914724629,
+          "low_frame_leakage_worst": 2.045584853122417e-07,
+          "polar_logical_vs_target_distance": 4.398430918693279e-05,
+          "logical_branch_parity_commutator_normalized": 9.262882362594472e-10
+        },
+        {
+          "epsilon_real": 0.00012466214319074026,
+          "epsilon_imag": 0.0007006119895948406,
+          "epsilon_abs": 0.0007116163361734676,
+          "low_frame_leakage_worst": 2.0543823824477845e-07,
+          "polar_logical_vs_target_distance": 5.960259255889912e-06,
+          "logical_branch_parity_commutator_normalized": 9.294451075569728e-10
+        },
+        {
+          "epsilon_real": -0.0008555351414969318,
+          "epsilon_imag": 0.00017956431976898224,
+          "epsilon_abs": 0.0008741760253348706,
+          "low_frame_leakage_worst": 2.049056227761291e-07,
+          "polar_logical_vs_target_distance": 2.5303460090808278e-05,
+          "logical_branch_parity_commutator_normalized": 9.275320687887115e-10
+        },
+        {
+          "epsilon_real": 0.000686139300085833,
+          "epsilon_imag": 0.0006292509437158743,
+          "epsilon_abs": 0.0009309908105290811,
+          "low_frame_leakage_worst": 2.0574780032504994e-07,
+          "polar_logical_vs_target_distance": 2.049202363062818e-05,
+          "logical_branch_parity_commutator_normalized": 9.305595037866772e-10
+        },
+        {
+          "epsilon_real": -0.0003664066051006937,
+          "epsilon_imag": 0.0009656584098632033,
+          "epsilon_abs": 0.0010328358847372346,
+          "low_frame_leakage_worst": 2.0517040097706968e-07,
+          "polar_logical_vs_target_distance": 1.1648115439529646e-05,
+          "logical_branch_parity_commutator_normalized": 9.284824160493234e-10
+        },
+        {
+          "epsilon_real": -0.0002182126966726018,
+          "epsilon_imag": 0.001555684625864646,
+          "epsilon_abs": 0.0015709142039400982,
+          "low_frame_leakage_worst": 2.0525162105824306e-07,
+          "polar_logical_vs_target_distance": 7.904569730489615e-06,
+          "logical_branch_parity_commutator_normalized": 9.287741552661695e-10
+        },
+        {
+          "epsilon_real": -0.00010240182152471231,
+          "epsilon_imag": -0.0003760672230349901,
+          "epsilon_abs": 0.0003897597840886461,
+          "low_frame_leakage_worst": 2.053138480286747e-07,
+          "polar_logical_vs_target_distance": 5.590300894876491e-06,
+          "logical_branch_parity_commutator_normalized": 9.289977932412174e-10
+        },
+        {
+          "epsilon_real": -0.0010168896793469704,
+          "epsilon_imag": -0.00012376462432405952,
+          "epsilon_abs": 0.0010243936265891447,
+          "low_frame_leakage_worst": 2.0481894662831482e-07,
+          "polar_logical_vs_target_distance": 2.9921837739395212e-05,
+          "logical_branch_parity_commutator_normalized": 9.272212495213595e-10
+        },
+        {
+          "epsilon_real": -0.0017928203488874696,
+          "epsilon_imag": 0.0012874099147365881,
+          "epsilon_abs": 0.002207176724221932,
+          "low_frame_leakage_worst": 2.044066466816814e-07,
+          "polar_logical_vs_target_distance": 5.230428724617632e-05,
+          "logical_branch_parity_commutator_normalized": 9.257450051831491e-10
+        },
+        {
+          "epsilon_real": -0.000257696606514631,
+          "epsilon_imag": -0.0002735574822015732,
+          "epsilon_abs": 0.0003758207512599865,
+          "low_frame_leakage_worst": 2.0522916178314598e-07,
+          "polar_logical_vs_target_distance": 8.857230878913005e-06,
+          "logical_branch_parity_commutator_normalized": 9.286934715624137e-10
+        },
+        {
+          "epsilon_real": -0.00024684427479686237,
+          "epsilon_imag": -0.0007520410544088656,
+          "epsilon_abs": 0.0007915161675647487,
+          "low_frame_leakage_worst": 2.0523527014822465e-07,
+          "polar_logical_vs_target_distance": 8.591044735138136e-06,
+          "logical_branch_parity_commutator_normalized": 9.287154258157596e-10
+        },
+        {
+          "epsilon_real": -0.000338216344183057,
+          "epsilon_imag": 0.0006365097591928085,
+          "epsilon_abs": 0.0007207877420019288,
+          "low_frame_leakage_worst": 2.0518550221653827e-07,
+          "polar_logical_vs_target_distance": 1.0905789734347565e-05,
+          "logical_branch_parity_commutator_normalized": 9.285366450152287e-10
+        },
+        {
+          "epsilon_real": 0.0008104614890693432,
+          "epsilon_imag": 0.00036314547168582754,
+          "epsilon_abs": 0.0008881004779136308,
+          "low_frame_leakage_worst": 2.0581669971829335e-07,
+          "polar_logical_vs_target_distance": 2.4021407343033286e-05,
+          "logical_branch_parity_commutator_normalized": 9.308078614403534e-10
+        },
+        {
+          "epsilon_real": -2.9316253308905263e-05,
+          "epsilon_imag": 0.0009058333906470794,
+          "epsilon_abs": 0.000906307659859088,
+          "low_frame_leakage_worst": 2.0535405804367103e-07,
+          "polar_logical_vs_target_distance": 4.8062108129622935e-06,
+          "logical_branch_parity_commutator_normalized": 9.291423419331488e-10
+        },
+        {
+          "epsilon_real": -0.00026145833913616924,
+          "epsilon_imag": -9.488222275894758e-05,
+          "epsilon_abs": 0.0002781422285441796,
+          "low_frame_leakage_worst": 2.0522708735942116e-07,
+          "polar_logical_vs_target_distance": 8.949972061122982e-06,
+          "logical_branch_parity_commutator_normalized": 9.286859844378519e-10
+        },
+        {
+          "epsilon_real": 0.0013364022941769345,
+          "epsilon_imag": 0.0007681196456240005,
+          "epsilon_abs": 0.00154142105924206,
+          "low_frame_leakage_worst": 2.0611067438122753e-07,
+          "polar_logical_vs_target_distance": 3.9119222695151574e-05,
+          "logical_branch_parity_commutator_normalized": 9.318681527667047e-10
+        },
+        {
+          "epsilon_real": 0.0013203693585450294,
+          "epsilon_imag": 0.0008962977313909317,
+          "epsilon_abs": 0.0015958461286355722,
+          "low_frame_leakage_worst": 2.0610176382152004e-07,
+          "polar_logical_vs_target_distance": 3.8656707025520016e-05,
+          "logical_branch_parity_commutator_normalized": 9.318360014638726e-10
+        },
+        {
+          "epsilon_real": -0.0010667976909913932,
+          "epsilon_imag": -0.0006175208720089687,
+          "epsilon_abs": 0.0012326351207357694,
+          "low_frame_leakage_worst": 2.0479234248897626e-07,
+          "polar_logical_vs_target_distance": 3.135426239728393e-05,
+          "logical_branch_parity_commutator_normalized": 9.271259695762345e-10
+        },
+        {
+          "epsilon_real": -0.0007152656273450209,
+          "epsilon_imag": -0.0015140238222129101,
+          "epsilon_abs": 0.0016744769487483117,
+          "low_frame_leakage_worst": 2.0498210674562597e-07,
+          "polar_logical_vs_target_distance": 2.1310997436072214e-05,
+          "logical_branch_parity_commutator_normalized": 9.278064121350626e-10
+        },
+        {
+          "epsilon_real": 0.00108936686862239,
+          "epsilon_imag": -0.001112280948454911,
+          "epsilon_abs": 0.0015568844153462092,
+          "low_frame_leakage_worst": 2.0597258175998528e-07,
+          "polar_logical_vs_target_distance": 3.200540269183009e-05,
+          "logical_branch_parity_commutator_normalized": 9.313699430817613e-10
+        },
+        {
+          "epsilon_real": -0.00020703811042104017,
+          "epsilon_imag": 0.0009977355908289964,
+          "epsilon_abs": 0.0010189902297733778,
+          "low_frame_leakage_worst": 2.0525712655663324e-07,
+          "polar_logical_vs_target_distance": 7.650933285489245e-06,
+          "logical_branch_parity_commutator_normalized": 9.287939613617796e-10
+        },
+        {
+          "epsilon_real": -0.00014830107190629604,
+          "epsilon_imag": 0.0009670407912102724,
+          "epsilon_abs": 0.0009783461042970152,
+          "low_frame_leakage_worst": 2.0528912420839208e-07,
+          "polar_logical_vs_target_distance": 6.39723924639143e-06,
+          "logical_branch_parity_commutator_normalized": 9.289089647897982e-10
+        },
+        {
+          "epsilon_real": 0.00011168784041288444,
+          "epsilon_imag": -0.0007799648648029252,
+          "epsilon_abs": 0.0007879209122895135,
+          "low_frame_leakage_worst": 2.0543117231322254e-07,
+          "polar_logical_vs_target_distance": 5.738386231604073e-06,
+          "logical_branch_parity_commutator_normalized": 9.294197216822044e-10
+        },
+        {
+          "epsilon_real": -0.0002801998786032001,
+          "epsilon_imag": -0.000427298159810624,
+          "epsilon_abs": 0.0005109752335943432,
+          "low_frame_leakage_worst": 2.0521695941726745e-07,
+          "polar_logical_vs_target_distance": 9.41606862693235e-06,
+          "logical_branch_parity_commutator_normalized": 9.28649609522295e-10
+        },
+        {
+          "epsilon_real": 0.0007776722039161723,
+          "epsilon_imag": -3.158242737772652e-05,
+          "epsilon_abs": 0.0007783132444349808,
+          "low_frame_leakage_worst": 2.0579842848724797e-07,
+          "polar_logical_vs_target_distance": 2.3088265029863368e-05,
+          "logical_branch_parity_commutator_normalized": 9.307420391186952e-10
+        },
+        {
+          "epsilon_real": 0.00036193414075512826,
+          "epsilon_imag": 0.0007905970313584369,
+          "epsilon_abs": 0.000869505599888193,
+          "low_frame_leakage_worst": 2.0556871470676276e-07,
+          "polar_logical_vs_target_distance": 1.1533187799526142e-05,
+          "logical_branch_parity_commutator_normalized": 9.299146301031808e-10
+        },
+        {
+          "epsilon_real": -0.0003559479628210317,
+          "epsilon_imag": 0.00047483919481083084,
+          "epsilon_abs": 0.0005934401512916368,
+          "low_frame_leakage_worst": 2.0517579397735858e-07,
+          "polar_logical_vs_target_distance": 1.1372528114988573e-05,
+          "logical_branch_parity_commutator_normalized": 9.285018300397076e-10
+        },
+        {
+          "epsilon_real": -0.0007587674702449819,
+          "epsilon_imag": -0.00025681138070781956,
+          "epsilon_abs": 0.0008010494111869916,
+          "low_frame_leakage_worst": 2.0495774572192992e-07,
+          "polar_logical_vs_target_distance": 2.2547547056740568e-05,
+          "logical_branch_parity_commutator_normalized": 9.27719017040593e-10
+        },
+        {
+          "epsilon_real": 0.00038853670902489146,
+          "epsilon_imag": -0.0005184036606723082,
+          "epsilon_abs": 0.000647844988911964,
+          "low_frame_leakage_worst": 2.0558322778816082e-07,
+          "polar_logical_vs_target_distance": 1.224289709282548e-05,
+          "logical_branch_parity_commutator_normalized": 9.299668264019978e-10
+        },
+        {
+          "epsilon_real": 0.0010027933499901543,
+          "epsilon_imag": 0.000670437227426155,
+          "epsilon_abs": 0.0012062672086662002,
+          "low_frame_leakage_worst": 2.0592391971837744e-07,
+          "polar_logical_vs_target_distance": 2.952048794375555e-05,
+          "logical_branch_parity_commutator_normalized": 9.311944001258217e-10
+        },
+        {
+          "epsilon_real": 0.00030784937697703646,
+          "epsilon_imag": -0.00023561715204310627,
+          "epsilon_abs": 0.00038766826184516803,
+          "low_frame_leakage_worst": 2.0553869812212075e-07,
+          "polar_logical_vs_target_distance": 1.012190600104116e-05,
+          "logical_branch_parity_commutator_normalized": 9.298065283481395e-10
+        },
+        {
+          "epsilon_real": 0.001151467335092864,
+          "epsilon_imag": -0.00031941771504696544,
+          "epsilon_abs": 0.001194949664409211,
+          "low_frame_leakage_worst": 2.060068276301383e-07,
+          "polar_logical_vs_target_distance": 3.37918081316865e-05,
+          "logical_branch_parity_commutator_normalized": 9.314934168157864e-10
+        },
+        {
+          "epsilon_real": -0.0004025775151542451,
+          "epsilon_imag": -0.00031579214734695957,
+          "epsilon_abs": 0.0005116574401235365,
+          "low_frame_leakage_worst": 2.0515042132142706e-07,
+          "polar_logical_vs_target_distance": 1.261730200723527e-05,
+          "logical_branch_parity_commutator_normalized": 9.284106092126066e-10
+        },
+        {
+          "epsilon_real": -0.0004342805107485275,
+          "epsilon_imag": 0.0004867397968720183,
+          "epsilon_abs": 0.0006523152549764689,
+          "low_frame_leakage_worst": 2.051332746523854e-07,
+          "polar_logical_vs_target_distance": 1.3475358984546739e-05,
+          "logical_branch_parity_commutator_normalized": 9.283490806953653e-10
+        },
+        {
+          "epsilon_real": 0.001320689037787961,
+          "epsilon_imag": 0.0004739500013930033,
+          "epsilon_abs": 0.0014031564910421497,
+          "low_frame_leakage_worst": 2.06101700740569e-07,
+          "polar_logical_vs_target_distance": 3.866626772915156e-05,
+          "logical_branch_parity_commutator_normalized": 9.318358052697384e-10
+        },
+        {
+          "epsilon_real": 0.00013599202519967086,
+          "epsilon_imag": 0.0008277914295193573,
+          "epsilon_abs": 0.0008388876454589189,
+          "low_frame_leakage_worst": 2.0544453217919844e-07,
+          "polar_logical_vs_target_distance": 6.165219913185361e-06,
+          "logical_branch_parity_commutator_normalized": 9.294677790324754e-10
+        },
+        {
+          "epsilon_real": -0.0006336475935726234,
+          "epsilon_imag": -0.0013837440363807273,
+          "epsilon_abs": 0.0015219253697404496,
+          "low_frame_leakage_worst": 2.0502602037685654e-07,
+          "polar_logical_vs_target_distance": 1.900621132423918e-05,
+          "logical_branch_parity_commutator_normalized": 9.279640184316179e-10
+        }
+      ]
+    },
+    {
+      "sigma_rms_complex_epsilon_over_g": 0.002,
+      "samples": 100,
+      "pass_count_strict": 100,
+      "metrics": {
+        "low_frame_leakage_worst": {
+          "mean": 2.0539312592735139e-07,
+          "variance": 6.452312110411459e-19,
+          "maximum": 2.0715322496985227e-07
+        },
+        "polar_logical_vs_target_distance": {
+          "mean": 3.57692828611098e-05,
+          "variance": 5.487886621746456e-10,
+          "maximum": 9.267673108482619e-05
+        },
+        "logical_branch_parity_commutator_normalized": {
+          "mean": 9.292891249527863e-10,
+          "variance": 8.352966151248561e-24,
+          "maximum": 9.356414565276145e-10
+        }
+      },
+      "raw_samples": [
+        {
+          "epsilon_real": -0.0011062755757831658,
+          "epsilon_imag": -0.0009100118766915031,
+          "epsilon_abs": 0.0014324689404290644,
+          "low_frame_leakage_worst": 2.0477138008972618e-07,
+          "polar_logical_vs_target_distance": 3.248833248384288e-05,
+          "logical_branch_parity_commutator_normalized": 9.270507884145886e-10
+        },
+        {
+          "epsilon_real": -0.002257139013127344,
+          "epsilon_imag": -0.0015589619273255302,
+          "epsilon_abs": 0.0027431804197741005,
+          "low_frame_leakage_worst": 2.0416284815193813e-07,
+          "polar_logical_vs_target_distance": 6.575137119636748e-05,
+          "logical_branch_parity_commutator_normalized": 9.248737624371526e-10
+        },
+        {
+          "epsilon_real": -0.001051915621468054,
+          "epsilon_imag": 0.0004950531614950574,
+          "epsilon_abs": 0.0011625850968401297,
+          "low_frame_leakage_worst": 2.0480026191618075e-07,
+          "polar_logical_vs_target_distance": 3.092697502068674e-05,
+          "logical_branch_parity_commutator_normalized": 9.27154286308637e-10
+        },
+        {
+          "epsilon_real": -0.0005168399533245934,
+          "epsilon_imag": 0.0015023567864453607,
+          "epsilon_abs": 0.0015887729388213406,
+          "low_frame_leakage_worst": 2.050893485637866e-07,
+          "polar_logical_vs_target_distance": 1.574095378124978e-05,
+          "logical_branch_parity_commutator_normalized": 9.281913396007321e-10
+        },
+        {
+          "epsilon_real": -0.0019207915641782129,
+          "epsilon_imag": -0.0004096676995279777,
+          "epsilon_abs": 0.0019639928352859974,
+          "low_frame_leakage_worst": 2.0433855179224318e-07,
+          "polar_logical_vs_target_distance": 5.6008988309980685e-05,
+          "logical_branch_parity_commutator_normalized": 9.255014606755926e-10
+        },
+        {
+          "epsilon_real": -0.00013848581039458408,
+          "epsilon_imag": -0.0006231702092252668,
+          "epsilon_abs": 0.000638372484797479,
+          "low_frame_leakage_worst": 2.0529425501452467e-07,
+          "polar_logical_vs_target_distance": 6.210849968816418e-06,
+          "logical_branch_parity_commutator_normalized": 9.289273538608882e-10
+        },
+        {
+          "epsilon_real": -0.0011927457749893703,
+          "epsilon_imag": 0.00016526093633762264,
+          "epsilon_abs": 0.0012041402164341913,
+          "low_frame_leakage_worst": 2.0472480547668704e-07,
+          "polar_logical_vs_target_distance": 3.497646192733589e-05,
+          "logical_branch_parity_commutator_normalized": 9.268839642889871e-10
+        },
+        {
+          "epsilon_real": -0.0014123369608805296,
+          "epsilon_imag": -7.487842582062594e-05,
+          "epsilon_abs": 0.0014143204975261532,
+          "low_frame_leakage_worst": 2.0460769368926472e-07,
+          "polar_logical_vs_target_distance": 4.1307199574966046e-05,
+          "logical_branch_parity_commutator_normalized": 9.264643692769776e-10
+        },
+        {
+          "epsilon_real": -0.0011250822355027177,
+          "epsilon_imag": 0.0003579867149317976,
+          "epsilon_abs": 0.0011806627480832335,
+          "low_frame_leakage_worst": 2.047610317847345e-07,
+          "polar_logical_vs_target_distance": 3.302953380617396e-05,
+          "logical_branch_parity_commutator_normalized": 9.270137154771012e-10
+        },
+        {
+          "epsilon_real": 0.002735835626251791,
+          "epsilon_imag": -0.000681371915568067,
+          "epsilon_abs": 0.0028194084949140353,
+          "low_frame_leakage_worst": 2.0690695445254242e-07,
+          "polar_logical_vs_target_distance": 7.963457552109919e-05,
+          "logical_branch_parity_commutator_normalized": 9.347484475248167e-10
+        },
+        {
+          "epsilon_real": 0.0017849662281932018,
+          "epsilon_imag": 0.003515739911983389,
+          "epsilon_abs": 0.0039429090231075875,
+          "low_frame_leakage_worst": 2.0636857060700876e-07,
+          "polar_logical_vs_target_distance": 5.207622711375907e-05,
+          "logical_branch_parity_commutator_normalized": 9.32799774708563e-10
+        },
+        {
+          "epsilon_real": -0.000745352302896393,
+          "epsilon_imag": -0.0010677492957145965,
+          "epsilon_abs": 0.0013021668917354537,
+          "low_frame_leakage_worst": 2.0496541308056297e-07,
+          "polar_logical_vs_target_distance": 2.2165478532225332e-05,
+          "logical_branch_parity_commutator_normalized": 9.27746588039513e-10
+        },
+        {
+          "epsilon_real": -0.0031854932893519835,
+          "epsilon_imag": -0.00029996615795946683,
+          "epsilon_abs": 0.0031995854719678116,
+          "low_frame_leakage_worst": 2.0368058281569112e-07,
+          "polar_logical_vs_target_distance": 9.267673108482619e-05,
+          "logical_branch_parity_commutator_normalized": 9.231540981360902e-10
+        },
+        {
+          "epsilon_real": 0.0019283897497364122,
+          "epsilon_imag": 9.985460817006927e-05,
+          "epsilon_abs": 0.001930973321840895,
+          "low_frame_leakage_worst": 2.064446881308704e-07,
+          "polar_logical_vs_target_distance": 5.623239788353e-05,
+          "logical_branch_parity_commutator_normalized": 9.33074944705713e-10
+        },
+        {
+          "epsilon_real": 0.0018743857449757995,
+          "epsilon_imag": -9.167614824363777e-06,
+          "epsilon_abs": 0.0018744081642294592,
+          "low_frame_leakage_worst": 2.0641403352959078e-07,
+          "polar_logical_vs_target_distance": 5.466899760152859e-05,
+          "logical_branch_parity_commutator_normalized": 9.329641217764717e-10
+        },
+        {
+          "epsilon_real": 0.00037043034776935323,
+          "epsilon_imag": -0.002304850765703126,
+          "epsilon_abs": 0.0023344283443084753,
+          "low_frame_leakage_worst": 2.0557533067135918e-07,
+          "polar_logical_vs_target_distance": 1.1749788805257612e-05,
+          "logical_branch_parity_commutator_normalized": 9.299384436731015e-10
+        },
+        {
+          "epsilon_real": 0.00037910209324670894,
+          "epsilon_imag": -0.000486630801756313,
+          "epsilon_abs": 0.0006168694629514646,
+          "low_frame_leakage_worst": 2.0557801451914164e-07,
+          "polar_logical_vs_target_distance": 1.1990611798804194e-05,
+          "logical_branch_parity_commutator_normalized": 9.299481121347532e-10
+        },
+        {
+          "epsilon_real": -0.0001156677236926829,
+          "epsilon_imag": -0.0013314073324037002,
+          "epsilon_abs": 0.0013364222787287648,
+          "low_frame_leakage_worst": 2.0530727414715439e-07,
+          "polar_logical_vs_target_distance": 5.797998911089812e-06,
+          "logical_branch_parity_commutator_normalized": 9.289742509137479e-10
+        },
+        {
+          "epsilon_real": 0.0003551430304078399,
+          "epsilon_imag": -0.0009521953021355368,
+          "epsilon_abs": 0.001016268894267777,
+          "low_frame_leakage_worst": 2.0556508967819692e-07,
+          "polar_logical_vs_target_distance": 1.1352946940073147e-05,
+          "logical_branch_parity_commutator_normalized": 9.299015446241142e-10
+        },
+        {
+          "epsilon_real": -0.00041533444338981836,
+          "epsilon_imag": -0.0005376738436108699,
+          "epsilon_abs": 0.0006794084647465149,
+          "low_frame_leakage_worst": 2.0514357510214362e-07,
+          "polar_logical_vs_target_distance": 1.2961291035723592e-05,
+          "logical_branch_parity_commutator_normalized": 9.283859885129237e-10
+        },
+        {
+          "epsilon_real": -0.0005859328257542117,
+          "epsilon_imag": 8.597731052556082e-05,
+          "epsilon_abs": 0.0005922072054792344,
+          "low_frame_leakage_worst": 2.0505103965740272e-07,
+          "polar_logical_vs_target_distance": 1.7669194427697934e-05,
+          "logical_branch_parity_commutator_normalized": 9.280538240463722e-10
+        },
+        {
+          "epsilon_real": -0.0006854205816695031,
+          "epsilon_imag": -0.00014647371040031186,
+          "epsilon_abs": 0.0007008965127710327,
+          "low_frame_leakage_worst": 2.0499729086266352e-07,
+          "polar_logical_vs_target_distance": 2.0468837022489833e-05,
+          "logical_branch_parity_commutator_normalized": 9.278608690719147e-10
+        },
+        {
+          "epsilon_real": -0.0015424134601483876,
+          "epsilon_imag": 0.0019490535085244136,
+          "epsilon_abs": 0.002485527883798178,
+          "low_frame_leakage_worst": 2.045400839615121e-07,
+          "polar_logical_vs_target_distance": 4.5062013721978276e-05,
+          "logical_branch_parity_commutator_normalized": 9.262224025178852e-10
+        },
+        {
+          "epsilon_real": -6.57819056887127e-05,
+          "epsilon_imag": 0.001567789704066167,
+          "epsilon_abs": 0.0015691691480818498,
+          "low_frame_leakage_worst": 2.0533479830116692e-07,
+          "polar_logical_vs_target_distance": 5.093971239115981e-06,
+          "logical_branch_parity_commutator_normalized": 9.290731789988502e-10
+        },
+        {
+          "epsilon_real": 0.0026941955127805822,
+          "epsilon_imag": -0.0010711291600443808,
+          "epsilon_abs": 0.0028993114938868515,
+          "low_frame_leakage_worst": 2.0688324304443444e-07,
+          "polar_logical_vs_target_distance": 7.842666991177148e-05,
+          "logical_branch_parity_commutator_normalized": 9.346624576420786e-10
+        },
+        {
+          "epsilon_real": -0.0015430573640237125,
+          "epsilon_imag": -0.0014471081704040733,
+          "epsilon_abs": 0.002115454581294061,
+          "low_frame_leakage_worst": 2.045390598434992e-07,
+          "polar_logical_vs_target_distance": 4.508143786089296e-05,
+          "logical_branch_parity_commutator_normalized": 9.262187587285227e-10
+        },
+        {
+          "epsilon_real": 0.0019403624206174332,
+          "epsilon_imag": 0.002201637496035484,
+          "epsilon_abs": 0.0029346573884005164,
+          "low_frame_leakage_worst": 2.0645353466098717e-07,
+          "polar_logical_vs_target_distance": 5.657720524243176e-05,
+          "logical_branch_parity_commutator_normalized": 9.331070104907088e-10
+        },
+        {
+          "epsilon_real": -0.0004028059854428441,
+          "epsilon_imag": -0.00034820641028568704,
+          "epsilon_abs": 0.0005324475242431173,
+          "low_frame_leakage_worst": 2.0515030608567215e-07,
+          "polar_logical_vs_target_distance": 1.2623415760356006e-05,
+          "logical_branch_parity_commutator_normalized": 9.284102271047113e-10
+        },
+        {
+          "epsilon_real": -0.0010224419559559542,
+          "epsilon_imag": -0.0012097079635296245,
+          "epsilon_abs": 0.001583913163758048,
+          "low_frame_leakage_worst": 2.0481655368191806e-07,
+          "polar_logical_vs_target_distance": 3.0080042036431885e-05,
+          "logical_branch_parity_commutator_normalized": 9.272127174513521e-10
+        },
+        {
+          "epsilon_real": 0.0030945996207690325,
+          "epsilon_imag": 0.002832356837650765,
+          "epsilon_abs": 0.004195091425541389,
+          "low_frame_leakage_worst": 2.0711781574879775e-07,
+          "polar_logical_vs_target_distance": 9.004093290764183e-05,
+          "logical_branch_parity_commutator_normalized": 9.355129492358558e-10
+        },
+        {
+          "epsilon_real": 0.001114227616084214,
+          "epsilon_imag": 0.0009225582207421627,
+          "epsilon_abs": 0.00144658800323508,
+          "low_frame_leakage_worst": 2.0598631511894546e-07,
+          "polar_logical_vs_target_distance": 3.272027038494501e-05,
+          "logical_branch_parity_commutator_normalized": 9.31419465038939e-10
+        },
+        {
+          "epsilon_real": 0.00012157925025271803,
+          "epsilon_imag": -0.0005174276428958199,
+          "epsilon_abs": 0.0005315194067244743,
+          "low_frame_leakage_worst": 2.0543645590635503e-07,
+          "polar_logical_vs_target_distance": 5.907108970876269e-06,
+          "logical_branch_parity_commutator_normalized": 9.294387029480009e-10
+        },
+        {
+          "epsilon_real": -0.0013394905974538826,
+          "epsilon_imag": -0.002696755486077687,
+          "epsilon_abs": 0.00301110033249599,
+          "low_frame_leakage_worst": 2.0464940318670925e-07,
+          "polar_logical_vs_target_distance": 3.920127954094205e-05,
+          "logical_branch_parity_commutator_normalized": 9.266138120025409e-10
+        },
+        {
+          "epsilon_real": 0.0005394566505926757,
+          "epsilon_imag": 0.00033393507774575953,
+          "epsilon_abs": 0.0006344494574177951,
+          "low_frame_leakage_worst": 2.056664750848732e-07,
+          "polar_logical_vs_target_distance": 1.637526300152457e-05,
+          "logical_branch_parity_commutator_normalized": 9.30266647640361e-10
+        },
+        {
+          "epsilon_real": -0.0002841573611335647,
+          "epsilon_imag": -0.003063949550507948,
+          "epsilon_abs": 0.003077098024753883,
+          "low_frame_leakage_worst": 2.052185662723544e-07,
+          "polar_logical_vs_target_distance": 9.49448341677088e-06,
+          "logical_branch_parity_commutator_normalized": 9.286554560628631e-10
+        },
+        {
+          "epsilon_real": 0.0003067254996738199,
+          "epsilon_imag": -0.0008894204717756843,
+          "epsilon_abs": 0.0009408237389457364,
+          "low_frame_leakage_worst": 2.0553838287837542e-07,
+          "polar_logical_vs_target_distance": 1.0091350755728956e-05,
+          "logical_branch_parity_commutator_normalized": 9.298054445475266e-10
+        },
+        {
+          "epsilon_real": 0.000989992716088598,
+          "epsilon_imag": -0.0001557293133170906,
+          "epsilon_abs": 0.001002166252143172,
+          "low_frame_leakage_worst": 2.0591660285181407e-07,
+          "polar_logical_vs_target_distance": 2.9153763407749214e-05,
+          "logical_branch_parity_commutator_normalized": 9.31167980036563e-10
+        },
+        {
+          "epsilon_real": 0.0020781387045914687,
+          "epsilon_imag": 0.0007716589438602425,
+          "epsilon_abs": 0.002216780999819471,
+          "low_frame_leakage_worst": 2.0653009394329224e-07,
+          "polar_logical_vs_target_distance": 6.0568935905797516e-05,
+          "logical_branch_parity_commutator_normalized": 9.333838828786914e-10
+        },
+        {
+          "epsilon_real": -0.0002956395914089464,
+          "epsilon_imag": 7.684087241041919e-05,
+          "epsilon_abs": 0.0003054624161517143,
+          "low_frame_leakage_worst": 2.0520848801238708e-07,
+          "polar_logical_vs_target_distance": 9.806890729127774e-06,
+          "logical_branch_parity_commutator_normalized": 9.286191965413358e-10
+        },
+        {
+          "epsilon_real": 0.0008815639149342006,
+          "epsilon_imag": -0.0011840387227456664,
+          "epsilon_abs": 0.0014761783879583467,
+          "low_frame_leakage_worst": 2.0585677059605756e-07,
+          "polar_logical_vs_target_distance": 2.6048893876582554e-05,
+          "logical_branch_parity_commutator_normalized": 9.309523724819066e-10
+        },
+        {
+          "epsilon_real": -0.00034503632780846246,
+          "epsilon_imag": 0.0008591505641882142,
+          "epsilon_abs": 0.0009258454295682813,
+          "low_frame_leakage_worst": 2.051819318815985e-07,
+          "polar_logical_vs_target_distance": 1.108395494910191e-05,
+          "logical_branch_parity_commutator_normalized": 9.285238611538415e-10
+        },
+        {
+          "epsilon_real": -0.002831049154420461,
+          "epsilon_imag": -0.0009747052654725497,
+          "epsilon_abs": 0.0029941425599467907,
+          "low_frame_leakage_worst": 2.038636426700937e-07,
+          "polar_logical_vs_target_distance": 8.239290459309262e-05,
+          "logical_branch_parity_commutator_normalized": 9.238062346974162e-10
+        },
+        {
+          "epsilon_real": 0.0018282822347582147,
+          "epsilon_imag": -0.00013339764786019013,
+          "epsilon_abs": 0.0018331423464606133,
+          "low_frame_leakage_worst": 2.063878997073386e-07,
+          "polar_logical_vs_target_distance": 5.333457000088187e-05,
+          "logical_branch_parity_commutator_normalized": 9.328696728923219e-10
+        },
+        {
+          "epsilon_real": -0.0008251191560488597,
+          "epsilon_imag": 0.000573381076111317,
+          "epsilon_abs": 0.0010047823048408816,
+          "low_frame_leakage_worst": 2.0492211115155515e-07,
+          "polar_logical_vs_target_distance": 2.4435582079274347e-05,
+          "logical_branch_parity_commutator_normalized": 9.275911831156712e-10
+        },
+        {
+          "epsilon_real": 0.002029094906521895,
+          "epsilon_imag": -0.0005364949214207027,
+          "epsilon_abs": 0.0020988217981485003,
+          "low_frame_leakage_worst": 2.0650204679913243e-07,
+          "polar_logical_vs_target_distance": 5.914849744363167e-05,
+          "logical_branch_parity_commutator_normalized": 9.332824887736905e-10
+        },
+        {
+          "epsilon_real": -0.001210137584256585,
+          "epsilon_imag": -0.0021621187675691343,
+          "epsilon_abs": 0.0024777389971312627,
+          "low_frame_leakage_worst": 2.0471738257265338e-07,
+          "polar_logical_vs_target_distance": 3.547430887514076e-05,
+          "logical_branch_parity_commutator_normalized": 9.268573107445179e-10
+        },
+        {
+          "epsilon_real": 0.0012822491129681076,
+          "epsilon_imag": -0.0016921696472082,
+          "epsilon_abs": 0.002123111137609198,
+          "low_frame_leakage_worst": 2.0608123918070519e-07,
+          "polar_logical_vs_target_distance": 3.755642852343256e-05,
+          "logical_branch_parity_commutator_normalized": 9.317619835789225e-10
+        },
+        {
+          "epsilon_real": -0.0017794638177705013,
+          "epsilon_imag": -0.00023416785413425044,
+          "epsilon_abs": 0.0017948052993748953,
+          "low_frame_leakage_worst": 2.0441306282632e-07,
+          "polar_logical_vs_target_distance": 5.191848105106565e-05,
+          "logical_branch_parity_commutator_normalized": 9.25767874268267e-10
+        },
+        {
+          "epsilon_real": -0.000295705367838829,
+          "epsilon_imag": -0.002175000287671448,
+          "epsilon_abs": 0.002195009775818682,
+          "low_frame_leakage_worst": 2.0521038169400769e-07,
+          "polar_logical_vs_target_distance": 9.797636040984681e-06,
+          "logical_branch_parity_commutator_normalized": 9.286259349710664e-10
+        },
+        {
+          "epsilon_real": -0.0022241741331451162,
+          "epsilon_imag": -0.0017391105460280321,
+          "epsilon_abs": 0.0028233767134156484,
+          "low_frame_leakage_worst": 2.0418033995157204e-07,
+          "polar_logical_vs_target_distance": 6.479586415359511e-05,
+          "logical_branch_parity_commutator_normalized": 9.249362671732131e-10
+        },
+        {
+          "epsilon_real": 0.001461526536077494,
+          "epsilon_imag": 0.0007995318780747733,
+          "epsilon_abs": 0.0016659264808857718,
+          "low_frame_leakage_worst": 2.061810281415137e-07,
+          "polar_logical_vs_target_distance": 4.273036375711384e-05,
+          "logical_branch_parity_commutator_normalized": 9.321221759626198e-10
+        },
+        {
+          "epsilon_real": -0.000290225759539669,
+          "epsilon_imag": 0.00349563848608262,
+          "epsilon_abs": 0.0035076658074683184,
+          "low_frame_leakage_worst": 2.0521642124616558e-07,
+          "polar_logical_vs_target_distance": 9.642366259464386e-06,
+          "logical_branch_parity_commutator_normalized": 9.286477301794587e-10
+        },
+        {
+          "epsilon_real": -0.00088136364063842,
+          "epsilon_imag": -0.000964919385844785,
+          "epsilon_abs": 0.001306855496303431,
+          "low_frame_leakage_worst": 2.0489209450506026e-07,
+          "polar_logical_vs_target_distance": 2.6040259676459112e-05,
+          "logical_branch_parity_commutator_normalized": 9.274834984045054e-10
+        },
+        {
+          "epsilon_real": -0.0016513857690505448,
+          "epsilon_imag": -0.0024805640711245604,
+          "epsilon_abs": 0.0029799787028058963,
+          "low_frame_leakage_worst": 2.0448324622044671e-07,
+          "polar_logical_vs_target_distance": 4.8211042047007115e-05,
+          "logical_branch_parity_commutator_normalized": 9.260190042819268e-10
+        },
+        {
+          "epsilon_real": -0.00147009742227345,
+          "epsilon_imag": -0.0005842541066724185,
+          "epsilon_abs": 0.0015819416209641329,
+          "low_frame_leakage_worst": 2.0457711001593343e-07,
+          "polar_logical_vs_target_distance": 4.297467499005274e-05,
+          "logical_branch_parity_commutator_normalized": 9.263549947443603e-10
+        },
+        {
+          "epsilon_real": 0.0002713836774214523,
+          "epsilon_imag": 0.00021598177169706155,
+          "epsilon_abs": 0.00034683890507870147,
+          "low_frame_leakage_worst": 2.0551863244928037e-07,
+          "polar_logical_vs_target_distance": 9.198782363047222e-06,
+          "logical_branch_parity_commutator_normalized": 9.297344506440659e-10
+        },
+        {
+          "epsilon_real": -0.00039338783159865016,
+          "epsilon_imag": -0.0005391445813975898,
+          "epsilon_abs": 0.0006674060725677211,
+          "low_frame_leakage_worst": 2.0515548764617248e-07,
+          "polar_logical_vs_target_distance": 1.236983933774425e-05,
+          "logical_branch_parity_commutator_normalized": 9.284288660698188e-10
+        },
+        {
+          "epsilon_real": 0.0020675124954173153,
+          "epsilon_imag": 0.0003103930376556908,
+          "epsilon_abs": 0.0020906821270895923,
+          "low_frame_leakage_worst": 2.065238314135066e-07,
+          "polar_logical_vs_target_distance": 6.026131286893137e-05,
+          "logical_branch_parity_commutator_normalized": 9.333612359405079e-10
+        },
+        {
+          "epsilon_real": 0.0007853449702732839,
+          "epsilon_imag": 0.0010059040908564883,
+          "epsilon_abs": 0.0012761699582482591,
+          "low_frame_leakage_worst": 2.0580311021584941e-07,
+          "polar_logical_vs_target_distance": 2.3305504946513755e-05,
+          "logical_branch_parity_commutator_normalized": 9.307588903942945e-10
+        },
+        {
+          "epsilon_real": 0.0011431409059018001,
+          "epsilon_imag": -0.0028716198186509736,
+          "epsilon_abs": 0.0030907881702916876,
+          "low_frame_leakage_worst": 2.060055731952631e-07,
+          "polar_logical_vs_target_distance": 3.3547003872681976e-05,
+          "logical_branch_parity_commutator_normalized": 9.314888752564683e-10
+        },
+        {
+          "epsilon_real": -0.0012208325084373957,
+          "epsilon_imag": 0.0018952276932825715,
+          "epsilon_abs": 0.0022544001470552475,
+          "low_frame_leakage_worst": 2.047112333899106e-07,
+          "polar_logical_vs_target_distance": 3.578298200882657e-05,
+          "logical_branch_parity_commutator_normalized": 9.268352599531809e-10
+        },
+        {
+          "epsilon_real": 0.0021668077975337567,
+          "epsilon_imag": -0.000989214073066639,
+          "epsilon_abs": 0.002381932096808425,
+          "low_frame_leakage_worst": 2.0658079561237018e-07,
+          "polar_logical_vs_target_distance": 6.313761418285188e-05,
+          "logical_branch_parity_commutator_normalized": 9.335673022926004e-10
+        },
+        {
+          "epsilon_real": 0.0008713818567882442,
+          "epsilon_imag": 0.00021587232188409575,
+          "epsilon_abs": 0.0008977233425144735,
+          "low_frame_leakage_worst": 2.0585054070477912e-07,
+          "polar_logical_vs_target_distance": 2.5759228776610546e-05,
+          "logical_branch_parity_commutator_normalized": 9.309298365424595e-10
+        },
+        {
+          "epsilon_real": 0.0005091334742623217,
+          "epsilon_imag": 0.0012123507092252509,
+          "epsilon_abs": 0.0013149186806694136,
+          "low_frame_leakage_worst": 2.0565027806519776e-07,
+          "polar_logical_vs_target_distance": 1.5531876214161842e-05,
+          "logical_branch_parity_commutator_normalized": 9.302082352044851e-10
+        },
+        {
+          "epsilon_real": -0.0008060629316196807,
+          "epsilon_imag": -0.0010321420741406765,
+          "epsilon_abs": 0.001309600973939288,
+          "low_frame_leakage_worst": 2.049326695748491e-07,
+          "polar_logical_vs_target_distance": 2.3891902897253625e-05,
+          "logical_branch_parity_commutator_normalized": 9.27629092528036e-10
+        },
+        {
+          "epsilon_real": -0.003173576224064537,
+          "epsilon_imag": 0.0019150998604563715,
+          "epsilon_abs": 0.0037066418124048267,
+          "low_frame_leakage_worst": 2.036881000010955e-07,
+          "polar_logical_vs_target_distance": 9.233017517746737e-05,
+          "logical_branch_parity_commutator_normalized": 9.23180826412588e-10
+        },
+        {
+          "epsilon_real": 0.001873510823331302,
+          "epsilon_imag": 6.932978090132897e-05,
+          "epsilon_abs": 0.0018747931682346613,
+          "low_frame_leakage_worst": 2.0641353921835128e-07,
+          "polar_logical_vs_target_distance": 5.4643669575134336e-05,
+          "logical_branch_parity_commutator_normalized": 9.32962344847451e-10
+        },
+        {
+          "epsilon_real": 8.197376392998371e-05,
+          "epsilon_imag": 0.0014525123330808274,
+          "epsilon_abs": 0.0014548236235794212,
+          "low_frame_leakage_worst": 2.0541550274976486e-07,
+          "polar_logical_vs_target_distance": 5.291379624112413e-06,
+          "logical_branch_parity_commutator_normalized": 9.293634472738728e-10
+        },
+        {
+          "epsilon_real": 0.002784346863695754,
+          "epsilon_imag": 0.0012425198937902528,
+          "epsilon_abs": 0.003049006911083824,
+          "low_frame_leakage_worst": 2.0693540634257987e-07,
+          "polar_logical_vs_target_distance": 8.10413933035917e-05,
+          "logical_branch_parity_commutator_normalized": 9.348515284046024e-10
+        },
+        {
+          "epsilon_real": -0.0008775479190253546,
+          "epsilon_imag": -0.0014384486215925846,
+          "epsilon_abs": 0.0016849999368389714,
+          "low_frame_leakage_worst": 2.048946068100066e-07,
+          "polar_logical_vs_target_distance": 2.5930246140371032e-05,
+          "logical_branch_parity_commutator_normalized": 9.27492452591918e-10
+        },
+        {
+          "epsilon_real": -0.0013577897405913913,
+          "epsilon_imag": -0.00037416035379653515,
+          "epsilon_abs": 0.0014083994284322845,
+          "low_frame_leakage_worst": 2.0463678914592078e-07,
+          "polar_logical_vs_target_distance": 3.9733064354232454e-05,
+          "logical_branch_parity_commutator_normalized": 9.265686576867537e-10
+        },
+        {
+          "epsilon_real": 0.0020392850239325504,
+          "epsilon_imag": 0.00187811892743803,
+          "epsilon_abs": 0.0027723661580744633,
+          "low_frame_leakage_worst": 2.065092180981429e-07,
+          "polar_logical_vs_target_distance": 5.944245912206276e-05,
+          "logical_branch_parity_commutator_normalized": 9.333083680612794e-10
+        },
+        {
+          "epsilon_real": -0.0007199531423639487,
+          "epsilon_imag": 0.0022210715676859584,
+          "epsilon_abs": 0.0023348429146267387,
+          "low_frame_leakage_worst": 2.049806491966743e-07,
+          "polar_logical_vs_target_distance": 2.1441112197999315e-05,
+          "logical_branch_parity_commutator_normalized": 9.278011549370619e-10
+        },
+        {
+          "epsilon_real": -8.241994958827409e-05,
+          "epsilon_imag": 0.001452552127211333,
+          "epsilon_abs": 0.0014548885628653152,
+          "low_frame_leakage_worst": 2.053255664166168e-07,
+          "polar_logical_vs_target_distance": 5.295702989150565e-06,
+          "logical_branch_parity_commutator_normalized": 9.29039958879947e-10
+        },
+        {
+          "epsilon_real": -0.0016032585566838034,
+          "epsilon_imag": 0.0005441523140188258,
+          "epsilon_abs": 0.0016930858632780192,
+          "low_frame_leakage_worst": 2.045064070886368e-07,
+          "polar_logical_vs_target_distance": 4.682221779429534e-05,
+          "logical_branch_parity_commutator_normalized": 9.261019144720012e-10
+        },
+        {
+          "epsilon_real": 0.0012931309766384888,
+          "epsilon_imag": 0.00011815178263739754,
+          "epsilon_abs": 0.001298517449433163,
+          "low_frame_leakage_worst": 2.060861494816381e-07,
+          "polar_logical_vs_target_distance": 3.787182117468969e-05,
+          "logical_branch_parity_commutator_normalized": 9.317796881309272e-10
+        },
+        {
+          "epsilon_real": -0.001530271269115139,
+          "epsilon_imag": 0.0005059635755103918,
+          "epsilon_abs": 0.001611747280693384,
+          "low_frame_leakage_worst": 2.045451112334388e-07,
+          "polar_logical_vs_target_distance": 4.471290286283001e-05,
+          "logical_branch_parity_commutator_normalized": 9.262404084954967e-10
+        },
+        {
+          "epsilon_real": 0.00010995072827523609,
+          "epsilon_imag": -0.0007887397360630179,
+          "epsilon_abs": 0.0007963664570365919,
+          "low_frame_leakage_worst": 2.054302255922445e-07,
+          "polar_logical_vs_target_distance": 5.709922991975209e-06,
+          "logical_branch_parity_commutator_normalized": 9.294162837588729e-10
+        },
+        {
+          "epsilon_real": -0.0004850056335918124,
+          "epsilon_imag": -0.0013486961103811154,
+          "epsilon_abs": 0.0014332521281243385,
+          "low_frame_leakage_worst": 2.0510641661234572e-07,
+          "polar_logical_vs_target_distance": 1.486186789172819e-05,
+          "logical_branch_parity_commutator_normalized": 9.282525323344286e-10
+        },
+        {
+          "epsilon_real": -0.000990010228332404,
+          "epsilon_imag": -0.0010750368551910256,
+          "epsilon_abs": 0.0014614460278168978,
+          "low_frame_leakage_worst": 2.048338260105832e-07,
+          "polar_logical_vs_target_distance": 2.9150034719377357e-05,
+          "logical_branch_parity_commutator_normalized": 9.272746512601444e-10
+        },
+        {
+          "epsilon_real": -0.002319452963180889,
+          "epsilon_imag": 0.000517134816001715,
+          "epsilon_abs": 0.0023764028417609952,
+          "low_frame_leakage_worst": 2.0412940371014307e-07,
+          "polar_logical_vs_target_distance": 6.75580886430457e-05,
+          "logical_branch_parity_commutator_normalized": 9.247543728865639e-10
+        },
+        {
+          "epsilon_real": -0.0009237323652890257,
+          "epsilon_imag": 0.0014649354245567714,
+          "epsilon_abs": 0.001731853712298988,
+          "low_frame_leakage_worst": 2.0486981262772883e-07,
+          "polar_logical_vs_target_distance": 2.725074945464037e-05,
+          "logical_branch_parity_commutator_normalized": 9.2740363862484e-10
+        },
+        {
+          "epsilon_real": 5.214221859770209e-05,
+          "epsilon_imag": -0.0007689208491494943,
+          "epsilon_abs": 0.0007706867607641057,
+          "low_frame_leakage_worst": 2.0539853753100626e-07,
+          "polar_logical_vs_target_distance": 4.968713907465834e-06,
+          "logical_branch_parity_commutator_normalized": 9.293023224273379e-10
+        },
+        {
+          "epsilon_real": -0.0007227281492907152,
+          "epsilon_imag": -0.0017513595805115402,
+          "epsilon_abs": 0.0018946230121126314,
+          "low_frame_leakage_worst": 2.0497839544971428e-07,
+          "polar_logical_vs_target_distance": 2.152168226383825e-05,
+          "logical_branch_parity_commutator_normalized": 9.277930733767999e-10
+        },
+        {
+          "epsilon_real": 0.0023639981953887676,
+          "epsilon_imag": -0.0003527486681951049,
+          "epsilon_abs": 0.0023901713517475625,
+          "low_frame_leakage_worst": 2.0669313336919685e-07,
+          "polar_logical_vs_target_distance": 6.8852674524578e-05,
+          "logical_branch_parity_commutator_normalized": 9.33973835777243e-10
+        },
+        {
+          "epsilon_real": -0.0003648589515200503,
+          "epsilon_imag": 0.0008828286221884244,
+          "epsilon_abs": 0.0009552530715257723,
+          "low_frame_leakage_worst": 2.0517117917956952e-07,
+          "polar_logical_vs_target_distance": 1.16073413145392e-05,
+          "logical_branch_parity_commutator_normalized": 9.284852800193294e-10
+        },
+        {
+          "epsilon_real": -0.00022917195365988207,
+          "epsilon_imag": 0.0005430564869562377,
+          "epsilon_abs": 0.000589432042197858,
+          "low_frame_leakage_worst": 2.0524478272890937e-07,
+          "polar_logical_vs_target_distance": 8.168132870741406e-06,
+          "logical_branch_parity_commutator_normalized": 9.287495621272691e-10
+        },
+        {
+          "epsilon_real": 0.0009072079001214285,
+          "epsilon_imag": 0.000640058637719545,
+          "epsilon_abs": 0.0011102707929879683,
+          "low_frame_leakage_worst": 2.0587063255236175e-07,
+          "polar_logical_vs_target_distance": 2.6782821909386462e-05,
+          "logical_branch_parity_commutator_normalized": 9.310021947952421e-10
+        },
+        {
+          "epsilon_real": 0.0008084253150725839,
+          "epsilon_imag": -5.800310171940745e-05,
+          "epsilon_abs": 0.0008105034545634451,
+          "low_frame_leakage_worst": 2.058155147242278e-07,
+          "polar_logical_vs_target_distance": 2.396353272083236e-05,
+          "logical_branch_parity_commutator_normalized": 9.308035713000896e-10
+        },
+        {
+          "epsilon_real": -0.0011020687505183537,
+          "epsilon_imag": 0.0010723664250033907,
+          "epsilon_abs": 0.0015377012975033993,
+          "low_frame_leakage_worst": 2.0477376204052972e-07,
+          "polar_logical_vs_target_distance": 3.236718109450871e-05,
+          "logical_branch_parity_commutator_normalized": 9.270592234180311e-10
+        },
+        {
+          "epsilon_real": 0.002069440148232029,
+          "epsilon_imag": -0.0010875492781031537,
+          "epsilon_abs": 0.0023378079389499247,
+          "low_frame_leakage_worst": 2.0652538966692194e-07,
+          "polar_logical_vs_target_distance": 6.031675363292471e-05,
+          "logical_branch_parity_commutator_normalized": 9.333668795693677e-10
+        },
+        {
+          "epsilon_real": -0.000546133977374179,
+          "epsilon_imag": -0.0015049322300571615,
+          "epsilon_abs": 0.0016009632532657835,
+          "low_frame_leakage_worst": 2.0507349101338445e-07,
+          "polar_logical_vs_target_distance": 1.655485254027119e-05,
+          "logical_branch_parity_commutator_normalized": 9.281343712497975e-10
+        },
+        {
+          "epsilon_real": 0.0010344842786292386,
+          "epsilon_imag": -0.00211005303685616,
+          "epsilon_abs": 0.0023499960725662837,
+          "low_frame_leakage_worst": 2.0594327283182038e-07,
+          "polar_logical_vs_target_distance": 3.04267992721088e-05,
+          "logical_branch_parity_commutator_normalized": 9.31264278923591e-10
+        },
+        {
+          "epsilon_real": -0.0011649050245568647,
+          "epsilon_imag": 0.00039636670795343805,
+          "epsilon_abs": 0.0012304918867719833,
+          "low_frame_leakage_worst": 2.0473974081892204e-07,
+          "polar_logical_vs_target_distance": 3.417505740641894e-05,
+          "logical_branch_parity_commutator_normalized": 9.269373737014119e-10
+        },
+        {
+          "epsilon_real": -0.0010210338140357353,
+          "epsilon_imag": 0.0014253125094207434,
+          "epsilon_abs": 0.0017532899928179642,
+          "low_frame_leakage_worst": 2.048175381090674e-07,
+          "polar_logical_vs_target_distance": 3.003921044948328e-05,
+          "logical_branch_parity_commutator_normalized": 9.272162042224305e-10
+        },
+        {
+          "epsilon_real": 0.0024828674232122193,
+          "epsilon_imag": -0.0011571146073491051,
+          "epsilon_abs": 0.00273925991022925,
+          "low_frame_leakage_worst": 2.067617947809308e-07,
+          "polar_logical_vs_target_distance": 7.22983909356863e-05,
+          "logical_branch_parity_commutator_normalized": 9.342225806860438e-10
+        },
+        {
+          "epsilon_real": -0.0010478042483903912,
+          "epsilon_imag": 0.0010269176192695061,
+          "epsilon_abs": 0.0014671242414025824,
+          "low_frame_leakage_worst": 2.048027919597415e-07,
+          "polar_logical_vs_target_distance": 3.080832726995472e-05,
+          "logical_branch_parity_commutator_normalized": 9.271633651580848e-10
+        },
+        {
+          "epsilon_real": 0.003153858976189211,
+          "epsilon_imag": 0.0032078243151659226,
+          "epsilon_abs": 0.0044985512421955335,
+          "low_frame_leakage_worst": 2.0715322496985227e-07,
+          "polar_logical_vs_target_distance": 9.17600530741933e-05,
+          "logical_branch_parity_commutator_normalized": 9.356414565276145e-10
+        },
+        {
+          "epsilon_real": 0.0007409268603419849,
+          "epsilon_imag": 0.0010093009704097806,
+          "epsilon_abs": 0.001252062722568784,
+          "low_frame_leakage_worst": 2.0577845004754486e-07,
+          "polar_logical_vs_target_distance": 2.2043301423254807e-05,
+          "logical_branch_parity_commutator_normalized": 9.306699715036045e-10
+        },
+        {
+          "epsilon_real": 0.002080038982785555,
+          "epsilon_imag": 0.0007416363356447183,
+          "epsilon_abs": 0.002208299486993576,
+          "low_frame_leakage_worst": 2.0653115688168368e-07,
+          "polar_logical_vs_target_distance": 6.0623998156979534e-05,
+          "logical_branch_parity_commutator_normalized": 9.333877511114443e-10
+        }
+      ]
+    },
+    {
+      "sigma_rms_complex_epsilon_over_g": 0.003,
+      "samples": 100,
+      "pass_count_strict": 89,
+      "metrics": {
+        "low_frame_leakage_worst": {
+          "mean": 2.055032021833229e-07,
+          "variance": 1.5919450577923634e-18,
+          "maximum": 2.0929499077352186e-07
+        },
+        "polar_logical_vs_target_distance": {
+          "mean": 5.300555056925341e-05,
+          "variance": 1.610873878114425e-09,
+          "maximum": 0.00019533813974380011
+        },
+        "logical_branch_parity_commutator_normalized": {
+          "mean": 9.296940405992235e-10,
+          "variance": 2.0672643238228174e-23,
+          "maximum": 9.434509798485605e-10
+        }
+      },
+      "raw_samples": [
+        {
+          "epsilon_real": -0.00041862178984551727,
+          "epsilon_imag": 0.003080749244544538,
+          "epsilon_abs": 0.003109060969279182,
+          "low_frame_leakage_worst": 2.0514554183637214e-07,
+          "polar_logical_vs_target_distance": 1.3034894635648889e-05,
+          "logical_branch_parity_commutator_normalized": 9.283931324419783e-10
+        },
+        {
+          "epsilon_real": 0.00023410948942427048,
+          "epsilon_imag": -0.0006305922798013878,
+          "epsilon_abs": 0.0006726469180659378,
+          "low_frame_leakage_worst": 2.054982848881977e-07,
+          "polar_logical_vs_target_distance": 8.287965511804908e-06,
+          "logical_branch_parity_commutator_normalized": 9.296611667442324e-10
+        },
+        {
+          "epsilon_real": 0.002722379421321653,
+          "epsilon_imag": -0.0009482474827253135,
+          "epsilon_abs": 0.002882797773367135,
+          "low_frame_leakage_worst": 2.0689938171524863e-07,
+          "polar_logical_vs_target_distance": 7.924417170205821e-05,
+          "logical_branch_parity_commutator_normalized": 9.34720863956662e-10
+        },
+        {
+          "epsilon_real": 0.0011944409758725925,
+          "epsilon_imag": -0.0011122398347611267,
+          "epsilon_abs": 0.0016321049889247107,
+          "low_frame_leakage_worst": 2.0603135284258743e-07,
+          "polar_logical_vs_target_distance": 3.502782621832408e-05,
+          "logical_branch_parity_commutator_normalized": 9.315819666889665e-10
+        },
+        {
+          "epsilon_real": -0.0014621302836709954,
+          "epsilon_imag": -0.0015524564496526988,
+          "epsilon_abs": 0.002132591380104517,
+          "low_frame_leakage_worst": 2.0458217418594233e-07,
+          "polar_logical_vs_target_distance": 4.2743521633508564e-05,
+          "logical_branch_parity_commutator_normalized": 9.263731076920942e-10
+        },
+        {
+          "epsilon_real": 0.0014983529114574636,
+          "epsilon_imag": 0.0012661955658811131,
+          "epsilon_abs": 0.0019617116654417005,
+          "low_frame_leakage_worst": 2.0620216587789427e-07,
+          "polar_logical_vs_target_distance": 4.3793472909147666e-05,
+          "logical_branch_parity_commutator_normalized": 9.32198568055912e-10
+        },
+        {
+          "epsilon_real": 0.0007855503584453352,
+          "epsilon_imag": 0.0032748689432327517,
+          "epsilon_abs": 0.0033677672070682074,
+          "low_frame_leakage_worst": 2.0580726009563974e-07,
+          "polar_logical_vs_target_distance": 2.3302444624821273e-05,
+          "logical_branch_parity_commutator_normalized": 9.307738257369884e-10
+        },
+        {
+          "epsilon_real": -0.0005780067733117904,
+          "epsilon_imag": 0.0002558129087573625,
+          "epsilon_abs": 0.0006320854960218674,
+          "low_frame_leakage_worst": 2.05055350310753e-07,
+          "polar_logical_vs_target_distance": 1.744734883323022e-05,
+          "logical_branch_parity_commutator_normalized": 9.280692448066555e-10
+        },
+        {
+          "epsilon_real": -0.001733236159350345,
+          "epsilon_imag": 0.001943127937388396,
+          "epsilon_abs": 0.002603815232526843,
+          "low_frame_leakage_worst": 2.044389798726735e-07,
+          "polar_logical_vs_target_distance": 5.057943816095106e-05,
+          "logical_branch_parity_commutator_normalized": 9.25860731419821e-10
+        },
+        {
+          "epsilon_real": -4.32916619242619e-06,
+          "epsilon_imag": -0.001529124835918425,
+          "epsilon_abs": 0.0015291309641435136,
+          "low_frame_leakage_worst": 2.053683459991988e-07,
+          "polar_logical_vs_target_distance": 4.724677234009019e-06,
+          "logical_branch_parity_commutator_normalized": 9.291937969812898e-10
+        },
+        {
+          "epsilon_real": -0.0010615421993358932,
+          "epsilon_imag": -0.0007563408803276724,
+          "epsilon_abs": 0.0013034275462125708,
+          "low_frame_leakage_worst": 2.047952352534556e-07,
+          "polar_logical_vs_target_distance": 3.120317738432644e-05,
+          "logical_branch_parity_commutator_normalized": 9.27136302489019e-10
+        },
+        {
+          "epsilon_real": -0.002470790617591501,
+          "epsilon_imag": -2.2229231723751197e-06,
+          "epsilon_abs": 0.0024707916175520797,
+          "low_frame_leakage_worst": 2.0405032048364435e-07,
+          "polar_logical_vs_target_distance": 7.194528378642279e-05,
+          "logical_branch_parity_commutator_normalized": 9.244720535327762e-10
+        },
+        {
+          "epsilon_real": 0.0005107390964177804,
+          "epsilon_imag": -0.0014611774205488036,
+          "epsilon_abs": 0.0015478675262861827,
+          "low_frame_leakage_worst": 2.0565144041292118e-07,
+          "polar_logical_vs_target_distance": 1.5575345811382265e-05,
+          "logical_branch_parity_commutator_normalized": 9.302124704201582e-10
+        },
+        {
+          "epsilon_real": 0.00033408845694494186,
+          "epsilon_imag": -0.000626975846203474,
+          "epsilon_abs": 0.0007104321282053723,
+          "low_frame_leakage_worst": 2.0555328190477836e-07,
+          "polar_logical_vs_target_distance": 1.0800927911905919e-05,
+          "logical_branch_parity_commutator_normalized": 9.29859032506593e-10
+        },
+        {
+          "epsilon_real": -0.001958825319462856,
+          "epsilon_imag": 0.002710022650169868,
+          "epsilon_abs": 0.0033438330395823405,
+          "low_frame_leakage_worst": 2.043213764437753e-07,
+          "polar_logical_vs_target_distance": 5.7107599885995174e-05,
+          "logical_branch_parity_commutator_normalized": 9.254401625569835e-10
+        },
+        {
+          "epsilon_real": 0.0067207644494167145,
+          "epsilon_imag": -0.001893254658070782,
+          "epsilon_abs": 0.006982341153570933,
+          "low_frame_leakage_worst": 2.0929499077352186e-07,
+          "polar_logical_vs_target_distance": 0.00019533813974380011,
+          "logical_branch_parity_commutator_normalized": 9.434509798485605e-10
+        },
+        {
+          "epsilon_real": 0.000955635012790389,
+          "epsilon_imag": 0.0006499110564375436,
+          "epsilon_abs": 0.001155691420298105,
+          "low_frame_leakage_worst": 2.0589761437466479e-07,
+          "polar_logical_vs_target_distance": 2.8168860299571492e-05,
+          "logical_branch_parity_commutator_normalized": 9.310995481839842e-10
+        },
+        {
+          "epsilon_real": 0.00031076779348553703,
+          "epsilon_imag": 0.003741823534686326,
+          "epsilon_abs": 0.00375470637816066,
+          "low_frame_leakage_worst": 2.0554605525082736e-07,
+          "polar_logical_vs_target_distance": 1.016801233106554e-05,
+          "logical_branch_parity_commutator_normalized": 9.298330038713431e-10
+        },
+        {
+          "epsilon_real": -0.0031198455508921045,
+          "epsilon_imag": -0.001134817705851934,
+          "epsilon_abs": 0.003319826424218035,
+          "low_frame_leakage_worst": 2.0371479513192688e-07,
+          "polar_logical_vs_target_distance": 9.077154895915801e-05,
+          "logical_branch_parity_commutator_normalized": 9.232759107520891e-10
+        },
+        {
+          "epsilon_real": 0.0006370721027456625,
+          "epsilon_imag": 0.0008395498330495258,
+          "epsilon_abs": 0.0010538997989705979,
+          "low_frame_leakage_worst": 2.057207377028799e-07,
+          "polar_logical_vs_target_distance": 1.9107335938555784e-05,
+          "logical_branch_parity_commutator_normalized": 9.304620608597163e-10
+        },
+        {
+          "epsilon_real": 0.0018625207559423878,
+          "epsilon_imag": 0.00020040283304115824,
+          "epsilon_abs": 0.0018732711661174754,
+          "low_frame_leakage_worst": 2.064073206507412e-07,
+          "polar_logical_vs_target_distance": 5.432553647626489e-05,
+          "logical_branch_parity_commutator_normalized": 9.32939859594645e-10
+        },
+        {
+          "epsilon_real": 0.0025773970370647757,
+          "epsilon_imag": -0.004958704927436286,
+          "epsilon_abs": 0.005588535590300127,
+          "low_frame_leakage_worst": 2.0682603602321225e-07,
+          "polar_logical_vs_target_distance": 7.50341072359133e-05,
+          "logical_branch_parity_commutator_normalized": 9.344552512401324e-10
+        },
+        {
+          "epsilon_real": -0.000681776178443094,
+          "epsilon_imag": -7.401623581932429e-05,
+          "epsilon_abs": 0.00068578215247798,
+          "low_frame_leakage_worst": 2.049992516476439e-07,
+          "polar_logical_vs_target_distance": 2.0365850196491113e-05,
+          "logical_branch_parity_commutator_normalized": 9.278678944964015e-10
+        },
+        {
+          "epsilon_real": 0.0011033614507406997,
+          "epsilon_imag": 0.0037783190717547506,
+          "epsilon_abs": 0.003936127728995376,
+          "low_frame_leakage_worst": 2.0598584767367037e-07,
+          "polar_logical_vs_target_distance": 3.2399357947795854e-05,
+          "logical_branch_parity_commutator_normalized": 9.31417777886296e-10
+        },
+        {
+          "epsilon_real": -0.0007609094129751316,
+          "epsilon_imag": -0.002997941653547236,
+          "epsilon_abs": 0.003092998107472375,
+          "low_frame_leakage_worst": 2.0496020763667122e-07,
+          "polar_logical_vs_target_distance": 2.2599818204418238e-05,
+          "logical_branch_parity_commutator_normalized": 9.277278020784533e-10
+        },
+        {
+          "epsilon_real": -0.001371227137995552,
+          "epsilon_imag": -0.0006547908078412001,
+          "epsilon_abs": 0.001519544295507309,
+          "low_frame_leakage_worst": 2.0462974792250865e-07,
+          "polar_logical_vs_target_distance": 4.012058255077682e-05,
+          "logical_branch_parity_commutator_normalized": 9.26543399538979e-10
+        },
+        {
+          "epsilon_real": 0.005804269347936215,
+          "epsilon_imag": 0.00017020269043848554,
+          "epsilon_abs": 0.005806764298576652,
+          "low_frame_leakage_worst": 2.08728617691178e-07,
+          "polar_logical_vs_target_distance": 0.00016871719326529264,
+          "logical_branch_parity_commutator_normalized": 9.413786734056893e-10
+        },
+        {
+          "epsilon_real": 0.0015314043170890678,
+          "epsilon_imag": -0.00322940146131905,
+          "epsilon_abs": 0.0035741058994899198,
+          "low_frame_leakage_worst": 2.0622449694747203e-07,
+          "polar_logical_vs_target_distance": 4.474422416083657e-05,
+          "logical_branch_parity_commutator_normalized": 9.322792555677744e-10
+        },
+        {
+          "epsilon_real": -0.0008584479424773488,
+          "epsilon_imag": -0.0003329560276864269,
+          "epsilon_abs": 0.0009207565293367831,
+          "low_frame_leakage_worst": 2.0490408758575496e-07,
+          "polar_logical_vs_target_distance": 2.5386532543221368e-05,
+          "logical_branch_parity_commutator_normalized": 9.275265205673638e-10
+        },
+        {
+          "epsilon_real": -0.0009688596283331458,
+          "epsilon_imag": -0.0038442091434373977,
+          "epsilon_abs": 0.003964420880519818,
+          "low_frame_leakage_worst": 2.0485068086962352e-07,
+          "polar_logical_vs_target_distance": 2.8534047246928532e-05,
+          "logical_branch_parity_commutator_normalized": 9.273350573556088e-10
+        },
+        {
+          "epsilon_real": -0.0031273827027163844,
+          "epsilon_imag": -0.0032004736400642066,
+          "epsilon_abs": 0.00447476860742491,
+          "low_frame_leakage_worst": 2.0371441249489248e-07,
+          "polar_logical_vs_target_distance": 9.098847586580186e-05,
+          "logical_branch_parity_commutator_normalized": 9.232745710105205e-10
+        },
+        {
+          "epsilon_real": -0.0017957719183155898,
+          "epsilon_imag": 0.0034154474652996008,
+          "epsilon_abs": 0.0038587664053207887,
+          "low_frame_leakage_worst": 2.0440907766225036e-07,
+          "polar_logical_vs_target_distance": 5.238586727429119e-05,
+          "logical_branch_parity_commutator_normalized": 9.257536906907391e-10
+        },
+        {
+          "epsilon_real": 0.0022540845117839615,
+          "epsilon_imag": -0.0037720640541314574,
+          "epsilon_abs": 0.004394242166145942,
+          "low_frame_leakage_worst": 2.0663626046281644e-07,
+          "polar_logical_vs_target_distance": 6.566276676116699e-05,
+          "logical_branch_parity_commutator_normalized": 9.337680829817883e-10
+        },
+        {
+          "epsilon_real": -0.0013197615097588343,
+          "epsilon_imag": -0.0024517109755740505,
+          "epsilon_abs": 0.0027843593788143047,
+          "low_frame_leakage_worst": 2.046594127408643e-07,
+          "polar_logical_vs_target_distance": 3.863290043957274e-05,
+          "logical_branch_parity_commutator_normalized": 9.266496242970503e-10
+        },
+        {
+          "epsilon_real": 0.001296023107398873,
+          "epsilon_imag": -0.0018281586806793864,
+          "epsilon_abs": 0.0022409462413577053,
+          "low_frame_leakage_worst": 2.060891659885676e-07,
+          "polar_logical_vs_target_distance": 3.7953226568991745e-05,
+          "logical_branch_parity_commutator_normalized": 9.317905474057628e-10
+        },
+        {
+          "epsilon_real": 0.0010542152091203112,
+          "epsilon_imag": 0.001428541342998706,
+          "epsilon_abs": 0.0017754154656860258,
+          "low_frame_leakage_worst": 2.059532822828157e-07,
+          "polar_logical_vs_target_distance": 3.099502778969626e-05,
+          "logical_branch_parity_commutator_normalized": 9.313002692214917e-10
+        },
+        {
+          "epsilon_real": 0.003235173363545516,
+          "epsilon_imag": 0.0020073125467358127,
+          "epsilon_abs": 0.0038073153733933604,
+          "low_frame_leakage_worst": 2.0719783019950812e-07,
+          "polar_logical_vs_target_distance": 9.412090781315219e-05,
+          "logical_branch_parity_commutator_normalized": 9.358033266110952e-10
+        },
+        {
+          "epsilon_real": -0.00024343346537739023,
+          "epsilon_imag": -0.00025232273621308775,
+          "epsilon_abs": 0.00035060892070183343,
+          "low_frame_leakage_worst": 2.0523692207032712e-07,
+          "polar_logical_vs_target_distance": 8.509881511269102e-06,
+          "logical_branch_parity_commutator_normalized": 9.287212980083345e-10
+        },
+        {
+          "epsilon_real": -0.0014913473441037473,
+          "epsilon_imag": 0.0015405331061224417,
+          "epsilon_abs": 0.00214414531966109,
+          "low_frame_leakage_worst": 2.0456663160642908e-07,
+          "polar_logical_vs_target_distance": 4.358737205919636e-05,
+          "logical_branch_parity_commutator_normalized": 9.263174463949809e-10
+        },
+        {
+          "epsilon_real": 0.0019549975566764202,
+          "epsilon_imag": -0.0017003810912355824,
+          "epsilon_abs": 0.00259100584755077,
+          "low_frame_leakage_worst": 2.0646102089246645e-07,
+          "polar_logical_vs_target_distance": 5.700169913536239e-05,
+          "logical_branch_parity_commutator_normalized": 9.33134000125123e-10
+        },
+        {
+          "epsilon_real": -0.00021629746132519585,
+          "epsilon_imag": 0.0014496528694983267,
+          "epsilon_abs": 0.0014657005266494438,
+          "low_frame_leakage_worst": 2.0525253412123474e-07,
+          "polar_logical_vs_target_distance": 7.860936727513498e-06,
+          "logical_branch_parity_commutator_normalized": 9.287774899444452e-10
+        },
+        {
+          "epsilon_real": 0.0015505594401286978,
+          "epsilon_imag": -0.007274277462695054,
+          "epsilon_abs": 0.0074376977070626776,
+          "low_frame_leakage_worst": 2.06253169703789e-07,
+          "polar_logical_vs_target_distance": 4.528652661969138e-05,
+          "logical_branch_parity_commutator_normalized": 9.32382652692745e-10
+        },
+        {
+          "epsilon_real": -0.0047576993819381875,
+          "epsilon_imag": 0.0033951412443881186,
+          "epsilon_abs": 0.005844885582989654,
+          "low_frame_leakage_worst": 2.0288994383372674e-07,
+          "polar_logical_vs_target_distance": 0.0001383179099880059,
+          "logical_branch_parity_commutator_normalized": 9.203461026288418e-10
+        },
+        {
+          "epsilon_real": 0.0010887823790094555,
+          "epsilon_imag": 0.00041535738736925396,
+          "epsilon_abs": 0.0011653191957930248,
+          "low_frame_leakage_worst": 2.059718106887538e-07,
+          "polar_logical_vs_target_distance": 3.198937029487606e-05,
+          "logical_branch_parity_commutator_normalized": 9.313671139394266e-10
+        },
+        {
+          "epsilon_real": 0.004476820117101164,
+          "epsilon_imag": -0.00103391646350386,
+          "epsilon_abs": 0.004594660119572068,
+          "low_frame_leakage_worst": 2.079279922075705e-07,
+          "polar_logical_vs_target_distance": 0.00013016599259449592,
+          "logical_branch_parity_commutator_normalized": 9.384577462856247e-10
+        },
+        {
+          "epsilon_real": 0.0032382986234713,
+          "epsilon_imag": 0.001450798026992419,
+          "epsilon_abs": 0.0035484352734552185,
+          "low_frame_leakage_worst": 2.0719881854954767e-07,
+          "polar_logical_vs_target_distance": 9.421199230842041e-05,
+          "logical_branch_parity_commutator_normalized": 9.358069610549123e-10
+        },
+        {
+          "epsilon_real": -0.0025718499707233855,
+          "epsilon_imag": -0.0027230990177133938,
+          "epsilon_abs": 0.0037456215148065253,
+          "low_frame_leakage_worst": 2.0400063295866015e-07,
+          "polar_logical_vs_target_distance": 7.487357917727596e-05,
+          "logical_branch_parity_commutator_normalized": 9.242948066282496e-10
+        },
+        {
+          "epsilon_real": 0.0034430231380670803,
+          "epsilon_imag": 0.0009328939107881161,
+          "epsilon_abs": 0.003567169659274819,
+          "low_frame_leakage_worst": 2.0731771394457302e-07,
+          "polar_logical_vs_target_distance": 0.00010015367733239518,
+          "logical_branch_parity_commutator_normalized": 9.362385811963906e-10
+        },
+        {
+          "epsilon_real": 0.0036777163160390406,
+          "epsilon_imag": 0.0026971351960259657,
+          "epsilon_abs": 0.0045607165628771314,
+          "low_frame_leakage_worst": 2.0745798190408082e-07,
+          "polar_logical_vs_target_distance": 0.00010696474926621178,
+          "logical_branch_parity_commutator_normalized": 9.36748089013721e-10
+        },
+        {
+          "epsilon_real": 0.0011239193259045582,
+          "epsilon_imag": 0.00038693845855653343,
+          "epsilon_abs": 0.0011886614412236407,
+          "low_frame_leakage_worst": 2.059914405813891e-07,
+          "polar_logical_vs_target_distance": 3.299942731879213e-05,
+          "logical_branch_parity_commutator_normalized": 9.314379992156475e-10
+        },
+        {
+          "epsilon_real": -0.0029309663575245734,
+          "epsilon_imag": -0.0012815009088106137,
+          "epsilon_abs": 0.0031988761101710856,
+          "low_frame_leakage_worst": 2.038122726482227e-07,
+          "polar_logical_vs_target_distance": 8.529131396674504e-05,
+          "logical_branch_parity_commutator_normalized": 9.236231111311249e-10
+        },
+        {
+          "epsilon_real": 0.004038603325972227,
+          "epsilon_imag": -0.005487299638585413,
+          "epsilon_abs": 0.0068132792507113295,
+          "low_frame_leakage_worst": 2.0768058860567626e-07,
+          "polar_logical_vs_target_distance": 0.00011743921798523236,
+          "logical_branch_parity_commutator_normalized": 9.375573495057536e-10
+        },
+        {
+          "epsilon_real": 0.004602648018835195,
+          "epsilon_imag": -0.0047043753030035175,
+          "epsilon_abs": 0.006581452406330762,
+          "low_frame_leakage_worst": 2.0801237149654815e-07,
+          "polar_logical_vs_target_distance": 0.00013381773345660832,
+          "logical_branch_parity_commutator_normalized": 9.387651637997805e-10
+        },
+        {
+          "epsilon_real": -0.004026244436573694,
+          "epsilon_imag": -0.0004077001744071007,
+          "epsilon_abs": 0.004046833786462227,
+          "low_frame_leakage_worst": 2.032523508168448e-07,
+          "polar_logical_vs_target_distance": 0.00011708042407098242,
+          "logical_branch_parity_commutator_normalized": 9.216314029972114e-10
+        },
+        {
+          "epsilon_real": -5.857529375398125e-05,
+          "epsilon_imag": 0.0033065636023062606,
+          "epsilon_abs": 0.0033070823880174075,
+          "low_frame_leakage_worst": 2.0534221062874674e-07,
+          "polar_logical_vs_target_distance": 4.983234047059135e-06,
+          "logical_branch_parity_commutator_normalized": 9.290997253096791e-10
+        },
+        {
+          "epsilon_real": 0.0032543120745471004,
+          "epsilon_imag": -0.0009040036520896628,
+          "epsilon_abs": 0.003377538997781447,
+          "low_frame_leakage_worst": 2.0720758731556135e-07,
+          "polar_logical_vs_target_distance": 9.467696450606892e-05,
+          "logical_branch_parity_commutator_normalized": 9.358387352350001e-10
+        },
+        {
+          "epsilon_real": 0.00019975553397121176,
+          "epsilon_imag": -0.003932382267868612,
+          "epsilon_abs": 0.003937452548793395,
+          "low_frame_leakage_worst": 2.054856132375303e-07,
+          "polar_logical_vs_target_distance": 7.448234541115163e-06,
+          "logical_branch_parity_commutator_normalized": 9.29615444925614e-10
+        },
+        {
+          "epsilon_real": 0.0018119886527515363,
+          "epsilon_imag": 0.003957308334761071,
+          "epsilon_abs": 0.004352423708012556,
+          "low_frame_leakage_worst": 2.0638527317611826e-07,
+          "polar_logical_vs_target_distance": 5.28571567806171e-05,
+          "logical_branch_parity_commutator_normalized": 9.32860143865715e-10
+        },
+        {
+          "epsilon_real": 0.0007529489284354937,
+          "epsilon_imag": 4.755284620003453e-05,
+          "epsilon_abs": 0.0007544490453396321,
+          "low_frame_leakage_worst": 2.0578470108148027e-07,
+          "polar_logical_vs_target_distance": 2.238565785192064e-05,
+          "logical_branch_parity_commutator_normalized": 9.306924503718565e-10
+        },
+        {
+          "epsilon_real": -0.0013549051873863478,
+          "epsilon_imag": -0.0030005179917540425,
+          "epsilon_abs": 0.003292244870243729,
+          "low_frame_leakage_worst": 2.0464188431671006e-07,
+          "polar_logical_vs_target_distance": 3.964509595258227e-05,
+          "logical_branch_parity_commutator_normalized": 9.265868273336362e-10
+        },
+        {
+          "epsilon_real": 0.005847329825182058,
+          "epsilon_imag": 0.0022982177738369333,
+          "epsilon_abs": 0.006282759825144013,
+          "low_frame_leakage_worst": 2.087573009172013e-07,
+          "polar_logical_vs_target_distance": 0.00016996753587036298,
+          "logical_branch_parity_commutator_normalized": 9.414834147869387e-10
+        },
+        {
+          "epsilon_real": -0.0023955085461458674,
+          "epsilon_imag": 0.000936668367617056,
+          "epsilon_abs": 0.0025721214639966533,
+          "low_frame_leakage_worst": 2.0408992405237804e-07,
+          "polar_logical_vs_target_distance": 6.976251269474895e-05,
+          "logical_branch_parity_commutator_normalized": 9.2461335384383e-10
+        },
+        {
+          "epsilon_real": 0.0019585808626406587,
+          "epsilon_imag": 0.0017811500642491587,
+          "epsilon_abs": 0.002647363697506825,
+          "low_frame_leakage_worst": 2.0646317589360161e-07,
+          "polar_logical_vs_target_distance": 5.710535355558236e-05,
+          "logical_branch_parity_commutator_normalized": 9.331418785949767e-10
+        },
+        {
+          "epsilon_real": 0.0011821337135105746,
+          "epsilon_imag": -0.00249370789569615,
+          "epsilon_abs": 0.0027597136057344106,
+          "low_frame_leakage_worst": 2.0602654575684957e-07,
+          "polar_logical_vs_target_distance": 3.467039424004605e-05,
+          "logical_branch_parity_commutator_normalized": 9.315646579720961e-10
+        },
+        {
+          "epsilon_real": -0.0025110675038846845,
+          "epsilon_imag": 0.003172469896067112,
+          "epsilon_abs": 0.004045988785268408,
+          "low_frame_leakage_worst": 2.0403330773784875e-07,
+          "polar_logical_vs_target_distance": 7.311038494744035e-05,
+          "logical_branch_parity_commutator_normalized": 9.244113350852245e-10
+        },
+        {
+          "epsilon_real": 0.002844886167873462,
+          "epsilon_imag": -0.00034358485177212844,
+          "epsilon_abs": 0.0028655589085770034,
+          "low_frame_leakage_worst": 2.069697596019799e-07,
+          "polar_logical_vs_target_distance": 8.279784805988111e-05,
+          "logical_branch_parity_commutator_normalized": 9.34976025510081e-10
+        },
+        {
+          "epsilon_real": -0.0006998678152396125,
+          "epsilon_imag": 0.0015168784838089356,
+          "epsilon_abs": 0.0016705493986861816,
+          "low_frame_leakage_worst": 2.0499041840164025e-07,
+          "polar_logical_vs_target_distance": 2.087495337851607e-05,
+          "logical_branch_parity_commutator_normalized": 9.278362150182543e-10
+        },
+        {
+          "epsilon_real": 0.0011672842707148496,
+          "epsilon_imag": 0.004412959344730325,
+          "epsilon_abs": 0.004564730303851587,
+          "low_frame_leakage_worst": 2.0602377609987434e-07,
+          "polar_logical_vs_target_distance": 3.423571141335262e-05,
+          "logical_branch_parity_commutator_normalized": 9.315545838366697e-10
+        },
+        {
+          "epsilon_real": 0.0017424638479047571,
+          "epsilon_imag": -0.0031701075718849146,
+          "epsilon_abs": 0.003617424813120118,
+          "low_frame_leakage_worst": 2.063435332389429e-07,
+          "polar_logical_vs_target_distance": 5.084724383195036e-05,
+          "logical_branch_parity_commutator_normalized": 9.327092950517272e-10
+        },
+        {
+          "epsilon_real": -0.00027805655962654085,
+          "epsilon_imag": 0.00031697741863868684,
+          "epsilon_abs": 0.0004216516741081356,
+          "low_frame_leakage_worst": 2.052180920504028e-07,
+          "polar_logical_vs_target_distance": 9.362491868615485e-06,
+          "logical_branch_parity_commutator_normalized": 9.286537774615378e-10
+        },
+        {
+          "epsilon_real": 0.000517354079625212,
+          "epsilon_imag": -0.0011135078199444968,
+          "epsilon_abs": 0.0012278252761620425,
+          "low_frame_leakage_worst": 2.0565472538233006e-07,
+          "polar_logical_vs_target_distance": 1.5759904488356855e-05,
+          "logical_branch_parity_commutator_normalized": 9.302242588583406e-10
+        },
+        {
+          "epsilon_real": -0.00014775359281110718,
+          "epsilon_imag": -0.0010098599322261581,
+          "epsilon_abs": 0.0010206116827199318,
+          "low_frame_leakage_worst": 2.0528945750633048e-07,
+          "polar_logical_vs_target_distance": 6.386232154086527e-06,
+          "logical_branch_parity_commutator_normalized": 9.289101658047738e-10
+        },
+        {
+          "epsilon_real": -0.0029466479374636242,
+          "epsilon_imag": -0.00022504591311099813,
+          "epsilon_abs": 0.002955229217906217,
+          "low_frame_leakage_worst": 2.0380355434201746e-07,
+          "polar_logical_vs_target_distance": 8.574663542007919e-05,
+          "logical_branch_parity_commutator_normalized": 9.235921076504635e-10
+        },
+        {
+          "epsilon_real": -0.0027166201302543788,
+          "epsilon_imag": 0.003784915550025047,
+          "epsilon_abs": 0.004658928058354703,
+          "low_frame_leakage_worst": 2.0392816424158008e-07,
+          "polar_logical_vs_target_distance": 7.90706799857401e-05,
+          "logical_branch_parity_commutator_normalized": 9.240362662884533e-10
+        },
+        {
+          "epsilon_real": 0.00021330143134638667,
+          "epsilon_imag": 0.0029661784478333944,
+          "epsilon_abs": 0.002973837938591433,
+          "low_frame_leakage_worst": 2.0549031044037704e-07,
+          "polar_logical_vs_target_distance": 7.7755837875217e-06,
+          "logical_branch_parity_commutator_normalized": 9.296323830351289e-10
+        },
+        {
+          "epsilon_real": -1.0972604077342372e-05,
+          "epsilon_imag": -0.0017468508327332214,
+          "epsilon_abs": 0.0017468852938475918,
+          "low_frame_leakage_worst": 2.0536500464094044e-07,
+          "polar_logical_vs_target_distance": 4.730273861308822e-06,
+          "logical_branch_parity_commutator_normalized": 9.291816926172167e-10
+        },
+        {
+          "epsilon_real": -0.0010078743856366797,
+          "epsilon_imag": 0.0006847799992637836,
+          "epsilon_abs": 0.001218496788922409,
+          "low_frame_leakage_worst": 2.048239649522465e-07,
+          "polar_logical_vs_target_distance": 2.9662866847117658e-05,
+          "logical_branch_parity_commutator_normalized": 9.272392281591141e-10
+        },
+        {
+          "epsilon_real": 5.4275607751546766e-05,
+          "epsilon_imag": -0.0008273817188950766,
+          "epsilon_abs": 0.0008291600269903098,
+          "low_frame_leakage_worst": 2.053997441815391e-07,
+          "polar_logical_vs_target_distance": 4.987549000639569e-06,
+          "logical_branch_parity_commutator_normalized": 9.293067007053958e-10
+        },
+        {
+          "epsilon_real": -0.0013409462349018295,
+          "epsilon_imag": -0.0009591076299463815,
+          "epsilon_abs": 0.0016486431544511862,
+          "low_frame_leakage_worst": 2.0464607631295994e-07,
+          "polar_logical_vs_target_distance": 3.924674012036077e-05,
+          "logical_branch_parity_commutator_normalized": 9.266018836185814e-10
+        },
+        {
+          "epsilon_real": -0.0030529453047318123,
+          "epsilon_imag": 0.002405287121057016,
+          "epsilon_abs": 0.0038866285091846337,
+          "low_frame_leakage_worst": 2.0375098694385224e-07,
+          "polar_logical_vs_target_distance": 8.882942826980102e-05,
+          "logical_branch_parity_commutator_normalized": 9.234047791176289e-10
+        },
+        {
+          "epsilon_real": -0.002698140736377359,
+          "epsilon_imag": -0.0013461540610683663,
+          "epsilon_abs": 0.0030153099657298605,
+          "low_frame_leakage_worst": 2.039328332829762e-07,
+          "polar_logical_vs_target_distance": 7.853757342926071e-05,
+          "logical_branch_parity_commutator_normalized": 9.240529356473589e-10
+        },
+        {
+          "epsilon_real": -0.0036779788698412257,
+          "epsilon_imag": -0.002012950519727673,
+          "epsilon_abs": 0.004192791237573181,
+          "low_frame_leakage_worst": 2.0343037450843695e-07,
+          "polar_logical_vs_target_distance": 0.00010696957765241071,
+          "logical_branch_parity_commutator_normalized": 9.222639149715359e-10
+        },
+        {
+          "epsilon_real": 0.00047054876252086757,
+          "epsilon_imag": 0.0004586730126772815,
+          "epsilon_abs": 0.0006571126771478188,
+          "low_frame_leakage_worst": 2.0562844650443104e-07,
+          "polar_logical_vs_target_distance": 1.4469995517088586e-05,
+          "logical_branch_parity_commutator_normalized": 9.301297105168995e-10
+        },
+        {
+          "epsilon_real": -0.0013391823295330642,
+          "epsilon_imag": -0.0020738077564989043,
+          "epsilon_abs": 0.0024686206518314277,
+          "low_frame_leakage_worst": 2.046483739747757e-07,
+          "polar_logical_vs_target_distance": 3.9193969103197195e-05,
+          "logical_branch_parity_commutator_normalized": 9.266100927691426e-10
+        },
+        {
+          "epsilon_real": -0.0022541891019025985,
+          "epsilon_imag": -0.003132208862116798,
+          "epsilon_abs": 0.0038590284869458335,
+          "low_frame_leakage_worst": 2.0416731251124132e-07,
+          "polar_logical_vs_target_distance": 6.566367999060306e-05,
+          "logical_branch_parity_commutator_normalized": 9.248896440482329e-10
+        },
+        {
+          "epsilon_real": 0.0032008967653963877,
+          "epsilon_imag": -0.0027788536933506026,
+          "epsilon_abs": 0.004238840401781287,
+          "low_frame_leakage_worst": 2.071794744432588e-07,
+          "polar_logical_vs_target_distance": 9.312550513919837e-05,
+          "logical_branch_parity_commutator_normalized": 9.357366209499278e-10
+        },
+        {
+          "epsilon_real": 0.0030046298676344205,
+          "epsilon_imag": -0.003961001989048495,
+          "epsilon_abs": 0.004971653386824847,
+          "low_frame_leakage_worst": 2.0706891570957858e-07,
+          "polar_logical_vs_target_distance": 8.74289726325671e-05,
+          "logical_branch_parity_commutator_normalized": 9.353356073395796e-10
+        },
+        {
+          "epsilon_real": 0.001219258394685397,
+          "epsilon_imag": 0.0007841990142977207,
+          "epsilon_abs": 0.0014496755247421155,
+          "low_frame_leakage_worst": 2.060449911194724e-07,
+          "polar_logical_vs_target_distance": 3.574284735836357e-05,
+          "logical_branch_parity_commutator_normalized": 9.316311048619713e-10
+        },
+        {
+          "epsilon_real": 0.0011852937641150495,
+          "epsilon_imag": -0.0006193597973148383,
+          "epsilon_abs": 0.001337358540474431,
+          "low_frame_leakage_worst": 2.060258749267478e-07,
+          "polar_logical_vs_target_distance": 3.476505805387669e-05,
+          "logical_branch_parity_commutator_normalized": 9.315621477966447e-10
+        },
+        {
+          "epsilon_real": -0.003214744604735353,
+          "epsilon_imag": -0.00040753497308646213,
+          "epsilon_abs": 0.0032404733647977487,
+          "low_frame_leakage_worst": 2.0366559068497113e-07,
+          "polar_logical_vs_target_distance": 9.352554303962103e-05,
+          "logical_branch_parity_commutator_normalized": 9.231007587271703e-10
+        },
+        {
+          "epsilon_real": -0.0015159412309098384,
+          "epsilon_imag": 0.002508281090444074,
+          "epsilon_abs": 0.0029307937225693226,
+          "low_frame_leakage_worst": 2.0455513688412927e-07,
+          "polar_logical_vs_target_distance": 4.429595729790057e-05,
+          "logical_branch_parity_commutator_normalized": 9.262762498344381e-10
+        },
+        {
+          "epsilon_real": 0.001970032865049037,
+          "epsilon_imag": 2.1620263276241435e-05,
+          "epsilon_abs": 0.001970151498021777,
+          "low_frame_leakage_worst": 2.0646834069681884e-07,
+          "polar_logical_vs_target_distance": 5.743817438449565e-05,
+          "logical_branch_parity_commutator_normalized": 9.331605547059381e-10
+        },
+        {
+          "epsilon_real": -0.002863787303626746,
+          "epsilon_imag": -0.0007117787492543795,
+          "epsilon_abs": 0.002950916248947753,
+          "low_frame_leakage_worst": 2.0384653727804958e-07,
+          "polar_logical_vs_target_distance": 8.334270218873213e-05,
+          "logical_branch_parity_commutator_normalized": 9.237452743904601e-10
+        },
+        {
+          "epsilon_real": -0.0006000843637029021,
+          "epsilon_imag": -0.003462802918339495,
+          "epsilon_abs": 0.003514413933335292,
+          "low_frame_leakage_worst": 2.0504825721230463e-07,
+          "polar_logical_vs_target_distance": 1.805152998282578e-05,
+          "logical_branch_parity_commutator_normalized": 9.280438241980195e-10
+        },
+        {
+          "epsilon_real": 9.192174363211299e-05,
+          "epsilon_imag": 0.0002668339903346861,
+          "epsilon_abs": 0.0002822232898793068,
+          "low_frame_leakage_worst": 2.0542011665633612e-07,
+          "polar_logical_vs_target_distance": 5.436412196958243e-06,
+          "logical_branch_parity_commutator_normalized": 9.29379953444982e-10
+        },
+        {
+          "epsilon_real": 0.0011754702649803496,
+          "epsilon_imag": -0.0025037044060267546,
+          "epsilon_abs": 0.002765911440485895,
+          "low_frame_leakage_worst": 2.0602283669947198e-07,
+          "polar_logical_vs_target_distance": 3.447855203434414e-05,
+          "logical_branch_parity_commutator_normalized": 9.315512197212207e-10
+        },
+        {
+          "epsilon_real": -0.0021849605390632442,
+          "epsilon_imag": 0.0021909499458607593,
+          "epsilon_abs": 0.003094238876126213,
+          "low_frame_leakage_worst": 2.0420158598014843e-07,
+          "polar_logical_vs_target_distance": 6.365898527104099e-05,
+          "logical_branch_parity_commutator_normalized": 9.25012048274988e-10
+        },
+        {
+          "epsilon_real": -0.0010416187506076438,
+          "epsilon_imag": 0.0002684207011746335,
+          "epsilon_abs": 0.0010756483135470024,
+          "low_frame_leakage_worst": 2.0480571092362362e-07,
+          "polar_logical_vs_target_distance": 3.0631479489573506e-05,
+          "logical_branch_parity_commutator_normalized": 9.271738513970677e-10
+        },
+        {
+          "epsilon_real": -0.0003461457060642278,
+          "epsilon_imag": -0.0010299023443026965,
+          "epsilon_abs": 0.0010865153881224568,
+          "low_frame_leakage_worst": 2.0518146066838768e-07,
+          "polar_logical_vs_target_distance": 1.1112441505181408e-05,
+          "logical_branch_parity_commutator_normalized": 9.28522146034901e-10
+        },
+        {
+          "epsilon_real": -0.000628743254492141,
+          "epsilon_imag": 0.0010454583252841442,
+          "epsilon_abs": 0.0012199595034161161,
+          "low_frame_leakage_worst": 2.050283367491549e-07,
+          "polar_logical_vs_target_distance": 1.88692135138556e-05,
+          "logical_branch_parity_commutator_normalized": 9.279722221760111e-10
+        }
+      ]
+    },
+    {
+      "sigma_rms_complex_epsilon_over_g": 0.005,
+      "samples": 100,
+      "pass_count_strict": 72,
+      "metrics": {
+        "low_frame_leakage_worst": {
+          "mean": 2.0525399663868532e-07,
+          "variance": 3.530208012211979e-18,
+          "maximum": 2.109561818015618e-07
+        },
+        "polar_logical_vs_target_distance": {
+          "mean": 7.977772328859898e-05,
+          "variance": 3.696693359973249e-09,
+          "maximum": 0.0002712221071632263
+        },
+        "logical_branch_parity_commutator_normalized": {
+          "mean": 9.288172832813016e-10,
+          "variance": 4.568501873471761e-23,
+          "maximum": 9.495574070765913e-10
+        }
+      },
+      "raw_samples": [
+        {
+          "epsilon_real": -0.002169249570905777,
+          "epsilon_imag": -0.0015955959357420782,
+          "epsilon_abs": 0.002692873946368737,
+          "low_frame_leakage_worst": 2.0420892775083743e-07,
+          "polar_logical_vs_target_distance": 6.320448116451078e-05,
+          "logical_branch_parity_commutator_normalized": 9.250383164858617e-10
+        },
+        {
+          "epsilon_real": 0.0021068247771061106,
+          "epsilon_imag": 0.0037901837882964575,
+          "epsilon_abs": 0.004336381416629942,
+          "low_frame_leakage_worst": 2.0655227781823042e-07,
+          "polar_logical_vs_target_distance": 6.139552828418699e-05,
+          "logical_branch_parity_commutator_normalized": 9.33464169919205e-10
+        },
+        {
+          "epsilon_real": -0.004362433641634538,
+          "epsilon_imag": -0.0034892861007525763,
+          "epsilon_abs": 0.005586228134490203,
+          "low_frame_leakage_worst": 2.0308771593930387e-07,
+          "polar_logical_vs_target_distance": 0.00012684003416257275,
+          "logical_branch_parity_commutator_normalized": 9.210471119354122e-10
+        },
+        {
+          "epsilon_real": -0.0011026926077321606,
+          "epsilon_imag": -0.004948925230863226,
+          "epsilon_abs": 0.005070285191961276,
+          "low_frame_leakage_worst": 2.0478283882621236e-07,
+          "polar_logical_vs_target_distance": 3.237165392720864e-05,
+          "logical_branch_parity_commutator_normalized": 9.270918676303296e-10
+        },
+        {
+          "epsilon_real": -0.001449563180980125,
+          "epsilon_imag": -0.002819351127867257,
+          "epsilon_abs": 0.0031701694273113534,
+          "low_frame_leakage_worst": 2.0459107627990108e-07,
+          "polar_logical_vs_target_distance": 4.237788850591514e-05,
+          "logical_branch_parity_commutator_normalized": 9.264049807282897e-10
+        },
+        {
+          "epsilon_real": 0.005363900961387774,
+          "epsilon_imag": 0.0011666536407614967,
+          "epsilon_abs": 0.005489309085948681,
+          "low_frame_leakage_worst": 2.0846125527713597e-07,
+          "polar_logical_vs_target_distance": 0.00015592701917627782,
+          "logical_branch_parity_commutator_normalized": 9.404020806801153e-10
+        },
+        {
+          "epsilon_real": -0.002777014762172736,
+          "epsilon_imag": 0.0037373343237170546,
+          "epsilon_abs": 0.004656122725676258,
+          "low_frame_leakage_worst": 2.0389672068683576e-07,
+          "polar_logical_vs_target_distance": 8.082258954643446e-05,
+          "logical_branch_parity_commutator_normalized": 9.239241050308977e-10
+        },
+        {
+          "epsilon_real": -0.003464045730501136,
+          "epsilon_imag": 0.001764385558664636,
+          "epsilon_abs": 0.0038875016685047826,
+          "low_frame_leakage_worst": 2.0353906439037533e-07,
+          "polar_logical_vs_target_distance": 0.00010076008861474407,
+          "logical_branch_parity_commutator_normalized": 9.226503267967539e-10
+        },
+        {
+          "epsilon_real": 0.0006836956955770939,
+          "epsilon_imag": -0.006082983040450033,
+          "epsilon_abs": 0.006121284381120794,
+          "low_frame_leakage_worst": 2.0576163359930835e-07,
+          "polar_logical_vs_target_distance": 2.0392408800920247e-05,
+          "logical_branch_parity_commutator_normalized": 9.306094491501794e-10
+        },
+        {
+          "epsilon_real": -7.217979678249789e-05,
+          "epsilon_imag": -0.004673326626294658,
+          "epsilon_abs": 0.004673884003598952,
+          "low_frame_leakage_worst": 2.053392472605857e-07,
+          "polar_logical_vs_target_distance": 5.0933362311867765e-06,
+          "logical_branch_parity_commutator_normalized": 9.290891142553743e-10
+        },
+        {
+          "epsilon_real": -0.003181397291360108,
+          "epsilon_imag": -0.0023625056172357608,
+          "epsilon_abs": 0.003962665960807693,
+          "low_frame_leakage_worst": 2.036848275953108e-07,
+          "polar_logical_vs_target_distance": 9.255674997731379e-05,
+          "logical_branch_parity_commutator_normalized": 9.231691779049089e-10
+        },
+        {
+          "epsilon_real": 0.0036828923426620087,
+          "epsilon_imag": 0.0009372682429918767,
+          "epsilon_abs": 0.003800285221790535,
+          "low_frame_leakage_worst": 2.074582389104869e-07,
+          "polar_logical_vs_target_distance": 0.00010711606018775731,
+          "logical_branch_parity_commutator_normalized": 9.36749046901586e-10
+        },
+        {
+          "epsilon_real": -0.0030670513644841563,
+          "epsilon_imag": -0.005612906289701283,
+          "epsilon_abs": 0.006396211463777003,
+          "low_frame_leakage_worst": 2.0375376818516595e-07,
+          "polar_logical_vs_target_distance": 8.923475109481825e-05,
+          "logical_branch_parity_commutator_normalized": 9.234147979868711e-10
+        },
+        {
+          "epsilon_real": 0.0002765282902612706,
+          "epsilon_imag": -0.0018587241634926573,
+          "epsilon_abs": 0.001879181580174279,
+          "low_frame_leakage_worst": 2.0552286656761237e-07,
+          "polar_logical_vs_target_distance": 9.318883239170593e-06,
+          "logical_branch_parity_commutator_normalized": 9.297496096339181e-10
+        },
+        {
+          "epsilon_real": 0.0033411682527875355,
+          "epsilon_imag": 0.008908025718173371,
+          "epsilon_abs": 0.009514006910291454,
+          "low_frame_leakage_worst": 2.0729220793771874e-07,
+          "polar_logical_vs_target_distance": 9.71925408206804e-05,
+          "logical_branch_parity_commutator_normalized": 9.361458560940754e-10
+        },
+        {
+          "epsilon_real": 0.005747918928495559,
+          "epsilon_imag": -0.002970109924621667,
+          "epsilon_abs": 0.006469940105819656,
+          "low_frame_leakage_worst": 2.0869815673559953e-07,
+          "polar_logical_vs_target_distance": 0.00016707991636709247,
+          "logical_branch_parity_commutator_normalized": 9.41267290677766e-10
+        },
+        {
+          "epsilon_real": 0.009332872066671225,
+          "epsilon_imag": -5.074959338002086e-05,
+          "epsilon_abs": 0.009333010046821993,
+          "low_frame_leakage_worst": 2.109561818015618e-07,
+          "polar_logical_vs_target_distance": 0.0002712221071632263,
+          "logical_branch_parity_commutator_normalized": 9.495574070765913e-10
+        },
+        {
+          "epsilon_real": -0.007782862718340766,
+          "epsilon_imag": 0.00045825560760035964,
+          "epsilon_abs": 0.00779634210988947,
+          "low_frame_leakage_worst": 2.0142591415709864e-07,
+          "polar_logical_vs_target_distance": 0.00022618843354968023,
+          "logical_branch_parity_commutator_normalized": 9.15187028190919e-10
+        },
+        {
+          "epsilon_real": 0.0024837889379550355,
+          "epsilon_imag": -0.0052895473712788665,
+          "epsilon_abs": 0.005843673406455136,
+          "low_frame_leakage_worst": 2.0677369643063606e-07,
+          "polar_logical_vs_target_distance": 7.231900136018526e-05,
+          "logical_branch_parity_commutator_normalized": 9.34265580492487e-10
+        },
+        {
+          "epsilon_real": 0.0011408834214744754,
+          "epsilon_imag": -0.004961346629552669,
+          "epsilon_abs": 0.0050908324820179394,
+          "low_frame_leakage_worst": 2.0601115118358134e-07,
+          "polar_logical_vs_target_distance": 3.347347866724779e-05,
+          "logical_branch_parity_commutator_normalized": 9.315090263609008e-10
+        },
+        {
+          "epsilon_real": -0.0018510789562145042,
+          "epsilon_imag": 0.00486501949493122,
+          "epsilon_abs": 0.005205276936744193,
+          "low_frame_leakage_worst": 2.0438466307984393e-07,
+          "polar_logical_vs_target_distance": 5.3983027951330115e-05,
+          "logical_branch_parity_commutator_normalized": 9.256663840668198e-10
+        },
+        {
+          "epsilon_real": -0.005513242439933008,
+          "epsilon_imag": -0.007201121222824531,
+          "epsilon_abs": 0.009069288233775147,
+          "low_frame_leakage_worst": 2.025319095034027e-07,
+          "polar_logical_vs_target_distance": 0.00016025995272563956,
+          "logical_branch_parity_commutator_normalized": 9.190794788544848e-10
+        },
+        {
+          "epsilon_real": -8.222344123520571e-05,
+          "epsilon_imag": 0.003499877315214819,
+          "epsilon_abs": 0.0035008430293064913,
+          "low_frame_leakage_worst": 2.0532982877475384e-07,
+          "polar_logical_vs_target_distance": 5.252607053777124e-06,
+          "logical_branch_parity_commutator_normalized": 9.290552540623551e-10
+        },
+        {
+          "epsilon_real": -0.0023950672971902545,
+          "epsilon_imag": -0.0014264996729785862,
+          "epsilon_abs": 0.002787695943799869,
+          "low_frame_leakage_worst": 2.0409061132873612e-07,
+          "polar_logical_vs_target_distance": 6.974937377721347e-05,
+          "logical_branch_parity_commutator_normalized": 9.246158592854506e-10
+        },
+        {
+          "epsilon_real": 0.006251109536406907,
+          "epsilon_imag": -1.6673487553968516e-05,
+          "epsilon_abs": 0.0062511317728347875,
+          "low_frame_leakage_worst": 2.090027527534112e-07,
+          "polar_logical_vs_target_distance": 0.00018169604153496822,
+          "logical_branch_parity_commutator_normalized": 9.423811380997506e-10
+        },
+        {
+          "epsilon_real": 0.003098477761476919,
+          "epsilon_imag": 0.0020230734402066184,
+          "epsilon_abs": 0.0037004581585036818,
+          "low_frame_leakage_worst": 2.0711837419559428e-07,
+          "polar_logical_vs_target_distance": 9.015426502526888e-05,
+          "logical_branch_parity_commutator_normalized": 9.355150474360734e-10
+        },
+        {
+          "epsilon_real": 0.0008538185709718268,
+          "epsilon_imag": 0.00023609466481430556,
+          "epsilon_abs": 0.0008858593809912224,
+          "low_frame_leakage_worst": 2.0584077386444707e-07,
+          "polar_logical_vs_target_distance": 2.5257770894472574e-05,
+          "logical_branch_parity_commutator_normalized": 9.308947023573518e-10
+        },
+        {
+          "epsilon_real": -0.002056806432291383,
+          "epsilon_imag": -0.002047939468796301,
+          "epsilon_abs": 0.002902500433724151,
+          "low_frame_leakage_worst": 2.0426859364308617e-07,
+          "polar_logical_vs_target_distance": 5.994639222911001e-05,
+          "logical_branch_parity_commutator_normalized": 9.252514919040287e-10
+        },
+        {
+          "epsilon_real": -0.0013031931080830594,
+          "epsilon_imag": 0.0008156755017886651,
+          "epsilon_abs": 0.0015374130223116283,
+          "low_frame_leakage_worst": 2.0466609938794215e-07,
+          "polar_logical_vs_target_distance": 3.8158164402285415e-05,
+          "logical_branch_parity_commutator_normalized": 9.266736206633326e-10
+        },
+        {
+          "epsilon_real": -0.006024388367504461,
+          "epsilon_imag": -0.0008992928992581195,
+          "epsilon_abs": 0.006091139706260163,
+          "low_frame_leakage_worst": 2.0226356960942879e-07,
+          "polar_logical_vs_target_distance": 0.00017510735834615004,
+          "logical_branch_parity_commutator_normalized": 9.181320416943663e-10
+        },
+        {
+          "epsilon_real": -0.0033761927710266697,
+          "epsilon_imag": 0.0028166841212706206,
+          "epsilon_abs": 0.004396861046945967,
+          "low_frame_leakage_worst": 2.0358585685640393e-07,
+          "polar_logical_vs_target_distance": 9.820943559003504e-05,
+          "logical_branch_parity_commutator_normalized": 9.228168916794593e-10
+        },
+        {
+          "epsilon_real": 0.000714598207479847,
+          "epsilon_imag": 0.0026779304798021787,
+          "epsilon_abs": 0.0027716353029911666,
+          "low_frame_leakage_worst": 2.0576639467827965e-07,
+          "polar_logical_vs_target_distance": 2.129038936926226e-05,
+          "logical_branch_parity_commutator_normalized": 9.306265960857817e-10
+        },
+        {
+          "epsilon_real": 4.401536455399032e-05,
+          "epsilon_imag": 0.00260463002461306,
+          "epsilon_abs": 0.002605001903537241,
+          "low_frame_leakage_worst": 2.0539663022877677e-07,
+          "polar_logical_vs_target_distance": 4.873571353364668e-06,
+          "logical_branch_parity_commutator_normalized": 9.292954199657159e-10
+        },
+        {
+          "epsilon_real": 0.0029757533823587343,
+          "epsilon_imag": -0.0013081631047724305,
+          "epsilon_abs": 0.003250599775627152,
+          "low_frame_leakage_worst": 2.070461657065625e-07,
+          "polar_logical_vs_target_distance": 8.659400205849239e-05,
+          "logical_branch_parity_commutator_normalized": 9.352531239273101e-10
+        },
+        {
+          "epsilon_real": -0.0014125723374232746,
+          "epsilon_imag": -0.002780656808516985,
+          "epsilon_abs": 0.0031188800706672447,
+          "low_frame_leakage_worst": 2.046106676964104e-07,
+          "polar_logical_vs_target_distance": 4.1309982679883274e-05,
+          "logical_branch_parity_commutator_normalized": 9.264750705675806e-10
+        },
+        {
+          "epsilon_real": 0.0006755371745595051,
+          "epsilon_imag": -0.00765602237754343,
+          "epsilon_abs": 0.00768576795900433,
+          "low_frame_leakage_worst": 2.0576607768547066e-07,
+          "polar_logical_vs_target_distance": 2.015393574317824e-05,
+          "logical_branch_parity_commutator_normalized": 9.306253952636811e-10
+        },
+        {
+          "epsilon_real": -0.0008815085431239095,
+          "epsilon_imag": 0.0010668942894670372,
+          "epsilon_abs": 0.0013839511322650854,
+          "low_frame_leakage_worst": 2.0489210040839265e-07,
+          "polar_logical_vs_target_distance": 2.604421805644577e-05,
+          "logical_branch_parity_commutator_normalized": 9.274835052021608e-10
+        },
+        {
+          "epsilon_real": 0.006289895454579236,
+          "epsilon_imag": -0.0005718554404340782,
+          "epsilon_abs": 0.006315837511707421,
+          "low_frame_leakage_worst": 2.0902680432930183e-07,
+          "polar_logical_vs_target_distance": 0.00018282262601468138,
+          "logical_branch_parity_commutator_normalized": 9.424690540858707e-10
+        },
+        {
+          "epsilon_real": 0.001445986650419864,
+          "epsilon_imag": 0.0037912677222346255,
+          "epsilon_abs": 0.004057657986431407,
+          "low_frame_leakage_worst": 2.0617805099686495e-07,
+          "polar_logical_vs_target_distance": 4.2275034892252754e-05,
+          "logical_branch_parity_commutator_normalized": 9.321114326688368e-10
+        },
+        {
+          "epsilon_real": 0.001182170163045415,
+          "epsilon_imag": 0.004217850113295269,
+          "epsilon_abs": 0.0043803864980866405,
+          "low_frame_leakage_worst": 2.0603140507924474e-07,
+          "polar_logical_vs_target_distance": 3.4665092233778104e-05,
+          "logical_branch_parity_commutator_normalized": 9.31582065397802e-10
+        },
+        {
+          "epsilon_real": 0.005118955831080138,
+          "epsilon_imag": -0.00013025990237780911,
+          "epsilon_abs": 0.005120612897175184,
+          "low_frame_leakage_worst": 2.0831255976961542e-07,
+          "polar_logical_vs_target_distance": 0.0001488133756507909,
+          "logical_branch_parity_commutator_normalized": 9.398595709355136e-10
+        },
+        {
+          "epsilon_real": -0.0020784627788513303,
+          "epsilon_imag": -0.002544742463134359,
+          "epsilon_abs": 0.0032856843620088522,
+          "low_frame_leakage_worst": 2.0425812310537656e-07,
+          "polar_logical_vs_target_distance": 6.0572952492893533e-05,
+          "logical_branch_parity_commutator_normalized": 9.252140314396658e-10
+        },
+        {
+          "epsilon_real": -0.000555635688204216,
+          "epsilon_imag": 0.0014414792698468734,
+          "epsilon_abs": 0.0015448603507775222,
+          "low_frame_leakage_worst": 2.0506827241169642e-07,
+          "polar_logical_vs_target_distance": 1.68198935200888e-05,
+          "logical_branch_parity_commutator_normalized": 9.281156671950415e-10
+        },
+        {
+          "epsilon_real": -0.0037217052971531797,
+          "epsilon_imag": -0.0008932771483699314,
+          "epsilon_abs": 0.003827405698728311,
+          "low_frame_leakage_worst": 2.0340688495445885e-07,
+          "polar_logical_vs_target_distance": 0.00010823941344863598,
+          "logical_branch_parity_commutator_normalized": 9.221804110058283e-10
+        },
+        {
+          "epsilon_real": -0.001143010378371439,
+          "epsilon_imag": 0.003990506721426909,
+          "epsilon_abs": 0.00415097779069199,
+          "low_frame_leakage_worst": 2.0475780331906933e-07,
+          "polar_logical_vs_target_distance": 3.353560819576397e-05,
+          "logical_branch_parity_commutator_normalized": 9.270021534858812e-10
+        },
+        {
+          "epsilon_real": 0.0021009978780662276,
+          "epsilon_imag": -0.0023795875257639344,
+          "epsilon_abs": 0.003174370626818821,
+          "low_frame_leakage_worst": 2.065452645829701e-07,
+          "polar_logical_vs_target_distance": 6.122937710049512e-05,
+          "logical_branch_parity_commutator_normalized": 9.334387612490116e-10
+        },
+        {
+          "epsilon_real": -0.0018721681065331326,
+          "epsilon_imag": 2.4185854907106658e-05,
+          "epsilon_abs": 0.0018723243241216096,
+          "low_frame_leakage_worst": 2.0436411249790325e-07,
+          "polar_logical_vs_target_distance": 5.460144211877652e-05,
+          "logical_branch_parity_commutator_normalized": 9.255929641923143e-10
+        },
+        {
+          "epsilon_real": 0.0006543996326875683,
+          "epsilon_imag": -0.002613528796161517,
+          "epsilon_abs": 0.002694210765257071,
+          "low_frame_leakage_worst": 2.057328767486981e-07,
+          "polar_logical_vs_target_distance": 1.958859975224733e-05,
+          "logical_branch_parity_commutator_normalized": 9.305057748204619e-10
+        },
+        {
+          "epsilon_real": 0.0007744028213735073,
+          "epsilon_imag": 8.250986335438624e-05,
+          "epsilon_abs": 0.0007787859829901972,
+          "low_frame_leakage_worst": 2.0579661515520458e-07,
+          "polar_logical_vs_target_distance": 2.2995291347647436e-05,
+          "logical_branch_parity_commutator_normalized": 9.307354234856803e-10
+        },
+        {
+          "epsilon_real": 0.0032262888812131744,
+          "epsilon_imag": 0.0005560260057583561,
+          "epsilon_abs": 0.003273851686335126,
+          "low_frame_leakage_worst": 2.07191051336614e-07,
+          "polar_logical_vs_target_distance": 9.38638557925727e-05,
+          "logical_branch_parity_commutator_normalized": 9.357788117619674e-10
+        },
+        {
+          "epsilon_real": -0.002441838766340001,
+          "epsilon_imag": -0.00493333985647194,
+          "epsilon_abs": 0.005504581609918726,
+          "low_frame_leakage_worst": 2.0407501357881462e-07,
+          "polar_logical_vs_target_distance": 7.110001766060096e-05,
+          "logical_branch_parity_commutator_normalized": 9.245601920131973e-10
+        },
+        {
+          "epsilon_real": 0.0028568941892560336,
+          "epsilon_imag": -0.0008691866928979425,
+          "epsilon_abs": 0.00298618986598571,
+          "low_frame_leakage_worst": 2.0697697335987968e-07,
+          "polar_logical_vs_target_distance": 8.314602522458847e-05,
+          "logical_branch_parity_commutator_normalized": 9.350022223762582e-10
+        },
+        {
+          "epsilon_real": 0.006777292692580093,
+          "epsilon_imag": -0.002067073614471222,
+          "epsilon_abs": 0.0070855126538975745,
+          "low_frame_leakage_worst": 2.0933045427256706e-07,
+          "polar_logical_vs_target_distance": 0.00019698016209802448,
+          "logical_branch_parity_commutator_normalized": 9.435808948712766e-10
+        },
+        {
+          "epsilon_real": 0.000428010896396867,
+          "epsilon_imag": -0.005265153374048736,
+          "epsilon_abs": 0.005282521498270617,
+          "low_frame_leakage_worst": 2.0561633837000648e-07,
+          "polar_logical_vs_target_distance": 1.3269401609643043e-05,
+          "logical_branch_parity_commutator_normalized": 9.300860212851172e-10
+        },
+        {
+          "epsilon_real": 0.001489595930779309,
+          "epsilon_imag": -0.00362726876227741,
+          "epsilon_abs": 0.003921221073949767,
+          "low_frame_leakage_worst": 2.0620208929736128e-07,
+          "polar_logical_vs_target_distance": 4.353512591762696e-05,
+          "logical_branch_parity_commutator_normalized": 9.321982895004859e-10
+        },
+        {
+          "epsilon_real": -0.006607526903196052,
+          "epsilon_imag": -0.002320868814905556,
+          "epsilon_abs": 0.007003273793909583,
+          "low_frame_leakage_worst": 2.0198416191418857e-07,
+          "polar_logical_vs_target_distance": 0.00019204556060768666,
+          "logical_branch_parity_commutator_normalized": 9.171476095788559e-10
+        },
+        {
+          "epsilon_real": -0.0019214734394560487,
+          "epsilon_imag": -0.007946522804222353,
+          "epsilon_abs": 0.008175529637678584,
+          "low_frame_leakage_worst": 2.0436325714449593e-07,
+          "polar_logical_vs_target_distance": 5.6015979348006484e-05,
+          "logical_branch_parity_commutator_normalized": 9.255899186801409e-10
+        },
+        {
+          "epsilon_real": -0.00020994118178632002,
+          "epsilon_imag": 0.0048941183178321706,
+          "epsilon_abs": 0.004898619132852669,
+          "low_frame_leakage_worst": 2.0526493386556862e-07,
+          "polar_logical_vs_target_distance": 7.659961842554506e-06,
+          "logical_branch_parity_commutator_normalized": 9.288220397909253e-10
+        },
+        {
+          "epsilon_real": -0.0014909398389811113,
+          "epsilon_imag": -0.002228947948861141,
+          "epsilon_abs": 0.002681624612467843,
+          "low_frame_leakage_worst": 2.0456788770479658e-07,
+          "polar_logical_vs_target_distance": 4.3574325082124495e-05,
+          "logical_branch_parity_commutator_normalized": 9.263219791841937e-10
+        },
+        {
+          "epsilon_real": 0.002820199610033053,
+          "epsilon_imag": -0.003978359592859802,
+          "epsilon_abs": 0.0048765634303810914,
+          "low_frame_leakage_worst": 2.0696223837998987e-07,
+          "polar_logical_vs_target_distance": 8.207824066558942e-05,
+          "logical_branch_parity_commutator_normalized": 9.349487673100873e-10
+        },
+        {
+          "epsilon_real": 0.0010882841653748617,
+          "epsilon_imag": -0.006433112534862551,
+          "epsilon_abs": 0.006524515254853141,
+          "low_frame_leakage_worst": 2.0598874214888356e-07,
+          "polar_logical_vs_target_distance": 3.195430049485959e-05,
+          "logical_branch_parity_commutator_normalized": 9.314281945611988e-10
+        },
+        {
+          "epsilon_real": 0.0014868328914771055,
+          "epsilon_imag": -0.003046146506714288,
+          "epsilon_abs": 0.0033896431357217875,
+          "low_frame_leakage_worst": 2.0619890373031252e-07,
+          "polar_logical_vs_target_distance": 4.345700713191074e-05,
+          "logical_branch_parity_commutator_normalized": 9.321868852621868e-10
+        },
+        {
+          "epsilon_real": 0.0004900844239411267,
+          "epsilon_imag": -0.0009160254217293923,
+          "epsilon_abs": 0.001038886575062079,
+          "low_frame_leakage_worst": 2.056394941816606e-07,
+          "polar_logical_vs_target_distance": 1.5006564044847018e-05,
+          "logical_branch_parity_commutator_normalized": 9.301694340633943e-10
+        },
+        {
+          "epsilon_real": -0.005278639862804633,
+          "epsilon_imag": -0.0006799195059696647,
+          "epsilon_abs": 0.005322248522550235,
+          "low_frame_leakage_worst": 2.026278610001428e-07,
+          "polar_logical_vs_target_distance": 0.00015344761529566392,
+          "logical_branch_parity_commutator_normalized": 9.194185146765056e-10
+        },
+        {
+          "epsilon_real": -0.003316318163240824,
+          "epsilon_imag": -0.0026167400938972305,
+          "epsilon_abs": 0.004224369169337628,
+          "low_frame_leakage_worst": 2.0361609540706327e-07,
+          "polar_logical_vs_target_distance": 9.647192881152975e-05,
+          "logical_branch_parity_commutator_normalized": 9.229244901327624e-10
+        },
+        {
+          "epsilon_real": 0.005690653721288091,
+          "epsilon_imag": -0.0020383974508839478,
+          "epsilon_abs": 0.0060447170275687995,
+          "low_frame_leakage_worst": 2.0866112580725273e-07,
+          "polar_logical_vs_target_distance": 0.0001654169540545443,
+          "logical_branch_parity_commutator_normalized": 9.41132024269608e-10
+        },
+        {
+          "epsilon_real": 0.0021550845407323624,
+          "epsilon_imag": -0.0003010373640636678,
+          "epsilon_abs": 0.002176008472471102,
+          "low_frame_leakage_worst": 2.0657373169505344e-07,
+          "polar_logical_vs_target_distance": 6.279825596382248e-05,
+          "logical_branch_parity_commutator_normalized": 9.335416685487865e-10
+        },
+        {
+          "epsilon_real": -0.0011006849587776645,
+          "epsilon_imag": 0.00496381781936141,
+          "epsilon_abs": 0.005084387349749157,
+          "low_frame_leakage_worst": 2.0478397355085448e-07,
+          "polar_logical_vs_target_distance": 3.231385407001433e-05,
+          "logical_branch_parity_commutator_normalized": 9.270958801858469e-10
+        },
+        {
+          "epsilon_real": -0.0008808859813703713,
+          "epsilon_imag": 0.0014068733362612967,
+          "epsilon_abs": 0.0016598953872030112,
+          "low_frame_leakage_worst": 2.0489277541828966e-07,
+          "polar_logical_vs_target_distance": 2.6025696902394414e-05,
+          "logical_branch_parity_commutator_normalized": 9.274859807030469e-10
+        },
+        {
+          "epsilon_real": -0.0013461033061575333,
+          "epsilon_imag": 0.0033896697450407297,
+          "epsilon_abs": 0.003647170833850908,
+          "low_frame_leakage_worst": 2.0464757287549696e-07,
+          "polar_logical_vs_target_distance": 3.9389937459253154e-05,
+          "logical_branch_parity_commutator_normalized": 9.266072420305624e-10
+        },
+        {
+          "epsilon_real": 0.0025604284612705083,
+          "epsilon_imag": 0.002317347396262873,
+          "epsilon_abs": 0.0034533886054497805,
+          "low_frame_leakage_worst": 2.068080643443074e-07,
+          "polar_logical_vs_target_distance": 7.45462251607283e-05,
+          "logical_branch_parity_commutator_normalized": 9.343901146943856e-10
+        },
+        {
+          "epsilon_real": 0.0024770423939233436,
+          "epsilon_imag": -0.002305561148447404,
+          "epsilon_abs": 0.0033839845198410114,
+          "low_frame_leakage_worst": 2.0676014910953302e-07,
+          "polar_logical_vs_target_distance": 7.212837394782729e-05,
+          "logical_branch_parity_commutator_normalized": 9.342165946038644e-10
+        },
+        {
+          "epsilon_real": -0.001928471564670504,
+          "epsilon_imag": 0.0015205803810252267,
+          "epsilon_abs": 0.00245584349478983,
+          "low_frame_leakage_worst": 2.043353592495766e-07,
+          "polar_logical_vs_target_distance": 5.623051405950036e-05,
+          "logical_branch_parity_commutator_normalized": 9.254901458846709e-10
+        },
+        {
+          "epsilon_real": -0.0017687030493613455,
+          "epsilon_imag": 0.0009543546214926386,
+          "epsilon_abs": 0.0020097520295759073,
+          "low_frame_leakage_worst": 2.044190894750353e-07,
+          "polar_logical_vs_target_distance": 5.160675937999042e-05,
+          "logical_branch_parity_commutator_normalized": 9.257895303098311e-10
+        },
+        {
+          "epsilon_real": -0.004477218976263137,
+          "epsilon_imag": 0.0006217421947614116,
+          "epsilon_abs": 0.004520182863353812,
+          "low_frame_leakage_worst": 2.0302569165961915e-07,
+          "polar_logical_vs_target_distance": 0.00013017436094031818,
+          "logical_branch_parity_commutator_normalized": 9.208271842224338e-10
+        },
+        {
+          "epsilon_real": 0.0007398470999971835,
+          "epsilon_imag": 0.0020892107337401543,
+          "epsilon_abs": 0.002216342758092556,
+          "low_frame_leakage_worst": 2.0577924004746678e-07,
+          "polar_logical_vs_target_distance": 2.2009243488286695e-05,
+          "logical_branch_parity_commutator_normalized": 9.306728962088498e-10
+        },
+        {
+          "epsilon_real": -0.0032192611944577725,
+          "epsilon_imag": 0.0016943158016807715,
+          "epsilon_abs": 0.0036379044344191946,
+          "low_frame_leakage_worst": 2.0366432562529537e-07,
+          "polar_logical_vs_target_distance": 9.365605207459416e-05,
+          "logical_branch_parity_commutator_normalized": 9.230962241124485e-10
+        },
+        {
+          "epsilon_real": -0.0015173341273125155,
+          "epsilon_imag": -0.008076800536399408,
+          "epsilon_abs": 0.00821809039611326,
+          "low_frame_leakage_worst": 2.0457800993661285e-07,
+          "polar_logical_vs_target_distance": 4.432232434667835e-05,
+          "logical_branch_parity_commutator_normalized": 9.263581536714736e-10
+        },
+        {
+          "epsilon_real": -0.006438944611248407,
+          "epsilon_imag": -0.0021417181930242033,
+          "epsilon_abs": 0.006785791370581309,
+          "low_frame_leakage_worst": 2.0206478711153108e-07,
+          "polar_logical_vs_target_distance": 0.00018714866087524463,
+          "logical_branch_parity_commutator_normalized": 9.174314085661885e-10
+        },
+        {
+          "epsilon_real": -0.004268271891889256,
+          "epsilon_imag": 0.002843313477514913,
+          "epsilon_abs": 0.005128603754874209,
+          "low_frame_leakage_worst": 2.031334383784811e-07,
+          "polar_logical_vs_target_distance": 0.0001241063908588598,
+          "logical_branch_parity_commutator_normalized": 9.212093692133651e-10
+        },
+        {
+          "epsilon_real": 0.0011932356378639881,
+          "epsilon_imag": -0.004612135860869022,
+          "epsilon_abs": 0.004763990815123672,
+          "low_frame_leakage_worst": 2.0603905728265802e-07,
+          "polar_logical_vs_target_distance": 3.498208691002968e-05,
+          "logical_branch_parity_commutator_normalized": 9.316098126300272e-10
+        },
+        {
+          "epsilon_real": -0.0007232583416305538,
+          "epsilon_imag": -0.00038837873180138613,
+          "epsilon_abs": 0.000820938894226502,
+          "low_frame_leakage_worst": 2.0497692661201243e-07,
+          "polar_logical_vs_target_distance": 2.153979464126944e-05,
+          "logical_branch_parity_commutator_normalized": 9.277878630122728e-10
+        },
+        {
+          "epsilon_real": 0.0013031365530100213,
+          "epsilon_imag": -0.0052005790856141185,
+          "epsilon_abs": 0.005361360620357282,
+          "low_frame_leakage_worst": 2.061030886494582e-07,
+          "polar_logical_vs_target_distance": 3.814723352667844e-05,
+          "logical_branch_parity_commutator_normalized": 9.318408587698735e-10
+        },
+        {
+          "epsilon_real": 0.0062114699059631,
+          "epsilon_imag": 0.005772478077488005,
+          "epsilon_abs": 0.00847961446928838,
+          "low_frame_leakage_worst": 2.0899342092733883e-07,
+          "polar_logical_vs_target_distance": 0.00018054370078634865,
+          "logical_branch_parity_commutator_normalized": 9.423468648773098e-10
+        },
+        {
+          "epsilon_real": -0.005286495639792068,
+          "epsilon_imag": -0.0018846283123322579,
+          "epsilon_abs": 0.005612384522213787,
+          "low_frame_leakage_worst": 2.026251567477782e-07,
+          "polar_logical_vs_target_distance": 0.000153675505206011,
+          "logical_branch_parity_commutator_normalized": 9.194089325570655e-10
+        },
+        {
+          "epsilon_real": 0.0010680020997351665,
+          "epsilon_imag": 0.0007555352698303376,
+          "epsilon_abs": 0.0013082285843828386,
+          "low_frame_leakage_worst": 2.059603682835181e-07,
+          "polar_logical_vs_target_distance": 3.139206250143914e-05,
+          "logical_branch_parity_commutator_normalized": 9.313258736797338e-10
+        },
+        {
+          "epsilon_real": -0.001877522966668567,
+          "epsilon_imag": 0.0021695302718172387,
+          "epsilon_abs": 0.002869138213941482,
+          "low_frame_leakage_worst": 2.043631626478345e-07,
+          "polar_logical_vs_target_distance": 5.4754607493775924e-05,
+          "logical_branch_parity_commutator_normalized": 9.255894838477951e-10
+        },
+        {
+          "epsilon_real": -0.008562272130518137,
+          "epsilon_imag": 0.0007384613025899879,
+          "epsilon_abs": 0.008594057780377702,
+          "low_frame_leakage_worst": 2.010645597846258e-07,
+          "polar_logical_vs_target_distance": 0.0002488312680506753,
+          "logical_branch_parity_commutator_normalized": 9.139223494569383e-10
+        },
+        {
+          "epsilon_real": 0.0007015341631314746,
+          "epsilon_imag": 0.004888449779662642,
+          "epsilon_abs": 0.0049385313029608625,
+          "low_frame_leakage_worst": 2.0576608923406368e-07,
+          "polar_logical_vs_target_distance": 2.090586068312304e-05,
+          "logical_branch_parity_commutator_normalized": 9.306255164428949e-10
+        },
+        {
+          "epsilon_real": -0.004320021045115981,
+          "epsilon_imag": 0.004859833119589443,
+          "epsilon_abs": 0.006502350327420342,
+          "low_frame_leakage_worst": 2.0311338430941049e-07,
+          "polar_logical_vs_target_distance": 0.000125607541098299,
+          "logical_branch_parity_commutator_normalized": 9.211382267749017e-10
+        },
+        {
+          "epsilon_real": -0.0025720030375185085,
+          "epsilon_imag": 0.00158962102452596,
+          "epsilon_abs": 0.0030235896921737577,
+          "low_frame_leakage_worst": 2.039986288543677e-07,
+          "polar_logical_vs_target_distance": 7.487928633819564e-05,
+          "logical_branch_parity_commutator_normalized": 9.242876039219985e-10
+        },
+        {
+          "epsilon_real": -0.004505818944362006,
+          "epsilon_imag": -0.007429606168749841,
+          "epsilon_abs": 0.008689157161779112,
+          "low_frame_leakage_worst": 2.0303229842959845e-07,
+          "polar_logical_vs_target_distance": 0.0001310019501249113,
+          "logical_branch_parity_commutator_normalized": 9.208506111450968e-10
+        },
+        {
+          "epsilon_real": 0.0026355743628356737,
+          "epsilon_imag": -0.000727436823414762,
+          "epsilon_abs": 0.002734120800933351,
+          "low_frame_leakage_worst": 2.0684921773552645e-07,
+          "polar_logical_vs_target_distance": 7.672671245195343e-05,
+          "logical_branch_parity_commutator_normalized": 9.345392750772084e-10
+        },
+        {
+          "epsilon_real": -0.0005234131627435414,
+          "epsilon_imag": -0.007616934265992736,
+          "epsilon_abs": 0.007634896787212483,
+          "low_frame_leakage_worst": 2.0510848472690276e-07,
+          "polar_logical_vs_target_distance": 1.5877276935918886e-05,
+          "logical_branch_parity_commutator_normalized": 9.282600043554361e-10
+        },
+        {
+          "epsilon_real": 0.0004102602062760555,
+          "epsilon_imag": -0.002569285916814445,
+          "epsilon_abs": 0.002601834652547066,
+          "low_frame_leakage_worst": 2.0559782019468832e-07,
+          "polar_logical_vs_target_distance": 1.2816308565686576e-05,
+          "logical_branch_parity_commutator_normalized": 9.30019397041082e-10
+        },
+        {
+          "epsilon_real": 0.004988892164251564,
+          "epsilon_imag": 0.007012095281690418,
+          "epsilon_abs": 0.00860572630671204,
+          "low_frame_leakage_worst": 2.0825602534481713e-07,
+          "polar_logical_vs_target_distance": 0.00014503380546726773,
+          "logical_branch_parity_commutator_normalized": 9.396532169801357e-10
+        },
+        {
+          "epsilon_real": -0.0068041847891662744,
+          "epsilon_imag": 0.0024395170541669517,
+          "epsilon_abs": 0.007228289846339389,
+          "low_frame_leakage_worst": 2.018903279186798e-07,
+          "polar_logical_vs_target_distance": 0.00019775811115988647,
+          "logical_branch_parity_commutator_normalized": 9.168174194748699e-10
+        },
+        {
+          "epsilon_real": -0.004358226599949783,
+          "epsilon_imag": 0.007267655752558046,
+          "epsilon_abs": 0.00847425272423474,
+          "low_frame_leakage_worst": 2.031053750624106e-07,
+          "polar_logical_vs_target_distance": 0.00012671604470572949,
+          "logical_branch_parity_commutator_normalized": 9.211098138490928e-10
+        },
+        {
+          "epsilon_real": -0.0021166615057601848,
+          "epsilon_imag": 0.0034343263257434115,
+          "epsilon_abs": 0.00403421036160253,
+          "low_frame_leakage_worst": 2.0424017837121822e-07,
+          "polar_logical_vs_target_distance": 6.167794629511391e-05,
+          "logical_branch_parity_commutator_normalized": 9.251500212009299e-10
+        },
+        {
+          "epsilon_real": 0.0006808169384687632,
+          "epsilon_imag": 0.0015273685356954,
+          "epsilon_abs": 0.0016722339392376564,
+          "low_frame_leakage_worst": 2.0574565309003384e-07,
+          "polar_logical_vs_target_distance": 2.0339404307639207e-05,
+          "logical_branch_parity_commutator_normalized": 9.305518257515352e-10
+        }
+      ]
+    },
+    {
+      "sigma_rms_complex_epsilon_over_g": 0.01,
+      "samples": 100,
+      "pass_count_strict": 39,
+      "metrics": {
+        "low_frame_leakage_worst": {
+          "mean": 2.0553818782858673e-07,
+          "variance": 1.2980906774917863e-17,
+          "maximum": 2.1843447346965738e-07
+        },
+        "polar_logical_vs_target_distance": {
+          "mean": 0.00014801814596699745,
+          "variance": 1.2228823079370557e-08,
+          "maximum": 0.0005738290015783901
+        },
+        "logical_branch_parity_commutator_normalized": {
+          "mean": 9.299256773374075e-10,
+          "variance": 1.7006109760007754e-22,
+          "maximum": 9.774979842523034e-10
+        }
+      },
+      "raw_samples": [
+        {
+          "epsilon_real": -0.0016962135148609887,
+          "epsilon_imag": 0.011935079623944371,
+          "epsilon_abs": 0.012055009992442528,
+          "low_frame_leakage_worst": 2.0451398097334322e-07,
+          "polar_logical_vs_target_distance": 4.951559262486686e-05,
+          "logical_branch_parity_commutator_normalized": 9.261291050215927e-10
+        },
+        {
+          "epsilon_real": -0.005950462435869314,
+          "epsilon_imag": -0.010284514118068439,
+          "epsilon_abs": 0.01188188679652524,
+          "low_frame_leakage_worst": 2.0233857570526427e-07,
+          "polar_logical_vs_target_distance": 0.00017296441041590016,
+          "logical_branch_parity_commutator_normalized": 9.183968970697461e-10
+        },
+        {
+          "epsilon_real": 0.00036647762872569226,
+          "epsilon_imag": 0.00021708778087674074,
+          "epsilon_abs": 0.00042594947700683254,
+          "low_frame_leakage_worst": 2.0557097948916453e-07,
+          "polar_logical_vs_target_distance": 1.1654868318851926e-05,
+          "logical_branch_parity_commutator_normalized": 9.299227679685427e-10
+        },
+        {
+          "epsilon_real": 0.0009984425073367752,
+          "epsilon_imag": 0.005647872204724861,
+          "epsilon_abs": 0.005735446615683961,
+          "low_frame_leakage_worst": 2.0593460607318653e-07,
+          "polar_logical_vs_target_distance": 2.9376739828846384e-05,
+          "logical_branch_parity_commutator_normalized": 9.312329647431634e-10
+        },
+        {
+          "epsilon_real": 0.009353116344378838,
+          "epsilon_imag": -0.003675886268550106,
+          "epsilon_abs": 0.010049523631038526,
+          "low_frame_leakage_worst": 2.1097579693255138e-07,
+          "polar_logical_vs_target_distance": 0.0002718106551355141,
+          "logical_branch_parity_commutator_normalized": 9.49629604650075e-10
+        },
+        {
+          "epsilon_real": -0.0016075427109768536,
+          "epsilon_imag": 0.012325297862444169,
+          "epsilon_abs": 0.012429688691418849,
+          "low_frame_leakage_worst": 2.0456481559954527e-07,
+          "polar_logical_vs_target_distance": 4.69572064925351e-05,
+          "logical_branch_parity_commutator_normalized": 9.263109786914369e-10
+        },
+        {
+          "epsilon_real": -0.004100185650400353,
+          "epsilon_imag": 0.00816634368009339,
+          "epsilon_abs": 0.009137871276678734,
+          "low_frame_leakage_worst": 2.0324058841062035e-07,
+          "polar_logical_vs_target_distance": 0.00011922371581730728,
+          "logical_branch_parity_commutator_normalized": 9.215896612350596e-10
+        },
+        {
+          "epsilon_real": 0.0018653276941539992,
+          "epsilon_imag": 0.0014145965316495887,
+          "epsilon_abs": 0.0023410533428209024,
+          "low_frame_leakage_worst": 2.0640974143772417e-07,
+          "polar_logical_vs_target_distance": 5.4405987645616195e-05,
+          "logical_branch_parity_commutator_normalized": 9.32948617458528e-10
+        },
+        {
+          "epsilon_real": 0.003584856106599991,
+          "epsilon_imag": -0.0027355432062543756,
+          "epsilon_abs": 0.0045093669110321585,
+          "low_frame_leakage_worst": 2.074035982535809e-07,
+          "polar_logical_vs_target_distance": 0.0001042692286157547,
+          "logical_branch_parity_commutator_normalized": 9.365504862610633e-10
+        },
+        {
+          "epsilon_real": -0.0005136461374998738,
+          "epsilon_imag": 0.006983476817891103,
+          "epsilon_abs": 0.00700234109570442,
+          "low_frame_leakage_worst": 2.05110011694427e-07,
+          "polar_logical_vs_target_distance": 1.5608735763267485e-05,
+          "logical_branch_parity_commutator_normalized": 9.282655674835497e-10
+        },
+        {
+          "epsilon_real": -0.008522096394129555,
+          "epsilon_imag": -0.0008162468590038478,
+          "epsilon_abs": 0.008561097236083096,
+          "low_frame_leakage_worst": 2.0108309142528724e-07,
+          "polar_logical_vs_target_distance": 0.00024766408806651066,
+          "logical_branch_parity_commutator_normalized": 9.139871517064044e-10
+        },
+        {
+          "epsilon_real": -0.011954826938534778,
+          "epsilon_imag": -0.008752554518740104,
+          "epsilon_abs": 0.014816379373309615,
+          "low_frame_leakage_worst": 1.9958468275601977e-07,
+          "polar_logical_vs_target_distance": 0.0003474070267191051,
+          "logical_branch_parity_commutator_normalized": 9.087855104693333e-10
+        },
+        {
+          "epsilon_real": -0.0025374592772355953,
+          "epsilon_imag": -0.010237586745615162,
+          "epsilon_abs": 0.010547363744444592,
+          "low_frame_leakage_worst": 2.0405691286744542e-07,
+          "polar_logical_vs_target_distance": 7.387366134492114e-05,
+          "logical_branch_parity_commutator_normalized": 9.244956719438425e-10
+        },
+        {
+          "epsilon_real": 0.0047871567333825716,
+          "epsilon_imag": 0.002629830506276906,
+          "epsilon_abs": 0.0054619481947117314,
+          "low_frame_leakage_worst": 2.0811608439299067e-07,
+          "polar_logical_vs_target_distance": 0.00013917701664701993,
+          "logical_branch_parity_commutator_normalized": 9.39143076074223e-10
+        },
+        {
+          "epsilon_real": -0.01027056112834551,
+          "epsilon_imag": -0.009395564934408067,
+          "epsilon_abs": 0.013919808415627,
+          "low_frame_leakage_worst": 2.0032323526131368e-07,
+          "polar_logical_vs_target_distance": 0.00029847055561919687,
+          "logical_branch_parity_commutator_normalized": 9.113405666134165e-10
+        },
+        {
+          "epsilon_real": 0.0005528805475847982,
+          "epsilon_imag": -0.00881501395634334,
+          "epsilon_abs": 0.008832335362203222,
+          "low_frame_leakage_worst": 2.057060310432355e-07,
+          "polar_logical_vs_target_distance": 1.6701866933496773e-05,
+          "logical_branch_parity_commutator_normalized": 9.304089981579989e-10
+        },
+        {
+          "epsilon_real": -0.0009365852381554509,
+          "epsilon_imag": 0.007852497330842168,
+          "epsilon_abs": 0.007908154414224223,
+          "low_frame_leakage_worst": 2.0488697262628833e-07,
+          "polar_logical_vs_target_distance": 2.7592160452313914e-05,
+          "logical_branch_parity_commutator_normalized": 9.27465222477667e-10
+        },
+        {
+          "epsilon_real": 0.0062336223746796504,
+          "epsilon_imag": -0.0037353371890400536,
+          "epsilon_abs": 0.0072671033999752895,
+          "low_frame_leakage_worst": 2.0899829703798527e-07,
+          "polar_logical_vs_target_distance": 0.00018118745658847352,
+          "logical_branch_parity_commutator_normalized": 9.423647874973418e-10
+        },
+        {
+          "epsilon_real": 0.004806785453136158,
+          "epsilon_imag": 0.0014823809288235647,
+          "epsilon_abs": 0.005030172920548676,
+          "low_frame_leakage_worst": 2.0812576567876267e-07,
+          "polar_logical_vs_target_distance": 0.0001397475177817509,
+          "logical_branch_parity_commutator_normalized": 9.391782966396554e-10
+        },
+        {
+          "epsilon_real": -0.002776640405598834,
+          "epsilon_imag": -0.016920566885213345,
+          "epsilon_abs": 0.01714687480735141,
+          "low_frame_leakage_worst": 2.0400396654720206e-07,
+          "polar_logical_vs_target_distance": 8.091465993697131e-05,
+          "logical_branch_parity_commutator_normalized": 9.243068382287455e-10
+        },
+        {
+          "epsilon_real": -0.002303454222427368,
+          "epsilon_imag": 0.0013097199014424769,
+          "epsilon_abs": 0.002649767456788041,
+          "low_frame_leakage_worst": 2.0413833928389266e-07,
+          "polar_logical_vs_target_distance": 6.709392148362878e-05,
+          "logical_branch_parity_commutator_normalized": 9.247862761837446e-10
+        },
+        {
+          "epsilon_real": 0.008059628913573912,
+          "epsilon_imag": 0.013539355330587236,
+          "epsilon_abs": 0.0157566418056773,
+          "low_frame_leakage_worst": 2.1022116767195355e-07,
+          "polar_logical_vs_target_distance": 0.00023425480443010045,
+          "logical_branch_parity_commutator_normalized": 9.468500207557711e-10
+        },
+        {
+          "epsilon_real": 0.006628356500996631,
+          "epsilon_imag": -0.011337288112013351,
+          "epsilon_abs": 0.013132753391391446,
+          "low_frame_leakage_worst": 2.0929455727678604e-07,
+          "polar_logical_vs_target_distance": 0.00019266265717466152,
+          "logical_branch_parity_commutator_normalized": 9.434490906864513e-10
+        },
+        {
+          "epsilon_real": 0.00032580935192843603,
+          "epsilon_imag": -0.008965960135494782,
+          "epsilon_abs": 0.008971877890669581,
+          "low_frame_leakage_worst": 2.05581732898767e-07,
+          "polar_logical_vs_target_distance": 1.0511553336682555e-05,
+          "logical_branch_parity_commutator_normalized": 9.299614967275001e-10
+        },
+        {
+          "epsilon_real": -0.006042351088651819,
+          "epsilon_imag": 0.003070105621617009,
+          "epsilon_abs": 0.006777577384760441,
+          "low_frame_leakage_worst": 2.0225806590549819e-07,
+          "polar_logical_vs_target_distance": 0.00017562866024948117,
+          "logical_branch_parity_commutator_normalized": 9.181125797918654e-10
+        },
+        {
+          "epsilon_real": -0.006682164584924545,
+          "epsilon_imag": -0.0028194423841628436,
+          "epsilon_abs": 0.007252625655418435,
+          "low_frame_leakage_worst": 2.019493686376204e-07,
+          "polar_logical_vs_target_distance": 0.00019421356652770942,
+          "logical_branch_parity_commutator_normalized": 9.17025119805805e-10
+        },
+        {
+          "epsilon_real": 0.013189196539243808,
+          "epsilon_imag": 0.007860615972609305,
+          "epsilon_abs": 0.015353963293548717,
+          "low_frame_leakage_worst": 2.135900767056123e-07,
+          "polar_logical_vs_target_distance": 0.00038327452386551506,
+          "logical_branch_parity_commutator_normalized": 9.593184940090798e-10
+        },
+        {
+          "epsilon_real": 0.01029607782002038,
+          "epsilon_imag": 0.0037773240209180046,
+          "epsilon_abs": 0.010967105143788847,
+          "low_frame_leakage_worst": 2.115964256517976e-07,
+          "polar_logical_vs_target_distance": 0.00029920726109517186,
+          "logical_branch_parity_commutator_normalized": 9.519214952746292e-10
+        },
+        {
+          "epsilon_real": 0.0011296536504112318,
+          "epsilon_imag": 0.015374996486852673,
+          "epsilon_abs": 0.015416440391368542,
+          "low_frame_leakage_worst": 2.0609347782506435e-07,
+          "polar_logical_vs_target_distance": 3.328696319674871e-05,
+          "logical_branch_parity_commutator_normalized": 9.318060854212998e-10
+        },
+        {
+          "epsilon_real": 0.00023877184392093035,
+          "epsilon_imag": -0.00022333600462194533,
+          "epsilon_abs": 0.00032694183643255985,
+          "low_frame_leakage_worst": 2.055007040590863e-07,
+          "polar_logical_vs_target_distance": 8.400504664393856e-06,
+          "logical_branch_parity_commutator_normalized": 9.296699036468324e-10
+        },
+        {
+          "epsilon_real": -0.00022714473620342925,
+          "epsilon_imag": -0.007140718250054607,
+          "epsilon_abs": 0.0071443300496161185,
+          "low_frame_leakage_worst": 2.0526661792397773e-07,
+          "polar_logical_vs_target_distance": 8.027661506351899e-06,
+          "logical_branch_parity_commutator_normalized": 9.288280520222686e-10
+        },
+        {
+          "epsilon_real": 0.0046479777749069175,
+          "epsilon_imag": -0.0110317893929001,
+          "epsilon_abs": 0.011970967989487392,
+          "low_frame_leakage_worst": 2.0808347652137914e-07,
+          "polar_logical_vs_target_distance": 0.0001351400332950595,
+          "logical_branch_parity_commutator_normalized": 9.390240611845043e-10
+        },
+        {
+          "epsilon_real": 0.0034717943351173742,
+          "epsilon_imag": -0.004798382174676801,
+          "epsilon_abs": 0.005922653746388451,
+          "low_frame_leakage_worst": 2.0734414090803635e-07,
+          "polar_logical_vs_target_distance": 0.00010098531379302045,
+          "logical_branch_parity_commutator_normalized": 9.363345289086724e-10
+        },
+        {
+          "epsilon_real": -0.0032524425981423034,
+          "epsilon_imag": -0.01649075547198754,
+          "epsilon_abs": 0.016808432374587987,
+          "low_frame_leakage_worst": 2.0375223712586396e-07,
+          "polar_logical_vs_target_distance": 9.46963237377487e-05,
+          "logical_branch_parity_commutator_normalized": 9.234095743627023e-10
+        },
+        {
+          "epsilon_real": 0.01974661364157457,
+          "epsilon_imag": -0.006784062440097132,
+          "epsilon_abs": 0.020879469665217927,
+          "low_frame_leakage_worst": 2.1843447346965738e-07,
+          "polar_logical_vs_target_distance": 0.0005738290015783901,
+          "logical_branch_parity_commutator_normalized": 9.774979842523034e-10
+        },
+        {
+          "epsilon_real": 0.003836569886522365,
+          "epsilon_imag": 0.007610556651946008,
+          "epsilon_abs": 0.008522900975996955,
+          "low_frame_leakage_worst": 2.075734826447908e-07,
+          "polar_logical_vs_target_distance": 0.00011157268733036307,
+          "logical_branch_parity_commutator_normalized": 9.371677892524101e-10
+        },
+        {
+          "epsilon_real": -0.0017668717275247355,
+          "epsilon_imag": -0.008564425354963318,
+          "epsilon_abs": 0.008744782293588833,
+          "low_frame_leakage_worst": 2.0444896020964872e-07,
+          "polar_logical_vs_target_distance": 5.1540176477176586e-05,
+          "logical_branch_parity_commutator_normalized": 9.258963800336266e-10
+        },
+        {
+          "epsilon_real": 0.010136200851765401,
+          "epsilon_imag": 0.0003262727367011623,
+          "epsilon_abs": 0.010141450665760008,
+          "low_frame_leakage_worst": 2.1148370964358748e-07,
+          "polar_logical_vs_target_distance": 0.0002945615306805913,
+          "logical_branch_parity_commutator_normalized": 9.51504934811857e-10
+        },
+        {
+          "epsilon_real": -0.008974939641448533,
+          "epsilon_imag": 0.002761382682733911,
+          "epsilon_abs": 0.009390142484975777,
+          "low_frame_leakage_worst": 2.0087806701482743e-07,
+          "polar_logical_vs_target_distance": 0.00026082033225643177,
+          "logical_branch_parity_commutator_normalized": 9.132711761166687e-10
+        },
+        {
+          "epsilon_real": -0.007333223553121867,
+          "epsilon_imag": 0.010781643870382515,
+          "epsilon_abs": 0.01303917222172551,
+          "low_frame_leakage_worst": 2.0167942809491198e-07,
+          "polar_logical_vs_target_distance": 0.0002131345652345754,
+          "logical_branch_parity_commutator_normalized": 9.160766534896931e-10
+        },
+        {
+          "epsilon_real": 0.0033468635587689745,
+          "epsilon_imag": 0.0007825784522394104,
+          "epsilon_abs": 0.0034371390304910794,
+          "low_frame_leakage_worst": 2.072614487141069e-07,
+          "polar_logical_vs_target_distance": 9.73629193324184e-05,
+          "logical_branch_parity_commutator_normalized": 9.36034188681607e-10
+        },
+        {
+          "epsilon_real": 0.0068883791385921,
+          "epsilon_imag": -0.003313980427881415,
+          "epsilon_abs": 0.007644097947656867,
+          "low_frame_leakage_worst": 2.094027035900909e-07,
+          "polar_logical_vs_target_distance": 0.0002002068809773504,
+          "logical_branch_parity_commutator_normalized": 9.43845680103826e-10
+        },
+        {
+          "epsilon_real": 0.0020825007400441142,
+          "epsilon_imag": 0.00914269508712142,
+          "epsilon_abs": 0.009376869562298414,
+          "low_frame_leakage_worst": 2.0656779526250636e-07,
+          "polar_logical_vs_target_distance": 6.068462056459662e-05,
+          "logical_branch_parity_commutator_normalized": 9.335202164727615e-10
+        },
+        {
+          "epsilon_real": -0.004161350609346686,
+          "epsilon_imag": 0.009331053352502165,
+          "epsilon_abs": 0.010216917126078293,
+          "low_frame_leakage_worst": 2.0321756037735347e-07,
+          "polar_logical_vs_target_distance": 0.00012100119596671568,
+          "logical_branch_parity_commutator_normalized": 9.215079417562685e-10
+        },
+        {
+          "epsilon_real": 0.008177677725682002,
+          "epsilon_imag": -0.0009604387990558687,
+          "epsilon_abs": 0.00823388460399145,
+          "low_frame_leakage_worst": 2.1021143143933614e-07,
+          "polar_logical_vs_target_distance": 0.00023766128309770835,
+          "logical_branch_parity_commutator_normalized": 9.46814698643981e-10
+        },
+        {
+          "epsilon_real": -0.00578462435203745,
+          "epsilon_imag": 0.002674045978756724,
+          "epsilon_abs": 0.006372785952053442,
+          "low_frame_leakage_worst": 2.0238249630729687e-07,
+          "polar_logical_vs_target_distance": 0.00016814291033471367,
+          "logical_branch_parity_commutator_normalized": 9.185517446528057e-10
+        },
+        {
+          "epsilon_real": 0.0020758974739792,
+          "epsilon_imag": -0.015769614172193667,
+          "epsilon_abs": 0.01590566193097051,
+          "low_frame_leakage_worst": 2.0663418062818027e-07,
+          "polar_logical_vs_target_distance": 6.058758378501195e-05,
+          "logical_branch_parity_commutator_normalized": 9.33760382351464e-10
+        },
+        {
+          "epsilon_real": -0.005360319755611583,
+          "epsilon_imag": 0.009535120375131973,
+          "epsilon_abs": 0.010938535023057553,
+          "low_frame_leakage_worst": 2.0262172189344841e-07,
+          "polar_logical_vs_target_distance": 0.0001558210827644891,
+          "logical_branch_parity_commutator_normalized": 9.193969585548418e-10
+        },
+        {
+          "epsilon_real": -0.002947025831594086,
+          "epsilon_imag": -0.010446519027547903,
+          "epsilon_abs": 0.010854248985766044,
+          "low_frame_leakage_worst": 2.0384606833507537e-07,
+          "polar_logical_vs_target_distance": 8.575537646450694e-05,
+          "logical_branch_parity_commutator_normalized": 9.237436693617218e-10
+        },
+        {
+          "epsilon_real": 0.0014141826365336634,
+          "epsilon_imag": 0.016614151152367886,
+          "epsilon_abs": 0.016674229548713802,
+          "low_frame_leakage_worst": 2.0627015443376518e-07,
+          "polar_logical_vs_target_distance": 4.152516930628296e-05,
+          "logical_branch_parity_commutator_normalized": 9.324440138159488e-10
+        },
+        {
+          "epsilon_real": -0.004911475317254561,
+          "epsilon_imag": 0.002811106073793974,
+          "epsilon_abs": 0.00565905532311906,
+          "low_frame_leakage_worst": 2.0281215171062048e-07,
+          "polar_logical_vs_target_distance": 0.0001427839047297665,
+          "logical_branch_parity_commutator_normalized": 9.200706014460637e-10
+        },
+        {
+          "epsilon_real": -0.006588141471277291,
+          "epsilon_imag": -0.00011888414148667564,
+          "epsilon_abs": 0.006589214026320646,
+          "low_frame_leakage_worst": 2.0199147216018276e-07,
+          "polar_logical_vs_target_distance": 0.00019148266327345253,
+          "logical_branch_parity_commutator_normalized": 9.171733356459114e-10
+        },
+        {
+          "epsilon_real": -0.009984420188337404,
+          "epsilon_imag": 0.01822301076782846,
+          "epsilon_abs": 0.020778998242015217,
+          "low_frame_leakage_worst": 2.005358788166754e-07,
+          "polar_logical_vs_target_distance": 0.00029022619537827273,
+          "logical_branch_parity_commutator_normalized": 9.120807921854967e-10
+        },
+        {
+          "epsilon_real": 0.0004929003941256766,
+          "epsilon_imag": 0.0061349866672142745,
+          "epsilon_abs": 0.006154755251464201,
+          "low_frame_leakage_worst": 2.056562710102174e-07,
+          "polar_logical_vs_target_distance": 1.5042936386618124e-05,
+          "logical_branch_parity_commutator_normalized": 9.302298763539144e-10
+        },
+        {
+          "epsilon_real": -0.007278201247539684,
+          "epsilon_imag": 0.005784412441444547,
+          "epsilon_abs": 0.009296861873364941,
+          "low_frame_leakage_worst": 2.0167524996997532e-07,
+          "polar_logical_vs_target_distance": 0.0002115280854598722,
+          "logical_branch_parity_commutator_normalized": 9.160616787677442e-10
+        },
+        {
+          "epsilon_real": 0.008913397258247401,
+          "epsilon_imag": -0.011833142394066019,
+          "epsilon_abs": 0.01481458435466803,
+          "low_frame_leakage_worst": 2.1074988328934977e-07,
+          "polar_logical_vs_target_distance": 0.00025904975812069623,
+          "logical_branch_parity_commutator_normalized": 9.487963695694722e-10
+        },
+        {
+          "epsilon_real": 0.001409926577509145,
+          "epsilon_imag": -0.0008045508302825388,
+          "epsilon_abs": 0.0016233283686534201,
+          "low_frame_leakage_worst": 2.0615200631528877e-07,
+          "polar_logical_vs_target_distance": 4.1240629690351875e-05,
+          "logical_branch_parity_commutator_normalized": 9.32017485600916e-10
+        },
+        {
+          "epsilon_real": 0.006220942903727626,
+          "epsilon_imag": 0.013551406486522246,
+          "epsilon_abs": 0.014911094808041304,
+          "low_frame_leakage_worst": 2.0906736639509942e-07,
+          "polar_logical_vs_target_distance": 0.00018084072527261547,
+          "logical_branch_parity_commutator_normalized": 9.426171423009525e-10
+        },
+        {
+          "epsilon_real": -0.0012546208951268332,
+          "epsilon_imag": 0.0011318302082518191,
+          "epsilon_abs": 0.0016897080253109448,
+          "low_frame_leakage_worst": 2.0469226171995986e-07,
+          "polar_logical_vs_target_distance": 3.6757783701646256e-05,
+          "logical_branch_parity_commutator_normalized": 9.267672339604917e-10
+        },
+        {
+          "epsilon_real": -0.004943363272888483,
+          "epsilon_imag": 0.0034304687190726646,
+          "epsilon_abs": 0.006017055432707827,
+          "low_frame_leakage_worst": 2.0279780008872816e-07,
+          "polar_logical_vs_target_distance": 0.00014370964400865785,
+          "logical_branch_parity_commutator_normalized": 9.20019744421751e-10
+        },
+        {
+          "epsilon_real": -0.005864103109130577,
+          "epsilon_imag": -0.012380885407996499,
+          "epsilon_abs": 0.013699417095645185,
+          "low_frame_leakage_worst": 2.0239836664269569e-07,
+          "polar_logical_vs_target_distance": 0.00017046504388041684,
+          "logical_branch_parity_commutator_normalized": 9.186080373391276e-10
+        },
+        {
+          "epsilon_real": 0.003843951860025955,
+          "epsilon_imag": 0.004075877589735957,
+          "epsilon_abs": 0.005602565843317577,
+          "low_frame_leakage_worst": 2.0755981199675046e-07,
+          "polar_logical_vs_target_distance": 0.00011178922785853945,
+          "logical_branch_parity_commutator_normalized": 9.371181757014806e-10
+        },
+        {
+          "epsilon_real": -0.0028311694565221145,
+          "epsilon_imag": 0.0014198651368513833,
+          "epsilon_abs": 0.0031672602511302606,
+          "low_frame_leakage_worst": 2.0386399831431293e-07,
+          "polar_logical_vs_target_distance": 8.239613390890948e-05,
+          "logical_branch_parity_commutator_normalized": 9.238075426226262e-10
+        },
+        {
+          "epsilon_real": -0.0074500532736473035,
+          "epsilon_imag": -0.010906060576888761,
+          "epsilon_abs": 0.01320777994543179,
+          "low_frame_leakage_worst": 2.0162525395560714e-07,
+          "polar_logical_vs_target_distance": 0.0002165290806352689,
+          "logical_branch_parity_commutator_normalized": 9.158864462277079e-10
+        },
+        {
+          "epsilon_real": -0.002846041037684518,
+          "epsilon_imag": 0.010890328313748986,
+          "epsilon_abs": 0.011256073932301049,
+          "low_frame_leakage_worst": 2.0390203073359946e-07,
+          "polar_logical_vs_target_distance": 8.282753832215134e-05,
+          "logical_branch_parity_commutator_normalized": 9.239432387118808e-10
+        },
+        {
+          "epsilon_real": -0.003759194895812992,
+          "epsilon_imag": -0.00513975647344082,
+          "epsilon_abs": 0.006367781628713666,
+          "low_frame_leakage_worst": 2.0339773459516264e-07,
+          "polar_logical_vs_target_distance": 0.0001093244390678799,
+          "logical_branch_parity_commutator_normalized": 9.221478653126247e-10
+        },
+        {
+          "epsilon_real": 0.005001758971677539,
+          "epsilon_imag": -0.006197225035707786,
+          "epsilon_abs": 0.00796386783880547,
+          "low_frame_leakage_worst": 2.082589913151525e-07,
+          "polar_logical_vs_target_distance": 0.0001454075170399668,
+          "logical_branch_parity_commutator_normalized": 9.396640400851018e-10
+        },
+        {
+          "epsilon_real": 0.015054758040205646,
+          "epsilon_imag": -0.003312432601807852,
+          "epsilon_abs": 0.015414861315972197,
+          "low_frame_leakage_worst": 2.1488898884825098e-07,
+          "polar_logical_vs_target_distance": 0.0004374768136463832,
+          "logical_branch_parity_commutator_normalized": 9.641659043967842e-10
+        },
+        {
+          "epsilon_real": 0.013982592059300906,
+          "epsilon_imag": 0.008376134789467103,
+          "epsilon_abs": 0.01629946363252932,
+          "low_frame_leakage_worst": 2.1415265596798043e-07,
+          "polar_logical_vs_target_distance": 0.0004063301707114658,
+          "logical_branch_parity_commutator_normalized": 9.614153114236332e-10
+        },
+        {
+          "epsilon_real": 0.011583260321398359,
+          "epsilon_imag": 0.0005823854569725954,
+          "epsilon_abs": 0.011597891726248128,
+          "low_frame_leakage_worst": 2.1245342031328598e-07,
+          "polar_logical_vs_target_distance": 0.0003366052479512423,
+          "logical_branch_parity_commutator_normalized": 9.550948974802771e-10
+        },
+        {
+          "epsilon_real": 0.0007459606148863785,
+          "epsilon_imag": -0.0032788947803995055,
+          "epsilon_abs": 0.00336267872683264,
+          "low_frame_leakage_worst": 2.0578528531624903e-07,
+          "polar_logical_vs_target_distance": 2.2176797729127326e-05,
+          "logical_branch_parity_commutator_normalized": 9.306946087993958e-10
+        },
+        {
+          "epsilon_real": -0.011870877869172923,
+          "epsilon_imag": 0.008749125698539386,
+          "epsilon_abs": 0.01474669257405408,
+          "low_frame_leakage_worst": 1.9962064178839813e-07,
+          "polar_logical_vs_target_distance": 0.00034496773131505843,
+          "logical_branch_parity_commutator_normalized": 9.089094322507935e-10
+        },
+        {
+          "epsilon_real": -0.004944270042094787,
+          "epsilon_imag": 0.0023759711799476472,
+          "epsilon_abs": 0.005485530539254868,
+          "low_frame_leakage_worst": 2.027950311951206e-07,
+          "polar_logical_vs_target_distance": 0.00014373648668668089,
+          "logical_branch_parity_commutator_normalized": 9.200100139644386e-10
+        },
+        {
+          "epsilon_real": -0.002356269116745504,
+          "epsilon_imag": -0.005161856601777366,
+          "epsilon_abs": 0.0056742195699356944,
+          "low_frame_leakage_worst": 2.0412059062767553e-07,
+          "polar_logical_vs_target_distance": 6.861873209183594e-05,
+          "logical_branch_parity_commutator_normalized": 9.247229336227416e-10
+        },
+        {
+          "epsilon_real": -0.0012636020934543447,
+          "epsilon_imag": 0.00046940981700907314,
+          "epsilon_abs": 0.0013479747129997261,
+          "low_frame_leakage_worst": 2.046870416013982e-07,
+          "polar_logical_vs_target_distance": 3.701723703609143e-05,
+          "logical_branch_parity_commutator_normalized": 9.2674858405277e-10
+        },
+        {
+          "epsilon_real": 0.006397953229410316,
+          "epsilon_imag": 0.004660008398920857,
+          "epsilon_abs": 0.007915142690042601,
+          "low_frame_leakage_worst": 2.0910319789232149e-07,
+          "polar_logical_vs_target_distance": 0.00018596065517225213,
+          "logical_branch_parity_commutator_normalized": 9.427486572179096e-10
+        },
+        {
+          "epsilon_real": -0.008824442459230303,
+          "epsilon_imag": -0.011070761470746529,
+          "epsilon_abs": 0.014157420113086721,
+          "low_frame_leakage_worst": 2.0098767290361014e-07,
+          "polar_logical_vs_target_distance": 0.0002564595185582917,
+          "logical_branch_parity_commutator_normalized": 9.136543852481861e-10
+        },
+        {
+          "epsilon_real": -0.004713892742685913,
+          "epsilon_imag": -0.012395729049754833,
+          "epsilon_abs": 0.01326178281621603,
+          "low_frame_leakage_worst": 2.0296584642176056e-07,
+          "polar_logical_vs_target_distance": 0.0001370587723432319,
+          "logical_branch_parity_commutator_normalized": 9.206153308882527e-10
+        },
+        {
+          "epsilon_real": 0.002210001597611707,
+          "epsilon_imag": 0.006411393924400795,
+          "epsilon_abs": 0.006781598566362486,
+          "low_frame_leakage_worst": 2.0662250377844404e-07,
+          "polar_logical_vs_target_distance": 6.437995686449106e-05,
+          "logical_branch_parity_commutator_normalized": 9.33718254376694e-10
+        },
+        {
+          "epsilon_real": -0.004592344957417137,
+          "epsilon_imag": 0.0036563044686808593,
+          "epsilon_abs": 0.005870110269459188,
+          "low_frame_leakage_worst": 2.0297308458893088e-07,
+          "polar_logical_vs_target_distance": 0.0001335159965161738,
+          "logical_branch_parity_commutator_normalized": 9.206406862591471e-10
+        },
+        {
+          "epsilon_real": 0.004067344946165985,
+          "epsilon_imag": 0.010067678849901257,
+          "epsilon_abs": 0.010858243519826357,
+          "low_frame_leakage_worst": 2.0772879026236742e-07,
+          "polar_logical_vs_target_distance": 0.00011827629590959153,
+          "logical_branch_parity_commutator_normalized": 9.377326369520502e-10
+        },
+        {
+          "epsilon_real": -0.0047079418086474496,
+          "epsilon_imag": -0.00369320610582046,
+          "epsilon_abs": 0.005983685103151748,
+          "low_frame_leakage_worst": 2.029155253079591e-07,
+          "polar_logical_vs_target_distance": 0.0001368727950974585,
+          "logical_branch_parity_commutator_normalized": 9.204366943039314e-10
+        },
+        {
+          "epsilon_real": -0.0017842489896863478,
+          "epsilon_imag": -0.009731467336421053,
+          "epsilon_abs": 0.009893684903868053,
+          "low_frame_leakage_worst": 2.0444829324703907e-07,
+          "polar_logical_vs_target_distance": 5.20457562733197e-05,
+          "logical_branch_parity_commutator_normalized": 9.258940235586046e-10
+        },
+        {
+          "epsilon_real": -0.008489997477731291,
+          "epsilon_imag": -0.0008725157478369928,
+          "epsilon_abs": 0.008534713873476206,
+          "low_frame_leakage_worst": 2.0109790822806069e-07,
+          "polar_logical_vs_target_distance": 0.00024673155638442517,
+          "logical_branch_parity_commutator_normalized": 9.140388857710811e-10
+        },
+        {
+          "epsilon_real": -0.007308646337934736,
+          "epsilon_imag": 0.007000424263333866,
+          "epsilon_abs": 0.010120387895712315,
+          "low_frame_leakage_worst": 2.0166652874769436e-07,
+          "polar_logical_vs_target_distance": 0.00021241319477068778,
+          "logical_branch_parity_commutator_normalized": 9.160311505049516e-10
+        },
+        {
+          "epsilon_real": 0.003913044833885529,
+          "epsilon_imag": 0.004987151210794456,
+          "epsilon_abs": 0.006339053326114779,
+          "low_frame_leakage_worst": 2.0760414425269407e-07,
+          "polar_logical_vs_target_distance": 0.00011379426462406465,
+          "logical_branch_parity_commutator_normalized": 9.372792743867133e-10
+        },
+        {
+          "epsilon_real": -0.01010730421404217,
+          "epsilon_imag": -0.0026150692249408795,
+          "epsilon_abs": 0.01044012382715969,
+          "low_frame_leakage_worst": 2.0036753499289778e-07,
+          "polar_logical_vs_target_distance": 0.0002937193125347288,
+          "logical_branch_parity_commutator_normalized": 9.114939600610999e-10
+        },
+        {
+          "epsilon_real": 0.0002669269303065414,
+          "epsilon_imag": 0.01401052976880585,
+          "epsilon_abs": 0.014013072268018808,
+          "low_frame_leakage_worst": 2.0559714162137148e-07,
+          "polar_logical_vs_target_distance": 9.301926119456165e-06,
+          "logical_branch_parity_commutator_normalized": 9.30017006406561e-10
+        },
+        {
+          "epsilon_real": -0.0003760573870860618,
+          "epsilon_imag": 0.0007228290447535868,
+          "epsilon_abs": 0.0008148011943544136,
+          "low_frame_leakage_worst": 2.0516499219396292e-07,
+          "polar_logical_vs_target_distance": 1.1905712278605721e-05,
+          "logical_branch_parity_commutator_normalized": 9.284630082560976e-10
+        },
+        {
+          "epsilon_real": -0.005798477570232973,
+          "epsilon_imag": 0.003982372375398895,
+          "epsilon_abs": 0.00703431815237519,
+          "low_frame_leakage_worst": 2.0237899860056474e-07,
+          "polar_logical_vs_target_distance": 0.00016854487551806372,
+          "logical_branch_parity_commutator_normalized": 9.185393011664365e-10
+        },
+        {
+          "epsilon_real": 0.008147960220302999,
+          "epsilon_imag": -0.014623841847510945,
+          "epsilon_abs": 0.016740549755986284,
+          "low_frame_leakage_worst": 2.1029186135407964e-07,
+          "polar_logical_vs_target_distance": 0.00023682960747528617,
+          "logical_branch_parity_commutator_normalized": 9.47109962771994e-10
+        },
+        {
+          "epsilon_real": 0.008631935245495588,
+          "epsilon_imag": -0.0007620637302383187,
+          "epsilon_abs": 0.008665509056678304,
+          "low_frame_leakage_worst": 2.105024340215515e-07,
+          "polar_logical_vs_target_distance": 0.00025085819091563835,
+          "logical_branch_parity_commutator_normalized": 9.47885485122892e-10
+        },
+        {
+          "epsilon_real": -0.00771046677185148,
+          "epsilon_imag": -0.002178149875375461,
+          "epsilon_abs": 0.00801221784023774,
+          "low_frame_leakage_worst": 2.014614313147395e-07,
+          "polar_logical_vs_target_distance": 0.00022408525346021837,
+          "logical_branch_parity_commutator_normalized": 9.153113709258785e-10
+        },
+        {
+          "epsilon_real": 0.0020831511322390566,
+          "epsilon_imag": -0.005154503548894176,
+          "epsilon_abs": 0.005559534645571652,
+          "low_frame_leakage_worst": 2.065439664762613e-07,
+          "polar_logical_vs_target_distance": 6.0706626156523324e-05,
+          "logical_branch_parity_commutator_normalized": 9.33433988695213e-10
+        },
+        {
+          "epsilon_real": -0.0025129058757983325,
+          "epsilon_imag": 0.0018549643861148755,
+          "epsilon_abs": 0.0031233937975183854,
+          "low_frame_leakage_worst": 2.0402974025239868e-07,
+          "polar_logical_vs_target_distance": 7.316540439669921e-05,
+          "logical_branch_parity_commutator_normalized": 9.243985874275561e-10
+        },
+        {
+          "epsilon_real": 0.0014385432349285038,
+          "epsilon_imag": 0.00015586935230317144,
+          "epsilon_abs": 0.0014469629897637239,
+          "low_frame_leakage_worst": 2.061678382005915e-07,
+          "polar_logical_vs_target_distance": 4.206706807846581e-05,
+          "logical_branch_parity_commutator_normalized": 9.320746420170529e-10
+        },
+        {
+          "epsilon_real": 0.00016594534390050592,
+          "epsilon_imag": 0.007408883592880833,
+          "epsilon_abs": 0.007410741794855698,
+          "low_frame_leakage_worst": 2.054832744625409e-07,
+          "polar_logical_vs_target_distance": 6.642775037993547e-06,
+          "logical_branch_parity_commutator_normalized": 9.296071694410589e-10
+        },
+        {
+          "epsilon_real": -0.0009981682988807758,
+          "epsilon_imag": -0.0011517416565110373,
+          "epsilon_abs": 0.0015240894974486668,
+          "low_frame_leakage_worst": 2.048295179107767e-07,
+          "polar_logical_vs_target_distance": 2.938382808659993e-05,
+          "logical_branch_parity_commutator_normalized": 9.272591738319309e-10
+        },
+        {
+          "epsilon_real": -0.009443253650355168,
+          "epsilon_imag": -0.0031173824081780228,
+          "epsilon_abs": 0.009944501625710762,
+          "low_frame_leakage_worst": 2.0066628421149105e-07,
+          "polar_logical_vs_target_distance": 0.0002744263257204249,
+          "logical_branch_parity_commutator_normalized": 9.125329720119568e-10
+        },
+        {
+          "epsilon_real": 0.004616618555558743,
+          "epsilon_imag": -0.009194364665311944,
+          "epsilon_abs": 0.010288319031127783,
+          "low_frame_leakage_worst": 2.0804828226697526e-07,
+          "polar_logical_vs_target_distance": 0.00013422418924826935,
+          "logical_branch_parity_commutator_normalized": 9.388958723691137e-10
+        }
+      ]
+    }
+  ],
+  "decision": "Seeded statistical correlated-crosstalk control on the direct deep-SW finite block.",
+  "claim_boundary": "This is only one fully correlated, coherent nearest-link crosstalk distribution on L=4,N=2. It excludes independent-link errors, temporal noise, ramps, pulse-angle error, hardware calibration, thermodynamic protection, braiding, non-Abelian statistics, universality and fault tolerance."
+}

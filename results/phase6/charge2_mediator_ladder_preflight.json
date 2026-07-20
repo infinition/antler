@@ -1,0 +1,7500 @@
+{
+  "schema": "antler.phase6.charge2-mediator-ladder-preflight.v1",
+  "model": {
+    "name": "two-rail ladder with explicit charge-two bond mediators",
+    "conserved_quantity": "sum(n_a+n_b+2 n_d)",
+    "exact_symmetries": [
+      "(-1)^N_a",
+      "(-1)^N_b"
+    ],
+    "not_iemini": "the pair transfer is produced through explicit bond mediators rather than inserted as a two-wire parent-Hamiltonian term"
+  },
+  "claim_boundary": "This is an initial finite-size protection preflight of a new candidate extension. A positive row would require larger-L scaling, a complete local-operator basis and a microscopic physical implementation before braid work. A negative result rejects only this registered scan.",
+  "criteria": {
+    "split_over_gap_below": 0.001,
+    "max_site_density_local_distinguishability_below": 0.1,
+    "isolation_gap_above": 0.01,
+    "maximum_cross_parity_matrix_element_below": 1e-12
+  },
+  "rows": [
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.0651684227859812,
+        -2.5405927817635656
+      ],
+      "logical_split": 0.5245756410224156,
+      "isolation_gap": -0.5218873454590964,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1573912389472652,
+      "site_density_local_distinguishability": [
+        0.1570420582602456,
+        0.15704205826047568,
+        0.1573912389472652,
+        0.15739123894704465,
+        0.15739123894726365,
+        0.15739123894704465,
+        0.15704205826025397,
+        0.15704205826047074,
+        0.001802029306910517,
+        0.0029056972402313353,
+        0.0018020293069105466
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.1400068465911781,
+        -0.8829280737515126
+      ],
+      "logical_split": 0.2570787728396655,
+      "isolation_gap": 0.04236495046490463,
+      "split_over_gap": 6.068194817143268,
+      "max_site_density_local_distinguishability": 0.011907591181987637,
+      "site_density_local_distinguishability": [
+        0.002086870562866383,
+        0.002086870562865051,
+        0.010272783556274478,
+        0.010272783556273701,
+        0.010272783556274034,
+        0.010272783556273923,
+        0.0020868705628664386,
+        0.002086870562865273,
+        0.0119075911819876,
+        0.0009041258743045814,
+        0.011907591181987637
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8547314502506638,
+        0.1979534081680163
+      ],
+      "logical_split": 1.05268485841868,
+      "isolation_gap": -0.6867238399319046,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.133744875396402,
+      "site_density_local_distinguishability": [
+        0.13374487539639146,
+        0.133744875396402,
+        0.09350912294848418,
+        0.09350912294848246,
+        0.09350912294848346,
+        0.09350912294848185,
+        0.1337448753963909,
+        0.13374487539640134,
+        0.03885291872654275,
+        0.0027656674427417797,
+        0.03885291872654279
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.0650445836759608,
+        -2.1067852239597613
+      ],
+      "logical_split": 0.9582593597161995,
+      "isolation_gap": -0.955686480931309,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.00727907231323326,
+      "site_density_local_distinguishability": [
+        0.0005656323577600264,
+        0.0005656323573506872,
+        0.0011972098723773694,
+        0.001197209872730809,
+        0.0011972098723774804,
+        0.001197209872730698,
+        0.0005656323577119537,
+        0.0005656323573987598,
+        0.0030079586416187905,
+        0.00727907231323326,
+        0.003007958641618837
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.24925678797247489,
+        -0.24910118969909953
+      ],
+      "logical_split": 0.00015559827337535692,
+      "isolation_gap": 0.07936252891656037,
+      "split_over_gap": 0.001960601249727674,
+      "max_site_density_local_distinguishability": 0.001893905635334349,
+      "site_density_local_distinguishability": [
+        0.000909182652563234,
+        0.0009091826525691182,
+        0.0009337727061061729,
+        0.0009337727061060619,
+        0.0009337727061041745,
+        0.0009337727061083378,
+        0.0009091826525621793,
+        0.000909182652570395,
+        0.0018939056353340575,
+        0.00010190055332467626,
+        0.001893905635334349
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.11039166356629948,
+        0.7750490122013904
+      ],
+      "logical_split": 0.8854406757676899,
+      "isolation_gap": -0.8784494358942477,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.05331403456701967,
+      "site_density_local_distinguishability": [
+        0.028243016080002903,
+        0.028243016080057082,
+        0.027198562190895226,
+        0.02719856219087541,
+        0.027198562190876907,
+        0.02719856219089345,
+        0.028243016080023442,
+        0.028243016080036265,
+        0.05331403456701967,
+        0.00425508740779063,
+        0.05331403456701945
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.037700551366485,
+        -2.514539468980011
+      ],
+      "logical_split": 0.5231610823864741,
+      "isolation_gap": -0.5223553623009471,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1587233493336821,
+      "site_density_local_distinguishability": [
+        0.15855751855206945,
+        0.15855751855327105,
+        0.15872334933368148,
+        0.15872334933248633,
+        0.1587233493336821,
+        0.15872334933248794,
+        0.15855751855206296,
+        0.15855751855326178,
+        0.0005337506442848921,
+        0.0007358397277330093,
+        0.0005337506442848177
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.127939701504197,
+        -0.8399612250653516
+      ],
+      "logical_split": 0.28797847643884533,
+      "isolation_gap": 0.01730453335276616,
+      "split_over_gap": 16.641793833337406,
+      "max_site_density_local_distinguishability": 0.003547000919622789,
+      "site_density_local_distinguishability": [
+        0.0014348357981452953,
+        0.0014348357981798232,
+        0.003547000919622012,
+        0.0035470009196086894,
+        0.003547000919622789,
+        0.0035470009196096886,
+        0.0014348357981465165,
+        0.0014348357981803783,
+        0.002109487196781035,
+        5.3558493430935425e-06,
+        0.002109487196781037
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8525200605527727,
+        0.26948310975893
+      ],
+      "logical_split": 1.1220031703117028,
+      "isolation_gap": -0.7557121856943327,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.11544256578214418,
+      "site_density_local_distinguishability": [
+        0.11544256578214418,
+        0.11544256578210998,
+        0.11223221003094858,
+        0.11223221003095402,
+        0.11223221003094785,
+        0.1122322100309548,
+        0.11544256578214374,
+        0.11544256578210887,
+        0.0031900571519544083,
+        4.059719844229934e-05,
+        0.003190057151954399
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.037661233272277,
+        -2.0772680889383146
+      ],
+      "logical_split": 0.9603931443339624,
+      "isolation_gap": -0.9596239832502853,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0021977435596262783,
+      "site_density_local_distinguishability": [
+        0.0004005675825531907,
+        0.0004005675826074806,
+        0.00021088217917325514,
+        0.00021088217897818895,
+        0.00021088217917397678,
+        0.00021088217897724526,
+        0.0004005675823849919,
+        0.00040056758277551285,
+        0.000909186376308261,
+        0.0021977435596262783,
+        0.0009091863763081918
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.20288884106952668,
+        -0.17917316243234882
+      ],
+      "logical_split": 0.023715678637177856,
+      "isolation_gap": 0.03323593673172498,
+      "split_over_gap": 0.7135552949389367,
+      "max_site_density_local_distinguishability": 0.0027965612896063787,
+      "site_density_local_distinguishability": [
+        0.0013507726093638373,
+        0.001350772609355344,
+        0.0015824751535473691,
+        0.0015824751535494785,
+        0.0015824751535506443,
+        0.0015824751535462034,
+        0.0013507726093587302,
+        0.001350772609360451,
+        0.002796561289606349,
+        0.0002733729466034415,
+        0.0027965612896063787
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.1096630323548362,
+        0.856438873184808
+      ],
+      "logical_split": 0.9661019055396443,
+      "isolation_gap": -0.9593997547488895,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0031680847499305337,
+      "site_density_local_distinguishability": [
+        0.0024700321216940546,
+        0.002470032122108501,
+        0.0007034154471248222,
+        0.0007034154471021181,
+        0.0007034154471007303,
+        0.0007034154471262655,
+        0.002470032121719923,
+        0.0024700321220827437,
+        0.0031680847499305337,
+        1.0725638170154033e-05,
+        0.0031680847499305285
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.278400993751501,
+        -2.7151666309359865
+      ],
+      "logical_split": 0.5632343628155145,
+      "isolation_gap": -0.5264341829385906,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1531155259054815,
+      "site_density_local_distinguishability": [
+        0.14566814264327715,
+        0.14566814264328132,
+        0.1531155259054815,
+        0.15311552590547595,
+        0.15311552590548005,
+        0.15311552590547423,
+        0.14566814264326367,
+        0.14566814264327055,
+        0.012766409670154261,
+        0.010638052815898472,
+        0.012766409670153325
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.2183973553594116,
+        -1.105075058942767
+      ],
+      "logical_split": 0.11332229641664471,
+      "isolation_gap": 0.15839407202595868,
+      "split_over_gap": 0.7154453128654505,
+      "max_site_density_local_distinguishability": 0.03782779083519977,
+      "site_density_local_distinguishability": [
+        0.0012762554674089488,
+        0.0012762554674091708,
+        0.03782779083519977,
+        0.037827790835199104,
+        0.037827790835199715,
+        0.03782779083519955,
+        0.0012762554674089488,
+        0.0012762554674094484,
+        0.035530445765445805,
+        0.0020421792046880216,
+        0.0355304457654458
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8680602164644471,
+        -0.06195417127670866
+      ],
+      "logical_split": 0.8061060451877384,
+      "isolation_gap": -0.44174650839765484,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.16190671883167695,
+      "site_density_local_distinguishability": [
+        0.16190671883167695,
+        0.16190671883167418,
+        0.05365088412706548,
+        0.05365088412706581,
+        0.05365088412706576,
+        0.05365088412706587,
+        0.1619067188316765,
+        0.16190671883167407,
+        0.1009164156277869,
+        0.01467883815364494,
+        0.10091641562778673
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.277056733789194,
+        -2.30493489822208
+      ],
+      "logical_split": 0.9721218355671137,
+      "isolation_gap": -0.9365662835669664,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.024635539954484705,
+      "site_density_local_distinguishability": [
+        0.00701997826892703,
+        0.007019978268937688,
+        0.0027995586371620806,
+        0.002799558637171129,
+        0.0027995586371623027,
+        0.002799558637171018,
+        0.007019978268947957,
+        0.0070199782689169266,
+        0.01653818960900777,
+        0.024635539954484705,
+        0.01653818960900775
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.719931363517986,
+        -0.585005051168632
+      ],
+      "logical_split": 0.13492631234935404,
+      "isolation_gap": 0.07239548302754473,
+      "split_over_gap": 1.8637393758118561,
+      "max_site_density_local_distinguishability": 0.05655223104593285,
+      "site_density_local_distinguishability": [
+        0.02692943262616887,
+        0.026929432626168925,
+        0.011913848971391805,
+        0.011913848971391972,
+        0.011913848971391139,
+        0.011913848971392749,
+        0.02692943262616798,
+        0.026929432626169758,
+        0.056552231045932815,
+        0.03541789889674495,
+        0.05655223104593285
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.11445225805229364,
+        0.4744396238130551
+      ],
+      "logical_split": 0.5888918818653488,
+      "isolation_gap": -0.5801311372280655,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1255826377055499,
+      "site_density_local_distinguishability": [
+        0.06634226580716562,
+        0.0663422658071866,
+        0.08280547775127278,
+        0.08280547775125108,
+        0.08280547775125091,
+        0.08280547775127323,
+        0.0663422658071876,
+        0.06634226580716523,
+        0.1255826377055494,
+        0.04713021170577576,
+        0.1255826377055499
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.158135261483605,
+        -2.6169485341749077
+      ],
+      "logical_split": 0.5411867273086974,
+      "isolation_gap": -0.5291891112427853,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.15562260463282596,
+      "site_density_local_distinguishability": [
+        0.153823871597131,
+        0.15382387159713817,
+        0.15562260463282457,
+        0.15562260463282018,
+        0.15562260463282596,
+        0.15562260463282085,
+        0.1538238715971309,
+        0.15382387159713723,
+        0.003223214111490333,
+        0.002848962151603969,
+        0.003223214111490345
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.1601414140053232,
+        -0.936946680968402
+      ],
+      "logical_split": 0.22319473303692128,
+      "isolation_gap": 0.0708395309251535,
+      "split_over_gap": 3.1507087938335,
+      "max_site_density_local_distinguishability": 0.014173117672596991,
+      "site_density_local_distinguishability": [
+        0.005670843453587482,
+        0.005670843453591867,
+        0.014173117672596991,
+        0.014173117672595104,
+        0.014173117672596547,
+        0.014173117672594548,
+        0.005670843453586927,
+        0.005670843453591035,
+        0.0082952573449347,
+        0.00041403374814337045,
+        0.008295257344934668
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8580135319634794,
+        0.18443477536621858
+      ],
+      "logical_split": 1.042448307329698,
+      "isolation_gap": -0.6764305033301409,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.11311145435143932,
+      "site_density_local_distinguishability": [
+        0.11311145435143888,
+        0.1131114543514391,
+        0.10023260012693841,
+        0.10023260012693902,
+        0.10023260012693702,
+        0.10023260012693597,
+        0.11311145435143766,
+        0.11311145435143932,
+        0.012674671285705779,
+        0.0004083658775901501,
+        0.012674671285705832
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.157617690003029,
+        -2.194888545159941
+      ],
+      "logical_split": 0.9627291448430881,
+      "isolation_gap": -0.9512115411522108,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.00817178346487692,
+      "site_density_local_distinguishability": [
+        0.0012882359378170172,
+        0.0012882359377803243,
+        0.0008421767404042657,
+        0.0008421767404906966,
+        0.0008421767404043767,
+        0.0008421767404904745,
+        0.0012882359378460495,
+        0.0012882359377511254,
+        0.0045319509297894085,
+        0.00817178346487692,
+        0.004531950929789427
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.35449276601607954,
+        -0.3305214463983005
+      ],
+      "logical_split": 0.02397131961777904,
+      "isolation_gap": 0.07810919819669054,
+      "split_over_gap": 0.30689496462907867,
+      "max_site_density_local_distinguishability": 0.009500775053119541,
+      "site_density_local_distinguishability": [
+        0.004534380006084637,
+        0.004534380006079752,
+        0.003464098154240536,
+        0.003464098154239481,
+        0.0034640981542390925,
+        0.003464098154241313,
+        0.004534380006085081,
+        0.004534380006079308,
+        0.00950077505311937,
+        0.0030045937855950316,
+        0.009500775053119541
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.11096933825967864,
+        0.7760420313388416
+      ],
+      "logical_split": 0.8870113695985202,
+      "isolation_gap": -0.8798741174626281,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.013469696395331543,
+      "site_density_local_distinguishability": [
+        0.007504380565108659,
+        0.007504380565013846,
+        0.006291937856705343,
+        0.006291937856733321,
+        0.006291937856732599,
+        0.006291937856705954,
+        0.007504380565083957,
+        0.007504380565038327,
+        0.013469696395331543,
+        0.000653244052898758,
+        0.013469696395331516
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.2109203809818996,
+        -3.1744632634947263
+      ],
+      "logical_split": 0.036457117487173285,
+      "isolation_gap": 0.03534762617850262,
+      "split_over_gap": 1.0313880005143152,
+      "max_site_density_local_distinguishability": 0.07507309103005932,
+      "site_density_local_distinguishability": [
+        0.0726274865022356,
+        0.07262748650223355,
+        0.07507309103005733,
+        0.07507309103005932,
+        0.07507309103005777,
+        0.0750730910300591,
+        0.07262748650223538,
+        0.07262748650223444,
+        0.0030353548681565598,
+        0.001179500680664837,
+        0.003035354868156576
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.2536544317282545,
+        -1.6867812940716962
+      ],
+      "logical_split": 0.5668731376565583,
+      "isolation_gap": 0.04175988754644866,
+      "split_over_gap": 13.574584869895473,
+      "max_site_density_local_distinguishability": 0.011249051043384908,
+      "site_density_local_distinguishability": [
+        0.005611438044900274,
+        0.005611438044905104,
+        0.006398514206842898,
+        0.006398514206844508,
+        0.006398514206843009,
+        0.006398514206844674,
+        0.005611438044900385,
+        0.005611438044904826,
+        0.011249051043384901,
+        0.001521802416722649,
+        0.011249051043384908
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.8628356690971029,
+        -0.5638424468332472
+      ],
+      "logical_split": 1.2989932222638556,
+      "isolation_gap": -0.5807849656682131,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.10258643703113646,
+      "site_density_local_distinguishability": [
+        0.10258643703113635,
+        0.10258643703113424,
+        0.060984928041451725,
+        0.06098492804145228,
+        0.06098492804145178,
+        0.06098492804145211,
+        0.10258643703113646,
+        0.10258643703113479,
+        0.03898794967792724,
+        0.005227118623512486,
+        0.0389879496779272
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.066043801150383,
+        -2.245788598357878
+      ],
+      "logical_split": 0.820255202792505,
+      "isolation_gap": -0.8173995715611726,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.007153218625753048,
+      "site_density_local_distinguishability": [
+        0.0035134533710002303,
+        0.0035134533709286764,
+        0.001892627286024795,
+        0.0018926272860789184,
+        0.0018926272860255167,
+        0.0018926272860781412,
+        0.003513453370986963,
+        0.003513453370941888,
+        0.0019557832279643453,
+        0.007153218625753048,
+        0.0019557832279643887
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.7407406802698393,
+        -0.6135333886696336
+      ],
+      "logical_split": 0.12720729160020572,
+      "isolation_gap": 0.07684423904504512,
+      "split_over_gap": 1.655391388880023,
+      "max_site_density_local_distinguishability": 0.018559659918578966,
+      "site_density_local_distinguishability": [
+        0.009120445116315157,
+        0.009120445116316656,
+        0.009759588451004941,
+        0.009759588451005441,
+        0.009759588451004997,
+        0.009759588451005385,
+        0.009120445116314713,
+        0.009120445116317377,
+        0.01855965991857895,
+        0.0006407472974853216,
+        0.018559659918578966
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.48339685458710696,
+        0.3837947915788743
+      ],
+      "logical_split": 0.8671916461659812,
+      "isolation_gap": -0.7812600736075686,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.10963484650582021,
+      "site_density_local_distinguishability": [
+        0.07044093813037833,
+        0.07044093813038732,
+        0.051173971635760374,
+        0.05117397163575638,
+        0.0511739716357566,
+        0.051173971635759985,
+        0.0704409381303841,
+        0.07044093813038099,
+        0.10963484650582021,
+        0.023960126520640907,
+        0.10963484650581869
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.19535579971717,
+        -3.14981580381888
+      ],
+      "logical_split": 0.04553999589828983,
+      "isolation_gap": 0.019288292238353932,
+      "split_over_gap": 2.3610175196192604,
+      "max_site_density_local_distinguishability": 0.07468398204177706,
+      "site_density_local_distinguishability": [
+        0.07375887183356289,
+        0.07375887183357016,
+        0.07468398204177706,
+        0.07468398204177218,
+        0.07468398204177606,
+        0.07468398204177262,
+        0.073758871833565,
+        0.07375887183356789,
+        0.001006534102455804,
+        0.00016284778849556185,
+        0.0010065341024557916
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.2449697999090352,
+        -1.647867753130853
+      ],
+      "logical_split": 0.5971020467781822,
+      "isolation_gap": 0.017151158310319214,
+      "split_over_gap": 34.814094533716016,
+      "max_site_density_local_distinguishability": 0.002045698699673684,
+      "site_density_local_distinguishability": [
+        0.00010988504393671938,
+        0.00010988504393549814,
+        0.001976480650930257,
+        0.0019764806509297017,
+        0.0019764806509299238,
+        0.0019764806509289246,
+        0.00010988504393738552,
+        0.00010988504393594223,
+        0.00204569869967368,
+        8.133399038412871e-05,
+        0.002045698699673684
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.8592360922359359,
+        -0.4899765035779283
+      ],
+      "logical_split": 1.3692595886580077,
+      "isolation_gap": -0.6493035949987246,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.07763360949201259,
+      "site_density_local_distinguishability": [
+        0.07763360949201215,
+        0.07763360949199183,
+        0.07441606004143525,
+        0.07441606004143975,
+        0.07441606004143603,
+        0.07441606004144075,
+        0.07763360949201259,
+        0.07763360949199194,
+        0.0031509701358117814,
+        0.00013315862950546227,
+        0.0031509701358117866
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.0378986792805076,
+        -2.2126504872540256
+      ],
+      "logical_split": 0.825248192026482,
+      "isolation_gap": -0.8244010398970802,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0038361954618613137,
+      "site_density_local_distinguishability": [
+        0.003836195460592995,
+        0.0038361954618613137,
+        0.0034164927343729445,
+        0.003416492733121279,
+        0.003416492734370724,
+        0.003416492733123333,
+        0.003836195460635794,
+        0.0038361954618184035,
+        0.0005903173583723515,
+        0.002020040171706159,
+        0.0005903173583723326
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.7248084211120641,
+        -0.5535814980260463
+      ],
+      "logical_split": 0.17122692308601783,
+      "isolation_gap": 0.029354056972224818,
+      "split_over_gap": 5.833160412819084,
+      "max_site_density_local_distinguishability": 0.002883387884954419,
+      "site_density_local_distinguishability": [
+        0.0012911458457045,
+        0.0012911458457029457,
+        0.001545551933428868,
+        0.001545551933428646,
+        0.0015455519334275913,
+        0.0015455519334298673,
+        0.0012911458457030012,
+        0.001291145845704278,
+        0.002883387884954406,
+        9.338021164286047e-05,
+        0.002883387884954419
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.4789807121568206,
+        0.5138792913637809
+      ],
+      "logical_split": 0.9928600035206014,
+      "isolation_gap": -0.9095400735610237,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0064498199774295495,
+      "site_density_local_distinguishability": [
+        0.006449819977387028,
+        0.0064498199774295495,
+        0.0027682766142965165,
+        0.0027682766143003468,
+        0.0027682766143015125,
+        0.0027682766142952397,
+        0.006449819977393689,
+        0.006449819977423221,
+        0.003714853520291011,
+        6.662031436256819e-05,
+        0.0037148535202909897
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.3458068160065437,
+        -3.3376631261531173
+      ],
+      "logical_split": 0.008143689853426395,
+      "isolation_gap": 0.0929308383074261,
+      "split_over_gap": 0.08763172701064112,
+      "max_site_density_local_distinguishability": 0.008512430854032638,
+      "site_density_local_distinguishability": [
+        0.004385539846794795,
+        0.004385539846789688,
+        0.008512430854028086,
+        0.008512430854032083,
+        0.008512430854028419,
+        0.008512430854032638,
+        0.004385539846795128,
+        0.00438553984679152,
+        0.0021990454153693884,
+        0.0038556911837351916,
+        0.0021990454153695063
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.309788166325253,
+        -1.8838985193620181
+      ],
+      "logical_split": 0.4258896469632347,
+      "isolation_gap": 0.15410387392862934,
+      "split_over_gap": 2.763653087400505,
+      "max_site_density_local_distinguishability": 0.036092027117576905,
+      "site_density_local_distinguishability": [
+        0.015337970633378939,
+        0.01533797063337966,
+        0.023093144044585567,
+        0.023093144044585845,
+        0.0230931440445854,
+        0.023093144044585734,
+        0.015337970633378828,
+        0.01533797063337955,
+        0.036092027117576905,
+        0.004678175120775934,
+        0.03609202711757687
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.8853401283359141,
+        -0.8221288985395973
+      ],
+      "logical_split": 1.063211229796317,
+      "isolation_gap": -0.35373856796074,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1382815506567674,
+      "site_density_local_distinguishability": [
+        0.1382815506567665,
+        0.13828155065676712,
+        0.03416582485993014,
+        0.034165824859930194,
+        0.03416582485993064,
+        0.03416582485993053,
+        0.13828155065676667,
+        0.1382815506567674,
+        0.0956754711313237,
+        0.01688050933102639,
+        0.09567547113132363
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.2829882666103023,
+        -2.4584927696678607
+      ],
+      "logical_split": 0.8244954969424416,
+      "isolation_gap": -0.7856837666393375,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.02332547977422085,
+      "site_density_local_distinguishability": [
+        0.0013287435995535946,
+        0.0013287435995420482,
+        0.0009558807584851836,
+        0.0009558807584753026,
+        0.0009558807584852391,
+        0.0009558807584754136,
+        0.0013287435995515962,
+        0.00132874359954388,
+        0.0139473642451386,
+        0.02332547977422085,
+        0.013947364245138597
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8988820295364394,
+        -0.9000157067426544
+      ],
+      "logical_split": 0.0011336772062150446,
+      "isolation_gap": 0.256727629167094,
+      "split_over_gap": 0.004415875337972206,
+      "max_site_density_local_distinguishability": 0.0040617116620233484,
+      "site_density_local_distinguishability": [
+        0.0020569516807537047,
+        0.0020569516807544264,
+        0.0010512554156640874,
+        0.0010512554156634213,
+        0.0010512554156636988,
+        0.0010512554156639209,
+        0.002056951680755148,
+        0.0020569516807530386,
+        0.0040617116620233484,
+        0.0019070091312104673,
+        0.004061711662023286
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.5071001292697457,
+        0.060333723130611
+      ],
+      "logical_split": 0.5674338524003567,
+      "isolation_gap": -0.4671442886547603,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.15136031104432235,
+      "site_density_local_distinguishability": [
+        0.09391220210492596,
+        0.09391220210492407,
+        0.08303819887530234,
+        0.0830381988753024,
+        0.08303819887530217,
+        0.08303819887530267,
+        0.09391220210492618,
+        0.09391220210492479,
+        0.15136031104432138,
+        0.05118017987181182,
+        0.15136031104432235
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.256496802655142,
+        -3.244634525728812
+      ],
+      "logical_split": 0.011862276926330129,
+      "isolation_gap": 0.07597763606639685,
+      "split_over_gap": 0.1561285338749377,
+      "max_site_density_local_distinguishability": 0.0604336383067795,
+      "site_density_local_distinguishability": [
+        0.05837046303218757,
+        0.05837046303218879,
+        0.06043363830677939,
+        0.0604336383067795,
+        0.06043363830677917,
+        0.06043363830677939,
+        0.05837046303219007,
+        0.05837046303218768,
+        0.0026790451160470696,
+        0.0012317396829115241,
+        0.0026790451160470887
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.272607654472389,
+        -1.7383406703007827
+      ],
+      "logical_split": 0.5342669841716063,
+      "isolation_gap": 0.06852927772077977,
+      "split_over_gap": 7.796185833862998,
+      "max_site_density_local_distinguishability": 0.007943344085228251,
+      "site_density_local_distinguishability": [
+        0.0003038947530380476,
+        0.000303894753032663,
+        0.007863242863135111,
+        0.007863242863132891,
+        0.007863242863135111,
+        0.007863242863133113,
+        0.0003038947530380476,
+        0.000303894753032552,
+        0.00794334408522825,
+        0.0004475870618827187,
+        0.007943344085228251
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.869950001949201,
+        -0.5789489909288335
+      ],
+      "logical_split": 1.2910010110203676,
+      "isolation_gap": -0.5736514257008636,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.07939684647495848,
+      "site_density_local_distinguishability": [
+        0.07939684647495127,
+        0.0793968464749577,
+        0.06680295840061345,
+        0.0668029584006119,
+        0.06680295840061334,
+        0.06680295840061146,
+        0.0793968464749506,
+        0.07939684647495848,
+        0.012238914985054496,
+        0.0007099461785749206,
+        0.012238914985054524
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.1593685049359785,
+        -2.337844203850647
+      ],
+      "logical_split": 0.8215243010853315,
+      "isolation_gap": -0.8089331124542545,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.007370693809536695,
+      "site_density_local_distinguishability": [
+        0.00277079765264876,
+        0.0027707976525749856,
+        0.0026154085143169636,
+        0.0026154085143882955,
+        0.002615408514316908,
+        0.002615408514388129,
+        0.0027707976526467615,
+        0.0027707976525768174,
+        0.003529957766508761,
+        0.007370693809536695,
+        0.003529957766508743
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.7595863149392639,
+        -0.6729460744853428
+      ],
+      "logical_split": 0.08664024045392105,
+      "isolation_gap": 0.12273365651835311,
+      "split_over_gap": 0.7059207955803485,
+      "max_site_density_local_distinguishability": 0.010339165461233445,
+      "site_density_local_distinguishability": [
+        0.004628250713989146,
+        0.004628250713990312,
+        0.006004079243394023,
+        0.0060040792433934675,
+        0.006004079243393745,
+        0.006004079243393523,
+        0.00462825071399009,
+        0.004628250713989535,
+        0.010339165461233445,
+        0.0005863289923020952,
+        0.010339165461233354
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.48634797923381035,
+        0.42119445208354217
+      ],
+      "logical_split": 0.9075424313173526,
+      "isolation_gap": -0.8203058903515976,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.014979752515958008,
+      "site_density_local_distinguishability": [
+        0.011813323337019732,
+        0.011813323337020953,
+        0.003354613470159362,
+        0.0033546134701564756,
+        0.00335461347015642,
+        0.0033546134701593067,
+        0.011813323337023507,
+        0.011813323337016901,
+        0.014979752515958008,
+        0.00037636858244052287,
+        0.014979752515957975
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.254465658687528,
+        -4.666488317269564
+      ],
+      "logical_split": 0.5879773414179645,
+      "isolation_gap": 0.03212047745480362,
+      "split_over_gap": 18.30537364350518,
+      "max_site_density_local_distinguishability": 0.04359639828781248,
+      "site_density_local_distinguishability": [
+        0.039287013117212055,
+        0.03928701311721294,
+        0.04359639828781248,
+        0.043596398287812144,
+        0.04359639828781248,
+        0.04359639828781248,
+        0.0392870131172125,
+        0.0392870131172125,
+        0.0040650604221514446,
+        0.000488649496897686,
+        0.004065060422151451
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.4849494431299295,
+        -3.299163102740474
+      ],
+      "logical_split": 1.1857863403894555,
+      "isolation_gap": 0.04164246024750673,
+      "split_over_gap": 28.4754150773417,
+      "max_site_density_local_distinguishability": 0.010437268391585174,
+      "site_density_local_distinguishability": [
+        0.007040543085401418,
+        0.007040543085406692,
+        0.004528297610300824,
+        0.00452829761030249,
+        0.004528297610301157,
+        0.004528297610303045,
+        0.007040543085401196,
+        0.007040543085406636,
+        0.010437268391585174,
+        0.0022631446082411054,
+        0.010437268391585146
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.008227796828375,
+        -2.1391363931339358
+      ],
+      "logical_split": 1.8690914036944388,
+      "isolation_gap": -0.4925882558676187,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.07482549095886809,
+      "site_density_local_distinguishability": [
+        0.07482549095886182,
+        0.0748254909588677,
+        0.03030302915657035,
+        0.030303029156569072,
+        0.030303029156571015,
+        0.030303029156569072,
+        0.07482549095886187,
+        0.07482549095886809,
+        0.04015854332504951,
+        0.008727836954490737,
+        0.0401585433250495
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.1002934741187023,
+        -3.0876925727661684
+      ],
+      "logical_split": 0.012600901352533889,
+      "isolation_gap": 0.020994710549241624,
+      "split_over_gap": 0.6001940976027917,
+      "max_site_density_local_distinguishability": 0.007348097582533075,
+      "site_density_local_distinguishability": [
+        0.006006168691620628,
+        0.006006168691621905,
+        0.007348097582532853,
+        0.007348097582530522,
+        0.007348097582533075,
+        0.007348097582530633,
+        0.0060061686916203505,
+        0.00600616869162246,
+        0.0007922409052297363,
+        0.0010993759713607623,
+        0.0007922409052297727
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.368244916024048,
+        -1.7990428467019224
+      ],
+      "logical_split": 0.5692020693221256,
+      "isolation_gap": 0.07615579571399733,
+      "split_over_gap": 7.474179266142275,
+      "max_site_density_local_distinguishability": 0.025394437693163848,
+      "site_density_local_distinguishability": [
+        0.015729163042563055,
+        0.015729163042564054,
+        0.012143267119523182,
+        0.012143267119523737,
+        0.01214326711952346,
+        0.012143267119523682,
+        0.0157291630425625,
+        0.015729163042564664,
+        0.025394437693163848,
+        0.004955984937846676,
+        0.025394437693163834
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.941267917629868,
+        -0.9022073612726856
+      ],
+      "logical_split": 1.0390605563571822,
+      "isolation_gap": -0.4952141063037069,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.2566019915766128,
+      "site_density_local_distinguishability": [
+        0.2027496800244406,
+        0.20274968002444038,
+        0.09973491126140238,
+        0.09973491126140277,
+        0.09973491126140266,
+        0.09973491126140249,
+        0.20274968002444077,
+        0.20274968002444027,
+        0.2566019915766121,
+        0.09176519941846094,
+        0.2566019915766128
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.247207892936938,
+        -4.645328562965175
+      ],
+      "logical_split": 0.6018793299717631,
+      "isolation_gap": 0.017200548697601015,
+      "split_over_gap": 34.99186802428623,
+      "max_site_density_local_distinguishability": 0.04197118039870973,
+      "site_density_local_distinguishability": [
+        0.04072683435467339,
+        0.04072683435471458,
+        0.041971180398709396,
+        0.04197118039868297,
+        0.04197118039870973,
+        0.041971180398682306,
+        0.040726834354673114,
+        0.0407268343547153,
+        0.0012083233278301392,
+        7.204543234307298e-05,
+        0.001208323327830138
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.479623843496696,
+        -3.264417980969478
+      ],
+      "logical_split": 1.2152058625272177,
+      "isolation_gap": 0.01708764947382324,
+      "split_over_gap": 71.1160340916874,
+      "max_site_density_local_distinguishability": 0.00195570666808437,
+      "site_density_local_distinguishability": [
+        0.0008517112808177352,
+        0.0008517112807833183,
+        0.0012074918208888064,
+        0.0012074918208755392,
+        0.0012074918208888064,
+        0.0012074918208752061,
+        0.0008517112808178462,
+        0.0008517112807830407,
+        0.00195570666808437,
+        0.00020699286719555476,
+        0.0019557066680843654
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.0046914902200745,
+        -2.0631299683976616
+      ],
+      "logical_split": 1.941561521822413,
+      "isolation_gap": -0.5616967564985931,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0448308312388398,
+      "site_density_local_distinguishability": [
+        0.044830831238825475,
+        0.0448308312388398,
+        0.04159581000194451,
+        0.041595810001941125,
+        0.0415958100019449,
+        0.0415958100019409,
+        0.044830831238825586,
+        0.044830831238839686,
+        0.0030719495142699166,
+        0.00032614344524037206,
+        0.0030719495142699175
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.061032815305534,
+        -3.0526710626449454
+      ],
+      "logical_split": 0.008361752660588806,
+      "isolation_gap": 0.01492197351626423,
+      "split_over_gap": 0.5603650650816998,
+      "max_site_density_local_distinguishability": 0.002625728402570693,
+      "site_density_local_distinguishability": [
+        0.002364542076635834,
+        0.002364542076646714,
+        0.002625728402570693,
+        0.002625728402560812,
+        0.0026257284025701377,
+        0.002625728402561256,
+        0.0023645420766375547,
+        0.002364542076644549,
+        8.080352302285848e-05,
+        0.000360765605802077,
+        8.08035230228433e-05
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.356293022556645,
+        -1.735062938098263
+      ],
+      "logical_split": 0.621230084458382,
+      "isolation_gap": 0.025813063228748767,
+      "split_over_gap": 24.0664999327356,
+      "max_site_density_local_distinguishability": 0.0028176585773436315,
+      "site_density_local_distinguishability": [
+        0.0012999181086811862,
+        0.0012999181086334466,
+        0.0014754231594312772,
+        0.0014754231594200085,
+        0.0014754231594308331,
+        0.001475423159420397,
+        0.0012999181086807976,
+        0.0012999181086340017,
+        0.0028176585773436232,
+        8.463461851970907e-05,
+        0.0028176585773436315
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.9323085910363922,
+        -0.6106674411497479
+      ],
+      "logical_split": 1.3216411498866443,
+      "isolation_gap": -0.7808286686776658,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.014590420238332458,
+      "site_density_local_distinguishability": [
+        0.01459042023831425,
+        0.014590420238332458,
+        0.010055507201613134,
+        0.010055507201612135,
+        0.010055507201614133,
+        0.01005550720161108,
+        0.014590420238314028,
+        0.014590420238332236,
+        0.004517521578660471,
+        3.478291610199355e-05,
+        0.004517521578660469
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.310578374136681,
+        -4.80719456612266
+      ],
+      "logical_split": 0.5033838080140214,
+      "isolation_gap": 0.12350685006014395,
+      "split_over_gap": 4.075756184931357,
+      "max_site_density_local_distinguishability": 0.05067122551078074,
+      "site_density_local_distinguishability": [
+        0.03570745700303474,
+        0.03570745700302991,
+        0.05067122551077752,
+        0.05067122551078074,
+        0.05067122551077763,
+        0.05067122551078074,
+        0.03570745700303435,
+        0.03570745700302935,
+        0.014389210114825454,
+        0.0011491167858436926,
+        0.014389210114825402
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.524190385991708,
+        -3.4764912794994
+      ],
+      "logical_split": 1.047699106492308,
+      "isolation_gap": 0.15369132967262633,
+      "split_over_gap": 6.816904432566125,
+      "max_site_density_local_distinguishability": 0.03422223046362697,
+      "site_density_local_distinguishability": [
+        0.022166298870520462,
+        0.022166298870519907,
+        0.015706453483556704,
+        0.015706453483556593,
+        0.01570645348355687,
+        0.015706453483556482,
+        0.022166298870520906,
+        0.02216629887052024,
+        0.03422223046362697,
+        0.007301043780899704,
+        0.034222230463626935
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.033472934117204,
+        -2.393955464726592
+      ],
+      "logical_split": 1.6395174693906118,
+      "isolation_gap": -0.2800263508908105,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.11475198591833458,
+      "site_density_local_distinguishability": [
+        0.11475198591833452,
+        0.11475198591833458,
+        0.010753412949630059,
+        0.010753412949629892,
+        0.010753412949629837,
+        0.010753412949630003,
+        0.11475198591833435,
+        0.1147519859183343,
+        0.093017167957126,
+        0.0219628100231574,
+        0.0930171679571261
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.363116372015237,
+        -3.291458589727583
+      ],
+      "logical_split": 0.07165778228765385,
+      "isolation_gap": 0.034008856704293766,
+      "split_over_gap": 2.1070329682269717,
+      "max_site_density_local_distinguishability": 0.017665591643543643,
+      "site_density_local_distinguishability": [
+        0.008526917260339772,
+        0.00852691726033894,
+        0.0176655916435432,
+        0.017665591643543643,
+        0.017665591643543532,
+        0.01766559164354342,
+        0.008526917260339162,
+        0.008526917260339606,
+        0.010378267712085845,
+        0.002479186657763692,
+        0.010378267712085956
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.4349756067020216,
+        -2.0534263589401522
+      ],
+      "logical_split": 0.3815492477618694,
+      "isolation_gap": 0.26026301453583045,
+      "split_over_gap": 1.4660140951734864,
+      "max_site_density_local_distinguishability": 0.06279217340981992,
+      "site_density_local_distinguishability": [
+        0.036649409587871884,
+        0.03664940958787022,
+        0.030541334224708727,
+        0.03054133422470845,
+        0.030541334224708505,
+        0.030541334224708505,
+        0.03664940958787177,
+        0.03664940958787055,
+        0.06279217340981977,
+        0.008797140805520891,
+        0.06279217340981992
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.9878630293557893,
+        -1.214933094715486
+      ],
+      "logical_split": 0.7729299346403034,
+      "isolation_gap": -0.21242676577865893,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.21289521627338867,
+      "site_density_local_distinguishability": [
+        0.16437703452049318,
+        0.16437703452049324,
+        0.08563346200154803,
+        0.08563346200154726,
+        0.08563346200154742,
+        0.08563346200154798,
+        0.16437703452049401,
+        0.16437703452049246,
+        0.21289521627338773,
+        0.07423056049730528,
+        0.21289521627338867
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.281028090578428,
+        -4.726768255009513
+      ],
+      "logical_split": 0.5542598355689154,
+      "isolation_gap": 0.06813653850980295,
+      "split_over_gap": 8.134546422389404,
+      "max_site_density_local_distinguishability": 0.04500030888679374,
+      "site_density_local_distinguishability": [
+        0.04023510940229624,
+        0.040235109402289804,
+        0.0450003088867893,
+        0.04500030888679374,
+        0.045000308886790186,
+        0.04500030888679363,
+        0.04023510940229458,
+        0.040235109402289304,
+        0.004653382498855746,
+        0.0002236339712880179,
+        0.00465338249885572
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.502393892598529,
+        -3.3490787441075778
+      ],
+      "logical_split": 1.1533151484909512,
+      "isolation_gap": 0.06759070674451717,
+      "split_over_gap": 17.06322073018575,
+      "max_site_density_local_distinguishability": 0.007547258391859945,
+      "site_density_local_distinguishability": [
+        0.0032052127150731247,
+        0.003205212715074568,
+        0.004757035963558032,
+        0.004757035963559031,
+        0.004757035963558143,
+        0.004757035963558753,
+        0.0032052127150725696,
+        0.003205212715074013,
+        0.007547258391859932,
+        0.0008299805735448246,
+        0.007547258391859945
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.018962261214045,
+        -2.154875522113959
+      ],
+      "logical_split": 1.8640867391000864,
+      "isolation_gap": -0.4906596959547267,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.04921325270167054,
+      "site_density_local_distinguishability": [
+        0.049213252701662547,
+        0.04921325270167032,
+        0.036802814331031775,
+        0.03680281433102983,
+        0.03680281433103205,
+        0.03680281433102983,
+        0.04921325270166299,
+        0.04921325270167054,
+        0.011739082357221084,
+        0.001342712026830427,
+        0.01173908235722109
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.203696777941631,
+        -3.1645306615809785
+      ],
+      "logical_split": 0.03916611636065248,
+      "isolation_gap": 0.014647199428896585,
+      "split_over_gap": 2.6739662111368534,
+      "max_site_density_local_distinguishability": 0.012587827968920495,
+      "site_density_local_distinguishability": [
+        0.009430756989268152,
+        0.009430756989273315,
+        0.012587827968920495,
+        0.012587827968916054,
+        0.012587827968919996,
+        0.012587827968916887,
+        0.009430756989269873,
+        0.009430756989271538,
+        0.0027784939864050635,
+        0.0007571539864857316,
+        0.0027784939864050878
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.3839280224005197,
+        -1.8391805051933376
+      ],
+      "logical_split": 0.5447475172071821,
+      "isolation_gap": 0.1029021750597956,
+      "split_over_gap": 5.293838705456263,
+      "max_site_density_local_distinguishability": 0.010700295957186367,
+      "site_density_local_distinguishability": [
+        0.004883901900137155,
+        0.004883901900134047,
+        0.005752173036835506,
+        0.005752173036835062,
+        0.005752173036836061,
+        0.00575217303683484,
+        0.004883901900137322,
+        0.004883901900133825,
+        0.010700295957186367,
+        0.00012844204043238779,
+        0.010700295957186362
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.9505336801570432,
+        -0.7195639749084903
+      ],
+      "logical_split": 1.2309697052485529,
+      "isolation_gap": -0.6830736903948549,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.020848208166899584,
+      "site_density_local_distinguishability": [
+        0.020848208166899584,
+        0.020848208166884208,
+        0.003646652217174473,
+        0.0036466522171752502,
+        0.003646652217173807,
+        0.0036466522171758053,
+        0.020848208166899307,
+        0.020848208166884263,
+        0.01700241957155901,
+        0.0003982727563165149,
+        0.017002419571558982
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.129348346083514,
+        -2.623071523576983
+      ],
+      "logical_split": 0.506276822506531,
+      "isolation_gap": -0.5037543576238246,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1607873644234884,
+      "site_density_local_distinguishability": [
+        0.1607873644234884,
+        0.16078736442341768,
+        0.08718776616435203,
+        0.08718776616448765,
+        0.14777166657611113,
+        0.14777166657624985,
+        0.08718776616435508,
+        0.08718776616449242,
+        0.1607873644234068,
+        0.16078736442333483,
+        0.002465067466983443,
+        0.002178832437883484,
+        0.0021788324378831303,
+        0.002465067466982367
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3794059785942818,
+        -1.1633360532570731
+      ],
+      "logical_split": 0.2160699253372087,
+      "isolation_gap": 0.02759342837175227,
+      "split_over_gap": 7.830484941059448,
+      "max_site_density_local_distinguishability": 0.13848571992605324,
+      "site_density_local_distinguishability": [
+        0.033841146937829525,
+        0.03384114693782925,
+        0.11071852744744493,
+        0.11071852744744581,
+        0.13848571992605324,
+        0.13848571992605285,
+        0.11071852744744537,
+        0.11071852744744559,
+        0.03384114693782975,
+        0.033841146937829136,
+        0.00425829697004302,
+        0.0033762235765466765,
+        0.0033762235765466713,
+        0.004258296970043025
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.2091982288756697,
+        -0.672025880016007
+      ],
+      "logical_split": 0.5371723488596627,
+      "isolation_gap": -0.23681532251928672,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.445660881996374,
+      "site_density_local_distinguishability": [
+        0.06861947053814205,
+        0.06861947053823791,
+        0.29389351873128955,
+        0.2938935187313063,
+        0.44566088199631065,
+        0.445660881996374,
+        0.2938935187312895,
+        0.2938935187313046,
+        0.06861947053814133,
+        0.06861947053823803,
+        0.00151858827597076,
+        0.000925018918964988,
+        0.0009250189189649917,
+        0.001518588275970757
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.12921569896109,
+        -2.3467525679417647
+      ],
+      "logical_split": 0.7824631310193255,
+      "isolation_gap": -0.7800633166243061,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1122147657481678,
+      "site_density_local_distinguishability": [
+        0.11221476574806355,
+        0.1122147657481678,
+        0.10703326588698397,
+        0.10703326588683043,
+        0.007851051646221963,
+        0.007851051646126428,
+        0.10703326588692974,
+        0.10703326588686635,
+        0.11221476574810235,
+        0.11221476574811329,
+        4.642183102014034e-05,
+        0.0012095522071024836,
+        0.0012095522071021662,
+        4.642183102010868e-05
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.6317582795287928,
+        -0.6298359725264417
+      ],
+      "logical_split": 0.0019223070023510758,
+      "isolation_gap": 0.054431997711517965,
+      "split_over_gap": 0.03531575329163989,
+      "max_site_density_local_distinguishability": 0.0051848187953809815,
+      "site_density_local_distinguishability": [
+        0.0013586287972400801,
+        0.0013586287972309763,
+        0.004624891012608545,
+        0.004624891012606214,
+        0.0007773155212985605,
+        0.0007773155212981164,
+        0.004624891012608379,
+        0.004624891012606547,
+        0.0013586287972401911,
+        0.0013586287972302546,
+        0.005184818795380837,
+        0.00041004325381261905,
+        0.0004100432538126581,
+        0.0051848187953809815
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.5475819909497699,
+        -0.2198435766315464
+      ],
+      "logical_split": 0.3277384143182235,
+      "isolation_gap": -0.3140227649619892,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.14878999088815548,
+      "site_density_local_distinguishability": [
+        0.03574617318767315,
+        0.0357461731878046,
+        0.11184721772828932,
+        0.11184721772835382,
+        0.1487899908880434,
+        0.14878999088815548,
+        0.11184721772830153,
+        0.1118472177283425,
+        0.03574617318768508,
+        0.03574617318779422,
+        0.0011354332005326941,
+        0.0005706158960004323,
+        0.0005706158960004347,
+        0.0011354332005327143
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.1026502568777454,
+        -2.5976460135620973
+      ],
+      "logical_split": 0.5050042433156481,
+      "isolation_gap": -0.5042426807497122,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1658078138309796,
+      "site_density_local_distinguishability": [
+        0.16580781383047466,
+        0.1658078138309796,
+        0.08958116638201669,
+        0.08958116638119284,
+        0.15277005425661128,
+        0.15277005425576962,
+        0.08958116638201385,
+        0.08958116638119751,
+        0.16580781383050974,
+        0.16580781383092066,
+        0.0007920580856907274,
+        0.0006336784067111304,
+        0.0006336784067111107,
+        0.0007920580856906856
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3721662042893885,
+        -1.1364561241769224
+      ],
+      "logical_split": 0.23571008011246608,
+      "isolation_gap": 0.011695212382918374,
+      "split_over_gap": 20.15440783758114,
+      "max_site_density_local_distinguishability": 0.15504958673634123,
+      "site_density_local_distinguishability": [
+        0.03933065348016718,
+        0.03933065348020437,
+        0.11824514245914824,
+        0.1182451424591322,
+        0.15504958673632008,
+        0.15504958673634123,
+        0.11824514245914891,
+        0.11824514245913265,
+        0.039330653480168176,
+        0.039330653480203315,
+        0.0007938416842961904,
+        0.0005958539264931167,
+        0.0005958539264931199,
+        0.0007938416842961977
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.2080247546447587,
+        -0.6654081642851325
+      ],
+      "logical_split": 0.5426165903596262,
+      "isolation_gap": -0.24187271912343944,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.4526573768338324,
+      "site_density_local_distinguishability": [
+        0.07032888319293007,
+        0.07032888319281039,
+        0.296993021867476,
+        0.29699302186745713,
+        0.4526573768338324,
+        0.45265737683375395,
+        0.2969930218674767,
+        0.2969930218674557,
+        0.07032888319292874,
+        0.07032888319280978,
+        0.00021613475339320192,
+        0.00011931550430615552,
+        0.00011931550430615665,
+        0.00021613475339320239
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.102607942444478,
+        -2.3249536976671443
+      ],
+      "logical_split": 0.7776542447773336,
+      "isolation_gap": -0.7769317952627741,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.11304820600656035,
+      "site_density_local_distinguishability": [
+        0.11304820600656035,
+        0.11304820600569476,
+        0.10834806141752168,
+        0.1083480614188908,
+        0.008371062647781868,
+        0.00837106264905374,
+        0.10834806141759823,
+        0.10834806141877051,
+        0.11304820600640181,
+        0.1130482060058694,
+        1.4670729152482472e-05,
+        0.0005292839928799911,
+        0.0005292839928797996,
+        1.4670729152603036e-05
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.6119891476382451,
+        -0.585326165524873
+      ],
+      "logical_split": 0.026662982113372036,
+      "isolation_gap": 0.022142034414539657,
+      "split_over_gap": 1.2041794179429004,
+      "max_site_density_local_distinguishability": 0.013693697699945884,
+      "site_density_local_distinguishability": [
+        0.00295583939415478,
+        0.0029558393942080152,
+        0.011887160694256882,
+        0.011887160694247445,
+        0.013693697699938667,
+        0.013693697699945884,
+        0.011887160694259491,
+        0.011887160694246501,
+        0.0029558393941540584,
+        0.002955839394207238,
+        0.0017592486857919115,
+        0.00032522376430787244,
+        0.0003252237643078716,
+        0.0017592486857919193
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.5471832722581884,
+        -0.21576497706415496
+      ],
+      "logical_split": 0.33141829519403343,
+      "isolation_gap": -0.31788669324361973,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.15166812672010432,
+      "site_density_local_distinguishability": [
+        0.03698262923399487,
+        0.03698262923529627,
+        0.11303922554577739,
+        0.11303922554635193,
+        0.15166812671889396,
+        0.15166812672010432,
+        0.11303922554578671,
+        0.11303922554634127,
+        0.03698262923400464,
+        0.03698262923529033,
+        0.00014267098220871712,
+        7.986196945840808e-05,
+        7.986196945840936e-05,
+        0.00014267098220871726
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.337009525278281,
+        -2.7949306201718582
+      ],
+      "logical_split": 0.5420789051064228,
+      "isolation_gap": -0.5361733709884486,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.13098488440210565,
+      "site_density_local_distinguishability": [
+        0.13098488440210565,
+        0.1309848844020966,
+        0.07446484039509271,
+        0.07446484039510193,
+        0.12644905253839184,
+        0.12644905253840055,
+        0.07446484039509355,
+        0.07446484039510226,
+        0.13098488440206882,
+        0.13098488440206746,
+        0.010618627726458324,
+        0.0039141454642466315,
+        0.00391414546424575,
+        0.010618627726456272
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.4306020047452368,
+        -1.3245265110419286
+      ],
+      "logical_split": 0.10607549370330815,
+      "isolation_gap": 0.11292296290143278,
+      "split_over_gap": 0.939361587562119,
+      "max_site_density_local_distinguishability": 0.0755851089303814,
+      "site_density_local_distinguishability": [
+        0.017895493243612004,
+        0.017895493243612004,
+        0.07558510893038117,
+        0.0755851089303814,
+        0.05704162377189553,
+        0.05704162377189542,
+        0.075585108930381,
+        0.0755851089303814,
+        0.017895493243612393,
+        0.017895493243611837,
+        0.016528728658558693,
+        0.012640075142262822,
+        0.012640075142262857,
+        0.016528728658558648
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.2164950016144027,
+        -0.7136354629435118
+      ],
+      "logical_split": 0.502859538670891,
+      "isolation_gap": -0.2047323238303027,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.40114019672821405,
+      "site_density_local_distinguishability": [
+        0.057702517866896175,
+        0.05770251786689712,
+        0.272889102766095,
+        0.27288910276609435,
+        0.40114019672821405,
+        0.401140196728214,
+        0.2728891027660948,
+        0.2728891027660955,
+        0.05770251786689584,
+        0.05770251786689584,
+        0.009194529930162978,
+        0.005421956604928789,
+        0.0054219566049288,
+        0.009194529930162976
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.33557807820176,
+        -2.5079295187383623
+      ],
+      "logical_split": 0.8276485594633978,
+      "isolation_gap": -0.8219846359366092,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1027780697214582,
+      "site_density_local_distinguishability": [
+        0.1027780697214582,
+        0.10277806972144982,
+        0.0932716939133113,
+        0.0932716939133213,
+        0.004702348800673661,
+        0.0047023488006819325,
+        0.09327169391331147,
+        0.0932716939133238,
+        0.10277806972144488,
+        0.10277806972144282,
+        0.003249049437954751,
+        0.003906151969838175,
+        0.0039061519698379843,
+        0.0032490494379554466
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.9716607224110069,
+        -0.8881814485456458
+      ],
+      "logical_split": 0.08347927386536103,
+      "isolation_gap": 0.031685753389479876,
+      "split_over_gap": 2.634599620821304,
+      "max_site_density_local_distinguishability": 0.041105740187834194,
+      "site_density_local_distinguishability": [
+        0.01244459722704766,
+        0.012444597227045162,
+        0.006179590925698197,
+        0.006179590925697309,
+        0.041105740187834194,
+        0.04110574018783397,
+        0.006179590925698364,
+        0.006179590925698142,
+        0.01244459722704494,
+        0.012444597227046161,
+        0.028042073810678705,
+        0.0012241974154146053,
+        0.0012241974154146018,
+        0.028042073810678955
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.5499665288217953,
+        -0.24830212302771978
+      ],
+      "logical_split": 0.3016644057940755,
+      "isolation_gap": -0.28674996804416475,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.12613920439304888,
+      "site_density_local_distinguishability": [
+        0.026651892102850683,
+        0.026651892102917574,
+        0.10266855663341384,
+        0.10266855663344737,
+        0.1261392043929912,
+        0.12613920439304888,
+        0.10266855663341812,
+        0.10266855663343899,
+        0.026651892102853125,
+        0.02665189210291702,
+        0.009097037253860444,
+        0.003850025080174202,
+        0.003850025080174182,
+        0.009097037253860499
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.220127431865781,
+        -2.698058117634515
+      ],
+      "logical_split": 0.522069314231266,
+      "isolation_gap": -0.515893010668933,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.14905204723675122,
+      "site_density_local_distinguishability": [
+        0.14905204723675122,
+        0.14905204723672344,
+        0.08146684886538119,
+        0.08146684886540512,
+        0.13848189210953404,
+        0.1384818921095583,
+        0.08146684886538497,
+        0.08146684886540734,
+        0.1490520472366773,
+        0.14905204723667587,
+        0.0033536582284308092,
+        0.0016979105449696592,
+        0.00169791054496936,
+        0.0033536582284296925
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3926783218649437,
+        -1.203639740213111
+      ],
+      "logical_split": 0.18903858165183274,
+      "isolation_gap": 0.04970128788332562,
+      "split_over_gap": 3.803494631680433,
+      "max_site_density_local_distinguishability": 0.11935817458857906,
+      "site_density_local_distinguishability": [
+        0.03266157076438725,
+        0.032661570764391135,
+        0.09848469530387383,
+        0.09848469530387238,
+        0.1193581745885765,
+        0.11935817458857906,
+        0.09848469530387388,
+        0.09848469530387205,
+        0.03266157076438708,
+        0.0326615707643903,
+        0.0034470936147270987,
+        0.002696943630469194,
+        0.0026969436304691953,
+        0.003447093614727073
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.211157474067622,
+        -0.6791714379118663
+      ],
+      "logical_split": 0.5319860361557558,
+      "isolation_gap": -0.23197812994889344,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.4405273581090986,
+      "site_density_local_distinguishability": [
+        0.06925304340344929,
+        0.0692530434034474,
+        0.29109683195773534,
+        0.2910968319577351,
+        0.4405273581090986,
+        0.4405273581090975,
+        0.2910968319577345,
+        0.2910968319577342,
+        0.06925304340344918,
+        0.06925304340344729,
+        0.0010166068058005918,
+        0.0005635026939365069,
+        0.0005635026939365069,
+        0.0010166068058005864
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.2195731289046834,
+        -2.4154340926740625
+      ],
+      "logical_split": 0.8041390362306209,
+      "isolation_gap": -0.7980611633814934,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.10825056276001255,
+      "site_density_local_distinguishability": [
+        0.1082505627599612,
+        0.10825056275995776,
+        0.10234675795705417,
+        0.10234675795706571,
+        0.007355040088889264,
+        0.0073550400888958145,
+        0.10234675795705034,
+        0.10234675795706072,
+        0.10825056276001255,
+        0.10825056276000611,
+        0.00045605400422033893,
+        0.001770230754260198,
+        0.0017702307542603853,
+        0.00045605400421938136
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.700224427720746,
+        -0.6920903479211061
+      ],
+      "logical_split": 0.00813407979963987,
+      "isolation_gap": 0.07110126972570674,
+      "split_over_gap": 0.11440132969522744,
+      "max_site_density_local_distinguishability": 0.007699215401820503,
+      "site_density_local_distinguishability": [
+        0.0008247941904550027,
+        0.000824794190448841,
+        0.0017714323050790903,
+        0.0017714323050812553,
+        0.007699215401820503,
+        0.007699215401819615,
+        0.0017714323050808112,
+        0.0017714323050799785,
+        0.0008247941904531153,
+        0.0008247941904503953,
+        0.004256979145313523,
+        0.0005392666702244012,
+        0.0005392666702243734,
+        0.00425697914531345
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.5480030770376036,
+        -0.22384699136255803
+      ],
+      "logical_split": 0.3241560856750456,
+      "isolation_gap": -0.31025951997669243,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.14738709593276222,
+      "site_density_local_distinguishability": [
+        0.03554703944456278,
+        0.03554703944395682,
+        0.110335464828962,
+        0.11033546482869755,
+        0.14738709593276222,
+        0.14738709593221716,
+        0.11033546482895978,
+        0.11033546482871642,
+        0.035547039444545236,
+        0.035547039443974415,
+        0.0007171459022035757,
+        0.0003777315161251809,
+        0.00037773151612519696,
+        0.0007171459022035974
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.4556281369410433,
+        -3.4508497918445813
+      ],
+      "logical_split": 0.004778345096462022,
+      "isolation_gap": 0.032546145399353854,
+      "split_over_gap": 0.14681754284047682,
+      "max_site_density_local_distinguishability": 0.026523267711257903,
+      "site_density_local_distinguishability": [
+        0.010660519048791034,
+        0.010660519048790507,
+        0.00043438141528384655,
+        0.00043438141528329144,
+        0.026523267711257903,
+        0.026523267711257903,
+        0.00043438141528273633,
+        0.00043438141528329144,
+        0.010660519048790118,
+        0.010660519048790923,
+        0.0005788673508083262,
+        0.0015878660407468944,
+        0.0015878660407468818,
+        0.0005788673508083235
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.7423678197814936,
+        -2.2720830003160146
+      ],
+      "logical_split": 0.47028481946547895,
+      "isolation_gap": 0.024179339048603588,
+      "split_over_gap": 19.44986248466701,
+      "max_site_density_local_distinguishability": 0.1533981400221267,
+      "site_density_local_distinguishability": [
+        0.036580372267304595,
+        0.036580372267305816,
+        0.1191715940728913,
+        0.11917159407289069,
+        0.15339814002212598,
+        0.1533981400221267,
+        0.11917159407289146,
+        0.11917159407289085,
+        0.03658037226730454,
+        0.03658037226730554,
+        0.0032306045117965615,
+        0.002661547282726514,
+        0.0026615472827265212,
+        0.003230604511796557
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.5076889212725866,
+        -1.6322247132123948
+      ],
+      "logical_split": 0.8754642080601918,
+      "isolation_gap": -0.2966296884286548,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.34340166450903487,
+      "site_density_local_distinguishability": [
+        0.0571859784099607,
+        0.05718597840994899,
+        0.2337400480083448,
+        0.2337400480083448,
+        0.34340166450903487,
+        0.34340166450902804,
+        0.2337400480083447,
+        0.23374004800834458,
+        0.05718597840996087,
+        0.05718597840994927,
+        0.002929680909333362,
+        0.001923556434541326,
+        0.001923556434541326,
+        0.0029296809093333734
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.3400734768131226,
+        -2.7537085753777997
+      ],
+      "logical_split": 0.5863649014353229,
+      "isolation_gap": -0.5839873794732697,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.0635493691074891,
+      "site_density_local_distinguishability": [
+        0.0635493691074891,
+        0.06354936910711484,
+        0.05744014102208028,
+        0.05744014102257805,
+        0.012772686449796067,
+        0.012772686450296389,
+        0.05744014102210121,
+        0.05744014102256512,
+        0.06354936910745107,
+        0.06354936910713066,
+        0.0004036709247211348,
+        0.00012655578466253675,
+        0.0001265557846625901,
+        0.000403670924720908
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.508553761407621,
+        -1.3795654812095186
+      ],
+      "logical_split": 0.12898828019810238,
+      "isolation_gap": 0.0426164263869675,
+      "split_over_gap": 3.026726807800764,
+      "max_site_density_local_distinguishability": 0.03369948578023657,
+      "site_density_local_distinguishability": [
+        0.005183022276845195,
+        0.005183022276846083,
+        0.03136595006723425,
+        0.031365950067234305,
+        0.033699485780236293,
+        0.03369948578023657,
+        0.03136595006723436,
+        0.031365950067234194,
+        0.005183022276845417,
+        0.005183022276845639,
+        0.007847981642488235,
+        0.0014852032577824187,
+        0.0014852032577824157,
+        0.007847981642488216
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3502569303288896,
+        -0.8191182363320486
+      ],
+      "logical_split": 0.531138693996841,
+      "isolation_gap": -0.42431227298129337,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.13901318029134624,
+      "site_density_local_distinguishability": [
+        0.026216508486970824,
+        0.026216508487059975,
+        0.10154350800741341,
+        0.101543508007437,
+        0.1390131802912825,
+        0.13901318029134624,
+        0.10154350800741307,
+        0.10154350800743495,
+        0.026216508486972045,
+        0.026216508487061363,
+        0.004415748411896037,
+        0.0014046609628554224,
+        0.0014046609628554341,
+        0.00441574841189599
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.442364214989067,
+        -3.4292717799265935
+      ],
+      "logical_split": 0.013092435062473484,
+      "isolation_gap": 0.018081227578786496,
+      "split_over_gap": 0.7240899438616639,
+      "max_site_density_local_distinguishability": 0.02421252389634354,
+      "site_density_local_distinguishability": [
+        0.01227066471080443,
+        0.01227066471080232,
+        0.0010326199450071405,
+        0.0010326199450111373,
+        0.024212523896339322,
+        0.02421252389634354,
+        0.0010326199450069184,
+        0.0010326199450111373,
+        0.012270664710804818,
+        0.012270664710803014,
+        0.00022807113376767987,
+        0.0006401460486092257,
+        0.00064014604860923,
+        0.00022807113376768797
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.7374545630699165,
+        -2.250930826607963
+      ],
+      "logical_split": 0.4865237364619537,
+      "isolation_gap": 0.01100543268271359,
+      "split_over_gap": 44.207597328376224,
+      "max_site_density_local_distinguishability": 0.16099748220823462,
+      "site_density_local_distinguishability": [
+        0.040189395371743486,
+        0.04018939537173788,
+        0.12192357156252631,
+        0.12192357156252881,
+        0.16099748220823462,
+        0.1609974822082318,
+        0.12192357156252642,
+        0.12192357156252842,
+        0.04018939537174354,
+        0.0401893953717381,
+        0.0006973564215485274,
+        0.0005380786651214912,
+        0.0005380786651214908,
+        0.0006973564215485255
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.5059005959737486,
+        -1.6189182004720741
+      ],
+      "logical_split": 0.8869823955016745,
+      "isolation_gap": -0.3071479184391104,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.35141145428342063,
+      "site_density_local_distinguishability": [
+        0.060986384078002054,
+        0.06098638407802759,
+        0.2374477503370313,
+        0.23744775033703147,
+        0.3514114542834057,
+        0.35141145428342063,
+        0.23744775033703225,
+        0.23744775033703241,
+        0.06098638407800361,
+        0.0609863840780292,
+        0.00046948269470149513,
+        0.0002861564226082848,
+        0.00028615642260828634,
+        0.00046948269470149654
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.3149208729298723,
+        -2.728111925051304
+      ],
+      "logical_split": 0.5868089478785681,
+      "isolation_gap": -0.5860821507186937,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.06390260509094159,
+      "site_density_local_distinguishability": [
+        0.0639026050901727,
+        0.06390260509094159,
+        0.05766032029070517,
+        0.05766032028966239,
+        0.012464654793531926,
+        0.012464654792480767,
+        0.05766032029068485,
+        0.057660320289685374,
+        0.06390260509020357,
+        0.06390260509091378,
+        0.0001380440725065157,
+        0.00014800147637642576,
+        0.00014800147637644158,
+        0.00013804407250650702
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.5014356308312697,
+        -1.3486196974174647
+      ],
+      "logical_split": 0.15281593341380506,
+      "isolation_gap": 0.018156612846325304,
+      "split_over_gap": 8.416544137786872,
+      "max_site_density_local_distinguishability": 0.041513663637571585,
+      "site_density_local_distinguishability": [
+        0.009859451557172938,
+        0.009859451557181154,
+        0.032302175184589665,
+        0.03230217518458872,
+        0.04151366363756914,
+        0.041513663637571585,
+        0.03230217518459089,
+        0.032302175184588,
+        0.009859451557170884,
+        0.009859451557181653,
+        0.0014121947796962438,
+        0.000273697028931588,
+        0.00027369702893158493,
+        0.0014121947796962408
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3484177828684065,
+        -0.8053894307106757
+      ],
+      "logical_split": 0.5430283521577308,
+      "isolation_gap": -0.43714581833125066,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.14510509487818057,
+      "site_density_local_distinguishability": [
+        0.029943615387319544,
+        0.029943615386870515,
+        0.10318142640290673,
+        0.10318142640279038,
+        0.14510509487818057,
+        0.14510509487785062,
+        0.10318142640290878,
+        0.10318142640278799,
+        0.0299436153873201,
+        0.02994361538687007,
+        0.0005238648650126941,
+        0.00016139871173293508,
+        0.00016139871173293462,
+        0.0005238648650126957
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.5926814280737895,
+        -3.5980520506973077
+      ],
+      "logical_split": 0.005370622623518173,
+      "isolation_gap": 0.08851049470801486,
+      "split_over_gap": 0.060677805962278154,
+      "max_site_density_local_distinguishability": 0.056979788826323624,
+      "site_density_local_distinguishability": [
+        0.0569797888263221,
+        0.05697978882632321,
+        0.041577004948579854,
+        0.041577004948577856,
+        0.04341446756203493,
+        0.04341446756203271,
+        0.041577004948580076,
+        0.04157700494857808,
+        0.05697978882632285,
+        0.056979788826323624,
+        0.006672468388088,
+        0.00036801848481478674,
+        0.00036801848481482144,
+        0.0066724683880880695
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.776074415824749,
+        -2.3973116066552422
+      ],
+      "logical_split": 0.37876280916950655,
+      "isolation_gap": 0.09754062384738216,
+      "split_over_gap": 3.8831288362697096,
+      "max_site_density_local_distinguishability": 0.11498930371425442,
+      "site_density_local_distinguishability": [
+        0.023318448219259214,
+        0.0233184482192601,
+        0.10379430969254805,
+        0.10379430969254733,
+        0.11498930371425392,
+        0.11498930371425442,
+        0.10379430969254794,
+        0.10379430969254749,
+        0.02331844821925877,
+        0.023318448219260157,
+        0.012656545964362664,
+        0.010324663651798618,
+        0.01032466365179862,
+        0.012656545964362673
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.519494297781529,
+        -1.7075483803314104
+      ],
+      "logical_split": 0.8119459174501187,
+      "isolation_gap": -0.23876521067614132,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.30306456511044266,
+      "site_density_local_distinguishability": [
+        0.04035707944044048,
+        0.04035707944043798,
+        0.21388703904085066,
+        0.2138870390408507,
+        0.30306456511044266,
+        0.3030645651104414,
+        0.2138870390408505,
+        0.2138870390408505,
+        0.04035707944043998,
+        0.04035707944043743,
+        0.01339011365294533,
+        0.008607563392245934,
+        0.008607563392245934,
+        0.013390113652945328
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.535898441509306,
+        -2.928649931788853
+      ],
+      "logical_split": 0.6072485097204532,
+      "isolation_gap": -0.5746675325337107,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.06365621867647303,
+      "site_density_local_distinguishability": [
+        0.06365621867646121,
+        0.06365621867646332,
+        0.05466196227245307,
+        0.05466196227245562,
+        0.01033857580612313,
+        0.010338575806128625,
+        0.05466196227244735,
+        0.05466196227245895,
+        0.06365621867647303,
+        0.06365621867646182,
+        0.002161204684465866,
+        0.0016637638164828487,
+        0.0016637638164829008,
+        0.002161204684465467
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.5776195333420953,
+        -1.5634970638369543
+      ],
+      "logical_split": 0.014122469505140955,
+      "isolation_gap": 0.17230918694690245,
+      "split_over_gap": 0.08196004957932297,
+      "max_site_density_local_distinguishability": 0.01892691770516325,
+      "site_density_local_distinguishability": [
+        0.005538657629034882,
+        0.0055386576290343825,
+        0.015984126103167018,
+        0.015984126103166907,
+        0.002113751646067419,
+        0.002113751646067419,
+        0.015984126103166907,
+        0.015984126103166463,
+        0.005538657629034605,
+        0.005538657629033772,
+        0.018926917705163075,
+        0.0015389902040044215,
+        0.0015389902040044874,
+        0.01892691770516325
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.361066121520146,
+        -0.899492206709956
+      ],
+      "logical_split": 0.46157391481019006,
+      "isolation_gap": -0.34901210669837024,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1061456143761077,
+      "site_density_local_distinguishability": [
+        0.007575539303189105,
+        0.007575539303172452,
+        0.0918085412486489,
+        0.09180854124864513,
+        0.1061456143761077,
+        0.10614561437609732,
+        0.09180854124864873,
+        0.09180854124864579,
+        0.007575539303189716,
+        0.0075755393031721185,
+        0.023843140607216446,
+        0.007317054150198585,
+        0.007317054150198588,
+        0.02384314060721665
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.501113217555038,
+        -3.5147072519165103
+      ],
+      "logical_split": 0.013594034361472218,
+      "isolation_gap": 0.05812640382536749,
+      "split_over_gap": 0.23387021158772459,
+      "max_site_density_local_distinguishability": 0.014662601175541412,
+      "site_density_local_distinguishability": [
+        0.011532036139924484,
+        0.01153203613992801,
+        0.014662601175541135,
+        0.014662601175536027,
+        0.008039268077611905,
+        0.008039268077617456,
+        0.014662601175541412,
+        0.014662601175535916,
+        0.011532036139926122,
+        0.011532036139928176,
+        0.00033759435300272783,
+        0.0012266633561982768,
+        0.001226663356198296,
+        0.00033759435300274973
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.754419722726152,
+        -2.3097594354048807
+      ],
+      "logical_split": 0.4446602873212715,
+      "isolation_gap": 0.045100272646346085,
+      "split_over_gap": 9.859370270509812,
+      "max_site_density_local_distinguishability": 0.14384505275317666,
+      "site_density_local_distinguishability": [
+        0.03583947697381834,
+        0.035839476973818285,
+        0.11289052457915538,
+        0.11289052457915588,
+        0.14384505275317666,
+        0.14384505275317638,
+        0.1128905245791555,
+        0.11289052457915572,
+        0.035839476973819506,
+        0.03583947697381862,
+        0.0028774371637495704,
+        0.0022510840649987694,
+        0.002251084064998771,
+        0.002877437163749579
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -2.511818059873926,
+        -1.6483882256320357
+      ],
+      "logical_split": 0.8634298342418905,
+      "isolation_gap": -0.28579812225221946,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.3377835160477344,
+      "site_density_local_distinguishability": [
+        0.05756112256961565,
+        0.057561122569645295,
+        0.22972932040283578,
+        0.2297293204028361,
+        0.3377835160477169,
+        0.3377835160477344,
+        0.2297293204028356,
+        0.22972932040283528,
+        0.05756112256961554,
+        0.05756112256964563,
+        0.0020362574278897827,
+        0.0012401823814522778,
+        0.0012401823814522763,
+        0.0020362574278897845
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.4248604056545853,
+        -2.8285746496731727
+      ],
+      "logical_split": 0.5962857559814125,
+      "isolation_gap": -0.5854537721925337,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.06409768912043684,
+      "site_density_local_distinguishability": [
+        0.06409768912043684,
+        0.06409768912041491,
+        0.056773282790634594,
+        0.05677328279066396,
+        0.012909028780817455,
+        0.012909028780847154,
+        0.05677328279063676,
+        0.05677328279066396,
+        0.06409768912043523,
+        0.06409768912041686,
+        0.00012117625779674117,
+        0.0007487156815635162,
+        0.0007487156815635934,
+        0.00012117625779677673
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.520735610683015,
+        -1.4247606820989531
+      ],
+      "logical_split": 0.09597492858406187,
+      "isolation_gap": 0.07771281665647867,
+      "split_over_gap": 1.2349948530151589,
+      "max_site_density_local_distinguishability": 0.025667079873873067,
+      "site_density_local_distinguishability": [
+        0.00528812005294349,
+        0.005288120052946932,
+        0.02529541270508756,
+        0.025295412705087283,
+        0.02566707987387301,
+        0.025667079873873067,
+        0.025295412705087283,
+        0.025295412705086506,
+        0.005288120052944489,
+        0.005288120052946876,
+        0.005903666451396409,
+        0.0012700862638082315,
+        0.001270086263808238,
+        0.005903666451396462
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.3525529358129207,
+        -0.8307243444954323
+      ],
+      "logical_split": 0.5218285913174884,
+      "isolation_gap": -0.4138434126911802,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.13689371063844763,
+      "site_density_local_distinguishability": [
+        0.02713021343222921,
+        0.027130213432230543,
+        0.09874728550809514,
+        0.09874728550809564,
+        0.13689371063844646,
+        0.13689371063844763,
+        0.09874728550809547,
+        0.09874728550809564,
+        0.027130213432228323,
+        0.027130213432231043,
+        0.002430775064438484,
+        0.0007394416922043164,
+        0.0007394416922043182,
+        0.0024307750644384876
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.991262345636875,
+        -5.498500769316642
+      ],
+      "logical_split": 0.4927615763202331,
+      "isolation_gap": 0.02305427001708793,
+      "split_over_gap": 21.37398303893361,
+      "max_site_density_local_distinguishability": 0.06250420198845696,
+      "site_density_local_distinguishability": [
+        0.030620427543581796,
+        0.030620427543579964,
+        0.06250420198845552,
+        0.06250420198845696,
+        0.0583244834408535,
+        0.05832448344085184,
+        0.0625042019884553,
+        0.06250420198845663,
+        0.030620427543582185,
+        0.030620427543580464,
+        0.0012181891597764188,
+        0.00150334356467275,
+        0.0015033435646727505,
+        0.0012181891597764258
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.471341922842855,
+        -4.495791348821987
+      ],
+      "logical_split": 0.9755505740208683,
+      "isolation_gap": 0.019971046373705725,
+      "split_over_gap": 48.848245393155636,
+      "max_site_density_local_distinguishability": 0.16069647517945246,
+      "site_density_local_distinguishability": [
+        0.038615095230351004,
+        0.038615095230322694,
+        0.12295506010468482,
+        0.12295506010469726,
+        0.16069647517945246,
+        0.1606964751794362,
+        0.12295506010468482,
+        0.1229550601046972,
+        0.03861509523035089,
+        0.03861509523032253,
+        0.002140617790591226,
+        0.001851109494040774,
+        0.001851109494040774,
+        0.002140617790591228
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.180991044507183,
+        -3.759247400479481
+      ],
+      "logical_split": 1.4217436440277025,
+      "isolation_gap": -0.31719809008608024,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.26281489323204693,
+      "site_density_local_distinguishability": [
+        0.047162335316252524,
+        0.04716233531623104,
+        0.18331619556280843,
+        0.18331619556281198,
+        0.26281489323204693,
+        0.2628148932320354,
+        0.18331619556280843,
+        0.1833161955628117,
+        0.0471623353162523,
+        0.04716233531623104,
+        0.0027434674025273824,
+        0.0020029462280206976,
+        0.002002946228020693,
+        0.002743467402527373
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.21934418713528,
+        -4.190609619501331
+      ],
+      "logical_split": 0.02873456763394877,
+      "isolation_gap": 0.045605793875774125,
+      "split_over_gap": 0.6300639719641548,
+      "max_site_density_local_distinguishability": 0.012635699210316764,
+      "site_density_local_distinguishability": [
+        0.009551162761078702,
+        0.009551162761085918,
+        0.012635699210316376,
+        0.012635699210310158,
+        0.0003398477082642293,
+        0.00033984770825823407,
+        0.012635699210316764,
+        0.012635699210309992,
+        0.009551162761078313,
+        0.00955116276108603,
+        0.002330453653789353,
+        0.0009240066495725448,
+        0.0009240066495725414,
+        0.002330453653789371
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.751772928460015,
+        -3.250007171781592
+      ],
+      "logical_split": 0.5017657566784228,
+      "isolation_gap": 0.030512101854286655,
+      "split_over_gap": 16.444811277658,
+      "max_site_density_local_distinguishability": 0.07430059749512724,
+      "site_density_local_distinguishability": [
+        0.016819604427218693,
+        0.01681960442722452,
+        0.060283297704547156,
+        0.06028329770454577,
+        0.07430059749512496,
+        0.07430059749512724,
+        0.06028329770454732,
+        0.0602832977045461,
+        0.01681960442721836,
+        0.01681960442722391,
+        0.0046783511250148005,
+        0.0016350434047468507,
+        0.0016350434047468485,
+        0.004678351125014768
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.500338441126331,
+        -2.5818097263660515
+      ],
+      "logical_split": 0.9185287147602796,
+      "isolation_gap": -0.4261001806011455,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1440502766422061,
+      "site_density_local_distinguishability": [
+        0.023762248900760896,
+        0.023762248900768945,
+        0.1039425615452052,
+        0.10394256154520576,
+        0.14405027664220205,
+        0.1440502766422061,
+        0.10394256154520543,
+        0.10394256154520476,
+        0.023762248900760785,
+        0.023762248900769,
+        0.005809396021812509,
+        0.0023457783015248153,
+        0.0023457783015248214,
+        0.005809396021812519
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.986620754179795,
+        -5.48446338911058
+      ],
+      "logical_split": 0.5021573650692153,
+      "isolation_gap": 0.013228910200258959,
+      "split_over_gap": 37.95908789670259,
+      "max_site_density_local_distinguishability": 0.06269232649786743,
+      "site_density_local_distinguishability": [
+        0.031500221337476264,
+        0.031500221337454726,
+        0.06269232649784762,
+        0.06269232649786732,
+        0.06058359495552701,
+        0.06058359495550747,
+        0.06269232649784767,
+        0.06269232649786743,
+        0.031500221337475764,
+        0.03150022133745467,
+        0.00040768183573141323,
+        0.0004926258469019748,
+        0.0004926258469019748,
+        0.0004076818357314137
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.468521145745616,
+        -4.480812554488158
+      ],
+      "logical_split": 0.9877085912574586,
+      "isolation_gap": 0.010024066197329873,
+      "split_over_gap": 98.53372591659023,
+      "max_site_density_local_distinguishability": 0.16394613885228027,
+      "site_density_local_distinguishability": [
+        0.040707626190151724,
+        0.040707626190196466,
+        0.12370547721053088,
+        0.12370547721051184,
+        0.16394613885225473,
+        0.16394613885228027,
+        0.12370547721053116,
+        0.12370547721051162,
+        0.04070762619015145,
+        0.04070762619019591,
+        0.0005665869168839157,
+        0.000458194677330254,
+        0.0004581946773302541,
+        0.0005665869168839155
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.179307806356945,
+        -3.7448045865945536
+      ],
+      "logical_split": 1.4345032197623917,
+      "isolation_gap": -0.3285891168135544,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.2672775822278144,
+      "site_density_local_distinguishability": [
+        0.05021583055044032,
+        0.05021583055052936,
+        0.18480490655727233,
+        0.18480490655725823,
+        0.2672775822277662,
+        0.2672775822278144,
+        0.18480490655727233,
+        0.18480490655725823,
+        0.050215830550440654,
+        0.05021583055052947,
+        0.0005642051198522749,
+        0.00038607977303255973,
+        0.0003860797730325599,
+        0.000564205119852275
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.209055489101978,
+        -4.1685825969605075
+      ],
+      "logical_split": 0.04047289214147032,
+      "isolation_gap": 0.02525850053839207,
+      "split_over_gap": 1.6023473792497256,
+      "max_site_density_local_distinguishability": 0.013002021441169909,
+      "site_density_local_distinguishability": [
+        0.011160243958284577,
+        0.01116024395830928,
+        0.013002021441169909,
+        0.013002021441150091,
+        0.001342198769271885,
+        0.0013421987692895376,
+        0.013002021441169465,
+        0.013002021441150813,
+        0.011160243958285576,
+        0.01116024395830778,
+        0.0007828224188087656,
+        0.000387855679413932,
+        0.0003878556794139309,
+        0.0007828224188087664
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.7472114377328225,
+        -3.228413429297915
+      ],
+      "logical_split": 0.5187980084349073,
+      "isolation_gap": 0.014200933085191991,
+      "split_over_gap": 36.53267044655561,
+      "max_site_density_local_distinguishability": 0.07835991609144372,
+      "site_density_local_distinguishability": [
+        0.019950819022325095,
+        0.01995081902234358,
+        0.06041803345891911,
+        0.06041803345891428,
+        0.07835991609143644,
+        0.07835991609144372,
+        0.06041803345891916,
+        0.06041803345891417,
+        0.019950819022324873,
+        0.01995081902234347,
+        0.0009830335157265582,
+        0.0003042228751357169,
+        0.00030422287513571725,
+        0.0009830335157265566
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.3,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.4975005175998186,
+        -2.5611360294312897
+      ],
+      "logical_split": 0.9363644881685289,
+      "isolation_gap": -0.44450296636708586,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.14970659367001016,
+      "site_density_local_distinguishability": [
+        0.028663677528872666,
+        0.028663677528802722,
+        0.10461516195058845,
+        0.1046151619505884,
+        0.14970659367001016,
+        0.14970659366997374,
+        0.10461516195058851,
+        0.10461516195058834,
+        0.028663677528873055,
+        0.028663677528802556,
+        0.0008266692468144506,
+        0.00027151833993933894,
+        0.0002715183399393387,
+        0.0008266692468144486
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -6.029355585034907,
+        -5.601219959160235
+      ],
+      "logical_split": 0.42813562587467224,
+      "isolation_gap": 0.09111220240417595,
+      "split_over_gap": 4.698993269589206,
+      "max_site_density_local_distinguishability": 0.05945325047265654,
+      "site_density_local_distinguishability": [
+        0.02687669527460229,
+        0.02687669527459835,
+        0.059453250472652985,
+        0.05945325047265654,
+        0.044852350742000446,
+        0.04485235074199723,
+        0.05945325047265271,
+        0.05945325047265598,
+        0.026876695274602846,
+        0.026876695274599405,
+        0.004605067195299833,
+        0.00554531263175397,
+        0.005545312631753975,
+        0.004605067195299868
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.4936947008823,
+        -4.591391606175665
+      ],
+      "logical_split": 0.9023030947066353,
+      "isolation_gap": 0.07936501835096799,
+      "split_over_gap": 11.369027733559772,
+      "max_site_density_local_distinguishability": 0.14342744579381583,
+      "site_density_local_distinguishability": [
+        0.030120563241380627,
+        0.030120563241384735,
+        0.11727025208574832,
+        0.11727025208574648,
+        0.1434274457938134,
+        0.14342744579381583,
+        0.11727025208574826,
+        0.11727025208574632,
+        0.030120563241380627,
+        0.030120563241384957,
+        0.008300006667770917,
+        0.007135959279686608,
+        0.0071359592796866175,
+        0.008300006667770898
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.19404376611912,
+        -3.8424006043853796
+      ],
+      "logical_split": 1.3516431617337403,
+      "isolation_gap": -0.2553181009818566,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.2415447065857661,
+      "site_density_local_distinguishability": [
+        0.03520080154259897,
+        0.03520080154259242,
+        0.17483345699262115,
+        0.17483345699262232,
+        0.2415447065857661,
+        0.24154470658576283,
+        0.1748334569926212,
+        0.1748334569926226,
+        0.035200801542598636,
+        0.0352008015425922,
+        0.010933744774522686,
+        0.007926557382621343,
+        0.007926557382621349,
+        0.010933744774522655
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.341854523985529,
+        -4.337115443252187
+      ],
+      "logical_split": 0.0047390807333425045,
+      "isolation_gap": 0.13551968245937118,
+      "split_over_gap": 0.03496968593298823,
+      "max_site_density_local_distinguishability": 0.0031786727677877713,
+      "site_density_local_distinguishability": [
+        0.0008175283745183171,
+        0.0008175283745189832,
+        0.0031786727677877713,
+        0.003178672767787105,
+        0.0009255941824162228,
+        0.0009255941824151126,
+        0.003178672767787716,
+        0.0031786727677863835,
+        0.0008175283745189832,
+        0.0008175283745198159,
+        0.001277657421370296,
+        0.0015462840631060362,
+        0.0015462840631060518,
+        0.0012776574213703342
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.7818506633774027,
+        -3.3746516164112927
+      ],
+      "logical_split": 0.40719904696611,
+      "isolation_gap": 0.12204525281366241,
+      "split_over_gap": 3.336459531021807,
+      "max_site_density_local_distinguishability": 0.05721307201478082,
+      "site_density_local_distinguishability": [
+        0.005807887282192337,
+        0.0058078872821895056,
+        0.057213072014779764,
+        0.05721307201478082,
+        0.05541124255741464,
+        0.05541124255741359,
+        0.05721307201477982,
+        0.05721307201478071,
+        0.005807887282192392,
+        0.0058078872821893945,
+        0.017775964446023702,
+        0.005923599007857897,
+        0.005923599007857894,
+        0.017775964446023716
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.5180912400568403,
+        -2.687740185269945
+      ],
+      "logical_split": 0.8303510547868953,
+      "isolation_gap": -0.3338231207037099,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.12071685709396046,
+      "site_density_local_distinguishability": [
+        0.00689094853864447,
+        0.006890948538640751,
+        0.09911737283382449,
+        0.09911737283382488,
+        0.12071685709396046,
+        0.12071685709395885,
+        0.09911737283382471,
+        0.09911737283382432,
+        0.006890948538644526,
+        0.006890948538640973,
+        0.0228668144013146,
+        0.009001181346887245,
+        0.009001181346887245,
+        0.022866814401314644
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -6.010088727434808,
+        -5.545894760929623
+      ],
+      "logical_split": 0.4641939665051851,
+      "isolation_gap": 0.052972611098807576,
+      "split_over_gap": 8.76290514808386,
+      "max_site_density_local_distinguishability": 0.060118584213974924,
+      "site_density_local_distinguishability": [
+        0.029850798798621736,
+        0.02985079879863939,
+        0.060118584213974924,
+        0.06011858421395788,
+        0.05345802096239849,
+        0.0534580209624147,
+        0.06011858421397448,
+        0.06011858421395788,
+        0.02985079879862207,
+        0.029850798798639777,
+        0.0016063994759149022,
+        0.00193237545821736,
+        0.0019323754582173604,
+        0.0016063994759149072
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.482021266205902,
+        -4.5315877947063905
+      ],
+      "logical_split": 0.9504334714995117,
+      "isolation_gap": 0.04036433013187413,
+      "split_over_gap": 23.546370480925972,
+      "max_site_density_local_distinguishability": 0.15579610714692949,
+      "site_density_local_distinguishability": [
+        0.03787169224569836,
+        0.03787169224569825,
+        0.11989583317041486,
+        0.11989583317041497,
+        0.15579610714692943,
+        0.15579610714692949,
+        0.1198958331704148,
+        0.11989583317041469,
+        0.03787169224569875,
+        0.037871692245698474,
+        0.0022786157188155443,
+        0.0018474716324362352,
+        0.0018474716324362345,
+        0.0022786157188155534
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 0.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -5.187105206188475,
+        -3.783792815309175
+      ],
+      "logical_split": 1.4033123908793002,
+      "isolation_gap": -0.3012831109490737,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.2588354765279516,
+      "site_density_local_distinguishability": [
+        0.04711025693337162,
+        0.047110256933408534,
+        0.18041307809519574,
+        0.18041307809518964,
+        0.25883547652793204,
+        0.2588354765279516,
+        0.18041307809519602,
+        0.18041307809518953,
+        0.04711025693337162,
+        0.04711025693340859,
+        0.00230669697027308,
+        0.0015783859275580578,
+        0.0015783859275580636,
+        0.0023066969702730776
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.2580630097390175,
+        -4.251696262044933
+      ],
+      "logical_split": 0.006366747694084296,
+      "isolation_gap": 0.10167046917486644,
+      "split_over_gap": 0.06262140566238475,
+      "max_site_density_local_distinguishability": 0.0064575690311007294,
+      "site_density_local_distinguishability": [
+        0.005543837755482339,
+        0.005543837755480119,
+        0.006457569031098509,
+        0.0064575690311007294,
+        0.0013302324278887112,
+        0.0013302324278904876,
+        0.006457569031098953,
+        0.006457569031100452,
+        0.005543837755481784,
+        0.005543837755480341,
+        0.0013041380057400489,
+        0.0002747094838238856,
+        0.00027470948382388736,
+        0.0013041380057400502
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.761986045817168,
+        -3.2875110142542914
+      ],
+      "logical_split": 0.47447503156287674,
+      "isolation_gap": 0.05784796322315877,
+      "split_over_gap": 8.202104363337828,
+      "max_site_density_local_distinguishability": 0.07015560274900201,
+      "site_density_local_distinguishability": [
+        0.016997241153358378,
+        0.016997241153340614,
+        0.05733150714758506,
+        0.05733150714758983,
+        0.07015560274900201,
+        0.07015560274899546,
+        0.057331507147585115,
+        0.0573315071475905,
+        0.016997241153358655,
+        0.016997241153340503,
+        0.004009684559974384,
+        0.0012467800597641872,
+        0.001246780059764179,
+        0.0040096845599743875
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.506127957138501,
+        -2.6028989022180173
+      ],
+      "logical_split": 0.9032290549204838,
+      "isolation_gap": -0.409097120548521,
+      "split_over_gap": null,
+      "max_site_density_local_distinguishability": 0.1422448795184751,
+      "site_density_local_distinguishability": [
+        0.025602040784121427,
+        0.025602040784111102,
+        0.10129973101792977,
+        0.10129973101792983,
+        0.1422448795184751,
+        0.14224487951846998,
+        0.10129973101792994,
+        0.10129973101793038,
+        0.025602040784121094,
+        0.025602040784110436,
+        0.0034439228713496407,
+        0.0011313276032273256,
+        0.0011313276032273254,
+        0.003443922871349657
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    }
+  ],
+  "best_rows_by_preflight_score": [
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.24925678797247489,
+        -0.24910118969909953
+      ],
+      "logical_split": 0.00015559827337535692,
+      "isolation_gap": 0.07936252891656037,
+      "split_over_gap": 0.001960601249727674,
+      "max_site_density_local_distinguishability": 0.001893905635334349,
+      "site_density_local_distinguishability": [
+        0.000909182652563234,
+        0.0009091826525691182,
+        0.0009337727061061729,
+        0.0009337727061060619,
+        0.0009337727061041745,
+        0.0009337727061083378,
+        0.0009091826525621793,
+        0.000909182652570395,
+        0.0018939056353340575,
+        0.00010190055332467626,
+        0.001893905635334349
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.8988820295364394,
+        -0.9000157067426544
+      ],
+      "logical_split": 0.0011336772062150446,
+      "isolation_gap": 0.256727629167094,
+      "split_over_gap": 0.004415875337972206,
+      "max_site_density_local_distinguishability": 0.0040617116620233484,
+      "site_density_local_distinguishability": [
+        0.0020569516807537047,
+        0.0020569516807544264,
+        0.0010512554156640874,
+        0.0010512554156634213,
+        0.0010512554156636988,
+        0.0010512554156639209,
+        0.002056951680755148,
+        0.0020569516807530386,
+        0.0040617116620233484,
+        0.0019070091312104673,
+        0.004061711662023286
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.341854523985529,
+        -4.337115443252187
+      ],
+      "logical_split": 0.0047390807333425045,
+      "isolation_gap": 0.13551968245937118,
+      "split_over_gap": 0.03496968593298823,
+      "max_site_density_local_distinguishability": 0.0031786727677877713,
+      "site_density_local_distinguishability": [
+        0.0008175283745183171,
+        0.0008175283745189832,
+        0.0031786727677877713,
+        0.003178672767787105,
+        0.0009255941824162228,
+        0.0009255941824151126,
+        0.003178672767787716,
+        0.0031786727677863835,
+        0.0008175283745189832,
+        0.0008175283745198159,
+        0.001277657421370296,
+        0.0015462840631060362,
+        0.0015462840631060518,
+        0.0012776574213703342
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.6317582795287928,
+        -0.6298359725264417
+      ],
+      "logical_split": 0.0019223070023510758,
+      "isolation_gap": 0.054431997711517965,
+      "split_over_gap": 0.03531575329163989,
+      "max_site_density_local_distinguishability": 0.0051848187953809815,
+      "site_density_local_distinguishability": [
+        0.0013586287972400801,
+        0.0013586287972309763,
+        0.004624891012608545,
+        0.004624891012606214,
+        0.0007773155212985605,
+        0.0007773155212981164,
+        0.004624891012608379,
+        0.004624891012606547,
+        0.0013586287972401911,
+        0.0013586287972302546,
+        0.005184818795380837,
+        0.00041004325381261905,
+        0.0004100432538126581,
+        0.0051848187953809815
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.5926814280737895,
+        -3.5980520506973077
+      ],
+      "logical_split": 0.005370622623518173,
+      "isolation_gap": 0.08851049470801486,
+      "split_over_gap": 0.060677805962278154,
+      "max_site_density_local_distinguishability": 0.056979788826323624,
+      "site_density_local_distinguishability": [
+        0.0569797888263221,
+        0.05697978882632321,
+        0.041577004948579854,
+        0.041577004948577856,
+        0.04341446756203493,
+        0.04341446756203271,
+        0.041577004948580076,
+        0.04157700494857808,
+        0.05697978882632285,
+        0.056979788826323624,
+        0.006672468388088,
+        0.00036801848481478674,
+        0.00036801848481482144,
+        0.0066724683880880695
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 1.0,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -4.2580630097390175,
+        -4.251696262044933
+      ],
+      "logical_split": 0.006366747694084296,
+      "isolation_gap": 0.10167046917486644,
+      "split_over_gap": 0.06262140566238475,
+      "max_site_density_local_distinguishability": 0.0064575690311007294,
+      "site_density_local_distinguishability": [
+        0.005543837755482339,
+        0.005543837755480119,
+        0.006457569031098509,
+        0.0064575690311007294,
+        0.0013302324278887112,
+        0.0013302324278904876,
+        0.006457569031098953,
+        0.006457569031100452,
+        0.005543837755481784,
+        0.005543837755480341,
+        0.0013041380057400489,
+        0.0002747094838238856,
+        0.00027470948382388736,
+        0.0013041380057400502
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -1.5776195333420953,
+        -1.5634970638369543
+      ],
+      "logical_split": 0.014122469505140955,
+      "isolation_gap": 0.17230918694690245,
+      "split_over_gap": 0.08196004957932297,
+      "max_site_density_local_distinguishability": 0.01892691770516325,
+      "site_density_local_distinguishability": [
+        0.005538657629034882,
+        0.0055386576290343825,
+        0.015984126103167018,
+        0.015984126103166907,
+        0.002113751646067419,
+        0.002113751646067419,
+        0.015984126103166907,
+        0.015984126103166463,
+        0.005538657629034605,
+        0.005538657629033772,
+        0.018926917705163075,
+        0.0015389902040044215,
+        0.0015389902040044874,
+        0.01892691770516325
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 4,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.6,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.3458068160065437,
+        -3.3376631261531173
+      ],
+      "logical_split": 0.008143689853426395,
+      "isolation_gap": 0.0929308383074261,
+      "split_over_gap": 0.08763172701064112,
+      "max_site_density_local_distinguishability": 0.008512430854032638,
+      "site_density_local_distinguishability": [
+        0.004385539846794795,
+        0.004385539846789688,
+        0.008512430854028086,
+        0.008512430854032083,
+        0.008512430854028419,
+        0.008512430854032638,
+        0.004385539846795128,
+        0.00438553984679152,
+        0.0021990454153693884,
+        0.0038556911837351916,
+        0.0021990454153695063
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 77,
+        "odd_odd": 80
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.25,
+        "g": 0.6,
+        "Delta": 5.0,
+        "V_rung": 3.0,
+        "V_leg": 0.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -0.700224427720746,
+        -0.6920903479211061
+      ],
+      "logical_split": 0.00813407979963987,
+      "isolation_gap": 0.07110126972570674,
+      "split_over_gap": 0.11440132969522744,
+      "max_site_density_local_distinguishability": 0.007699215401820503,
+      "site_density_local_distinguishability": [
+        0.0008247941904550027,
+        0.000824794190448841,
+        0.0017714323050790903,
+        0.0017714323050812553,
+        0.007699215401820503,
+        0.007699215401819615,
+        0.0017714323050808112,
+        0.0017714323050799785,
+        0.0008247941904531153,
+        0.0008247941904503953,
+        0.004256979145313523,
+        0.0005392666702244012,
+        0.0005392666702243734,
+        0.00425697914531345
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    },
+    {
+      "L": 5,
+      "total_charge": 4,
+      "parameters": {
+        "t_leg": 0.5,
+        "g": 0.3,
+        "Delta": 2.0,
+        "V_rung": 0.0,
+        "V_leg": -1.0
+      },
+      "logical_sectors": {
+        "even_even": [
+          1,
+          1
+        ],
+        "odd_odd": [
+          -1,
+          -1
+        ]
+      },
+      "logical_energies": [
+        -3.4556281369410433,
+        -3.4508497918445813
+      ],
+      "logical_split": 0.004778345096462022,
+      "isolation_gap": 0.032546145399353854,
+      "split_over_gap": 0.14681754284047682,
+      "max_site_density_local_distinguishability": 0.026523267711257903,
+      "site_density_local_distinguishability": [
+        0.010660519048791034,
+        0.010660519048790507,
+        0.00043438141528384655,
+        0.00043438141528329144,
+        0.026523267711257903,
+        0.026523267711257903,
+        0.00043438141528273633,
+        0.00043438141528329144,
+        0.010660519048790118,
+        0.010660519048790923,
+        0.0005788673508083262,
+        0.0015878660407468944,
+        0.0015878660407468818,
+        0.0005788673508083235
+      ],
+      "maximum_cross_parity_matrix_element": 0.0,
+      "sector_dimensions": {
+        "even_even": 196,
+        "odd_odd": 200
+      }
+    }
+  ],
+  "candidates": [],
+  "decision": "no protected-doublet candidate in the registered charge-two mediator ladder scan; do not launch braid or gate calculations"
+}

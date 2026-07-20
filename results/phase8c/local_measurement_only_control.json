@@ -1,0 +1,56 @@
+{
+  "schema": "antler.phase8c.local-measurement-only-control.v1",
+  "parameters": {
+    "reference_geometry": "same 3x3 periodic vertex-qubit graph code used by T5f/T5g",
+    "measurement_vocabulary": "all 27 nonidentity one-vertex Pauli measurements only",
+    "outcome_branch": "+1 stabilizer branch",
+    "maximum_nontrivial_measurement_depth": 6,
+    "retained_gate": "rank-preserving update and all 27 one-qubit probes scalar or zero after every step"
+  },
+  "initial_code": {
+    "rank": 6,
+    "encoded_qubits": 3,
+    "ground_space_degeneracy": 8
+  },
+  "rows": [
+    {
+      "depth": 1,
+      "accepted_rank_preserving_local_transitions_from_frontier": 20,
+      "new_unique_protected_states": 20,
+      "closed_nonempty_loops_to_initial_span": 0
+    },
+    {
+      "depth": 2,
+      "accepted_rank_preserving_local_transitions_from_frontier": 284,
+      "new_unique_protected_states": 284,
+      "closed_nonempty_loops_to_initial_span": 0
+    },
+    {
+      "depth": 3,
+      "accepted_rank_preserving_local_transitions_from_frontier": 2952,
+      "new_unique_protected_states": 1704,
+      "closed_nonempty_loops_to_initial_span": 0
+    },
+    {
+      "depth": 4,
+      "accepted_rank_preserving_local_transitions_from_frontier": 13904,
+      "new_unique_protected_states": 5260,
+      "closed_nonempty_loops_to_initial_span": 0
+    },
+    {
+      "depth": 5,
+      "accepted_rank_preserving_local_transitions_from_frontier": 35240,
+      "new_unique_protected_states": 8364,
+      "closed_nonempty_loops_to_initial_span": 0
+    },
+    {
+      "depth": 6,
+      "accepted_rank_preserving_local_transitions_from_frontier": 50184,
+      "new_unique_protected_states": 5416,
+      "closed_nonempty_loops_to_initial_span": 0
+    }
+  ],
+  "decision": "PASS as a bounded false-holonomy control: no nonempty protected loop returning to the initial stabilizer span was found through six arbitrary single-vertex Pauli measurements. Thus the T5f/T5g closed loops cannot be reproduced by this short local-measurement-only grammar; their high-weight graph-check deformations remain operationally essential.",
+  "next_gate": "This finite-depth control does not establish topological defect motion. A physical, symmetry-preserving realization of the required high-weight checks and of the declared auxiliary measurements must still be derived before any exchange claim.",
+  "claim_boundary": "The search is exhaustive only through depth six in an imposed stabilizer measurement vocabulary. It does not rule out longer local circuits, does not validate the external checks physically, and does not demonstrate non-Abelian anyons, braiding, an ANTLER Hamiltonian, universality or fault tolerance."
+}

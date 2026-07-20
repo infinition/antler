@@ -1,0 +1,68 @@
+{
+  "schema": "antler.phase6.edge-operator-protection-preflight.v1",
+  "reference": "external Iemini lambda=1 parent; published finite-support aR-bR edge generator",
+  "criterion": {
+    "finite_size_quantity": "||(I-P)[H,O]P|| = ||[H,O]P|| because H P=0",
+    "why_not_full_operator_norm": "the full commutator includes arbitrary bulk-excited states and is not a code-protection certificate",
+    "promotion_requirement": "the code-commutator action, leakage, and support-tail must all decrease under a controlled L/support scaling"
+  },
+  "rows": [
+    {
+      "L": 6,
+      "N": 6,
+      "support_rungs": 1,
+      "analytic_truncation_tail_probability": 0.5,
+      "normalizer": 0.7071067811865476,
+      "logical_action_frobenius": 1.0911647299911236,
+      "logical_leakage_amplitude_frobenius": 0.9960925609502854,
+      "code_commutator_action_frobenius": 10.4307698638213,
+      "code_commutator_action_normalized": 7.060010166991932
+    },
+    {
+      "L": 6,
+      "N": 6,
+      "support_rungs": 2,
+      "analytic_truncation_tail_probability": 0.125,
+      "normalizer": 0.9354143466934853,
+      "logical_action_frobenius": 1.1914398950634577,
+      "logical_leakage_amplitude_frobenius": 0.6182078056409942,
+      "code_commutator_action_frobenius": 9.69400926319624,
+      "code_commutator_action_normalized": 7.22205840371697
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "support_rungs": 1,
+      "analytic_truncation_tail_probability": 0.5,
+      "normalizer": 0.7071067811865476,
+      "logical_action_frobenius": 1.066682444499487,
+      "logical_leakage_amplitude_frobenius": 0.9977900619509031,
+      "code_commutator_action_frobenius": 10.248775702507572,
+      "code_commutator_action_normalized": 7.016753259005471
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "support_rungs": 2,
+      "analytic_truncation_tail_probability": 0.125,
+      "normalizer": 0.9354143466934853,
+      "logical_action_frobenius": 1.1784912757023724,
+      "logical_leakage_amplitude_frobenius": 0.6268141698564185,
+      "code_commutator_action_frobenius": 9.517489682035315,
+      "code_commutator_action_normalized": 7.1301806151755915
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "support_rungs": 3,
+      "analytic_truncation_tail_probability": 0.03125,
+      "normalizer": 0.9842509842514764,
+      "logical_action_frobenius": 1.2861437042416033,
+      "logical_leakage_amplitude_frobenius": 0.4402811993789843,
+      "code_commutator_action_frobenius": 8.589342704591775,
+      "code_commutator_action_normalized": 6.3184041383536
+    }
+  ],
+  "claim_boundary": "This calibrates a protection-first diagnostic on an external parent. It does not prove that a finite-support row is an exact zero mode or physical braid, and it says nothing yet about a native ANTLER edge operator.",
+  "decision": "finite-support published operators remain visibly non-conserved at these sizes; retain them only as convergence diagnostics and do not promote a protected physical braid"
+}

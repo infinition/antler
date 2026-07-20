@@ -1,0 +1,67 @@
+{
+  "schema": "antler.phase47.deep-limit.v1",
+  "claim_boundary": "A completed fit supports only the correlated-hopping ladder with the frozen rung-major Jordan-Wigner convention.  It is not a claim of universal anyonic or non-Abelian computation.",
+  "protocol": {
+    "theta": 0.3,
+    "T_of_D": "T_ref * (D / D_ref)**time_power",
+    "reference_depth": 4.0,
+    "reference_time": 20000.0,
+    "time_power": 2.0,
+    "primary_dt": 0.125,
+    "gap_definition": "overlap-tracked logical-branch isolation gap"
+  },
+  "deep_limit_rows": [
+    {
+      "role": "deep_limit",
+      "depth": 4.0,
+      "T": 20000.0,
+      "dt": 0.125,
+      "odd_slope": -0.9720409758781605,
+      "odd_phase": -0.29161229276344813,
+      "leak_worst": 3.0184591317428122e-05,
+      "sigma_min": 0.9999849075904509,
+      "sigma_max": 0.9999978665643955,
+      "odd_offdiag_norm": 8.988080663343921e-08,
+      "unitarity_frob_max": 3.0484679825827527e-05,
+      "favg_target": 0.9999882744632943,
+      "minimum_handoff_isolation_gap": 0.0006681554102163645,
+      "gap_at_u": 0.43333333333333335,
+      "file": "results/phase4_7/deep_limit_refined_d4/D4_dt0p125.json"
+    }
+  ],
+  "fixed_limit_fit": {
+    "status": "need_at_least_three_completed_depths"
+  },
+  "dt_convergence_rows": [
+    {
+      "role": "dt_convergence",
+      "depth": 4.0,
+      "T": 20000.0,
+      "dt": 0.125,
+      "odd_slope": -0.9720409758781605,
+      "odd_phase": -0.29161229276344813,
+      "leak_worst": 3.0184591317428122e-05,
+      "sigma_min": 0.9999849075904509,
+      "sigma_max": 0.9999978665643955,
+      "odd_offdiag_norm": 8.988080663343921e-08,
+      "unitarity_frob_max": 3.0484679825827527e-05,
+      "favg_target": 0.9999882744632943,
+      "minimum_handoff_isolation_gap": 0.0006681554102163645,
+      "gap_at_u": 0.43333333333333335,
+      "file": "results/phase4_7/deep_limit_refined_d4/D4_dt0p125.json"
+    }
+  ],
+  "dt_convergence_against_finest": [
+    {
+      "depth": 4.0,
+      "dt": 0.125,
+      "reference_dt": 0.125,
+      "delta_slope_to_finest": 0.0,
+      "delta_phase_to_finest": 0.0,
+      "delta_leak_to_finest": 0.0,
+      "delta_sigma_min_to_finest": 0.0,
+      "delta_offdiag_to_finest": 0.0
+    }
+  ],
+  "runtime_s": 116.72583723068237
+}

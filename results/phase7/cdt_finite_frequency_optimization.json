@@ -1,0 +1,135 @@
+{
+  "schema": "antler.phase7d.cdt-finite-frequency-optimization.v1",
+  "registered_window": {
+    "cycles_per_rabi_pulse": 4,
+    "steps_per_cycle": 16,
+    "xi_values": [
+      2.1,
+      2.2,
+      2.3,
+      2.35,
+      2.4048255576957724,
+      2.46,
+      2.55,
+      2.65,
+      2.75
+    ],
+    "center": "first J0 zero",
+    "leg_hopping": 1.0,
+    "inactive_channel_coupling_over_g": 0.01
+  },
+  "rows": [
+    {
+      "xi": 2.1,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 679.5179467828647,
+      "max_rail_onsite_amplitude": 2038.5538403485941,
+      "monomer_leakage": 0.0010307479187952738,
+      "logical_deviation_from_zero_leg_schedule": 0.0007928485908630629,
+      "logical_parity_a_residual": 0.0008213772828743232,
+      "logical_parity_b_residual": 0.0008213772828743232,
+      "logical_singular_value_min": 0.9994844931669511
+    },
+    {
+      "xi": 2.2,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 711.8759442487153,
+      "max_rail_onsite_amplitude": 2135.627832746146,
+      "monomer_leakage": 0.00071218150008486,
+      "logical_deviation_from_zero_leg_schedule": 0.00044529883608975077,
+      "logical_parity_a_residual": 0.0005013325716120609,
+      "logical_parity_b_residual": 0.0005013325716120609,
+      "logical_singular_value_min": 0.9996438458270538
+    },
+    {
+      "xi": 2.3,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 744.233941714566,
+      "max_rail_onsite_amplitude": 2232.701825143698,
+      "monomer_leakage": 0.0005197601131116698,
+      "logical_deviation_from_zero_leg_schedule": 0.00036537860267839495,
+      "logical_parity_a_residual": 0.00039605639747758675,
+      "logical_parity_b_residual": 0.00039605639747758675,
+      "logical_singular_value_min": 0.9997400861658352
+    },
+    {
+      "xi": 2.35,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 760.4129404474913,
+      "max_rail_onsite_amplitude": 2281.2388213424742,
+      "monomer_leakage": 0.0004682408260195308,
+      "logical_deviation_from_zero_leg_schedule": 0.00040681393421164046,
+      "logical_parity_a_residual": 0.0003845698424243945,
+      "logical_parity_b_residual": 0.0003845698424243945,
+      "logical_singular_value_min": 0.9997658521743809
+    },
+    {
+      "xi": 2.4048255576957724,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 778.1533930173279,
+      "max_rail_onsite_amplitude": 2334.4601790519837,
+      "monomer_leakage": 0.00044392926296069285,
+      "logical_deviation_from_zero_leg_schedule": 0.000420396762611768,
+      "logical_parity_a_residual": 0.00037688064685131536,
+      "logical_parity_b_residual": 0.00037688064685131536,
+      "logical_singular_value_min": 0.9997780107288965
+    },
+    {
+      "xi": 2.46,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 796.0067376599271,
+      "max_rail_onsite_amplitude": 2388.0202129797813,
+      "monomer_leakage": 0.0004514307494028416,
+      "logical_deviation_from_zero_leg_schedule": 0.0003842388070689812,
+      "logical_parity_a_residual": 0.0003680273258345606,
+      "logical_parity_b_residual": 0.0003680273258345606,
+      "logical_singular_value_min": 0.999774259145828
+    },
+    {
+      "xi": 2.55,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 825.1289353791926,
+      "max_rail_onsite_amplitude": 2475.386806137578,
+      "monomer_leakage": 0.0005263155953123205,
+      "logical_deviation_from_zero_leg_schedule": 0.0003347226611554247,
+      "logical_parity_a_residual": 0.0003765360955055488,
+      "logical_parity_b_residual": 0.0003765360955055488,
+      "logical_singular_value_min": 0.9997368075672131
+    },
+    {
+      "xi": 2.65,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 857.4869328450434,
+      "max_rail_onsite_amplitude": 2572.46079853513,
+      "monomer_leakage": 0.0006884992152403456,
+      "logical_deviation_from_zero_leg_schedule": 0.00044478266373511696,
+      "logical_parity_a_residual": 0.0005054088709058136,
+      "logical_parity_b_residual": 0.0005054088709058136,
+      "logical_singular_value_min": 0.999655691118074
+    },
+    {
+      "xi": 2.75,
+      "drive_frequency": 323.57997465850696,
+      "base_potential_amplitude": 889.8449303108941,
+      "max_rail_onsite_amplitude": 2669.5347909326824,
+      "monomer_leakage": 0.0009177481707423422,
+      "logical_deviation_from_zero_leg_schedule": 0.0008506412301331811,
+      "logical_parity_a_residual": 0.0007834306811531906,
+      "logical_parity_b_residual": 0.0007834306811531906,
+      "logical_singular_value_min": 0.9995410205835761
+    }
+  ],
+  "best_by_leakage_then_parity": {
+    "xi": 2.4048255576957724,
+    "drive_frequency": 323.57997465850696,
+    "base_potential_amplitude": 778.1533930173279,
+    "max_rail_onsite_amplitude": 2334.4601790519837,
+    "monomer_leakage": 0.00044392926296069285,
+    "logical_deviation_from_zero_leg_schedule": 0.000420396762611768,
+    "logical_parity_a_residual": 0.00037688064685131536,
+    "logical_parity_b_residual": 0.00037688064685131536,
+    "logical_singular_value_min": 0.9997780107288965
+  },
+  "decision": "A finite-frequency local amplitude optimization only. Any improved point remains a 472-state pulse-control result and must pass a separate temporal-resolution and hardware-bandwidth gate before it is used as a control primitive.",
+  "claim_boundary": "This does not alter the absence of a demonstrated protected many-body phase, edge mode, 2D code, braid, non-Abelian statistics, universality or fault tolerance."
+}

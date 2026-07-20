@@ -1,0 +1,65 @@
+{
+  "schema": "antler.phase8c.em-duality-wall-preflight.v1",
+  "geometry": {
+    "name": "3x3 pure-gauge square torus used for T2",
+    "link_qubits": 18,
+    "stars": 9,
+    "plaquettes": 9,
+    "boundary": "periodic"
+  },
+  "global_duality_calibration": {
+    "map": "D = H_on_all_links after h(x,y)->v(x,y-1), v(x,y)->h(x-1,y)",
+    "edge_permutation": [
+      15,
+      16,
+      17,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      2,
+      0,
+      1,
+      5,
+      3,
+      4,
+      8,
+      6,
+      7
+    ],
+    "stars_mapped_exactly_to_plaquettes": 9,
+    "plaquettes_mapped_exactly_to_stars": 9,
+    "z_string_before": [
+      "Z[h(0,0)]",
+      "Z[h(1,0)]",
+      "Z[h(2,0)]"
+    ],
+    "image_of_z_string": [
+      "X[v(0,2)]",
+      "X[v(1,2)]",
+      "X[v(2,2)]"
+    ],
+    "image_is_nontrivial_x_logical": true,
+    "passes_exact_em_permutation_calibration": true,
+    "scope": "global lattice duality; not a spatially bounded wall and has no endpoints"
+  },
+  "false_wall_controls": {
+    "static_pi_cocycle": {
+      "pauli_type_change_count": 0,
+      "verdict": "FAIL: signs/phases alter coefficients but do not map Z-string support to an X-string"
+    },
+    "bounded_partial_hadamard": {
+      "region": "three horizontal links h(0,y), y=0,1,2",
+      "checks_still_commute": true,
+      "mixed_check_count": 9,
+      "stars_mapped_to_pure_plaquettes": 0,
+      "plaquettes_mapped_to_pure_stars": 0,
+      "verdict": "FAIL: a bounded basis change creates mixed checks but no star/plaquette support exchange"
+    }
+  },
+  "decision": "T3a PASS as a discriminating calibration only: the 3x3 neutral-link code has an exact global e<->m symmetry, and the registered static-pi and bounded-mixed-check controls fail the support-changing wall criterion. T3 itself remains open because no local dislocation/domain-wall Hamiltonian with endpoints has been constructed.",
+  "next_gate": "T3b must give an explicit local cellulation/check set with a finite e<->m branch cut, endpoint checks and string operators whose syndrome labels are exchanged on crossing. It must then re-run commutation, rank, gap and local indistinguishability audits before any fusion or braid calculation.",
+  "claim_boundary": "This is an algebraic symmetry calibration on an imposed Abelian pure-gauge reference. It neither constructs a local domain wall nor establishes twist defects, a fusion space, defect transport, non-Abelian braiding, universality, a microscopic ANTLER derivation or experimental feasibility."
+}

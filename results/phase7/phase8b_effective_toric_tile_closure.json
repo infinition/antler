@@ -1,0 +1,100 @@
+{
+  "schema": "antler.phase8b.effective-toric-tile-closure.v1",
+  "parameters": {
+    "geometry": "3x3 square torus",
+    "edges": 18,
+    "stars": 9,
+    "plaquettes": 9,
+    "star_plaquette_incidences": 36,
+    "coefficients_source": "phase8b_star_plaquette_walker_overlap_audit.json",
+    "effective_parent": "sum_s c_A A_s + sum_p c_B B_p + sum_(s,p incident) c_AB A_s B_p"
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "star_coefficient": -0.045606128549451994,
+      "plaquette_coefficient": -0.045606128549451945,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -0.0005066680677325835,
+      "product_to_star_ratio": 0.011109648721513144,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.19053120328152906
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "star_coefficient": -0.012244531044164548,
+      "plaquette_coefficient": -0.01224453104416456,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -4.0205565676622486e-05,
+      "product_to_star_ratio": 0.003283552921022933,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.049621413227484173
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "star_coefficient": -0.0021706815781187727,
+      "plaquette_coefficient": -0.0021706815781188096,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -1.3466474378180356e-06,
+      "product_to_star_ratio": 0.0006203800001772306,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.00870427267148018
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "star_coefficient": -0.0006623298290601534,
+      "plaquette_coefficient": -0.0006623298290601557,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -1.2809504523858908e-07,
+      "product_to_star_ratio": 0.00019340068892919417,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.0026513688369644295
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "star_coefficient": -0.00012753984731204404,
+      "plaquette_coefficient": -0.00012753984731204634,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -4.822027845249844e-09,
+      "product_to_star_ratio": 3.780801017780803e-05,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.0005102365416936999
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "star_coefficient": -3.999969073710804e-05,
+      "plaquette_coefficient": -3.999969073710877e-05,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -4.767880430931289e-10,
+      "product_to_star_ratio": 1.1919793236071416e-05,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 0.00016000639155712177
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "star_coefficient": -7.851716420215891e-06,
+      "plaquette_coefficient": -7.851716420215378e-06,
+      "star_plaquette_product_coefficient_in_stabilizer_basis": -1.843994142256488e-11,
+      "product_to_star_ratio": 2.3485236139052834e-06,
+      "ground_syndrome_degeneracy": 1,
+      "effective_toric_ground_space_degeneracy": 4,
+      "all_plus_syndrome_is_unique_ground": true,
+      "syndrome_gap": 3.1407160719924246e-05
+    }
+  ],
+  "deep_sw_syndrome_gap_power": 4.037212391345119,
+  "inherited_exact_stabilizer_reference": {
+    "independent_stabilizer_rank": 16,
+    "encoded_qubits": 2,
+    "minimum_logical_weight": 3,
+    "all_weight_below_distance_probes_scalar_or_null": true
+  },
+  "decision": "Conditioned on independent local-gadget tiling, the measured fourth-order star/plaquette coefficients and eighth-order commuting product retain a unique all-plus syndrome, a fourfold torus ground space and a nonzero effective syndrome gap on the 3x3 reference.",
+  "claim_boundary": "This is an exact effective stabilizer-spectrum closure, not a microscopic 2D walker simulation. It assumes independent gadget tiling and therefore does not bound inter-gadget crosstalk, establish a thermodynamic gap or native ANTLER realization, or demonstrate anyon motion, defects, fusion, non-Abelian braid, universality or fault tolerance. The toric reference itself is Abelian."
+}

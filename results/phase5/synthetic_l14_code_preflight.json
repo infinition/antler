@@ -1,0 +1,73 @@
+{
+  "schema": "antler.phase5.synthetic-l14-code-preflight.v1",
+  "claim_boundary": "This is a full-L=14 spectral preflight for the synthetic extension. A nonzero local-distinguishability norm explicitly rules out calling this spinor code a passive topological memory.",
+  "rows": [
+    {
+      "link": "B1",
+      "selected_energies": [
+        -11.069430196572815,
+        -11.069430196572783
+      ],
+      "capture": 1.9680849314078595,
+      "isolation_gap": 1.9895586557863236,
+      "logical_split": 3.197442310920451e-14,
+      "projected_local_spin_Z": {
+        "real": [
+          [
+            0.9919204520773155,
+            -1.8879684960402945e-05
+          ],
+          [
+            -1.8879684960402945e-05,
+            -0.9832866221251938
+          ]
+        ],
+        "imag": [
+          [
+            0.0,
+            -4.1210684343810215e-06
+          ],
+          [
+            4.1210684343810215e-06,
+            0.0
+          ]
+        ]
+      },
+      "local_distinguishability_norm": 1.3966823166836007
+    },
+    {
+      "link": "B2",
+      "selected_energies": [
+        -11.069430196572835,
+        -11.0694301965728
+      ],
+      "capture": 1.9680849314078643,
+      "isolation_gap": 1.9895586557863663,
+      "logical_split": 3.552713678800501e-14,
+      "projected_local_spin_Z": {
+        "real": [
+          [
+            0.9828571919914222,
+            4.402229402518152e-05
+          ],
+          [
+            4.402229402518152e-05,
+            -0.9920593042410676
+          ]
+        ],
+        "imag": [
+          [
+            0.0,
+            6.597668249232983e-06
+          ],
+          [
+            -6.597668249232983e-06,
+            0.0
+          ]
+        ]
+      },
+      "local_distinguishability_norm": 1.396476848182092
+    }
+  ],
+  "decision": "matrix-link code is spectrally testable, but local spin distinguishability requires a further defect/fusion encoding for topological protection"
+}

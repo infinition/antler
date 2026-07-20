@@ -1,0 +1,230 @@
+{
+  "schema": "antler.phase8b.lambda-walker-gadget-audit.v1",
+  "parameters": {
+    "block_size_b": 2,
+    "detuning": 10.0,
+    "coupling_ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "walker_basis": "|vac>, |mu0>, |mu1>, |mu2>; at most one neutral walker",
+    "vertices": "lambda X_L, w p1, w p2, lambda X_R; all equal to coupling in this symmetric audit",
+    "target": "G_B=X_L p1 p2 X_R"
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "coupling": 2.0,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.7956544868725347,
+        "G_minus": -0.7445626465380293
+      },
+      "gauss_coefficient": -0.02554592016725272,
+      "gauss_sector_gap": 0.05109184033450542,
+      "max_unwanted_walsh_coefficient": 2.0816681711721685e-17,
+      "walsh_coefficients": {
+        "I": -0.7701085667052818,
+        "X_L": 2.0816681711721685e-17,
+        "p_1": 2.0816681711721685e-17,
+        "X_L_p_1": 2.0816681711721685e-17,
+        "p_2": 6.938893903907228e-18,
+        "X_L_p_2": -6.938893903907228e-18,
+        "p_1_p_2": -6.938893903907228e-18,
+        "X_L_p_1_p_2": 6.938893903907228e-18,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -0.02554592016725272
+      }
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "coupling": 1.5,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.4491684897382573,
+        "G_minus": -0.43139024560010786
+      },
+      "gauss_coefficient": -0.008889122069074717,
+      "gauss_sector_gap": 0.017778244138149435,
+      "max_unwanted_walsh_coefficient": 1.3877787807814457e-17,
+      "walsh_coefficients": {
+        "I": -0.4402793676691825,
+        "X_L": 1.3877787807814457e-17,
+        "p_1": -1.3877787807814457e-17,
+        "X_L_p_1": 1.3877787807814457e-17,
+        "p_2": 0.0,
+        "X_L_p_2": 0.0,
+        "p_1_p_2": 0.0,
+        "X_L_p_1_p_2": 0.0,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -0.008889122069074717
+      }
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "coupling": 1.0,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.199923164410143,
+        "G_minus": -0.19615242270663208
+      },
+      "gauss_coefficient": -0.0018853708517554552,
+      "gauss_sector_gap": 0.0037707417035109103,
+      "max_unwanted_walsh_coefficient": 5.204170427930421e-18,
+      "walsh_coefficients": {
+        "I": -0.1980377935583875,
+        "X_L": -5.204170427930421e-18,
+        "p_1": -5.204170427930421e-18,
+        "X_L_p_1": -5.204170427930421e-18,
+        "p_2": -1.734723475976807e-18,
+        "X_L_p_2": 1.734723475976807e-18,
+        "p_1_p_2": 1.734723475976807e-18,
+        "X_L_p_1_p_2": -1.734723475976807e-18,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -0.0018853708517554552
+      }
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "coupling": 0.75,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.1124860801609121,
+        "G_minus": -0.11126207506521821
+      },
+      "gauss_coefficient": -0.0006120025478469487,
+      "gauss_sector_gap": 0.0012240050956938975,
+      "max_unwanted_walsh_coefficient": 3.469446951953614e-18,
+      "walsh_coefficients": {
+        "I": -0.11187407761306517,
+        "X_L": -3.469446951953614e-18,
+        "p_1": 3.469446951953614e-18,
+        "X_L_p_1": -3.469446951953614e-18,
+        "p_2": 0.0,
+        "X_L_p_2": 0.0,
+        "p_1_p_2": 0.0,
+        "X_L_p_1_p_2": 0.0,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -0.0006120025478469487
+      }
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "coupling": 0.5,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.04999876246782808,
+        "G_minus": -0.049752469181039025
+      },
+      "gauss_coefficient": -0.00012314664339452622,
+      "gauss_sector_gap": 0.00024629328678905243,
+      "max_unwanted_walsh_coefficient": 2.168404344971009e-18,
+      "walsh_coefficients": {
+        "I": -0.049875615824433554,
+        "X_L": -1.3010426069826053e-18,
+        "p_1": -1.3010426069826053e-18,
+        "X_L_p_1": 2.168404344971009e-18,
+        "p_2": -4.336808689942018e-19,
+        "X_L_p_2": 4.336808689942018e-19,
+        "p_1_p_2": 4.336808689942018e-19,
+        "X_L_p_1_p_2": -4.336808689942018e-19,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -0.00012314664339452622
+      }
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "coupling": 0.375,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.028124778776477694,
+        "G_minus": -0.028046340279691585
+      },
+      "gauss_coefficient": -3.921924839305445e-05,
+      "gauss_sector_gap": 7.84384967861089e-05,
+      "max_unwanted_walsh_coefficient": 1.0842021724855044e-18,
+      "walsh_coefficients": {
+        "I": -0.02808555952808464,
+        "X_L": 6.505213034913027e-19,
+        "p_1": -1.0842021724855044e-18,
+        "X_L_p_1": 6.505213034913027e-19,
+        "p_2": 2.168404344971009e-19,
+        "X_L_p_2": -2.168404344971009e-19,
+        "p_1_p_2": -2.168404344971009e-19,
+        "X_L_p_1_p_2": 2.168404344971009e-19,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -3.921924839305445e-05
+      }
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "coupling": 0.25,
+      "low_branch_energy_by_gauss_eigenvalue": {
+        "G_plus": -0.01249998051754739,
+        "G_minus": -0.01248441394085535
+      },
+      "gauss_coefficient": -7.783288346019726e-06,
+      "gauss_sector_gap": 1.5566576692039452e-05,
+      "max_unwanted_walsh_coefficient": 0.0,
+      "walsh_coefficients": {
+        "I": -0.012492197229201368,
+        "X_L": 0.0,
+        "p_1": 0.0,
+        "X_L_p_1": 0.0,
+        "p_2": 0.0,
+        "X_L_p_2": 0.0,
+        "p_1_p_2": 0.0,
+        "X_L_p_1_p_2": 0.0,
+        "X_R": 0.0,
+        "X_L_X_R": 0.0,
+        "p_1_X_R": 0.0,
+        "X_L_p_1_X_R": 0.0,
+        "p_2_X_R": 0.0,
+        "X_L_p_2_X_R": 0.0,
+        "p_1_p_2_X_R": 0.0,
+        "X_L_p_1_p_2_X_R": -7.783288346019726e-06
+      }
+    }
+  ],
+  "fits": {
+    "gauss_coefficient_power_vs_coupling_over_detuning": 3.902606260758252,
+    "deepest_ratio_target_sign": -1
+  },
+  "decision": "The repaired Lambda-walker layer produces the coarse Gauss word at fourth order and no other non-scalar Walsh word in this ideal one-walker model. This validates the algebraic loop mechanism only; the required parity-conditioned neutral-walker hopping remains a newly declared microscopic primitive, not an ANTLER derivation.",
+  "claim_boundary": "This test does not implement matter Fock states, charge-two mediators, Floquet channels, block-boundary pair transport, noise, local indistinguishability, a phase, fusion or a braid. It is only the exact internal-walker layer of the repaired Phase-8B proposal."
+}

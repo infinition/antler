@@ -1,0 +1,72 @@
+{
+  "schema": "antler.phase8.tenpy-published-point-parity-scaling.v1",
+  "citation": "Defossez et al., arXiv:2412.14886v2 (2025)",
+  "parameters": {
+    "u0_attractive_nn": -1.5,
+    "alpha": 0.5,
+    "chi_max": 384
+  },
+  "rows": [
+    {
+      "L": 6,
+      "N": 4,
+      "filling_N_over_2L": 0.3333333333333333,
+      "sectors": {
+        "0": {
+          "energy": -6.73380233552641,
+          "measured_branch_parity": 1.0000000000000002,
+          "max_bond_dimension": 29
+        },
+        "1": {
+          "energy": -6.521649467754727,
+          "measured_branch_parity": -0.9999999999999999,
+          "max_bond_dimension": 26
+        }
+      },
+      "parity_sector_split": 0.21215286777168263,
+      "exact_ed_residual_by_sector": {
+        "0": 1.4210854715202004e-14,
+        "1": 1.9539925233402755e-14
+      },
+      "exact_ed_threshold": 1e-08
+    },
+    {
+      "L": 12,
+      "N": 8,
+      "filling_N_over_2L": 0.3333333333333333,
+      "sectors": {
+        "0": {
+          "energy": -14.311672757964768,
+          "measured_branch_parity": 0.9999999999999997,
+          "max_bond_dimension": 384
+        },
+        "1": {
+          "energy": -14.235878610589616,
+          "measured_branch_parity": -0.9999999999999991,
+          "max_bond_dimension": 384
+        }
+      },
+      "parity_sector_split": 0.07579414737515222
+    },
+    {
+      "L": 18,
+      "N": 12,
+      "filling_N_over_2L": 0.3333333333333333,
+      "sectors": {
+        "0": {
+          "energy": -21.8194516352388,
+          "measured_branch_parity": 0.9999999999999994,
+          "max_bond_dimension": 384
+        },
+        "1": {
+          "energy": -21.78370585475819,
+          "measured_branch_parity": -0.999999999999999,
+          "max_bond_dimension": 384
+        }
+      },
+      "parity_sector_split": 0.03574578048061028
+    }
+  ],
+  "decision": "Fixed-density open-boundary parity-splitting scaling at the published effective-model point.",
+  "claim_boundary": "The neutral sector is expected to be gapless. This is an external-model finite-MPS audit, not a thermodynamic, native-ANTLER, or non-Abelian proof."
+}

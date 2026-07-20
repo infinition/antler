@@ -1,0 +1,48 @@
+{
+  "schema": "antler.phase8.native-micro-rabi-composition.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "closure_period": 0.020840010178748883,
+    "alpha": 0.5,
+    "eta": "pi/2"
+  },
+  "rows": [
+    {
+      "cycles": 1,
+      "total_time": 0.020840010178748883,
+      "low_frame_leakage_worst": 2.1604421591365716e-06,
+      "polar_logical_vs_target_distance": 7.332252946942294e-05,
+      "raw_logical_min_singular_value": 0.9999989197783369
+    },
+    {
+      "cycles": 2,
+      "total_time": 0.041680020357497766,
+      "low_frame_leakage_worst": 8.637773839850975e-06,
+      "polar_logical_vs_target_distance": 0.000146592992261368,
+      "raw_logical_min_singular_value": 0.9999956811037534
+    },
+    {
+      "cycles": 4,
+      "total_time": 0.08336004071499553,
+      "low_frame_leakage_worst": 3.4487252418024617e-05,
+      "polar_logical_vs_target_distance": 0.0002927699121823,
+      "raw_logical_min_singular_value": 0.9999827562251168
+    },
+    {
+      "cycles": 8,
+      "total_time": 0.16672008142999106,
+      "low_frame_leakage_worst": 0.00013693223343095922,
+      "polar_logical_vs_target_distance": 0.0005822259781868278,
+      "raw_logical_min_singular_value": 0.9999315315393187
+    }
+  ],
+  "leakage_loglog_cycle_slope": 1.9955306773361814,
+  "logical_distance_loglog_cycle_slope": 0.9965703408944421,
+  "decision": "Multi-cycle coherent composition of the shortest explicit-mediator Rabi-closure primitive.",
+  "claim_boundary": "This is not a logical topological-gate composition: it is a finite L=3 microscopic Floquet/H_eff bridge under ideal pulses."
+}

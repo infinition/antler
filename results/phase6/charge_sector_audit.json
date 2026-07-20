@@ -1,0 +1,47 @@
+{
+  "schema": "antler.phase6.charge-sector-audit.v1",
+  "reference": "external Iemini lambda=1 parent at N=L, corresponding to pair filling N/(2L)=1/2",
+  "rows": [
+    {
+      "L": 4,
+      "reference_charge_N": 4,
+      "pair_filling_N_over_2L": 0.5,
+      "ground_energies": {
+        "N_minus_1": -1.4950309218560686e-15,
+        "N": 1.8799604084878217e-15,
+        "N_plus_1": -4.028268984131068e-15
+      },
+      "addition_energy": -5.908229392618889e-15,
+      "removal_energy": -3.3749913303438903e-15,
+      "fixed_N_neutral_code_gap": 1.4621250708201343
+    },
+    {
+      "L": 6,
+      "reference_charge_N": 6,
+      "pair_filling_N_over_2L": 0.5,
+      "ground_energies": {
+        "N_minus_1": -2.673161769902968e-14,
+        "N": -1.2759977044934454e-15,
+        "N_plus_1": -1.747388510426533e-14
+      },
+      "addition_energy": -1.6197887399771885e-14,
+      "removal_energy": -2.5455619994536235e-14,
+      "fixed_N_neutral_code_gap": 0.7174655047194777
+    },
+    {
+      "L": 8,
+      "reference_charge_N": 8,
+      "pair_filling_N_over_2L": 0.5,
+      "ground_energies": {
+        "N_minus_1": -1.1161444184979394e-15,
+        "N": -9.533362104499486e-16,
+        "N_plus_1": 3.173756873365852e-15
+      },
+      "addition_energy": 4.127093083815801e-15,
+      "removal_energy": -1.628082080479908e-16,
+      "fixed_N_neutral_code_gap": 0.41811198021175106
+    }
+  ],
+  "interpretation": "The parent has an exactly isolated fixed-N parity doublet, but its global charge-sector addition/removal energies must be inspected independently. A charge gap can be supplied by a conserved-sector preparation or an external charging energy; it cannot be silently inferred from fixed-N ED.",
+  "claim_boundary": "This is a charge-versus-neutral-gap audit of an external parent only. It neither creates a native ANTLER qubit nor proves experimental protection against particle exchange with a reservoir."
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "antler.phase8b.star-plaquette-walker-overlap-audit.v1",
+  "parameters": {
+    "gauge_links": 6,
+    "shared_links": [
+      0,
+      1
+    ],
+    "star_edges": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "plaquette_edges": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "detuning": 10.0,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "new_primitives": "one neutral X-conditioned four-state star walker and one neutral Z-conditioned four-state plaquette walker",
+    "downfolding": "exact zero-energy Schur complement onto both walkers in their low position"
+  },
+  "dimensions": {
+    "total": 1024,
+    "low_gauge_subspace": 64,
+    "high_walker_subspace": 960
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "star_coefficient": -0.045606128549451994,
+      "plaquette_coefficient": -0.045606128549451945,
+      "identity_coefficient": -1.7944755736148759,
+      "star_plaquette_product_coefficient": 0.0005066680677325835,
+      "maximum_outside_stabilizer_algebra_coefficient": 5.551115123125783e-17,
+      "largest_outside_stabilizer_algebra_pauli": "IIIIZZ",
+      "zero_energy_schur_hermiticity_residual": 3.925231146709438e-17,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "star_coefficient": -0.012244531044164548,
+      "plaquette_coefficient": -0.01224453104416456,
+      "identity_coefficient": -0.9561459500756999,
+      "star_plaquette_product_coefficient": 4.0205565676622486e-05,
+      "maximum_outside_stabilizer_algebra_coefficient": 5.551115123125783e-17,
+      "largest_outside_stabilizer_algebra_pauli": "ZZIZZZ",
+      "zero_energy_schur_hermiticity_residual": 1.962615573354719e-17,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "star_coefficient": -0.0021706815781187727,
+      "plaquette_coefficient": -0.0021706815781188096,
+      "identity_coefficient": -0.41045261477104733,
+      "star_plaquette_product_coefficient": 1.3466474378180356e-06,
+      "maximum_outside_stabilizer_algebra_coefficient": 9.540979117872439e-18,
+      "largest_outside_stabilizer_algebra_pauli": "IIIIIZ",
+      "zero_energy_schur_hermiticity_residual": 2.4532694666933987e-18,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "star_coefficient": -0.0006623298290601534,
+      "plaquette_coefficient": -0.0006623298290601557,
+      "identity_coefficient": -0.22824280355053972,
+      "star_plaquette_product_coefficient": 1.2809504523858908e-07,
+      "maximum_outside_stabilizer_algebra_coefficient": 1.691355389077387e-17,
+      "largest_outside_stabilizer_algebra_pauli": "IIIZII",
+      "zero_energy_schur_hermiticity_residual": 6.133173666733497e-19,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "star_coefficient": -0.00012753984731204404,
+      "plaquette_coefficient": -0.00012753984731204634,
+      "identity_coefficient": -0.10063180355565847,
+      "star_plaquette_product_coefficient": 4.822027845249844e-09,
+      "maximum_outside_stabilizer_algebra_coefficient": 4.553649124439119e-18,
+      "largest_outside_stabilizer_algebra_pauli": "IIIIIZ",
+      "zero_energy_schur_hermiticity_residual": 1.5332934166833742e-19,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "star_coefficient": -3.999969073710804e-05,
+      "plaquette_coefficient": -3.999969073710877e-05,
+      "identity_coefficient": -0.05644895814036732,
+      "star_plaquette_product_coefficient": 4.767880430931289e-10,
+      "maximum_outside_stabilizer_algebra_coefficient": 9.75781955236954e-19,
+      "largest_outside_stabilizer_algebra_pauli": "IIIIZI",
+      "zero_energy_schur_hermiticity_residual": 3.8332335417084355e-20,
+      "star_plaquette_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "star_coefficient": -7.851716420215891e-06,
+      "plaquette_coefficient": -7.851716420215378e-06,
+      "identity_coefficient": -0.025039167808465407,
+      "star_plaquette_product_coefficient": 1.843994142256488e-11,
+      "maximum_outside_stabilizer_algebra_coefficient": 1.5720931501039814e-18,
+      "largest_outside_stabilizer_algebra_pauli": "IIIZII",
+      "zero_energy_schur_hermiticity_residual": 1.3552527156068805e-20,
+      "star_plaquette_commutator_frobenius": 0.0
+    }
+  ],
+  "deep_sw_star_coefficient_power": 4.03653857483565,
+  "deep_sw_plaquette_coefficient_power": 4.036538574835708,
+  "deep_sw_stabilizer_product_coefficient_power": 8.051419012620997,
+  "decision": "The declared walker construction produces compatible star and plaquette words at fourth order in the joint downfolded six-link overlap block. The first extra word is their commuting product at higher order; all terms outside the generated stabilizer algebra are numerically absent in this audit.",
+  "claim_boundary": "This is a single star/plaquette microscopic overlap control with newly declared X- and Z-conditioned neutral walker primitives. It does not establish a tiled 2D phase, a stable thermodynamic gap, a native ANTLER implementation, defects, fusion, a T junction or non-Abelian braid statistics."
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "antler.phase8b.gauss-odd-order-selection-audit.v1",
+  "parameters": {
+    "eta": 0.37,
+    "detuning_delta_g": 10.0,
+    "ratios_lambda_over_delta_g": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "stated_gadget": "H=Delta_G n_mu + lambda(mu^dagger A + A mu), A=X_L+X_R+eta P_B",
+    "target": "G_B=X_L P_B X_R"
+  },
+  "rows": [
+    {
+      "lambda_over_delta": 0.2,
+      "lambda": 2.0,
+      "exact_low_branch_coefficients": {
+        "I": -0.7418715433550694,
+        "X_L": -4.440892098500626e-16,
+        "P_B": 1.1102230246251565e-16,
+        "X_R": 0.0,
+        "X_L_X_R": -0.6874081692667774,
+        "X_L_P_B": -0.23019685970334935,
+        "P_B_X_R": -0.23019685970334897,
+        "G_B_X_L_P_B_X_R": 1.1102230246251565e-16
+      },
+      "exact_vs_second_order_frobenius": 0.5221557663175573
+    },
+    {
+      "lambda_over_delta": 0.15,
+      "lambda": 1.5,
+      "exact_low_branch_coefficients": {
+        "I": -0.4405476752671681,
+        "X_L": -1.1102230246251565e-16,
+        "P_B": 8.326672684688674e-17,
+        "X_R": 1.1102230246251565e-16,
+        "X_L_X_R": -0.40983947462583076,
+        "X_L_P_B": -0.14229827508342346,
+        "P_B_X_R": -0.14229827508342324,
+        "G_B_X_L_P_B_X_R": 2.7755575615628914e-16
+      },
+      "exact_vs_second_order_frobenius": 0.1877182077578114
+    },
+    {
+      "lambda_over_delta": 0.1,
+      "lambda": 1.0,
+      "exact_low_branch_coefficients": {
+        "I": -0.2048948564829922,
+        "X_L": 0.0,
+        "P_B": 8.326672684688674e-17,
+        "X_R": 0.0,
+        "X_L_X_R": -0.19122354695341734,
+        "X_L_P_B": -0.06856780602967724,
+        "P_B_X_R": -0.06856780602967724,
+        "G_B_X_L_P_B_X_R": 8.326672684688674e-17
+      },
+      "exact_vs_second_order_frobenius": 0.04131809678347314
+    },
+    {
+      "lambda_over_delta": 0.075,
+      "lambda": 0.75,
+      "exact_low_branch_coefficients": {
+        "I": -0.11730599826918173,
+        "X_L": 3.469446951953614e-18,
+        "P_B": 5.551115123125783e-17,
+        "X_R": 0.0,
+        "X_L_X_R": -0.10961129411638179,
+        "X_L_P_B": -0.03981792486045087,
+        "P_B_X_R": -0.03981792486045087,
+        "G_B_X_L_P_B_X_R": 4.85722573273506e-17
+      },
+      "exact_vs_second_order_frobenius": 0.01363950929110607
+    },
+    {
+      "lambda_over_delta": 0.05,
+      "lambda": 0.5,
+      "exact_low_branch_coefficients": {
+        "I": -0.05283347233105528,
+        "X_L": 1.734723475976807e-18,
+        "P_B": 2.0816681711721685e-17,
+        "X_R": 0.0,
+        "X_L_X_R": -0.049412142880576486,
+        "X_L_P_B": -0.018129272280468893,
+        "P_B_X_R": -0.018129272280468893,
+        "G_B_X_L_P_B_X_R": 2.0816681711721685e-17
+      },
+      "exact_vs_second_order_frobenius": 0.002781952798588559
+    },
+    {
+      "lambda_over_delta": 0.0375,
+      "lambda": 0.375,
+      "exact_low_branch_coefficients": {
+        "I": -0.029861770370296685,
+        "X_L": -1.1102230246251565e-16,
+        "P_B": -9.8879238130678e-17,
+        "X_R": -1.1102230246251565e-16,
+        "X_L_X_R": -0.027936984600322453,
+        "X_L_P_B": -0.010287331015071618,
+        "P_B_X_R": -0.010287331015071618,
+        "G_B_X_L_P_B_X_R": -1.0061396160665481e-16
+      },
+      "exact_vs_second_order_frobenius": 0.0008904941555801138
+    },
+    {
+      "lambda_over_delta": 0.025,
+      "lambda": 0.25,
+      "exact_low_branch_coefficients": {
+        "I": -0.013318121851143559,
+        "X_L": 0.0,
+        "P_B": 5.204170427930421e-18,
+        "X_R": 0.0,
+        "X_L_X_R": -0.012462570048032305,
+        "X_L_P_B": -0.004601275188404806,
+        "P_B_X_R": -0.004601275188404806,
+        "G_B_X_L_P_B_X_R": 5.204170427930421e-18
+      },
+      "exact_vs_second_order_frobenius": 0.00017738592613637363
+    }
+  ],
+  "exact_selection_rule": {
+    "low_energy_form": "H_eff=f(A^2) because each low-to-low virtual process has an even number of mu conversion vertices",
+    "even_commutant_basis": [
+      "I",
+      "X_L X_R",
+      "X_L P_B",
+      "P_B X_R"
+    ],
+    "max_target_gauss_coefficient": 2.7755575615628914e-16,
+    "max_even_subalgebra_reconstruction_residual": 2.3517158625007287e-15,
+    "minimum_abs_second_order_xl_xr_coefficient": 0.012462570048032305
+  },
+  "decision": "The stated single-linear-mediator gadget cannot generate G_B=X_L P_B X_R at third order: its exact low branch is an even function of A and the target coefficient is zero to numerical precision. This refutes T3 as written, but not every coarse-grained gauge construction; a viable revision must explicitly break the mediator-conversion selection rule or introduce a different microscopic primitive and then re-audit all lower-order terms.",
+  "claim_boundary": "This exact algebra audit addresses only the Hamiltonian displayed in PHASE8B_Z2_GAUSS_RESOURCE_THEOREM.md. It does not refute T1, T2, a modified coarse-grained gadget, a gauge theory, a phase, fusion or a braid."
+}

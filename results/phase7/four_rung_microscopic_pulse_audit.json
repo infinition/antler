@@ -1,0 +1,119 @@
+{
+  "schema": "antler.phase7d.four-rung-microscopic-pulse-audit.v1",
+  "model": {
+    "rungs": 4,
+    "low_fermion_modes": 8,
+    "hard_core_charge_two_mediators": 12,
+    "fixed_total_charge": 4,
+    "full_hilbert_dimension": 472,
+    "schedule": "same-rail and opposite-rail closed pulses, with rail rotations; even links (0,1),(2,3) then odd link (1,2)"
+  },
+  "parameters": {
+    "U_mott": 20.0,
+    "detuning": 40.0,
+    "coupling": 6.0,
+    "coupling_over_detuning": 0.15,
+    "full_rabi_pulse_time": 0.07767087952597317,
+    "inactive_crosstalk_scan_over_g": [
+      0.0,
+      0.0001,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "leg_hopping_during_pulse_scan": [
+      0.0,
+      0.1,
+      0.3,
+      1.0
+    ]
+  },
+  "rows": [
+    {
+      "inactive_channel_coupling_over_g": 0.0,
+      "even_layer_monomer_leakage": 6.364797027174972e-29,
+      "complete_schedule_monomer_leakage": 7.338414593432175e-29,
+      "even_layer_factorization_residual": 9.925755487593603e-14,
+      "closed_pulse_composition_residual": 6.198901923415358e-14,
+      "final_logical_parity_a_residual": 9.699166443540804e-14,
+      "final_logical_parity_b_residual": 9.699166443540804e-14,
+      "final_logical_singular_value_min": 0.9999999999999611
+    },
+    {
+      "inactive_channel_coupling_over_g": 0.0001,
+      "even_layer_monomer_leakage": 1.830425100081824e-12,
+      "complete_schedule_monomer_leakage": 5.688406506181757e-12,
+      "even_layer_factorization_residual": 1.6324659254647706e-12,
+      "closed_pulse_composition_residual": 1.320905416461258e-12,
+      "final_logical_parity_a_residual": 1.6203329496412083e-12,
+      "final_logical_parity_b_residual": 1.6203329496412083e-12,
+      "final_logical_singular_value_min": 0.9999999999971713
+    },
+    {
+      "inactive_channel_coupling_over_g": 0.001,
+      "even_layer_monomer_leakage": 1.830504923074871e-10,
+      "complete_schedule_monomer_leakage": 5.687341994649845e-10,
+      "even_layer_factorization_residual": 1.6214018714961056e-10,
+      "closed_pulse_composition_residual": 1.3094341378918442e-10,
+      "final_logical_parity_a_residual": 1.6089606176186499e-10,
+      "final_logical_parity_b_residual": 1.6089606176186499e-10,
+      "final_logical_singular_value_min": 0.9999999997156722
+    },
+    {
+      "inactive_channel_coupling_over_g": 0.003,
+      "even_layer_monomer_leakage": 1.6475718117842812e-09,
+      "complete_schedule_monomer_leakage": 5.116343357755201e-09,
+      "even_layer_factorization_residual": 1.459502984324864e-09,
+      "closed_pulse_composition_residual": 1.1779400195115249e-09,
+      "final_logical_parity_a_residual": 1.4462978019439683e-09,
+      "final_logical_parity_b_residual": 1.4462978019439683e-09,
+      "final_logical_singular_value_min": 0.9999999974418341
+    },
+    {
+      "inactive_channel_coupling_over_g": 0.01,
+      "even_layer_monomer_leakage": 1.830581719397757e-08,
+      "complete_schedule_monomer_leakage": 5.6743878632897866e-08,
+      "even_layer_factorization_residual": 1.620979788381294e-08,
+      "closed_pulse_composition_residual": 1.306251535391935e-08,
+      "final_logical_parity_a_residual": 1.5991153826210958e-08,
+      "final_logical_parity_b_residual": 1.5991153826210958e-08,
+      "final_logical_singular_value_min": 0.9999999716280523
+    }
+  ],
+  "leg_hopping_rows": [
+    {
+      "leg_hopping_during_pulses": 0.0,
+      "complete_schedule_monomer_leakage": 7.338414593432175e-29,
+      "logical_deviation_from_zero_leg_schedule": 1.232595164407831e-32,
+      "final_logical_parity_a_residual": 9.699166443540804e-14,
+      "final_logical_parity_b_residual": 9.699166443540804e-14,
+      "final_logical_singular_value_min": 0.9999999999999611
+    },
+    {
+      "leg_hopping_during_pulses": 0.1,
+      "complete_schedule_monomer_leakage": 0.00020207360451021423,
+      "logical_deviation_from_zero_leg_schedule": 0.0004017808193870483,
+      "final_logical_parity_a_residual": 0.00026598151385353496,
+      "final_logical_parity_b_residual": 0.00026598151385353496,
+      "final_logical_singular_value_min": 0.9998989580930117
+    },
+    {
+      "leg_hopping_during_pulses": 0.3,
+      "complete_schedule_monomer_leakage": 0.0018159002063686226,
+      "logical_deviation_from_zero_leg_schedule": 0.0036129608119847578,
+      "final_logical_parity_a_residual": 0.002390311630519512,
+      "final_logical_parity_b_residual": 0.002390311630519512,
+      "final_logical_singular_value_min": 0.9990916373354765
+    },
+    {
+      "leg_hopping_during_pulses": 1.0,
+      "complete_schedule_monomer_leakage": 0.01984393622897244,
+      "logical_deviation_from_zero_leg_schedule": 0.03977655068044091,
+      "final_logical_parity_a_residual": 0.02616032548596132,
+      "final_logical_parity_b_residual": 0.02616032548596132,
+      "final_logical_singular_value_min": 0.9900283146309795
+    }
+  ],
+  "decision": "Microscopic four-rung pulse/crosstalk preflight only. The zero-crosstalk row tests closure and composition of the explicit mediator pulses; nonzero rows quantify this particular residual-channel error model. The separate leg-hopping scan shows that unrefocused hopping during opposite-rail pulses prevents exact stroboscopic closure. No many-body phase is inferred.",
+  "claim_boundary": "The inactive-channel model is an idealized coherent coupling error, not a hardware noise model. This audit does not include a refocusing or recalibration solution for the observed leg-hopping failure, pulse calibration errors, dissipation, a thermodynamic gap, edge protection, 2D order, braiding, non-Abelian statistics, universality or fault tolerance."
+}

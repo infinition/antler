@@ -1,0 +1,124 @@
+{
+  "schema": "antler.phase8b.shared-matter-c3-parity-echo-duration-scan.v1",
+  "parameters": {
+    "coupling_ratios": [
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "rabi_multipliers": [
+      1,
+      2,
+      4
+    ],
+    "screen": {
+      "leakage_per_group": 0.0001,
+      "polar_distance_to_piecewise_sw": 0.0001,
+      "linear_leakage_budget_to_pi_over_4": 1.0
+    }
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.05,
+      "rabi_multiplier_per_segment": 1,
+      "segment_duration": 0.6252003053624663,
+      "xxx_phase_magnitude_per_group": 1.5724317869710395e-05,
+      "ideal_groups_to_pi_over_4": 49947.995830735104,
+      "low_frame_leakage_worst": 0.000592190789436384,
+      "polar_distance_to_piecewise_sw": 1.5724433346494865e-05,
+      "linear_leakage_budget_estimate_to_pi_over_4": 29.578743081768238,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rabi_multiplier_per_segment": 2,
+      "segment_duration": 1.2504006107249326,
+      "xxx_phase_magnitude_per_group": 3.144863573942079e-05,
+      "ideal_groups_to_pi_over_4": 24973.997915367552,
+      "low_frame_leakage_worst": 0.0026652150386429437,
+      "polar_distance_to_piecewise_sw": 3.145015939081108e-05,
+      "linear_leakage_budget_estimate_to_pi_over_4": 66.56107481907513,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "rabi_multiplier_per_segment": 4,
+      "segment_duration": 2.500801221449865,
+      "xxx_phase_magnitude_per_group": 6.289727147884158e-05,
+      "ideal_groups_to_pi_over_4": 12486.998957683776,
+      "low_frame_leakage_worst": 0.009153860540484208,
+      "polar_distance_to_piecewise_sw": 6.293392923345565e-05,
+      "linear_leakage_budget_estimate_to_pi_over_4": 114.30424702780894,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rabi_multiplier_per_segment": 1,
+      "segment_duration": 0.6265588052220772,
+      "xxx_phase_magnitude_per_group": 2.5606254836852576e-06,
+      "ideal_groups_to_pi_over_4": 306721.2165158575,
+      "low_frame_leakage_worst": 0.0001313776517795752,
+      "polar_distance_to_piecewise_sw": 2.560838024411831e-06,
+      "linear_leakage_budget_estimate_to_pi_over_4": 40.296313176828015,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rabi_multiplier_per_segment": 2,
+      "segment_duration": 1.2531176104441544,
+      "xxx_phase_magnitude_per_group": 5.121250967370515e-06,
+      "ideal_groups_to_pi_over_4": 153360.60825792875,
+      "low_frame_leakage_worst": 0.0006606159597421635,
+      "polar_distance_to_piecewise_sw": 5.125725569629851e-06,
+      "linear_leakage_budget_estimate_to_pi_over_4": 101.31246541095356,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "rabi_multiplier_per_segment": 4,
+      "segment_duration": 2.5062352208883087,
+      "xxx_phase_magnitude_per_group": 1.024250193474103e-05,
+      "ideal_groups_to_pi_over_4": 76680.30412896437,
+      "low_frame_leakage_worst": 0.002840436069801683,
+      "polar_distance_to_piecewise_sw": 1.0399427138979646e-05,
+      "linear_leakage_budget_estimate_to_pi_over_4": 217.80550169127335,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rabi_multiplier_per_segment": 1,
+      "segment_duration": 0.627534602114852,
+      "xxx_phase_magnitude_per_group": 2.1139738840151686e-07,
+      "ideal_groups_to_pi_over_4": 3715268.99805264,
+      "low_frame_leakage_worst": 9.820743498038141e-06,
+      "polar_distance_to_piecewise_sw": 2.1142315207212099e-07,
+      "linear_leakage_budget_estimate_to_pi_over_4": 36.48670385608814,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rabi_multiplier_per_segment": 2,
+      "segment_duration": 1.255069204229704,
+      "xxx_phase_magnitude_per_group": 4.227947768030337e-07,
+      "ideal_groups_to_pi_over_4": 1857634.49902632,
+      "low_frame_leakage_worst": 6.718677509199179e-05,
+      "polar_distance_to_piecewise_sw": 4.231941384710765e-07,
+      "linear_leakage_budget_estimate_to_pi_over_4": 124.8084712892062,
+      "passes_registered_practical_screen": false
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "rabi_multiplier_per_segment": 4,
+      "segment_duration": 2.510138408459408,
+      "xxx_phase_magnitude_per_group": 8.455895536060674e-07,
+      "ideal_groups_to_pi_over_4": 928817.24951316,
+      "low_frame_leakage_worst": 0.000345033966584095,
+      "polar_distance_to_piecewise_sw": 8.656078510650652e-07,
+      "linear_leakage_budget_estimate_to_pi_over_4": 320.4734998312547,
+      "passes_registered_practical_screen": false
+    }
+  ],
+  "passing_rows": [],
+  "decision": "No registered integer-Rabi duration supplies a practical C3 gate: the screen has no passing row, and the companion signal audit shows that the physical operation is nearly scalar at these closure timings.",
+  "claim_boundary": "The linear leakage budget is a screening diagnostic, not a composition proof. Passing it would still require explicit multi-group composition, timing/noise/crosstalk audits and a C4 code construction."
+}

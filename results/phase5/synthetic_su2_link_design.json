@@ -1,0 +1,102 @@
+{
+  "schema": "antler.phase5.synthetic-su2-link-design.v1",
+  "claim_boundary": "This is an algebraic synthetic-dimension design target.  It requires a new matrix-valued hopping Hamiltonian and does not upgrade the present scalar rung-major correlated-hopping ladder to a non-Abelian system.",
+  "required_extension": {
+    "internal_dimension": 2,
+    "link_hamiltonian": "H_link=[[eps1 I,-J U^dag],[-J U,eps2 I]]",
+    "implementation_requirement": "independently addressable non-collinear SU(2) Peierls links, e.g. a pseudo-spin or orbital synthetic dimension"
+  },
+  "B1": {
+    "real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "imag": [
+      [
+        -0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ]
+  },
+  "B2": {
+    "real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "imag": [
+      [
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ]
+    ]
+  },
+  "handoff_transport_B1": {
+    "real": [
+      [
+        0.7071067811865475,
+        -1.1958478355232153e-14
+      ],
+      [
+        1.1958478355232197e-14,
+        0.7071067811865502
+      ]
+    ],
+    "imag": [
+      [
+        -0.7071067811865475,
+        1.1704004236704811e-14
+      ],
+      [
+        1.1704004236704767e-14,
+        0.7071067811865448
+      ]
+    ]
+  },
+  "handoff_transport_B2": {
+    "real": [
+      [
+        0.7071067811865455,
+        3.2890357104520263e-15
+      ],
+      [
+        -2.7882502338059334e-15,
+        0.7071067811865454
+      ]
+    ],
+    "imag": [
+      [
+        2.872303111919167e-15,
+        -0.7071067811865497
+      ],
+      [
+        -0.7071067811865497,
+        -2.373101715136272e-15
+      ]
+    ]
+  },
+  "transport_error_B1": 2.382283536594077e-14,
+  "transport_error_B2": 7.15603841319377e-15,
+  "commutator_norm": 1.4142135623730951,
+  "braid_relation_residual": 2.220446049250313e-16,
+  "conclusion": "Matrix-valued links can supply two noncommuting digital transfers.  The next implementation task is to extend ANTLER's ED Hamiltonian with this synthetic two-component degree of freedom and repeat the leakage, gap, convergence, and noise audits."
+}

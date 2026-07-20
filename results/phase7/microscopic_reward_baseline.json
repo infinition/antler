@@ -1,0 +1,518 @@
+{
+  "schema": "antler.phase7.microscopic-reward-baseline.v1",
+  "computational_budget": {
+    "local_four_edge_fixed_charge_dimensions": {
+      "1": 98,
+      "2": 127,
+      "3": 157,
+      "4": 188
+    },
+    "global_3x3_without_mediators_fixed_charge_dimension": 9075135300,
+    "global_3x3_with_4_charge_two_mediators_fixed_charge_dimension": 66345304596,
+    "global_3x3_with_18_charge_two_mediators_fixed_charge_dimension": 2817962700128
+  },
+  "star_xxxx_negative_control": {
+    "schema": "antler.phase7.local-microscopic-reward.v1",
+    "candidate": {
+      "local_patch": "four charge-frozen rung qubits supporting one candidate star or plaquette",
+      "mott_u": 20.0,
+      "maximum_sw_ratio": 0.15,
+      "parity_type": "bare_rail_parities",
+      "channels": [
+        {
+          "name": "even_pair_01",
+          "detuning": 10.0,
+          "coupling": 0.5,
+          "coupling_over_detuning": 0.05,
+          "phase": 0.0,
+          "mediator_parity_signature": [
+            0,
+            0
+          ],
+          "pair_terms": [
+            [
+              "a0",
+              "a1",
+              [
+                1.0,
+                0.0
+              ]
+            ],
+            [
+              "b0",
+              "b1",
+              [
+                1.0,
+                0.0
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "even_pair_23",
+          "detuning": 10.0,
+          "coupling": 0.5,
+          "coupling_over_detuning": 0.05,
+          "phase": 0.0,
+          "mediator_parity_signature": [
+            0,
+            0
+          ],
+          "pair_terms": [
+            [
+              "a2",
+              "a3",
+              [
+                1.0,
+                0.0
+              ]
+            ],
+            [
+              "b2",
+              "b3",
+              [
+                1.0,
+                0.0
+              ]
+            ]
+          ]
+        }
+      ],
+      "rail_hops": [],
+      "zz_couplings": [],
+      "rail_biases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "target": {
+      "label": "XXXX",
+      "target_strength": 1.0,
+      "required_traceless_pauli_coefficient": -0.5
+    },
+    "state_vector": {
+      "block_dimension": 127,
+      "low_manifold_dimension": 16,
+      "minimum_monomer_overlap_singular_value": 0.9998001199200567,
+      "mean_monomer_overlap_singular_value": 0.9999500281070746,
+      "low_to_high_gap": 39.97506218943948,
+      "gap_over_mott_u": 1.998753109471974,
+      "maximum_low_state_mott_violation": 0.0007995203197761797,
+      "parity_commutator_frobenius_max": 0.0,
+      "observed_target_coefficient": 1.4895470872768345e-15,
+      "target_coefficient_ratio": -2.979094174553669e-15,
+      "target_alignment": 5.919034497894171e-26,
+      "fixed_scale_spectral_algebraic_residual": 1.0000749672049536,
+      "best_scale_operator_residual": 1.0,
+      "unwanted_pauli_norm_over_target": 0.012245000203479751,
+      "pauli_weight_square_histogram": {
+        "1": 7.814078014088075e-29,
+        "2": 3.748500749580478e-05,
+        "3": 2.373373657755402e-28,
+        "4": 1.7235415159195434e-28
+      }
+    },
+    "top_unwanted_paulis": [
+      {
+        "label": "YYII",
+        "coefficient": 0.0024995001999029124
+      },
+      {
+        "label": "XXII",
+        "coefficient": -0.0024995001999010163
+      },
+      {
+        "label": "IIXX",
+        "coefficient": -0.0024995001999000635
+      },
+      {
+        "label": "IIYY",
+        "coefficient": 0.0024995001998998
+      },
+      {
+        "label": "ZZII",
+        "coefficient": -0.002499500199899625
+      },
+      {
+        "label": "IIZZ",
+        "coefficient": -0.002499500199897373
+      },
+      {
+        "label": "ZIZZ",
+        "coefficient": 6.632606790180073e-15
+      },
+      {
+        "label": "IIZI",
+        "coefficient": 5.862714827498117e-15
+      }
+    ],
+    "reward": -0.03835550829955116,
+    "hard_failures": [],
+    "decision": "local candidate survives the structural gate; it may enter the next local-order and tiling audit",
+    "claim_boundary": "This reward evaluates one four-edge local block. It does not prove a controlled Schrieffer-Wolff expansion, a tiled two-dimensional parent, global topological order, anyon braiding, non-Abelian statistics, or fault tolerance."
+  },
+  "plaquette_zzzz_negative_control": {
+    "schema": "antler.phase7.local-microscopic-reward.v1",
+    "candidate": {
+      "local_patch": "four charge-frozen rung qubits supporting one candidate star or plaquette",
+      "mott_u": 20.0,
+      "maximum_sw_ratio": 0.15,
+      "parity_type": "bare_rail_parities",
+      "channels": [
+        {
+          "name": "even_pair_01",
+          "detuning": 10.0,
+          "coupling": 0.5,
+          "coupling_over_detuning": 0.05,
+          "phase": 0.0,
+          "mediator_parity_signature": [
+            0,
+            0
+          ],
+          "pair_terms": [
+            [
+              "a0",
+              "a1",
+              [
+                1.0,
+                0.0
+              ]
+            ],
+            [
+              "b0",
+              "b1",
+              [
+                1.0,
+                0.0
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "even_pair_23",
+          "detuning": 10.0,
+          "coupling": 0.5,
+          "coupling_over_detuning": 0.05,
+          "phase": 0.0,
+          "mediator_parity_signature": [
+            0,
+            0
+          ],
+          "pair_terms": [
+            [
+              "a2",
+              "a3",
+              [
+                1.0,
+                0.0
+              ]
+            ],
+            [
+              "b2",
+              "b3",
+              [
+                1.0,
+                0.0
+              ]
+            ]
+          ]
+        }
+      ],
+      "rail_hops": [],
+      "zz_couplings": [],
+      "rail_biases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "target": {
+      "label": "ZZZZ",
+      "target_strength": 1.0,
+      "required_traceless_pauli_coefficient": -0.5
+    },
+    "state_vector": {
+      "block_dimension": 127,
+      "low_manifold_dimension": 16,
+      "minimum_monomer_overlap_singular_value": 0.9998001199200567,
+      "mean_monomer_overlap_singular_value": 0.9999500281070746,
+      "low_to_high_gap": 39.97506218943948,
+      "gap_over_mott_u": 1.998753109471974,
+      "maximum_low_state_mott_violation": 0.0007995203197761797,
+      "parity_commutator_frobenius_max": 0.0,
+      "observed_target_coefficient": -1.6382294826255972e-15,
+      "target_coefficient_ratio": 3.2764589652511944e-15,
+      "target_alignment": 7.159651330052673e-26,
+      "fixed_scale_spectral_algebraic_residual": 1.0000749672049474,
+      "best_scale_operator_residual": 1.0,
+      "unwanted_pauli_norm_over_target": 0.012245000203479751,
+      "pauli_weight_square_histogram": {
+        "1": 7.814078014088075e-29,
+        "2": 3.748500749580478e-05,
+        "3": 2.373373657755402e-28,
+        "4": 1.7235415159195434e-28
+      }
+    },
+    "top_unwanted_paulis": [
+      {
+        "label": "YYII",
+        "coefficient": 0.0024995001999029124
+      },
+      {
+        "label": "XXII",
+        "coefficient": -0.0024995001999010163
+      },
+      {
+        "label": "IIXX",
+        "coefficient": -0.0024995001999000635
+      },
+      {
+        "label": "IIYY",
+        "coefficient": 0.0024995001998998
+      },
+      {
+        "label": "ZZII",
+        "coefficient": -0.002499500199899625
+      },
+      {
+        "label": "IIZZ",
+        "coefficient": -0.002499500199897373
+      },
+      {
+        "label": "ZIZZ",
+        "coefficient": 6.632606790180073e-15
+      },
+      {
+        "label": "IIZI",
+        "coefficient": 5.862714827498117e-15
+      }
+    ],
+    "reward": -0.03835550829954788,
+    "hard_failures": [],
+    "decision": "local candidate survives the structural gate; it may enter the next local-order and tiling audit",
+    "claim_boundary": "This reward evaluates one four-edge local block. It does not prove a controlled Schrieffer-Wolff expansion, a tiled two-dimensional parent, global topological order, anyon braiding, non-Abelian statistics, or fault tolerance."
+  },
+  "optimizer_interface": {
+    "registered_search_space": {
+      "invariants_enforced_by_grammar": [
+        "weighted U(1) charge conservation",
+        "finite four-edge local support",
+        "hard-core charge-two mediators only",
+        "definite mediator branch-parity signature",
+        "no direct four-edge stabilizer insertion"
+      ],
+      "box_constraints": {
+        "mott_u": [
+          16.0,
+          64.0
+        ],
+        "channel_detuning": [
+          8.0,
+          48.0
+        ],
+        "absolute_coupling_over_detuning": [
+          0.005,
+          0.15
+        ],
+        "absolute_hop_over_mott_u": [
+          0.0,
+          0.15
+        ],
+        "absolute_zz_over_mott_u": [
+          0.0,
+          0.15
+        ],
+        "absolute_bias_over_mott_u": [
+          0.0,
+          0.05
+        ],
+        "phase": [
+          -3.141592653589793,
+          3.141592653589793
+        ],
+        "maximum_channel_count": 4
+      },
+      "curriculum": [
+        {
+          "stage": 0,
+          "name": "structural and downfolding gate",
+          "allowed": "one or two even-parity mediator channels; no rail hopping",
+          "advance_when": "parity residual <1e-10, overlap singular value >=0.98, positive low/high gap"
+        },
+        {
+          "stage": 1,
+          "name": "connected four-edge virtual hypergraph",
+          "allowed": "up to four channels plus same-rail hops; a mediator may couple multiple pair conversions within one four-edge plaquette, but no direct four-body stabilizer is allowed",
+          "advance_when": "no hard failure and a sign-correct target Pauli coefficient exceeds numerical noise"
+        },
+        {
+          "stage": 2,
+          "name": "operator selectivity",
+          "allowed": "phase and density tuning within the same perturbative box",
+          "advance_when": "target alignment >=0.80 and unwanted Pauli norm/target <=0.25 on both XXXX and ZZZZ primitives"
+        },
+        {
+          "stage": 3,
+          "name": "analytic and tiling gate",
+          "allowed": "only candidates with a repeated local motif",
+          "advance_when": "independent SW derivation, linked-cluster cross-check, and a scalable 2D tensor/matrix-free plan"
+        }
+      ]
+    },
+    "star_compact_observation": {
+      "schema": "antler.phase7.optimizer-observation.v1",
+      "target": {
+        "label": "XXXX",
+        "target_strength": 1.0,
+        "required_traceless_pauli_coefficient": -0.5
+      },
+      "reward": -0.03835550829955116,
+      "state_fields": [
+        "minimum_monomer_overlap_singular_value",
+        "low_to_high_gap",
+        "gap_over_mott_u",
+        "maximum_low_state_mott_violation",
+        "parity_commutator_frobenius_max",
+        "observed_target_coefficient",
+        "target_coefficient_ratio",
+        "target_alignment",
+        "fixed_scale_spectral_algebraic_residual",
+        "best_scale_operator_residual",
+        "unwanted_pauli_norm_over_target"
+      ],
+      "state_vector": [
+        0.9998001199200567,
+        39.97506218943948,
+        1.998753109471974,
+        0.0007995203197761797,
+        0.0,
+        1.4895470872768345e-15,
+        -2.979094174553669e-15,
+        5.919034497894171e-26,
+        1.0000749672049536,
+        1.0,
+        0.012245000203479751
+      ],
+      "pauli_weight_square_histogram": {
+        "1": 7.814078014088075e-29,
+        "2": 3.748500749580478e-05,
+        "3": 2.373373657755402e-28,
+        "4": 1.7235415159195434e-28
+      },
+      "interaction_connectivity": {
+        "components": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "component_count": 2,
+        "patch_connected": false
+      },
+      "top_unwanted_paulis": [
+        {
+          "label": "YYII",
+          "coefficient": 0.0024995001999029124
+        },
+        {
+          "label": "XXII",
+          "coefficient": -0.0024995001999010163
+        },
+        {
+          "label": "IIXX",
+          "coefficient": -0.0024995001999000635
+        },
+        {
+          "label": "IIYY",
+          "coefficient": 0.0024995001998998
+        }
+      ],
+      "hard_failures": [],
+      "next_action": "increase connected target coefficient while reducing the listed unwanted Pauli terms"
+    },
+    "plaquette_compact_observation": {
+      "schema": "antler.phase7.optimizer-observation.v1",
+      "target": {
+        "label": "ZZZZ",
+        "target_strength": 1.0,
+        "required_traceless_pauli_coefficient": -0.5
+      },
+      "reward": -0.03835550829954788,
+      "state_fields": [
+        "minimum_monomer_overlap_singular_value",
+        "low_to_high_gap",
+        "gap_over_mott_u",
+        "maximum_low_state_mott_violation",
+        "parity_commutator_frobenius_max",
+        "observed_target_coefficient",
+        "target_coefficient_ratio",
+        "target_alignment",
+        "fixed_scale_spectral_algebraic_residual",
+        "best_scale_operator_residual",
+        "unwanted_pauli_norm_over_target"
+      ],
+      "state_vector": [
+        0.9998001199200567,
+        39.97506218943948,
+        1.998753109471974,
+        0.0007995203197761797,
+        0.0,
+        -1.6382294826255972e-15,
+        3.2764589652511944e-15,
+        7.159651330052673e-26,
+        1.0000749672049474,
+        1.0,
+        0.012245000203479751
+      ],
+      "pauli_weight_square_histogram": {
+        "1": 7.814078014088075e-29,
+        "2": 3.748500749580478e-05,
+        "3": 2.373373657755402e-28,
+        "4": 1.7235415159195434e-28
+      },
+      "interaction_connectivity": {
+        "components": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "component_count": 2,
+        "patch_connected": false
+      },
+      "top_unwanted_paulis": [
+        {
+          "label": "YYII",
+          "coefficient": 0.0024995001999029124
+        },
+        {
+          "label": "XXII",
+          "coefficient": -0.0024995001999010163
+        },
+        {
+          "label": "IIXX",
+          "coefficient": -0.0024995001999000635
+        },
+        {
+          "label": "IIYY",
+          "coefficient": 0.0024995001998998
+        }
+      ],
+      "hard_failures": [],
+      "next_action": "increase connected target coefficient while reducing the listed unwanted Pauli terms"
+    }
+  },
+  "decision": "The symmetry-constrained, perturbative two-pair seed has a clean isolated monomer block but no connected four-edge stabilizer coefficient. The reward correctly records this as a non-solution rather than rewarding its unrelated pair processes.",
+  "claim_boundary": "This is an optimizer-environment negative control. It does not identify a microscopic ANTLER realization."
+}

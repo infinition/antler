@@ -1,0 +1,39 @@
+{
+  "schema": "antler.phase7d.floquet-pair-hopping-preflight.v1",
+  "model": {
+    "fixed_particle_number": 2,
+    "full_block_dimension": 6,
+    "logical_monomer_dimension": 4,
+    "new_control_resource": "stroboscopic rail rotations plus sign-modulated ZZ interaction",
+    "segments": [
+      "H_x=U C + V X0 X1",
+      "H_y=U C - V Y0 Y1"
+    ],
+    "compiled_stroboscopic_term": "H_F=U C + V(XX-YY)/2"
+  },
+  "parameters": {
+    "U_mott": 20.0,
+    "V": 1.0,
+    "tau": 0.07853981633974483,
+    "period": 0.15707963267948966,
+    "cycles_to_pair_swap": 10
+  },
+  "audits": {
+    "segment_commutator_frobenius": 0.0,
+    "one_period_compiler_residual": 2.4037328984954106e-18,
+    "stroboscopic_parity_a_residual": 0.0,
+    "stroboscopic_parity_b_residual": 0.0,
+    "monomer_leakage_per_period": 0.0,
+    "pair_hopping_coefficient": 1.0,
+    "logical_pauli_coefficients": {
+      "XX": 0.5,
+      "YY": -0.5,
+      "ZZ": 0.0,
+      "ZI": 0.0,
+      "IZ": 0.0
+    },
+    "bb_to_aa_transfer_probability_after_10_cycles": 1.0000000000000009
+  },
+  "decision": "The exact two-rung control validates a distinct Floquet resource: stroboscopic, number-conserving pair hopping can be compiled without relying on a weak fourth-order static mediator process. It may proceed to a larger-ladder audit, not directly to a 2D code or non-Abelian braid claim.",
+  "claim_boundary": "This is a deliberately designed two-rung compiler control inspired by number-conserving Floquet pair-hopping work. It does not reproduce a full experimental protocol, derive the sign-modulated interaction from frozen ANTLER hardware, or establish a protected phase, 2D topological order, braiding, non-Abelian statistics, universality or fault tolerance."
+}

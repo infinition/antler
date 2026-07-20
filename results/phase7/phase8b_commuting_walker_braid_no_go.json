@@ -1,0 +1,172 @@
+{
+  "schema": "antler.phase8b.commuting-walker-braid-no-go.v1",
+  "input": "phase8b_effective_toric_tile_closure.json",
+  "exact_algebra": {
+    "generator_family": "{A_s, B_p, A_s B_p}",
+    "all_generators_commute": true,
+    "time_dependent_coefficient_paths_commute_at_all_times": true,
+    "projected_hamiltonian_on_fourfold_code": "E_code(t) I_4",
+    "projected_logical_hamiltonian_nonscalar_norm": 0.0
+  },
+  "code_energies_by_registered_ratio": [
+    {
+      "coupling_over_detuning": 0.2,
+      "code_energy": -0.8391503643285084
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "code_energy": -0.2218489591593204
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "code_energy": -0.039120747713899694
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "code_energy": -0.011926548344711371
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "code_energy": -0.0022958908446192423
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "code_energy": -0.0007200115976375026
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "code_energy": -0.00014133155940177262
+    }
+  ],
+  "all_pairwise_coefficient_path_checks": [
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.15,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.1,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.075,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.05,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.0375,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.2,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.15,
+      "right_coupling_over_detuning": 0.1,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.15,
+      "right_coupling_over_detuning": 0.075,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.15,
+      "right_coupling_over_detuning": 0.05,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.15,
+      "right_coupling_over_detuning": 0.0375,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.15,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.1,
+      "right_coupling_over_detuning": 0.075,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.1,
+      "right_coupling_over_detuning": 0.05,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.1,
+      "right_coupling_over_detuning": 0.0375,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.1,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.075,
+      "right_coupling_over_detuning": 0.05,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.075,
+      "right_coupling_over_detuning": 0.0375,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.075,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.05,
+      "right_coupling_over_detuning": 0.0375,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.05,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    },
+    {
+      "left_coupling_over_detuning": 0.0375,
+      "right_coupling_over_detuning": 0.025,
+      "effective_hamiltonian_commutator_norm": 0.0,
+      "projected_logical_commutator_norm": 0.0
+    }
+  ],
+  "decision": "The present walker-derived star/plaquette family can implement an Abelian stabilizer memory but cannot yield a noncommuting holonomy by varying its existing coefficients. Its evolution is scalar on the fourfold code sector.",
+  "minimal_next_resource": "A microscopically derived defect-deformation primitive that changes stabilizer support and exchanges electric and magnetic character across a branch cut (or another independently derived noncommuting logical generator). A static inserted Hadamard, Majorana/BdG term or braid matrix does not meet this requirement.",
+  "claim_boundary": "This is an algebraic no-go for coefficient-only modulation of the current effective family. It does not rule out twist defects, measurement protocols, a new gauge-link control primitive, or another non-Abelian extension once they are explicitly derived and audited."
+}

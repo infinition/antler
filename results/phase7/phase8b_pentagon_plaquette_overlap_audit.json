@@ -1,0 +1,108 @@
+{
+  "schema": "antler.phase8b.pentagon-plaquette-overlap-audit.v1",
+  "parameters": {
+    "gauge_links": 7,
+    "detuning": 10.0,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "pentagon": "XZXZXII",
+    "plaquette": "ZXIIIZX",
+    "shared_links": [
+      0,
+      1
+    ],
+    "new_primitives": "one neutral five-state and one neutral four-state phase-controlled X/Z-conditioned walker",
+    "downfolding": "exact zero-energy Schur complement onto both walkers low"
+  },
+  "dimensions": {
+    "total": 2560,
+    "low_gauge_subspace": 128,
+    "high_walker_subspace": 2432
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "pentagon_coefficient": 0.010400660416597518,
+      "plaquette_coefficient": -0.045615791913982996,
+      "commuting_product_coefficient": 0.00014914431529512687,
+      "maximum_outside_generated_algebra_coefficient": 7.632783294297951e-17,
+      "largest_outside_generated_algebra_pauli": "IIIIIIZ",
+      "zero_energy_schur_hermiticity_residual": 2.775726962982779e-17,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "pentagon_coefficient": 0.0019713809960457337,
+      "plaquette_coefficient": -0.012244894560293988,
+      "commuting_product_coefficient": 8.471540928635137e-06,
+      "maximum_outside_generated_algebra_coefficient": 2.42861286636753e-17,
+      "largest_outside_generated_algebra_pauli": "IIIIIZZ",
+      "zero_energy_schur_hermiticity_residual": 1.551584437661698e-17,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "pentagon_coefficient": 0.00022381585811084772,
+      "plaquette_coefficient": -0.0021706864358100324,
+      "commuting_product_coefficient": 1.835906836656313e-07,
+      "maximum_outside_generated_algebra_coefficient": 1.474514954580286e-17,
+      "largest_outside_generated_algebra_pauli": "IIIIIZZ",
+      "zero_energy_schur_hermiticity_residual": 4.336808689942018e-19,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "pentagon_coefficient": 5.0529721069834664e-05,
+      "plaquette_coefficient": -0.0006623300799570572,
+      "commuting_product_coefficient": 1.296853494457335e-08,
+      "maximum_outside_generated_algebra_coefficient": 6.5052130349130266e-18,
+      "largest_outside_generated_algebra_pauli": "IIIIIIZ",
+      "zero_energy_schur_hermiticity_residual": 1.0842022371089879e-19,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "pentagon_coefficient": 6.4252379294965084e-06,
+      "plaquette_coefficient": -0.0001275398514081726,
+      "commuting_product_coefficient": 3.232193239158615e-10,
+      "maximum_outside_generated_algebra_coefficient": 3.469446951953614e-18,
+      "largest_outside_generated_algebra_pauli": "IIIIZII",
+      "zero_energy_schur_hermiticity_residual": 9.583083925670626e-21,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "pentagon_coefficient": 1.5063474459860939e-06,
+      "plaquette_coefficient": -3.999969096301495e-05,
+      "commuting_product_coefficient": 2.3912105986240476e-11,
+      "maximum_outside_generated_algebra_coefficient": 9.595295105615121e-23,
+      "largest_outside_generated_algebra_pauli": "XZXZXIZ",
+      "zero_energy_schur_hermiticity_residual": 1.6940658954946768e-21,
+      "target_commutator_frobenius": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "pentagon_coefficient": 1.966617574334617e-07,
+      "plaquette_coefficient": -7.851716424075873e-06,
+      "commuting_product_coefficient": 6.154951882950846e-13,
+      "maximum_outside_generated_algebra_coefficient": 1.463672932855431e-18,
+      "largest_outside_generated_algebra_pauli": "IIIIIIZ",
+      "zero_energy_schur_hermiticity_residual": 5.989427408963009e-22,
+      "target_commutator_frobenius": 0.0
+    }
+  ],
+  "deep_sw_powers": {
+    "pentagon_coefficient": 5.050213650283045,
+    "plaquette_coefficient": 4.036538903001925,
+    "commuting_product_coefficient": 9.0613115646937
+  },
+  "decision": "The explicit mixed pentagon and adjacent plaquette walkers jointly close on their commuting local algebra. No Pauli word outside {I,pentagon,plaquette,product} is resolved in the overlap block.",
+  "claim_boundary": "This is a one-overlap compatibility audit, not a complete dislocated surface-code geometry. It does not establish a branch cut, twist endpoints, a fusion space, defect motion, a braid or a native ANTLER realization."
+}

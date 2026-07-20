@@ -1,0 +1,49 @@
+{
+  "schema": "antler.phase8b.two-block-pair-dynamics.v1",
+  "parameters": {
+    "fixed_matter_particle_number": 2,
+    "pair_transfer": 0.05,
+    "ratios": [
+      0.1,
+      0.05,
+      0.025
+    ],
+    "time_samples": 81,
+    "initial": "two a-rail particles in block 0, walkers empty, all boundary X eigenvalues +1",
+    "target": "two a-rail particles in block 1, any walker/gauge microstate"
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.1,
+      "coupling": 1.0,
+      "time_horizon": 62.83185307179586,
+      "maximum_target_pair_population": 0.9611219201804249,
+      "time_of_maximum_target_pair_population": 31.41592653589793,
+      "minimum_source_pair_population": 0.001296938887344184,
+      "maximum_virtual_walker_population": 0.14632504983322,
+      "maximum_gauss_sector_leakage": 4.4431125445498765e-13
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "coupling": 0.5,
+      "time_horizon": 62.83185307179586,
+      "maximum_target_pair_population": 0.9900674637647469,
+      "time_of_maximum_target_pair_population": 31.41592653589793,
+      "minimum_source_pair_population": 9.551429370545208e-05,
+      "maximum_virtual_walker_population": 0.03143105983165288,
+      "maximum_gauss_sector_leakage": 7.631673071273326e-13
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "coupling": 0.25,
+      "time_horizon": 62.83185307179586,
+      "maximum_target_pair_population": 0.9975521164097122,
+      "time_of_maximum_target_pair_population": 31.41592653589793,
+      "minimum_source_pair_population": 3.122412356114004e-07,
+      "maximum_virtual_walker_population": 0.009318450081285068,
+      "maximum_gauss_sector_leakage": 3.4861002973229915e-13
+    }
+  ],
+  "decision": "Exact pair-only two-block propagation stays in the G0=G1=+1 sector and transfers the pair coherently in the inserted-primitive model. The walker population is virtual micromotion, not a loss channel.",
+  "claim_boundary": "This is a single-pair coherent transport control. It does not establish a many-pair phase, a thermodynamic gap, local indistinguishability, a native implementation, a T-junction, fusion or braid statistics."
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "antler.phase5.tjunction-defect-code-target.v1",
+  "claim_boundary": "This is a defect/fusion target model for a future T-junction extension. It does not assert emergent Majoranas or topological protection in the present correlated-hopping ladder.",
+  "code_dimension": 2,
+  "fixed_parity": "+1",
+  "B1": {
+    "real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "imag": [
+      [
+        -0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ]
+  },
+  "B2": {
+    "real": [
+      [
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476
+      ]
+    ],
+    "imag": [
+      [
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ]
+    ]
+  },
+  "commutator_norm": 1.4142135623730951,
+  "braid_relation_residual": 2.220446049250313e-16,
+  "single_defect_locality_audit": [
+    {
+      "defect": 1,
+      "logical_projection_norm": 0.0,
+      "takes_code_out_of_sector_norm": 1.4142135623730951
+    },
+    {
+      "defect": 2,
+      "logical_projection_norm": 0.0,
+      "takes_code_out_of_sector_norm": 1.4142135623730951
+    },
+    {
+      "defect": 3,
+      "logical_projection_norm": 0.0,
+      "takes_code_out_of_sector_norm": 1.4142135623730951
+    },
+    {
+      "defect": 4,
+      "logical_projection_norm": 0.0,
+      "takes_code_out_of_sector_norm": 1.4142135623730951
+    }
+  ],
+  "required_ANTLER_extension": [
+    "T-junction or equivalent branch graph with independently movable defects",
+    "gapped fixed-parity/fusion manifold with exponentially separated defects",
+    "microscopic derivation of defect operators from the extended synthetic Hamiltonian",
+    "full ED gap, leakage, noise and braid-convergence audits"
+  ]
+}

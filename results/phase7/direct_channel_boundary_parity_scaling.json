@@ -1,0 +1,773 @@
+{
+  "schema": "antler.phase8.direct-channel-boundary-parity-scaling.v2",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "alpha": 0.5,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025,
+      0.01875,
+      0.0125
+    ],
+    "cycle_counts": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "h0_channels": "(aa-bb)/sqrt(2), (aa+bb)/sqrt(2)",
+    "h1_channels": "(aa-bb)/sqrt(2), (ab+ba)/sqrt(2)",
+    "cycle": "exp[-i(1-alpha) T H1] exp[-i alpha T H0], T=4pi/sqrt(Delta^2+4g^2)"
+  },
+  "rows": [
+    {
+      "g_over_detuning": 0.2,
+      "detuning": 37.49999999999999,
+      "g": 7.499999999999999,
+      "virtual_rabi_closure_period": 0.3111355254522125,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 1.3729803395695697e-17,
+        "raw_odd_to_even_operator_norm": 0.0017851350968948385,
+        "polar_parity_commutator_normalized": 0.0006524215041048082,
+        "raw_min_singular_value": 0.9965161078080432
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 1.6959618690463244e-17,
+        "raw_even_to_odd_operator_norm": 1.3729803395695698e-17,
+        "raw_odd_to_even_operator_norm": 1.3729803395695686e-17,
+        "polar_parity_commutator_normalized": 2.243712927289272e-15,
+        "raw_min_singular_value": 0.9982334232397231
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 1.3729803395695697e-17,
+            "raw_odd_to_even_operator_norm": 0.0017851350968948385,
+            "polar_parity_commutator_normalized": 0.0006524215041048082,
+            "raw_min_singular_value": 0.9965161078080432
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.3729803395695698e-17,
+            "raw_odd_to_even_operator_norm": 1.3729803395695686e-17,
+            "polar_parity_commutator_normalized": 2.243712927289272e-15,
+            "raw_min_singular_value": 0.9982334232397231
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.0017851350968948383,
+            "raw_odd_to_even_operator_norm": 0.0050099339638795875,
+            "polar_parity_commutator_normalized": 0.0014170809506354619,
+            "raw_min_singular_value": 0.9873944668726533
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.7459606791391388e-17,
+            "raw_odd_to_even_operator_norm": 2.745960679139137e-17,
+            "polar_parity_commutator_normalized": 1.0017010552136508e-15,
+            "raw_min_singular_value": 0.9940234972794971
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.009064962464808863,
+            "raw_odd_to_even_operator_norm": 0.013224630993298172,
+            "polar_parity_commutator_normalized": 0.005271817926798966,
+            "raw_min_singular_value": 0.9663586548314215
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 5.4919213582782745e-17,
+            "raw_odd_to_even_operator_norm": 5.491921358278274e-17,
+            "polar_parity_commutator_normalized": 9.944856277949812e-16,
+            "raw_min_singular_value": 0.9872182040331207
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.02144249228933542,
+            "raw_odd_to_even_operator_norm": 0.023812340695516753,
+            "polar_parity_commutator_normalized": 0.012746949526252443,
+            "raw_min_singular_value": 0.9607123247100571
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.0983842716556544e-16,
+            "raw_odd_to_even_operator_norm": 1.0983842716556539e-16,
+            "polar_parity_commutator_normalized": 1.5203053938877013e-15,
+            "raw_min_singular_value": 0.9710016987734017
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.15,
+      "detuning": 66.66666666666667,
+      "g": 10.0,
+      "virtual_rabi_closure_period": 0.18054600126395826,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 8.106901255926716e-18,
+        "raw_odd_to_even_operator_norm": 0.0003504568082221638,
+        "polar_parity_commutator_normalized": 0.00012799116054983137,
+        "raw_min_singular_value": 0.9993049728547022
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 1.2839981755165813e-17,
+        "raw_even_to_odd_operator_norm": 8.106901255926716e-18,
+        "raw_odd_to_even_operator_norm": 8.106901255926718e-18,
+        "polar_parity_commutator_normalized": 2.426453213557442e-15,
+        "raw_min_singular_value": 0.9996508517648879
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 8.106901255926716e-18,
+            "raw_odd_to_even_operator_norm": 0.0003504568082221638,
+            "polar_parity_commutator_normalized": 0.00012799116054983137,
+            "raw_min_singular_value": 0.9993049728547022
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 8.106901255926716e-18,
+            "raw_odd_to_even_operator_norm": 8.106901255926718e-18,
+            "polar_parity_commutator_normalized": 2.426453213557442e-15,
+            "raw_min_singular_value": 0.9996508517648879
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.00035045680822216375,
+            "raw_odd_to_even_operator_norm": 0.001027954381661801,
+            "polar_parity_commutator_normalized": 0.0002647469178278709,
+            "raw_min_singular_value": 0.9973131661771742
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.6213802511853444e-17,
+            "raw_odd_to_even_operator_norm": 1.6213802511853432e-17,
+            "polar_parity_commutator_normalized": 2.4274124515369997e-15,
+            "raw_min_singular_value": 0.9986804775755577
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.0019875646736870235,
+            "raw_odd_to_even_operator_norm": 0.0031665350434555766,
+            "polar_parity_commutator_normalized": 0.0008648340477323608,
+            "raw_min_singular_value": 0.9906285416288624
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 3.2427605023706895e-17,
+            "raw_odd_to_even_operator_norm": 3.242760502370689e-17,
+            "polar_parity_commutator_normalized": 7.616201344943279e-16,
+            "raw_min_singular_value": 0.9957823768549068
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.007242947293267127,
+            "raw_odd_to_even_operator_norm": 0.008521879733196378,
+            "polar_parity_commutator_normalized": 0.003941821720478768,
+            "raw_min_singular_value": 0.9782160993907183
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 6.485521004741385e-17,
+            "raw_odd_to_even_operator_norm": 6.48552100474138e-17,
+            "polar_parity_commutator_normalized": 7.8406376180164755e-16,
+            "raw_min_singular_value": 0.9921160026466949
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.1,
+      "detuning": 149.99999999999997,
+      "g": 14.999999999999998,
+      "virtual_rabi_closure_period": 0.08214893458673896,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 3.7350592094031614e-18,
+        "raw_odd_to_even_operator_norm": 3.3072046936402056e-05,
+        "polar_parity_commutator_normalized": 1.207640378231567e-05,
+        "raw_min_singular_value": 0.9999339730539184
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 8.615826575217626e-18,
+        "raw_even_to_odd_operator_norm": 3.735059209403162e-18,
+        "raw_odd_to_even_operator_norm": 3.735059209403163e-18,
+        "polar_parity_commutator_normalized": 1.766071208852237e-15,
+        "raw_min_singular_value": 0.9999669547718297
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 3.7350592094031614e-18,
+            "raw_odd_to_even_operator_norm": 3.3072046936402056e-05,
+            "polar_parity_commutator_normalized": 1.207640378231567e-05,
+            "raw_min_singular_value": 0.9999339730539184
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 3.735059209403162e-18,
+            "raw_odd_to_even_operator_norm": 3.735059209403163e-18,
+            "polar_parity_commutator_normalized": 1.766071208852237e-15,
+            "raw_min_singular_value": 0.9999669547718297
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 3.3072046936402056e-05,
+            "raw_odd_to_even_operator_norm": 9.875334456353812e-05,
+            "polar_parity_commutator_normalized": 2.4335171113470947e-05,
+            "raw_min_singular_value": 0.9997377671942245
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 7.470118418806326e-18,
+            "raw_odd_to_even_operator_norm": 7.470118418806324e-18,
+            "polar_parity_commutator_normalized": 2.7898495848715725e-15,
+            "raw_min_singular_value": 0.9998693741100007
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.00019612621580972914,
+            "raw_odd_to_even_operator_norm": 0.0003238338300334248,
+            "polar_parity_commutator_normalized": 5.8871223219880635e-05,
+            "raw_min_singular_value": 0.9989805524759264
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.4940236837612646e-17,
+            "raw_odd_to_even_operator_norm": 1.494023683761265e-17,
+            "polar_parity_commutator_normalized": 8.50702501813287e-16,
+            "raw_min_singular_value": 0.9995016000921256
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.0008693502419002006,
+            "raw_odd_to_even_operator_norm": 0.0010970125967929851,
+            "polar_parity_commutator_normalized": 0.0002800983814624479,
+            "raw_min_singular_value": 0.9963621318153272
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.988047367522529e-17,
+            "raw_odd_to_even_operator_norm": 2.988047367522529e-17,
+            "polar_parity_commutator_normalized": 7.269759859061548e-16,
+            "raw_min_singular_value": 0.998345687016093
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.075,
+      "detuning": 266.6666666666667,
+      "g": 20.0,
+      "virtual_rabi_closure_period": 0.046602527715583895,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 2.1281742461528072e-18,
+        "raw_odd_to_even_operator_norm": 6.039730355436608e-06,
+        "polar_parity_commutator_normalized": 2.2054043646090568e-06,
+        "raw_min_singular_value": 0.9999879274630535
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 6.476299737980756e-18,
+        "raw_even_to_odd_operator_norm": 2.1281742461528072e-18,
+        "raw_odd_to_even_operator_norm": 2.1281742461528072e-18,
+        "polar_parity_commutator_normalized": 2.2735576605280976e-15,
+        "raw_min_singular_value": 0.9999939618730742
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 2.1281742461528072e-18,
+            "raw_odd_to_even_operator_norm": 6.039730355436608e-06,
+            "polar_parity_commutator_normalized": 2.2054043646090568e-06,
+            "raw_min_singular_value": 0.9999879274630535
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.1281742461528072e-18,
+            "raw_odd_to_even_operator_norm": 2.1281742461528072e-18,
+            "polar_parity_commutator_normalized": 2.2735576605280976e-15,
+            "raw_min_singular_value": 0.9999939618730742
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 6.0397303554366074e-06,
+            "raw_odd_to_even_operator_norm": 1.809192090845781e-05,
+            "polar_parity_commutator_normalized": 4.421611734653006e-06,
+            "raw_min_singular_value": 0.999951820767303
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 4.256348492305614e-18,
+            "raw_odd_to_even_operator_norm": 4.2563484923056145e-18,
+            "polar_parity_commutator_normalized": 2.6691042245566716e-15,
+            "raw_min_singular_value": 0.9999759395650327
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 3.610218227478776e-05,
+            "raw_odd_to_even_operator_norm": 5.998930707265877e-05,
+            "polar_parity_commutator_normalized": 9.512356021865692e-06,
+            "raw_min_singular_value": 0.9998090476962219
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 8.512696984611226e-18,
+            "raw_odd_to_even_operator_norm": 8.512696984611226e-18,
+            "polar_parity_commutator_normalized": 7.091413511050006e-16,
+            "raw_min_singular_value": 0.9999052163329635
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 0.00016570800127841626,
+            "raw_odd_to_even_operator_norm": 0.00021177297709862656,
+            "polar_parity_commutator_normalized": 3.452555506599204e-05,
+            "raw_min_singular_value": 0.9992637918808613
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.7025393969222433e-17,
+            "raw_odd_to_even_operator_norm": 1.7025393969222446e-17,
+            "polar_parity_commutator_normalized": 1.0294353015015183e-15,
+            "raw_min_singular_value": 0.9996432504610044
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.05,
+      "detuning": 599.9999999999999,
+      "g": 29.999999999999996,
+      "virtual_rabi_closure_period": 0.020840010178748883,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 9.5467150572751e-19,
+        "raw_odd_to_even_operator_norm": 5.401729765136651e-07,
+        "polar_parity_commutator_normalized": 1.9724333614227418e-07,
+        "raw_min_singular_value": 0.9999989197783362
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 4.324354218440162e-18,
+        "raw_even_to_odd_operator_norm": 9.546715057275098e-19,
+        "raw_odd_to_even_operator_norm": 9.5467150572751e-19,
+        "polar_parity_commutator_normalized": 8.888001883212193e-16,
+        "raw_min_singular_value": 0.9999994598560571
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 9.5467150572751e-19,
+            "raw_odd_to_even_operator_norm": 5.401729765136651e-07,
+            "polar_parity_commutator_normalized": 1.9724333614227418e-07,
+            "raw_min_singular_value": 0.9999989197783362
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 9.546715057275098e-19,
+            "raw_odd_to_even_operator_norm": 9.5467150572751e-19,
+            "polar_parity_commutator_normalized": 8.888001883212193e-16,
+            "raw_min_singular_value": 0.9999994598560571
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 5.401729765136648e-07,
+            "raw_odd_to_even_operator_norm": 1.6200305445609717e-06,
+            "polar_parity_commutator_normalized": 3.9467997960318705e-07,
+            "raw_min_singular_value": 0.9999956811037528
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.90934301145502e-18,
+            "raw_odd_to_even_operator_norm": 1.909343011455021e-18,
+            "polar_parity_commutator_normalized": 8.858015960594842e-16,
+            "raw_min_singular_value": 0.9999978410774066
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 3.238596476865342e-06,
+            "raw_odd_to_even_operator_norm": 5.394407788765975e-06,
+            "polar_parity_commutator_normalized": 8.018970756346019e-07,
+            "raw_min_singular_value": 0.9999827562251149
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 3.818686022910037e-18,
+            "raw_odd_to_even_operator_norm": 3.8186860229100386e-18,
+            "polar_parity_commutator_normalized": 1.8444525721613165e-15,
+            "raw_min_singular_value": 0.9999913907056641
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 1.5063420723447093e-05,
+            "raw_odd_to_even_operator_norm": 1.9343916803547536e-05,
+            "polar_parity_commutator_normalized": 1.998382641576828e-06,
+            "raw_min_singular_value": 0.9999315315393151
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 7.637372045820063e-18,
+            "raw_odd_to_even_operator_norm": 7.637372045820068e-18,
+            "polar_parity_commutator_normalized": 1.386962884395354e-15,
+            "raw_min_singular_value": 0.9999659816680915
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.0375,
+      "detuning": 1066.6666666666667,
+      "g": 40.0,
+      "virtual_rabi_closure_period": 0.011747977597913949,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 5.387588111204912e-19,
+        "raw_odd_to_even_operator_norm": 9.676912763426109e-08,
+        "polar_parity_commutator_normalized": 3.5335091055826424e-08,
+        "raw_min_singular_value": 0.9999998064688295
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 3.24504863747214e-18,
+        "raw_even_to_odd_operator_norm": 5.387588111204911e-19,
+        "raw_odd_to_even_operator_norm": 5.387588111204912e-19,
+        "polar_parity_commutator_normalized": 5.258189503788583e-16,
+        "raw_min_singular_value": 0.9999999032325323
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 5.387588111204912e-19,
+            "raw_odd_to_even_operator_norm": 9.676912763426109e-08,
+            "polar_parity_commutator_normalized": 3.5335091055826424e-08,
+            "raw_min_singular_value": 0.9999998064688295
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 5.387588111204911e-19,
+            "raw_odd_to_even_operator_norm": 5.387588111204912e-19,
+            "polar_parity_commutator_normalized": 5.258189503788583e-16,
+            "raw_min_singular_value": 0.9999999032325323
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 9.67691276342611e-08,
+            "raw_odd_to_even_operator_norm": 2.902795694652892e-07,
+            "polar_parity_commutator_normalized": 7.068117702809505e-08,
+            "raw_min_singular_value": 0.9999992259887314
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.0775176222409828e-18,
+            "raw_odd_to_even_operator_norm": 1.077517622240982e-18,
+            "polar_parity_commutator_normalized": 3.1475106577608605e-15,
+            "raw_min_singular_value": 0.9999996130243447
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 5.804757084530494e-07,
+            "raw_odd_to_even_operator_norm": 9.672741436222583e-07,
+            "polar_parity_commutator_normalized": 1.4208180435302493e-07,
+            "raw_min_singular_value": 0.9999969057688983
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.155035244481965e-18,
+            "raw_odd_to_even_operator_norm": 2.1550352444819644e-18,
+            "polar_parity_commutator_normalized": 1.0540116769933429e-15,
+            "raw_min_singular_value": 0.999998453603827
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 2.7060331455438005e-06,
+            "raw_odd_to_even_operator_norm": 3.4778523154137677e-06,
+            "polar_parity_commutator_normalized": 3.088871596116587e-07,
+            "raw_min_singular_value": 0.9999876520568668
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 4.3100704889639334e-18,
+            "raw_odd_to_even_operator_norm": 4.310070488963933e-18,
+            "polar_parity_commutator_normalized": 9.907765171178353e-16,
+            "raw_min_singular_value": 0.9999938384548251
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.025,
+      "detuning": 2399.9999999999995,
+      "g": 59.99999999999999,
+      "virtual_rabi_closure_period": 0.005229455017623768,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 2.4000875999693394e-19,
+        "raw_odd_to_even_operator_norm": 8.5353222629503e-09,
+        "polar_parity_commutator_normalized": 3.1166590014174455e-09,
+        "raw_min_singular_value": 0.9999999829294791
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 2.1642131783838922e-18,
+        "raw_even_to_odd_operator_norm": 2.4000875999693394e-19,
+        "raw_odd_to_even_operator_norm": 2.4000875999693384e-19,
+        "polar_parity_commutator_normalized": 3.533544492565129e-15,
+        "raw_min_singular_value": 0.9999999914647065
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 2.4000875999693394e-19,
+            "raw_odd_to_even_operator_norm": 8.5353222629503e-09,
+            "polar_parity_commutator_normalized": 3.1166590014174455e-09,
+            "raw_min_singular_value": 0.9999999829294791
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.4000875999693394e-19,
+            "raw_odd_to_even_operator_norm": 2.4000875999693384e-19,
+            "polar_parity_commutator_normalized": 3.533544492565129e-15,
+            "raw_min_singular_value": 0.9999999914647065
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 8.535322262950293e-09,
+            "raw_odd_to_even_operator_norm": 2.5605480580600488e-08,
+            "polar_parity_commutator_normalized": 6.233510107465806e-09,
+            "raw_min_singular_value": 0.9999999317199002
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 4.800175199938677e-19,
+            "raw_odd_to_even_operator_norm": 4.800175199938675e-19,
+            "polar_parity_commutator_normalized": 1.8617241989611122e-15,
+            "raw_min_singular_value": 0.999999965860474
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 5.12095025705501e-08,
+            "raw_odd_to_even_operator_norm": 8.534592974444737e-08,
+            "polar_parity_commutator_normalized": 1.2479629121987403e-08,
+            "raw_min_singular_value": 0.9999997269113318
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 9.600350399877352e-19,
+            "raw_odd_to_even_operator_norm": 9.600350399877348e-19,
+            "polar_parity_commutator_normalized": 7.002815160937774e-16,
+            "raw_min_singular_value": 0.9999998634682579
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 2.389277682838285e-07,
+            "raw_odd_to_even_operator_norm": 3.071695134870851e-07,
+            "polar_parity_commutator_normalized": 2.5409833291221852e-08,
+            "raw_min_singular_value": 0.9999989081528635
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.920070079975469e-18,
+            "raw_odd_to_even_operator_norm": 1.920070079975469e-18,
+            "polar_parity_commutator_normalized": 1.3305912538083903e-15,
+            "raw_min_singular_value": 0.9999994542945758
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.01875,
+      "detuning": 4266.666666666667,
+      "g": 80.0,
+      "virtual_rabi_closure_period": 0.002943174420245398,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 1.3511558018578754e-19,
+        "raw_odd_to_even_operator_norm": 1.5215952932713354e-09,
+        "polar_parity_commutator_normalized": 5.556079586852839e-10,
+        "raw_min_singular_value": 0.9999999969568159
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 1.6233820920655202e-18,
+        "raw_even_to_odd_operator_norm": 1.3511558018578754e-19,
+        "raw_odd_to_even_operator_norm": 1.3511558018578756e-19,
+        "polar_parity_commutator_normalized": 6.61931694541524e-16,
+        "raw_min_singular_value": 0.9999999984784061
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 1.3511558018578754e-19,
+            "raw_odd_to_even_operator_norm": 1.5215952932713354e-09,
+            "polar_parity_commutator_normalized": 5.556079586852839e-10,
+            "raw_min_singular_value": 0.9999999969568159
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.3511558018578754e-19,
+            "raw_odd_to_even_operator_norm": 1.3511558018578756e-19,
+            "polar_parity_commutator_normalized": 6.61931694541524e-16,
+            "raw_min_singular_value": 0.9999999984784061
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 1.5215952932713342e-09,
+            "raw_odd_to_even_operator_norm": 4.564758422883622e-09,
+            "polar_parity_commutator_normalized": 1.1112269774335558e-09,
+            "raw_min_singular_value": 0.9999999878273776
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.7023116037157513e-19,
+            "raw_odd_to_even_operator_norm": 2.7023116037157503e-19,
+            "polar_parity_commutator_normalized": 1.6846119680961712e-15,
+            "raw_min_singular_value": 0.9999999939137183
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 9.12943447558627e-09,
+            "raw_odd_to_even_operator_norm": 1.521554108302886e-08,
+            "polar_parity_commutator_normalized": 2.223166101053191e-09,
+            "raw_min_singular_value": 0.9999999513113013
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 5.404623207431505e-19,
+            "raw_odd_to_even_operator_norm": 5.404623207431504e-19,
+            "polar_parity_commutator_normalized": 9.906555379662955e-16,
+            "raw_min_singular_value": 0.9999999756563618
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 4.260120876650544e-08,
+            "raw_odd_to_even_operator_norm": 5.477166488428627e-08,
+            "polar_parity_commutator_normalized": 4.471965083268755e-09,
+            "raw_min_singular_value": 0.999999805273879
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.0809246414863005e-18,
+            "raw_odd_to_even_operator_norm": 1.080924641486301e-18,
+            "polar_parity_commutator_normalized": 2.051567551542468e-15,
+            "raw_min_singular_value": 0.9999999026492692
+          }
+        }
+      ]
+    },
+    {
+      "g_over_detuning": 0.0125,
+      "detuning": 9599.999999999998,
+      "g": 119.99999999999999,
+      "virtual_rabi_closure_period": 0.0013085880691000955,
+      "reused_mediator": {
+        "raw_even_to_odd_operator_norm": 6.008654266651291e-20,
+        "raw_odd_to_even_operator_norm": 1.3373966167220424e-10,
+        "polar_parity_commutator_normalized": 4.8834831053560014e-11,
+        "raw_min_singular_value": 0.9999999997325206
+      },
+      "separate_species_control": {
+        "full_microscopic_parity_commutator_normalized": 1.0823604906969839e-18,
+        "raw_even_to_odd_operator_norm": 6.008654266651291e-20,
+        "raw_odd_to_even_operator_norm": 6.008654266651294e-20,
+        "polar_parity_commutator_normalized": 3.462969764883563e-15,
+        "raw_min_singular_value": 0.99999999986626
+      },
+      "multi_cycle_metrics": [
+        {
+          "cycles": 1,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 6.008654266651291e-20,
+            "raw_odd_to_even_operator_norm": 1.3373966167220424e-10,
+            "polar_parity_commutator_normalized": 4.8834831053560014e-11,
+            "raw_min_singular_value": 0.9999999997325206
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 6.008654266651291e-20,
+            "raw_odd_to_even_operator_norm": 6.008654266651294e-20,
+            "polar_parity_commutator_normalized": 3.462969764883563e-15,
+            "raw_min_singular_value": 0.99999999986626
+          }
+        },
+        {
+          "cycles": 2,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 1.337396616722042e-10,
+            "raw_odd_to_even_operator_norm": 4.012185079177801e-10,
+            "polar_parity_commutator_normalized": 9.766984325521769e-11,
+            "raw_min_singular_value": 0.999999998930085
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 1.201730853330259e-19,
+            "raw_odd_to_even_operator_norm": 1.2017308533302594e-19,
+            "polar_parity_commutator_normalized": 1.1374297355413267e-15,
+            "raw_min_singular_value": 0.9999999994650424
+          }
+        },
+        {
+          "cycles": 4,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 8.024355845411586e-10,
+            "raw_odd_to_even_operator_norm": 1.3373894602542304e-09,
+            "polar_parity_commutator_normalized": 1.953521013400763e-10,
+            "raw_min_singular_value": 0.9999999957203718
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 2.4034617066605193e-19,
+            "raw_odd_to_even_operator_norm": 2.4034617066605203e-19,
+            "polar_parity_commutator_normalized": 1.4355275275873073e-15,
+            "raw_min_singular_value": 0.9999999978601967
+          }
+        },
+        {
+          "cycles": 8,
+          "reused_mediator": {
+            "raw_even_to_odd_operator_norm": 3.744650412809093e-09,
+            "raw_odd_to_even_operator_norm": 4.8145276304131195e-09,
+            "polar_parity_commutator_normalized": 3.911507562053494e-10,
+            "raw_min_singular_value": 0.9999999828819861
+          },
+          "separate_species_control": {
+            "raw_even_to_odd_operator_norm": 4.806923413321038e-19,
+            "raw_odd_to_even_operator_norm": 4.80692341332104e-19,
+            "polar_parity_commutator_normalized": 1.4896269494474225e-15,
+            "raw_min_singular_value": 0.9999999914412043
+          }
+        }
+      ]
+    }
+  ],
+  "reused_mediator_loglog_slopes": {
+    "raw_even_to_odd_operator_norm": null,
+    "raw_odd_to_even_operator_norm": 5.931191667307755,
+    "polar_parity_commutator_normalized": 5.93138772561679
+  },
+  "deep_sw_multi_cycle_polar_parity_slopes": {
+    "1": 5.983197715252525,
+    "2": 5.984327812675807,
+    "4": 6.018308224229907,
+    "8": 6.318632403820091
+  },
+  "decision_rule": "The claimed boundary mechanism is supported only if the reused-mediator low-space parity-flip metric has a stable deep-SW slope compatible with 2 while the separate-species control has exact microscopic and low-space parity residuals at numerical precision. Otherwise its stated order or mechanism is falsified.",
+  "claim_boundary": "This is an L=3,N=2 ideal-pulse microscopic audit of one switched-channel block. It does not establish a T-junction, a thermodynamic phase, a protected fusion space, a braid, non-Abelian statistics, universality or fault tolerance."
+}

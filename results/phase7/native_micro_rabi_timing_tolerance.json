@@ -1,0 +1,106 @@
+{
+  "schema": "antler.phase8.native-micro-rabi-timing-tolerance.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "closure_period": 0.020840010178748883,
+    "alpha": 0.5,
+    "eta": "pi/2"
+  },
+  "rows": [
+    {
+      "relative_period_error": -0.05,
+      "period": 0.019798009669811437,
+      "low_frame_leakage_worst": 0.0009474251861814227,
+      "polar_logical_vs_target_distance": 0.0005119566498884582,
+      "logical_branch_parity_commutator_normalized": 0.00012528211372299212
+    },
+    {
+      "relative_period_error": -0.03,
+      "period": 0.020214809873386416,
+      "low_frame_leakage_worst": 0.00034977409089385794,
+      "polar_logical_vs_target_distance": 0.00031029517201604153,
+      "logical_branch_parity_commutator_normalized": 4.5428757978249576e-05
+    },
+    {
+      "relative_period_error": -0.01,
+      "period": 0.020631610076961394,
+      "low_frame_leakage_worst": 4.1219757786542805e-05,
+      "polar_logical_vs_target_distance": 0.00010771735806236596,
+      "logical_branch_parity_commutator_normalized": 5.188404663595506e-06
+    },
+    {
+      "relative_period_error": -0.003,
+      "period": 0.020777490148212636,
+      "low_frame_leakage_worst": 5.688375746410387e-06,
+      "polar_logical_vs_target_distance": 6.790434319527071e-05,
+      "logical_branch_parity_commutator_normalized": 6.107303682079782e-07
+    },
+    {
+      "relative_period_error": -0.001,
+      "period": 0.020819170168570135,
+      "low_frame_leakage_worst": 2.555140511899498e-06,
+      "polar_logical_vs_target_distance": 6.978103620703725e-05,
+      "logical_branch_parity_commutator_normalized": 2.3601823808908775e-07
+    },
+    {
+      "relative_period_error": 0.0,
+      "period": 0.020840010178748883,
+      "low_frame_leakage_worst": 2.1604421591365716e-06,
+      "polar_logical_vs_target_distance": 7.332252946942294e-05,
+      "logical_branch_parity_commutator_normalized": 1.972433361069752e-07
+    },
+    {
+      "relative_period_error": 0.001,
+      "period": 0.02086085018892763,
+      "low_frame_leakage_worst": 2.547145742287467e-06,
+      "polar_logical_vs_target_distance": 7.832455789134287e-05,
+      "logical_branch_parity_commutator_normalized": 2.3525876448170369e-07
+    },
+    {
+      "relative_period_error": 0.003,
+      "period": 0.020902530209285126,
+      "low_frame_leakage_worst": 5.664385654366939e-06,
+      "polar_logical_vs_target_distance": 9.168636479319626e-05,
+      "logical_branch_parity_commutator_normalized": 6.087708257281196e-07
+    },
+    {
+      "relative_period_error": 0.01,
+      "period": 0.021048410280536372,
+      "low_frame_leakage_worst": 4.1139572024170924e-05,
+      "polar_logical_vs_target_distance": 0.00015566009117725407,
+      "logical_branch_parity_commutator_normalized": 5.182824018625617e-06
+    },
+    {
+      "relative_period_error": 0.03,
+      "period": 0.02146521048411135,
+      "low_frame_leakage_worst": 0.00034952787925433875,
+      "polar_logical_vs_target_distance": 0.0003654154558491136,
+      "logical_branch_parity_commutator_normalized": 4.541230873472123e-05
+    },
+    {
+      "relative_period_error": 0.05,
+      "period": 0.02188201068768633,
+      "low_frame_leakage_worst": 0.0009469970102836701,
+      "polar_logical_vs_target_distance": 0.0005675326872087806,
+      "logical_branch_parity_commutator_normalized": 0.00012525445601639537
+    }
+  ],
+  "strict_local_target": {
+    "leakage_below": 0.0001,
+    "logical_distance_below": 0.0001,
+    "passing_relative_timing_errors": [
+      -0.003,
+      -0.001,
+      0.0,
+      0.001,
+      0.003
+    ]
+  },
+  "decision": "Local timing-tolerance bracket around the analytically registered shortest virtual-Rabi closure.",
+  "claim_boundary": "This timing scan is an ideal-pulse L=3 coherent control, not a material-noise, many-cycle, many-link, thermodynamic, or braiding qualification."
+}

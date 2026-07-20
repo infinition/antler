@@ -1,0 +1,68 @@
+{
+  "schema": "antler.phase7c.all-flip-overlap-algebra.v1",
+  "first_support": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "shared_rungs": 0,
+      "second_support": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "commutator_frobenius": 0.0,
+      "commutator_spectral": 0.0
+    },
+    {
+      "shared_rungs": 1,
+      "second_support": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "commutator_frobenius": 2.8284271247461903,
+      "commutator_spectral": 1.0
+    },
+    {
+      "shared_rungs": 2,
+      "second_support": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "commutator_frobenius": 4.0,
+      "commutator_spectral": 1.0
+    },
+    {
+      "shared_rungs": 3,
+      "second_support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "commutator_frobenius": 5.656854249492381,
+      "commutator_spectral": 1.0
+    },
+    {
+      "shared_rungs": 4,
+      "second_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "commutator_frobenius": 0.0,
+      "commutator_spectral": 0.0
+    }
+  ],
+  "decision": "Identical all-flip terms commute only when their supports are disjoint or identical. A nontrivial overlapping repetition therefore cannot serve as a commuting stabilizer family.",
+  "claim_boundary": "This is an exact algebraic statement for the identified all-flip operator only. It does not exclude a different microscopic primitive, mixed stabilizer families, a noncommuting parent phase, or topological order."
+}

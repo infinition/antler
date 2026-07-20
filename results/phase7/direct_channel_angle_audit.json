@@ -1,0 +1,101 @@
+{
+  "schema": "antler.phase8.direct-channel-angle-audit.v1",
+  "parameters": {
+    "L": 3,
+    "N": 2,
+    "target_u0": -1.5,
+    "g_over_detuning": 0.0125,
+    "detuning": 9599.999999999998,
+    "g": 119.99999999999999,
+    "closure_period": 0.0013085880691000955,
+    "logical_cycles": 16,
+    "total_duration": 0.020937409105601528,
+    "ideal_direct_h1_channel_angle_rad": 1.5707963267948966
+  },
+  "rows": [
+    {
+      "channel_angle_offset_rad": -0.05,
+      "channel_angle_offset_deg": -2.8647889756541165,
+      "low_frame_leakage_worst": 1.3692817076349374e-07,
+      "polar_logical_vs_target_distance": 0.0004052305638102188,
+      "logical_branch_parity_commutator_normalized": 0.0008093955180588921,
+      "raw_logical_min_singular_value": 0.999999931535912
+    },
+    {
+      "channel_angle_offset_rad": -0.03,
+      "channel_angle_offset_deg": -1.7188733853924696,
+      "low_frame_leakage_worst": 1.3692817076349342e-07,
+      "polar_logical_vs_target_distance": 0.000243231403863964,
+      "logical_branch_parity_commutator_normalized": 0.0004861558673700706,
+      "raw_logical_min_singular_value": 0.9999999315359089
+    },
+    {
+      "channel_angle_offset_rad": -0.01,
+      "channel_angle_offset_deg": -0.5729577951308232,
+      "low_frame_leakage_worst": 1.3692817076349382e-07,
+      "polar_logical_vs_target_distance": 8.12054067845992e-05,
+      "logical_branch_parity_commutator_normalized": 0.0001621384233730112,
+      "raw_logical_min_singular_value": 0.9999999315359114
+    },
+    {
+      "channel_angle_offset_rad": -0.003,
+      "channel_angle_offset_deg": -0.17188733853924698,
+      "low_frame_leakage_worst": 1.3692817076349229e-07,
+      "polar_logical_vs_target_distance": 2.475930070555782e-05,
+      "logical_branch_parity_commutator_normalized": 4.864447823139248e-05,
+      "raw_logical_min_singular_value": 0.9999999315359074
+    },
+    {
+      "channel_angle_offset_rad": 0.0,
+      "channel_angle_offset_deg": 0.0,
+      "low_frame_leakage_worst": 1.3692817076349258e-07,
+      "polar_logical_vs_target_distance": 4.631046528916784e-06,
+      "logical_branch_parity_commutator_normalized": 7.968525424127672e-10,
+      "raw_logical_min_singular_value": 0.9999999315359098
+    },
+    {
+      "channel_angle_offset_rad": 0.003,
+      "channel_angle_offset_deg": 0.17188733853924698,
+      "low_frame_leakage_worst": 1.369281707634919e-07,
+      "polar_logical_vs_target_distance": 2.4759300753660862e-05,
+      "logical_branch_parity_commutator_normalized": 4.8644478288066525e-05,
+      "raw_logical_min_singular_value": 0.9999999315359049
+    },
+    {
+      "channel_angle_offset_rad": 0.01,
+      "channel_angle_offset_deg": 0.5729577951308232,
+      "low_frame_leakage_worst": 1.3692817076349337e-07,
+      "polar_logical_vs_target_distance": 8.120540683301924e-05,
+      "logical_branch_parity_commutator_normalized": 0.00016213842342891296,
+      "raw_logical_min_singular_value": 0.9999999315359078
+    },
+    {
+      "channel_angle_offset_rad": 0.03,
+      "channel_angle_offset_deg": 1.7188733853924696,
+      "low_frame_leakage_worst": 1.3692817076349308e-07,
+      "polar_logical_vs_target_distance": 0.0002432314039119947,
+      "logical_branch_parity_commutator_normalized": 0.00048615586742505393,
+      "raw_logical_min_singular_value": 0.9999999315359066
+    },
+    {
+      "channel_angle_offset_rad": 0.05,
+      "channel_angle_offset_deg": 2.8647889756541165,
+      "low_frame_leakage_worst": 1.369281707634932e-07,
+      "polar_logical_vs_target_distance": 0.0004052305638575728,
+      "logical_branch_parity_commutator_normalized": 0.0008093955181124705,
+      "raw_logical_min_singular_value": 0.9999999315359079
+    }
+  ],
+  "strict_local_target": {
+    "leakage_below": 0.0001,
+    "distance_below": 0.0001,
+    "logical_parity_commutator_below": 0.0001,
+    "passing_channel_angle_offsets_rad": [
+      -0.003,
+      0.0,
+      0.003
+    ]
+  },
+  "decision": "Coherent direct-channel endpoint calibration control at fixed deep-SW logical duration.",
+  "claim_boundary": "This models a static coherent channel-angle offset only. It does not model stochastic amplitude/phase noise, bandwidth, crosstalk, thermal effects, a thermodynamic phase, a braid, non-Abelian statistics, universality or fault tolerance."
+}

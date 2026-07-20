@@ -1,0 +1,58 @@
+{
+  "schema": "antler.phase7.ising-edge-bulk-calibration.v1",
+  "model": "open transverse-field Ising reduction of the revised Phase 7 benchmark",
+  "parameters": {
+    "L": 8,
+    "J": 1.0,
+    "h": 0.1,
+    "J_ising": 0.5,
+    "r": 0.2
+  },
+  "two_lowest_energies": [
+    -0.050153010749890065,
+    -0.05015055314990204
+  ],
+  "gap_above_doublet": 0.8199459914020176,
+  "rows": [
+    {
+      "support": 1,
+      "left_truncated_mode_epsilon": 0.19999999998550463,
+      "left_formula_epsilon": 0.2,
+      "relative_formula_error": 7.247688560418908e-11,
+      "one_sided_bulk_window_start": 3,
+      "one_sided_bulk_mode_epsilon": 0.19999999998505394,
+      "one_sided_bulk_logical_action_frobenius": 1.4070148200002004
+    },
+    {
+      "support": 2,
+      "left_truncated_mode_epsilon": 0.03922322695076742,
+      "left_formula_epsilon": 0.039223227027636816,
+      "relative_formula_error": 1.959792669311358e-09,
+      "one_sided_bulk_window_start": 3,
+      "one_sided_bulk_mode_epsilon": 0.20377206906163167,
+      "one_sided_bulk_logical_action_frobenius": 1.4072860739098316
+    },
+    {
+      "support": 3,
+      "left_truncated_mode_epsilon": 0.0078386176314617,
+      "left_formula_epsilon": 0.007838618016696207,
+      "relative_formula_error": 4.9145717608365355e-08,
+      "one_sided_bulk_window_start": 2,
+      "one_sided_bulk_mode_epsilon": 0.20019067834628634,
+      "one_sided_bulk_logical_action_frobenius": 1.4070338817775752
+    },
+    {
+      "support": 4,
+      "left_truncated_mode_epsilon": 0.0015676735156561837,
+      "left_formula_epsilon": 0.0015676754420070843,
+      "relative_formula_error": 1.2287944615368136e-06,
+      "one_sided_bulk_window_start": 2,
+      "one_sided_bulk_mode_epsilon": 0.20000841824819657,
+      "one_sided_bulk_logical_action_frobenius": 1.407018284683445
+    }
+  ],
+  "left_epsilon_strictly_decreases_with_support": true,
+  "bulk_windows_remain_worse_than_left_windows": true,
+  "claim_boundary": "This calibrates an edge-versus-bulk projected-commutator diagnostic on a symmetry-restricted Ising/SSB benchmark. It does not restore full local indistinguishability, topological protection, a native microscopic realization, or a braid claim.",
+  "decision": "Use the calibrated localization ratio only as a Phase 7 diagnostic; retain the benchmark's Ising/SSB classification."
+}

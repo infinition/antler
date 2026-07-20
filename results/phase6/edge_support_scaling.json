@@ -1,0 +1,232 @@
+{
+  "schema": "antler.phase6.edge-support-scaling.v1",
+  "reference": "external Iemini lambda=1 parent and published finite-support aR-bR generator",
+  "matrix_free_crosscheck": {
+    "L": 6,
+    "N": 6,
+    "absolute_frobenius_error": 0.0
+  },
+  "rows": [
+    {
+      "L": 6,
+      "N": 6,
+      "basis_dimension": 924,
+      "support_rungs": 1,
+      "analytic_truncation_tail_probability": 0.5,
+      "parent_action_on_exact_frame": 2.6681468187551033e-15,
+      "logical_action_frobenius": 1.0911647299911236,
+      "logical_leakage_amplitude_frobenius": 0.9960925609502854,
+      "code_commutator_action_frobenius": 10.4307698638213,
+      "code_commutator_action_normalized": 7.060010166991932
+    },
+    {
+      "L": 6,
+      "N": 6,
+      "basis_dimension": 924,
+      "support_rungs": 2,
+      "analytic_truncation_tail_probability": 0.125,
+      "parent_action_on_exact_frame": 2.6681468187551033e-15,
+      "logical_action_frobenius": 1.1914398950634577,
+      "logical_leakage_amplitude_frobenius": 0.6182078056409942,
+      "code_commutator_action_frobenius": 9.69400926319624,
+      "code_commutator_action_normalized": 7.22205840371697
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "basis_dimension": 12870,
+      "support_rungs": 1,
+      "analytic_truncation_tail_probability": 0.5,
+      "parent_action_on_exact_frame": 3.204830142951186e-15,
+      "logical_action_frobenius": 1.066682444499487,
+      "logical_leakage_amplitude_frobenius": 0.9977900619509031,
+      "code_commutator_action_frobenius": 10.248775702507572,
+      "code_commutator_action_normalized": 7.016753259005471
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "basis_dimension": 12870,
+      "support_rungs": 2,
+      "analytic_truncation_tail_probability": 0.125,
+      "parent_action_on_exact_frame": 3.204830142951186e-15,
+      "logical_action_frobenius": 1.1784912757023724,
+      "logical_leakage_amplitude_frobenius": 0.6268141698564185,
+      "code_commutator_action_frobenius": 9.517489682035315,
+      "code_commutator_action_normalized": 7.1301806151755915
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "basis_dimension": 12870,
+      "support_rungs": 3,
+      "analytic_truncation_tail_probability": 0.03125,
+      "parent_action_on_exact_frame": 3.204830142951186e-15,
+      "logical_action_frobenius": 1.2861437042416033,
+      "logical_leakage_amplitude_frobenius": 0.4402811993789843,
+      "code_commutator_action_frobenius": 8.589342704591775,
+      "code_commutator_action_normalized": 6.3184041383536
+    },
+    {
+      "L": 10,
+      "N": 10,
+      "basis_dimension": 184756,
+      "support_rungs": 3,
+      "analytic_truncation_tail_probability": 0.03125,
+      "parent_action_on_exact_frame": 5.558568887697026e-15,
+      "logical_action_frobenius": 1.2811486092717506,
+      "logical_leakage_amplitude_frobenius": 0.4466190955947994,
+      "code_commutator_action_frobenius": 8.555298228346638,
+      "code_commutator_action_normalized": 6.305661109823711
+    },
+    {
+      "L": 10,
+      "N": 10,
+      "basis_dimension": 184756,
+      "support_rungs": 4,
+      "analytic_truncation_tail_probability": 0.0078125,
+      "parent_action_on_exact_frame": 5.558568887697026e-15,
+      "logical_action_frobenius": 1.3457231503236562,
+      "logical_leakage_amplitude_frobenius": 0.31567213312432835,
+      "code_commutator_action_frobenius": 7.429169594723846,
+      "code_commutator_action_normalized": 5.3746866285426185
+    }
+  ],
+  "maximal_available_support_trajectory": [
+    {
+      "L": 6,
+      "N": 6,
+      "basis_dimension": 924,
+      "support_rungs": 2,
+      "analytic_truncation_tail_probability": 0.125,
+      "parent_action_on_exact_frame": 2.6681468187551033e-15,
+      "logical_action_frobenius": 1.1914398950634577,
+      "logical_leakage_amplitude_frobenius": 0.6182078056409942,
+      "code_commutator_action_frobenius": 9.69400926319624,
+      "code_commutator_action_normalized": 7.22205840371697
+    },
+    {
+      "L": 8,
+      "N": 8,
+      "basis_dimension": 12870,
+      "support_rungs": 3,
+      "analytic_truncation_tail_probability": 0.03125,
+      "parent_action_on_exact_frame": 3.204830142951186e-15,
+      "logical_action_frobenius": 1.2861437042416033,
+      "logical_leakage_amplitude_frobenius": 0.4402811993789843,
+      "code_commutator_action_frobenius": 8.589342704591775,
+      "code_commutator_action_normalized": 6.3184041383536
+    },
+    {
+      "L": 10,
+      "N": 10,
+      "basis_dimension": 184756,
+      "support_rungs": 4,
+      "analytic_truncation_tail_probability": 0.0078125,
+      "parent_action_on_exact_frame": 5.558568887697026e-15,
+      "logical_action_frobenius": 1.3457231503236562,
+      "logical_leakage_amplitude_frobenius": 0.31567213312432835,
+      "code_commutator_action_frobenius": 7.429169594723846,
+      "code_commutator_action_normalized": 5.3746866285426185
+    }
+  ],
+  "strict_monotone_decrease_on_maximal_support": true,
+  "fixed_support_trajectories": {
+    "1": [
+      {
+        "L": 6,
+        "N": 6,
+        "basis_dimension": 924,
+        "support_rungs": 1,
+        "analytic_truncation_tail_probability": 0.5,
+        "parent_action_on_exact_frame": 2.6681468187551033e-15,
+        "logical_action_frobenius": 1.0911647299911236,
+        "logical_leakage_amplitude_frobenius": 0.9960925609502854,
+        "code_commutator_action_frobenius": 10.4307698638213,
+        "code_commutator_action_normalized": 7.060010166991932
+      },
+      {
+        "L": 8,
+        "N": 8,
+        "basis_dimension": 12870,
+        "support_rungs": 1,
+        "analytic_truncation_tail_probability": 0.5,
+        "parent_action_on_exact_frame": 3.204830142951186e-15,
+        "logical_action_frobenius": 1.066682444499487,
+        "logical_leakage_amplitude_frobenius": 0.9977900619509031,
+        "code_commutator_action_frobenius": 10.248775702507572,
+        "code_commutator_action_normalized": 7.016753259005471
+      }
+    ],
+    "2": [
+      {
+        "L": 6,
+        "N": 6,
+        "basis_dimension": 924,
+        "support_rungs": 2,
+        "analytic_truncation_tail_probability": 0.125,
+        "parent_action_on_exact_frame": 2.6681468187551033e-15,
+        "logical_action_frobenius": 1.1914398950634577,
+        "logical_leakage_amplitude_frobenius": 0.6182078056409942,
+        "code_commutator_action_frobenius": 9.69400926319624,
+        "code_commutator_action_normalized": 7.22205840371697
+      },
+      {
+        "L": 8,
+        "N": 8,
+        "basis_dimension": 12870,
+        "support_rungs": 2,
+        "analytic_truncation_tail_probability": 0.125,
+        "parent_action_on_exact_frame": 3.204830142951186e-15,
+        "logical_action_frobenius": 1.1784912757023724,
+        "logical_leakage_amplitude_frobenius": 0.6268141698564185,
+        "code_commutator_action_frobenius": 9.517489682035315,
+        "code_commutator_action_normalized": 7.1301806151755915
+      }
+    ],
+    "3": [
+      {
+        "L": 8,
+        "N": 8,
+        "basis_dimension": 12870,
+        "support_rungs": 3,
+        "analytic_truncation_tail_probability": 0.03125,
+        "parent_action_on_exact_frame": 3.204830142951186e-15,
+        "logical_action_frobenius": 1.2861437042416033,
+        "logical_leakage_amplitude_frobenius": 0.4402811993789843,
+        "code_commutator_action_frobenius": 8.589342704591775,
+        "code_commutator_action_normalized": 6.3184041383536
+      },
+      {
+        "L": 10,
+        "N": 10,
+        "basis_dimension": 184756,
+        "support_rungs": 3,
+        "analytic_truncation_tail_probability": 0.03125,
+        "parent_action_on_exact_frame": 5.558568887697026e-15,
+        "logical_action_frobenius": 1.2811486092717506,
+        "logical_leakage_amplitude_frobenius": 0.4466190955947994,
+        "code_commutator_action_frobenius": 8.555298228346638,
+        "code_commutator_action_normalized": 6.305661109823711
+      }
+    ],
+    "4": [
+      {
+        "L": 10,
+        "N": 10,
+        "basis_dimension": 184756,
+        "support_rungs": 4,
+        "analytic_truncation_tail_probability": 0.0078125,
+        "parent_action_on_exact_frame": 5.558568887697026e-15,
+        "logical_action_frobenius": 1.3457231503236562,
+        "logical_leakage_amplitude_frobenius": 0.31567213312432835,
+        "code_commutator_action_frobenius": 7.429169594723846,
+        "code_commutator_action_normalized": 5.3746866285426185
+      }
+    ]
+  },
+  "fixed_support_j3_L8_to_L10_residual_change": -0.012743028529889067,
+  "axis_separation": "The maximal-support trajectory changes both L and support and is therefore a support-improvement sequence, not a size-scaling result. At fixed j=3, the normalized residual changes only from 6.3184 at L=8 to 6.3057 at L=10.",
+  "claim_boundary": "This tests the projected commutator of a published truncated external edge generator. The available size and support axes are not independently converged; no exact edge mode, protected braid, or native microscopic mapping follows.",
+  "decision": "The apparent decrease on the maximal-support path is support-driven. The fixed-j=3 L=8-to-L=10 residual is effectively flat and remains large; this finite-support generator is not qualified as a protected braid primitive."
+}

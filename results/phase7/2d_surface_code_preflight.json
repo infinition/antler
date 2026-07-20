@@ -1,0 +1,57 @@
+{
+  "schema": "antler.phase7.2d-stabilizer-preflight.v1",
+  "reference_model": "abstract charge-frozen square-torus stabilizer parent; each edge is a one-particle rung qubit",
+  "physical_embedding_contract": {
+    "mott_constraint": "C_e=(n_a,e+n_b,e-1)^2, P_e=1-C_e",
+    "rung_paulis_in_monomer_sector": {
+      "X_e": "a_e^dagger b_e + b_e^dagger a_e",
+      "Z_e": "n_a,e - n_b,e"
+    },
+    "commuting_parent_terms": {
+      "star": "Q_s=(prod_(e in star s) P_e - prod_(e in star s) X_e)/2",
+      "plaquette": "Q_p=(prod_(e in boundary p) P_e - prod_(e in boundary p) Z_e)/2",
+      "hamiltonian": "H=U sum_e C_e + J_s sum_s Q_s + J_p sum_p Q_p"
+    },
+    "exact_symmetries": [
+      "total U(1) charge",
+      "global rail parities P_a and P_b"
+    ]
+  },
+  "algebraic_audit": {
+    "geometry": {
+      "lx": 3,
+      "ly": 3,
+      "boundary": "torus",
+      "physical_edge_qubits": 18
+    },
+    "stabilizer_algebra": {
+      "star_count": 9,
+      "plaquette_count": 9,
+      "independent_stabilizer_rank_over_GF2": 16,
+      "pair_anticommutations": 0,
+      "all_stabilizers_commute": true
+    },
+    "code": {
+      "encoded_qubits": 2,
+      "ground_space_degeneracy": 4,
+      "minimum_logical_weight": 3,
+      "one_minimum_logical": [
+        "Z[h(0,0)]",
+        "Z[h(1,0)]",
+        "Z[h(2,0)]"
+      ]
+    },
+    "complete_projected_local_pauli_gate": {
+      "maximum_tested_weight": 2,
+      "tested_nonidentity_paulis": 1431,
+      "anticommutes_with_stabilizer": 1431,
+      "stabilizer_scalar": 0,
+      "nontrivial_logical": 0,
+      "all_tested_probes_project_to_scalars": true
+    }
+  },
+  "passes_exact_2d_reference_gate": true,
+  "decision": "The exact 2D reference has the expected commuting stabilizer algebra, four torus ground states, and no non-scalar projected Pauli on fewer than three physical edges.  This is a reference-control result only; it is not a native ANTLER Hamiltonian.",
+  "mandatory_next_gate": "Derive, from explicitly specified ANTLER local degrees of freedom and mediator couplings, a low-body Hamiltonian whose controlled low-energy theory produces these four-rung star and plaquette terms. Until that Schrieffer-Wolff/error analysis passes, the parent is imposed rather than emergent.",
+  "claim_boundary": "This establishes neither a microscopic mediator realization, a dynamical exchange protocol, anyon braiding, non-Abelian statistics, universality, nor fault tolerance.  The reference stabilizer code is Abelian."
+}

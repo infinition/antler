@@ -1,0 +1,41 @@
+{
+  "schema": "antler.phase7d.mediator-signed-zz-preflight.v1",
+  "model": {
+    "low_modes": "a0,b0,a1,b1",
+    "hard_core_charge_two_mediators_per_segment": 2,
+    "same_rail_segment": [
+      "a0 a1",
+      "b0 b1"
+    ],
+    "opposite_rail_segment": [
+      "a0 b1",
+      "b0 a1"
+    ],
+    "new_resource": "time-multiplexing between same-rail and opposite-rail positive-detuning channels",
+    "opposite_rail_symmetry_note": "bare branch parity is restored on the logical subspace after the full pulse; the full pulse has mediator-dressed parity"
+  },
+  "parameters": {
+    "U_mott": 20.0,
+    "detuning": 40.0,
+    "coupling": 6.0,
+    "coupling_over_detuning": 0.15,
+    "effective_virtual_detuning": 80.0,
+    "full_rabi_pulse_time": 0.07767087952597317
+  },
+  "audits": {
+    "same_logical_gate_residual": 0.0,
+    "opposite_logical_gate_residual": 0.0,
+    "same_monomer_leakage": 1.2555897230484125e-33,
+    "opposite_monomer_leakage": 1.2555897230484125e-33,
+    "same_times_opposite_inverse_residual": 0.0,
+    "logical_bare_parity_a_residual": 3.1409565295108423e-16,
+    "logical_bare_parity_b_residual": 3.1409565295108423e-16,
+    "signed_zz_phase_phi": -0.034757472550866274,
+    "compiled_pair_gate_residual": 3.190103648446951e-16,
+    "pair_rotation_angle_per_compiled_gate": 0.034757472550866274,
+    "repeats_near_pair_swap": 45,
+    "bb_to_aa_transfer_probability": 0.9999549757436162
+  },
+  "decision": "Positive-detuning charge-two channels provide opposite logical ZZ phases after exact full-Rabi pulses. Together with rail rotations, they compile a stroboscopic pair gate. This establishes a concrete dynamic extension of the static ANTLER vocabulary, subject to finite-pulse and many-link audits.",
+  "claim_boundary": "This two-rung pulse construction does not prove that the channels can be isolated independently in an extended ladder, that pulse imperfections are tolerable, or that the resulting ladder is a protected topological phase. It establishes neither a 2D code, braiding, non-Abelian statistics, universality nor fault tolerance."
+}

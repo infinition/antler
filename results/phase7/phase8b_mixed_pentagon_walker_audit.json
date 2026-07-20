@@ -1,0 +1,86 @@
+{
+  "schema": "antler.phase8b.mixed-pentagon-walker-audit.v1",
+  "parameters": {
+    "gauge_links": 5,
+    "walker_states": 5,
+    "detuning": 10.0,
+    "ratios": [
+      0.2,
+      0.15,
+      0.1,
+      0.075,
+      0.05,
+      0.0375,
+      0.025
+    ],
+    "conditioned_pauli_pattern": "XZXZX",
+    "new_primitive": "one neutral five-state walker with phase-controlled X/Z-conditioned link hops",
+    "downfolding": "exact zero-energy Schur complement onto the walker-low subspace"
+  },
+  "dimensions": {
+    "total": 160,
+    "low_gauge_subspace": 32,
+    "high_walker_subspace": 128
+  },
+  "rows": [
+    {
+      "coupling_over_detuning": 0.2,
+      "mixed_pentagon_coefficient": 0.0072595281306715095,
+      "identity_coefficient": -0.8348457350272228,
+      "maximum_unwanted_nonscalar_coefficient": 4.163336342344337e-17,
+      "largest_unwanted_pauli": "IIIZZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    },
+    {
+      "coupling_over_detuning": 0.15,
+      "mixed_pentagon_coefficient": 0.001627802600464896,
+      "identity_coefficient": -0.46060784694636314,
+      "maximum_unwanted_nonscalar_coefficient": 3.469446951953614e-18,
+      "largest_unwanted_pauli": "IIIIZ",
+      "zero_energy_schur_hermiticity_residual": 3.0665868333667484e-19
+    },
+    {
+      "coupling_over_detuning": 0.1,
+      "mixed_pentagon_coefficient": 0.00020616431295742714,
+      "identity_coefficient": -0.2020410266982786,
+      "maximum_unwanted_nonscalar_coefficient": 1.734723475976807e-18,
+      "largest_unwanted_pauli": "IIIIZ",
+      "zero_energy_schur_hermiticity_residual": 7.666467083416871e-20
+    },
+    {
+      "coupling_over_detuning": 0.075,
+      "mixed_pentagon_coefficient": 4.827403441004958e-05,
+      "identity_coefficient": -0.11314003323955332,
+      "maximum_unwanted_nonscalar_coefficient": 3.469446951953614e-18,
+      "largest_unwanted_pauli": "IIIIZ",
+      "zero_energy_schur_hermiticity_residual": 9.583083854271089e-21
+    },
+    {
+      "coupling_over_detuning": 0.05,
+      "mixed_pentagon_coefficient": 6.297189564297451e-06,
+      "identity_coefficient": -0.05012562893180773,
+      "maximum_unwanted_nonscalar_coefficient": 2.168404344971009e-18,
+      "largest_unwanted_pauli": "IIIIZ",
+      "zero_energy_schur_hermiticity_residual": 2.395770963567772e-21
+    },
+    {
+      "coupling_over_detuning": 0.0375,
+      "mixed_pentagon_coefficient": 1.4894349049646135e-06,
+      "identity_coefficient": -0.028164662410323452,
+      "maximum_unwanted_nonscalar_coefficient": 1.0842021724855044e-18,
+      "largest_unwanted_pauli": "IIIIZ",
+      "zero_energy_schur_hermiticity_residual": 2.994713704459715e-22
+    },
+    {
+      "coupling_over_detuning": 0.025,
+      "mixed_pentagon_coefficient": 1.9567932229206248e-07,
+      "identity_coefficient": -0.01250782228090863,
+      "maximum_unwanted_nonscalar_coefficient": 6.505213034913027e-19,
+      "largest_unwanted_pauli": "IIIZZ",
+      "zero_energy_schur_hermiticity_residual": 0.0
+    }
+  ],
+  "deep_sw_mixed_pentagon_power": 5.013606788769339,
+  "decision": "The declared five-step walker produces the mixed non-CSS XZXZX pentagon word at fifth order; no other non-scalar Pauli coefficient is resolved in this isolated local downfolding.",
+  "claim_boundary": "This is only a local mixed-pentagon mechanism. It does not specify a complete commuting twist branch-cut lattice, demonstrate a twist-defect fusion space, move defects, derive a braid, or establish a native ANTLER implementation. The phase-controlled conditioned walker is a new resource."
+}

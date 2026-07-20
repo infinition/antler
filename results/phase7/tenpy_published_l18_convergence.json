@@ -1,0 +1,65 @@
+{
+  "schema": "antler.phase8.tenpy-published-l18-convergence.v1",
+  "parameters": {
+    "L": 18,
+    "N": 12,
+    "u0_attractive_nn": -1.5,
+    "alpha": 0.5,
+    "chi_values": [
+      256,
+      384,
+      512
+    ]
+  },
+  "by_chi": {
+    "256": {
+      "sectors": {
+        "0": {
+          "energy": -21.81945160181897,
+          "measured_branch_parity": 1.000000000000001,
+          "max_bond_dimension": 256
+        },
+        "1": {
+          "energy": -21.783705798860037,
+          "measured_branch_parity": -0.9999999999999997,
+          "max_bond_dimension": 256
+        }
+      },
+      "parity_sector_split": 0.035745802958931705
+    },
+    "384": {
+      "sectors": {
+        "0": {
+          "energy": -21.8194516352388,
+          "measured_branch_parity": 0.9999999999999994,
+          "max_bond_dimension": 384
+        },
+        "1": {
+          "energy": -21.78370585475819,
+          "measured_branch_parity": -0.999999999999999,
+          "max_bond_dimension": 384
+        }
+      },
+      "parity_sector_split": 0.03574578048061028
+    },
+    "512": {
+      "sectors": {
+        "0": {
+          "energy": -21.819451636923112,
+          "measured_branch_parity": 0.9999999999999996,
+          "max_bond_dimension": 512
+        },
+        "1": {
+          "energy": -21.783705857445167,
+          "measured_branch_parity": -1.0,
+          "max_bond_dimension": 512
+        }
+      },
+      "parity_sector_split": 0.03574577947794566
+    }
+  },
+  "absolute_split_change_chi384_to_chi512": 1.0026646179994714e-09,
+  "relative_split_change_chi384_to_chi512": 2.804987421292891e-08,
+  "decision": "Numerical convergence check only; it does not establish the thermodynamic asymptotics of the splitting.",
+  "claim_boundary": "No native-ANTLER, braid, non-Abelian, or fault-tolerance claim follows."
+}

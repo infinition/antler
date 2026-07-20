@@ -1,0 +1,124 @@
+{
+  "schema": "antler.phase8.native-direct-h1-size-audit.v1",
+  "parameters": {
+    "systems": [
+      {
+        "L": 3,
+        "N": 2
+      },
+      {
+        "L": 4,
+        "N": 2
+      },
+      {
+        "L": 4,
+        "N": 4
+      },
+      {
+        "L": 6,
+        "N": 3
+      }
+    ],
+    "target_u0": -1.5,
+    "g_over_detuning": 0.05,
+    "detuning": 599.9999999999999,
+    "g": 29.999999999999996,
+    "alpha": 0.5,
+    "virtual_rabi_omega": 602.9925372672533,
+    "closure_period": 0.020840010178748883,
+    "direct_segments": "H0 and P^dag H0 P from coherent pair-mediator channels"
+  },
+  "rotated_channel_factorization_frobenius_residual": 3.510833468576701e-16,
+  "rows": [
+    {
+      "L": 3,
+      "N": 2,
+      "filling": 0.3333333333333333,
+      "microscopic_dimension": 19,
+      "bare_low_frame_dimension": 15,
+      "rows": [
+        {
+          "cycles": 1,
+          "low_frame_leakage_worst": 2.0022988009193875e-06,
+          "polar_logical_vs_target_distance": 7.332276455577049e-05,
+          "raw_logical_min_singular_value": 0.9999989988500984
+        },
+        {
+          "cycles": 4,
+          "low_frame_leakage_worst": 3.196281378683401e-05,
+          "polar_logical_vs_target_distance": 0.0002927789151112532,
+          "raw_logical_min_singular_value": 0.999984018465401
+        }
+      ],
+      "one_cycle_leakage_over_l3n2": 1.0
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "filling": 0.25,
+      "microscopic_dimension": 34,
+      "bare_low_frame_dimension": 28,
+      "rows": [
+        {
+          "cycles": 1,
+          "low_frame_leakage_worst": 3.003213371288488e-06,
+          "polar_logical_vs_target_distance": 7.495679538487799e-05,
+          "raw_logical_min_singular_value": 0.9999984983921867
+        },
+        {
+          "cycles": 4,
+          "low_frame_leakage_worst": 4.7861763832672556e-05,
+          "polar_logical_vs_target_distance": 0.0002990663051730754,
+          "raw_logical_min_singular_value": 0.9999760688317332
+        }
+      ],
+      "one_cycle_leakage_over_l3n2": 1.499882719756669
+    },
+    {
+      "L": 4,
+      "N": 4,
+      "filling": 0.5,
+      "microscopic_dimension": 253,
+      "bare_low_frame_dimension": 70,
+      "rows": [
+        {
+          "cycles": 1,
+          "low_frame_leakage_worst": 7.110782957864972e-05,
+          "polar_logical_vs_target_distance": 0.0003170826892276787,
+          "raw_logical_min_singular_value": 0.9999644454531483
+        },
+        {
+          "cycles": 4,
+          "low_frame_leakage_worst": 0.0011220442691115325,
+          "polar_logical_vs_target_distance": 0.0012597305008896686,
+          "raw_logical_min_singular_value": 0.9994388204041766
+        }
+      ],
+      "one_cycle_leakage_over_l3n2": 35.51309602043383
+    },
+    {
+      "L": 6,
+      "N": 3,
+      "filling": 0.25,
+      "microscopic_dimension": 340,
+      "bare_low_frame_dimension": 220,
+      "rows": [
+        {
+          "cycles": 1,
+          "low_frame_leakage_worst": 1.5711434996154053e-05,
+          "polar_logical_vs_target_distance": 0.00014264292349006242,
+          "raw_logical_min_singular_value": 0.999992144251645
+        },
+        {
+          "cycles": 4,
+          "low_frame_leakage_worst": 0.00024961612882955567,
+          "polar_logical_vs_target_distance": 0.0005685109166396854,
+          "raw_logical_min_singular_value": 0.999875184146085
+        }
+      ],
+      "one_cycle_leakage_over_l3n2": 7.84669849921495
+    }
+  ],
+  "decision": "Exact finite-size control of the direct switched-mediator stroboscopic block at fixed SW ratio.",
+  "claim_boundary": "Finite L=3,4 controls test only local microscopic leakage and target agreement. They do not show asymptotic size convergence, a gapped topological phase, a protected logical qubit, physical pulse bandwidth tolerance, braiding, non-Abelian statistics, universality, or fault tolerance."
+}

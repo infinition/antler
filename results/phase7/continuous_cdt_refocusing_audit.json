@@ -1,0 +1,132 @@
+{
+  "schema": "antler.phase7d.continuous-cdt-refocusing-audit.v1",
+  "identity": "K_cont=sum_j j(n_aj+n_bj)+sum_link(2j+1)N_mediator_link: nearest-link pair conversion commutes exactly, whereas intraleg hopping changes K_cont by one.",
+  "parameters": {
+    "leg_hopping_during_pulses": 1.0,
+    "inactive_channel_coupling_over_g": 0.01,
+    "first_bessel_zero_xi": 2.4048255576957724,
+    "cycle_scan": [
+      1,
+      2,
+      4
+    ],
+    "steps_per_cycle_scan": [
+      16,
+      32
+    ]
+  },
+  "identity_checks": [
+    {
+      "channel_kind": "same",
+      "pair_commutator_frobenius": 0.0,
+      "leg_commutator_frobenius": 33.2264954516723
+    },
+    {
+      "channel_kind": "opposite",
+      "pair_commutator_frobenius": 0.0,
+      "leg_commutator_frobenius": 33.2264954516723
+    }
+  ],
+  "rows": [
+    {
+      "method": "bare_no_cdt",
+      "monomer_leakage": 0.01984393622897244,
+      "logical_deviation_from_zero_leg_schedule": 0.03977655068044091,
+      "logical_parity_a_residual": 0.02616032548596132,
+      "logical_parity_b_residual": 0.02616032548596132,
+      "logical_singular_value_min": 0.9900283146309795
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 1,
+      "steps_per_cycle": 16,
+      "drive_frequency": 80.89499366462674,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 194.53834825433196,
+      "max_rail_onsite_amplitude": 583.6150447629959,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.011410711844918332,
+      "logical_deviation_from_zero_leg_schedule": 0.008960954833602002,
+      "logical_parity_a_residual": 0.008945046770047035,
+      "logical_parity_b_residual": 0.008945046770047035,
+      "logical_singular_value_min": 0.9942782750091075
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 1,
+      "steps_per_cycle": 32,
+      "drive_frequency": 80.89499366462674,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 194.53834825433196,
+      "max_rail_onsite_amplitude": 583.6150447629959,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.011237274015349349,
+      "logical_deviation_from_zero_leg_schedule": 0.008845335031766252,
+      "logical_parity_a_residual": 0.008814449460326439,
+      "logical_parity_b_residual": 0.008814449460326439,
+      "logical_singular_value_min": 0.9943654891359861
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 2,
+      "steps_per_cycle": 16,
+      "drive_frequency": 161.78998732925348,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 389.07669650866393,
+      "max_rail_onsite_amplitude": 1167.2300895259918,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.001931381860361091,
+      "logical_deviation_from_zero_leg_schedule": 0.0017657164380892034,
+      "logical_parity_a_residual": 0.0016167277398071048,
+      "logical_parity_b_residual": 0.0016167277398071048,
+      "logical_singular_value_min": 0.9990338423395084
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 2,
+      "steps_per_cycle": 32,
+      "drive_frequency": 161.78998732925348,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 389.07669650866393,
+      "max_rail_onsite_amplitude": 1167.2300895259918,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.0018948724538820792,
+      "logical_deviation_from_zero_leg_schedule": 0.0017389181340106263,
+      "logical_parity_a_residual": 0.0015884838047604552,
+      "logical_parity_b_residual": 0.0015884838047604552,
+      "logical_singular_value_min": 0.9990521145296168
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 4,
+      "steps_per_cycle": 16,
+      "drive_frequency": 323.57997465850696,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 778.1533930173279,
+      "max_rail_onsite_amplitude": 2334.4601790519837,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.0004439292629606948,
+      "logical_deviation_from_zero_leg_schedule": 0.00042039676261145913,
+      "logical_parity_a_residual": 0.00037688064685087723,
+      "logical_parity_b_residual": 0.00037688064685087723,
+      "logical_singular_value_min": 0.9997780107288979
+    },
+    {
+      "method": "continuous_cdt",
+      "cycles_per_rabi_pulse": 4,
+      "steps_per_cycle": 32,
+      "drive_frequency": 323.57997465850696,
+      "dimensionless_amplitude_xi": 2.4048255576957724,
+      "base_potential_amplitude": 778.1533930173279,
+      "max_rail_onsite_amplitude": 2334.4601790519837,
+      "J0_xi": 1.0239231817845155e-16,
+      "monomer_leakage": 0.000435138696696496,
+      "logical_deviation_from_zero_leg_schedule": 0.00041377458969939636,
+      "logical_parity_a_residual": 0.0003700289873404788,
+      "logical_parity_b_residual": 0.0003700289873404788,
+      "logical_singular_value_min": 0.9997824069782699
+    }
+  ],
+  "decision": "The pair-preserving CDT identity is exact and the registered 1..4-cycle dynamics suppresses leg-hopping errors, but no tested point is promoted as a high-fidelity pulse. Hardware bandwidth, finite-frequency optimization, pulse-error and extended-ladder phase audits remain required.",
+  "claim_boundary": "The link-dependent mediator potentials and sinusoidal modulation are added ideal controls. This is not a derivation of their experimental availability and establishes no protected phase, 2D code, braid, non-Abelian statistics, universality or fault tolerance."
+}

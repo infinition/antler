@@ -1,0 +1,1268 @@
+{
+  "schema": "antler.phase7c.crossed-charge2-cancellation-audit.v1",
+  "primitive": {
+    "description": "two charge-two mediators, each coherently coupled to two disjoint same-branch pairs on one four-edge plaquette",
+    "parameters": {
+      "U": 20.0,
+      "Delta": 10.0,
+      "g_values": [
+        0.3,
+        0.4,
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5
+      ]
+    },
+    "connectivity": {
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "component_count": 1,
+      "patch_connected": true
+    }
+  },
+  "rows": [
+    {
+      "g": 0.3,
+      "g_over_delta": 0.03,
+      "base": {
+        "xxxx_coefficient": -2.6321355188877993e-08,
+        "target_alignment": 4.2769936174583486e-10,
+        "operator_residual": 1.0000031870752544,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.002545475610631915,
+        "other_pauli_norm_over_observed_xxxx": 48353.80990769612,
+        "unwanted_pauli_norm_over_target": 0.002545475610631915,
+        "minimum_monomer_overlap": 0.9999639963963066,
+        "low_high_gap": 39.982032283882205,
+        "reward": -0.0074185198594773835,
+        "top_unwanted_paulis": [
+          {
+            "label": "ZZII",
+            "coefficient": -0.0008999615306845447
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -0.0008999615306837258
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -2.6321361479544263e-08
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -2.6321361250181293e-08
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 2.6321355920794775e-08
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 2.6321355883934026e-08
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -2.632135587894929e-08
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 2.6321355842059873e-08
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          -9.486633483976603e-16,
+          -3.572784971518639e-15,
+          2.931113468260249e-15,
+          -2.6919113639556347e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.0008999615306837258
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 2.6321353010380307e-08
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 2.6321350674412517e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 2.6321361479544263e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 2.6321361250181293e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.0008999615306845447
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -2.6322820309096635e-08,
+        "target_alignment": 0.1135008744117876,
+        "operator_residual": 0.9999999473543703,
+        "unwanted_pauli_norm_over_fixed_target_scale": 1.4713024795282632e-07,
+        "other_pauli_norm_over_observed_xxxx": 2.7947280387349127,
+        "unwanted_pauli_norm_over_target": 1.4713024795282632e-07,
+        "minimum_monomer_overlap": 0.9999639950998916,
+        "low_high_gap": 39.98383208739188,
+        "reward": 0.33690196517479604,
+        "top_unwanted_paulis": [
+          {
+            "label": "YYYY",
+            "coefficient": -2.632282199709833e-08
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 2.6322821956211368e-08
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 2.6322821896651935e-08
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 2.6322821852758535e-08
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 2.632282034951974e-08
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 2.632282025062707e-08
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 2.6322820206829364e-08
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -1.619757650064607e-08
+          }
+        ]
+      }
+    },
+    {
+      "g": 0.4,
+      "g_over_delta": 0.04,
+      "base": {
+        "xxxx_coefficient": -8.317952456339442e-08,
+        "target_alignment": 1.351539980498758e-09,
+        "operator_residual": 1.0000100720343827,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.004525139586988484,
+        "other_pauli_norm_over_observed_xxxx": 27201.04262882445,
+        "unwanted_pauli_norm_over_target": 0.004525139586988484,
+        "minimum_monomer_overlap": 0.9999359886125309,
+        "low_high_gap": 39.968101749836315,
+        "reward": -0.013188677713727939,
+        "top_unwanted_paulis": [
+          {
+            "label": "ZZII",
+            "coefficient": -0.00159987843193901
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -0.0015998784319359598
+          },
+          {
+            "label": "IZIZ",
+            "coefficient": -8.31795294678223e-08
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -8.317952796490125e-08
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -8.317952768425551e-08
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 8.317952460089871e-08
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 8.317952459883288e-08
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 8.317952456447876e-08
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          1.9530004783524513e-15,
+          -3.2063381897456944e-15,
+          5.281148782176892e-15,
+          -6.346919517730143e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.0015998784319359598
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 8.31795294678223e-08
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 8.317952796490125e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 8.317952133798652e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 8.317952768425551e-08
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.00159987843193901
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -8.318776835297845e-08,
+        "target_alignment": 0.11350236172227297,
+        "operator_residual": 0.9999998336245713,
+        "unwanted_pauli_norm_over_fixed_target_scale": 4.6497094087024486e-07,
+        "other_pauli_norm_over_observed_xxxx": 2.794707383526036,
+        "unwanted_pauli_norm_over_target": 4.6497094087024486e-07,
+        "minimum_monomer_overlap": 0.9999359845142027,
+        "low_high_gap": 39.97130112867119,
+        "reward": 0.3341050055062179,
+        "top_unwanted_paulis": [
+          {
+            "label": "YXYX",
+            "coefficient": 8.318776818567744e-08
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 8.318776810877323e-08
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 8.318776794271958e-08
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 8.318776763189941e-08
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -8.318776738925565e-08
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 8.318776708523509e-08
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 8.31877668437991e-08
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -5.11863346887981e-08
+          }
+        ]
+      }
+    },
+    {
+      "g": 0.5,
+      "g_over_delta": 0.05,
+      "base": {
+        "xxxx_coefficient": -2.030468972822212e-07,
+        "target_alignment": 3.299026419359451e-09,
+        "operator_residual": 1.0000245876702107,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.007070228595971323,
+        "other_pauli_norm_over_observed_xxxx": 17410.333993294644,
+        "unwanted_pauli_norm_over_target": 0.007070228595971323,
+        "minimum_monomer_overlap": 0.9998999722047838,
+        "low_high_gap": 39.950247530818906,
+        "reward": -0.020607706424706038,
+        "top_unwanted_paulis": [
+          {
+            "label": "IIZZ",
+            "coefficient": -0.0024997032468001765
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -0.0024997032467995698
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -2.030468991280252e-07
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -2.0304689811462143e-07
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 2.0304689728493794e-07
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 2.030468970592225e-07
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 2.0304689705895897e-07
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 2.0304689670742521e-07
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          -1.3180103709820035e-15,
+          -3.742069588225094e-15,
+          5.647500696259744e-15,
+          -2.802445775440532e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.0024997032468001765
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 2.0304689247839644e-07
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 2.0304689811462143e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 2.030468991280252e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 2.0304689293733922e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.0024997032467995698
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -2.0307833127186674e-07,
+        "target_alignment": 0.11350424659146281,
+        "operator_residual": 0.9999995938439816,
+        "unwanted_pauli_norm_over_fixed_target_scale": 1.1350783922051894e-06,
+        "other_pauli_norm_over_observed_xxxx": 2.79468120772971,
+        "unwanted_pauli_norm_over_target": 1.1350783922051894e-06,
+        "minimum_monomer_overlap": 0.9998999621959048,
+        "low_high_gap": 39.95524601381197,
+        "reward": 0.330507662903945,
+        "top_unwanted_paulis": [
+          {
+            "label": "YXXY",
+            "coefficient": 2.030783327900112e-07
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -2.0307833230592032e-07
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 2.0307833206238067e-07
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 2.0307833099540725e-07
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 2.0307833078907903e-07
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 2.030783298564527e-07
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 2.0307832878892316e-07
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -1.2494790232033069e-07
+          }
+        ]
+      }
+    },
+    {
+      "g": 0.7,
+      "g_over_delta": 0.06999999999999999,
+      "base": {
+        "xxxx_coefficient": -7.797370794187454e-07,
+        "target_alignment": 1.2667070193597478e-08,
+        "operator_residual": 1.000094431416353,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.01385607072310443,
+        "other_pauli_norm_over_observed_xxxx": 8885.091583327954,
+        "unwanted_pauli_norm_over_target": 0.01385607072310443,
+        "minimum_monomer_overlap": 0.9998038932856513,
+        "low_high_gap": 39.9029420250501,
+        "reward": -0.04039318004415373,
+        "top_unwanted_paulis": [
+          {
+            "label": "ZZII",
+            "coefficient": -0.0048988604415211665
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -0.0048988604415001625
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -7.797370943523653e-07
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -7.797370858053827e-07
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 7.797370794196238e-07
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 7.797370793775442e-07
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 7.797370793755839e-07
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -7.797370784881023e-07
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          -1.2191202908296006e-14,
+          -5.1252405097734766e-15,
+          -7.445216318457959e-15,
+          -1.0560129160008813e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.0048988604415001625
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 7.79737076992337e-07
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 7.797370943523653e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 7.797370784881023e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 7.797370858053827e-07
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.0048988604415211665
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -7.799736721193238e-07,
+        "target_alignment": 0.11350926578129797,
+        "operator_residual": 0.9999984400621581,
+        "unwanted_pauli_norm_over_fixed_target_scale": 4.35944679952043e-06,
+        "other_pauli_norm_over_observed_xxxx": 2.794611507639134,
+        "unwanted_pauli_norm_over_target": 4.35944679952043e-06,
+        "minimum_monomer_overlap": 0.9998038548028357,
+        "low_high_gap": 39.91273619243292,
+        "reward": 0.3209082984046123,
+        "top_unwanted_paulis": [
+          {
+            "label": "XYXY",
+            "coefficient": 7.799736731725525e-07
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 7.799736730536111e-07
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 7.799736728248457e-07
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -7.799736727171167e-07
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 7.79973672516249e-07
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 7.799736723969202e-07
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 7.799736720119389e-07
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -4.798080099904659e-07
+          }
+        ]
+      }
+    },
+    {
+      "g": 0.9,
+      "g_over_delta": 0.09,
+      "base": {
+        "xxxx_coefficient": -2.129670221883279e-06,
+        "target_alignment": 3.4590617303279765e-08,
+        "operator_residual": 1.0002579458600769,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.022901461066189694,
+        "other_pauli_norm_over_observed_xxxx": 5376.762287153033,
+        "unwanted_pauli_norm_over_target": 0.022901461066189694,
+        "minimum_monomer_overlap": 0.9996757086235042,
+        "low_high_gap": 39.84054266419418,
+        "reward": -0.06677696613657,
+        "top_unwanted_paulis": [
+          {
+            "label": "IIZZ",
+            "coefficient": -0.008096887661668817
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -0.0080968876616681
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -2.12967023065962e-06
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -2.129670225725633e-06
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 2.1296702231879877e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 2.129670223065857e-06
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -2.129670222811871e-06
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 2.1296702226865637e-06
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          3.174543961037557e-16,
+          3.3631951390500348e-15,
+          1.945058697438995e-15,
+          -1.8708992688409865e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.008096887661668817
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 2.129670220330209e-06
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 2.12967023065962e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 2.129670225725633e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 2.1296702130309264e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.0080968876616681
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -2.130738449616349e-06,
+        "target_alignment": 0.1135159203018754,
+        "operator_residual": 0.9999957385940107,
+        "unwanted_pauli_norm_over_fixed_target_scale": 1.190877861037729e-05,
+        "other_pauli_norm_over_observed_xxxx": 2.794519104989524,
+        "unwanted_pauli_norm_over_target": 1.190877861037729e-05,
+        "minimum_monomer_overlap": 0.9996756033458819,
+        "low_high_gap": 39.85672670896981,
+        "reward": 0.3080944938028001,
+        "top_unwanted_paulis": [
+          {
+            "label": "YYYY",
+            "coefficient": -2.1307384513471743e-06
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 2.1307384510605087e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 2.1307384499078963e-06
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 2.1307384478895985e-06
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 2.130738447594667e-06
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 2.1307384465343652e-06
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 2.1307384462356565e-06
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -1.3104312080497622e-06
+          }
+        ]
+      }
+    },
+    {
+      "g": 1.1,
+      "g_over_delta": 0.11000000000000001,
+      "base": {
+        "xxxx_coefficient": -4.749479273311958e-06,
+        "target_alignment": 7.712394373285395e-08,
+        "operator_residual": 1.0005753044306005,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.034204351525086475,
+        "other_pauli_norm_over_observed_xxxx": 3600.85280477861,
+        "unwanted_pauli_norm_over_target": 0.034204351525086475,
+        "minimum_monomer_overlap": 0.9995153504359895,
+        "low_high_gap": 39.763589015365575,
+        "reward": -0.09976175335830303,
+        "top_unwanted_paulis": [
+          {
+            "label": "IIZZ",
+            "coefficient": -0.01209305930052238
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -0.012093059300518919
+          },
+          {
+            "label": "IZIZ",
+            "coefficient": -4.7494792791769654e-06
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -4.749479277813039e-06
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -4.749479274282877e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 4.7494792733909875e-06
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 4.749479273303133e-06
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 4.749479273278456e-06
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          1.4847064550016498e-15,
+          1.8338195545419822e-15,
+          6.037271377268283e-15,
+          -7.0100175664222775e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.01209305930052238
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 4.7494792791769654e-06
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 4.749479268081674e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 4.749479274282877e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 4.749479277813039e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.012093059300518919
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -4.753038070545237e-06,
+        "target_alignment": 0.11352417665591477,
+        "operator_residual": 0.9999904942766805,
+        "unwanted_pauli_norm_over_fixed_target_scale": 2.6563821666329444e-05,
+        "other_pauli_norm_over_observed_xxxx": 2.7944044705791953,
+        "unwanted_pauli_norm_over_target": 2.6563821666329444e-05,
+        "minimum_monomer_overlap": 0.9995151151753603,
+        "low_high_gap": 39.78775336654169,
+        "reward": 0.2920537078474148,
+        "top_unwanted_paulis": [
+          {
+            "label": "XYYX",
+            "coefficient": 4.75303807069613e-06
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 4.753038070576882e-06
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 4.753038070557504e-06
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -4.753038067480238e-06
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 4.753038067352219e-06
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 4.753038067341775e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 4.753038067320371e-06
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -2.922311754561223e-06
+          }
+        ]
+      }
+    },
+    {
+      "g": 1.3,
+      "g_over_delta": 0.13,
+      "base": {
+        "xxxx_coefficient": -9.258236877399238e-06,
+        "target_alignment": 1.5029619870143144e-07,
+        "operator_residual": 1.0011214683597074,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.04776219232140279,
+        "other_pauli_norm_over_observed_xxxx": 2579.4432003569464,
+        "unwanted_pauli_norm_over_target": 0.04776219232140279,
+        "minimum_monomer_overlap": 0.9993227343782847,
+        "low_high_gap": 39.67271175925307,
+        "reward": -0.13935088329128825,
+        "top_unwanted_paulis": [
+          {
+            "label": "ZZII",
+            "coefficient": -0.0168864710119936
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -0.01688647101199308
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -9.2582368865805e-06
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -9.258236883353914e-06
+          },
+          {
+            "label": "IZIZ",
+            "coefficient": -9.25823688243798e-06
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -9.258236881570618e-06
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 9.25823687751274e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 9.258236877512055e-06
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          2.5517782331618832e-15,
+          6.800116025829084e-16,
+          -2.3678975447083417e-16,
+          -5.6604027021123215e-15
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.01688647101199308
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 9.25823688243798e-06
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 9.2582368865805e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 9.258236883353914e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 9.258236881570618e-06
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.0168864710119936
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -9.26792620602255e-06,
+        "target_alignment": 0.1135339950100882,
+        "operator_residual": 0.9999814654889294,
+        "unwanted_pauli_norm_over_fixed_target_scale": 5.1794142293841375e-05,
+        "other_pauli_norm_over_observed_xxxx": 2.794268164337785,
+        "unwanted_pauli_norm_over_target": 5.1794142293841375e-05,
+        "minimum_monomer_overlap": 0.9993222746677842,
+        "low_high_gap": 39.70644212070181,
+        "reward": 0.2727702964476565,
+        "top_unwanted_paulis": [
+          {
+            "label": "XXYY",
+            "coefficient": 9.267926207197477e-06
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -9.267926206917448e-06
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 9.267926206899779e-06
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 9.26792620661631e-06
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 9.267926206607129e-06
+          },
+          {
+            "label": "YXXY",
+            "coefficient": 9.267926206323302e-06
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 9.267926206310125e-06
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -5.696182988394315e-06
+          }
+        ]
+      }
+    },
+    {
+      "g": 1.5,
+      "g_over_delta": 0.15,
+      "base": {
+        "xxxx_coefficient": -1.639631602086537e-05,
+        "target_alignment": 2.6608569243191424e-07,
+        "operator_residual": 1.0019859316453221,
+        "unwanted_pauli_norm_over_fixed_target_scale": 0.06357193880849203,
+        "other_pauli_norm_over_observed_xxxx": 1938.6043403772112,
+        "unwanted_pauli_norm_over_target": 0.06357193880849203,
+        "minimum_monomer_overlap": 0.9990977597990882,
+        "low_high_gap": 39.568609754399816,
+        "reward": -0.18554833741480936,
+        "top_unwanted_paulis": [
+          {
+            "label": "ZZII",
+            "coefficient": -0.022476041463216405
+          },
+          {
+            "label": "IIZZ",
+            "coefficient": -0.022476041463214927
+          },
+          {
+            "label": "IZIZ",
+            "coefficient": -1.6396316031075994e-05
+          },
+          {
+            "label": "IZZI",
+            "coefficient": -1.639631602928489e-05
+          },
+          {
+            "label": "ZIZI",
+            "coefficient": -1.639631602816426e-05
+          },
+          {
+            "label": "ZIIZ",
+            "coefficient": -1.6396316023082388e-05
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 1.6396316022582354e-05
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -1.6396316022580544e-05
+          }
+        ]
+      },
+      "counterterms": {
+        "rail_biases": [
+          3.5410042953376575e-15,
+          3.7860339863193815e-16,
+          1.4909948276020657e-15,
+          5.551115123125783e-17
+        ],
+        "zz_couplings": [
+          {
+            "left_edge": 2,
+            "right_edge": 3,
+            "strength": 0.022476041463214927
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 3,
+            "strength": 1.6396316031075994e-05
+          },
+          {
+            "left_edge": 1,
+            "right_edge": 2,
+            "strength": 1.639631602928489e-05
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 3,
+            "strength": 1.6396316023082388e-05
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 2,
+            "strength": 1.639631602816426e-05
+          },
+          {
+            "left_edge": 0,
+            "right_edge": 1,
+            "strength": 0.022476041463216405
+          }
+        ]
+      },
+      "compensated": {
+        "xxxx_coefficient": -1.6419162282500768e-05,
+        "target_alignment": 0.11354532725924393,
+        "operator_residual": 0.999967165884964,
+        "unwanted_pauli_norm_over_fixed_target_scale": 9.1753919358176e-05,
+        "other_pauli_norm_over_observed_xxxx": 2.794110862037267,
+        "unwanted_pauli_norm_over_target": 9.1753919358176e-05,
+        "minimum_monomer_overlap": 0.9990969433535344,
+        "low_high_gap": 39.61348613606139,
+        "reward": 0.25022552457668606,
+        "top_unwanted_paulis": [
+          {
+            "label": "YXXY",
+            "coefficient": 1.6419162287202797e-05
+          },
+          {
+            "label": "XXYY",
+            "coefficient": 1.64191622869465e-05
+          },
+          {
+            "label": "YYYY",
+            "coefficient": -1.641916228355515e-05
+          },
+          {
+            "label": "XYXY",
+            "coefficient": 1.6419162283297707e-05
+          },
+          {
+            "label": "YXYX",
+            "coefficient": 1.641916228226202e-05
+          },
+          {
+            "label": "XYYX",
+            "coefficient": 1.6419162278851787e-05
+          },
+          {
+            "label": "YYXX",
+            "coefficient": 1.6419162278612294e-05
+          },
+          {
+            "label": "ZZII",
+            "coefficient": -1.0087273724763111e-05
+          }
+        ]
+      }
+    }
+  ],
+  "power_fits": {
+    "base_xxxx": {
+      "power": 3.9980694332740843,
+      "prefactor": 3.243694315485787e-06,
+      "usable_points": 8,
+      "r_squared_log": 0.9999999616155053
+    },
+    "base_unwanted": {
+      "power": 1.9994059204746972,
+      "prefactor": 0.028267362831735917,
+      "usable_points": 8,
+      "r_squared_log": 0.9999999855380531
+    },
+    "compensated_xxxx": {
+      "power": 3.998846634980302,
+      "prefactor": 3.246231237970672e-06,
+      "usable_points": 8,
+      "r_squared_log": 0.9999999863060693
+    },
+    "compensated_unwanted": {
+      "power": 3.998717814073874,
+      "prefactor": 1.8142477321073387e-05,
+      "usable_points": 8,
+      "r_squared_log": 0.9999999831272773
+    }
+  },
+  "g_0_5_reference": {
+    "g": 0.5,
+    "g_over_delta": 0.05,
+    "base": {
+      "xxxx_coefficient": -2.030468972822212e-07,
+      "target_alignment": 3.299026419359451e-09,
+      "operator_residual": 1.0000245876702107,
+      "unwanted_pauli_norm_over_fixed_target_scale": 0.007070228595971323,
+      "other_pauli_norm_over_observed_xxxx": 17410.333993294644,
+      "unwanted_pauli_norm_over_target": 0.007070228595971323,
+      "minimum_monomer_overlap": 0.9998999722047838,
+      "low_high_gap": 39.950247530818906,
+      "reward": -0.020607706424706038,
+      "top_unwanted_paulis": [
+        {
+          "label": "IIZZ",
+          "coefficient": -0.0024997032468001765
+        },
+        {
+          "label": "ZZII",
+          "coefficient": -0.0024997032467995698
+        },
+        {
+          "label": "ZIIZ",
+          "coefficient": -2.030468991280252e-07
+        },
+        {
+          "label": "IZZI",
+          "coefficient": -2.0304689811462143e-07
+        },
+        {
+          "label": "YYXX",
+          "coefficient": 2.0304689728493794e-07
+        },
+        {
+          "label": "YXYX",
+          "coefficient": 2.030468970592225e-07
+        },
+        {
+          "label": "XYYX",
+          "coefficient": 2.0304689705895897e-07
+        },
+        {
+          "label": "YXXY",
+          "coefficient": 2.0304689670742521e-07
+        }
+      ]
+    },
+    "counterterms": {
+      "rail_biases": [
+        -1.3180103709820035e-15,
+        -3.742069588225094e-15,
+        5.647500696259744e-15,
+        -2.802445775440532e-15
+      ],
+      "zz_couplings": [
+        {
+          "left_edge": 2,
+          "right_edge": 3,
+          "strength": 0.0024997032468001765
+        },
+        {
+          "left_edge": 1,
+          "right_edge": 3,
+          "strength": 2.0304689247839644e-07
+        },
+        {
+          "left_edge": 1,
+          "right_edge": 2,
+          "strength": 2.0304689811462143e-07
+        },
+        {
+          "left_edge": 0,
+          "right_edge": 3,
+          "strength": 2.030468991280252e-07
+        },
+        {
+          "left_edge": 0,
+          "right_edge": 2,
+          "strength": 2.0304689293733922e-07
+        },
+        {
+          "left_edge": 0,
+          "right_edge": 1,
+          "strength": 0.0024997032467995698
+        }
+      ]
+    },
+    "compensated": {
+      "xxxx_coefficient": -2.0307833127186674e-07,
+      "target_alignment": 0.11350424659146281,
+      "operator_residual": 0.9999995938439816,
+      "unwanted_pauli_norm_over_fixed_target_scale": 1.1350783922051894e-06,
+      "other_pauli_norm_over_observed_xxxx": 2.79468120772971,
+      "unwanted_pauli_norm_over_target": 1.1350783922051894e-06,
+      "minimum_monomer_overlap": 0.9998999621959048,
+      "low_high_gap": 39.95524601381197,
+      "reward": 0.330507662903945,
+      "top_unwanted_paulis": [
+        {
+          "label": "YXXY",
+          "coefficient": 2.030783327900112e-07
+        },
+        {
+          "label": "YYYY",
+          "coefficient": -2.0307833230592032e-07
+        },
+        {
+          "label": "YXYX",
+          "coefficient": 2.0307833206238067e-07
+        },
+        {
+          "label": "YYXX",
+          "coefficient": 2.0307833099540725e-07
+        },
+        {
+          "label": "XYYX",
+          "coefficient": 2.0307833078907903e-07
+        },
+        {
+          "label": "XXYY",
+          "coefficient": 2.030783298564527e-07
+        },
+        {
+          "label": "XYXY",
+          "coefficient": 2.0307832878892316e-07
+        },
+        {
+          "label": "IIZZ",
+          "coefficient": -1.2494790232033069e-07
+        }
+      ]
+    }
+  },
+  "decision": "The crossed mediator is a genuine new local primitive: it yields a much larger four-body component and calibrated static Z/ZZ counterterms suppress its second-order diagonal content. It is not promoted because the remaining four-body operator is not pure XXXX and its absolute coefficient is still far below -0.5.",
+  "claim_boundary": "Counterterms are fitted from the same finite block at each g. This is a numerical local calibration, not an independent analytic SW proof, a fixed microscopic implementation, a scalable parent, topological order or braiding."
+}
