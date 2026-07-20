@@ -50,16 +50,6 @@ python experiments\phase4_7\run_phase47_publication_closure.py
 The command reads the final numerical JSON files under `results/phase4_7/`
 and regenerates `results/phase4_7/publication_closure.json`.
 
-## Build the paper inputs
-
-```powershell
-python paper\generate_figures.py
-python paper\verify_paper.py
-```
-
-The paper source and build instructions are in `paper/`. A local LaTeX
-distribution is required to produce the final PDF.
-
 ## Repository layout
 
 - `antler/`: basis and Hamiltonian utilities used by the public protocol.
