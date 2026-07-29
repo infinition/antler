@@ -109,3 +109,6 @@ VALIDATION_REPORT.txt
 PUBLICATION_SUBMISSION_NOTES.md
 .venv/
 venv/
+
+# workspace-cleaner 2026-07-27
+__pycache__/
