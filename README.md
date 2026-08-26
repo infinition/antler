@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/antler.png" alt="ANTLER icon" width="128">
+</p>
+
 # ANTLER
 
 Reproducible quantum-many-body study of digital statistical-phase transport in
