@@ -12,6 +12,7 @@
 !.github/workflows/
 !.github/workflows/ci.yml
 !.github/workflows/wiki-sync.yml
+!.github/acidwiki.json
 !.github/antler.png
 
 # Package required by the public research archive.
